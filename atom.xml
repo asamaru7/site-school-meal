@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>전국 초·중·고 급식 식단표</title>
+	<id>https://school-meal.asamaru.net/</id>
+	<updated>2024-02-27T14:24:12+09:00</updated>
+	<subtitle>일별·주별·월별 학교 급식 메뉴 한눈에</subtitle>
+	<link href="https://school-meal.asamaru.net/" rel="alternate" type="text/html" />
+	<link href="https://school-meal.asamaru.net/atom.xml" rel="self" type="application/atom+xml" />
+	<author>
+		<name>아사마루</name>
+		<uri>https://school-meal.asamaru.net/</uri>
+		<email>asamaru@asamaru.net</email>
+	</author>
+</feed>
