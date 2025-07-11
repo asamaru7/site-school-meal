@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신덕초등학교/",
 				"headline": "신덕초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신덕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sinduk.es.kr",
-							"url": "http://sinduk.es.kr",
-							"name": "신덕초등학교 급식 식단표 안내",
-							"description": "신덕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신덕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신덕초등학교",
+						"alternateName": "Shindeok Eelementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46616 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "북구",
+							"streetAddress": "부산광역시 북구 함박봉로140번가길 25 (만덕동/신덕초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신덕초등학교",
-							"alternateName": "Shindeok Eelementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46616 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "북구",
-								"streetAddress": "부산광역시 북구 함박봉로140번가길 25 (만덕동/신덕초등학교)"
-							},
-							"telephone": "051-330-2900",
-							"faxNumber": "051-336-5755",
-							"sameAs": ["http://sinduk.es.kr"]
-						}
-					],
+						"telephone": "051-330-2900",
+						"faxNumber": "051-336-5755",
+						"sameAs": ["http://sinduk.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "621.4 Kcal",
 										"carbohydrateContent": "96.7 g",
 										"proteinContent": "21.8 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "87.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "186.2 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

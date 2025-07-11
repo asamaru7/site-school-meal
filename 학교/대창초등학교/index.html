@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대창초등학교/",
 				"headline": "대창초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대창초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.dechang.cnees.kr",
-							"url": "www.dechang.cnees.kr",
-							"name": "대창초등학교 급식 식단표 안내",
-							"description": "대창초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대창초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대창초등학교",
+						"alternateName": "Daechang Elementary School",
+						"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33522 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "보령시",
+							"streetAddress": "충청남도 보령시 웅천읍 방축길 90-43 (웅천읍/ 대창초등학고)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대창초등학교",
-							"alternateName": "Daechang Elementary School",
-							"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33522 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "보령시",
-								"streetAddress": "충청남도 보령시 웅천읍 방축길 90-43 (웅천읍/ 대창초등학고)"
-							},
-							"telephone": "041-934-6693",
-							"faxNumber": "041-934-9825",
-							"sameAs": ["www.dechang.cnees.kr"]
-						}
-					],
+						"telephone": "041-934-6693",
+						"faxNumber": "041-934-9825",
+						"sameAs": ["www.dechang.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "620.2 Kcal",
 										"carbohydrateContent": "90.1 g",
 										"proteinContent": "30.6 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "132.0 R.E",
-										"thiaminContent": "0.1 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "17.2 mg",
-										"calciumContent": "181.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

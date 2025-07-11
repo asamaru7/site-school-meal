@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영천여자중학교/",
 				"headline": "영천여자중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영천여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/yc-g",
-							"url": "http://school.gyo6.net/yc-g",
-							"name": "영천여자중학교 급식 식단표 안내",
-							"description": "영천여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영천여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영천여자중학교",
+						"alternateName": "Yeongcheon  Girls Middle School",
+						"description": "경상북도영천교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38839 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영천시",
+							"streetAddress": "경상북도 영천시 상아탑길 28 (교촌동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영천여자중학교",
-							"alternateName": "Yeongcheon  Girls Middle School",
-							"description": "경상북도영천교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38839 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영천시",
-								"streetAddress": "경상북도 영천시 상아탑길 28 (교촌동)"
-							},
-							"telephone": "054-334-4619",
-							"faxNumber": "054-333-3324",
-							"sameAs": ["http://school.gyo6.net/yc-g"]
-						}
-					],
+						"telephone": "054-334-4619",
+						"faxNumber": "054-333-3324",
+						"sameAs": ["http://school.gyo6.net/yc-g"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "914.6 Kcal",
 										"carbohydrateContent": "127.0 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "26.0 g",
-										"vitaminAContent": "176.2 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "23.8 mg",
-										"calciumContent": "145.3 mg",
-										"ironContent": "12.4 mg"
+										"fatContent": "26.0 g"
 									}
 								}
 							]

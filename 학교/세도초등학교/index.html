@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/세도초등학교/",
 				"headline": "세도초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/세도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sedo.cnees.kr",
-							"url": "http://sedo.cnees.kr",
-							"name": "세도초등학교 급식 식단표 안내",
-							"description": "세도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 세도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "세도초등학교",
+						"alternateName": "Sedo Elementary School",
+						"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33227 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 세도면 세도로 68 (세도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "세도초등학교",
-							"alternateName": "Sedo Elementary School",
-							"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33227 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 세도면 세도로 68 (세도면)"
-							},
-							"telephone": "041-833-0090",
-							"faxNumber": "041-833-0091",
-							"sameAs": ["http://sedo.cnees.kr"]
-						}
-					],
+						"telephone": "041-833-0090",
+						"faxNumber": "041-833-0091",
+						"sameAs": ["http://sedo.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "678.7 Kcal",
 										"carbohydrateContent": "91.4 g",
 										"proteinContent": "28.7 g",
-										"fatContent": "21.9 g",
-										"vitaminAContent": "198.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "244.4 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "21.9 g"
 									}
 								}
 							]

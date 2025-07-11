@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서운중학교-인천/",
 				"headline": "서운중학교(인천) 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서운중학교-인천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seowoon.icems.kr",
-							"url": "http://seowoon.icems.kr",
-							"name": "서운중학교(인천) 급식 식단표 안내",
-							"description": "서운중학교(인천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서운중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서운중학교(인천)",
+						"alternateName": "SEOWOON MIDDLE SCHOOL",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21074 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 아나지로 467 (서운동, 서운중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서운중학교(인천)",
-							"alternateName": "SEOWOON MIDDLE SCHOOL",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21074 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 아나지로 467 (서운동, 서운중학교)"
-							},
-							"telephone": "032-555-0562",
-							"faxNumber": "032-555-0565",
-							"sameAs": ["http://seowoon.icems.kr"]
-						}
-					],
+						"telephone": "032-555-0562",
+						"faxNumber": "032-555-0565",
+						"sameAs": ["http://seowoon.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1157.4 Kcal",
 										"carbohydrateContent": "101.0 g",
 										"proteinContent": "36.7 g",
-										"fatContent": "63.1 g",
-										"vitaminAContent": "136.9 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "43.8 mg",
-										"calciumContent": "275.2 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "63.1 g"
 									}
 								}
 							]

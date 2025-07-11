@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한일고등학교/",
 				"headline": "한일고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한일고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hanilgo.cnehs.kr",
-							"url": "http://www.hanilgo.cnehs.kr",
-							"name": "한일고등학교 급식 식단표 안내",
-							"description": "한일고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한일고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한일고등학교",
+						"alternateName": "Hanil High School",
+						"description": "충청남도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32511 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 정안면 어물길 81 (정안면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한일고등학교",
-							"alternateName": "Hanil High School",
-							"description": "충청남도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32511 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 정안면 어물길 81 (정안면)"
-							},
-							"telephone": "041-840-6000",
-							"faxNumber": "041-858-3041",
-							"sameAs": ["http://www.hanilgo.cnehs.kr"]
-						}
-					]
+						"telephone": "041-840-6000",
+						"faxNumber": "041-858-3041",
+						"sameAs": ["http://www.hanilgo.cnehs.kr"]
+					}
 				]
 			}
 		</script>

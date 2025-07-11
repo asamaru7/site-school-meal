@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/북후초등학교/",
 				"headline": "북후초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/북후초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/bukhu",
-							"url": "http://school.gyo6.net/bukhu",
-							"name": "북후초등학교 급식 식단표 안내",
-							"description": "북후초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 북후초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "북후초등학교",
+						"alternateName": "Bukhu Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36614 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 북후면 도장길 339 (북후면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "북후초등학교",
-							"alternateName": "Bukhu Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36614 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 북후면 도장길 339 (북후면)"
-							},
-							"telephone": "054-859-5008",
-							"faxNumber": "054-859-4458",
-							"sameAs": ["http://school.gyo6.net/bukhu"]
-						}
-					],
+						"telephone": "054-859-5008",
+						"faxNumber": "054-859-4458",
+						"sameAs": ["http://school.gyo6.net/bukhu"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "956.5 Kcal",
 										"carbohydrateContent": "145.2 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "27.8 g",
-										"vitaminAContent": "496.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "38.8 mg",
-										"calciumContent": "478.6 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "27.8 g"
 									}
 								}
 							]

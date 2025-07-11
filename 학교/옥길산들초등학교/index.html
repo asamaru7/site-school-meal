@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/옥길산들초등학교/",
 				"headline": "옥길산들초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/옥길산들초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://oksd-e.goebc.kr",
-							"url": "http://oksd-e.goebc.kr",
-							"name": "옥길산들초등학교 급식 식단표 안내",
-							"description": "옥길산들초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 옥길산들초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "옥길산들초등학교",
+						"alternateName": "OKGIL SANDEUL ELEMENTARY SCHOOL",
+						"description": "경기도부천교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14789 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "부천시",
+							"streetAddress": "경기도 부천시 옥길로 31 (옥길동/ 옥길 산들초등햑교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "옥길산들초등학교",
-							"alternateName": "OKGIL SANDEUL ELEMENTARY SCHOOL",
-							"description": "경기도부천교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14789 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "부천시",
-								"streetAddress": "경기도 부천시 옥길로 31 (옥길동/ 옥길 산들초등햑교)"
-							},
-							"telephone": "070-7016-3205",
-							"faxNumber": "032-349-9296",
-							"sameAs": ["http://oksd-e.goebc.kr"]
-						}
-					],
+						"telephone": "070-7016-3205",
+						"faxNumber": "032-349-9296",
+						"sameAs": ["http://oksd-e.goebc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "631.6 Kcal",
 										"carbohydrateContent": "75.6 g",
 										"proteinContent": "38.2 g",
-										"fatContent": "18.0 g",
-										"vitaminAContent": "48.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "176.3 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "18.0 g"
 									}
 								}
 							]

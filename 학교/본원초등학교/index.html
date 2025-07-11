@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/본원초등학교/",
 				"headline": "본원초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/본원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bonwon.es.kr",
-							"url": "http://www.bonwon.es.kr",
-							"name": "본원초등학교 급식 식단표 안내",
-							"description": "본원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 본원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "본원초등학교",
+						"alternateName": "bonwon elementary school",
+						"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15553 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안산시 상록구",
+							"streetAddress": "경기도 안산시 상록구 샘골로 83 (본오동/ 본원초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "본원초등학교",
-							"alternateName": "bonwon elementary school",
-							"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15553 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안산시 상록구",
-								"streetAddress": "경기도 안산시 상록구 샘골로 83 (본오동/ 본원초등학교)"
-							},
-							"telephone": "031-487-3974",
-							"faxNumber": "031-487-3978",
-							"sameAs": ["http://www.bonwon.es.kr"]
-						}
-					],
+						"telephone": "031-487-3974",
+						"faxNumber": "031-487-3978",
+						"sameAs": ["http://www.bonwon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "701.4 Kcal",
 										"carbohydrateContent": "107.6 g",
 										"proteinContent": "25.9 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "87.3 R.E",
-										"thiaminContent": "4.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.5 mg",
-										"calciumContent": "193.3 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

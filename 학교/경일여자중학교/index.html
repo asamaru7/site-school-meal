@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경일여자중학교/",
 				"headline": "경일여자중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경일여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://gi.dge.ms.kr/",
-							"url": "https://gi.dge.ms.kr/",
-							"name": "경일여자중학교 급식 식단표 안내",
-							"description": "경일여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경일여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경일여자중학교",
+						"alternateName": "Gyeongil Girls Middle school",
+						"description": "대구광역시남부교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42507 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "남구",
+							"streetAddress": "대구광역시 남구 효성로 37 (봉덕동/ 경일여자중고등학교/ 우봉아트홀)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경일여자중학교",
-							"alternateName": "Gyeongil Girls Middle school",
-							"description": "대구광역시남부교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42507 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "남구",
-								"streetAddress": "대구광역시 남구 효성로 37 (봉덕동/ 경일여자중고등학교/ 우봉아트홀)"
-							},
-							"telephone": "053-234-9194",
-							"faxNumber": "053-472-9004",
-							"sameAs": ["https://gi.dge.ms.kr/"]
-						}
-					],
+						"telephone": "053-234-9194",
+						"faxNumber": "053-472-9004",
+						"sameAs": ["https://gi.dge.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.9 Kcal",
 										"carbohydrateContent": "100.8 g",
 										"proteinContent": "37.0 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "128.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "23.5 mg",
-										"calciumContent": "430.7 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

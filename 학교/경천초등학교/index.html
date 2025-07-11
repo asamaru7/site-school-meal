@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경천초등학교/",
 				"headline": "경천초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kyungchun.cnees.kr/main.do",
-							"url": "http://www.kyungchun.cnees.kr/main.do",
-							"name": "경천초등학교 급식 식단표 안내",
-							"description": "경천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경천초등학교",
+						"alternateName": "Kyungchon Elementary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32619 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 계룡면 신원사로 112 (계룡면/경천초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경천초등학교",
-							"alternateName": "Kyungchon Elementary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32619 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 계룡면 신원사로 112 (계룡면/경천초등학교)"
-							},
-							"telephone": "041-852-4030",
-							"faxNumber": "041-855-7566",
-							"sameAs": ["http://www.kyungchun.cnees.kr/main.do"]
-						}
-					],
+						"telephone": "041-852-4030",
+						"faxNumber": "041-855-7566",
+						"sameAs": ["http://www.kyungchun.cnees.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 23일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "299.9 Kcal",
 										"carbohydrateContent": "44.6 g",
 										"proteinContent": "19.4 g",
-										"fatContent": "4.5 g",
-										"vitaminAContent": "82.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "86.6 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "4.5 g"
 									}
 								}
 							]

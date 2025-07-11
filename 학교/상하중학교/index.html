@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상하중학교/",
 				"headline": "상하중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상하중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://sang-ha-m.goeyi.kr",
-							"url": "https://sang-ha-m.goeyi.kr",
-							"name": "상하중학교 급식 식단표 안내",
-							"description": "상하중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상하중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상하중학교",
+						"alternateName": "Sangha Middle School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17077 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 기흥구",
+							"streetAddress": "경기도 용인시 기흥구 중부대로746번길 16-29 (상하동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상하중학교",
-							"alternateName": "Sangha Middle School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17077 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 기흥구",
-								"streetAddress": "경기도 용인시 기흥구 중부대로746번길 16-29 (상하동)"
-							},
-							"telephone": "031-548-6300",
-							"faxNumber": "031-548-6339",
-							"sameAs": ["https://sang-ha-m.goeyi.kr"]
-						}
-					],
+						"telephone": "031-548-6300",
+						"faxNumber": "031-548-6339",
+						"sameAs": ["https://sang-ha-m.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "850.2 Kcal",
 										"carbohydrateContent": "133.3 g",
 										"proteinContent": "25.8 g",
-										"fatContent": "23.5 g",
-										"vitaminAContent": "88.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "40.1 mg",
-										"calciumContent": "226.7 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "23.5 g"
 									}
 								}
 							]

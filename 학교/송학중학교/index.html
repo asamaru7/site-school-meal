@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송학중학교/",
 				"headline": "송학중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송학중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/songhak-m/M01/",
-							"url": "school.cbe.go.kr/songhak-m/M01/",
-							"name": "송학중학교 급식 식단표 안내",
-							"description": "송학중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송학중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송학중학교",
+						"alternateName": "songhak middle school",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27123 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 송학면 송학로5길 7 / 송학중학교 (송학면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송학중학교",
-							"alternateName": "songhak middle school",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27123 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 송학면 송학로5길 7 / 송학중학교 (송학면)"
-							},
-							"telephone": "043-642-7589",
-							"faxNumber": "043-646-8415",
-							"sameAs": ["school.cbe.go.kr/songhak-m/M01/"]
-						}
-					],
+						"telephone": "043-642-7589",
+						"faxNumber": "043-646-8415",
+						"sameAs": ["school.cbe.go.kr/songhak-m/M01/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.9 Kcal",
 										"carbohydrateContent": "105.4 g",
 										"proteinContent": "41.2 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "373.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "25.5 mg",
-										"calciumContent": "460.9 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

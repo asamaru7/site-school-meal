@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성주초등학교-창원/",
 				"headline": "성주초등학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성주초등학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seongju-p.gne.go.kr/",
-							"url": "http://seongju-p.gne.go.kr/",
-							"name": "성주초등학교(창원) 급식 식단표 안내",
-							"description": "성주초등학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성주초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성주초등학교(창원)",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51491 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 성산구",
+							"streetAddress": "경상남도 창원시 성산구 가음정로 127 (가음동/ 성주초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성주초등학교(창원)",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51491 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 성산구",
-								"streetAddress": "경상남도 창원시 성산구 가음정로 127 (가음동/ 성주초등학교)"
-							},
-							"telephone": "055-285-3620",
-							"faxNumber": "055-285-3622",
-							"sameAs": ["http://seongju-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-285-3620",
+						"faxNumber": "055-285-3622",
+						"sameAs": ["http://seongju-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "651.6 Kcal",
 										"carbohydrateContent": "102.7 g",
 										"proteinContent": "27.2 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "118.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "37.1 mg",
-										"calciumContent": "287.7 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

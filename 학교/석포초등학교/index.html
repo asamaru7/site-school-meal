@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/석포초등학교/",
 				"headline": "석포초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/석포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sukpo.es.kr",
-							"url": "http://www.sukpo.es.kr",
-							"name": "석포초등학교 급식 식단표 안내",
-							"description": "석포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 석포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "석포초등학교",
+						"alternateName": "Sukpo Elementary School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48532 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "부산광역시 남구 석포로86번길 76 (대연동/ 석포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "석포초등학교",
-							"alternateName": "Sukpo Elementary School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48532 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "부산광역시 남구 석포로86번길 76 (대연동/ 석포초등학교)"
-							},
-							"telephone": "051-629-9200",
-							"faxNumber": "051-624-3646",
-							"sameAs": ["http://www.sukpo.es.kr"]
-						}
-					],
+						"telephone": "051-629-9200",
+						"faxNumber": "051-624-3646",
+						"sameAs": ["http://www.sukpo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "808.2 Kcal",
 										"carbohydrateContent": "132.0 g",
 										"proteinContent": "26.2 g",
-										"fatContent": "18.4 g",
-										"vitaminAContent": "42.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "58.8 mg",
-										"calciumContent": "239.8 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "18.4 g"
 									}
 								}
 							]

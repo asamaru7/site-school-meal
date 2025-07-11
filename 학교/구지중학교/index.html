@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구지중학교/",
 				"headline": "구지중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구지중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://guji.dge.ms.kr/",
-							"url": "https://guji.dge.ms.kr/",
-							"name": "구지중학교 급식 식단표 안내",
-							"description": "구지중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구지중학교",
+						"alternateName": "Guji Middle School",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "43008 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 구지면 국가산단대로66길 22 (구지면/ 구지중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구지중학교",
-							"alternateName": "Guji Middle School",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "43008 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 구지면 국가산단대로66길 22 (구지면/ 구지중학교)"
-							},
-							"telephone": "053-233-9888",
-							"faxNumber": "053-611-8785",
-							"sameAs": ["https://guji.dge.ms.kr/"]
-						}
-					],
+						"telephone": "053-233-9888",
+						"faxNumber": "053-611-8785",
+						"sameAs": ["https://guji.dge.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "916.3 Kcal",
 										"carbohydrateContent": "122.6 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "31.8 g",
-										"vitaminAContent": "87.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.1 mg",
-										"calciumContent": "297.7 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "31.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명장초등학교/",
 				"headline": "명장초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명장초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myungjang.es.kr",
-							"url": "http://myungjang.es.kr",
-							"name": "명장초등학교 급식 식단표 안내",
-							"description": "명장초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명장초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명장초등학교",
+						"alternateName": "Myungjang Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47749 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 복천로 121 (명장동/ 명장초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명장초등학교",
-							"alternateName": "Myungjang Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47749 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 복천로 121 (명장동/ 명장초등학교)"
-							},
-							"telephone": "051-529-0644",
-							"faxNumber": "051-529-0646",
-							"sameAs": ["http://myungjang.es.kr"]
-						}
-					],
+						"telephone": "051-529-0644",
+						"faxNumber": "051-529-0646",
+						"sameAs": ["http://myungjang.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "704.4 Kcal",
 										"carbohydrateContent": "102.6 g",
 										"proteinContent": "33.6 g",
-										"fatContent": "16.2 g",
-										"vitaminAContent": "111.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "7.6 mg",
-										"calciumContent": "212.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "16.2 g"
 									}
 								}
 							]

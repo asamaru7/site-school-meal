@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/초읍초등학교/",
 				"headline": "초읍초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/초읍초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.choup.es.kr",
-							"url": "www.choup.es.kr",
-							"name": "초읍초등학교 급식 식단표 안내",
-							"description": "초읍초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초읍초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "초읍초등학교",
+						"alternateName": "Choup Elementary School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47114 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 성지로104번길 26 (초읍동/ 초읍초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "초읍초등학교",
-							"alternateName": "Choup Elementary School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47114 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 성지로104번길 26 (초읍동/ 초읍초등학교)"
-							},
-							"telephone": "051-797-9400",
-							"faxNumber": "051-797-9499",
-							"sameAs": ["www.choup.es.kr"]
-						}
-					],
+						"telephone": "051-797-9400",
+						"faxNumber": "051-797-9499",
+						"sameAs": ["www.choup.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "557.2 Kcal",
 										"carbohydrateContent": "57.1 g",
 										"proteinContent": "31.2 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "145.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "7.8 mg",
-										"calciumContent": "233.9 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

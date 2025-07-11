@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동강중학교-고흥/",
 				"headline": "동강중학교(고흥) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동강중학교-고흥/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dong-gang.ms.jne.kr",
-							"url": "dong-gang.ms.jne.kr",
-							"name": "동강중학교(고흥) 급식 식단표 안내",
-							"description": "동강중학교(고흥)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동강중학교(고흥)",
+						"alternateName": "Donggang Middle School",
+						"description": "전라남도고흥교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59502 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "고흥군",
+							"streetAddress": "전라남도 고흥군 동강면 계매길 11-2 (동강면/동강중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동강중학교(고흥)",
-							"alternateName": "Donggang Middle School",
-							"description": "전라남도고흥교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59502 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "고흥군",
-								"streetAddress": "전라남도 고흥군 동강면 계매길 11-2 (동강면/동강중학교)"
-							},
-							"telephone": "061-833-2037",
-							"faxNumber": "061-835-2446",
-							"sameAs": ["dong-gang.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-833-2037",
+						"faxNumber": "061-835-2446",
+						"sameAs": ["dong-gang.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "768.1 Kcal",
 										"carbohydrateContent": "98.9 g",
 										"proteinContent": "32.3 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "161.0 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "38.1 mg",
-										"calciumContent": "193.9 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구정초등학교/",
 				"headline": "구정초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gujoung.gwe.es.kr",
-							"url": "http://gujoung.gwe.es.kr",
-							"name": "구정초등학교 급식 식단표 안내",
-							"description": "구정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구정초등학교",
+						"alternateName": "Gujoung Elementary School",
+						"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25623 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "강릉시",
+							"streetAddress": "강원특별자치도 강릉시 구정면 범일로 266-14 (구정면/구정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구정초등학교",
-							"alternateName": "Gujoung Elementary School",
-							"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25623 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "강릉시",
-								"streetAddress": "강원특별자치도 강릉시 구정면 범일로 266-14 (구정면/구정초등학교)"
-							},
-							"telephone": "033-647-9607",
-							"faxNumber": "033-647-9604",
-							"sameAs": ["http://gujoung.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-647-9607",
+						"faxNumber": "033-647-9604",
+						"sameAs": ["http://gujoung.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "617.0 Kcal",
 										"carbohydrateContent": "90.4 g",
 										"proteinContent": "17.3 g",
-										"fatContent": "20.6 g",
-										"vitaminAContent": "39.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "37.3 mg",
-										"calciumContent": "219.6 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "20.6 g"
 									}
 								}
 							]

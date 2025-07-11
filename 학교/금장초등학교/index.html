@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금장초등학교/",
 				"headline": "금장초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금장초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/geumjanges",
-							"url": "http://school.gyo6.net/geumjanges",
-							"name": "금장초등학교 급식 식단표 안내",
-							"description": "금장초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금장초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금장초등학교",
+						"alternateName": "Geumjang Elementary School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38051 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 현곡면 등나무길 18-6 (현곡면/ 금장초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금장초등학교",
-							"alternateName": "Geumjang Elementary School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38051 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 현곡면 등나무길 18-6 (현곡면/ 금장초등학교)"
-							},
-							"telephone": "054-745-9671",
-							"faxNumber": "054-745-9661",
-							"sameAs": ["http://school.gyo6.net/geumjanges"]
-						}
-					],
+						"telephone": "054-745-9671",
+						"faxNumber": "054-745-9661",
+						"sameAs": ["http://school.gyo6.net/geumjanges"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "698.0 Kcal",
 										"carbohydrateContent": "82.2 g",
 										"proteinContent": "39.5 g",
-										"fatContent": "22.7 g",
-										"vitaminAContent": "235.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "206.5 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "22.7 g"
 									}
 								}
 							]

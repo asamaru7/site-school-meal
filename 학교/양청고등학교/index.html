@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/양청고등학교/",
 				"headline": "양청고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/양청고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/yc-h/M01",
-							"url": "school.cbe.go.kr/yc-h/M01",
-							"name": "양청고등학교 급식 식단표 안내",
-							"description": "양청고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 양청고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "양청고등학교",
+						"alternateName": "Yangcheong High School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28116 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 청원구",
+							"streetAddress": "충청북도 청주시 청원구 오창읍 양청6길 33 (오창읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "양청고등학교",
-							"alternateName": "Yangcheong High School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28116 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 청원구",
-								"streetAddress": "충청북도 청주시 청원구 오창읍 양청6길 33 (오창읍)"
-							},
-							"telephone": "043-717-8800",
-							"faxNumber": "043-717-8899",
-							"sameAs": ["school.cbe.go.kr/yc-h/M01"]
-						}
-					],
+						"telephone": "043-717-8800",
+						"faxNumber": "043-717-8899",
+						"sameAs": ["school.cbe.go.kr/yc-h/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "641.5 Kcal",
 										"carbohydrateContent": "93.2 g",
 										"proteinContent": "40.3 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "98.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "42.2 mg",
-										"calciumContent": "112.5 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "10.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "919.4 Kcal",
 										"carbohydrateContent": "158.5 g",
 										"proteinContent": "27.9 g",
-										"fatContent": "18.6 g",
-										"vitaminAContent": "81.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "37.6 mg",
-										"calciumContent": "195.3 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "18.6 g"
 									}
 								}
 							]

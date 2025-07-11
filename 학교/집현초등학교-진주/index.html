@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/집현초등학교-진주/",
 				"headline": "집현초등학교(진주) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/집현초등학교-진주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyphyun-p.gne.go.kr/",
-							"url": "http://gyphyun-p.gne.go.kr/",
-							"name": "집현초등학교(진주) 급식 식단표 안내",
-							"description": "집현초등학교(진주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 집현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "집현초등학교(진주)",
+						"alternateName": "",
+						"description": "진주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52639 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 집현면 지내길 271 (집현면/집현초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "집현초등학교(진주)",
-							"alternateName": "",
-							"description": "진주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52639 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 집현면 지내길 271 (집현면/집현초등학교)"
-							},
-							"telephone": "055-772-6007",
-							"faxNumber": "055-772-6441",
-							"sameAs": ["http://gyphyun-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-772-6007",
+						"faxNumber": "055-772-6441",
+						"sameAs": ["http://gyphyun-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "593.1 Kcal",
 										"carbohydrateContent": "92.8 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "11.4 g",
-										"vitaminAContent": "105.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "59.3 mg",
-										"calciumContent": "196.9 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "11.4 g"
 									}
 								}
 							]

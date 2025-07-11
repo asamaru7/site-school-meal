@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창평중학교/",
 				"headline": "창평중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창평중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cp.ms.jne.kr",
-							"url": "http://cp.ms.jne.kr",
-							"name": "창평중학교 급식 식단표 안내",
-							"description": "창평중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창평중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창평중학교",
+						"alternateName": "Changpyeong Middle School",
+						"description": "전라남도담양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57388 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "담양군",
+							"streetAddress": "전라남도 담양군 창평면 창평로 565-17 (창평면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창평중학교",
-							"alternateName": "Changpyeong Middle School",
-							"description": "전라남도담양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57388 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "담양군",
-								"streetAddress": "전라남도 담양군 창평면 창평로 565-17 (창평면)"
-							},
-							"telephone": "061-381-0885",
-							"faxNumber": "061-381-0887",
-							"sameAs": ["http://cp.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-381-0885",
+						"faxNumber": "061-381-0887",
+						"sameAs": ["http://cp.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "798.1 Kcal",
 										"carbohydrateContent": "117.6 g",
 										"proteinContent": "41.9 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "223.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "33.8 mg",
-										"calciumContent": "277.0 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

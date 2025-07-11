@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서선초등학교/",
 				"headline": "서선초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서선초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/seoseon",
-							"url": "school.gyo6.net/seoseon",
-							"name": "서선초등학교 급식 식단표 안내",
-							"description": "서선초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서선초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서선초등학교",
+						"alternateName": "Seoseon Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36622 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 풍산읍 서선길 51 / (수곡리/ 서선초등학교) (풍산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서선초등학교",
-							"alternateName": "Seoseon Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36622 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 풍산읍 서선길 51 / (수곡리/ 서선초등학교) (풍산읍)"
-							},
-							"telephone": "054-843-4108",
-							"faxNumber": "054-843-4107",
-							"sameAs": ["school.gyo6.net/seoseon"]
-						}
-					],
+						"telephone": "054-843-4108",
+						"faxNumber": "054-843-4107",
+						"sameAs": ["school.gyo6.net/seoseon"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "704.4 Kcal",
 										"carbohydrateContent": "98.9 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "18.1 g",
-										"vitaminAContent": "233.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.0 mg",
-										"calciumContent": "208.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "18.1 g"
 									}
 								}
 							]

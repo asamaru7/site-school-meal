@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/석교초등학교-진도/",
 				"headline": "석교초등학교(진도) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/석교초등학교-진도/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seokkyo.es.jne.kr",
-							"url": "http://seokkyo.es.jne.kr",
-							"name": "석교초등학교(진도) 급식 식단표 안내",
-							"description": "석교초등학교(진도)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 석교초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "석교초등학교(진도)",
+						"alternateName": "Seokkyo Elementary School",
+						"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58942 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 임회면 석교길 47-18 (임회면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "석교초등학교(진도)",
-							"alternateName": "Seokkyo Elementary School",
-							"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58942 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 임회면 석교길 47-18 (임회면)"
-							},
-							"telephone": "061-543-3165",
-							"faxNumber": "061-543-9893",
-							"sameAs": ["http://seokkyo.es.jne.kr"]
-						}
-					],
+						"telephone": "061-543-3165",
+						"faxNumber": "061-543-9893",
+						"sameAs": ["http://seokkyo.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "590.0 Kcal",
 										"carbohydrateContent": "95.1 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "85.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "129.9 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

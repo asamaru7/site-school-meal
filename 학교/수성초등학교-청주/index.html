@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수성초등학교-청주/",
 				"headline": "수성초등학교(청주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수성초등학교-청주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/suseong-e/M01",
-							"url": "http://school.cbe.go.kr/suseong-e/M01",
-							"name": "수성초등학교(청주) 급식 식단표 안내",
-							"description": "수성초등학교(청주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수성초등학교(청주)",
+						"alternateName": "Suseong Elementary School",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28143 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 청원구",
+							"streetAddress": "충청북도 청주시 청원구 내수읍 내수로 601 / 수성초등학교 (내수읍/수성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수성초등학교(청주)",
-							"alternateName": "Suseong Elementary School",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28143 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 청원구",
-								"streetAddress": "충청북도 청주시 청원구 내수읍 내수로 601 / 수성초등학교 (내수읍/수성초등학교)"
-							},
-							"telephone": "043-214-0050",
-							"faxNumber": "043214-6265",
-							"sameAs": ["http://school.cbe.go.kr/suseong-e/M01"]
-						}
-					],
+						"telephone": "043-214-0050",
+						"faxNumber": "043214-6265",
+						"sameAs": ["http://school.cbe.go.kr/suseong-e/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "510.5 Kcal",
 										"carbohydrateContent": "83.2 g",
 										"proteinContent": "21.8 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "326.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "7.6 mg",
-										"calciumContent": "421.5 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

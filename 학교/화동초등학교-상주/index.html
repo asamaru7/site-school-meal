@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화동초등학교-상주/",
 				"headline": "화동초등학교(상주) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화동초등학교-상주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/hwadong",
-							"url": "http://school.gyo6.net/hwadong",
-							"name": "화동초등학교(상주) 급식 식단표 안내",
-							"description": "화동초등학교(상주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화동초등학교(상주)",
+						"alternateName": "Hwadong Elementary School",
+						"description": "경상북도상주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37146 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "상주시",
+							"streetAddress": "경상북도 상주시 화동면 이소1길 78 / 화동초등학교 (화동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화동초등학교(상주)",
-							"alternateName": "Hwadong Elementary School",
-							"description": "경상북도상주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37146 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "상주시",
-								"streetAddress": "경상북도 상주시 화동면 이소1길 78 / 화동초등학교 (화동면)"
-							},
-							"telephone": "054-533-9720",
-							"faxNumber": "054-533-1639",
-							"sameAs": ["http://school.gyo6.net/hwadong"]
-						}
-					],
+						"telephone": "054-533-9720",
+						"faxNumber": "054-533-1639",
+						"sameAs": ["http://school.gyo6.net/hwadong"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "836.7 Kcal",
 										"carbohydrateContent": "130.7 g",
 										"proteinContent": "33.3 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "196.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "332.3 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

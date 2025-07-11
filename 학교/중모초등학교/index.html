@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중모초등학교/",
 				"headline": "중모초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중모초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/jungmoes/",
-							"url": "school.gyo6.net/jungmoes/",
-							"name": "중모초등학교 급식 식단표 안내",
-							"description": "중모초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중모초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중모초등학교",
+						"alternateName": "Jungmo Elementary School",
+						"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37273 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "상주시",
+							"streetAddress": "경상북도 상주시 모동면 신천1길 15 (모동면/ 중모초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중모초등학교",
-							"alternateName": "Jungmo Elementary School",
-							"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37273 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "상주시",
-								"streetAddress": "경상북도 상주시 모동면 신천1길 15 (모동면/ 중모초등학교)"
-							},
-							"telephone": "054-533-4084",
-							"faxNumber": "054-531-3118",
-							"sameAs": ["school.gyo6.net/jungmoes/"]
-						}
-					],
+						"telephone": "054-533-4084",
+						"faxNumber": "054-531-3118",
+						"sameAs": ["school.gyo6.net/jungmoes/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "669.6 Kcal",
 										"carbohydrateContent": "105.5 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "11.4 g",
-										"vitaminAContent": "213.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "53.5 mg",
-										"calciumContent": "195.4 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "11.4 g"
 									}
 								}
 							]

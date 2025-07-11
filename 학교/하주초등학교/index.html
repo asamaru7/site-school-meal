@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하주초등학교/",
 				"headline": "하주초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하주초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hajues.school.gyo6.net",
-							"url": "http://hajues.school.gyo6.net",
-							"name": "하주초등학교 급식 식단표 안내",
-							"description": "하주초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하주초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하주초등학교",
+						"alternateName": "Haju Elementary School",
+						"description": "경상북도경산교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38409 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경산시",
+							"streetAddress": "경상북도 경산시 하양읍 무학로 48 (하양읍/ 하주초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하주초등학교",
-							"alternateName": "Haju Elementary School",
-							"description": "경상북도경산교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38409 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경산시",
-								"streetAddress": "경상북도 경산시 하양읍 무학로 48 (하양읍/ 하주초등학교)"
-							},
-							"telephone": "053-852-8868",
-							"faxNumber": "053-853-8624",
-							"sameAs": ["http://hajues.school.gyo6.net"]
-						}
-					],
+						"telephone": "053-852-8868",
+						"faxNumber": "053-853-8624",
+						"sameAs": ["http://hajues.school.gyo6.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "378.4 Kcal",
 										"carbohydrateContent": "47.9 g",
 										"proteinContent": "21.2 g",
-										"fatContent": "10.6 g",
-										"vitaminAContent": "48.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "166.6 mg",
-										"ironContent": "1.3 mg"
+										"fatContent": "10.6 g"
 									}
 								}
 							]

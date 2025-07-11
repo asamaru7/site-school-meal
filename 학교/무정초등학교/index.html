@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무정초등학교/",
 				"headline": "무정초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bsmj.es.kr",
-							"url": "http://www.bsmj.es.kr",
-							"name": "무정초등학교 급식 식단표 안내",
-							"description": "무정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무정초등학교",
+						"alternateName": "Mujeong elementary school",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48040 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 반여로 68-11 / 무정초등학교 (반여동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무정초등학교",
-							"alternateName": "Mujeong elementary school",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48040 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 반여로 68-11 / 무정초등학교 (반여동)"
-							},
-							"telephone": "051-520-1310",
-							"faxNumber": "051-531-7912",
-							"sameAs": ["http://www.bsmj.es.kr"]
-						}
-					],
+						"telephone": "051-520-1310",
+						"faxNumber": "051-531-7912",
+						"sameAs": ["http://www.bsmj.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "535.7 Kcal",
 										"carbohydrateContent": "89.8 g",
 										"proteinContent": "22.2 g",
-										"fatContent": "9.2 g",
-										"vitaminAContent": "52.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "281.5 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "9.2 g"
 									}
 								}
 							]

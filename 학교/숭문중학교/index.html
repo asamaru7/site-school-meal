@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/숭문중학교/",
 				"headline": "숭문중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/숭문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://soongmoon.sen.ms.kr/",
-							"url": "http://soongmoon.sen.ms.kr/",
-							"name": "숭문중학교 급식 식단표 안내",
-							"description": "숭문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 숭문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "숭문중학교",
+						"alternateName": "Soongmoon Middle School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04126 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "마포구",
+							"streetAddress": "서울특별시 마포구 숭문길 99 / 숭문중고등학교 (대흥동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "숭문중학교",
-							"alternateName": "Soongmoon Middle School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04126 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "마포구",
-								"streetAddress": "서울특별시 마포구 숭문길 99 / 숭문중고등학교 (대흥동)"
-							},
-							"telephone": "02-715-4463",
-							"faxNumber": "02-711-2980",
-							"sameAs": ["http://soongmoon.sen.ms.kr/"]
-						}
-					]
+						"telephone": "02-715-4463",
+						"faxNumber": "02-711-2980",
+						"sameAs": ["http://soongmoon.sen.ms.kr/"]
+					}
 				]
 			}
 		</script>

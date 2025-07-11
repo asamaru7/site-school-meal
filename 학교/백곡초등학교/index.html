@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/백곡초등학교/",
 				"headline": "백곡초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/백곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/baekgok-e",
-							"url": "school.cbe.go.kr/baekgok-e",
-							"name": "백곡초등학교 급식 식단표 안내",
-							"description": "백곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 백곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "백곡초등학교",
+						"alternateName": "Baekgok Elementary School",
+						"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27824 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 백곡면 안구수길 20 / 백곡초등학교 (백곡면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "백곡초등학교",
-							"alternateName": "Baekgok Elementary School",
-							"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27824 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 백곡면 안구수길 20 / 백곡초등학교 (백곡면)"
-							},
-							"telephone": "043-532-8618",
-							"faxNumber": "043-532-8619",
-							"sameAs": ["school.cbe.go.kr/baekgok-e"]
-						}
-					],
+						"telephone": "043-532-8618",
+						"faxNumber": "043-532-8619",
+						"sameAs": ["school.cbe.go.kr/baekgok-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "647.2 Kcal",
 										"carbohydrateContent": "88.4 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "191.5 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "39.7 mg",
-										"calciumContent": "165.2 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금천초등학교-청도/",
 				"headline": "금천초등학교(청도) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금천초등학교-청도/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/geumcheones",
-							"url": "http://school.gyo6.net/geumcheones",
-							"name": "금천초등학교(청도) 급식 식단표 안내",
-							"description": "금천초등학교(청도)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금천초등학교(청도)",
+						"alternateName": "Geumcheon Elementary School",
+						"description": "경상북도청도교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38364 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "청도군",
+							"streetAddress": "경상북도 청도군 금천면 섶마리1길 27 (금천면/금천초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금천초등학교(청도)",
-							"alternateName": "Geumcheon Elementary School",
-							"description": "경상북도청도교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38364 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "청도군",
-								"streetAddress": "경상북도 청도군 금천면 섶마리1길 27 (금천면/금천초등학교)"
-							},
-							"telephone": "054-372-3187",
-							"faxNumber": "054-373-1968",
-							"sameAs": ["http://school.gyo6.net/geumcheones"]
-						}
-					],
+						"telephone": "054-372-3187",
+						"faxNumber": "054-373-1968",
+						"sameAs": ["http://school.gyo6.net/geumcheones"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "673.0 Kcal",
 										"carbohydrateContent": "116.7 g",
 										"proteinContent": "19.5 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "73.8 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.1 mg",
-										"calciumContent": "223.6 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

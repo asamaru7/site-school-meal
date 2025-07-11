@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한울중학교/",
 				"headline": "한울중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한울중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hanwool.ms.kr",
-							"url": "http://www.hanwool.ms.kr",
-							"name": "한울중학교 급식 식단표 안내",
-							"description": "한울중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한울중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한울중학교",
+						"alternateName": "Hanwool Middle School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08566 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "금천구",
+							"streetAddress": "서울특별시 금천구 독산로50길 60 한울중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한울중학교",
-							"alternateName": "Hanwool Middle School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08566 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "금천구",
-								"streetAddress": "서울특별시 금천구 독산로50길 60 한울중학교"
-							},
-							"telephone": "02-856-4941",
-							"faxNumber": "02-858-5382",
-							"sameAs": ["http://www.hanwool.ms.kr"]
-						}
-					],
+						"telephone": "02-856-4941",
+						"faxNumber": "02-858-5382",
+						"sameAs": ["http://www.hanwool.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "729.4 Kcal",
 										"carbohydrateContent": "95.0 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "60.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "188.5 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

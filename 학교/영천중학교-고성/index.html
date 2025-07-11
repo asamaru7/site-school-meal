@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영천중학교-고성/",
 				"headline": "영천중학교(고성) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영천중학교-고성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yongcheon-m.gne.go.kr",
-							"url": "yongcheon-m.gne.go.kr",
-							"name": "영천중학교(고성) 급식 식단표 안내",
-							"description": "영천중학교(고성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영천중학교(고성)",
+						"alternateName": "Yeongcheon Middle School",
+						"description": "고성교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52901 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 영오면 영회로 511 (영오면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영천중학교(고성)",
-							"alternateName": "Yeongcheon Middle School",
-							"description": "고성교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52901 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 영오면 영회로 511 (영오면)"
-							},
-							"telephone": "055-672-9006",
-							"faxNumber": "055-672-1778",
-							"sameAs": ["yongcheon-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-672-9006",
+						"faxNumber": "055-672-1778",
+						"sameAs": ["yongcheon-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "637.6 Kcal",
 										"carbohydrateContent": "74.1 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "102.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.5 mg",
-										"calciumContent": "136.4 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

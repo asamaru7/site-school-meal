@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/효정초등학교/",
 				"headline": "효정초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/효정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyojeong-e.goesw.kr",
-							"url": "http://hyojeong-e.goesw.kr",
-							"name": "효정초등학교 급식 식단표 안내",
-							"description": "효정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 효정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "효정초등학교",
+						"alternateName": "Hyojeong Elementary School",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16563 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 권선구",
+							"streetAddress": "경기도 수원시 권선구 동수원로285번길 5 / 효정초등학교 (권선동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "효정초등학교",
-							"alternateName": "Hyojeong Elementary School",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16563 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 권선구",
-								"streetAddress": "경기도 수원시 권선구 동수원로285번길 5 / 효정초등학교 (권선동)"
-							},
-							"telephone": "031-233-9402",
-							"faxNumber": "031-233-4683",
-							"sameAs": ["http://hyojeong-e.goesw.kr"]
-						}
-					],
+						"telephone": "031-233-9402",
+						"faxNumber": "031-233-4683",
+						"sameAs": ["http://hyojeong-e.goesw.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "616.9 Kcal",
 										"carbohydrateContent": "97.5 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "10.0 g",
-										"vitaminAContent": "164.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "275.7 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "10.0 g"
 									}
 								}
 							]

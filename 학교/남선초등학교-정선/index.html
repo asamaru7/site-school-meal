@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남선초등학교-정선/",
 				"headline": "남선초등학교(정선) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남선초등학교-정선/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jsnamseon.gwe.es.kr/",
-							"url": "http://jsnamseon.gwe.es.kr/",
-							"name": "남선초등학교(정선) 급식 식단표 안내",
-							"description": "남선초등학교(정선)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남선초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남선초등학교(정선)",
+						"alternateName": "Namseon Elementary School",
+						"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26145 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "정선군",
+							"streetAddress": "강원특별자치도 정선군 남면 칠현로 70 (남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남선초등학교(정선)",
-							"alternateName": "Namseon Elementary School",
-							"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26145 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "정선군",
-								"streetAddress": "강원특별자치도 정선군 남면 칠현로 70 (남면)"
-							},
-							"telephone": "033-591-1034",
-							"faxNumber": "033-591-1120",
-							"sameAs": ["http://jsnamseon.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-591-1034",
+						"faxNumber": "033-591-1120",
+						"sameAs": ["http://jsnamseon.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "641.9 Kcal",
 										"carbohydrateContent": "99.1 g",
 										"proteinContent": "25.9 g",
-										"fatContent": "16.7 g",
-										"vitaminAContent": "373.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "72.9 mg",
-										"calciumContent": "287.7 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "16.7 g"
 									}
 								}
 							]

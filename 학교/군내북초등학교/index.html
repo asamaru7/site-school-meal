@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/군내북초등학교/",
 				"headline": "군내북초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/군내북초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gunnaebuk.es.jne.kr/",
-							"url": "http://gunnaebuk.es.jne.kr/",
-							"name": "군내북초등학교 급식 식단표 안내",
-							"description": "군내북초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 군내북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "군내북초등학교",
+						"alternateName": "Gunnaebuk Elementary School",
+						"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58900 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 군내면 대야길 54 (군내면/ 군내북초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "군내북초등학교",
-							"alternateName": "Gunnaebuk Elementary School",
-							"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58900 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 군내면 대야길 54 (군내면/ 군내북초등학교)"
-							},
-							"telephone": "061-542-1011",
-							"faxNumber": "061-542-1013",
-							"sameAs": ["http://gunnaebuk.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-542-1011",
+						"faxNumber": "061-542-1013",
+						"sameAs": ["http://gunnaebuk.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "643.5 Kcal",
 										"carbohydrateContent": "84.1 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "100.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.7 mg",
-										"calciumContent": "86.6 mg",
-										"ironContent": "8.1 mg"
+										"fatContent": "20.9 g"
 									}
 								}
 							]

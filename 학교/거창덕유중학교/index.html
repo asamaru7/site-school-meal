@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거창덕유중학교/",
 				"headline": "거창덕유중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거창덕유중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://deokyu-m.gne.go.kr/",
-							"url": "http://deokyu-m.gne.go.kr/",
-							"name": "거창덕유중학교 급식 식단표 안내",
-							"description": "거창덕유중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거창덕유중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거창덕유중학교",
+						"alternateName": "Deokyu Middle School",
+						"description": "거창교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50103 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거창군",
+							"streetAddress": "경상남도 거창군 위천면 화리골1길 56 (위천면/ 거창덕유중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거창덕유중학교",
-							"alternateName": "Deokyu Middle School",
-							"description": "거창교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50103 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거창군",
-								"streetAddress": "경상남도 거창군 위천면 화리골1길 56 (위천면/ 거창덕유중학교)"
-							},
-							"telephone": "055-943-6431",
-							"faxNumber": "055-942-2812",
-							"sameAs": ["http://deokyu-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-943-6431",
+						"faxNumber": "055-942-2812",
+						"sameAs": ["http://deokyu-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "820.0 Kcal",
 										"carbohydrateContent": "110.0 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "30.1 g",
-										"vitaminAContent": "69.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "35.2 mg",
-										"calciumContent": "135.8 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "30.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "849.5 Kcal",
 										"carbohydrateContent": "110.4 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "30.1 g",
-										"vitaminAContent": "75.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.5 mg",
-										"calciumContent": "144.9 mg",
-										"ironContent": "9.4 mg"
+										"fatContent": "30.1 g"
 									}
 								}
 							]

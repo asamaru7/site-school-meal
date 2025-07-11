@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/치악중학교/",
 				"headline": "치악중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/치악중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chiak.gwe.ms.kr",
-							"url": "http://chiak.gwe.ms.kr",
-							"name": "치악중학교 급식 식단표 안내",
-							"description": "치악중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 치악중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "치악중학교",
+						"alternateName": "Chiak Middle School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26410 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 원문로137번길 36 (단계동/ 치악중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "치악중학교",
-							"alternateName": "Chiak Middle School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26410 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 원문로137번길 36 (단계동/ 치악중학교)"
-							},
-							"telephone": "033-740-9870",
-							"faxNumber": "033-742-3510",
-							"sameAs": ["http://chiak.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-740-9870",
+						"faxNumber": "033-742-3510",
+						"sameAs": ["http://chiak.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "773.6 Kcal",
 										"carbohydrateContent": "113.3 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "22.4 g",
-										"vitaminAContent": "276.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.2 mg",
-										"calciumContent": "196.3 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "22.4 g"
 									}
 								}
 							]

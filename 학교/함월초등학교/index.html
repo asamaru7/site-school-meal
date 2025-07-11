@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함월초등학교/",
 				"headline": "함월초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함월초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hamwol.es.kr/ ",
-							"url": "http://hamwol.es.kr/ ",
-							"name": "함월초등학교 급식 식단표 안내",
-							"description": "함월초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함월초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함월초등학교",
+						"alternateName": "Hamwol Elementary School",
+						"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44517 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "중구",
+							"streetAddress": "울산광역시 중구 학성1길 25 (복산동/ 함월초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함월초등학교",
-							"alternateName": "Hamwol Elementary School",
-							"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44517 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "중구",
-								"streetAddress": "울산광역시 중구 학성1길 25 (복산동/ 함월초등학교)"
-							},
-							"telephone": "052-297-1221",
-							"faxNumber": "052-281-2660",
-							"sameAs": ["http://hamwol.es.kr/ "]
-						}
-					],
+						"telephone": "052-297-1221",
+						"faxNumber": "052-281-2660",
+						"sameAs": ["http://hamwol.es.kr/ "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "576.9 Kcal",
 										"carbohydrateContent": "91.2 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "10.6 g",
-										"vitaminAContent": "152.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.3 mg",
-										"calciumContent": "289.9 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "10.6 g"
 									}
 								}
 							]

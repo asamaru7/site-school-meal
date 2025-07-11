@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정산고등학교/",
 				"headline": "정산고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jeongsan.cnehs.kr",
-							"url": "http://www.jeongsan.cnehs.kr",
-							"name": "정산고등학교 급식 식단표 안내",
-							"description": "정산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정산고등학교",
+						"alternateName": "Jeongsan High School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33354 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "청양군",
+							"streetAddress": "충청남도 청양군 정산면 칠갑산로 1897 (정산면/정산고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정산고등학교",
-							"alternateName": "Jeongsan High School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33354 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "청양군",
-								"streetAddress": "충청남도 청양군 정산면 칠갑산로 1897 (정산면/정산고등학교)"
-							},
-							"telephone": "041-942-0071",
-							"faxNumber": "041-943-0715",
-							"sameAs": ["http://www.jeongsan.cnehs.kr"]
-						}
-					]
+						"telephone": "041-942-0071",
+						"faxNumber": "041-943-0715",
+						"sameAs": ["http://www.jeongsan.cnehs.kr"]
+					}
 				]
 			}
 		</script>

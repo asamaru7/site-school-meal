@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/초계중학교/",
 				"headline": "초계중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/초계중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chogye-m.gne.go.kr/",
-							"url": "http://chogye-m.gne.go.kr/",
-							"name": "초계중학교 급식 식단표 안내",
-							"description": "초계중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초계중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "초계중학교",
+						"alternateName": "Chogye Middle School",
+						"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50246 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 초계면 초계중앙로 83 / 초계중학교 (초계면/ 초계중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "초계중학교",
-							"alternateName": "Chogye Middle School",
-							"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50246 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 초계면 초계중앙로 83 / 초계중학교 (초계면/ 초계중학교)"
-							},
-							"telephone": "055-932-1003",
-							"faxNumber": "055-931-9893",
-							"sameAs": ["http://chogye-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-932-1003",
+						"faxNumber": "055-931-9893",
+						"sameAs": ["http://chogye-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "860.1 Kcal",
 										"carbohydrateContent": "114.7 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "23.8 g",
-										"vitaminAContent": "232.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.2 mg",
-										"calciumContent": "384.7 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "23.8 g"
 									}
 								}
 							]

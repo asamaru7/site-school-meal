@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/나주동강중학교/",
 				"headline": "나주동강중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/나주동강중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "najudongkang.ms.jne.kr",
-							"url": "najudongkang.ms.jne.kr",
-							"name": "나주동강중학교 급식 식단표 안내",
-							"description": "나주동강중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 나주동강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "나주동강중학교",
+						"alternateName": "Najudongkang Middle School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58292 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 동강면 인동길 25-28 (동강면/ 동강중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "나주동강중학교",
-							"alternateName": "Najudongkang Middle School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58292 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 동강면 인동길 25-28 (동강면/ 동강중학교)"
-							},
-							"telephone": "061-335-2005",
-							"faxNumber": "061-335-7567",
-							"sameAs": ["najudongkang.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-335-2005",
+						"faxNumber": "061-335-7567",
+						"sameAs": ["najudongkang.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "696.7 Kcal",
 										"carbohydrateContent": "108.1 g",
 										"proteinContent": "26.4 g",
-										"fatContent": "18.4 g",
-										"vitaminAContent": "112.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "29.5 mg",
-										"calciumContent": "289.5 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "18.4 g"
 									}
 								}
 							]

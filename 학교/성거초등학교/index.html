@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성거초등학교/",
 				"headline": "성거초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성거초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sge.caees.kr",
-							"url": "http://www.sge.caees.kr",
-							"name": "성거초등학교 급식 식단표 안내",
-							"description": "성거초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성거초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성거초등학교",
+						"alternateName": "Seonggeo Elementary School",
+						"description": "충청남도천안교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31046 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "천안시 서북구",
+							"streetAddress": "충청남도 천안시 서북구 성거읍 소댕이3길 606-21 (성거읍/ 성거초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성거초등학교",
-							"alternateName": "Seonggeo Elementary School",
-							"description": "충청남도천안교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31046 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "천안시 서북구",
-								"streetAddress": "충청남도 천안시 서북구 성거읍 소댕이3길 606-21 (성거읍/ 성거초등학교)"
-							},
-							"telephone": "041-622-7849",
-							"faxNumber": "041-622-4749",
-							"sameAs": ["http://www.sge.caees.kr"]
-						}
-					],
+						"telephone": "041-622-7849",
+						"faxNumber": "041-622-4749",
+						"sameAs": ["http://www.sge.caees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "549.4 Kcal",
 										"carbohydrateContent": "88.1 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "8.9 g",
-										"vitaminAContent": "59.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "25.8 mg",
-										"calciumContent": "338.9 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "8.9 g"
 									}
 								}
 							]

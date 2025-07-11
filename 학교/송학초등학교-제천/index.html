@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송학초등학교-제천/",
 				"headline": "송학초등학교(제천) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송학초등학교-제천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/songhak-e",
-							"url": "http://school.cbe.go.kr/songhak-e",
-							"name": "송학초등학교(제천) 급식 식단표 안내",
-							"description": "송학초등학교(제천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송학초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송학초등학교(제천)",
+						"alternateName": "Songhak Elementary School",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27123 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 송학면 시곡포전로 7 (송학면/ 송학초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송학초등학교(제천)",
-							"alternateName": "Songhak Elementary School",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27123 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 송학면 시곡포전로 7 (송학면/ 송학초등학교)"
-							},
-							"telephone": "043-642-7585",
-							"faxNumber": "043-646-8329",
-							"sameAs": ["http://school.cbe.go.kr/songhak-e"]
-						}
-					],
+						"telephone": "043-642-7585",
+						"faxNumber": "043-646-8329",
+						"sameAs": ["http://school.cbe.go.kr/songhak-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.9 Kcal",
 										"carbohydrateContent": "105.4 g",
 										"proteinContent": "41.2 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "373.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "25.5 mg",
-										"calciumContent": "460.9 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

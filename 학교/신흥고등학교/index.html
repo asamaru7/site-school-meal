@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신흥고등학교/",
 				"headline": "신흥고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신흥고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://shinheung-h.goedy.kr",
-							"url": "https://shinheung-h.goedy.kr",
-							"name": "신흥고등학교 급식 식단표 안내",
-							"description": "신흥고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신흥고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신흥고등학교",
+						"alternateName": "SHIN-HEUNG HIGH SCHOOL",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "11304 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "동두천시",
+							"streetAddress": "경기도 동두천시 신천로 159 (안흥동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신흥고등학교",
-							"alternateName": "SHIN-HEUNG HIGH SCHOOL",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "11304 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "동두천시",
-								"streetAddress": "경기도 동두천시 신천로 159 (안흥동)"
-							},
-							"telephone": "031-865-3169",
-							"faxNumber": "031-865-3168",
-							"sameAs": ["https://shinheung-h.goedy.kr"]
-						}
-					],
+						"telephone": "031-865-3169",
+						"faxNumber": "031-865-3168",
+						"sameAs": ["https://shinheung-h.goedy.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "900.5 Kcal",
 										"carbohydrateContent": "140.8 g",
 										"proteinContent": "42.7 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "75.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "12.5 mg",
-										"calciumContent": "246.3 mg",
-										"ironContent": "6.0 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

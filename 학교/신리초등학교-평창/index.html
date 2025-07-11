@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신리초등학교-평창/",
 				"headline": "신리초등학교(평창) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신리초등학교-평창/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sinri.gwe.es.kr/",
-							"url": "http://sinri.gwe.es.kr/",
-							"name": "신리초등학교(평창) 급식 식단표 안내",
-							"description": "신리초등학교(평창)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신리초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신리초등학교(평창)",
+						"alternateName": "Sinri Elementary School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25354 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 대화면 하송빈1길 23 (대화면/ 신리초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신리초등학교(평창)",
-							"alternateName": "Sinri Elementary School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25354 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 대화면 하송빈1길 23 (대화면/ 신리초등학교)"
-							},
-							"telephone": "033-333-2412",
-							"faxNumber": "033-333-0405",
-							"sameAs": ["http://sinri.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-333-2412",
+						"faxNumber": "033-333-0405",
+						"sameAs": ["http://sinri.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "678.4 Kcal",
 										"carbohydrateContent": "103.4 g",
 										"proteinContent": "37.2 g",
-										"fatContent": "12.0 g",
-										"vitaminAContent": "202.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.5 mg",
-										"calciumContent": "189.9 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "12.0 g"
 									}
 								}
 							]

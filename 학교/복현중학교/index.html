@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/복현중학교/",
 				"headline": "복현중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/복현중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bokhyun.dge.ms.kr",
-							"url": "http://www.bokhyun.dge.ms.kr",
-							"name": "복현중학교 급식 식단표 안내",
-							"description": "복현중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 복현중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "복현중학교",
+						"alternateName": "Bokhyun Middle School",
+						"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41528 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "북구",
+							"streetAddress": "대구광역시 북구 동북로65길 28 (복현동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "복현중학교",
-							"alternateName": "Bokhyun Middle School",
-							"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41528 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "북구",
-								"streetAddress": "대구광역시 북구 동북로65길 28 (복현동)"
-							},
-							"telephone": "053-233-6670",
-							"faxNumber": "053-943-4845",
-							"sameAs": ["http://www.bokhyun.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-233-6670",
+						"faxNumber": "053-943-4845",
+						"sameAs": ["http://www.bokhyun.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "720.0 Kcal",
 										"carbohydrateContent": "97.1 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "238.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "29.1 mg",
-										"calciumContent": "238.4 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

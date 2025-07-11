@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/외궁초등학교/",
 				"headline": "외궁초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/외궁초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.jbedu.kr/oegung",
-							"url": "school.jbedu.kr/oegung",
-							"name": "외궁초등학교 급식 식단표 안내",
-							"description": "외궁초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 외궁초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "외궁초등학교",
+						"alternateName": "Oe-goong Elementary School",
+						"description": "전북특별자치도진안교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55459 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "진안군",
+							"streetAddress": "전북특별자치도 진안군 성수면 가외반로 498 외궁초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "외궁초등학교",
-							"alternateName": "Oe-goong Elementary School",
-							"description": "전북특별자치도진안교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55459 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "진안군",
-								"streetAddress": "전북특별자치도 진안군 성수면 가외반로 498 외궁초등학교"
-							},
-							"telephone": "063-432-8997",
-							"faxNumber": "063-433-5706",
-							"sameAs": ["school.jbedu.kr/oegung"]
-						}
-					],
+						"telephone": "063-432-8997",
+						"faxNumber": "063-433-5706",
+						"sameAs": ["school.jbedu.kr/oegung"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "800.7 Kcal",
 										"carbohydrateContent": "117.4 g",
 										"proteinContent": "61.1 g",
-										"fatContent": "8.4 g",
-										"vitaminAContent": "108.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "16.7 mg",
-										"calciumContent": "309.0 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "8.4 g"
 									}
 								}
 							]

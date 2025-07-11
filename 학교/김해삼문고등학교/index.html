@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해삼문고등학교/",
 				"headline": "김해삼문고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해삼문고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sammoon-h.gne.go.kr",
-							"url": "http://sammoon-h.gne.go.kr",
-							"name": "김해삼문고등학교 급식 식단표 안내",
-							"description": "김해삼문고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해삼문고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해삼문고등학교",
+						"alternateName": "GimhaeSammoon High School",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50986 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 번화1로 127 (삼문동/ 김해삼문고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해삼문고등학교",
-							"alternateName": "GimhaeSammoon High School",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50986 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 번화1로 127 (삼문동/ 김해삼문고등학교)"
-							},
-							"telephone": "055-312-0157",
-							"faxNumber": "055-312-0159",
-							"sameAs": ["http://sammoon-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-312-0157",
+						"faxNumber": "055-312-0159",
+						"sameAs": ["http://sammoon-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "811.5 Kcal",
 										"carbohydrateContent": "130.3 g",
 										"proteinContent": "31.1 g",
-										"fatContent": "16.9 g",
-										"vitaminAContent": "132.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "21.2 mg",
-										"calciumContent": "143.1 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "16.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "834.9 Kcal",
 										"carbohydrateContent": "102.7 g",
 										"proteinContent": "33.9 g",
-										"fatContent": "30.7 g",
-										"vitaminAContent": "105.4 R.E",
-										"thiaminContent": "2.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "20.3 mg",
-										"calciumContent": "313.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "30.7 g"
 									}
 								}
 							]

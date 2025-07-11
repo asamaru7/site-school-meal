@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안강제일초등학교/",
 				"headline": "안강제일초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안강제일초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/angangjeiles",
-							"url": "http://school.gyo6.net/angangjeiles",
-							"name": "안강제일초등학교 급식 식단표 안내",
-							"description": "안강제일초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안강제일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안강제일초등학교",
+						"alternateName": "Angang Jeil Elementary School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38009 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 안강읍 안강중앙로 189 (안강제일초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안강제일초등학교",
-							"alternateName": "Angang Jeil Elementary School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38009 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 안강읍 안강중앙로 189 (안강제일초등학교)"
-							},
-							"telephone": "054-761-4412",
-							"faxNumber": "054-761-2009",
-							"sameAs": ["http://school.gyo6.net/angangjeiles"]
-						}
-					],
+						"telephone": "054-761-4412",
+						"faxNumber": "054-761-2009",
+						"sameAs": ["http://school.gyo6.net/angangjeiles"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "785.2 Kcal",
 										"carbohydrateContent": "126.5 g",
 										"proteinContent": "25.4 g",
-										"fatContent": "19.4 g",
-										"vitaminAContent": "145.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "226.0 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "19.4 g"
 									}
 								}
 							]

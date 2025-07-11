@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/다부초등학교/",
 				"headline": "다부초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/다부초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/daboo",
-							"url": "http://school.gyo6.net/daboo",
-							"name": "다부초등학교 급식 식단표 안내",
-							"description": "다부초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 다부초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "다부초등학교",
+						"alternateName": "Dabu Elementary School",
+						"description": "경상북도칠곡교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39851 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "칠곡군",
+							"streetAddress": "경상북도 칠곡군 가산면 다부원1길 52 / 다부초등학교 (가산면/다부초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "다부초등학교",
-							"alternateName": "Dabu Elementary School",
-							"description": "경상북도칠곡교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39851 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "칠곡군",
-								"streetAddress": "경상북도 칠곡군 가산면 다부원1길 52 / 다부초등학교 (가산면/다부초등학교)"
-							},
-							"telephone": "054-972-6373",
-							"faxNumber": "054-973-0757",
-							"sameAs": ["http://school.gyo6.net/daboo"]
-						}
-					],
+						"telephone": "054-972-6373",
+						"faxNumber": "054-973-0757",
+						"sameAs": ["http://school.gyo6.net/daboo"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "712.8 Kcal",
 										"carbohydrateContent": "106.2 g",
 										"proteinContent": "32.0 g",
-										"fatContent": "16.4 g",
-										"vitaminAContent": "153.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "281.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "16.4 g"
 									}
 								}
 							]

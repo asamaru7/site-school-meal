@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신성여자중학교/",
 				"headline": "신성여자중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신성여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinseong.jje.ms.kr",
-							"url": "http://shinseong.jje.ms.kr",
-							"name": "신성여자중학교 급식 식단표 안내",
-							"description": "신성여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신성여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신성여자중학교",
+						"alternateName": "SHINSEONG GIRLS MIDDLE SCHOOL",
+						"description": "제주시교육지원청 / 사립 / 여",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63308 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 아봉로 174-5 / 신성여자중학교 (영평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신성여자중학교",
-							"alternateName": "SHINSEONG GIRLS MIDDLE SCHOOL",
-							"description": "제주시교육지원청 / 사립 / 여",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63308 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 아봉로 174-5 / 신성여자중학교 (영평동)"
-							},
-							"telephone": "064-729-7400",
-							"faxNumber": "064-724-7138",
-							"sameAs": ["http://shinseong.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-729-7400",
+						"faxNumber": "064-724-7138",
+						"sameAs": ["http://shinseong.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "708.9 Kcal",
 										"carbohydrateContent": "98.4 g",
 										"proteinContent": "37.4 g",
-										"fatContent": "16.7 g",
-										"vitaminAContent": "168.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.8 mg",
-										"calciumContent": "382.7 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "16.7 g"
 									}
 								}
 							]

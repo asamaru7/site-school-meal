@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장항중학교/",
 				"headline": "장항중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장항중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://janghang.cnems.kr",
-							"url": "http://janghang.cnems.kr",
-							"name": "장항중학교 급식 식단표 안내",
-							"description": "장항중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장항중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장항중학교",
+						"alternateName": "Janghang Middle School",
+						"description": "충청남도서천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33673 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서천군",
+							"streetAddress": "충청남도 서천군 장항읍 장서로16번길 79 (장항읍/장항중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장항중학교",
-							"alternateName": "Janghang Middle School",
-							"description": "충청남도서천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33673 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서천군",
-								"streetAddress": "충청남도 서천군 장항읍 장서로16번길 79 (장항읍/장항중학교)"
-							},
-							"telephone": "041-956-0010",
-							"faxNumber": "041-956-6735",
-							"sameAs": ["http://janghang.cnems.kr"]
-						}
-					]
+						"telephone": "041-956-0010",
+						"faxNumber": "041-956-6735",
+						"sameAs": ["http://janghang.cnems.kr"]
+					}
 				]
 			}
 		</script>

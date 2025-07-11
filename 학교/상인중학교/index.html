@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상인중학교/",
 				"headline": "상인중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상인중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sangin.dge.ms.kr",
-							"url": "http://www.sangin.dge.ms.kr",
-							"name": "상인중학교 급식 식단표 안내",
-							"description": "상인중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상인중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상인중학교",
+						"alternateName": "sangin middle school",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42813 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 상인로 34 / 상인중학교 (상인동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상인중학교",
-							"alternateName": "sangin middle school",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42813 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 상인로 34 / 상인중학교 (상인동)"
-							},
-							"telephone": "053-234-6900",
-							"faxNumber": "053-639-4016",
-							"sameAs": ["http://www.sangin.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-234-6900",
+						"faxNumber": "053-639-4016",
+						"sameAs": ["http://www.sangin.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "967.0 Kcal",
 										"carbohydrateContent": "138.4 g",
 										"proteinContent": "23.6 g",
-										"fatContent": "36.2 g",
-										"vitaminAContent": "155.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "31.9 mg",
-										"calciumContent": "282.3 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "36.2 g"
 									}
 								}
 							]

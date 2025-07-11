@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함평손불중학교/",
 				"headline": "함평손불중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함평손불중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sonbul.ms.jne.kr/",
-							"url": "http://sonbul.ms.jne.kr/",
-							"name": "함평손불중학교 급식 식단표 안내",
-							"description": "함평손불중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함평손불중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함평손불중학교",
+						"alternateName": "Hampyeong Sonbul Middle School",
+						"description": "전라남도함평교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57110 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "함평군",
+							"streetAddress": "전라남도 함평군 손불면 손불중앙길 7-6 (손불면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함평손불중학교",
-							"alternateName": "Hampyeong Sonbul Middle School",
-							"description": "전라남도함평교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57110 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "함평군",
-								"streetAddress": "전라남도 함평군 손불면 손불중앙길 7-6 (손불면)"
-							},
-							"telephone": "061-323-4565",
-							"faxNumber": "061-323-7632",
-							"sameAs": ["http://sonbul.ms.jne.kr/"]
-						}
-					],
+						"telephone": "061-323-4565",
+						"faxNumber": "061-323-7632",
+						"sameAs": ["http://sonbul.ms.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "877.9 Kcal",
 										"carbohydrateContent": "70.5 g",
 										"proteinContent": "27.3 g",
-										"fatContent": "51.1 g",
-										"vitaminAContent": "107.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "19.2 mg",
-										"calciumContent": "109.0 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "51.1 g"
 									}
 								}
 							]

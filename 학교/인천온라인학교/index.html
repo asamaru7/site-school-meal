@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천온라인학교/",
 				"headline": "인천온라인학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천온라인학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://iconline.icehs.kr/",
-							"url": "http://iconline.icehs.kr/",
-							"name": "인천온라인학교 급식 식단표 안내",
-							"description": "인천온라인학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천온라인학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천온라인학교",
+						"alternateName": "인천온라인학교(Incheon Online School)",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21331 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 굴포로 59 인천온라인학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천온라인학교",
-							"alternateName": "인천온라인학교(Incheon Online School)",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21331 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 굴포로 59 인천온라인학교"
-							},
-							"telephone": "032-570-2470",
-							"faxNumber": "032-570-2489",
-							"sameAs": ["http://iconline.icehs.kr/"]
-						}
-					]
+						"telephone": "032-570-2470",
+						"faxNumber": "032-570-2489",
+						"sameAs": ["http://iconline.icehs.kr/"]
+					}
 				]
 			}
 		</script>

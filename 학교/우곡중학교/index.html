@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우곡중학교/",
 				"headline": "우곡중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우곡중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.ugok.ms.kr",
-							"url": "www.ugok.ms.kr",
-							"name": "우곡중학교 급식 식단표 안내",
-							"description": "우곡중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우곡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우곡중학교",
+						"alternateName": "Ugok Middle School",
+						"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "40155 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "고령군",
+							"streetAddress": "경상북도 고령군 우곡면 우곡로 492-19 (우곡면/ 우곡중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우곡중학교",
-							"alternateName": "Ugok Middle School",
-							"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "40155 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "고령군",
-								"streetAddress": "경상북도 고령군 우곡면 우곡로 492-19 (우곡면/ 우곡중학교)"
-							},
-							"telephone": "054-955-4604",
-							"faxNumber": "054-955-8195",
-							"sameAs": ["www.ugok.ms.kr"]
-						}
-					]
+						"telephone": "054-955-4604",
+						"faxNumber": "054-955-8195",
+						"sameAs": ["www.ugok.ms.kr"]
+					}
 				]
 			}
 		</script>

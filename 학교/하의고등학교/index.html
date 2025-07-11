@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하의고등학교/",
 				"headline": "하의고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하의고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hi-go.hs.jne.kr",
-							"url": "http://hi-go.hs.jne.kr",
-							"name": "하의고등학교 급식 식단표 안내",
-							"description": "하의고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하의고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하의고등학교",
+						"alternateName": "Haui High School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58856 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "신안군",
+							"streetAddress": "전라남도 신안군 하의면 곰실길 11-8 (하의면/ 하의중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하의고등학교",
-							"alternateName": "Haui High School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58856 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "신안군",
-								"streetAddress": "전라남도 신안군 하의면 곰실길 11-8 (하의면/ 하의중고등학교)"
-							},
-							"telephone": "061-275-4019",
-							"faxNumber": "061-275-8812",
-							"sameAs": ["http://hi-go.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-275-4019",
+						"faxNumber": "061-275-8812",
+						"sameAs": ["http://hi-go.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "867.9 Kcal",
 										"carbohydrateContent": "135.8 g",
 										"proteinContent": "31.4 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "54.2 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.6 mg",
-										"calciumContent": "201.1 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대도중학교/",
 				"headline": "대도중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대도중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daedo.school.gyo6.net",
-							"url": "http://daedo.school.gyo6.net",
-							"name": "대도중학교 급식 식단표 안내",
-							"description": "대도중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대도중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대도중학교",
+						"alternateName": "Daedo Middle School",
+						"description": "경상북도포항교육지원청 / 공립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37601 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 삼호로509번길 12 (환호동/대도중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대도중학교",
-							"alternateName": "Daedo Middle School",
-							"description": "경상북도포항교육지원청 / 공립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37601 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 삼호로509번길 12 (환호동/대도중학교)"
-							},
-							"telephone": "054-252-4240",
-							"faxNumber": "054-252-4050",
-							"sameAs": ["http://daedo.school.gyo6.net"]
-						}
-					],
+						"telephone": "054-252-4240",
+						"faxNumber": "054-252-4050",
+						"sameAs": ["http://daedo.school.gyo6.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "984.6 Kcal",
 										"carbohydrateContent": "167.4 g",
 										"proteinContent": "29.1 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "261.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.0 mg",
-										"calciumContent": "259.2 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "21.0 g"
 									}
 								}
 							]

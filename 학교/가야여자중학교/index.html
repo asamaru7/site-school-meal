@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가야여자중학교/",
 				"headline": "가야여자중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가야여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gaya-gm.ms.kr",
-							"url": "http://gaya-gm.ms.kr",
-							"name": "가야여자중학교 급식 식단표 안내",
-							"description": "가야여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가야여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가야여자중학교",
+						"alternateName": "Gaya girls middle School",
+						"description": "부산광역시남부교육지원청 / 공립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47339 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 엄광로182번길 15-25 (가야동/ 가야여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가야여자중학교",
-							"alternateName": "Gaya girls middle School",
-							"description": "부산광역시남부교육지원청 / 공립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47339 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 엄광로182번길 15-25 (가야동/ 가야여자중학교)"
-							},
-							"telephone": "051-890-5400",
-							"faxNumber": "051-895-1256",
-							"sameAs": ["http://gaya-gm.ms.kr"]
-						}
-					],
+						"telephone": "051-890-5400",
+						"faxNumber": "051-895-1256",
+						"sameAs": ["http://gaya-gm.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "675.0 Kcal",
 										"carbohydrateContent": "110.7 g",
 										"proteinContent": "18.4 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "164.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "20.9 mg",
-										"calciumContent": "450.3 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

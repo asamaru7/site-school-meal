@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/풍북초등학교/",
 				"headline": "풍북초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/풍북초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/pungbuk",
-							"url": "http://school.gyo6.net/pungbuk",
-							"name": "풍북초등학교 급식 식단표 안내",
-							"description": "풍북초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 풍북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "풍북초등학교",
+						"alternateName": "Pungbuk Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36617 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 풍산읍 괴정2길 21-14 (풍산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "풍북초등학교",
-							"alternateName": "Pungbuk Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36617 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 풍산읍 괴정2길 21-14 (풍산읍)"
-							},
-							"telephone": "054-858-6432",
-							"faxNumber": "054-858-6531",
-							"sameAs": ["http://school.gyo6.net/pungbuk"]
-						}
-					],
+						"telephone": "054-858-6432",
+						"faxNumber": "054-858-6531",
+						"sameAs": ["http://school.gyo6.net/pungbuk"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "521.6 Kcal",
 										"carbohydrateContent": "90.1 g",
 										"proteinContent": "23.3 g",
-										"fatContent": "8.3 g",
-										"vitaminAContent": "230.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "34.3 mg",
-										"calciumContent": "271.9 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "8.3 g"
 									}
 								}
 							]

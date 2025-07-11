@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/덕암중학교/",
 				"headline": "덕암중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/덕암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.deogam.ms.kr",
-							"url": "http://www.deogam.ms.kr",
-							"name": "덕암중학교 급식 식단표 안내",
-							"description": "덕암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 덕암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "덕암중학교",
+						"alternateName": "Deok-am Middle School",
+						"description": "전북특별자치도김제교육지원청 / 사립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54364 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "김제시",
+							"streetAddress": "전북특별자치도 김제시 하공로 9 덕암중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "덕암중학교",
-							"alternateName": "Deok-am Middle School",
-							"description": "전북특별자치도김제교육지원청 / 사립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54364 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "김제시",
-								"streetAddress": "전북특별자치도 김제시 하공로 9 덕암중학교"
-							},
-							"telephone": "063-544-2201",
-							"faxNumber": "063-544-2237",
-							"sameAs": ["http://www.deogam.ms.kr"]
-						}
-					],
+						"telephone": "063-544-2201",
+						"faxNumber": "063-544-2237",
+						"sameAs": ["http://www.deogam.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "628.0 Kcal",
 										"carbohydrateContent": "88.0 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "15.8 g",
-										"vitaminAContent": "249.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.6 mg",
-										"calciumContent": "427.2 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "15.8 g"
 									}
 								}
 							]

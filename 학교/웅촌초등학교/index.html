@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/웅촌초등학교/",
 				"headline": "웅촌초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/웅촌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ungchon-us.es.kr",
-							"url": "http://www.ungchon-us.es.kr",
-							"name": "웅촌초등학교 급식 식단표 안내",
-							"description": "웅촌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 웅촌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "웅촌초등학교",
+						"alternateName": "Ungchon Elementary School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44965 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "울주군",
+							"streetAddress": "울산광역시 울주군 웅촌면 곡천검단로 4 (웅촌면/ 웅촌초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "웅촌초등학교",
-							"alternateName": "Ungchon Elementary School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44965 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "울주군",
-								"streetAddress": "울산광역시 울주군 웅촌면 곡천검단로 4 (웅촌면/ 웅촌초등학교)"
-							},
-							"telephone": "052-225-0006",
-							"faxNumber": "052-225-0393",
-							"sameAs": ["http://www.ungchon-us.es.kr"]
-						}
-					],
+						"telephone": "052-225-0006",
+						"faxNumber": "052-225-0393",
+						"sameAs": ["http://www.ungchon-us.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.3 Kcal",
 										"carbohydrateContent": "87.5 g",
 										"proteinContent": "22.2 g",
-										"fatContent": "25.3 g",
-										"vitaminAContent": "25.4 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "4.9 mg",
-										"calciumContent": "144.5 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "25.3 g"
 									}
 								}
 							]

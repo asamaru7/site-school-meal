@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김천중앙초등학교/",
 				"headline": "김천중앙초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김천중앙초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gjaes",
-							"url": "http://school.gyo6.net/gjaes",
-							"name": "김천중앙초등학교 급식 식단표 안내",
-							"description": "김천중앙초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김천중앙초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김천중앙초등학교",
+						"alternateName": "Gimcheon Jungang Elementary School",
+						"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39613 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "김천시",
+							"streetAddress": "경상북도 김천시 김천로 156 (남산동/ 김천중앙초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김천중앙초등학교",
-							"alternateName": "Gimcheon Jungang Elementary School",
-							"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39613 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "김천시",
-								"streetAddress": "경상북도 김천시 김천로 156 (남산동/ 김천중앙초등학교)"
-							},
-							"telephone": "054-432-7735",
-							"faxNumber": "054-432-1707",
-							"sameAs": ["http://school.gyo6.net/gjaes"]
-						}
-					],
+						"telephone": "054-432-7735",
+						"faxNumber": "054-432-1707",
+						"sameAs": ["http://school.gyo6.net/gjaes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "599.8 Kcal",
 										"carbohydrateContent": "83.9 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "138.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "12.9 mg",
-										"calciumContent": "219.9 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

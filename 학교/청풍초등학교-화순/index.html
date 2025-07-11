@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청풍초등학교-화순/",
 				"headline": "청풍초등학교(화순) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청풍초등학교-화순/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cped.es.jne.kr/",
-							"url": "http://cped.es.jne.kr/",
-							"name": "청풍초등학교(화순) 급식 식단표 안내",
-							"description": "청풍초등학교(화순)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청풍초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청풍초등학교(화순)",
+						"alternateName": "Cheongpung Elementary School",
+						"description": "전라남도화순교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58162 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "화순군",
+							"streetAddress": "전라남도 화순군 청풍면 평지촌길 54 (청풍면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청풍초등학교(화순)",
-							"alternateName": "Cheongpung Elementary School",
-							"description": "전라남도화순교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58162 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "화순군",
-								"streetAddress": "전라남도 화순군 청풍면 평지촌길 54 (청풍면)"
-							},
-							"telephone": "061-372-9544",
-							"faxNumber": "061-372-9522",
-							"sameAs": ["http://cped.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-372-9544",
+						"faxNumber": "061-372-9522",
+						"sameAs": ["http://cped.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "639.7 Kcal",
 										"carbohydrateContent": "100.4 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "13.6 g",
-										"vitaminAContent": "46.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "27.3 mg",
-										"calciumContent": "170.7 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "13.6 g"
 									}
 								}
 							]

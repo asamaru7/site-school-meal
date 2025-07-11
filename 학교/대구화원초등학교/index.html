@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구화원초등학교/",
 				"headline": "대구화원초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구화원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hwawon.dge.es.kr/",
-							"url": "http://www.hwawon.dge.es.kr/",
-							"name": "대구화원초등학교 급식 식단표 안내",
-							"description": "대구화원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구화원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구화원초등학교",
+						"alternateName": "Daegu Hwawon Elementary School",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42955 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 화원읍 비슬로 2580 (화원읍/대구화원초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구화원초등학교",
-							"alternateName": "Daegu Hwawon Elementary School",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42955 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 화원읍 비슬로 2580 (화원읍/대구화원초등학교)"
-							},
-							"telephone": "053-235-0205",
-							"faxNumber": "053-635-8857",
-							"sameAs": ["http://www.hwawon.dge.es.kr/"]
-						}
-					],
+						"telephone": "053-235-0205",
+						"faxNumber": "053-635-8857",
+						"sameAs": ["http://www.hwawon.dge.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "663.5 Kcal",
 										"carbohydrateContent": "89.8 g",
 										"proteinContent": "37.0 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "145.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "4.5 mg",
-										"calciumContent": "347.6 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창인학교/",
 				"headline": "창인학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창인학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://changin-s.goeyp.kr/",
-							"url": "https://changin-s.goeyp.kr/",
-							"name": "창인학교 급식 식단표 안내",
-							"description": "창인학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창인학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창인학교",
+						"alternateName": "Changin School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12528 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "양평군",
+							"streetAddress": "경기도 양평군 단월면 백동길 92 / 창인학교 (단월면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창인학교",
-							"alternateName": "Changin School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12528 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "양평군",
-								"streetAddress": "경기도 양평군 단월면 백동길 92 / 창인학교 (단월면)"
-							},
-							"telephone": "031-774-7905/7955",
-							"faxNumber": "031-774-6898",
-							"sameAs": ["https://changin-s.goeyp.kr/"]
-						}
-					],
+						"telephone": "031-774-7905/7955",
+						"faxNumber": "031-774-6898",
+						"sameAs": ["https://changin-s.goeyp.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "982.3 Kcal",
 										"carbohydrateContent": "152.0 g",
 										"proteinContent": "35.9 g",
-										"fatContent": "26.6 g",
-										"vitaminAContent": "523.4 R.E",
-										"thiaminContent": "1.8 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "40.7 mg",
-										"calciumContent": "655.3 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "26.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "687.0 Kcal",
 										"carbohydrateContent": "93.4 g",
 										"proteinContent": "40.5 g",
-										"fatContent": "15.3 g",
-										"vitaminAContent": "155.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "243.8 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "15.3 g"
 									}
 								}
 							]

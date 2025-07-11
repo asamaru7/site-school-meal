@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/계산고등학교/",
 				"headline": "계산고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/계산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyesan.icehs.kr",
-							"url": "http://gyesan.icehs.kr",
-							"name": "계산고등학교 급식 식단표 안내",
-							"description": "계산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 계산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "계산고등학교",
+						"alternateName": "GYESAN HIGH SCHOOL",
+						"description": "인천광역시교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21030 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 주부토로 588 (계산동/계산고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "계산고등학교",
-							"alternateName": "GYESAN HIGH SCHOOL",
-							"description": "인천광역시교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21030 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 주부토로 588 (계산동/계산고등학교)"
-							},
-							"telephone": "032-542-0687",
-							"faxNumber": "032-552-1597",
-							"sameAs": ["http://gyesan.icehs.kr"]
-						}
-					],
+						"telephone": "032-542-0687",
+						"faxNumber": "032-552-1597",
+						"sameAs": ["http://gyesan.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1007.1 Kcal",
 										"carbohydrateContent": "148.7 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "27.6 g",
-										"vitaminAContent": "98.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "79.2 mg",
-										"calciumContent": "240.9 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "27.6 g"
 									}
 								}
 							]

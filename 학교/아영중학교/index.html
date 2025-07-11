@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아영중학교/",
 				"headline": "아영중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아영중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ayoung.ms.kr",
-							"url": "http://ayoung.ms.kr",
-							"name": "아영중학교 급식 식단표 안내",
-							"description": "아영중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아영중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아영중학교",
+						"alternateName": "Ayoung Middle School",
+						"description": "전북특별자치도남원교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55712 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "남원시",
+							"streetAddress": "전북특별자치도 남원시 아영면 고인청계길 18 아영중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아영중학교",
-							"alternateName": "Ayoung Middle School",
-							"description": "전북특별자치도남원교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55712 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "남원시",
-								"streetAddress": "전북특별자치도 남원시 아영면 고인청계길 18 아영중학교"
-							},
-							"telephone": "063-626-9772",
-							"faxNumber": "063-626-9773",
-							"sameAs": ["http://ayoung.ms.kr"]
-						}
-					],
+						"telephone": "063-626-9772",
+						"faxNumber": "063-626-9773",
+						"sameAs": ["http://ayoung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "607.8 Kcal",
 										"carbohydrateContent": "92.4 g",
 										"proteinContent": "24.3 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "118.1 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "42.7 mg",
-										"calciumContent": "172.4 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

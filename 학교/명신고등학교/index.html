@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명신고등학교/",
 				"headline": "명신고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명신고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "myungshin-h.gne.go.kr",
-							"url": "myungshin-h.gne.go.kr",
-							"name": "명신고등학교 급식 식단표 안내",
-							"description": "명신고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명신고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명신고등학교",
+						"alternateName": "Myungshin High School",
+						"description": "경상남도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52732 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 대신로 614 (초전동/ 명신고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명신고등학교",
-							"alternateName": "Myungshin High School",
-							"description": "경상남도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52732 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 대신로 614 (초전동/ 명신고등학교)"
-							},
-							"telephone": "055-753-0011",
-							"faxNumber": "055-761-0602",
-							"sameAs": ["myungshin-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-753-0011",
+						"faxNumber": "055-761-0602",
+						"sameAs": ["myungshin-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1141.9 Kcal",
 										"carbohydrateContent": "157.1 g",
 										"proteinContent": "23.0 g",
-										"fatContent": "46.7 g",
-										"vitaminAContent": "297.5 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "39.8 mg",
-										"calciumContent": "198.7 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "46.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "789.2 Kcal",
 										"carbohydrateContent": "94.3 g",
 										"proteinContent": "45.4 g",
-										"fatContent": "23.9 g",
-										"vitaminAContent": "72.8 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "65.2 mg",
-										"calciumContent": "143.0 mg",
-										"ironContent": "7.2 mg"
+										"fatContent": "23.9 g"
 									}
 								}
 							]

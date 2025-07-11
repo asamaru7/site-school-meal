@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천영종고등학교/",
 				"headline": "인천영종고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천영종고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeongjong.icehs.kr",
-							"url": "http://yeongjong.icehs.kr",
-							"name": "인천영종고등학교 급식 식단표 안내",
-							"description": "인천영종고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천영종고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천영종고등학교",
+						"alternateName": "Incheon Yeongjong High School",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22376 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "중구",
+							"streetAddress": "인천광역시 중구 영종대로278번길 34 (운서동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천영종고등학교",
-							"alternateName": "Incheon Yeongjong High School",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22376 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "중구",
-								"streetAddress": "인천광역시 중구 영종대로278번길 34 (운서동)"
-							},
-							"telephone": "032-745-4300",
-							"faxNumber": "032-746-1594",
-							"sameAs": ["http://yeongjong.icehs.kr"]
-						}
-					],
+						"telephone": "032-745-4300",
+						"faxNumber": "032-746-1594",
+						"sameAs": ["http://yeongjong.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "982.8 Kcal",
 										"carbohydrateContent": "120.5 g",
 										"proteinContent": "46.0 g",
-										"fatContent": "34.2 g",
-										"vitaminAContent": "236.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.4 mg",
-										"calciumContent": "252.9 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "34.2 g"
 									}
 								}
 							]

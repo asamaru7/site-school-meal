@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/양성초등학교/",
 				"headline": "양성초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/양성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yangsung.es.kr",
-							"url": "http://yangsung.es.kr",
-							"name": "양성초등학교 급식 식단표 안내",
-							"description": "양성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 양성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "양성초등학교",
+						"alternateName": "Yangsung Elementary School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47208 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 양성로 34 (양정동/양성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "양성초등학교",
-							"alternateName": "Yangsung Elementary School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47208 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 양성로 34 (양정동/양성초등학교)"
-							},
-							"telephone": "051-868-7414",
-							"faxNumber": "051-868-7413",
-							"sameAs": ["http://yangsung.es.kr"]
-						}
-					],
+						"telephone": "051-868-7414",
+						"faxNumber": "051-868-7413",
+						"sameAs": ["http://yangsung.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "717.4 Kcal",
 										"carbohydrateContent": "77.5 g",
 										"proteinContent": "28.3 g",
-										"fatContent": "30.5 g",
-										"vitaminAContent": "119.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "13.0 mg",
-										"calciumContent": "192.6 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "30.5 g"
 									}
 								}
 							]

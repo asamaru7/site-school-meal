@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무동초등학교/",
 				"headline": "무동초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mudong-p.gne.go.kr/",
-							"url": "http://mudong-p.gne.go.kr/",
-							"name": "무동초등학교 급식 식단표 안내",
-							"description": "무동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무동초등학교",
+						"alternateName": "Mudong Elementary School",
+						"description": "창원교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51106 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 의창구",
+							"streetAddress": "경상남도 창원시 의창구 북면 동곡로 65 (북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무동초등학교",
-							"alternateName": "Mudong Elementary School",
-							"description": "창원교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51106 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 의창구",
-								"streetAddress": "경상남도 창원시 의창구 북면 동곡로 65 (북면)"
-							},
-							"telephone": "055-298-1877",
-							"faxNumber": "055-299-2436",
-							"sameAs": ["http://mudong-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-298-1877",
+						"faxNumber": "055-299-2436",
+						"sameAs": ["http://mudong-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "645.6 Kcal",
 										"carbohydrateContent": "80.5 g",
 										"proteinContent": "28.5 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "142.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "292.1 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

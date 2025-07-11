@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/양지초등학교/",
 				"headline": "양지초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/양지초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gj-yangji.gen.es.kr",
-							"url": "http://gj-yangji.gen.es.kr",
-							"name": "양지초등학교 급식 식단표 안내",
-							"description": "양지초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 양지초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "양지초등학교",
+						"alternateName": "Yang-Ji Elementary school",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61072 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "북구",
+							"streetAddress": "광주광역시 북구 자라봉로63번길 16 / 양지초등학교 (양산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "양지초등학교",
-							"alternateName": "Yang-Ji Elementary school",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61072 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "북구",
-								"streetAddress": "광주광역시 북구 자라봉로63번길 16 / 양지초등학교 (양산동)"
-							},
-							"telephone": "062-605-7701",
-							"faxNumber": "062-605-7770",
-							"sameAs": ["http://gj-yangji.gen.es.kr"]
-						}
-					],
+						"telephone": "062-605-7701",
+						"faxNumber": "062-605-7770",
+						"sameAs": ["http://gj-yangji.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "654.0 Kcal",
 										"carbohydrateContent": "91.3 g",
 										"proteinContent": "25.1 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "42.7 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "60.8 mg",
-										"calciumContent": "193.6 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

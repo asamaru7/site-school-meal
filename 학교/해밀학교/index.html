@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해밀학교/",
 				"headline": "해밀학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해밀학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://haemillschool.gwe.ms.kr",
-							"url": "http://haemillschool.gwe.ms.kr",
-							"name": "해밀학교 급식 식단표 안내",
-							"description": "해밀학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해밀학교 (각종학교(중)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해밀학교",
+						"alternateName": "HAEMILL SCHOOL",
+						"description": "강원특별자치도홍천교육지원청 / 사립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25105 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "홍천군",
+							"streetAddress": "강원특별자치도 홍천군 남면 남노일로 720-8 (남면/ 해밀학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해밀학교",
-							"alternateName": "HAEMILL SCHOOL",
-							"description": "강원특별자치도홍천교육지원청 / 사립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25105 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "홍천군",
-								"streetAddress": "강원특별자치도 홍천군 남면 남노일로 720-8 (남면/ 해밀학교)"
-							},
-							"telephone": "033-433-8761",
-							"faxNumber": "0504-841-8761",
-							"sameAs": ["http://haemillschool.gwe.ms.kr"]
-						}
-					]
+						"telephone": "033-433-8761",
+						"faxNumber": "0504-841-8761",
+						"sameAs": ["http://haemillschool.gwe.ms.kr"]
+					}
 				]
 			}
 		</script>

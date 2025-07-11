@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은풍초등학교/",
 				"headline": "은풍초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은풍초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/eunpunges",
-							"url": "http://school.gyo6.net/eunpunges",
-							"name": "은풍초등학교 급식 식단표 안내",
-							"description": "은풍초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은풍초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은풍초등학교",
+						"alternateName": "Eunpung Elementary School",
+						"description": "경상북도예천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36803 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "예천군",
+							"streetAddress": "경상북도 예천군 은풍면 내동길 8 / 은풍초등학교 (은풍면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은풍초등학교",
-							"alternateName": "Eunpung Elementary School",
-							"description": "경상북도예천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36803 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "예천군",
-								"streetAddress": "경상북도 예천군 은풍면 내동길 8 / 은풍초등학교 (은풍면)"
-							},
-							"telephone": "054-652-7956",
-							"faxNumber": "054-652-2322",
-							"sameAs": ["http://school.gyo6.net/eunpunges"]
-						}
-					],
+						"telephone": "054-652-7956",
+						"faxNumber": "054-652-2322",
+						"sameAs": ["http://school.gyo6.net/eunpunges"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "686.2 Kcal",
 										"carbohydrateContent": "105.7 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "16.4 g",
-										"vitaminAContent": "77.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "112.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "16.4 g"
 									}
 								}
 							]

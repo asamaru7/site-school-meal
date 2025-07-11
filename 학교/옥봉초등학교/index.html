@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/옥봉초등학교/",
 				"headline": "옥봉초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/옥봉초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://okbong.es.kr",
-							"url": "http://okbong.es.kr",
-							"name": "옥봉초등학교 급식 식단표 안내",
-							"description": "옥봉초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 옥봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "옥봉초등학교",
+						"alternateName": "Ok-bong Elementary School",
+						"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54168 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "군산시",
+							"streetAddress": "전북특별자치도 군산시 옥서면 옥봉초교길 29 옥봉초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "옥봉초등학교",
-							"alternateName": "Ok-bong Elementary School",
-							"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54168 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "군산시",
-								"streetAddress": "전북특별자치도 군산시 옥서면 옥봉초교길 29 옥봉초등학교"
-							},
-							"telephone": "063-471-2005",
-							"faxNumber": "063-471-5810",
-							"sameAs": ["http://okbong.es.kr"]
-						}
-					],
+						"telephone": "063-471-2005",
+						"faxNumber": "063-471-5810",
+						"sameAs": ["http://okbong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "594.9 Kcal",
 										"carbohydrateContent": "84.9 g",
 										"proteinContent": "35.9 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "26.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "143.6 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

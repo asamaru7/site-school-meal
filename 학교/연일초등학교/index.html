@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연일초등학교/",
 				"headline": "연일초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연일초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.yonil.es.kr",
-							"url": "http://www.yonil.es.kr",
-							"name": "연일초등학교 급식 식단표 안내",
-							"description": "연일초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연일초등학교",
+						"alternateName": "Yonil Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47583 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 고분로 126-4 (연산동/연일초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연일초등학교",
-							"alternateName": "Yonil Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47583 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 고분로 126-4 (연산동/연일초등학교)"
-							},
-							"telephone": "051-790-0600",
-							"faxNumber": "051-790-0610",
-							"sameAs": ["http://www.yonil.es.kr"]
-						}
-					],
+						"telephone": "051-790-0600",
+						"faxNumber": "051-790-0610",
+						"sameAs": ["http://www.yonil.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "645.1 Kcal",
 										"carbohydrateContent": "121.2 g",
 										"proteinContent": "19.4 g",
-										"fatContent": "9.4 g",
-										"vitaminAContent": "120.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "20.7 mg",
-										"calciumContent": "118.7 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "9.4 g"
 									}
 								}
 							]

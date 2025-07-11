@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신호중학교/",
 				"headline": "신호중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinho.ms.kr/",
-							"url": "http://shinho.ms.kr/",
-							"name": "신호중학교 급식 식단표 안내",
-							"description": "신호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신호중학교",
+						"alternateName": "Shinho Middle School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46760 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "강서구",
+							"streetAddress": "부산광역시 강서구 신호산단2로 76 (신호동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신호중학교",
-							"alternateName": "Shinho Middle School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46760 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "강서구",
-								"streetAddress": "부산광역시 강서구 신호산단2로 76 (신호동)"
-							},
-							"telephone": "051-320-9300",
-							"faxNumber": "051-320-9327",
-							"sameAs": ["http://shinho.ms.kr/"]
-						}
-					],
+						"telephone": "051-320-9300",
+						"faxNumber": "051-320-9327",
+						"sameAs": ["http://shinho.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "694.0 Kcal",
 										"carbohydrateContent": "69.4 g",
 										"proteinContent": "41.9 g",
-										"fatContent": "26.7 g",
-										"vitaminAContent": "127.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "65.9 mg",
-										"calciumContent": "80.1 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "26.7 g"
 									}
 								}
 							]

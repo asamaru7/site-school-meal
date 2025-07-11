@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/태봉초등학교-공주/",
 				"headline": "태봉초등학교(공주) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/태봉초등학교-공주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://taebongcho.cnees.kr/main.do",
-							"url": "http://taebongcho.cnees.kr/main.do",
-							"name": "태봉초등학교(공주) 급식 식단표 안내",
-							"description": "태봉초등학교(공주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 태봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "태봉초등학교(공주)",
+						"alternateName": "Taebong Primary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32600 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 원태봉길 57 (태봉동/ 태봉초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "태봉초등학교(공주)",
-							"alternateName": "Taebong Primary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32600 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 원태봉길 57 (태봉동/ 태봉초등학교)"
-							},
-							"telephone": "041-852-8007",
-							"faxNumber": "041-855-1561",
-							"sameAs": ["http://taebongcho.cnees.kr/main.do"]
-						}
-					],
+						"telephone": "041-852-8007",
+						"faxNumber": "041-855-1561",
+						"sameAs": ["http://taebongcho.cnees.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "996.8 Kcal",
 										"carbohydrateContent": "151.6 g",
 										"proteinContent": "42.7 g",
-										"fatContent": "21.2 g",
-										"vitaminAContent": "100.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.5 mg",
-										"vitaminCContent": "3.5 mg",
-										"calciumContent": "158.1 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "21.2 g"
 									}
 								}
 							]

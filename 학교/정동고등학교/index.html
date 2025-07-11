@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정동고등학교/",
 				"headline": "정동고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정동고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.jungdong.dge.hs.kr",
-							"url": "www.jungdong.dge.hs.kr",
-							"name": "정동고등학교 급식 식단표 안내",
-							"description": "정동고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정동고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정동고등학교",
+						"alternateName": "JungDong High School",
+						"description": "대구광역시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41124 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대구광역시 동구 용계로1길 49 / 정동고등학교 (용계동/ 정동고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정동고등학교",
-							"alternateName": "JungDong High School",
-							"description": "대구광역시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41124 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대구광역시 동구 용계로1길 49 / 정동고등학교 (용계동/ 정동고등학교)"
-							},
-							"telephone": "053-235-5800",
-							"faxNumber": "053-962-1724",
-							"sameAs": ["www.jungdong.dge.hs.kr"]
-						}
-					],
+						"telephone": "053-235-5800",
+						"faxNumber": "053-962-1724",
+						"sameAs": ["www.jungdong.dge.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "676.6 Kcal",
 										"carbohydrateContent": "105.4 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "12.2 g",
-										"vitaminAContent": "198.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "252.2 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "12.2 g"
 									}
 								}
 							]

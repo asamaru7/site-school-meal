@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사량초등학교/",
 				"headline": "사량초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사량초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://saryang-p.gne.go.kr",
-							"url": "http://saryang-p.gne.go.kr",
-							"name": "사량초등학교 급식 식단표 안내",
-							"description": "사량초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사량초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사량초등학교",
+						"alternateName": "Saryang Elementary School",
+						"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53103 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 사량면 상도일주로 1584 (사량면/ 사량초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사량초등학교",
-							"alternateName": "Saryang Elementary School",
-							"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53103 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 사량면 상도일주로 1584 (사량면/ 사량초등학교)"
-							},
-							"telephone": "055-642-6013",
-							"faxNumber": "055-641-8034",
-							"sameAs": ["http://saryang-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-642-6013",
+						"faxNumber": "055-641-8034",
+						"sameAs": ["http://saryang-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "798.7 Kcal",
 										"carbohydrateContent": "110.8 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "23.8 g",
-										"vitaminAContent": "59.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.5 mg",
-										"calciumContent": "240.7 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "23.8 g"
 									}
 								}
 							]

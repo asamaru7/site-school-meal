@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대창중학교/",
 				"headline": "대창중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대창중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/daechangms",
-							"url": "http://school.gyo6.net/daechangms",
-							"name": "대창중학교 급식 식단표 안내",
-							"description": "대창중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대창중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대창중학교",
+						"alternateName": "Daechang Middle School",
+						"description": "경상북도예천교육지원청 / 사립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36824 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "예천군",
+							"streetAddress": "경상북도 예천군 예천읍 대창학교길 33 (예천읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대창중학교",
-							"alternateName": "Daechang Middle School",
-							"description": "경상북도예천교육지원청 / 사립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36824 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "예천군",
-								"streetAddress": "경상북도 예천군 예천읍 대창학교길 33 (예천읍)"
-							},
-							"telephone": "054-654-7300",
-							"faxNumber": "054-652-7303",
-							"sameAs": ["http://school.gyo6.net/daechangms"]
-						}
-					]
+						"telephone": "054-654-7300",
+						"faxNumber": "054-652-7303",
+						"sameAs": ["http://school.gyo6.net/daechangms"]
+					}
 				]
 			}
 		</script>

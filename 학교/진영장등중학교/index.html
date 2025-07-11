@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진영장등중학교/",
 				"headline": "진영장등중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진영장등중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jyjangdeung-m.gne.go.kr",
-							"url": "http://jyjangdeung-m.gne.go.kr",
-							"name": "진영장등중학교 급식 식단표 안내",
-							"description": "진영장등중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진영장등중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진영장등중학교",
+						"alternateName": "Middle School",
+						"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50858 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 진영읍 장등로 120 / 진영장등중학교 (진영읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진영장등중학교",
-							"alternateName": "Middle School",
-							"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50858 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 진영읍 장등로 120 / 진영장등중학교 (진영읍)"
-							},
-							"telephone": "055-901-3202",
-							"faxNumber": "055-901-3205",
-							"sameAs": ["http://jyjangdeung-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-901-3202",
+						"faxNumber": "055-901-3205",
+						"sameAs": ["http://jyjangdeung-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "709.5 Kcal",
 										"carbohydrateContent": "109.8 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "52.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "5.5 mg",
-										"calciumContent": "192.3 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경북예술고등학교/",
 				"headline": "경북예술고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경북예술고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://gahs.dge.hs.kr",
-							"url": "https://gahs.dge.hs.kr",
-							"name": "경북예술고등학교 급식 식단표 안내",
-							"description": "경북예술고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경북예고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경북예술고등학교",
+						"alternateName": "GyeongBuk Arts High School",
+						"description": "대구광역시교육청 / 사립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42410 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "남구",
+							"streetAddress": "대구광역시 남구 중앙대로47길 30 (대명동/ 경북예술고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경북예술고등학교",
-							"alternateName": "GyeongBuk Arts High School",
-							"description": "대구광역시교육청 / 사립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42410 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "남구",
-								"streetAddress": "대구광역시 남구 중앙대로47길 30 (대명동/ 경북예술고등학교)"
-							},
-							"telephone": "053-235-8299",
-							"faxNumber": "053-622-4199",
-							"sameAs": ["https://gahs.dge.hs.kr"]
-						}
-					]
+						"telephone": "053-235-8299",
+						"faxNumber": "053-622-4199",
+						"sameAs": ["https://gahs.dge.hs.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/유락여자중학교/",
 				"headline": "유락여자중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/유락여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.yurak.ms.kr/",
-							"url": "http://www.yurak.ms.kr/",
-							"name": "유락여자중학교 급식 식단표 안내",
-							"description": "유락여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 유락여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "유락여자중학교",
+						"alternateName": "Yurack girls Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47707 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 금강로 51 (온천동/ 유락여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "유락여자중학교",
-							"alternateName": "Yurack girls Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47707 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 금강로 51 (온천동/ 유락여자중학교)"
-							},
-							"telephone": "051-950-8400",
-							"faxNumber": "051-950-8481",
-							"sameAs": ["http://www.yurak.ms.kr/"]
-						}
-					],
+						"telephone": "051-950-8400",
+						"faxNumber": "051-950-8481",
+						"sameAs": ["http://www.yurak.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "640.4 Kcal",
 										"carbohydrateContent": "76.5 g",
 										"proteinContent": "18.2 g",
-										"fatContent": "28.4 g",
-										"vitaminAContent": "24.1 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "305.7 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "28.4 g"
 									}
 								}
 							]

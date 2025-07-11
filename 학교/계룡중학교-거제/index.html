@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/계룡중학교-거제/",
 				"headline": "계룡중학교(거제) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/계룡중학교-거제/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gr-m.gne.go.kr",
-							"url": "http://gr-m.gne.go.kr",
-							"name": "계룡중학교(거제) 급식 식단표 안내",
-							"description": "계룡중학교(거제)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 계룡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "계룡중학교(거제)",
+						"alternateName": "Gyeryong Middle School",
+						"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53260 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 고현로14길 37 (고현동/ 계룡중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "계룡중학교(거제)",
-							"alternateName": "Gyeryong Middle School",
-							"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53260 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 고현로14길 37 (고현동/ 계룡중학교)"
-							},
-							"telephone": "055-638-5433",
-							"faxNumber": "055-638-5438",
-							"sameAs": ["http://gr-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-638-5433",
+						"faxNumber": "055-638-5438",
+						"sameAs": ["http://gr-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "935.3 Kcal",
 										"carbohydrateContent": "141.0 g",
 										"proteinContent": "25.7 g",
-										"fatContent": "29.3 g",
-										"vitaminAContent": "121.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "17.3 mg",
-										"calciumContent": "298.1 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "29.3 g"
 									}
 								}
 							]

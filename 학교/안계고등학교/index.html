@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안계고등학교/",
 				"headline": "안계고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안계고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/angyehs",
-							"url": "http://school.gyo6.net/angyehs",
-							"name": "안계고등학교 급식 식단표 안내",
-							"description": "안계고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안계고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안계고등학교",
+						"alternateName": "Angye High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37313 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "의성군",
+							"streetAddress": "경상북도 의성군 안계면 용기9길 9 (안계면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안계고등학교",
-							"alternateName": "Angye High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37313 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "의성군",
-								"streetAddress": "경상북도 의성군 안계면 용기9길 9 (안계면)"
-							},
-							"telephone": "054-861-1928",
-							"faxNumber": "054-861-1917",
-							"sameAs": ["http://school.gyo6.net/angyehs"]
-						}
-					],
+						"telephone": "054-861-1928",
+						"faxNumber": "054-861-1917",
+						"sameAs": ["http://school.gyo6.net/angyehs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "778.0 Kcal",
 										"carbohydrateContent": "121.4 g",
 										"proteinContent": "43.9 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "111.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "15.1 mg",
-										"calciumContent": "132.6 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구동산초등학교/",
 				"headline": "대구동산초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구동산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.dongsan.dge.es.kr",
-							"url": "www.dongsan.dge.es.kr",
-							"name": "대구동산초등학교 급식 식단표 안내",
-							"description": "대구동산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구동산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구동산초등학교",
+						"alternateName": "daegu dongsan elementary school",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42109 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 동대구로42길 29 (범어동/동산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구동산초등학교",
-							"alternateName": "daegu dongsan elementary school",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42109 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 동대구로42길 29 (범어동/동산초등학교)"
-							},
-							"telephone": "053-232-2894",
-							"faxNumber": "053-744-2205",
-							"sameAs": ["www.dongsan.dge.es.kr"]
-						}
-					],
+						"telephone": "053-232-2894",
+						"faxNumber": "053-744-2205",
+						"sameAs": ["www.dongsan.dge.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "631.8 Kcal",
 										"carbohydrateContent": "83.1 g",
 										"proteinContent": "27.1 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "99.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.6 mg",
-										"calciumContent": "294.3 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

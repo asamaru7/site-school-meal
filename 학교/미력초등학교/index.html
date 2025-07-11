@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미력초등학교/",
 				"headline": "미력초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미력초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://miryeok.es.jne.kr/",
-							"url": "http://miryeok.es.jne.kr/",
-							"name": "미력초등학교 급식 식단표 안내",
-							"description": "미력초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미력초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미력초등학교",
+						"alternateName": "Miryeok Elementary School",
+						"description": "전라남도보성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59443 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 미력면 송재로 589 / 미력초등학교 (미력면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미력초등학교",
-							"alternateName": "Miryeok Elementary School",
-							"description": "전라남도보성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59443 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 미력면 송재로 589 / 미력초등학교 (미력면)"
-							},
-							"telephone": "061-853-4610",
-							"faxNumber": "061-853-4615",
-							"sameAs": ["http://miryeok.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-853-4610",
+						"faxNumber": "061-853-4615",
+						"sameAs": ["http://miryeok.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "807.2 Kcal",
 										"carbohydrateContent": "119.9 g",
 										"proteinContent": "57.8 g",
-										"fatContent": "10.5 g",
-										"vitaminAContent": "85.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "39.7 mg",
-										"calciumContent": "365.0 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "10.5 g"
 									}
 								}
 							]

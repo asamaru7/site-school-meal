@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/비안초등학교/",
 				"headline": "비안초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/비안초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/bian",
-							"url": "http://school.gyo6.net/bian",
-							"name": "비안초등학교 급식 식단표 안내",
-							"description": "비안초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 비안초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "비안초등학교",
+						"alternateName": "Bian Elementary School",
+						"description": "경상북도의성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37364 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "의성군",
+							"streetAddress": "경상북도 의성군 비안면 강변길 105 (비안면/이두초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "비안초등학교",
-							"alternateName": "Bian Elementary School",
-							"description": "경상북도의성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37364 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "의성군",
-								"streetAddress": "경상북도 의성군 비안면 강변길 105 (비안면/이두초등학교)"
-							},
-							"telephone": "054-861-7015",
-							"faxNumber": "054-861-3005",
-							"sameAs": ["http://school.gyo6.net/bian"]
-						}
-					]
+						"telephone": "054-861-7015",
+						"faxNumber": "054-861-3005",
+						"sameAs": ["http://school.gyo6.net/bian"]
+					}
 				]
 			}
 		</script>

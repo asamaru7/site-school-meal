@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동강중학교/",
 				"headline": "동강중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동강중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.donggang.cnems.kr",
-							"url": "http://www.donggang.cnems.kr",
-							"name": "동강중학교 급식 식단표 안내",
-							"description": "동강중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동강중학교",
+						"alternateName": "Donggang Middle School",
+						"description": "충청남도서천교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33628 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서천군",
+							"streetAddress": "충청남도 서천군 기산면 충절로 624 (기산면/동강중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동강중학교",
-							"alternateName": "Donggang Middle School",
-							"description": "충청남도서천교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33628 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서천군",
-								"streetAddress": "충청남도 서천군 기산면 충절로 624 (기산면/동강중학교)"
-							},
-							"telephone": "041-951-1007",
-							"faxNumber": "041-951-4990",
-							"sameAs": ["http://www.donggang.cnems.kr"]
-						}
-					],
+						"telephone": "041-951-1007",
+						"faxNumber": "041-951-4990",
+						"sameAs": ["http://www.donggang.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "778.5 Kcal",
 										"carbohydrateContent": "80.6 g",
 										"proteinContent": "47.8 g",
-										"fatContent": "27.7 g",
-										"vitaminAContent": "136.3 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "363.3 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "27.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "849.1 Kcal",
 										"carbohydrateContent": "134.0 g",
 										"proteinContent": "31.6 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "169.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "31.2 mg",
-										"calciumContent": "609.4 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

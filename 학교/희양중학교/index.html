@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/희양중학교/",
 				"headline": "희양중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/희양중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://heeyang.ms.jne.kr/",
-							"url": "https://heeyang.ms.jne.kr/",
-							"name": "희양중학교 급식 식단표 안내",
-							"description": "희양중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 희양중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "희양중학교",
+						"alternateName": "Heeyang Middle School",
+						"description": "전라남도광양교육지원청 / 공립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57739 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "광양시",
+							"streetAddress": "전라남도 광양시 광양읍 남등1길 72-6 (광양읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "희양중학교",
-							"alternateName": "Heeyang Middle School",
-							"description": "전라남도광양교육지원청 / 공립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57739 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "광양시",
-								"streetAddress": "전라남도 광양시 광양읍 남등1길 72-6 (광양읍)"
-							},
-							"telephone": "061-760-3811",
-							"faxNumber": "061-763-0882",
-							"sameAs": ["https://heeyang.ms.jne.kr/"]
-						}
-					],
+						"telephone": "061-760-3811",
+						"faxNumber": "061-763-0882",
+						"sameAs": ["https://heeyang.ms.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "684.9 Kcal",
 										"carbohydrateContent": "104.5 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "164.4 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "22.3 mg",
-										"calciumContent": "295.5 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

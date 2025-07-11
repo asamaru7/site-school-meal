@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/석정여자중학교/",
 				"headline": "석정여자중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/석정여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sj.gwe.ms.kr/",
-							"url": "http://sj.gwe.ms.kr/",
-							"name": "석정여자중학교 급식 식단표 안내",
-							"description": "석정여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 석정여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "석정여자중학교",
+						"alternateName": "Suhckchung Girls Middle School",
+						"description": "강원특별자치도영월교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26239 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "영월군",
+							"streetAddress": "강원특별자치도 영월군 영월읍 영월로 1914-11 석정여자중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "석정여자중학교",
-							"alternateName": "Suhckchung Girls Middle School",
-							"description": "강원특별자치도영월교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26239 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "영월군",
-								"streetAddress": "강원특별자치도 영월군 영월읍 영월로 1914-11 석정여자중학교"
-							},
-							"telephone": "033-370-4500",
-							"faxNumber": "033-370-4535",
-							"sameAs": ["http://sj.gwe.ms.kr/"]
-						}
-					],
+						"telephone": "033-370-4500",
+						"faxNumber": "033-370-4535",
+						"sameAs": ["http://sj.gwe.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "874.5 Kcal",
 										"carbohydrateContent": "136.1 g",
 										"proteinContent": "30.0 g",
-										"fatContent": "22.0 g",
-										"vitaminAContent": "96.3 R.E",
-										"thiaminContent": "5.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "208.3 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "22.0 g"
 									}
 								}
 							]

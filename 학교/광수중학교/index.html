@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광수중학교/",
 				"headline": "광수중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광수중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://gwangsu-m.goegh.kr",
-							"url": "https://gwangsu-m.goegh.kr",
-							"name": "광수중학교 급식 식단표 안내",
-							"description": "광수중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광수중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광수중학교",
+						"alternateName": "Gwangsu middle school",
+						"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12711 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "광주시",
+							"streetAddress": "경기도 광주시 퇴촌면 도수길23번길 23 (퇴촌면, 광수중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광수중학교",
-							"alternateName": "Gwangsu middle school",
-							"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12711 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "광주시",
-								"streetAddress": "경기도 광주시 퇴촌면 도수길23번길 23 (퇴촌면, 광수중학교)"
-							},
-							"telephone": "031-768-3103",
-							"faxNumber": "031-768-3104",
-							"sameAs": ["https://gwangsu-m.goegh.kr"]
-						}
-					],
+						"telephone": "031-768-3103",
+						"faxNumber": "031-768-3104",
+						"sameAs": ["https://gwangsu-m.goegh.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "809.6 Kcal",
 										"carbohydrateContent": "93.1 g",
 										"proteinContent": "44.6 g",
-										"fatContent": "26.7 g",
-										"vitaminAContent": "34.8 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "12.6 mg",
-										"calciumContent": "308.3 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "26.7 g"
 									}
 								}
 							]

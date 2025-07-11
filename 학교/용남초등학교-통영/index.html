@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용남초등학교-통영/",
 				"headline": "용남초등학교(통영) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용남초등학교-통영/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tyyongnam-p.gne.go.kr/",
-							"url": "http://tyyongnam-p.gne.go.kr/",
-							"name": "용남초등학교(통영) 급식 식단표 안내",
-							"description": "용남초등학교(통영)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용남초등학교(통영)",
+						"alternateName": "",
+						"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53027 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 용남면 달포큰길 125 (용남면/ 용남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용남초등학교(통영)",
-							"alternateName": "",
-							"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53027 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 용남면 달포큰길 125 (용남면/ 용남초등학교)"
-							},
-							"telephone": "055-645-7615",
-							"faxNumber": "055-645-9451",
-							"sameAs": ["http://tyyongnam-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-645-7615",
+						"faxNumber": "055-645-9451",
+						"sameAs": ["http://tyyongnam-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "666.7 Kcal",
 										"carbohydrateContent": "95.2 g",
 										"proteinContent": "19.1 g",
-										"fatContent": "22.7 g",
-										"vitaminAContent": "151.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "12.1 mg",
-										"calciumContent": "385.4 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "22.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구서여자중학교/",
 				"headline": "구서여자중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구서여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.guseo.ms.kr",
-							"url": "http://www.guseo.ms.kr",
-							"name": "구서여자중학교 급식 식단표 안내",
-							"description": "구서여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구서여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구서여자중학교",
+						"alternateName": "Guseo Girls Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46242 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "금정구",
+							"streetAddress": "부산광역시 금정구 금강로453번길 26-12 (구서동/구서여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구서여자중학교",
-							"alternateName": "Guseo Girls Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46242 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "금정구",
-								"streetAddress": "부산광역시 금정구 금강로453번길 26-12 (구서동/구서여자중학교)"
-							},
-							"telephone": "051-580-5700",
-							"faxNumber": "051-580-5707",
-							"sameAs": ["http://www.guseo.ms.kr"]
-						}
-					],
+						"telephone": "051-580-5700",
+						"faxNumber": "051-580-5707",
+						"sameAs": ["http://www.guseo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "636.4 Kcal",
 										"carbohydrateContent": "81.2 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "22.4 g",
-										"vitaminAContent": "58.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.7 mg",
-										"calciumContent": "162.3 mg",
-										"ironContent": "13.1 mg"
+										"fatContent": "22.4 g"
 									}
 								}
 							]

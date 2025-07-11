@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/엄정초등학교/",
 				"headline": "엄정초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/엄정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/eomjeong-e/",
-							"url": "http://school.cbe.go.kr/eomjeong-e/",
-							"name": "엄정초등학교 급식 식단표 안내",
-							"description": "엄정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 엄정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "엄정초등학교",
+						"alternateName": "eomjeong elementary school elementary school",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27313 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 엄정면 내창로 199-5 (엄정면/ 엄정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "엄정초등학교",
-							"alternateName": "eomjeong elementary school elementary school",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27313 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 엄정면 내창로 199-5 (엄정면/ 엄정초등학교)"
-							},
-							"telephone": "043-852-4500",
-							"faxNumber": "043-852-8825",
-							"sameAs": ["http://school.cbe.go.kr/eomjeong-e/"]
-						}
-					],
+						"telephone": "043-852-4500",
+						"faxNumber": "043-852-8825",
+						"sameAs": ["http://school.cbe.go.kr/eomjeong-e/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.9 Kcal",
 										"carbohydrateContent": "107.3 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "371.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.1 mg",
-										"calciumContent": "574.6 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

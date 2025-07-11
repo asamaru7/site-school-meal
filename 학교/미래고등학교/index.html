@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미래고등학교/",
 				"headline": "미래고등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미래고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://mirae.gwe.hs.kr/",
-							"url": "https://mirae.gwe.hs.kr/",
-							"name": "미래고등학교 급식 식단표 안내",
-							"description": "미래고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미래고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미래고등학교",
+						"alternateName": "Mirae High School",
+						"description": "강원특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26455 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 고문골길 54 (행구동, 미래고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미래고등학교",
-							"alternateName": "Mirae High School",
-							"description": "강원특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26455 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 고문골길 54 (행구동, 미래고등학교)"
-							},
-							"telephone": "033-747-6162",
-							"faxNumber": "033-747-6164",
-							"sameAs": ["https://mirae.gwe.hs.kr/"]
-						}
-					],
+						"telephone": "033-747-6162",
+						"faxNumber": "033-747-6164",
+						"sameAs": ["https://mirae.gwe.hs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "971.1 Kcal",
 										"carbohydrateContent": "142.4 g",
 										"proteinContent": "33.5 g",
-										"fatContent": "28.2 g",
-										"vitaminAContent": "306.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "36.9 mg",
-										"calciumContent": "336.6 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "28.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "940.2 Kcal",
 										"carbohydrateContent": "132.4 g",
 										"proteinContent": "39.8 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "325.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "22.3 mg",
-										"calciumContent": "165.2 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

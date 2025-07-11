@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중마고등학교/",
 				"headline": "중마고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중마고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungma.hs.jne.kr",
-							"url": "http://jungma.hs.jne.kr",
-							"name": "중마고등학교 급식 식단표 안내",
-							"description": "중마고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중마고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중마고등학교",
+						"alternateName": "Jungma High School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57774 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "광양시",
+							"streetAddress": "전라남도 광양시 등논4길 40 (마동)중마고등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중마고등학교",
-							"alternateName": "Jungma High School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57774 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "광양시",
-								"streetAddress": "전라남도 광양시 등논4길 40 (마동)중마고등학교"
-							},
-							"telephone": "061-815-7700",
-							"faxNumber": "061-795-5602",
-							"sameAs": ["http://jungma.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-815-7700",
+						"faxNumber": "061-795-5602",
+						"sameAs": ["http://jungma.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "582.5 Kcal",
 										"carbohydrateContent": "96.9 g",
 										"proteinContent": "24.5 g",
-										"fatContent": "9.2 g",
-										"vitaminAContent": "236.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "263.5 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "9.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "712.2 Kcal",
 										"carbohydrateContent": "103.2 g",
 										"proteinContent": "37.1 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "530.3 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "18.2 mg",
-										"calciumContent": "418.2 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "15.7 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "519.1 Kcal",
 										"carbohydrateContent": "100.2 g",
 										"proteinContent": "10.9 g",
-										"fatContent": "7.2 g",
-										"vitaminAContent": "16.5 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.1 mg",
-										"vitaminCContent": "5.9 mg",
-										"calciumContent": "92.6 mg",
-										"ironContent": "1.3 mg"
+										"fatContent": "7.2 g"
 									}
 								}
 							]

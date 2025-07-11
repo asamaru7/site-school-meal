@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영남중학교-대구/",
 				"headline": "영남중학교(대구) 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영남중학교-대구/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yn.dge.ms.kr",
-							"url": "http://yn.dge.ms.kr",
-							"name": "영남중학교(대구) 급식 식단표 안내",
-							"description": "영남중학교(대구)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영남중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영남중학교(대구)",
+						"alternateName": "YeongNam Middle School",
+						"description": "대구광역시남부교육지원청 / 사립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42748 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 월곡로 300 / 영남중학교 (상인동/ 영남중/고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영남중학교(대구)",
-							"alternateName": "YeongNam Middle School",
-							"description": "대구광역시남부교육지원청 / 사립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42748 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 월곡로 300 / 영남중학교 (상인동/ 영남중/고등학교)"
-							},
-							"telephone": "053-234-8700",
-							"faxNumber": "053-634-7705",
-							"sameAs": ["http://yn.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-234-8700",
+						"faxNumber": "053-634-7705",
+						"sameAs": ["http://yn.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "925.9 Kcal",
 										"carbohydrateContent": "132.6 g",
 										"proteinContent": "58.6 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "410.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "24.9 mg",
-										"calciumContent": "597.3 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

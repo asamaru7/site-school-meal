@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우신고등학교/",
 				"headline": "우신고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우신고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wooshin.sen.hs.kr",
-							"url": "http://wooshin.sen.hs.kr",
-							"name": "우신고등학교 급식 식단표 안내",
-							"description": "우신고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우신고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우신고등학교",
+						"alternateName": "Wooshin High School",
+						"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08258 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "구로구",
+							"streetAddress": "서울특별시 구로구 부일로 917 / 우신고등학교 (궁동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우신고등학교",
-							"alternateName": "Wooshin High School",
-							"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08258 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "구로구",
-								"streetAddress": "서울특별시 구로구 부일로 917 / 우신고등학교 (궁동)"
-							},
-							"telephone": "02-2610-1599",
-							"faxNumber": "02-2610-1559",
-							"sameAs": ["http://wooshin.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-2610-1599",
+						"faxNumber": "02-2610-1559",
+						"sameAs": ["http://wooshin.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "980.4 Kcal",
 										"carbohydrateContent": "139.0 g",
 										"proteinContent": "45.0 g",
-										"fatContent": "27.2 g",
-										"vitaminAContent": "128.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "22.7 mg",
-										"calciumContent": "206.0 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "27.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1160.1 Kcal",
 										"carbohydrateContent": "220.6 g",
 										"proteinContent": "40.2 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "613.6 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "43.9 mg",
-										"calciumContent": "292.9 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

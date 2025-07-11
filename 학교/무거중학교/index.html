@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무거중학교/",
 				"headline": "무거중학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무거중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.mugeo.ms.kr",
-							"url": "http://www.mugeo.ms.kr",
-							"name": "무거중학교 급식 식단표 안내",
-							"description": "무거중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무거중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무거중학교",
+						"alternateName": "Mugeo Middle School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44619 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 대학로1번길 17-18 (무거동/ 무거중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무거중학교",
-							"alternateName": "Mugeo Middle School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44619 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 대학로1번길 17-18 (무거동/ 무거중학교)"
-							},
-							"telephone": "052-710-5300",
-							"faxNumber": "052-223-1364",
-							"sameAs": ["http://www.mugeo.ms.kr"]
-						}
-					],
+						"telephone": "052-710-5300",
+						"faxNumber": "052-223-1364",
+						"sameAs": ["http://www.mugeo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.0 Kcal",
 										"carbohydrateContent": "105.7 g",
 										"proteinContent": "47.1 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "203.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.8 mg",
-										"calciumContent": "241.4 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

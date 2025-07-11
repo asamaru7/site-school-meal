@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/산척초등학교/",
 				"headline": "산척초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/산척초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/sancheok-e",
-							"url": "http://school.cbe.go.kr/sancheok-e",
-							"name": "산척초등학교 급식 식단표 안내",
-							"description": "산척초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 산척초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "산척초등학교",
+						"alternateName": "Sancheok Elemantary School",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27315 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 산척면 천등박달로 134 (산척면/산척초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "산척초등학교",
-							"alternateName": "Sancheok Elemantary School",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27315 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 산척면 천등박달로 134 (산척면/산척초등학교)"
-							},
-							"telephone": "043-853-6208",
-							"faxNumber": "043-853-8519",
-							"sameAs": ["http://school.cbe.go.kr/sancheok-e"]
-						}
-					],
+						"telephone": "043-853-6208",
+						"faxNumber": "043-853-8519",
+						"sameAs": ["http://school.cbe.go.kr/sancheok-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "762.1 Kcal",
 										"carbohydrateContent": "118.6 g",
 										"proteinContent": "31.9 g",
-										"fatContent": "18.8 g",
-										"vitaminAContent": "501.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "896.8 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "18.8 g"
 									}
 								}
 							]

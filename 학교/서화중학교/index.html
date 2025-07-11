@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서화중학교/",
 				"headline": "서화중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서화중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seohwa.gwe.ms.kr",
-							"url": "http://seohwa.gwe.ms.kr",
-							"name": "서화중학교 급식 식단표 안내",
-							"description": "서화중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서화중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서화중학교",
+						"alternateName": "Seohwa Middle School",
+						"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24603 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "인제군",
+							"streetAddress": "강원특별자치도 인제군 서화면 천도로 112 (서화면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서화중학교",
-							"alternateName": "Seohwa Middle School",
-							"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24603 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "인제군",
-								"streetAddress": "강원특별자치도 인제군 서화면 천도로 112 (서화면)"
-							},
-							"telephone": "033-462-4006",
-							"faxNumber": "033-462-1119",
-							"sameAs": ["http://seohwa.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-462-4006",
+						"faxNumber": "033-462-1119",
+						"sameAs": ["http://seohwa.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "812.6 Kcal",
 										"carbohydrateContent": "113.7 g",
 										"proteinContent": "39.3 g",
-										"fatContent": "20.5 g",
-										"vitaminAContent": "187.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "104.6 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "20.5 g"
 									}
 								}
 							]

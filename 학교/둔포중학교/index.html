@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/둔포중학교/",
 				"headline": "둔포중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/둔포중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dunpo.cnems.kr",
-							"url": "http://dunpo.cnems.kr",
-							"name": "둔포중학교 급식 식단표 안내",
-							"description": "둔포중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 둔포중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "둔포중학교",
+						"alternateName": "Dunpo Middle School",
+						"description": "충청남도아산교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31405 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 둔포면 둔포중앙로161번길 26-13 (둔포면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "둔포중학교",
-							"alternateName": "Dunpo Middle School",
-							"description": "충청남도아산교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31405 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 둔포면 둔포중앙로161번길 26-13 (둔포면)"
-							},
-							"telephone": "041-531-2251",
-							"faxNumber": "041-532-2253",
-							"sameAs": ["http://dunpo.cnems.kr"]
-						}
-					],
+						"telephone": "041-531-2251",
+						"faxNumber": "041-532-2253",
+						"sameAs": ["http://dunpo.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "828.0 Kcal",
 										"carbohydrateContent": "105.9 g",
 										"proteinContent": "37.0 g",
-										"fatContent": "27.0 g",
-										"vitaminAContent": "303.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "28.0 mg",
-										"calciumContent": "421.6 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "27.0 g"
 									}
 								}
 							]

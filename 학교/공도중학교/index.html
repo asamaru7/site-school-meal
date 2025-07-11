@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공도중학교/",
 				"headline": "공도중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공도중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://gongdo-m.goean.kr/gongdo-m/main.do",
-							"url": "https://gongdo-m.goean.kr/gongdo-m/main.do",
-							"name": "공도중학교 급식 식단표 안내",
-							"description": "공도중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공도중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공도중학교",
+						"alternateName": "Gongdo Middle School",
+						"description": "경기도안성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17560 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안성시",
+							"streetAddress": "경기도 안성시 공도읍 공도로 115-12 / 공도중학교 (공도읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공도중학교",
-							"alternateName": "Gongdo Middle School",
-							"description": "경기도안성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17560 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안성시",
-								"streetAddress": "경기도 안성시 공도읍 공도로 115-12 / 공도중학교 (공도읍)"
-							},
-							"telephone": "031-612-7270",
-							"faxNumber": "031-654-3065",
-							"sameAs": ["https://gongdo-m.goean.kr/gongdo-m/main.do"]
-						}
-					],
+						"telephone": "031-612-7270",
+						"faxNumber": "031-654-3065",
+						"sameAs": ["https://gongdo-m.goean.kr/gongdo-m/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "496.9 Kcal",
 										"carbohydrateContent": "65.9 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "91.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "5.6 mg",
-										"calciumContent": "216.6 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

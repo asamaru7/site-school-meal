@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/다송초등학교/",
 				"headline": "다송초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/다송초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.dasong.es.kr",
-							"url": "http://www.dasong.es.kr",
-							"name": "다송초등학교 급식 식단표 안내",
-							"description": "다송초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 다송초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "다송초등학교",
+						"alternateName": "Dasong Elementary School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49513 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 다대로381번길 17 (다대동/ 다송초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "다송초등학교",
-							"alternateName": "Dasong Elementary School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49513 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 다대로381번길 17 (다대동/ 다송초등학교)"
-							},
-							"telephone": "051-260-5800",
-							"faxNumber": "051-265-4687",
-							"sameAs": ["http://www.dasong.es.kr"]
-						}
-					],
+						"telephone": "051-260-5800",
+						"faxNumber": "051-265-4687",
+						"sameAs": ["http://www.dasong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "590.5 Kcal",
 										"carbohydrateContent": "81.6 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "15.3 g",
-										"vitaminAContent": "78.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "25.6 mg",
-										"calciumContent": "167.2 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "15.3 g"
 									}
 								}
 							]

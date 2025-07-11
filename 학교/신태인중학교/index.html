@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신태인중학교/",
 				"headline": "신태인중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신태인중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sintaein.ms.kr",
-							"url": "http://www.sintaein.ms.kr",
-							"name": "신태인중학교 급식 식단표 안내",
-							"description": "신태인중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신태인중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신태인중학교",
+						"alternateName": "Shintaein Middle School",
+						"description": "전북특별자치도정읍교육지원청 / 사립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "56104 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "정읍시",
+							"streetAddress": "전북특별자치도 정읍시 신태인읍 서태길 108 신태인중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신태인중학교",
-							"alternateName": "Shintaein Middle School",
-							"description": "전북특별자치도정읍교육지원청 / 사립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "56104 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "정읍시",
-								"streetAddress": "전북특별자치도 정읍시 신태인읍 서태길 108 신태인중학교"
-							},
-							"telephone": "063-571-2125",
-							"faxNumber": "063-571-7377",
-							"sameAs": ["http://www.sintaein.ms.kr"]
-						}
-					],
+						"telephone": "063-571-2125",
+						"faxNumber": "063-571-7377",
+						"sameAs": ["http://www.sintaein.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1004.9 Kcal",
 										"carbohydrateContent": "137.9 g",
 										"proteinContent": "58.0 g",
-										"fatContent": "24.4 g",
-										"vitaminAContent": "54.8 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "25.0 mg",
-										"calciumContent": "395.5 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "24.4 g"
 									}
 								}
 							]

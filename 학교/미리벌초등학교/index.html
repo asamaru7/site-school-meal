@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미리벌초등학교/",
 				"headline": "미리벌초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미리벌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://miribeol-p.gne.go.kr/miribeol-p/main.do",
-							"url": "http://miribeol-p.gne.go.kr/miribeol-p/main.do",
-							"name": "미리벌초등학교 급식 식단표 안내",
-							"description": "미리벌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미리벌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미리벌초등학교",
+						"alternateName": "Miribeol Elementary School",
+						"description": "밀양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50439 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "밀양시",
+							"streetAddress": "경상남도 밀양시 미리벌로 41-22 (삼문동/ 미리벌초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미리벌초등학교",
-							"alternateName": "Miribeol Elementary School",
-							"description": "밀양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50439 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "밀양시",
-								"streetAddress": "경상남도 밀양시 미리벌로 41-22 (삼문동/ 미리벌초등학교)"
-							},
-							"telephone": "055-356-6048",
-							"faxNumber": "055-356-6166",
-							"sameAs": ["http://miribeol-p.gne.go.kr/miribeol-p/main.do"]
-						}
-					],
+						"telephone": "055-356-6048",
+						"faxNumber": "055-356-6166",
+						"sameAs": ["http://miribeol-p.gne.go.kr/miribeol-p/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "571.5 Kcal",
 										"carbohydrateContent": "73.4 g",
 										"proteinContent": "33.6 g",
-										"fatContent": "14.9 g",
-										"vitaminAContent": "165.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "28.2 mg",
-										"calciumContent": "397.8 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "14.9 g"
 									}
 								}
 							]

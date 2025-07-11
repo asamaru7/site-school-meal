@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광양용강중학교/",
 				"headline": "광양용강중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광양용강중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyyonggang.ms.jne.kr",
-							"url": "http://gyyonggang.ms.jne.kr",
-							"name": "광양용강중학교 급식 식단표 안내",
-							"description": "광양용강중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광양용강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광양용강중학교",
+						"alternateName": "GwangYangYongGang Middle School",
+						"description": "전라남도광양교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57746 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "광양시",
+							"streetAddress": "전라남도 광양시 광양읍 용강1길 24 (광양읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광양용강중학교",
-							"alternateName": "GwangYangYongGang Middle School",
-							"description": "전라남도광양교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57746 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "광양시",
-								"streetAddress": "전라남도 광양시 광양읍 용강1길 24 (광양읍)"
-							},
-							"telephone": "061-760-6002",
-							"faxNumber": "061-763-7100",
-							"sameAs": ["http://gyyonggang.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-760-6002",
+						"faxNumber": "061-763-7100",
+						"sameAs": ["http://gyyonggang.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1053.5 Kcal",
 										"carbohydrateContent": "154.5 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "33.5 g",
-										"vitaminAContent": "291.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "15.7 mg",
-										"calciumContent": "229.7 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "33.5 g"
 									}
 								}
 							]

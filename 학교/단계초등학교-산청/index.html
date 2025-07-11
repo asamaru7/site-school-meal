@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/단계초등학교-산청/",
 				"headline": "단계초등학교(산청) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/단계초등학교-산청/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dangye-p.gne.go.kr/",
-							"url": "http://dangye-p.gne.go.kr/",
-							"name": "단계초등학교(산청) 급식 식단표 안내",
-							"description": "단계초등학교(산청)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 단계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "단계초등학교(산청)",
+						"alternateName": " ",
+						"description": "산청교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52257 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "산청군",
+							"streetAddress": "경상남도 산청군 신등면 신차로 514 (신등면/단계초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "단계초등학교(산청)",
-							"alternateName": " ",
-							"description": "산청교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52257 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "산청군",
-								"streetAddress": "경상남도 산청군 신등면 신차로 514 (신등면/단계초등학교)"
-							},
-							"telephone": "055-972-3122",
-							"faxNumber": "055-973-9352",
-							"sameAs": ["http://dangye-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-972-3122",
+						"faxNumber": "055-973-9352",
+						"sameAs": ["http://dangye-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "659.7 Kcal",
 										"carbohydrateContent": "112.9 g",
 										"proteinContent": "19.0 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "337.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.3 mg",
-										"calciumContent": "197.6 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

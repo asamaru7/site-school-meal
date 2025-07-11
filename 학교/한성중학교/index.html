@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한성중학교/",
 				"headline": "한성중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hanseong.ms.kr",
-							"url": "http://www.hanseong.ms.kr",
-							"name": "한성중학교 급식 식단표 안내",
-							"description": "한성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한성중학교",
+						"alternateName": "Hanseong Middle School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03771 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서대문구",
+							"streetAddress": "서울특별시 서대문구 북아현로1길 24 (북아현동/한성중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한성중학교",
-							"alternateName": "Hanseong Middle School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03771 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서대문구",
-								"streetAddress": "서울특별시 서대문구 북아현로1길 24 (북아현동/한성중학교)"
-							},
-							"telephone": "02-365-4942",
-							"faxNumber": "02-364-6926",
-							"sameAs": ["http://www.hanseong.ms.kr"]
-						}
-					],
+						"telephone": "02-365-4942",
+						"faxNumber": "02-364-6926",
+						"sameAs": ["http://www.hanseong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "842.9 Kcal",
 										"carbohydrateContent": "105.2 g",
 										"proteinContent": "47.5 g",
-										"fatContent": "23.6 g",
-										"vitaminAContent": "129.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "39.5 mg",
-										"calciumContent": "502.6 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "23.6 g"
 									}
 								}
 							]

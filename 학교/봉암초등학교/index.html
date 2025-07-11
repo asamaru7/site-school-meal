@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉암초등학교/",
 				"headline": "봉암초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bongames.djsch.kr",
-							"url": "http://bongames.djsch.kr",
-							"name": "봉암초등학교 급식 식단표 안내",
-							"description": "봉암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉암초등학교",
+						"alternateName": "Bongam Elementary School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34137 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 궁동로 21 (궁동/ 봉암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉암초등학교",
-							"alternateName": "Bongam Elementary School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34137 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 궁동로 21 (궁동/ 봉암초등학교)"
-							},
-							"telephone": "042-822-2192",
-							"faxNumber": "042-822-8076",
-							"sameAs": ["http://bongames.djsch.kr"]
-						}
-					],
+						"telephone": "042-822-2192",
+						"faxNumber": "042-822-8076",
+						"sameAs": ["http://bongames.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "943.3 Kcal",
 										"carbohydrateContent": "158.4 g",
 										"proteinContent": "30.6 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "49.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "12.1 mg",
-										"calciumContent": "89.3 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

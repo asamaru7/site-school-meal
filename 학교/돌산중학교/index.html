@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/돌산중학교/",
 				"headline": "돌산중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/돌산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dolsan.ms.jne.kr",
-							"url": "http://dolsan.ms.jne.kr",
-							"name": "돌산중학교 급식 식단표 안내",
-							"description": "돌산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 돌산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "돌산중학교",
+						"alternateName": "Dolsan Middle School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59777 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 돌산읍 돌산로 1197 (돌산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "돌산중학교",
-							"alternateName": "Dolsan Middle School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59777 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 돌산읍 돌산로 1197 (돌산읍)"
-							},
-							"telephone": "061-644-1203",
-							"faxNumber": "061-644-2425",
-							"sameAs": ["http://dolsan.ms.jne.kr"]
-						}
-					]
+						"telephone": "061-644-1203",
+						"faxNumber": "061-644-2425",
+						"sameAs": ["http://dolsan.ms.jne.kr"]
+					}
 				]
 			}
 		</script>

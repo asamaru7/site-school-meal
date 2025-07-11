@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천성동학교/",
 				"headline": "인천성동학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천성동학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sd.icesc.kr",
-							"url": "http://sd.icesc.kr",
-							"name": "인천성동학교 급식 식단표 안내",
-							"description": "인천성동학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천성동학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천성동학교",
+						"alternateName": "Incheon Seongdong School for the Deaf",
+						"description": "인천광역시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21428 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 경인로 880 / 인천성동학교 (부평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천성동학교",
-							"alternateName": "Incheon Seongdong School for the Deaf",
-							"description": "인천광역시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21428 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 경인로 880 / 인천성동학교 (부평동)"
-							},
-							"telephone": "032-524-3545",
-							"faxNumber": "032-524-3529",
-							"sameAs": ["http://sd.icesc.kr"]
-						}
-					],
+						"telephone": "032-524-3545",
+						"faxNumber": "032-524-3529",
+						"sameAs": ["http://sd.icesc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.0 Kcal",
 										"carbohydrateContent": "96.9 g",
 										"proteinContent": "45.4 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "341.9 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "328.4 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/운남초등학교-무안/",
 				"headline": "운남초등학교(무안) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/운남초등학교-무안/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://unnam.es.jne.kr",
-							"url": "http://unnam.es.jne.kr",
-							"name": "운남초등학교(무안) 급식 식단표 안내",
-							"description": "운남초등학교(무안)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 운남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "운남초등학교(무안)",
+						"alternateName": "Unnam Elementary School",
+						"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58537 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "무안군",
+							"streetAddress": "전라남도 무안군 운남면 운해로 543 / 운남초등학교 (운남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "운남초등학교(무안)",
-							"alternateName": "Unnam Elementary School",
-							"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58537 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "무안군",
-								"streetAddress": "전라남도 무안군 운남면 운해로 543 / 운남초등학교 (운남면)"
-							},
-							"telephone": "061-452-4047",
-							"faxNumber": "061-453-2799",
-							"sameAs": ["http://unnam.es.jne.kr"]
-						}
-					],
+						"telephone": "061-452-4047",
+						"faxNumber": "061-453-2799",
+						"sameAs": ["http://unnam.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "677.0 Kcal",
 										"carbohydrateContent": "101.4 g",
 										"proteinContent": "35.5 g",
-										"fatContent": "14.5 g",
-										"vitaminAContent": "162.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.4 mg",
-										"calciumContent": "109.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "14.5 g"
 									}
 								}
 							]

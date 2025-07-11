@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여수개도중학교/",
 				"headline": "여수개도중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여수개도중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gaedo.ms.jne.kr",
-							"url": "http://gaedo.ms.jne.kr",
-							"name": "여수개도중학교 급식 식단표 안내",
-							"description": "여수개도중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여수개도중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여수개도중학교",
+						"alternateName": "YeosuGaedo Middle School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59783 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 화정면 개도화산3길 8 (화정면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여수개도중학교",
-							"alternateName": "YeosuGaedo Middle School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59783 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 화정면 개도화산3길 8 (화정면)"
-							},
-							"telephone": "061-666-8670",
-							"faxNumber": "061-665-6893",
-							"sameAs": ["http://gaedo.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-666-8670",
+						"faxNumber": "061-665-6893",
+						"sameAs": ["http://gaedo.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "902.4 Kcal",
 										"carbohydrateContent": "141.5 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "24.7 g",
-										"vitaminAContent": "222.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "386.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "24.7 g"
 									}
 								}
 							]

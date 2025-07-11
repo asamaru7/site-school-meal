@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/왜관동부초등학교/",
 				"headline": "왜관동부초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/왜관동부초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/waedonges",
-							"url": "http://school.gyo6.net/waedonges",
-							"name": "왜관동부초등학교 급식 식단표 안내",
-							"description": "왜관동부초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 왜관동부초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "왜관동부초등학교",
+						"alternateName": "Waegwan Dongbu Elementary School",
+						"description": "경상북도칠곡교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39902 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "칠곡군",
+							"streetAddress": "경상북도 칠곡군 왜관읍 평장3길 31-4 / 왜관동부초등학교 (왜관읍/ 동부초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "왜관동부초등학교",
-							"alternateName": "Waegwan Dongbu Elementary School",
-							"description": "경상북도칠곡교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39902 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "칠곡군",
-								"streetAddress": "경상북도 칠곡군 왜관읍 평장3길 31-4 / 왜관동부초등학교 (왜관읍/ 동부초등학교)"
-							},
-							"telephone": "054-973-7168",
-							"faxNumber": "054-974-9650",
-							"sameAs": ["http://school.gyo6.net/waedonges"]
-						}
-					],
+						"telephone": "054-973-7168",
+						"faxNumber": "054-974-9650",
+						"sameAs": ["http://school.gyo6.net/waedonges"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "635.8 Kcal",
 										"carbohydrateContent": "89.3 g",
 										"proteinContent": "26.5 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "149.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "32.8 mg",
-										"calciumContent": "349.3 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

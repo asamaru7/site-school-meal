@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전북맹아학교/",
 				"headline": "전북맹아학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전북맹아학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jbb.sc.kr",
-							"url": "http://jbb.sc.kr",
-							"name": "전북맹아학교 급식 식단표 안내",
-							"description": "전북맹아학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전북맹아학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전북맹아학교",
+						"alternateName": "Jeonbuk School for the Blind",
+						"description": "전북특별자치도교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54590 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 서동로46길 41 (용제동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전북맹아학교",
-							"alternateName": "Jeonbuk School for the Blind",
-							"description": "전북특별자치도교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54590 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 서동로46길 41 (용제동)"
-							},
-							"telephone": "063-833-2621",
-							"faxNumber": "063-831-0454",
-							"sameAs": ["http://jbb.sc.kr"]
-						}
-					]
+						"telephone": "063-833-2621",
+						"faxNumber": "063-831-0454",
+						"sameAs": ["http://jbb.sc.kr"]
+					}
 				]
 			}
 		</script>

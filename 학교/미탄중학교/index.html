@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미탄중학교/",
 				"headline": "미탄중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미탄중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mitan.gwe.ms.kr",
-							"url": "http://mitan.gwe.ms.kr",
-							"name": "미탄중학교 급식 식단표 안내",
-							"description": "미탄중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미탄중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미탄중학교",
+						"alternateName": "Mitan Middle School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25382 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 미탄면 서동로 3647 / 미탄중학교 (미탄면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미탄중학교",
-							"alternateName": "Mitan Middle School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25382 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 미탄면 서동로 3647 / 미탄중학교 (미탄면)"
-							},
-							"telephone": "033-332-9717",
-							"faxNumber": "033-334-1536",
-							"sameAs": ["http://mitan.gwe.ms.kr"]
-						}
-					]
+						"telephone": "033-332-9717",
+						"faxNumber": "033-334-1536",
+						"sameAs": ["http://mitan.gwe.ms.kr"]
+					}
 				]
 			}
 		</script>

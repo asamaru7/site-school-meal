@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상곡초등학교/",
 				"headline": "상곡초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sangkok.cnees.kr",
-							"url": "http://sangkok.cnees.kr",
-							"name": "상곡초등학교 급식 식단표 안내",
-							"description": "상곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상곡초등학교",
+						"alternateName": "Sangkok Elementary School",
+						"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32717 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "금산군",
+							"streetAddress": "충청남도 금산군 군북면 상곡길 34 (군북면/상곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상곡초등학교",
-							"alternateName": "Sangkok Elementary School",
-							"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32717 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "금산군",
-								"streetAddress": "충청남도 금산군 군북면 상곡길 34 (군북면/상곡초등학교)"
-							},
-							"telephone": "041-753-7045",
-							"faxNumber": "041-753-9673",
-							"sameAs": ["http://sangkok.cnees.kr"]
-						}
-					],
+						"telephone": "041-753-7045",
+						"faxNumber": "041-753-9673",
+						"sameAs": ["http://sangkok.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "822.4 Kcal",
 										"carbohydrateContent": "129.3 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "20.3 g",
-										"vitaminAContent": "183.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "25.1 mg",
-										"calciumContent": "258.5 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "20.3 g"
 									}
 								}
 							]

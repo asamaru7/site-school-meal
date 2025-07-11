@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/숭의여자중학교/",
 				"headline": "숭의여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/숭의여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seg.ms.kr",
-							"url": "http://seg.ms.kr",
-							"name": "숭의여자중학교 급식 식단표 안내",
-							"description": "숭의여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 숭의여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "숭의여자중학교",
+						"alternateName": "Soongeui Girls Middle School",
+						"description": "서울특별시동작관악교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06944 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 여의대방로36길 79 (대방동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "숭의여자중학교",
-							"alternateName": "Soongeui Girls Middle School",
-							"description": "서울특별시동작관악교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06944 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 여의대방로36길 79 (대방동)"
-							},
-							"telephone": "02-810-7700",
-							"faxNumber": "02-812-7492",
-							"sameAs": ["http://seg.ms.kr"]
-						}
-					],
+						"telephone": "02-810-7700",
+						"faxNumber": "02-812-7492",
+						"sameAs": ["http://seg.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "873.7 Kcal",
 										"carbohydrateContent": "79.8 g",
 										"proteinContent": "45.1 g",
-										"fatContent": "39.6 g",
-										"vitaminAContent": "60.2 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "51.2 mg",
-										"calciumContent": "126.0 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "39.6 g"
 									}
 								}
 							]

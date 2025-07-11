@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼일초등학교/",
 				"headline": "삼일초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼일초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://samil-us.es.kr",
-							"url": "http://samil-us.es.kr",
-							"name": "삼일초등학교 급식 식단표 안내",
-							"description": "삼일초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼일초등학교",
+						"alternateName": "Samil Elementary School",
+						"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44481 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "중구",
+							"streetAddress": "울산광역시 중구 동천5길 18-9"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼일초등학교",
-							"alternateName": "Samil Elementary School",
-							"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44481 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "중구",
-								"streetAddress": "울산광역시 중구 동천5길 18-9"
-							},
-							"telephone": "052-294-0568",
-							"faxNumber": "052-294-0566",
-							"sameAs": ["http://samil-us.es.kr"]
-						}
-					],
+						"telephone": "052-294-0568",
+						"faxNumber": "052-294-0566",
+						"sameAs": ["http://samil-us.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "760.5 Kcal",
 										"carbohydrateContent": "101.2 g",
 										"proteinContent": "34.4 g",
-										"fatContent": "23.5 g",
-										"vitaminAContent": "360.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "33.4 mg",
-										"calciumContent": "645.8 mg",
-										"ironContent": "7.6 mg"
+										"fatContent": "23.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여산초등학교/",
 				"headline": "여산초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.yeosan.es.kr",
-							"url": "www.yeosan.es.kr",
-							"name": "여산초등학교 급식 식단표 안내",
-							"description": "여산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여산초등학교",
+						"alternateName": "Yeosan Elementary School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54520 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 여산면 동헌길 14 여산초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여산초등학교",
-							"alternateName": "Yeosan Elementary School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54520 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 여산면 동헌길 14 여산초등학교"
-							},
-							"telephone": "063-836-5163",
-							"faxNumber": "063-836-9821",
-							"sameAs": ["www.yeosan.es.kr"]
-						}
-					],
+						"telephone": "063-836-5163",
+						"faxNumber": "063-836-9821",
+						"sameAs": ["www.yeosan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "801.6 Kcal",
 										"carbohydrateContent": "133.1 g",
 										"proteinContent": "32.7 g",
-										"fatContent": "13.5 g",
-										"vitaminAContent": "51.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "19.7 mg",
-										"calciumContent": "314.5 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "13.5 g"
 									}
 								}
 							]

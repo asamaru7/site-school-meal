@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/숙명여자중학교/",
 				"headline": "숙명여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/숙명여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sookmyung.sen.ms.kr",
-							"url": "http://sookmyung.sen.ms.kr",
-							"name": "숙명여자중학교 급식 식단표 안내",
-							"description": "숙명여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 숙명여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "숙명여자중학교",
+						"alternateName": "Sookmyung Girls’ Middle School",
+						"description": "서울특별시강남서초교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06277 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 남부순환로 2807 / 숙명여자중학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "숙명여자중학교",
-							"alternateName": "Sookmyung Girls’ Middle School",
-							"description": "서울특별시강남서초교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06277 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 남부순환로 2807 / 숙명여자중학교 "
-							},
-							"telephone": "02-3462-5011/5012",
-							"faxNumber": "02-3461-5084",
-							"sameAs": ["http://sookmyung.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-3462-5011/5012",
+						"faxNumber": "02-3461-5084",
+						"sameAs": ["http://sookmyung.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "697.8 Kcal",
 										"carbohydrateContent": "111.0 g",
 										"proteinContent": "28.1 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "51.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "55.0 mg",
-										"calciumContent": "208.3 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "15.7 g"
 									}
 								}
 							]

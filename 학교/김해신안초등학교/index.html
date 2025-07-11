@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해신안초등학교/",
 				"headline": "김해신안초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해신안초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ghsinan-p.gne.go.kr/",
-							"url": "http://ghsinan-p.gne.go.kr/",
-							"name": "김해신안초등학교 급식 식단표 안내",
-							"description": "김해신안초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해신안초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해신안초등학교",
+						"alternateName": "Gimhae Sinan Elementary School",
+						"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50997 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 팔판로 8 (관동동/ 신안초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해신안초등학교",
-							"alternateName": "Gimhae Sinan Elementary School",
-							"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50997 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 팔판로 8 (관동동/ 신안초등학교)"
-							},
-							"telephone": "055-314-7608",
-							"faxNumber": "055-314-7605",
-							"sameAs": ["http://ghsinan-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-314-7608",
+						"faxNumber": "055-314-7605",
+						"sameAs": ["http://ghsinan-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "682.8 Kcal",
 										"carbohydrateContent": "77.5 g",
 										"proteinContent": "38.3 g",
-										"fatContent": "22.8 g",
-										"vitaminAContent": "180.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "28.2 mg",
-										"calciumContent": "382.0 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "22.8 g"
 									}
 								}
 							]

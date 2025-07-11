@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주학강초등학교/",
 				"headline": "광주학강초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주학강초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hakkang.gen.es.kr",
-							"url": "http://hakkang.gen.es.kr",
-							"name": "광주학강초등학교 급식 식단표 안내",
-							"description": "광주학강초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주학강초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주학강초등학교",
+						"alternateName": "Gwangju Hakkang Elementary School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61663 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "남구",
+							"streetAddress": "광주광역시 남구 양림로 92 (양림동/학강초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주학강초등학교",
-							"alternateName": "Gwangju Hakkang Elementary School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61663 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "남구",
-								"streetAddress": "광주광역시 남구 양림로 92 (양림동/학강초등학교)"
-							},
-							"telephone": "062-720-5306",
-							"faxNumber": "062-720-5303",
-							"sameAs": ["http://hakkang.gen.es.kr"]
-						}
-					],
+						"telephone": "062-720-5306",
+						"faxNumber": "062-720-5303",
+						"sameAs": ["http://hakkang.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "613.2 Kcal",
 										"carbohydrateContent": "79.4 g",
 										"proteinContent": "31.9 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "116.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "29.7 mg",
-										"calciumContent": "207.3 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

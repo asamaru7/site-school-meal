@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공주고등학교/",
 				"headline": "공주고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공주고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kongjugo.cnehs.kr",
-							"url": "http://www.kongjugo.cnehs.kr",
-							"name": "공주고등학교 급식 식단표 안내",
-							"description": "공주고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공주고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공주고등학교",
+						"alternateName": "Kongju High School",
+						"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32564 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 공주고담길 2 (중학동/ 공주고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공주고등학교",
-							"alternateName": "Kongju High School",
-							"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32564 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 공주고담길 2 (중학동/ 공주고등학교)"
-							},
-							"telephone": "041-855-1701",
-							"faxNumber": "041-855-1707",
-							"sameAs": ["http://www.kongjugo.cnehs.kr"]
-						}
-					],
+						"telephone": "041-855-1701",
+						"faxNumber": "041-855-1707",
+						"sameAs": ["http://www.kongjugo.cnehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "991.1 Kcal",
 										"carbohydrateContent": "140.3 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "30.7 g",
-										"vitaminAContent": "119.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "6.6 mg",
-										"calciumContent": "371.1 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "30.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1104.5 Kcal",
 										"carbohydrateContent": "159.4 g",
 										"proteinContent": "48.9 g",
-										"fatContent": "29.0 g",
-										"vitaminAContent": "222.8 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "65.3 mg",
-										"calciumContent": "306.6 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "29.0 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "717.9 Kcal",
 										"carbohydrateContent": "114.0 g",
 										"proteinContent": "26.6 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "69.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "15.9 mg",
-										"calciumContent": "134.7 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

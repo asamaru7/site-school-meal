@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지정중학교/",
 				"headline": "지정중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ji-jeong.gwe.ms.kr",
-							"url": "http://ji-jeong.gwe.ms.kr",
-							"name": "지정중학교 급식 식단표 안내",
-							"description": "지정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지정중학교",
+						"alternateName": "Jijeong Middle School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26359 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 지정면 능골길 19 (지정면/ 지정중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지정중학교",
-							"alternateName": "Jijeong Middle School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26359 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 지정면 능골길 19 (지정면/ 지정중학교)"
-							},
-							"telephone": "033-731-6416",
-							"faxNumber": "033-732-8430",
-							"sameAs": ["http://ji-jeong.gwe.ms.kr"]
-						}
-					]
+						"telephone": "033-731-6416",
+						"faxNumber": "033-732-8430",
+						"sameAs": ["http://ji-jeong.gwe.ms.kr"]
+					}
 				]
 			}
 		</script>

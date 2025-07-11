@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/넙도초등학교/",
 				"headline": "넙도초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/넙도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nepdo.es.jne.kr",
-							"url": "http://nepdo.es.jne.kr",
-							"name": "넙도초등학교 급식 식단표 안내",
-							"description": "넙도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 넙도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "넙도초등학교",
+						"alternateName": "Neopdo Elementary School",
+						"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59159 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 노화읍 넙도길 294-31 / 넙도초등학교 (노화읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "넙도초등학교",
-							"alternateName": "Neopdo Elementary School",
-							"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59159 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 노화읍 넙도길 294-31 / 넙도초등학교 (노화읍)"
-							},
-							"telephone": "061-553-4200",
-							"faxNumber": "061-554-4380",
-							"sameAs": ["http://nepdo.es.jne.kr"]
-						}
-					],
+						"telephone": "061-553-4200",
+						"faxNumber": "061-554-4380",
+						"sameAs": ["http://nepdo.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "645.3 Kcal",
 										"carbohydrateContent": "99.3 g",
 										"proteinContent": "25.0 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "77.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "39.0 mg",
-										"calciumContent": "233.8 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

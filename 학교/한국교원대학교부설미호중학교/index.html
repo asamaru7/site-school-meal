@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한국교원대학교부설미호중학교/",
 				"headline": "한국교원대학교부설미호중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한국교원대학교부설미호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/mihoj-m",
-							"url": "http://school.cbe.go.kr/mihoj-m",
-							"name": "한국교원대학교부설미호중학교 급식 식단표 안내",
-							"description": "한국교원대학교부설미호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한국교원대학교부설미호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한국교원대학교부설미호중학교",
+						"alternateName": "Miho Middle School Affiliated with K.N.U.E",
+						"description": "교육부 / 국립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28171 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 흥덕구",
+							"streetAddress": "충청북도 청주시 흥덕구 강내면 가로수로 602 / 한국교원대학교부설미호중학교 (강내면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한국교원대학교부설미호중학교",
-							"alternateName": "Miho Middle School Affiliated with K.N.U.E",
-							"description": "교육부 / 국립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28171 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 흥덕구",
-								"streetAddress": "충청북도 청주시 흥덕구 강내면 가로수로 602 / 한국교원대학교부설미호중학교 (강내면)"
-							},
-							"telephone": "043-233-0073",
-							"faxNumber": "043-232-5784",
-							"sameAs": ["http://school.cbe.go.kr/mihoj-m"]
-						}
-					],
+						"telephone": "043-233-0073",
+						"faxNumber": "043-232-5784",
+						"sameAs": ["http://school.cbe.go.kr/mihoj-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "808.7 Kcal",
 										"carbohydrateContent": "108.2 g",
 										"proteinContent": "25.7 g",
-										"fatContent": "29.5 g",
-										"vitaminAContent": "352.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "257.0 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "29.5 g"
 									}
 								}
 							]

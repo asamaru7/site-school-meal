@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남면중학교/",
 				"headline": "남면중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남면중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nammyun.cnems.kr",
-							"url": "http://nammyun.cnems.kr",
-							"name": "남면중학교 급식 식단표 안내",
-							"description": "남면중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남면중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남면중학교",
+						"alternateName": "Nammyun Middle School",
+						"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32154 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "태안군",
+							"streetAddress": "충청남도 태안군 남면 남면로 125 (남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남면중학교",
-							"alternateName": "Nammyun Middle School",
-							"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32154 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "태안군",
-								"streetAddress": "충청남도 태안군 남면 남면로 125 (남면)"
-							},
-							"telephone": "041-672-3512",
-							"faxNumber": "041-674-5253",
-							"sameAs": ["http://nammyun.cnems.kr"]
-						}
-					]
+						"telephone": "041-672-3512",
+						"faxNumber": "041-674-5253",
+						"sameAs": ["http://nammyun.cnems.kr"]
+					}
 				]
 			}
 		</script>

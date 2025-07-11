@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창일중학교/",
 				"headline": "창일중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.changil.ms.kr",
-							"url": "http://www.changil.ms.kr",
-							"name": "창일중학교 급식 식단표 안내",
-							"description": "창일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창일중학교",
+						"alternateName": "Chang-il Middle School",
+						"description": "서울특별시북부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01424 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "도봉구",
+							"streetAddress": "서울특별시 도봉구 노해로66길 60 (창동/창일중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창일중학교",
-							"alternateName": "Chang-il Middle School",
-							"description": "서울특별시북부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01424 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "도봉구",
-								"streetAddress": "서울특별시 도봉구 노해로66길 60 (창동/창일중학교)"
-							},
-							"telephone": "02-994-5934",
-							"faxNumber": "02-991-8804",
-							"sameAs": ["http://www.changil.ms.kr"]
-						}
-					],
+						"telephone": "02-994-5934",
+						"faxNumber": "02-991-8804",
+						"sameAs": ["http://www.changil.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.1 Kcal",
 										"carbohydrateContent": "87.8 g",
 										"proteinContent": "27.5 g",
-										"fatContent": "26.7 g",
-										"vitaminAContent": "280.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "292.2 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "26.7 g"
 									}
 								}
 							]

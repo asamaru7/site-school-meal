@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/학장중학교/",
 				"headline": "학장중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/학장중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.hakjang.ms.kr",
-							"url": "www.hakjang.ms.kr",
-							"name": "학장중학교 급식 식단표 안내",
-							"description": "학장중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 학장중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "학장중학교",
+						"alternateName": "Hakjang Middle School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47051 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사상구",
+							"streetAddress": "부산광역시 사상구 대동로140번길 60 (학장동/ 학장중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "학장중학교",
-							"alternateName": "Hakjang Middle School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47051 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사상구",
-								"streetAddress": "부산광역시 사상구 대동로140번길 60 (학장동/ 학장중학교)"
-							},
-							"telephone": "051-320-2500",
-							"faxNumber": "051-320-2588",
-							"sameAs": ["www.hakjang.ms.kr"]
-						}
-					],
+						"telephone": "051-320-2500",
+						"faxNumber": "051-320-2588",
+						"sameAs": ["www.hakjang.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "817.8 Kcal",
 										"carbohydrateContent": "126.9 g",
 										"proteinContent": "31.6 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "233.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "21.9 mg",
-										"calciumContent": "142.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

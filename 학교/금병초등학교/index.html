@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금병초등학교/",
 				"headline": "금병초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금병초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gbcho.gwe.es.kr/",
-							"url": "http://gbcho.gwe.es.kr/",
-							"name": "금병초등학교 급식 식단표 안내",
-							"description": "금병초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금병초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금병초등학교",
+						"alternateName": "Geumbyoung Elementary School",
+						"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24412 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 신동면 김유정로 1394 (신동면/ 금병초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금병초등학교",
-							"alternateName": "Geumbyoung Elementary School",
-							"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24412 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 신동면 김유정로 1394 (신동면/ 금병초등학교)"
-							},
-							"telephone": "033-261-8873",
-							"faxNumber": "033-261-7441",
-							"sameAs": ["http://gbcho.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-261-8873",
+						"faxNumber": "033-261-7441",
+						"sameAs": ["http://gbcho.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "608.6 Kcal",
 										"carbohydrateContent": "84.5 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "16.2 g",
-										"vitaminAContent": "188.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "10.6 mg",
-										"calciumContent": "211.5 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "16.2 g"
 									}
 								}
 							]

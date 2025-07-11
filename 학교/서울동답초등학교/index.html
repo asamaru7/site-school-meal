@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울동답초등학교/",
 				"headline": "서울동답초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울동답초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongdab.sen.es.kr",
-							"url": "http://dongdab.sen.es.kr",
-							"name": "서울동답초등학교 급식 식단표 안내",
-							"description": "서울동답초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울동답초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울동답초등학교",
+						"alternateName": "Seoul Dongdap Elementary School",
+						"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02609 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 답십리로60길 12 (답십리동/서울동답초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울동답초등학교",
-							"alternateName": "Seoul Dongdap Elementary School",
-							"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02609 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 답십리로60길 12 (답십리동/서울동답초등학교)"
-							},
-							"telephone": "02-2213-9820",
-							"faxNumber": "02-2215-9394",
-							"sameAs": ["http://dongdab.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2213-9820",
+						"faxNumber": "02-2215-9394",
+						"sameAs": ["http://dongdab.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "559.5 Kcal",
 										"carbohydrateContent": "83.6 g",
 										"proteinContent": "27.0 g",
-										"fatContent": "12.6 g",
-										"vitaminAContent": "165.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.6 mg",
-										"calciumContent": "249.6 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "12.6 g"
 									}
 								}
 							]

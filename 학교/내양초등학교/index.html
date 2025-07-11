@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/내양초등학교/",
 				"headline": "내양초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/내양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.naeyang.es.kr",
-							"url": "www.naeyang.es.kr",
-							"name": "내양초등학교 급식 식단표 안내",
-							"description": "내양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 내양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "내양초등학교",
+						"alternateName": "Naeyang Elementary School",
+						"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "11905 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "구리시",
+							"streetAddress": "경기도 구리시 동구릉로 485 (사노동/내양초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "내양초등학교",
-							"alternateName": "Naeyang Elementary School",
-							"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "11905 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "구리시",
-								"streetAddress": "경기도 구리시 동구릉로 485 (사노동/내양초등학교)"
-							},
-							"telephone": "031-571-2046",
-							"faxNumber": "031-573-4543",
-							"sameAs": ["www.naeyang.es.kr"]
-						}
-					],
+						"telephone": "031-571-2046",
+						"faxNumber": "031-573-4543",
+						"sameAs": ["www.naeyang.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "598.1 Kcal",
 										"carbohydrateContent": "78.4 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "188.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.1 mg",
-										"calciumContent": "268.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

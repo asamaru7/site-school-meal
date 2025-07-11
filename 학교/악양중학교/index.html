@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/악양중학교/",
 				"headline": "악양중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/악양중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://akyang-m.gne.go.kr",
-							"url": "http://akyang-m.gne.go.kr",
-							"name": "악양중학교 급식 식단표 안내",
-							"description": "악양중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 악양중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "악양중학교",
+						"alternateName": "",
+						"description": "하동교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52306 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "하동군",
+							"streetAddress": "경상남도 하동군 악양면 신흥길 20 (악양면/ 악양중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "악양중학교",
-							"alternateName": "",
-							"description": "하동교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52306 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "하동군",
-								"streetAddress": "경상남도 하동군 악양면 신흥길 20 (악양면/ 악양중학교)"
-							},
-							"telephone": "055-883-3045",
-							"faxNumber": "055-884-5779",
-							"sameAs": ["http://akyang-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-883-3045",
+						"faxNumber": "055-884-5779",
+						"sameAs": ["http://akyang-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "785.0 Kcal",
 										"carbohydrateContent": "102.5 g",
 										"proteinContent": "36.4 g",
-										"fatContent": "25.2 g",
-										"vitaminAContent": "60.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "36.1 mg",
-										"calciumContent": "362.9 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "25.2 g"
 									}
 								}
 							]

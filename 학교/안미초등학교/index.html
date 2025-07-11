@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안미초등학교/",
 				"headline": "안미초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안미초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "anmi.gwe.es.kr",
-							"url": "anmi.gwe.es.kr",
-							"name": "안미초등학교 급식 식단표 안내",
-							"description": "안미초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안미초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안미초등학교",
+						"alternateName": "Aanmi Elementary School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25361 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 대화면 하안미길 11-8 / 안미초등학교 (대화면/ 안미초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안미초등학교",
-							"alternateName": "Aanmi Elementary School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25361 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 대화면 하안미길 11-8 / 안미초등학교 (대화면/ 안미초등학교)"
-							},
-							"telephone": "033-333-0282",
-							"faxNumber": "033-333-6503",
-							"sameAs": ["anmi.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-333-0282",
+						"faxNumber": "033-333-6503",
+						"sameAs": ["anmi.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "728.0 Kcal",
 										"carbohydrateContent": "117.0 g",
 										"proteinContent": "22.0 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "175.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "22.0 mg",
-										"calciumContent": "297.4 mg",
-										"ironContent": "1.6 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼호고등학교/",
 				"headline": "삼호고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼호고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://samho.hs.jne.kr",
-							"url": "http://samho.hs.jne.kr",
-							"name": "삼호고등학교 급식 식단표 안내",
-							"description": "삼호고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼호고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼호고등학교",
+						"alternateName": "Samho High School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58454 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 삼호읍 방아제로 84 (삼호읍/ 삼호고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼호고등학교",
-							"alternateName": "Samho High School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58454 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 삼호읍 방아제로 84 (삼호읍/ 삼호고등학교)"
-							},
-							"telephone": "061-462-0583",
-							"faxNumber": "061-462-0586",
-							"sameAs": ["http://samho.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-462-0583",
+						"faxNumber": "061-462-0586",
+						"sameAs": ["http://samho.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "835.9 Kcal",
 										"carbohydrateContent": "121.4 g",
 										"proteinContent": "22.4 g",
-										"fatContent": "28.6 g",
-										"vitaminAContent": "210.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.9 mg",
-										"calciumContent": "383.8 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "28.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "888.0 Kcal",
 										"carbohydrateContent": "133.9 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "24.9 g",
-										"vitaminAContent": "221.5 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "65.0 mg",
-										"calciumContent": "414.3 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "24.9 g"
 									}
 								}
 							]

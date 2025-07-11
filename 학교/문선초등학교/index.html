@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문선초등학교/",
 				"headline": "문선초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문선초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://munsun-p.gne.go.kr/",
-							"url": "http://munsun-p.gne.go.kr/",
-							"name": "문선초등학교 급식 식단표 안내",
-							"description": "문선초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문선초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문선초등학교",
+						"alternateName": "",
+						"description": "사천교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52560 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "사천시",
+							"streetAddress": "경상남도 사천시 삼상로 25-12 (벌리동/문선초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문선초등학교",
-							"alternateName": "",
-							"description": "사천교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52560 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "사천시",
-								"streetAddress": "경상남도 사천시 삼상로 25-12 (벌리동/문선초등학교)"
-							},
-							"telephone": "055-830-1804",
-							"faxNumber": "055-835-1802",
-							"sameAs": ["http://munsun-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-830-1804",
+						"faxNumber": "055-835-1802",
+						"sameAs": ["http://munsun-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "567.2 Kcal",
 										"carbohydrateContent": "67.6 g",
 										"proteinContent": "31.6 g",
-										"fatContent": "17.2 g",
-										"vitaminAContent": "229.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.9 mg",
-										"calciumContent": "361.5 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "17.2 g"
 									}
 								}
 							]

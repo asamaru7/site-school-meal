@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해동초등학교/",
 				"headline": "해동초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.haedong.es.kr/",
-							"url": "http://www.haedong.es.kr/",
-							"name": "해동초등학교 급식 식단표 안내",
-							"description": "해동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해동초등학교",
+						"alternateName": "Haedong Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48085 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 우동1로 104 (우동/ 해동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해동초등학교",
-							"alternateName": "Haedong Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48085 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 우동1로 104 (우동/ 해동초등학교)"
-							},
-							"telephone": "051-740-7200",
-							"faxNumber": "051-740-7291",
-							"sameAs": ["http://www.haedong.es.kr/"]
-						}
-					],
+						"telephone": "051-740-7200",
+						"faxNumber": "051-740-7291",
+						"sameAs": ["http://www.haedong.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "644.8 Kcal",
 										"carbohydrateContent": "91.3 g",
 										"proteinContent": "31.4 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "96.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "220.0 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

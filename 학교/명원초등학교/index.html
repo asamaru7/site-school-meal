@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명원초등학교/",
 				"headline": "명원초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/myoungwon-e/main.do",
-							"url": "http://school.busanedu.net/myoungwon-e/main.do",
-							"name": "명원초등학교 급식 식단표 안내",
-							"description": "명원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명원초등학교",
+						"alternateName": "Myoungwon Elementary school",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46726 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "강서구",
+							"streetAddress": "부산광역시 강서구 명지국제6로 147 (명지동/ 명원초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명원초등학교",
-							"alternateName": "Myoungwon Elementary school",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46726 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "강서구",
-								"streetAddress": "부산광역시 강서구 명지국제6로 147 (명지동/ 명원초등학교)"
-							},
-							"telephone": "051-250-3300",
-							"faxNumber": "051-250-3499",
-							"sameAs": ["http://school.busanedu.net/myoungwon-e/main.do"]
-						}
-					],
+						"telephone": "051-250-3300",
+						"faxNumber": "051-250-3499",
+						"sameAs": ["http://school.busanedu.net/myoungwon-e/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "562.7 Kcal",
 										"carbohydrateContent": "72.2 g",
 										"proteinContent": "37.4 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "177.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "5.8 mg",
-										"calciumContent": "239.8 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

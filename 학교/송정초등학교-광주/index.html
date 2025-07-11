@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송정초등학교-광주/",
 				"headline": "송정초등학교(광주) 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송정초등학교-광주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://k-songjeong.gen.es.kr",
-							"url": "http://k-songjeong.gen.es.kr",
-							"name": "송정초등학교(광주) 급식 식단표 안내",
-							"description": "송정초등학교(광주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송정초등학교(광주)",
+						"alternateName": "Song-Jeong Elementary School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62443 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 송도로208번길 25 (도산동/ 송정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송정초등학교(광주)",
-							"alternateName": "Song-Jeong Elementary School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62443 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 송도로208번길 25 (도산동/ 송정초등학교)"
-							},
-							"telephone": "062-949-3707",
-							"faxNumber": "062-944-9670",
-							"sameAs": ["http://k-songjeong.gen.es.kr"]
-						}
-					],
+						"telephone": "062-949-3707",
+						"faxNumber": "062-944-9670",
+						"sameAs": ["http://k-songjeong.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "607.5 Kcal",
 										"carbohydrateContent": "102.6 g",
 										"proteinContent": "27.2 g",
-										"fatContent": "9.3 g",
-										"vitaminAContent": "154.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "270.2 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "9.3 g"
 									}
 								}
 							]

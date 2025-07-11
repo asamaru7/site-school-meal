@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동양초등학교/",
 				"headline": "동양초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/dong-yang-e/main.do",
-							"url": "http://school.busanedu.net/dong-yang-e/main.do",
-							"name": "동양초등학교 급식 식단표 안내",
-							"description": "동양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동양초등학교",
+						"alternateName": "Dong-yang elementary school",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47148 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 백양산로 99 (부암동/ 동양초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동양초등학교",
-							"alternateName": "Dong-yang elementary school",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47148 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 백양산로 99 (부암동/ 동양초등학교)"
-							},
-							"telephone": "051-819-9103",
-							"faxNumber": "051-819-9102",
-							"sameAs": ["http://school.busanedu.net/dong-yang-e/main.do"]
-						}
-					],
+						"telephone": "051-819-9103",
+						"faxNumber": "051-819-9102",
+						"sameAs": ["http://school.busanedu.net/dong-yang-e/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "638.0 Kcal",
 										"carbohydrateContent": "93.9 g",
 										"proteinContent": "26.8 g",
-										"fatContent": "16.4 g",
-										"vitaminAContent": "78.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "24.5 mg",
-										"calciumContent": "117.4 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "16.4 g"
 									}
 								}
 							]

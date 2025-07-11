@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한빛맹학교/",
 				"headline": "한빛맹학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한빛맹학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hanbit.sen.sc.kr",
-							"url": "http://hanbit.sen.sc.kr",
-							"name": "한빛맹학교 급식 식단표 안내",
-							"description": "한빛맹학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한빛맹학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한빛맹학교",
+						"alternateName": "Hanbit Blind School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01103 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강북구",
+							"streetAddress": "서울특별시 강북구 삼양로73가길 47 / 한빛맹학교 (수유동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한빛맹학교",
-							"alternateName": "Hanbit Blind School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01103 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강북구",
-								"streetAddress": "서울특별시 강북구 삼양로73가길 47 / 한빛맹학교 (수유동)"
-							},
-							"telephone": "02-987-2023",
-							"faxNumber": "02-987-8351",
-							"sameAs": ["http://hanbit.sen.sc.kr"]
-						}
-					],
+						"telephone": "02-987-2023",
+						"faxNumber": "02-987-8351",
+						"sameAs": ["http://hanbit.sen.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "906.5 Kcal",
 										"carbohydrateContent": "121.1 g",
 										"proteinContent": "20.3 g",
-										"fatContent": "36.7 g",
-										"vitaminAContent": "23.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.9 mg",
-										"calciumContent": "147.9 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "36.7 g"
 									}
 								}
 							]

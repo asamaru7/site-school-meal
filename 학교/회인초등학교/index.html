@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/회인초등학교/",
 				"headline": "회인초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/회인초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/hoein-e",
-							"url": "http://school.cbe.go.kr/hoein-e",
-							"name": "회인초등학교 급식 식단표 안내",
-							"description": "회인초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 회인초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "회인초등학교",
+						"alternateName": "Hoein Primary school",
+						"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28929 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "보은군",
+							"streetAddress": "충청북도 보은군 회인면 회인로1길 10-8 / 회인초등학교 (회인면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "회인초등학교",
-							"alternateName": "Hoein Primary school",
-							"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28929 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "보은군",
-								"streetAddress": "충청북도 보은군 회인면 회인로1길 10-8 / 회인초등학교 (회인면)"
-							},
-							"telephone": "043-542-9262",
-							"faxNumber": "043-543-5556",
-							"sameAs": ["http://school.cbe.go.kr/hoein-e"]
-						}
-					],
+						"telephone": "043-542-9262",
+						"faxNumber": "043-543-5556",
+						"sameAs": ["http://school.cbe.go.kr/hoein-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "882.7 Kcal",
 										"carbohydrateContent": "130.0 g",
 										"proteinContent": "39.0 g",
-										"fatContent": "20.7 g",
-										"vitaminAContent": "330.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.5 mg",
-										"calciumContent": "515.8 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "20.7 g"
 									}
 								}
 							]

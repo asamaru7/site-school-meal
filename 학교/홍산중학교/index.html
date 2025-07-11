@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍산중학교/",
 				"headline": "홍산중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hongsan.cnems.kr/",
-							"url": "http://hongsan.cnems.kr/",
-							"name": "홍산중학교 급식 식단표 안내",
-							"description": "홍산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍산중학교",
+						"alternateName": "Hongsan Middle School",
+						"description": "충청남도부여교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33200 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 홍산면 홍산로 112-25 (홍산면/ 홍산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍산중학교",
-							"alternateName": "Hongsan Middle School",
-							"description": "충청남도부여교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33200 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 홍산면 홍산로 112-25 (홍산면/ 홍산중학교)"
-							},
-							"telephone": "041-836-1901",
-							"faxNumber": "041-835-1637",
-							"sameAs": ["http://hongsan.cnems.kr/"]
-						}
-					],
+						"telephone": "041-836-1901",
+						"faxNumber": "041-835-1637",
+						"sameAs": ["http://hongsan.cnems.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "530.6 Kcal",
 										"carbohydrateContent": "66.6 g",
 										"proteinContent": "23.1 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "390.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.4 mg",
-										"vitaminCContent": "68.2 mg",
-										"calciumContent": "457.4 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "19.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "828.4 Kcal",
 										"carbohydrateContent": "129.8 g",
 										"proteinContent": "28.9 g",
-										"fatContent": "20.8 g",
-										"vitaminAContent": "127.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.6 mg",
-										"calciumContent": "255.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "20.8 g"
 									}
 								}
 							]

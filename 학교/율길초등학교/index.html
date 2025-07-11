@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/율길초등학교/",
 				"headline": "율길초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/율길초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.yulgil.es.kr",
-							"url": "www.yulgil.es.kr",
-							"name": "율길초등학교 급식 식단표 안내",
-							"description": "율길초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 율길초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "율길초등학교",
+						"alternateName": "YULGIL ELEMENTARY SCHOOL",
+						"description": "경기도가평교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12441 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "가평군",
+							"streetAddress": "경기도 가평군 상면 청군로 2090 / 율길초등학교 (상면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "율길초등학교",
-							"alternateName": "YULGIL ELEMENTARY SCHOOL",
-							"description": "경기도가평교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12441 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "가평군",
-								"streetAddress": "경기도 가평군 상면 청군로 2090 / 율길초등학교 (상면)"
-							},
-							"telephone": "031-585-0585",
-							"faxNumber": "031-585-4371",
-							"sameAs": ["www.yulgil.es.kr"]
-						}
-					],
+						"telephone": "031-585-0585",
+						"faxNumber": "031-585-4371",
+						"sameAs": ["www.yulgil.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "655.6 Kcal",
 										"carbohydrateContent": "78.8 g",
 										"proteinContent": "30.6 g",
-										"fatContent": "23.7 g",
-										"vitaminAContent": "77.7 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.9 mg",
-										"calciumContent": "529.5 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "23.7 g"
 									}
 								}
 							]

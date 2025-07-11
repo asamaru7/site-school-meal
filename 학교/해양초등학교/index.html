@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해양초등학교/",
 				"headline": "해양초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "haeyang-p.gne.go.kr",
-							"url": "haeyang-p.gne.go.kr",
-							"name": "해양초등학교 급식 식단표 안내",
-							"description": "해양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해양초등학교",
+						"alternateName": "",
+						"description": "남해교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52427 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "남해군",
+							"streetAddress": "경상남도 남해군 남해읍 화전로 25 / 해양초등학교 (남해읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해양초등학교",
-							"alternateName": "",
-							"description": "남해교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52427 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "남해군",
-								"streetAddress": "경상남도 남해군 남해읍 화전로 25 / 해양초등학교 (남해읍)"
-							},
-							"telephone": "055-862-0585",
-							"faxNumber": "055-863-0585",
-							"sameAs": ["haeyang-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-862-0585",
+						"faxNumber": "055-863-0585",
+						"sameAs": ["haeyang-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "845.3 Kcal",
 										"carbohydrateContent": "82.3 g",
 										"proteinContent": "38.5 g",
-										"fatContent": "38.9 g",
-										"vitaminAContent": "317.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "19.1 mg",
-										"calciumContent": "428.3 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "38.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍성서부중학교/",
 				"headline": "홍성서부중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍성서부중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.seobu.cnems.kr",
-							"url": "http://www.seobu.cnems.kr",
-							"name": "홍성서부중학교 급식 식단표 안내",
-							"description": "홍성서부중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍성서부중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍성서부중학교",
+						"alternateName": "Hongsungseobu Middle School",
+						"description": "충청남도홍성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32204 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 서부면 서부로 411 (서부면/ 홍성서부중교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍성서부중학교",
-							"alternateName": "Hongsungseobu Middle School",
-							"description": "충청남도홍성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32204 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 서부면 서부로 411 (서부면/ 홍성서부중교)"
-							},
-							"telephone": "041-632-8770",
-							"faxNumber": "041-633-8826",
-							"sameAs": ["http://www.seobu.cnems.kr"]
-						}
-					],
+						"telephone": "041-632-8770",
+						"faxNumber": "041-633-8826",
+						"sameAs": ["http://www.seobu.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "796.2 Kcal",
 										"carbohydrateContent": "97.3 g",
 										"proteinContent": "50.9 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "114.3 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "18.4 mg",
-										"calciumContent": "243.1 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

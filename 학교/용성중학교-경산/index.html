@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용성중학교-경산/",
 				"headline": "용성중학교(경산) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용성중학교-경산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/yongseongms",
-							"url": "http://school.gyo6.net/yongseongms",
-							"name": "용성중학교(경산) 급식 식단표 안내",
-							"description": "용성중학교(경산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용성중학교(경산)",
+						"alternateName": "Yongseong Middle School",
+						"description": "경상북도경산교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38561 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경산시",
+							"streetAddress": "경상북도 경산시 용성면 원효로 1410 (용성면/ 용성중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용성중학교(경산)",
-							"alternateName": "Yongseong Middle School",
-							"description": "경상북도경산교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38561 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경산시",
-								"streetAddress": "경상북도 경산시 용성면 원효로 1410 (용성면/ 용성중학교)"
-							},
-							"telephone": "053-852-1173",
-							"faxNumber": "053-853-5070",
-							"sameAs": ["http://school.gyo6.net/yongseongms"]
-						}
-					],
+						"telephone": "053-852-1173",
+						"faxNumber": "053-853-5070",
+						"sameAs": ["http://school.gyo6.net/yongseongms"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "775.1 Kcal",
 										"carbohydrateContent": "109.4 g",
 										"proteinContent": "39.9 g",
-										"fatContent": "18.9 g",
-										"vitaminAContent": "229.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "33.3 mg",
-										"calciumContent": "423.1 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "18.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안청중학교/",
 				"headline": "안청중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안청중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://anchung-m.goean.kr",
-							"url": "https://anchung-m.goean.kr",
-							"name": "안청중학교 급식 식단표 안내",
-							"description": "안청중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안청중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안청중학교",
+						"alternateName": "Ancheong Middle School",
+						"description": "경기도안성교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17584 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안성시",
+							"streetAddress": "경기도 안성시 당목길 68 (당왕동/ 안청중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안청중학교",
-							"alternateName": "Ancheong Middle School",
-							"description": "경기도안성교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17584 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안성시",
-								"streetAddress": "경기도 안성시 당목길 68 (당왕동/ 안청중학교)"
-							},
-							"telephone": "031-673-3124",
-							"faxNumber": "031-675-3022",
-							"sameAs": ["https://anchung-m.goean.kr"]
-						}
-					],
+						"telephone": "031-673-3124",
+						"faxNumber": "031-675-3022",
+						"sameAs": ["https://anchung-m.goean.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "811.7 Kcal",
 										"carbohydrateContent": "116.7 g",
 										"proteinContent": "40.6 g",
-										"fatContent": "18.5 g",
-										"vitaminAContent": "191.0 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "4.2 mg",
-										"calciumContent": "403.3 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "18.5 g"
 									}
 								}
 							]

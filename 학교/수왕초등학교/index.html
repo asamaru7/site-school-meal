@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수왕초등학교/",
 				"headline": "수왕초등학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수왕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://suwang.sjedues.kr/ ",
-							"url": "http://suwang.sjedues.kr/ ",
-							"name": "수왕초등학교 급식 식단표 안내",
-							"description": "수왕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수왕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수왕초등학교",
+						"alternateName": "Suwnag Elementary School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30057 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 연기면 눌왕길 8-45 (연기면/ 수왕초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수왕초등학교",
-							"alternateName": "Suwnag Elementary School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30057 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 연기면 눌왕길 8-45 (연기면/ 수왕초등학교)"
-							},
-							"telephone": "044-863-4101",
-							"faxNumber": "044-863-6551",
-							"sameAs": ["http://suwang.sjedues.kr/ "]
-						}
-					],
+						"telephone": "044-863-4101",
+						"faxNumber": "044-863-6551",
+						"sameAs": ["http://suwang.sjedues.kr/ "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "650.3 Kcal",
 										"carbohydrateContent": "100.4 g",
 										"proteinContent": "20.0 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "76.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "14.0 mg",
-										"calciumContent": "192.7 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "19.3 g"
 									}
 								}
 							]

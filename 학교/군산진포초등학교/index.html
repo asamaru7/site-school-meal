@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/군산진포초등학교/",
 				"headline": "군산진포초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/군산진포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jinpo.es.kr",
-							"url": "http://www.jinpo.es.kr",
-							"name": "군산진포초등학교 급식 식단표 안내",
-							"description": "군산진포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 군산진포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "군산진포초등학교",
+						"alternateName": "Gunsan Jinpo Elementary School",
+						"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54138 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "군산시",
+							"streetAddress": "전북특별자치도 군산시 나운안길 54 군산진포초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "군산진포초등학교",
-							"alternateName": "Gunsan Jinpo Elementary School",
-							"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54138 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "군산시",
-								"streetAddress": "전북특별자치도 군산시 나운안길 54 군산진포초등학교"
-							},
-							"telephone": "063-464-5694",
-							"faxNumber": "063-471-5690",
-							"sameAs": ["http://www.jinpo.es.kr"]
-						}
-					],
+						"telephone": "063-464-5694",
+						"faxNumber": "063-471-5690",
+						"sameAs": ["http://www.jinpo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "619.1 Kcal",
 										"carbohydrateContent": "74.5 g",
 										"proteinContent": "34.6 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "102.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "25.9 mg",
-										"calciumContent": "115.1 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

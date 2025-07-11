@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/위성초등학교/",
 				"headline": "위성초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/위성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "wisung-p.gne.go.kr",
-							"url": "wisung-p.gne.go.kr",
-							"name": "위성초등학교 급식 식단표 안내",
-							"description": "위성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 위성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "위성초등학교",
+						"alternateName": " ",
+						"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50033 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "함양군",
+							"streetAddress": "경상남도 함양군 함양읍 위성초등길 18 (함양읍/ 위성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "위성초등학교",
-							"alternateName": " ",
-							"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50033 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "함양군",
-								"streetAddress": "경상남도 함양군 함양읍 위성초등길 18 (함양읍/ 위성초등학교)"
-							},
-							"telephone": "055-963-2244",
-							"faxNumber": "055-962-4934",
-							"sameAs": ["wisung-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-963-2244",
+						"faxNumber": "055-962-4934",
+						"sameAs": ["wisung-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "652.0 Kcal",
 										"carbohydrateContent": "97.2 g",
 										"proteinContent": "22.0 g",
-										"fatContent": "19.1 g",
-										"vitaminAContent": "176.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.3 mg",
-										"calciumContent": "389.9 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "19.1 g"
 									}
 								}
 							]

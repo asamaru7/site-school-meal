@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경구중학교/",
 				"headline": "경구중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경구중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gyeonggu.dge.ms.kr",
-							"url": "http://www.gyeonggu.dge.ms.kr",
-							"name": "경구중학교 급식 식단표 안내",
-							"description": "경구중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경구중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경구중학교",
+						"alternateName": "GyeongGu Middle School",
+						"description": "대구광역시동부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41972 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대구광역시 중구 남산로 20 (남산동/ 경북공업고등학교/경구중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경구중학교",
-							"alternateName": "GyeongGu Middle School",
-							"description": "대구광역시동부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41972 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대구광역시 중구 남산로 20 (남산동/ 경북공업고등학교/경구중학교)"
-							},
-							"telephone": "053-232-8900",
-							"faxNumber": "053-255-3844",
-							"sameAs": ["http://www.gyeonggu.dge.ms.kr"]
-						}
-					]
+						"telephone": "053-232-8900",
+						"faxNumber": "053-255-3844",
+						"sameAs": ["http://www.gyeonggu.dge.ms.kr"]
+					}
 				]
 			}
 		</script>

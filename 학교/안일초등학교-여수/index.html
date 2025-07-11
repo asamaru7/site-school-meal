@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안일초등학교-여수/",
 				"headline": "안일초등학교(여수) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안일초등학교-여수/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ys-anil.es.jne.kr",
-							"url": "http://ys-anil.es.jne.kr",
-							"name": "안일초등학교(여수) 급식 식단표 안내",
-							"description": "안일초등학교(여수)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안일초등학교(여수)",
+						"alternateName": "Anil Elementary School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59780 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 화양면 화양로 341-3 (화양면/ 안일 초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안일초등학교(여수)",
-							"alternateName": "Anil Elementary School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59780 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 화양면 화양로 341-3 (화양면/ 안일 초등학교)"
-							},
-							"telephone": "061-686-2971",
-							"faxNumber": "061-686-1977",
-							"sameAs": ["http://ys-anil.es.jne.kr"]
-						}
-					],
+						"telephone": "061-686-2971",
+						"faxNumber": "061-686-1977",
+						"sameAs": ["http://ys-anil.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "344.2 Kcal",
 										"carbohydrateContent": "63.8 g",
 										"proteinContent": "11.5 g",
-										"fatContent": "4.3 g",
-										"vitaminAContent": "48.2 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "4.1 mg",
-										"calciumContent": "131.0 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "4.3 g"
 									}
 								}
 							]

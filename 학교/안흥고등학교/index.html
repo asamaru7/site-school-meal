@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안흥고등학교/",
 				"headline": "안흥고등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안흥고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://anheung.gwe.hs.kr/",
-							"url": "http://anheung.gwe.hs.kr/",
-							"name": "안흥고등학교 급식 식단표 안내",
-							"description": "안흥고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안흥고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안흥고등학교",
+						"alternateName": "Anheung High School",
+						"description": "강원특별자치도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25271 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "횡성군",
+							"streetAddress": "강원특별자치도 횡성군 안흥면 서동로 1121 (안흥면, 안흥고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안흥고등학교",
-							"alternateName": "Anheung High School",
-							"description": "강원특별자치도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25271 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "횡성군",
-								"streetAddress": "강원특별자치도 횡성군 안흥면 서동로 1121 (안흥면, 안흥고등학교)"
-							},
-							"telephone": "033-342-4007",
-							"faxNumber": "033-342-5374",
-							"sameAs": ["http://anheung.gwe.hs.kr/"]
-						}
-					],
+						"telephone": "033-342-4007",
+						"faxNumber": "033-342-5374",
+						"sameAs": ["http://anheung.gwe.hs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "980.7 Kcal",
 										"carbohydrateContent": "115.2 g",
 										"proteinContent": "51.7 g",
-										"fatContent": "32.7 g",
-										"vitaminAContent": "212.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "26.0 mg",
-										"calciumContent": "373.5 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "32.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전주서중학교/",
 				"headline": "전주서중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전주서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.seojung.ms.kr",
-							"url": "www.seojung.ms.kr",
-							"name": "전주서중학교 급식 식단표 안내",
-							"description": "전주서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전주서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전주서중학교",
+						"alternateName": "Jeonju Seo Middle School",
+						"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54947 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "전주시 완산구",
+							"streetAddress": "전북특별자치도 전주시 완산구 당산로 2 전주서중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전주서중학교",
-							"alternateName": "Jeonju Seo Middle School",
-							"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54947 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "전주시 완산구",
-								"streetAddress": "전북특별자치도 전주시 완산구 당산로 2 전주서중학교"
-							},
-							"telephone": "063-254-2667",
-							"faxNumber": "063-252-7394",
-							"sameAs": ["www.seojung.ms.kr"]
-						}
-					],
+						"telephone": "063-254-2667",
+						"faxNumber": "063-252-7394",
+						"sameAs": ["www.seojung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "706.4 Kcal",
 										"carbohydrateContent": "98.5 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "87.3 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "403.3 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

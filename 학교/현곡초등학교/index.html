@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/현곡초등학교/",
 				"headline": "현곡초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/현곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyungok.es.kr",
-							"url": "http://hyungok.es.kr",
-							"name": "현곡초등학교 급식 식단표 안내",
-							"description": "현곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 현곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "현곡초등학교",
+						"alternateName": "Hyungok Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46270 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "금정구",
+							"streetAddress": "부산광역시 금정구 동부곡로27번라길 20 (부곡동/ 현곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "현곡초등학교",
-							"alternateName": "Hyungok Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46270 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "금정구",
-								"streetAddress": "부산광역시 금정구 동부곡로27번라길 20 (부곡동/ 현곡초등학교)"
-							},
-							"telephone": "051-512-0710〜1",
-							"faxNumber": "051-515-0482/ 0457",
-							"sameAs": ["http://hyungok.es.kr"]
-						}
-					],
+						"telephone": "051-512-0710〜1",
+						"faxNumber": "051-515-0482/ 0457",
+						"sameAs": ["http://hyungok.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "694.6 Kcal",
 										"carbohydrateContent": "99.0 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "22.2 g",
-										"vitaminAContent": "47.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "25.7 mg",
-										"calciumContent": "306.3 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "22.2 g"
 									}
 								}
 							]

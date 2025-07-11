@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지촌초등학교/",
 				"headline": "지촌초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지촌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jichon.gwe.es.kr",
-							"url": "http://jichon.gwe.es.kr",
-							"name": "지촌초등학교 급식 식단표 안내",
-							"description": "지촌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지촌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지촌초등학교",
+						"alternateName": "Jichon Elementary School",
+						"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24200 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 사북면 지촌길 130 (사북면/ 지촌초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지촌초등학교",
-							"alternateName": "Jichon Elementary School",
-							"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24200 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 사북면 지촌길 130 (사북면/ 지촌초등학교)"
-							},
-							"telephone": "033-243-1027",
-							"faxNumber": "033-243-2544",
-							"sameAs": ["http://jichon.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-243-1027",
+						"faxNumber": "033-243-2544",
+						"sameAs": ["http://jichon.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "661.4 Kcal",
 										"carbohydrateContent": "91.5 g",
 										"proteinContent": "26.1 g",
-										"fatContent": "20.5 g",
-										"vitaminAContent": "180.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "21.1 mg",
-										"calciumContent": "346.8 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "20.5 g"
 									}
 								}
 							]

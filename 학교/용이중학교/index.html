@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용이중학교/",
 				"headline": "용이중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용이중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://yongi-m.goept.kr",
-							"url": "https://yongi-m.goept.kr",
-							"name": "용이중학교 급식 식단표 안내",
-							"description": "용이중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용이중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용이중학교",
+						"alternateName": "Yongi Middle School",
+						"description": "경기도평택교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17868 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "평택시",
+							"streetAddress": "경기도 평택시 현신로 64 (용이동/ 용이중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용이중학교",
-							"alternateName": "Yongi Middle School",
-							"description": "경기도평택교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17868 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "평택시",
-								"streetAddress": "경기도 평택시 현신로 64 (용이동/ 용이중학교)"
-							},
-							"telephone": "031-650-5211",
-							"faxNumber": "031-658-5205",
-							"sameAs": ["https://yongi-m.goept.kr"]
-						}
-					],
+						"telephone": "031-650-5211",
+						"faxNumber": "031-658-5205",
+						"sameAs": ["https://yongi-m.goept.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "699.9 Kcal",
 										"carbohydrateContent": "122.9 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "11.4 g",
-										"vitaminAContent": "83.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.1 mg",
-										"calciumContent": "186.1 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "11.4 g"
 									}
 								}
 							]

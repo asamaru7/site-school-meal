@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전산업정보고등학교/",
 				"headline": "대전산업정보고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전산업정보고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dpsc.djsch.kr",
-							"url": "dpsc.djsch.kr",
-							"name": "대전산업정보고등학교 급식 식단표 안내",
-							"description": "대전산업정보고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전산업정보고 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전산업정보고등학교",
+						"alternateName": "Daejeon Polytechnic Highschool",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35306 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 괴정로 191 (용문동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전산업정보고등학교",
-							"alternateName": "Daejeon Polytechnic Highschool",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35306 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 괴정로 191 (용문동)"
-							},
-							"telephone": "042-250-0099",
-							"faxNumber": "042-537-8683",
-							"sameAs": ["dpsc.djsch.kr"]
-						}
-					],
+						"telephone": "042-250-0099",
+						"faxNumber": "042-537-8683",
+						"sameAs": ["dpsc.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1086.9 Kcal",
 										"carbohydrateContent": "160.2 g",
 										"proteinContent": "37.6 g",
-										"fatContent": "32.5 g",
-										"vitaminAContent": "168.9 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "17.3 mg",
-										"calciumContent": "379.5 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "32.5 g"
 									}
 								}
 							]

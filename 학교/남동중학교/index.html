@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남동중학교/",
 				"headline": "남동중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://namdong.icems.kr",
-							"url": "http://namdong.icems.kr",
-							"name": "남동중학교 급식 식단표 안내",
-							"description": "남동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남동중학교",
+						"alternateName": "NAM DONG MIDDLE SCHOOL",
+						"description": "인천광역시동부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21596 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "남동구",
+							"streetAddress": "인천광역시 남동구 담방로 7 (만수동/ 남동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남동중학교",
-							"alternateName": "NAM DONG MIDDLE SCHOOL",
-							"description": "인천광역시동부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21596 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "남동구",
-								"streetAddress": "인천광역시 남동구 담방로 7 (만수동/ 남동중학교)"
-							},
-							"telephone": "032-462-0120",
-							"faxNumber": "032-468-5326",
-							"sameAs": ["http://namdong.icems.kr"]
-						}
-					],
+						"telephone": "032-462-0120",
+						"faxNumber": "032-468-5326",
+						"sameAs": ["http://namdong.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1047.1 Kcal",
 										"carbohydrateContent": "149.6 g",
 										"proteinContent": "38.3 g",
-										"fatContent": "32.8 g",
-										"vitaminAContent": "93.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "34.8 mg",
-										"calciumContent": "339.5 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "32.8 g"
 									}
 								}
 							]

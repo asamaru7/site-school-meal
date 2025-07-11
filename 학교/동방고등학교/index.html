@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동방고등학교/",
 				"headline": "동방고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동방고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dbhs.djsch.kr",
-							"url": "http://dbhs.djsch.kr",
-							"name": "동방고등학교 급식 식단표 안내",
-							"description": "동방고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동방고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동방고등학교",
+						"alternateName": "Dongbang High School",
+						"description": "대전광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35380 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 계백로 1106 (관저동/ 동방고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동방고등학교",
-							"alternateName": "Dongbang High School",
-							"description": "대전광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35380 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 계백로 1106 (관저동/ 동방고등학교)"
-							},
-							"telephone": "042-333-5803",
-							"faxNumber": "042-541-0289",
-							"sameAs": ["http://dbhs.djsch.kr"]
-						}
-					],
+						"telephone": "042-333-5803",
+						"faxNumber": "042-541-0289",
+						"sameAs": ["http://dbhs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "856.5 Kcal",
 										"carbohydrateContent": "86.4 g",
 										"proteinContent": "37.3 g",
-										"fatContent": "38.3 g",
-										"vitaminAContent": "74.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.8 mg",
-										"calciumContent": "189.8 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "38.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "853.5 Kcal",
 										"carbohydrateContent": "118.5 g",
 										"proteinContent": "26.7 g",
-										"fatContent": "30.5 g",
-										"vitaminAContent": "132.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "23.0 mg",
-										"calciumContent": "193.2 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "30.5 g"
 									}
 								}
 							]

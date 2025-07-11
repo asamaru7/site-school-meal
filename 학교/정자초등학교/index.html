@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정자초등학교/",
 				"headline": "정자초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정자초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungja-e.goesw.kr",
-							"url": "http://jungja-e.goesw.kr",
-							"name": "정자초등학교 급식 식단표 안내",
-							"description": "정자초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정자초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정자초등학교",
+						"alternateName": "Jungja Elementary School",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16335 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 장안구",
+							"streetAddress": "경기도 수원시 장안구 장안로 191 / 정자초등학교 (정자동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정자초등학교",
-							"alternateName": "Jungja Elementary School",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16335 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 장안구",
-								"streetAddress": "경기도 수원시 장안구 장안로 191 / 정자초등학교 (정자동)"
-							},
-							"telephone": "031-241-1151",
-							"faxNumber": "031-241-1171",
-							"sameAs": ["http://jungja-e.goesw.kr"]
-						}
-					],
+						"telephone": "031-241-1151",
+						"faxNumber": "031-241-1171",
+						"sameAs": ["http://jungja-e.goesw.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "587.2 Kcal",
 										"carbohydrateContent": "85.4 g",
 										"proteinContent": "28.1 g",
-										"fatContent": "14.3 g",
-										"vitaminAContent": "145.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.9 mg",
-										"calciumContent": "240.8 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "14.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우암초등학교-청주/",
 				"headline": "우암초등학교(청주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우암초등학교-청주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.cjuam.es.kr",
-							"url": "http://www.cjuam.es.kr",
-							"name": "우암초등학교(청주) 급식 식단표 안내",
-							"description": "우암초등학교(청주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우암초등학교(청주)",
+						"alternateName": "Uam Elementary School",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28505 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 청원구",
+							"streetAddress": "충청북도 청주시 청원구 상당로 204 (우암동/ 청주우암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우암초등학교(청주)",
-							"alternateName": "Uam Elementary School",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28505 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 청원구",
-								"streetAddress": "충청북도 청주시 청원구 상당로 204 (우암동/ 청주우암초등학교)"
-							},
-							"telephone": "043-256-3487",
-							"faxNumber": "043-257-3087",
-							"sameAs": ["http://www.cjuam.es.kr"]
-						}
-					]
+						"telephone": "043-256-3487",
+						"faxNumber": "043-257-3087",
+						"sameAs": ["http://www.cjuam.es.kr"]
+					}
 				]
 			}
 		</script>

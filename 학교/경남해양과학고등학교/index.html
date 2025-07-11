@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경남해양과학고등학교/",
 				"headline": "경남해양과학고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경남해양과학고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gnms-h.gne.go.kr/",
-							"url": "http://gnms-h.gne.go.kr/",
-							"name": "경남해양과학고등학교 급식 식단표 안내",
-							"description": "경남해양과학고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경남해양과고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경남해양과학고등학교",
+						"alternateName": "",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52444 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "남해군",
+							"streetAddress": "경상남도 남해군 삼동면 동부대로 1810 / 경남해양과학고등학교 (삼동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경남해양과학고등학교",
-							"alternateName": "",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52444 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "남해군",
-								"streetAddress": "경상남도 남해군 삼동면 동부대로 1810 / 경남해양과학고등학교 (삼동면)"
-							},
-							"telephone": "055-867-0005",
-							"faxNumber": "055-867-4315",
-							"sameAs": ["http://gnms-h.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-867-0005",
+						"faxNumber": "055-867-4315",
+						"sameAs": ["http://gnms-h.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "830.6 Kcal",
 										"carbohydrateContent": "133.8 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "246.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "380.8 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "20.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1218.4 Kcal",
 										"carbohydrateContent": "165.0 g",
 										"proteinContent": "97.1 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "193.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "12.4 mg",
-										"calciumContent": "472.4 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

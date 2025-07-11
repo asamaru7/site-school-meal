@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장흥남초등학교/",
 				"headline": "장흥남초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장흥남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jangheungnam.es.jne.kr",
-							"url": "http://jangheungnam.es.jne.kr",
-							"name": "장흥남초등학교 급식 식단표 안내",
-							"description": "장흥남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장흥남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장흥남초등학교",
+						"alternateName": "Jangheungnam Elementary School",
+						"description": "전라남도장흥교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59336 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장흥군",
+							"streetAddress": "전라남도 장흥군 장흥읍 장흥대로 3298 (장흥읍/ 장흥남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장흥남초등학교",
-							"alternateName": "Jangheungnam Elementary School",
-							"description": "전라남도장흥교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59336 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장흥군",
-								"streetAddress": "전라남도 장흥군 장흥읍 장흥대로 3298 (장흥읍/ 장흥남초등학교)"
-							},
-							"telephone": "061-863-5107",
-							"faxNumber": "061-863-9551",
-							"sameAs": ["http://jangheungnam.es.jne.kr"]
-						}
-					],
+						"telephone": "061-863-5107",
+						"faxNumber": "061-863-9551",
+						"sameAs": ["http://jangheungnam.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "751.5 Kcal",
 										"carbohydrateContent": "96.2 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "105.0 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "22.0 mg",
-										"calciumContent": "207.7 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

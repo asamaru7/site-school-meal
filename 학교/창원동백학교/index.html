@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창원동백학교/",
 				"headline": "창원동백학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창원동백학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongbaek-s.gne.go.kr",
-							"url": "http://dongbaek-s.gne.go.kr",
-							"name": "창원동백학교 급식 식단표 안내",
-							"description": "창원동백학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창원동백학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창원동백학교",
+						"alternateName": "chagnwon dong baik",
+						"description": "경상남도교육청 / 사립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51783 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 구산면 반동길 370 (구산면/ 창원동백학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창원동백학교",
-							"alternateName": "chagnwon dong baik",
-							"description": "경상남도교육청 / 사립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51783 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 구산면 반동길 370 (구산면/ 창원동백학교)"
-							},
-							"telephone": "055-223-2900",
-							"faxNumber": "055-223-5812",
-							"sameAs": ["http://dongbaek-s.gne.go.kr"]
-						}
-					],
+						"telephone": "055-223-2900",
+						"faxNumber": "055-223-5812",
+						"sameAs": ["http://dongbaek-s.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "750.7 Kcal",
 										"carbohydrateContent": "109.7 g",
 										"proteinContent": "42.1 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "245.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "34.9 mg",
-										"calciumContent": "284.6 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

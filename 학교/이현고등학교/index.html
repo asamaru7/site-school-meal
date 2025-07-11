@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이현고등학교/",
 				"headline": "이현고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이현고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://ihyeon.goeic.kr/",
-							"url": "https://ihyeon.goeic.kr/",
-							"name": "이현고등학교 급식 식단표 안내",
-							"description": "이현고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이현고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이현고등학교",
+						"alternateName": "Ihyeon High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17350 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "이천시",
+							"streetAddress": "경기도 이천시 증신로 88 / 이현고등학교 (갈산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이현고등학교",
-							"alternateName": "Ihyeon High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17350 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "이천시",
-								"streetAddress": "경기도 이천시 증신로 88 / 이현고등학교 (갈산동)"
-							},
-							"telephone": "031-645-6500",
-							"faxNumber": "031-645-6565",
-							"sameAs": ["https://ihyeon.goeic.kr/"]
-						}
-					],
+						"telephone": "031-645-6500",
+						"faxNumber": "031-645-6565",
+						"sameAs": ["https://ihyeon.goeic.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "600.0 Kcal",
 										"carbohydrateContent": "91.7 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "12.6 g",
-										"vitaminAContent": "128.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "33.2 mg",
-										"calciumContent": "196.0 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "12.6 g"
 									}
 								}
 							]

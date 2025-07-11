@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신정여자중학교/",
 				"headline": "신정여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신정여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.shinjeong.ms.kr",
-							"url": "http://www.shinjeong.ms.kr",
-							"name": "신정여자중학교 급식 식단표 안내",
-							"description": "신정여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신정여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신정여자중학교",
+						"alternateName": "Shin Jeung Girls’ Middle School",
+						"description": "서울특별시강서양천교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07736 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 등촌로13아길 20 신정여자중학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신정여자중학교",
-							"alternateName": "Shin Jeung Girls’ Middle School",
-							"description": "서울특별시강서양천교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07736 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 등촌로13아길 20 신정여자중학교 "
-							},
-							"telephone": "02-2644-3549",
-							"faxNumber": "02-2642-5922",
-							"sameAs": ["http://www.shinjeong.ms.kr"]
-						}
-					],
+						"telephone": "02-2644-3549",
+						"faxNumber": "02-2642-5922",
+						"sameAs": ["http://www.shinjeong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "985.7 Kcal",
 										"carbohydrateContent": "138.4 g",
 										"proteinContent": "50.7 g",
-										"fatContent": "25.3 g",
-										"vitaminAContent": "435.3 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "603.9 mg",
-										"ironContent": "6.9 mg"
+										"fatContent": "25.3 g"
 									}
 								}
 							]

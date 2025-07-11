@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구포초등학교/",
 				"headline": "구포초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/gupo-e",
-							"url": "http://school.busanedu.net/gupo-e",
-							"name": "구포초등학교 급식 식단표 안내",
-							"description": "구포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구포초등학교",
+						"alternateName": "Gupo Elementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46628 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "북구",
+							"streetAddress": "부산광역시 북구 백양대로1124번길 20 (구포동/ 구포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구포초등학교",
-							"alternateName": "Gupo Elementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46628 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "북구",
-								"streetAddress": "부산광역시 북구 백양대로1124번길 20 (구포동/ 구포초등학교)"
-							},
-							"telephone": "051-330-5900",
-							"faxNumber": "051-330-5999",
-							"sameAs": ["http://school.busanedu.net/gupo-e"]
-						}
-					],
+						"telephone": "051-330-5900",
+						"faxNumber": "051-330-5999",
+						"sameAs": ["http://school.busanedu.net/gupo-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "574.6 Kcal",
 										"carbohydrateContent": "104.1 g",
 										"proteinContent": "19.1 g",
-										"fatContent": "9.7 g",
-										"vitaminAContent": "338.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.9 mg",
-										"calciumContent": "262.8 mg",
-										"ironContent": "6.9 mg"
+										"fatContent": "9.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서전중학교/",
 				"headline": "서전중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서전중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/seojeon-m",
-							"url": "http://school.cbe.go.kr/seojeon-m",
-							"name": "서전중학교 급식 식단표 안내",
-							"description": "서전중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서전중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서전중학교",
+						"alternateName": "Seojeon middle shcool",
+						"description": "충청북도진천교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27875 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 덕산읍 예지로 42 (덕산읍/ 서전중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서전중학교",
-							"alternateName": "Seojeon middle shcool",
-							"description": "충청북도진천교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27875 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 덕산읍 예지로 42 (덕산읍/ 서전중학교)"
-							},
-							"telephone": "043-537-8229",
-							"faxNumber": "043-537-8230",
-							"sameAs": ["http://school.cbe.go.kr/seojeon-m"]
-						}
-					],
+						"telephone": "043-537-8229",
+						"faxNumber": "043-537-8230",
+						"sameAs": ["http://school.cbe.go.kr/seojeon-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "811.2 Kcal",
 										"carbohydrateContent": "115.2 g",
 										"proteinContent": "40.0 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "129.7 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.2 mg",
-										"calciumContent": "96.7 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

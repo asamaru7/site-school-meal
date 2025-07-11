@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천효성서초등학교/",
 				"headline": "인천효성서초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천효성서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hss.icees.kr",
-							"url": "http://hss.icees.kr",
-							"name": "인천효성서초등학교 급식 식단표 안내",
-							"description": "인천효성서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천효성서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천효성서초등학교",
+						"alternateName": "Incheon Hyoseongseo Elementary School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21101 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 봉오대로 457 (효성동, 효성서초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천효성서초등학교",
-							"alternateName": "Incheon Hyoseongseo Elementary School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21101 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 봉오대로 457 (효성동, 효성서초등학교)"
-							},
-							"telephone": "032-628-5238",
-							"faxNumber": "032-551-2111",
-							"sameAs": ["http://hss.icees.kr"]
-						}
-					],
+						"telephone": "032-628-5238",
+						"faxNumber": "032-551-2111",
+						"sameAs": ["http://hss.icees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "641.2 Kcal",
 										"carbohydrateContent": "92.6 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "16.1 g",
-										"vitaminAContent": "133.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "40.5 mg",
-										"calciumContent": "269.1 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "16.1 g"
 									}
 								}
 							]

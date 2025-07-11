@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/왕산초등학교-강릉/",
 				"headline": "왕산초등학교(강릉) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/왕산초등학교-강릉/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wangsan.gwe.es.kr/",
-							"url": "http://wangsan.gwe.es.kr/",
-							"name": "왕산초등학교(강릉) 급식 식단표 안내",
-							"description": "왕산초등학교(강릉)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 왕산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "왕산초등학교(강릉)",
+						"alternateName": "Wangsan Elementary School",
+						"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25639 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "강릉시",
+							"streetAddress": "강원특별자치도 강릉시 왕산면 백두대간로 2011-8 / 왕산초등학교 (왕산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "왕산초등학교(강릉)",
-							"alternateName": "Wangsan Elementary School",
-							"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25639 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "강릉시",
-								"streetAddress": "강원특별자치도 강릉시 왕산면 백두대간로 2011-8 / 왕산초등학교 (왕산면)"
-							},
-							"telephone": "033-648-6131",
-							"faxNumber": "033-648-6132",
-							"sameAs": ["http://wangsan.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-648-6131",
+						"faxNumber": "033-648-6132",
+						"sameAs": ["http://wangsan.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "664.2 Kcal",
 										"carbohydrateContent": "91.1 g",
 										"proteinContent": "30.5 g",
-										"fatContent": "19.5 g",
-										"vitaminAContent": "96.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.1 mg",
-										"calciumContent": "245.1 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "19.5 g"
 									}
 								}
 							]

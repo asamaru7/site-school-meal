@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대잠초등학교/",
 				"headline": "대잠초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대잠초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/daejam",
-							"url": "http://school.gyo6.net/daejam",
-							"name": "대잠초등학교 급식 식단표 안내",
-							"description": "대잠초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대잠초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대잠초등학교",
+						"alternateName": "Daejam Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37756 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 중흥로 161번길 16 (죽도동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대잠초등학교",
-							"alternateName": "Daejam Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37756 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 중흥로 161번길 16 (죽도동)"
-							},
-							"telephone": "054-283-8511",
-							"faxNumber": "054-282-8593",
-							"sameAs": ["http://school.gyo6.net/daejam"]
-						}
-					],
+						"telephone": "054-283-8511",
+						"faxNumber": "054-282-8593",
+						"sameAs": ["http://school.gyo6.net/daejam"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "879.8 Kcal",
 										"carbohydrateContent": "122.6 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "30.4 g",
-										"vitaminAContent": "205.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "30.9 mg",
-										"calciumContent": "293.1 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "30.4 g"
 									}
 								}
 							]

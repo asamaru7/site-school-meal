@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부원여자중학교/",
 				"headline": "부원여자중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부원여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "buwon-gm.icems.kr/main.do",
-							"url": "buwon-gm.icems.kr/main.do",
-							"name": "부원여자중학교 급식 식단표 안내",
-							"description": "부원여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부원여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부원여자중학교",
+						"alternateName": "Buwon Girls Middle School",
+						"description": "인천광역시북부교육지원청 / 공립 / 여 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21387 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 부영로 88 (부평동/ 부원여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부원여자중학교",
-							"alternateName": "Buwon Girls Middle School",
-							"description": "인천광역시북부교육지원청 / 공립 / 여 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21387 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 부영로 88 (부평동/ 부원여자중학교)"
-							},
-							"telephone": "032-526-3968",
-							"faxNumber": "032-525-7106",
-							"sameAs": ["buwon-gm.icems.kr/main.do"]
-						}
-					],
+						"telephone": "032-526-3968",
+						"faxNumber": "032-525-7106",
+						"sameAs": ["buwon-gm.icems.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1243.7 Kcal",
 										"carbohydrateContent": "174.9 g",
 										"proteinContent": "33.7 g",
-										"fatContent": "44.4 g",
-										"vitaminAContent": "113.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "15.5 mg",
-										"calciumContent": "366.8 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "44.4 g"
 									}
 								}
 							]

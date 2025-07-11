@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성남고등학교/",
 				"headline": "성남고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성남고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sungnam.sen.hs.kr",
-							"url": "http://www.sungnam.sen.hs.kr",
-							"name": "성남고등학교 급식 식단표 안내",
-							"description": "성남고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성남고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성남고등학교",
+						"alternateName": "Sungnam High School",
+						"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06946 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 대방동길 74 / 성남고등학교 (대방동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성남고등학교",
-							"alternateName": "Sungnam High School",
-							"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06946 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 대방동길 74 / 성남고등학교 (대방동)"
-							},
-							"telephone": "02-815-3645",
-							"faxNumber": "02-815-1333",
-							"sameAs": ["http://www.sungnam.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-815-3645",
+						"faxNumber": "02-815-1333",
+						"sameAs": ["http://www.sungnam.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1016.2 Kcal",
 										"carbohydrateContent": "136.8 g",
 										"proteinContent": "57.6 g",
-										"fatContent": "25.5 g",
-										"vitaminAContent": "401.9 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "37.5 mg",
-										"calciumContent": "491.1 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "25.5 g"
 									}
 								}
 							]

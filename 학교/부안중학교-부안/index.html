@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부안중학교-부안/",
 				"headline": "부안중학교(부안) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부안중학교-부안/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.puan.ms.kr",
-							"url": "http://www.puan.ms.kr",
-							"name": "부안중학교(부안) 급식 식단표 안내",
-							"description": "부안중학교(부안)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부안중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부안중학교(부안)",
+						"alternateName": "Buan Middle School",
+						"description": "전북특별자치도부안교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "56310 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "부안군",
+							"streetAddress": "전북특별자치도 부안군 부안읍 당산로 1 부안중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부안중학교(부안)",
-							"alternateName": "Buan Middle School",
-							"description": "전북특별자치도부안교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "56310 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "부안군",
-								"streetAddress": "전북특별자치도 부안군 부안읍 당산로 1 부안중학교"
-							},
-							"telephone": "063-583-2704",
-							"faxNumber": "063-584-7689",
-							"sameAs": ["http://www.puan.ms.kr"]
-						}
-					],
+						"telephone": "063-583-2704",
+						"faxNumber": "063-584-7689",
+						"sameAs": ["http://www.puan.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "838.2 Kcal",
 										"carbohydrateContent": "132.3 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "159.2 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "158.3 mg",
-										"ironContent": "14.5 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

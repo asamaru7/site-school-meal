@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진도군내중학교/",
 				"headline": "진도군내중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진도군내중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gunnae.ms.jne.kr",
-							"url": "http://gunnae.ms.jne.kr",
-							"name": "진도군내중학교 급식 식단표 안내",
-							"description": "진도군내중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진도군내중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진도군내중학교",
+						"alternateName": "Jindo Gunnae Middle School",
+						"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58902 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 군내면 금골길 26 (군내면/군내중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진도군내중학교",
-							"alternateName": "Jindo Gunnae Middle School",
-							"description": "전라남도진도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58902 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 군내면 금골길 26 (군내면/군내중학교)"
-							},
-							"telephone": "061-542-4030",
-							"faxNumber": "061-542-9556",
-							"sameAs": ["http://gunnae.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-542-4030",
+						"faxNumber": "061-542-9556",
+						"sameAs": ["http://gunnae.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "892.4 Kcal",
 										"carbohydrateContent": "138.9 g",
 										"proteinContent": "39.9 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "200.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "336.2 mg",
-										"ironContent": "10.9 mg"
+										"fatContent": "21.0 g"
 									}
 								}
 							]

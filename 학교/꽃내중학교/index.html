@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/꽃내중학교/",
 				"headline": "꽃내중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/꽃내중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kkonnae-m.gne.go.kr",
-							"url": "http://kkonnae-m.gne.go.kr",
-							"name": "꽃내중학교 급식 식단표 안내",
-							"description": "꽃내중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 꽃내중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "꽃내중학교",
+						"alternateName": "Kkonnae Middle School",
+						"description": "남해교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52446 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "남해군",
+							"streetAddress": "경상남도 남해군 삼동면 동부대로 1316 (삼동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "꽃내중학교",
-							"alternateName": "Kkonnae Middle School",
-							"description": "남해교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52446 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "남해군",
-								"streetAddress": "경상남도 남해군 삼동면 동부대로 1316 (삼동면)"
-							},
-							"telephone": "055-812-7300",
-							"faxNumber": "055-812-7304",
-							"sameAs": ["http://kkonnae-m.gne.go.kr"]
-						}
-					]
+						"telephone": "055-812-7300",
+						"faxNumber": "055-812-7304",
+						"sameAs": ["http://kkonnae-m.gne.go.kr"]
+					}
 				]
 			}
 		</script>

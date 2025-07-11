@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전갑천중학교/",
 				"headline": "대전갑천중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전갑천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gapcheonms.djsch.kr",
-							"url": "http://gapcheonms.djsch.kr",
-							"name": "대전갑천중학교 급식 식단표 안내",
-							"description": "대전갑천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전갑천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전갑천중학교",
+						"alternateName": "Daejeon Gapcheon Middle School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35216 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 월평동로 80 (월평동/ 갑천중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전갑천중학교",
-							"alternateName": "Daejeon Gapcheon Middle School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35216 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 월평동로 80 (월평동/ 갑천중학교)"
-							},
-							"telephone": "042-488-8600",
-							"faxNumber": "042-485-1999",
-							"sameAs": ["http://gapcheonms.djsch.kr"]
-						}
-					],
+						"telephone": "042-488-8600",
+						"faxNumber": "042-485-1999",
+						"sameAs": ["http://gapcheonms.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "779.2 Kcal",
 										"carbohydrateContent": "107.6 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "23.1 g",
-										"vitaminAContent": "72.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "235.7 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "23.1 g"
 									}
 								}
 							]

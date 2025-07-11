@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송악초등학교/",
 				"headline": "송악초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송악초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songak.cnees.kr",
-							"url": "http://songak.cnees.kr",
-							"name": "송악초등학교 급식 식단표 안내",
-							"description": "송악초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송악초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송악초등학교",
+						"alternateName": "Songak Elementary School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31728 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 송악읍 송악로 663-1 / 송악초등학교 (송악읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송악초등학교",
-							"alternateName": "Songak Elementary School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31728 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 송악읍 송악로 663-1 / 송악초등학교 (송악읍)"
-							},
-							"telephone": "041-358-8004",
-							"faxNumber": "041-358-9377",
-							"sameAs": ["http://songak.cnees.kr"]
-						}
-					],
+						"telephone": "041-358-8004",
+						"faxNumber": "041-358-9377",
+						"sameAs": ["http://songak.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "579.7 Kcal",
 										"carbohydrateContent": "78.5 g",
 										"proteinContent": "31.0 g",
-										"fatContent": "14.3 g",
-										"vitaminAContent": "213.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "4.7 mg",
-										"calciumContent": "293.7 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "14.3 g"
 									}
 								}
 							]

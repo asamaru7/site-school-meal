@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금성중학교/",
 				"headline": "금성중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jb-gumsung.ms.kr",
-							"url": "jb-gumsung.ms.kr",
-							"name": "금성중학교 급식 식단표 안내",
-							"description": "금성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금성중학교",
+						"alternateName": "Geumsung Middle School",
+						"description": "전북특별자치도김제교육지원청 / 사립 / 여 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54404 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "김제시",
+							"streetAddress": "전북특별자치도 김제시 금성5길 19 금성중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금성중학교",
-							"alternateName": "Geumsung Middle School",
-							"description": "전북특별자치도김제교육지원청 / 사립 / 여 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54404 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "김제시",
-								"streetAddress": "전북특별자치도 김제시 금성5길 19 금성중학교"
-							},
-							"telephone": "063-544-0201",
-							"faxNumber": "063-546-0201",
-							"sameAs": ["jb-gumsung.ms.kr"]
-						}
-					],
+						"telephone": "063-544-0201",
+						"faxNumber": "063-546-0201",
+						"sameAs": ["jb-gumsung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "761.4 Kcal",
 										"carbohydrateContent": "127.0 g",
 										"proteinContent": "26.4 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "137.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "5.7 mg",
-										"calciumContent": "71.7 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

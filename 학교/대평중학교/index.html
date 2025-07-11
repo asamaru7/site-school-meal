@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대평중학교/",
 				"headline": "대평중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대평중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.daepyeong.dge.ms.kr/",
-							"url": "http://www.daepyeong.dge.ms.kr/",
-							"name": "대평중학교 급식 식단표 안내",
-							"description": "대평중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대평중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대평중학교",
+						"alternateName": "Daepyong Middle School",
+						"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41739 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대구광역시 서구 통학로 217 (평리동/ 대평중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대평중학교",
-							"alternateName": "Daepyong Middle School",
-							"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41739 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대구광역시 서구 통학로 217 (평리동/ 대평중학교)"
-							},
-							"telephone": "053-233-7903",
-							"faxNumber": "053-563-2306",
-							"sameAs": ["http://www.daepyeong.dge.ms.kr/"]
-						}
-					],
+						"telephone": "053-233-7903",
+						"faxNumber": "053-563-2306",
+						"sameAs": ["http://www.daepyeong.dge.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "700.4 Kcal",
 										"carbohydrateContent": "83.2 g",
 										"proteinContent": "54.3 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "177.5 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "57.8 mg",
-										"calciumContent": "373.3 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

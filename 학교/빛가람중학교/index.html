@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/빛가람중학교/",
 				"headline": "빛가람중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/빛가람중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bitgaram.ms.jne.kr",
-							"url": "http://bitgaram.ms.jne.kr",
-							"name": "빛가람중학교 급식 식단표 안내",
-							"description": "빛가람중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 빛가람중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "빛가람중학교",
+						"alternateName": "Bitgaram Middle School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58329 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 월정5길 12 (빛가람동/ 빛가람중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "빛가람중학교",
-							"alternateName": "Bitgaram Middle School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58329 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 월정5길 12 (빛가람동/ 빛가람중학교)"
-							},
-							"telephone": "061-820-4111",
-							"faxNumber": "061-334-2999",
-							"sameAs": ["http://bitgaram.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-820-4111",
+						"faxNumber": "061-334-2999",
+						"sameAs": ["http://bitgaram.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "881.6 Kcal",
 										"carbohydrateContent": "112.0 g",
 										"proteinContent": "33.3 g",
-										"fatContent": "32.5 g",
-										"vitaminAContent": "193.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "31.1 mg",
-										"calciumContent": "197.8 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "32.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산중앙중학교/",
 				"headline": "부산중앙중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산중앙중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.bsjungang.ms.kr",
-							"url": "www.bsjungang.ms.kr",
-							"name": "부산중앙중학교 급식 식단표 안내",
-							"description": "부산중앙중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산중앙중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산중앙중학교",
+						"alternateName": "Busan Jungang Middle School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46022 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 정관읍 정관덕산길 73 (정관읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산중앙중학교",
-							"alternateName": "Busan Jungang Middle School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46022 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 정관읍 정관덕산길 73 (정관읍)"
-							},
-							"telephone": "051-720-8709",
-							"faxNumber": "051-727-8729",
-							"sameAs": ["www.bsjungang.ms.kr"]
-						}
-					],
+						"telephone": "051-720-8709",
+						"faxNumber": "051-727-8729",
+						"sameAs": ["www.bsjungang.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "833.0 Kcal",
 										"carbohydrateContent": "105.1 g",
 										"proteinContent": "40.9 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "178.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "19.0 mg",
-										"calciumContent": "167.4 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

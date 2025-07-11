@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산장안고등학교/",
 				"headline": "부산장안고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산장안고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jang-an.hs.kr/",
-							"url": "http://jang-an.hs.kr/",
-							"name": "부산장안고등학교 급식 식단표 안내",
-							"description": "부산장안고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산장안고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산장안고등학교",
+						"alternateName": "Busan Jang-an High School",
+						"description": "부산광역시교육청 / 공립 / 남여공학 / 자율고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46029 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 장안읍 장안고길 8-16 (장안읍/ 부산장안고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산장안고등학교",
-							"alternateName": "Busan Jang-an High School",
-							"description": "부산광역시교육청 / 공립 / 남여공학 / 자율고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46029 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 장안읍 장안고길 8-16 (장안읍/ 부산장안고등학교)"
-							},
-							"telephone": "051-720-1700",
-							"faxNumber": "051-727-5919",
-							"sameAs": ["http://jang-an.hs.kr/"]
-						}
-					],
+						"telephone": "051-720-1700",
+						"faxNumber": "051-727-5919",
+						"sameAs": ["http://jang-an.hs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "857.2 Kcal",
 										"carbohydrateContent": "135.9 g",
 										"proteinContent": "25.3 g",
-										"fatContent": "23.7 g",
-										"vitaminAContent": "195.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "54.8 mg",
-										"calciumContent": "321.6 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "23.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "831.6 Kcal",
 										"carbohydrateContent": "119.1 g",
 										"proteinContent": "36.0 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "342.7 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "29.9 mg",
-										"calciumContent": "470.0 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

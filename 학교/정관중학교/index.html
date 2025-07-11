@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정관중학교/",
 				"headline": "정관중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정관중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeonggwan.ms.kr/",
-							"url": "http://jeonggwan.ms.kr/",
-							"name": "정관중학교 급식 식단표 안내",
-							"description": "정관중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정관중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정관중학교",
+						"alternateName": "Jeonggwan middle school",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46015 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 정관읍 정관로 531 (정관읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정관중학교",
-							"alternateName": "Jeonggwan middle school",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46015 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 정관읍 정관로 531 (정관읍)"
-							},
-							"telephone": "051-780-5400",
-							"faxNumber": "051-780-5430",
-							"sameAs": ["http://jeonggwan.ms.kr/"]
-						}
-					],
+						"telephone": "051-780-5400",
+						"faxNumber": "051-780-5430",
+						"sameAs": ["http://jeonggwan.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "849.1 Kcal",
 										"carbohydrateContent": "116.3 g",
 										"proteinContent": "35.6 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "111.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "54.5 mg",
-										"calciumContent": "161.7 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

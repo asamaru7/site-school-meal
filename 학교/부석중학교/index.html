@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부석중학교/",
 				"headline": "부석중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부석중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://buseok.cnems.kr",
-							"url": "http://buseok.cnems.kr",
-							"name": "부석중학교 급식 식단표 안내",
-							"description": "부석중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부석중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부석중학교",
+						"alternateName": "Buseok Middle School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32019 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 부석면 무학로 1034 (부석면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부석중학교",
-							"alternateName": "Buseok Middle School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32019 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 부석면 무학로 1034 (부석면)"
-							},
-							"telephone": "041-669-0292",
-							"faxNumber": "041-669-0291",
-							"sameAs": ["http://buseok.cnems.kr"]
-						}
-					]
+						"telephone": "041-669-0292",
+						"faxNumber": "041-669-0291",
+						"sameAs": ["http://buseok.cnems.kr"]
+					}
 				]
 			}
 		</script>

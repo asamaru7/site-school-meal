@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해룡중학교/",
 				"headline": "해룡중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해룡중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "haeryong.ms.jne.kr",
-							"url": "haeryong.ms.jne.kr",
-							"name": "해룡중학교 급식 식단표 안내",
-							"description": "해룡중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해룡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해룡중학교",
+						"alternateName": "Haeryong Middle School",
+						"description": "전라남도영광교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57047 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영광군",
+							"streetAddress": "전라남도 영광군 영광읍 중앙로 120 (영광읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해룡중학교",
-							"alternateName": "Haeryong Middle School",
-							"description": "전라남도영광교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57047 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영광군",
-								"streetAddress": "전라남도 영광군 영광읍 중앙로 120 (영광읍)"
-							},
-							"telephone": "061-350-1152",
-							"faxNumber": "061-350-1188",
-							"sameAs": ["haeryong.ms.jne.kr"]
-						}
-					]
+						"telephone": "061-350-1152",
+						"faxNumber": "061-350-1188",
+						"sameAs": ["haeryong.ms.jne.kr"]
+					}
 				]
 			}
 		</script>

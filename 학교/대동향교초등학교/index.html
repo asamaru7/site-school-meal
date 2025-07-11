@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대동향교초등학교/",
 				"headline": "대동향교초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대동향교초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ddhyanggyo.es.jne.kr",
-							"url": "http://ddhyanggyo.es.jne.kr",
-							"name": "대동향교초등학교 급식 식단표 안내",
-							"description": "대동향교초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대동향교초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대동향교초등학교",
+						"alternateName": "Daedong Hyanggyo Elementary school",
+						"description": "전라남도함평교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57145 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "함평군",
+							"streetAddress": "전라남도 함평군 대동면 대동길 6-9 (대동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대동향교초등학교",
-							"alternateName": "Daedong Hyanggyo Elementary school",
-							"description": "전라남도함평교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57145 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "함평군",
-								"streetAddress": "전라남도 함평군 대동면 대동길 6-9 (대동면)"
-							},
-							"telephone": "061-322-2792",
-							"faxNumber": "061-322-2793",
-							"sameAs": ["http://ddhyanggyo.es.jne.kr"]
-						}
-					],
+						"telephone": "061-322-2792",
+						"faxNumber": "061-322-2793",
+						"sameAs": ["http://ddhyanggyo.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "498.3 Kcal",
 										"carbohydrateContent": "78.6 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "7.4 g",
-										"vitaminAContent": "153.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "8.9 mg",
-										"calciumContent": "232.0 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "7.4 g"
 									}
 								}
 							]

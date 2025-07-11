@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대교초등학교/",
 				"headline": "대교초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대교초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daegyo.es.kr",
-							"url": "http://daegyo.es.kr",
-							"name": "대교초등학교 급식 식단표 안내",
-							"description": "대교초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대교초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대교초등학교",
+						"alternateName": "Daegyo Elementary School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49006 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "영도구",
+							"streetAddress": "부산광역시 영도구 봉래나루로246번길 19 (봉래동4가/ 대교초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대교초등학교",
-							"alternateName": "Daegyo Elementary School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49006 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "영도구",
-								"streetAddress": "부산광역시 영도구 봉래나루로246번길 19 (봉래동4가/ 대교초등학교)"
-							},
-							"telephone": "051-410-2500",
-							"faxNumber": "051-412-8957",
-							"sameAs": ["http://daegyo.es.kr"]
-						}
-					],
+						"telephone": "051-410-2500",
+						"faxNumber": "051-412-8957",
+						"sameAs": ["http://daegyo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "656.7 Kcal",
 										"carbohydrateContent": "78.7 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "25.0 g",
-										"vitaminAContent": "247.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "17.6 mg",
-										"calciumContent": "392.6 mg",
-										"ironContent": "10.0 mg"
+										"fatContent": "25.0 g"
 									}
 								}
 							]

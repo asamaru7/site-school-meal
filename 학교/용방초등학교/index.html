@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용방초등학교/",
 				"headline": "용방초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용방초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yongbang.es.jne.kr",
-							"url": "http://yongbang.es.jne.kr",
-							"name": "용방초등학교 급식 식단표 안내",
-							"description": "용방초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용방초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용방초등학교",
+						"alternateName": "Yongbang Elementary School",
+						"description": "전라남도구례교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57612 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "구례군",
+							"streetAddress": "전라남도 구례군 용방면 용방로 464 (용방면/용방초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용방초등학교",
-							"alternateName": "Yongbang Elementary School",
-							"description": "전라남도구례교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57612 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "구례군",
-								"streetAddress": "전라남도 구례군 용방면 용방로 464 (용방면/용방초등학교)"
-							},
-							"telephone": "061-782-1985",
-							"faxNumber": "061-782-3663",
-							"sameAs": ["http://yongbang.es.jne.kr"]
-						}
-					],
+						"telephone": "061-782-1985",
+						"faxNumber": "061-782-3663",
+						"sameAs": ["http://yongbang.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "568.7 Kcal",
 										"carbohydrateContent": "84.8 g",
 										"proteinContent": "23.6 g",
-										"fatContent": "15.5 g",
-										"vitaminAContent": "64.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.3 mg",
-										"calciumContent": "142.9 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "15.5 g"
 									}
 								}
 							]

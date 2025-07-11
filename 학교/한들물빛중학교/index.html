@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한들물빛중학교/",
 				"headline": "한들물빛중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한들물빛중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://handeulms.cnems.kr",
-							"url": "http://handeulms.cnems.kr",
-							"name": "한들물빛중학교 급식 식단표 안내",
-							"description": "한들물빛중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한들물빛중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한들물빛중학교",
+						"alternateName": "Handeul Mulbit Middle School",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31465 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 탕정면 한들물빛3로 35 (탕정면/ 한들물빛중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한들물빛중학교",
-							"alternateName": "Handeul Mulbit Middle School",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31465 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 탕정면 한들물빛3로 35 (탕정면/ 한들물빛중학교)"
-							},
-							"telephone": "041-423-3300",
-							"faxNumber": "041-423-3399",
-							"sameAs": ["http://handeulms.cnems.kr"]
-						}
-					]
+						"telephone": "041-423-3300",
+						"faxNumber": "041-423-3399",
+						"sameAs": ["http://handeulms.cnems.kr"]
+					}
 				]
 			}
 		</script>

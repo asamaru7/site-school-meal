@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼척남초등학교/",
 				"headline": "삼척남초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼척남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://samcheoknam.gwe.es.kr",
-							"url": "http://samcheoknam.gwe.es.kr",
-							"name": "삼척남초등학교 급식 식단표 안내",
-							"description": "삼척남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼척남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼척남초등학교",
+						"alternateName": "Samcheoknam Elementary School",
+						"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25931 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "삼척시",
+							"streetAddress": "강원특별자치도 삼척시 동해대로 3783-22 (오분동,삼척남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼척남초등학교",
-							"alternateName": "Samcheoknam Elementary School",
-							"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25931 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "삼척시",
-								"streetAddress": "강원특별자치도 삼척시 동해대로 3783-22 (오분동,삼척남초등학교)"
-							},
-							"telephone": "033-572-8765",
-							"faxNumber": "033-574-4550",
-							"sameAs": ["http://samcheoknam.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-572-8765",
+						"faxNumber": "033-574-4550",
+						"sameAs": ["http://samcheoknam.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "719.9 Kcal",
 										"carbohydrateContent": "93.6 g",
 										"proteinContent": "37.8 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "164.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "313.0 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

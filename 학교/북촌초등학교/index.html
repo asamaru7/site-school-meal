@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/북촌초등학교/",
 				"headline": "북촌초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/북촌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bukchon.jje.es.kr",
-							"url": "http://bukchon.jje.es.kr",
-							"name": "북촌초등학교 급식 식단표 안내",
-							"description": "북촌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 북촌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "북촌초등학교",
+						"alternateName": "BUKCHON ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63339 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 조천읍 일주동로 1481 (조천읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "북촌초등학교",
-							"alternateName": "BUKCHON ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63339 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 조천읍 일주동로 1481 (조천읍)"
-							},
-							"telephone": "064-717-3800",
-							"faxNumber": "064-717-3881",
-							"sameAs": ["http://bukchon.jje.es.kr"]
-						}
-					],
+						"telephone": "064-717-3800",
+						"faxNumber": "064-717-3881",
+						"sameAs": ["http://bukchon.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "578.5 Kcal",
 										"carbohydrateContent": "90.1 g",
 										"proteinContent": "27.5 g",
-										"fatContent": "10.8 g",
-										"vitaminAContent": "189.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "13.3 mg",
-										"calciumContent": "405.7 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "10.8 g"
 									}
 								}
 							]

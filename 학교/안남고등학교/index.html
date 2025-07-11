@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안남고등학교/",
 				"headline": "안남고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안남고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://annam.icehs.kr/",
-							"url": "http://annam.icehs.kr/",
-							"name": "안남고등학교 급식 식단표 안내",
-							"description": "안남고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안남고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안남고등학교",
+						"alternateName": "Annam High School",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21122 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 아나지로308번길 9 (작전동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안남고등학교",
-							"alternateName": "Annam High School",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21122 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 아나지로308번길 9 (작전동)"
-							},
-							"telephone": "032-555-4280",
-							"faxNumber": "032-555-4284",
-							"sameAs": ["http://annam.icehs.kr/"]
-						}
-					],
+						"telephone": "032-555-4280",
+						"faxNumber": "032-555-4284",
+						"sameAs": ["http://annam.icehs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.4 Kcal",
 										"carbohydrateContent": "89.7 g",
 										"proteinContent": "43.0 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "144.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "15.5 mg",
-										"calciumContent": "419.7 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

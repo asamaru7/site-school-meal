@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천예림학교/",
 				"headline": "인천예림학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천예림학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yerim.icesc.kr/",
-							"url": "http://yerim.icesc.kr/",
-							"name": "인천예림학교 급식 식단표 안내",
-							"description": "인천예림학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천예림학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천예림학교",
+						"alternateName": "Incheon yerim school",
+						"description": "인천광역시교육청 / 사립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21425 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 동수로 87 (부평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천예림학교",
-							"alternateName": "Incheon yerim school",
-							"description": "인천광역시교육청 / 사립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21425 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 동수로 87 (부평동)"
-							},
-							"telephone": "032-502-0804",
-							"faxNumber": "032-528-6322",
-							"sameAs": ["http://yerim.icesc.kr/"]
-						}
-					],
+						"telephone": "032-502-0804",
+						"faxNumber": "032-528-6322",
+						"sameAs": ["http://yerim.icesc.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "803.1 Kcal",
 										"carbohydrateContent": "132.1 g",
 										"proteinContent": "41.3 g",
-										"fatContent": "9.9 g",
-										"vitaminAContent": "196.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "26.1 mg",
-										"calciumContent": "180.6 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "9.9 g"
 									}
 								}
 							]

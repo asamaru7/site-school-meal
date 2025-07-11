@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상산초등학교/",
 				"headline": "상산초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/sangsanes",
-							"url": "http://school.gyo6.net/sangsanes",
-							"name": "상산초등학교 급식 식단표 안내",
-							"description": "상산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상산초등학교",
+						"alternateName": "Sangsan Elementary School",
+						"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37170 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "상주시",
+							"streetAddress": "경상북도 상주시 왕산로 374 / 상산초등학교 (냉림동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상산초등학교",
-							"alternateName": "Sangsan Elementary School",
-							"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37170 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "상주시",
-								"streetAddress": "경상북도 상주시 왕산로 374 / 상산초등학교 (냉림동)"
-							},
-							"telephone": "054-532-3851",
-							"faxNumber": "054-536-1660",
-							"sameAs": ["http://school.gyo6.net/sangsanes"]
-						}
-					],
+						"telephone": "054-532-3851",
+						"faxNumber": "054-536-1660",
+						"sameAs": ["http://school.gyo6.net/sangsanes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "580.4 Kcal",
 										"carbohydrateContent": "91.8 g",
 										"proteinContent": "17.6 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "86.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "12.9 mg",
-										"calciumContent": "127.5 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

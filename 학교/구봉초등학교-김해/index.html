@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구봉초등학교-김해/",
 				"headline": "구봉초등학교(김해) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구봉초등학교-김해/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://goobong-p.gne.go.kr",
-							"url": "http://goobong-p.gne.go.kr",
-							"name": "구봉초등학교(김해) 급식 식단표 안내",
-							"description": "구봉초등학교(김해)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구봉초등학교(김해)",
+						"alternateName": "",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50911 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 구지로 99-26 (구산동/ 구봉초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구봉초등학교(김해)",
-							"alternateName": "",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50911 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 구지로 99-26 (구산동/ 구봉초등학교)"
-							},
-							"telephone": "055-335-2442",
-							"faxNumber": "055-334-3555",
-							"sameAs": ["http://goobong-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-335-2442",
+						"faxNumber": "055-334-3555",
+						"sameAs": ["http://goobong-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "729.0 Kcal",
 										"carbohydrateContent": "111.1 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "14.5 g",
-										"vitaminAContent": "77.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "5.5 mg",
-										"calciumContent": "355.2 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "14.5 g"
 									}
 								}
 							]

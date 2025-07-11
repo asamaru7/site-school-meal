@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포곡초등학교/",
 				"headline": "포곡초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "pogok-e.goeyi.kr",
-							"url": "pogok-e.goeyi.kr",
-							"name": "포곡초등학교 급식 식단표 안내",
-							"description": "포곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포곡초등학교",
+						"alternateName": "Pogok Elementary School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17023 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 처인구",
+							"streetAddress": "경기도 용인시 처인구 포곡읍 부곡로 24 (포곡읍/ 포곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포곡초등학교",
-							"alternateName": "Pogok Elementary School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17023 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 처인구",
-								"streetAddress": "경기도 용인시 처인구 포곡읍 부곡로 24 (포곡읍/ 포곡초등학교)"
-							},
-							"telephone": "031-332-5313",
-							"faxNumber": "031-334-5644",
-							"sameAs": ["pogok-e.goeyi.kr"]
-						}
-					],
+						"telephone": "031-332-5313",
+						"faxNumber": "031-334-5644",
+						"sameAs": ["pogok-e.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "413.8 Kcal",
 										"carbohydrateContent": "57.0 g",
 										"proteinContent": "26.2 g",
-										"fatContent": "8.1 g",
-										"vitaminAContent": "83.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "154.6 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "8.1 g"
 									}
 								}
 							]

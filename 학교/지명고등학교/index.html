@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지명고등학교/",
 				"headline": "지명고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지명고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jimyung.hs.jne.kr",
-							"url": "http://jimyung.hs.jne.kr",
-							"name": "지명고등학교 급식 식단표 안내",
-							"description": "지명고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지명고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지명고등학교",
+						"alternateName": "Jimyeong High School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58813 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "신안군",
+							"streetAddress": "전라남도 신안군 지도읍 해제지도로 1362 (지도읍/ 지명고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지명고등학교",
-							"alternateName": "Jimyeong High School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58813 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "신안군",
-								"streetAddress": "전라남도 신안군 지도읍 해제지도로 1362 (지도읍/ 지명고등학교)"
-							},
-							"telephone": "061-275-0321",
-							"faxNumber": "061-275-0359",
-							"sameAs": ["http://jimyung.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-275-0321",
+						"faxNumber": "061-275-0359",
+						"sameAs": ["http://jimyung.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "756.4 Kcal",
 										"carbohydrateContent": "113.8 g",
 										"proteinContent": "15.9 g",
-										"fatContent": "24.1 g",
-										"vitaminAContent": "121.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "16.6 mg",
-										"calciumContent": "146.0 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "24.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "658.9 Kcal",
 										"carbohydrateContent": "116.8 g",
 										"proteinContent": "30.6 g",
-										"fatContent": "6.1 g",
-										"vitaminAContent": "130.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.2 mg",
-										"calciumContent": "157.2 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "6.1 g"
 									}
 								}
 							]

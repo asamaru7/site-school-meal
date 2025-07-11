@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울진관초등학교/",
 				"headline": "서울진관초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울진관초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jingwan.es.kr",
-							"url": "http://www.jingwan.es.kr",
-							"name": "서울진관초등학교 급식 식단표 안내",
-							"description": "서울진관초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울진관초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울진관초등학교",
+						"alternateName": "Seoul Jingwan Elementary School",
+						"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03303 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "은평구",
+							"streetAddress": "서울특별시 은평구 진관4로 78-16 (진관동/진관초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울진관초등학교",
-							"alternateName": "Seoul Jingwan Elementary School",
-							"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03303 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "은평구",
-								"streetAddress": "서울특별시 은평구 진관4로 78-16 (진관동/진관초등학교)"
-							},
-							"telephone": "02-386-3365",
-							"faxNumber": "02-386-3316",
-							"sameAs": ["http://www.jingwan.es.kr"]
-						}
-					],
+						"telephone": "02-386-3365",
+						"faxNumber": "02-386-3316",
+						"sameAs": ["http://www.jingwan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.3 Kcal",
 										"carbohydrateContent": "76.4 g",
 										"proteinContent": "32.0 g",
-										"fatContent": "22.1 g",
-										"vitaminAContent": "129.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "4.0 mg",
-										"calciumContent": "267.0 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "22.1 g"
 									}
 								}
 							]

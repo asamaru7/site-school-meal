@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/풍암중학교/",
 				"headline": "풍암중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/풍암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://pungam.gen.ms.kr",
-							"url": "http://pungam.gen.ms.kr",
-							"name": "풍암중학교 급식 식단표 안내",
-							"description": "풍암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 풍암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "풍암중학교",
+						"alternateName": "Pungam Middle School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62064 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "서구",
+							"streetAddress": "광주광역시 서구 풍암순환로 51 (풍암동/풍암중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "풍암중학교",
-							"alternateName": "Pungam Middle School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62064 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "서구",
-								"streetAddress": "광주광역시 서구 풍암순환로 51 (풍암동/풍암중학교)"
-							},
-							"telephone": "062-650-9500",
-							"faxNumber": "062-650-9590",
-							"sameAs": ["http://pungam.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-650-9500",
+						"faxNumber": "062-650-9590",
+						"sameAs": ["http://pungam.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "863.3 Kcal",
 										"carbohydrateContent": "126.8 g",
 										"proteinContent": "42.6 g",
-										"fatContent": "20.3 g",
-										"vitaminAContent": "1015.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "22.1 mg",
-										"calciumContent": "456.7 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "20.3 g"
 									}
 								}
 							]

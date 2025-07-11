@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송라초등학교/",
 				"headline": "송라초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송라초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.songra.es.kr",
-							"url": "www.songra.es.kr",
-							"name": "송라초등학교 급식 식단표 안내",
-							"description": "송라초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송라초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송라초등학교",
+						"alternateName": "Songra Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18286 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 매송면 푸른들판로 1970-16 / 송라초등학교 (매송면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송라초등학교",
-							"alternateName": "Songra Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18286 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 매송면 푸른들판로 1970-16 / 송라초등학교 (매송면)"
-							},
-							"telephone": "031-295-2101",
-							"faxNumber": "031-295-8066",
-							"sameAs": ["www.songra.es.kr"]
-						}
-					]
+						"telephone": "031-295-2101",
+						"faxNumber": "031-295-8066",
+						"sameAs": ["www.songra.es.kr"]
+					}
 				]
 			}
 		</script>

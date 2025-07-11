@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장성남중학교/",
 				"headline": "장성남중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장성남중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jangseongnam.ms.jne.kr",
-							"url": "jangseongnam.ms.jne.kr",
-							"name": "장성남중학교 급식 식단표 안내",
-							"description": "장성남중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장성남중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장성남중학교",
+						"alternateName": "Jangseongnam Middle School",
+						"description": "전라남도장성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57249 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장성군",
+							"streetAddress": "전라남도 장성군 남면 황토단감로 10 (남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장성남중학교",
-							"alternateName": "Jangseongnam Middle School",
-							"description": "전라남도장성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57249 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장성군",
-								"streetAddress": "전라남도 장성군 남면 황토단감로 10 (남면)"
-							},
-							"telephone": "061-392-4114",
-							"faxNumber": "061-392-6734",
-							"sameAs": ["jangseongnam.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-392-4114",
+						"faxNumber": "061-392-6734",
+						"sameAs": ["jangseongnam.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "658.0 Kcal",
 										"carbohydrateContent": "94.2 g",
 										"proteinContent": "33.3 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "130.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.6 mg",
-										"calciumContent": "209.5 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

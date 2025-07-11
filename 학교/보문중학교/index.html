@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보문중학교/",
 				"headline": "보문중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bomoonms.djsch.kr",
-							"url": "http://bomoonms.djsch.kr",
-							"name": "보문중학교 급식 식단표 안내",
-							"description": "보문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보문중학교",
+						"alternateName": "Bomoon Middle School",
+						"description": "대전광역시동부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34619 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대전광역시 동구 우암로 57 (삼성동/ 보문중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보문중학교",
-							"alternateName": "Bomoon Middle School",
-							"description": "대전광역시동부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34619 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대전광역시 동구 우암로 57 (삼성동/ 보문중학교)"
-							},
-							"telephone": "042-620-6705",
-							"faxNumber": "042-672-9365",
-							"sameAs": ["http://bomoonms.djsch.kr"]
-						}
-					],
+						"telephone": "042-620-6705",
+						"faxNumber": "042-672-9365",
+						"sameAs": ["http://bomoonms.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "928.6 Kcal",
 										"carbohydrateContent": "131.8 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "26.6 g",
-										"vitaminAContent": "133.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "164.3 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "26.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진도고등학교/",
 				"headline": "진도고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진도고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jindo.hs.jne.kr/",
-							"url": "http://jindo.hs.jne.kr/",
-							"name": "진도고등학교 급식 식단표 안내",
-							"description": "진도고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진도고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진도고등학교",
+						"alternateName": "Jindo high school",
+						"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58918 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 진도읍 동외4길 117-5 (진도읍/ 진도고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진도고등학교",
-							"alternateName": "Jindo high school",
-							"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58918 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 진도읍 동외4길 117-5 (진도읍/ 진도고등학교)"
-							},
-							"telephone": "061-544-2025",
-							"faxNumber": "061-544-1025",
-							"sameAs": ["http://jindo.hs.jne.kr/"]
-						}
-					],
+						"telephone": "061-544-2025",
+						"faxNumber": "061-544-1025",
+						"sameAs": ["http://jindo.hs.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "778.5 Kcal",
 										"carbohydrateContent": "130.4 g",
 										"proteinContent": "25.7 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "192.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "21.7 mg",
-										"calciumContent": "363.7 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "16.5 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "727.6 Kcal",
 										"carbohydrateContent": "99.8 g",
 										"proteinContent": "39.5 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "142.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "46.8 mg",
-										"calciumContent": "142.3 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "19.2 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "679.2 Kcal",
 										"carbohydrateContent": "108.6 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "11.0 g",
-										"vitaminAContent": "111.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "195.4 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "11.0 g"
 									}
 								}
 							]

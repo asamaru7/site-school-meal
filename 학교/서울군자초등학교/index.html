@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울군자초등학교/",
 				"headline": "서울군자초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울군자초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kunja.sen.es.kr",
-							"url": "http://kunja.sen.es.kr",
-							"name": "서울군자초등학교 급식 식단표 안내",
-							"description": "서울군자초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울군자초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울군자초등학교",
+						"alternateName": "Seoul Gunja Elementary School",
+						"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02632 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 한천로6길 21 / 서울군자초등학교 (장안동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울군자초등학교",
-							"alternateName": "Seoul Gunja Elementary School",
-							"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02632 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 한천로6길 21 / 서울군자초등학교 (장안동)"
-							},
-							"telephone": "02-2244-0488",
-							"faxNumber": "02-2214-2226",
-							"sameAs": ["http://kunja.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2244-0488",
+						"faxNumber": "02-2214-2226",
+						"sameAs": ["http://kunja.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "654.8 Kcal",
 										"carbohydrateContent": "96.1 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "15.0 g",
-										"vitaminAContent": "128.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.3 mg",
-										"calciumContent": "250.4 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "15.0 g"
 									}
 								}
 							]

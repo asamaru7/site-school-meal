@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수비고등학교/",
 				"headline": "수비고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수비고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/subihs",
-							"url": "http://school.gyo6.net/subihs",
-							"name": "수비고등학교 급식 식단표 안내",
-							"description": "수비고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수비고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수비고등학교",
+						"alternateName": "Subi High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36522 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영양군",
+							"streetAddress": "경상북도 영양군 수비면 낙동정맥로 2417 (수비면/ 수비중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수비고등학교",
-							"alternateName": "Subi High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36522 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영양군",
-								"streetAddress": "경상북도 영양군 수비면 낙동정맥로 2417 (수비면/ 수비중고등학교)"
-							},
-							"telephone": "054-682-9050",
-							"faxNumber": "054-682-6559",
-							"sameAs": ["http://school.gyo6.net/subihs"]
-						}
-					],
+						"telephone": "054-682-9050",
+						"faxNumber": "054-682-6559",
+						"sameAs": ["http://school.gyo6.net/subihs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "744.6 Kcal",
 										"carbohydrateContent": "98.1 g",
 										"proteinContent": "47.8 g",
-										"fatContent": "15.8 g",
-										"vitaminAContent": "123.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.9 mg",
-										"calciumContent": "741.9 mg",
-										"ironContent": "7.6 mg"
+										"fatContent": "15.8 g"
 									}
 								}
 							]

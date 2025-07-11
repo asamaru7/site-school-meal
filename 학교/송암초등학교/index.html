@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송암초등학교/",
 				"headline": "송암초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songam.cnees.kr/",
-							"url": "http://songam.cnees.kr/",
-							"name": "송암초등학교 급식 식단표 안내",
-							"description": "송암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송암초등학교",
+						"alternateName": "Songam Elementary School",
+						"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32150 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "태안군",
+							"streetAddress": "충청남도 태안군 태안읍 순환길 130 / 송암초등학교 (태안읍/ 송암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송암초등학교",
-							"alternateName": "Songam Elementary School",
-							"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32150 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "태안군",
-								"streetAddress": "충청남도 태안군 태안읍 순환길 130 / 송암초등학교 (태안읍/ 송암초등학교)"
-							},
-							"telephone": "041-674-2982",
-							"faxNumber": "041-674-1292",
-							"sameAs": ["http://songam.cnees.kr/"]
-						}
-					],
+						"telephone": "041-674-2982",
+						"faxNumber": "041-674-1292",
+						"sameAs": ["http://songam.cnees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "536.5 Kcal",
 										"carbohydrateContent": "74.1 g",
 										"proteinContent": "29.0 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "187.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.1 mg",
-										"calciumContent": "292.4 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

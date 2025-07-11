@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경안중학교/",
 				"headline": "경안중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경안중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://kyongan-m.goegh.kr",
-							"url": "https://kyongan-m.goegh.kr",
-							"name": "경안중학교 급식 식단표 안내",
-							"description": "경안중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경안중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경안중학교",
+						"alternateName": "Kyungan Middle School",
+						"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12777 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "광주시",
+							"streetAddress": "경기도 광주시 장지1길 6 / 경안중학교 (장지동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경안중학교",
-							"alternateName": "Kyungan Middle School",
-							"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12777 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "광주시",
-								"streetAddress": "경기도 광주시 장지1길 6 / 경안중학교 (장지동)"
-							},
-							"telephone": "031-763-4214",
-							"faxNumber": "031-763-7739",
-							"sameAs": ["https://kyongan-m.goegh.kr"]
-						}
-					],
+						"telephone": "031-763-4214",
+						"faxNumber": "031-763-7739",
+						"sameAs": ["https://kyongan-m.goegh.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "740.7 Kcal",
 										"carbohydrateContent": "113.2 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "16.9 g",
-										"vitaminAContent": "85.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.8 mg",
-										"calciumContent": "214.7 mg",
-										"ironContent": "12.8 mg"
+										"fatContent": "16.9 g"
 									}
 								}
 							]

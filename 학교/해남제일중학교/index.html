@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해남제일중학교/",
 				"headline": "해남제일중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해남제일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hnjeil.ms.jne.kr",
-							"url": "hnjeil.ms.jne.kr",
-							"name": "해남제일중학교 급식 식단표 안내",
-							"description": "해남제일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해남제일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해남제일중학교",
+						"alternateName": "Haenam Jeil Middle School",
+						"description": "전라남도해남교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59023 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "해남군",
+							"streetAddress": "전라남도 해남군 해남읍 명문길 19 (해남읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해남제일중학교",
-							"alternateName": "Haenam Jeil Middle School",
-							"description": "전라남도해남교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59023 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "해남군",
-								"streetAddress": "전라남도 해남군 해남읍 명문길 19 (해남읍)"
-							},
-							"telephone": "061-535-4282",
-							"faxNumber": "061-535-4285",
-							"sameAs": ["hnjeil.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-535-4282",
+						"faxNumber": "061-535-4285",
+						"sameAs": ["hnjeil.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "931.9 Kcal",
 										"carbohydrateContent": "149.6 g",
 										"proteinContent": "43.8 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "340.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "20.7 mg",
-										"calciumContent": "177.7 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

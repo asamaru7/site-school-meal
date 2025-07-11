@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신반포중학교/",
 				"headline": "신반포중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신반포중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "shinbanpo.sen.ms.kr",
-							"url": "shinbanpo.sen.ms.kr",
-							"name": "신반포중학교 급식 식단표 안내",
-							"description": "신반포중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신반포중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신반포중학교",
+						"alternateName": "Shinbanpo Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06504 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 신반포로19길 26 / 신반포중학교 (반포동/신반포중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신반포중학교",
-							"alternateName": "Shinbanpo Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06504 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 신반포로19길 26 / 신반포중학교 (반포동/신반포중학교)"
-							},
-							"telephone": "02-537-6731",
-							"faxNumber": "02-593-0964",
-							"sameAs": ["shinbanpo.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-537-6731",
+						"faxNumber": "02-593-0964",
+						"sameAs": ["shinbanpo.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "908.9 Kcal",
 										"carbohydrateContent": "105.4 g",
 										"proteinContent": "26.2 g",
-										"fatContent": "41.5 g",
-										"vitaminAContent": "152.4 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "189.9 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "41.5 g"
 									}
 								}
 							]

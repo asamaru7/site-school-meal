@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/센텀초등학교/",
 				"headline": "센텀초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/센텀초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.centum.es.kr",
-							"url": "http://www.centum.es.kr",
-							"name": "센텀초등학교 급식 식단표 안내",
-							"description": "센텀초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 센텀초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "센텀초등학교",
+						"alternateName": "Centum Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48050 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 센텀중앙로 166 / 센텀초등학교 (재송동/ 센텀초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "센텀초등학교",
-							"alternateName": "Centum Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48050 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 센텀중앙로 166 / 센텀초등학교 (재송동/ 센텀초등학교)"
-							},
-							"telephone": "051-7802-600",
-							"faxNumber": "051-781-2697",
-							"sameAs": ["http://www.centum.es.kr"]
-						}
-					],
+						"telephone": "051-7802-600",
+						"faxNumber": "051-781-2697",
+						"sameAs": ["http://www.centum.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "806.9 Kcal",
 										"carbohydrateContent": "106.6 g",
 										"proteinContent": "31.1 g",
-										"fatContent": "28.0 g",
-										"vitaminAContent": "117.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "11.6 mg",
-										"calciumContent": "214.5 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "28.0 g"
 									}
 								}
 							]

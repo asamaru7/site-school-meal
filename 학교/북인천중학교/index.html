@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/북인천중학교/",
 				"headline": "북인천중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/북인천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bugin.icems.kr",
-							"url": "http://bugin.icems.kr",
-							"name": "북인천중학교 급식 식단표 안내",
-							"description": "북인천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 북인천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "북인천중학교",
+						"alternateName": "Bugincheon Middle School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21043 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 계산로22번길 6 (계산동, 북인천중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "북인천중학교",
-							"alternateName": "Bugincheon Middle School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21043 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 계산로22번길 6 (계산동, 북인천중학교)"
-							},
-							"telephone": "032-554-5560",
-							"faxNumber": "032-554-5564",
-							"sameAs": ["http://bugin.icems.kr"]
-						}
-					],
+						"telephone": "032-554-5560",
+						"faxNumber": "032-554-5564",
+						"sameAs": ["http://bugin.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1139.8 Kcal",
 										"carbohydrateContent": "134.8 g",
 										"proteinContent": "38.0 g",
-										"fatContent": "47.0 g",
-										"vitaminAContent": "114.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "32.9 mg",
-										"calciumContent": "314.1 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "47.0 g"
 									}
 								}
 							]

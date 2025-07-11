@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화제초등학교/",
 				"headline": "화제초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화제초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hwaje-p.gne.go.kr",
-							"url": "hwaje-p.gne.go.kr",
-							"name": "화제초등학교 급식 식단표 안내",
-							"description": "화제초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화제초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화제초등학교",
+						"alternateName": "Hwaje Elementary School",
+						"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50589 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 원동면 화제로 399-29 (원동면/ 화제초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화제초등학교",
-							"alternateName": "Hwaje Elementary School",
-							"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50589 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 원동면 화제로 399-29 (원동면/ 화제초등학교)"
-							},
-							"telephone": "055-384-5517",
-							"faxNumber": "055-384-3750",
-							"sameAs": ["hwaje-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-384-5517",
+						"faxNumber": "055-384-3750",
+						"sameAs": ["hwaje-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "697.6 Kcal",
 										"carbohydrateContent": "123.8 g",
 										"proteinContent": "23.4 g",
-										"fatContent": "11.4 g",
-										"vitaminAContent": "133.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "7.8 mg",
-										"calciumContent": "110.3 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "11.4 g"
 									}
 								}
 							]

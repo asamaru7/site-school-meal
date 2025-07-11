@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거창대성중학교/",
 				"headline": "거창대성중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거창대성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daesung-m.gne.go.kr/",
-							"url": "http://daesung-m.gne.go.kr/",
-							"name": "거창대성중학교 급식 식단표 안내",
-							"description": "거창대성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거창대성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거창대성중학교",
+						"alternateName": "",
+						"description": "거창교육지원청 / 사립 / 남 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50130 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거창군",
+							"streetAddress": "경상남도 거창군 거창읍 성산길 1 (거창읍/ 거창대성중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거창대성중학교",
-							"alternateName": "",
-							"description": "거창교육지원청 / 사립 / 남 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50130 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거창군",
-								"streetAddress": "경상남도 거창군 거창읍 성산길 1 (거창읍/ 거창대성중학교)"
-							},
-							"telephone": "055-943-6813",
-							"faxNumber": "055-941-0313",
-							"sameAs": ["http://daesung-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-943-6813",
+						"faxNumber": "055-941-0313",
+						"sameAs": ["http://daesung-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "566.9 Kcal",
 										"carbohydrateContent": "96.9 g",
 										"proteinContent": "21.7 g",
-										"fatContent": "10.8 g",
-										"vitaminAContent": "185.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "31.5 mg",
-										"calciumContent": "183.2 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "10.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서동중학교/",
 				"headline": "서동중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://seodong.dge.ms.kr/",
-							"url": "https://seodong.dge.ms.kr/",
-							"name": "서동중학교 급식 식단표 안내",
-							"description": "서동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서동중학교",
+						"alternateName": "Seodong middle school",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42928 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 다사읍 서재로12길 11-11 (다사읍/ 서동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서동중학교",
-							"alternateName": "Seodong middle school",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42928 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 다사읍 서재로12길 11-11 (다사읍/ 서동중학교)"
-							},
-							"telephone": "053-233-9810",
-							"faxNumber": "053-584-8935",
-							"sameAs": ["https://seodong.dge.ms.kr/"]
-						}
-					],
+						"telephone": "053-233-9810",
+						"faxNumber": "053-584-8935",
+						"sameAs": ["https://seodong.dge.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "745.0 Kcal",
 										"carbohydrateContent": "130.3 g",
 										"proteinContent": "25.0 g",
-										"fatContent": "13.2 g",
-										"vitaminAContent": "161.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "29.3 mg",
-										"calciumContent": "309.4 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "13.2 g"
 									}
 								}
 							]

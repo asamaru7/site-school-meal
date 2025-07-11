@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천신현고등학교/",
 				"headline": "인천신현고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천신현고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ish.icehs.kr/main.do",
-							"url": "http://ish.icehs.kr/main.do",
-							"name": "인천신현고등학교 급식 식단표 안내",
-							"description": "인천신현고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천신현고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천신현고등학교",
+						"alternateName": "INCHEON SHINHYEON HIGH SCHOOL",
+						"description": "인천광역시교육청 / 공립 / 여 / 자율고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22779 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "서구",
+							"streetAddress": "인천광역시 서구 염곡로 399 (신현동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천신현고등학교",
-							"alternateName": "INCHEON SHINHYEON HIGH SCHOOL",
-							"description": "인천광역시교육청 / 공립 / 여 / 자율고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22779 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "서구",
-								"streetAddress": "인천광역시 서구 염곡로 399 (신현동)"
-							},
-							"telephone": "032-571-0628",
-							"faxNumber": "032-571-0627",
-							"sameAs": ["http://ish.icehs.kr/main.do"]
-						}
-					],
+						"telephone": "032-571-0628",
+						"faxNumber": "032-571-0627",
+						"sameAs": ["http://ish.icehs.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.3 Kcal",
 										"carbohydrateContent": "90.8 g",
 										"proteinContent": "40.5 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "86.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.0 mg",
-										"calciumContent": "265.4 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전전민중학교/",
 				"headline": "대전전민중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전전민중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://djjmms.djsch.kr",
-							"url": "http://djjmms.djsch.kr",
-							"name": "대전전민중학교 급식 식단표 안내",
-							"description": "대전전민중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전전민중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전전민중학교",
+						"alternateName": "Daejeon Jeonmin Middle School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34049 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 엑스포로466번길 97 (전민동/전민중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전전민중학교",
-							"alternateName": "Daejeon Jeonmin Middle School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34049 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 엑스포로466번길 97 (전민동/전민중학교)"
-							},
-							"telephone": "042-863-5797",
-							"faxNumber": "042-861-3274",
-							"sameAs": ["http://djjmms.djsch.kr"]
-						}
-					],
+						"telephone": "042-863-5797",
+						"faxNumber": "042-861-3274",
+						"sameAs": ["http://djjmms.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "815.3 Kcal",
 										"carbohydrateContent": "102.8 g",
 										"proteinContent": "46.8 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "101.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "5.8 mg",
-										"calciumContent": "237.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

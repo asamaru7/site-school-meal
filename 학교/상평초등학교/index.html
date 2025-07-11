@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상평초등학교/",
 				"headline": "상평초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상평초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sangpyeong.gwe.es.kr",
-							"url": "http://sangpyeong.gwe.es.kr",
-							"name": "상평초등학교 급식 식단표 안내",
-							"description": "상평초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상평초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상평초등학교",
+						"alternateName": "Sangpyeong Elementary School",
+						"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25035 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "양양군",
+							"streetAddress": "강원특별자치도 양양군 서면 물윗구미길 25 (서면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상평초등학교",
-							"alternateName": "Sangpyeong Elementary School",
-							"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25035 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "양양군",
-								"streetAddress": "강원특별자치도 양양군 서면 물윗구미길 25 (서면)"
-							},
-							"telephone": "033-672-2982",
-							"faxNumber": "033-672-2646",
-							"sameAs": ["http://sangpyeong.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-672-2982",
+						"faxNumber": "033-672-2646",
+						"sameAs": ["http://sangpyeong.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "750.7 Kcal",
 										"carbohydrateContent": "116.7 g",
 										"proteinContent": "36.5 g",
-										"fatContent": "14.1 g",
-										"vitaminAContent": "178.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "33.7 mg",
-										"calciumContent": "133.5 mg",
-										"ironContent": "9.1 mg"
+										"fatContent": "14.1 g"
 									}
 								}
 							]

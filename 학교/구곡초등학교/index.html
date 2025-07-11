@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구곡초등학교/",
 				"headline": "구곡초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gugok.gwe.es.kr",
-							"url": "http://gugok.gwe.es.kr",
-							"name": "구곡초등학교 급식 식단표 안내",
-							"description": "구곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구곡초등학교",
+						"alternateName": "Gugok Elementary School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26487 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 늘품로 64 (단구동/구곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구곡초등학교",
-							"alternateName": "Gugok Elementary School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26487 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 늘품로 64 (단구동/구곡초등학교)"
-							},
-							"telephone": "033-766-9721",
-							"faxNumber": "033-766-9723",
-							"sameAs": ["http://gugok.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-766-9721",
+						"faxNumber": "033-766-9723",
+						"sameAs": ["http://gugok.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "698.6 Kcal",
 										"carbohydrateContent": "112.7 g",
 										"proteinContent": "24.4 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "72.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "18.1 mg",
-										"calciumContent": "96.3 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

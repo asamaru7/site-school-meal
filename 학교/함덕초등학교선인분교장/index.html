@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함덕초등학교선인분교장/",
 				"headline": "함덕초등학교선인분교장 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함덕초등학교선인분교장/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hamdeok.jje.es.kr",
-							"url": "http://hamdeok.jje.es.kr",
-							"name": "함덕초등학교선인분교장 급식 식단표 안내",
-							"description": "함덕초등학교선인분교장의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함덕초등학교선인분교장 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함덕초등학교선인분교장",
+						"alternateName": "hamdeoksuninbungyojang elementary school",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63341 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 조천읍 선진길 7-18 / 함덕초등학교선인분교장 (조천읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함덕초등학교선인분교장",
-							"alternateName": "hamdeoksuninbungyojang elementary school",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63341 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 조천읍 선진길 7-18 / 함덕초등학교선인분교장 (조천읍)"
-							},
-							"telephone": "064-783-8612",
-							"faxNumber": "064-783-8622",
-							"sameAs": ["http://hamdeok.jje.es.kr"]
-						}
-					],
+						"telephone": "064-783-8612",
+						"faxNumber": "064-783-8622",
+						"sameAs": ["http://hamdeok.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "508.4 Kcal",
 										"carbohydrateContent": "75.2 g",
 										"proteinContent": "23.2 g",
-										"fatContent": "11.0 g",
-										"vitaminAContent": "11.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "11.5 mg",
-										"calciumContent": "95.5 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "11.0 g"
 									}
 								}
 							]

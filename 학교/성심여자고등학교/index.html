@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성심여자고등학교/",
 				"headline": "성심여자고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성심여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sacredheart.sen.hs.kr",
-							"url": "http://sacredheart.sen.hs.kr",
-							"name": "성심여자고등학교 급식 식단표 안내",
-							"description": "성심여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성심여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성심여자고등학교",
+						"alternateName": "Sacred Heart Girls’ High School",
+						"description": "서울특별시교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04361 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "용산구",
+							"streetAddress": "서울특별시 용산구 원효로19길 49 / 성심여자고등학교 (원효로4가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성심여자고등학교",
-							"alternateName": "Sacred Heart Girls’ High School",
-							"description": "서울특별시교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04361 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "용산구",
-								"streetAddress": "서울특별시 용산구 원효로19길 49 / 성심여자고등학교 (원효로4가)"
-							},
-							"telephone": "02-702-5501",
-							"faxNumber": "02-711-6887",
-							"sameAs": ["http://sacredheart.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-702-5501",
+						"faxNumber": "02-711-6887",
+						"sameAs": ["http://sacredheart.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "897.1 Kcal",
 										"carbohydrateContent": "111.3 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "35.3 g",
-										"vitaminAContent": "236.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "63.6 mg",
-										"calciumContent": "249.6 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "35.3 g"
 									}
 								}
 							]

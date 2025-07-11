@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/풍남초등학교/",
 				"headline": "풍남초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/풍남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://pungnam.es.jne.kr/",
-							"url": "http://pungnam.es.jne.kr/",
-							"name": "풍남초등학교 급식 식단표 안내",
-							"description": "풍남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 풍남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "풍남초등학교",
+						"alternateName": "Pungnam Elementary School",
+						"description": "전라남도고흥교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59550 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "고흥군",
+							"streetAddress": "전라남도 고흥군 풍양면 풍남로 716 (풍양면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "풍남초등학교",
-							"alternateName": "Pungnam Elementary School",
-							"description": "전라남도고흥교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59550 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "고흥군",
-								"streetAddress": "전라남도 고흥군 풍양면 풍남로 716 (풍양면)"
-							},
-							"telephone": "061-832-3973",
-							"faxNumber": "061-833-5019",
-							"sameAs": ["http://pungnam.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-832-3973",
+						"faxNumber": "061-833-5019",
+						"sameAs": ["http://pungnam.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "659.0 Kcal",
 										"carbohydrateContent": "98.4 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "12.7 g",
-										"vitaminAContent": "194.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "8.9 mg",
-										"calciumContent": "284.6 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "12.7 g"
 									}
 								}
 							]

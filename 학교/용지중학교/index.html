@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용지중학교/",
 				"headline": "용지중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용지중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/yongji",
-							"url": "https://school.jbedu.kr/yongji",
-							"name": "용지중학교 급식 식단표 안내",
-							"description": "용지중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용지중학교",
+						"alternateName": "Yongji Middle School",
+						"description": "전북특별자치도김제교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54332 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "김제시",
+							"streetAddress": "전북특별자치도 김제시 용지면 황토로 702 용지중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용지중학교",
-							"alternateName": "Yongji Middle School",
-							"description": "전북특별자치도김제교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54332 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "김제시",
-								"streetAddress": "전북특별자치도 김제시 용지면 황토로 702 용지중학교"
-							},
-							"telephone": "063-545-0765",
-							"faxNumber": "063-543-2044",
-							"sameAs": ["https://school.jbedu.kr/yongji"]
-						}
-					],
+						"telephone": "063-545-0765",
+						"faxNumber": "063-543-2044",
+						"sameAs": ["https://school.jbedu.kr/yongji"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "786.2 Kcal",
 										"carbohydrateContent": "107.2 g",
 										"proteinContent": "31.9 g",
-										"fatContent": "24.4 g",
-										"vitaminAContent": "55.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "14.7 mg",
-										"calciumContent": "110.1 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "24.4 g"
 									}
 								}
 							]

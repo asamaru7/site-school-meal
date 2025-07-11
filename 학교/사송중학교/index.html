@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사송중학교/",
 				"headline": "사송중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사송중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sasong-m.gne.go.kr",
-							"url": "http://sasong-m.gne.go.kr",
-							"name": "사송중학교 급식 식단표 안내",
-							"description": "사송중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사송중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사송중학교",
+						"alternateName": "Sasong Middle School",
+						"description": "양산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50644 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 동면 내송큰들1길 8 (동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사송중학교",
-							"alternateName": "Sasong Middle School",
-							"description": "양산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50644 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 동면 내송큰들1길 8 (동면)"
-							},
-							"telephone": "055-781-2037",
-							"faxNumber": "055-781-2096",
-							"sameAs": ["http://sasong-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-781-2037",
+						"faxNumber": "055-781-2096",
+						"sameAs": ["http://sasong-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "793.4 Kcal",
 										"carbohydrateContent": "90.6 g",
 										"proteinContent": "39.6 g",
-										"fatContent": "28.2 g",
-										"vitaminAContent": "44.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "35.7 mg",
-										"calciumContent": "185.2 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "28.2 g"
 									}
 								}
 							]

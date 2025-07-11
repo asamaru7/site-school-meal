@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경암중학교/",
 				"headline": "경암중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://ka.dge.ms.kr/",
-							"url": "https://ka.dge.ms.kr/",
-							"name": "경암중학교 급식 식단표 안내",
-							"description": "경암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경암중학교",
+						"alternateName": "KYUNG AHM MIDDLE SCHOOL",
+						"description": "대구광역시남부교육지원청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42654 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 당산로30길 20 (성당동/ 경화여자고등학교/ 경암중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경암중학교",
-							"alternateName": "KYUNG AHM MIDDLE SCHOOL",
-							"description": "대구광역시남부교육지원청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42654 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 당산로30길 20 (성당동/ 경화여자고등학교/ 경암중학교)"
-							},
-							"telephone": "053-234-9100",
-							"faxNumber": "053-623-7436",
-							"sameAs": ["https://ka.dge.ms.kr/"]
-						}
-					],
+						"telephone": "053-234-9100",
+						"faxNumber": "053-623-7436",
+						"sameAs": ["https://ka.dge.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "853.0 Kcal",
 										"carbohydrateContent": "117.1 g",
 										"proteinContent": "45.3 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "65.6 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "95.2 mg",
-										"calciumContent": "228.8 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

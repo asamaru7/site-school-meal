@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은하수초등학교/",
 				"headline": "은하수초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은하수초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eunhasu-p.gne.go.kr",
-							"url": "http://eunhasu-p.gne.go.kr",
-							"name": "은하수초등학교 급식 식단표 안내",
-							"description": "은하수초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은하수초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은하수초등학교",
+						"alternateName": "Elementary School",
+						"description": "진주교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52826 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 진주역로73번길 7 (가좌동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은하수초등학교",
-							"alternateName": "Elementary School",
-							"description": "진주교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52826 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 진주역로73번길 7 (가좌동)"
-							},
-							"telephone": "055-795-0380",
-							"faxNumber": "055-795-0385",
-							"sameAs": ["http://eunhasu-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-795-0380",
+						"faxNumber": "055-795-0385",
+						"sameAs": ["http://eunhasu-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "520.4 Kcal",
 										"carbohydrateContent": "66.9 g",
 										"proteinContent": "23.3 g",
-										"fatContent": "16.1 g",
-										"vitaminAContent": "73.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "12.0 mg",
-										"calciumContent": "175.9 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "16.1 g"
 									}
 								}
 							]

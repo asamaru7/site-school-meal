@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금천고등학교-청주/",
 				"headline": "금천고등학교(청주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금천고등학교-청주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/kch-h",
-							"url": "school.cbe.go.kr/kch-h",
-							"name": "금천고등학교(청주) 급식 식단표 안내",
-							"description": "금천고등학교(청주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금천고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금천고등학교(청주)",
+						"alternateName": "Keumcheon High School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28751 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 상당구",
+							"streetAddress": "충청북도 청주시 상당구 호미로233번길 65 / 금천고등학교 (금천동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금천고등학교(청주)",
-							"alternateName": "Keumcheon High School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28751 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 상당구",
-								"streetAddress": "충청북도 청주시 상당구 호미로233번길 65 / 금천고등학교 (금천동)"
-							},
-							"telephone": "043-286-4012",
-							"faxNumber": "043-286-4015",
-							"sameAs": ["school.cbe.go.kr/kch-h"]
-						}
-					],
+						"telephone": "043-286-4012",
+						"faxNumber": "043-286-4015",
+						"sameAs": ["school.cbe.go.kr/kch-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "888.2 Kcal",
 										"carbohydrateContent": "127.8 g",
 										"proteinContent": "57.6 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "119.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "254.2 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "14.0 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "742.2 Kcal",
 										"carbohydrateContent": "123.1 g",
 										"proteinContent": "18.9 g",
-										"fatContent": "18.6 g",
-										"vitaminAContent": "97.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.1 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "90.7 mg",
-										"ironContent": "1.4 mg"
+										"fatContent": "18.6 g"
 									}
 								}
 							]

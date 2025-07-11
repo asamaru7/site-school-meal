@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수원초등학교-제주/",
 				"headline": "수원초등학교(제주) 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수원초등학교-제주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://suwon.jje.es.kr",
-							"url": "http://suwon.jje.es.kr",
-							"name": "수원초등학교(제주) 급식 식단표 안내",
-							"description": "수원초등학교(제주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수원초등학교(제주)",
+						"alternateName": "SUWON ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63026 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 한림읍 한림로 822 (한림읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수원초등학교(제주)",
-							"alternateName": "SUWON ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63026 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 한림읍 한림로 822 (한림읍)"
-							},
-							"telephone": "064-797-3100",
-							"faxNumber": "064-796-0243",
-							"sameAs": ["http://suwon.jje.es.kr"]
-						}
-					],
+						"telephone": "064-797-3100",
+						"faxNumber": "064-796-0243",
+						"sameAs": ["http://suwon.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "673.2 Kcal",
 										"carbohydrateContent": "81.9 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "27.9 g",
-										"vitaminAContent": "63.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "75.3 mg",
-										"calciumContent": "73.9 mg",
-										"ironContent": "0.7 mg"
+										"fatContent": "27.9 g"
 									}
 								}
 							]

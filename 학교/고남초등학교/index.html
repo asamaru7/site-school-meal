@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/고남초등학교/",
 				"headline": "고남초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/고남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://konam.cnees.kr",
-							"url": "http://konam.cnees.kr",
-							"name": "고남초등학교 급식 식단표 안내",
-							"description": "고남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 고남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "고남초등학교",
+						"alternateName": "Konam Elementary School",
+						"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32172 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "태안군",
+							"streetAddress": "충청남도 태안군 고남면 안면대로 4189 (고남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "고남초등학교",
-							"alternateName": "Konam Elementary School",
-							"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32172 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "태안군",
-								"streetAddress": "충청남도 태안군 고남면 안면대로 4189 (고남면)"
-							},
-							"telephone": "041-673-5671",
-							"faxNumber": "041-673-5674",
-							"sameAs": ["http://konam.cnees.kr"]
-						}
-					],
+						"telephone": "041-673-5671",
+						"faxNumber": "041-673-5674",
+						"sameAs": ["http://konam.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "687.8 Kcal",
 										"carbohydrateContent": "93.5 g",
 										"proteinContent": "31.8 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "142.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "47.7 mg",
-										"calciumContent": "195.1 mg",
-										"ironContent": "7.3 mg"
+										"fatContent": "19.7 g"
 									}
 								}
 							]

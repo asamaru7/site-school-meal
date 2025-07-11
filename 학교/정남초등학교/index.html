@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정남초등학교/",
 				"headline": "정남초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungnam.es.kr/",
-							"url": "http://jungnam.es.kr/",
-							"name": "정남초등학교 급식 식단표 안내",
-							"description": "정남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정남초등학교",
+						"alternateName": "Jungnam Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18517 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 정남면 만년로 516 (정남면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정남초등학교",
-							"alternateName": "Jungnam Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18517 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 정남면 만년로 516 (정남면)"
-							},
-							"telephone": "031-352-3026",
-							"faxNumber": "031-352-5214",
-							"sameAs": ["http://jungnam.es.kr/"]
-						}
-					],
+						"telephone": "031-352-3026",
+						"faxNumber": "031-352-5214",
+						"sameAs": ["http://jungnam.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "649.1 Kcal",
 										"carbohydrateContent": "87.3 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "18.9 g",
-										"vitaminAContent": "247.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "259.6 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "18.9 g"
 									}
 								}
 							]

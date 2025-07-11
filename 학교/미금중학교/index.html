@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미금중학교/",
 				"headline": "미금중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미금중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.migeum.ms.kr",
-							"url": "www.migeum.ms.kr",
-							"name": "미금중학교 급식 식단표 안내",
-							"description": "미금중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미금중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미금중학교",
+						"alternateName": "Migeum Middle School",
+						"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12250 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "남양주시",
+							"streetAddress": "경기도 남양주시 미금로 140 (지금동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미금중학교",
-							"alternateName": "Migeum Middle School",
-							"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12250 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "남양주시",
-								"streetAddress": "경기도 남양주시 미금로 140 (지금동)"
-							},
-							"telephone": "031-562-9762",
-							"faxNumber": "031-562-9760",
-							"sameAs": ["www.migeum.ms.kr"]
-						}
-					]
+						"telephone": "031-562-9762",
+						"faxNumber": "031-562-9760",
+						"sameAs": ["www.migeum.ms.kr"]
+					}
 				]
 			}
 		</script>

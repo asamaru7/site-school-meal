@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼향동초등학교/",
 				"headline": "삼향동초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼향동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "samhyangdong.es.jne.kr",
-							"url": "samhyangdong.es.jne.kr",
-							"name": "삼향동초등학교 급식 식단표 안내",
-							"description": "삼향동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼향동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼향동초등학교",
+						"alternateName": "Samhyangdong Elementary School",
+						"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58562 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "무안군",
+							"streetAddress": "전라남도 무안군 삼향읍 극포길 25 (삼향읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼향동초등학교",
-							"alternateName": "Samhyangdong Elementary School",
-							"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58562 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "무안군",
-								"streetAddress": "전라남도 무안군 삼향읍 극포길 25 (삼향읍)"
-							},
-							"telephone": "061-281-3855",
-							"faxNumber": "061-281-9740",
-							"sameAs": ["samhyangdong.es.jne.kr"]
-						}
-					],
+						"telephone": "061-281-3855",
+						"faxNumber": "061-281-9740",
+						"sameAs": ["samhyangdong.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "630.6 Kcal",
 										"carbohydrateContent": "87.6 g",
 										"proteinContent": "34.4 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "134.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "157.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

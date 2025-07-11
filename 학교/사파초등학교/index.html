@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사파초등학교/",
 				"headline": "사파초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사파초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sapa-p.gne.go.kr",
-							"url": "http://sapa-p.gne.go.kr",
-							"name": "사파초등학교 급식 식단표 안내",
-							"description": "사파초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사파초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사파초등학교",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51449 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 성산구",
+							"streetAddress": "경상남도 창원시 성산구 원이대로773번길 27 사파동/ 사파초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사파초등학교",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51449 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 성산구",
-								"streetAddress": "경상남도 창원시 성산구 원이대로773번길 27 사파동/ 사파초등학교"
-							},
-							"telephone": "055-282-5845",
-							"faxNumber": "055-282-5849",
-							"sameAs": ["http://sapa-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-282-5845",
+						"faxNumber": "055-282-5849",
+						"sameAs": ["http://sapa-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "663.3 Kcal",
 										"carbohydrateContent": "101.9 g",
 										"proteinContent": "30.8 g",
-										"fatContent": "13.5 g",
-										"vitaminAContent": "203.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "22.5 mg",
-										"calciumContent": "391.2 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "13.5 g"
 									}
 								}
 							]

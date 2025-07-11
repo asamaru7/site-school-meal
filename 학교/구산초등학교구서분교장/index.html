@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구산초등학교구서분교장/",
 				"headline": "구산초등학교구서분교장 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구산초등학교구서분교장/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://guseo-p.gne.go.kr",
-							"url": "http://guseo-p.gne.go.kr",
-							"name": "구산초등학교구서분교장 급식 식단표 안내",
-							"description": "구산초등학교구서분교장의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구산초등학교구서분교장 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구산초등학교구서분교장",
+						"alternateName": "Gusan Elementary Guseo Branch School",
+						"description": "창원교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51781 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 구산면 해양관광로 739 (구산면/구산초등학교 구서분교장)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구산초등학교구서분교장",
-							"alternateName": "Gusan Elementary Guseo Branch School",
-							"description": "창원교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51781 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 구산면 해양관광로 739 (구산면/구산초등학교 구서분교장)"
-							},
-							"telephone": "055-271-0012",
-							"faxNumber": "055-271-9673",
-							"sameAs": ["http://guseo-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-271-0012",
+						"faxNumber": "055-271-9673",
+						"sameAs": ["http://guseo-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "654.7 Kcal",
 										"carbohydrateContent": "89.6 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "159.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.5 mg",
-										"calciumContent": "452.2 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "19.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인제초등학교/",
 				"headline": "인제초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인제초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://inje.gwe.es.kr/",
-							"url": "http://inje.gwe.es.kr/",
-							"name": "인제초등학교 급식 식단표 안내",
-							"description": "인제초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인제초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인제초등학교",
+						"alternateName": "Inje Elementary School",
+						"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24628 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "인제군",
+							"streetAddress": "강원특별자치도 인제군 인제읍 인제로277번길 20 (인제읍/ 인제초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인제초등학교",
-							"alternateName": "Inje Elementary School",
-							"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24628 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "인제군",
-								"streetAddress": "강원특별자치도 인제군 인제읍 인제로277번길 20 (인제읍/ 인제초등학교)"
-							},
-							"telephone": "033-461-5839",
-							"faxNumber": "033-461-7665",
-							"sameAs": ["http://inje.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-461-5839",
+						"faxNumber": "033-461-7665",
+						"sameAs": ["http://inje.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "470.0 Kcal",
 										"carbohydrateContent": "81.6 g",
 										"proteinContent": "10.9 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "54.3 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "13.1 mg",
-										"calciumContent": "83.6 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

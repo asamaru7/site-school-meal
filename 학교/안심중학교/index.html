@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안심중학교/",
 				"headline": "안심중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안심중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://ansim.dge.ms.kr",
-							"url": "https://ansim.dge.ms.kr",
-							"name": "안심중학교 급식 식단표 안내",
-							"description": "안심중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안심중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안심중학교",
+						"alternateName": "Ansim Middle School",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41117 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대구광역시 동구 안심로 237 (서호동/ 안심중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안심중학교",
-							"alternateName": "Ansim Middle School",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41117 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대구광역시 동구 안심로 237 (서호동/ 안심중학교)"
-							},
-							"telephone": "053-232-6231",
-							"faxNumber": "053-964-1233",
-							"sameAs": ["https://ansim.dge.ms.kr"]
-						}
-					]
+						"telephone": "053-232-6231",
+						"faxNumber": "053-964-1233",
+						"sameAs": ["https://ansim.dge.ms.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대철중학교/",
 				"headline": "대철중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대철중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daecheol.cnems.kr",
-							"url": "http://daecheol.cnems.kr",
-							"name": "대철중학교 급식 식단표 안내",
-							"description": "대철중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대철중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대철중학교",
+						"alternateName": "Daecheol Middle School",
+						"description": "충청남도서산교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31945 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 운산면 해운로 1111 (운산면/ 대철중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대철중학교",
-							"alternateName": "Daecheol Middle School",
-							"description": "충청남도서산교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31945 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 운산면 해운로 1111 (운산면/ 대철중학교)"
-							},
-							"telephone": "041-669-2868",
-							"faxNumber": "041-669-2869",
-							"sameAs": ["http://daecheol.cnems.kr"]
-						}
-					]
+						"telephone": "041-669-2868",
+						"faxNumber": "041-669-2869",
+						"sameAs": ["http://daecheol.cnems.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/백석초등학교/",
 				"headline": "백석초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/백석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.nsbaeksuk.cnees.kr/",
-							"url": "http://www.nsbaeksuk.cnees.kr/",
-							"name": "백석초등학교 급식 식단표 안내",
-							"description": "백석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 백석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "백석초등학교",
+						"alternateName": "Baekseok Elementary School",
+						"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32909 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 연산면 선비로 726 (연산면/ 백석초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "백석초등학교",
-							"alternateName": "Baekseok Elementary School",
-							"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32909 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 연산면 선비로 726 (연산면/ 백석초등학교)"
-							},
-							"telephone": "041-734-2434",
-							"faxNumber": "041-734-4707",
-							"sameAs": ["http://www.nsbaeksuk.cnees.kr/"]
-						}
-					],
+						"telephone": "041-734-2434",
+						"faxNumber": "041-734-4707",
+						"sameAs": ["http://www.nsbaeksuk.cnees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "765.0 Kcal",
 										"carbohydrateContent": "101.0 g",
 										"proteinContent": "52.1 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "172.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "17.6 mg",
-										"calciumContent": "397.9 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

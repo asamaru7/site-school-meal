@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정광중학교/",
 				"headline": "정광중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정광중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jg.gen.ms.kr",
-							"url": "jg.gen.ms.kr",
-							"name": "정광중학교 급식 식단표 안내",
-							"description": "정광중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정광중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정광중학교",
+						"alternateName": "Jeong Gwang Middle School",
+						"description": "광주광역시서부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62385 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 소촌로 90-36 (소촌동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정광중학교",
-							"alternateName": "Jeong Gwang Middle School",
-							"description": "광주광역시서부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62385 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 소촌로 90-36 (소촌동)"
-							},
-							"telephone": "062-960-7404",
-							"faxNumber": "062-945-5366",
-							"sameAs": ["jg.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-960-7404",
+						"faxNumber": "062-945-5366",
+						"sameAs": ["jg.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1409.3 Kcal",
 										"carbohydrateContent": "215.1 g",
 										"proteinContent": "56.2 g",
-										"fatContent": "33.7 g",
-										"vitaminAContent": "98.1 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "12.5 mg",
-										"calciumContent": "195.9 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "33.7 g"
 									}
 								}
 							]

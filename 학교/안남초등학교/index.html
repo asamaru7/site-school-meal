@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안남초등학교/",
 				"headline": "안남초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://annam.es.kr",
-							"url": "http://annam.es.kr",
-							"name": "안남초등학교 급식 식단표 안내",
-							"description": "안남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안남초등학교",
+						"alternateName": "Annam Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47905 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 연안로 46 (안락동/ 안남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안남초등학교",
-							"alternateName": "Annam Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47905 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 연안로 46 (안락동/ 안남초등학교)"
-							},
-							"telephone": "051-520-6600",
-							"faxNumber": "051-520-6670",
-							"sameAs": ["http://annam.es.kr"]
-						}
-					]
+						"telephone": "051-520-6600",
+						"faxNumber": "051-520-6670",
+						"sameAs": ["http://annam.es.kr"]
+					}
 				]
 			}
 		</script>

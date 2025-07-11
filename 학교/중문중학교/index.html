@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중문중학교/",
 				"headline": "중문중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungmun.jje.ms.kr",
-							"url": "http://jungmun.jje.ms.kr",
-							"name": "중문중학교 급식 식단표 안내",
-							"description": "중문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중문중학교",
+						"alternateName": "JUNGMUN MIDDLE SCHOOL",
+						"description": "서귀포시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63546 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "서귀포시",
+							"streetAddress": "제주특별자치도 서귀포시 천제연로232번길 10 (중문동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중문중학교",
-							"alternateName": "JUNGMUN MIDDLE SCHOOL",
-							"description": "서귀포시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63546 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "서귀포시",
-								"streetAddress": "제주특별자치도 서귀포시 천제연로232번길 10 (중문동)"
-							},
-							"telephone": "064-766-0100",
-							"faxNumber": "064-766-0110",
-							"sameAs": ["http://jungmun.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-766-0100",
+						"faxNumber": "064-766-0110",
+						"sameAs": ["http://jungmun.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "766.1 Kcal",
 										"carbohydrateContent": "134.2 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "212.9 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "19.5 mg",
-										"calciumContent": "157.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

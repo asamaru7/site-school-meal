@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/평창중학교/",
 				"headline": "평창중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/평창중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gwpce.gwe.ms.kr",
-							"url": "http://gwpce.gwe.ms.kr",
-							"name": "평창중학교 급식 식단표 안내",
-							"description": "평창중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 평창중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "평창중학교",
+						"alternateName": "Pyeongchang Middle School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25375 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 평창읍 노성로 145 (평창읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "평창중학교",
-							"alternateName": "Pyeongchang Middle School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25375 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 평창읍 노성로 145 (평창읍)"
-							},
-							"telephone": "033-339-7900",
-							"faxNumber": "033-333-9566",
-							"sameAs": ["http://gwpce.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-339-7900",
+						"faxNumber": "033-333-9566",
+						"sameAs": ["http://gwpce.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "774.5 Kcal",
 										"carbohydrateContent": "109.9 g",
 										"proteinContent": "36.1 g",
-										"fatContent": "20.4 g",
-										"vitaminAContent": "117.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "23.3 mg",
-										"calciumContent": "104.8 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "20.4 g"
 									}
 								}
 							]

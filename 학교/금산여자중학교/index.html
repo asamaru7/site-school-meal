@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금산여자중학교/",
 				"headline": "금산여자중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금산여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://geumsan-g.cnems.kr",
-							"url": "http://geumsan-g.cnems.kr",
-							"name": "금산여자중학교 급식 식단표 안내",
-							"description": "금산여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금산여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금산여자중학교",
+						"alternateName": "Geumsan Girls Middle School",
+						"description": "충청남도금산교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32737 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "금산군",
+							"streetAddress": "충청남도 금산군 금산읍 인삼로 11 (금산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금산여자중학교",
-							"alternateName": "Geumsan Girls Middle School",
-							"description": "충청남도금산교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32737 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "금산군",
-								"streetAddress": "충청남도 금산군 금산읍 인삼로 11 (금산읍)"
-							},
-							"telephone": "041-753-6143",
-							"faxNumber": "041-753-6152",
-							"sameAs": ["http://geumsan-g.cnems.kr"]
-						}
-					],
+						"telephone": "041-753-6143",
+						"faxNumber": "041-753-6152",
+						"sameAs": ["http://geumsan-g.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "992.1 Kcal",
 										"carbohydrateContent": "124.8 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "39.8 g",
-										"vitaminAContent": "103.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.6 mg",
-										"calciumContent": "299.6 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "39.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/모락중학교/",
 				"headline": "모락중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/모락중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://morakjung.goegu.kr",
-							"url": "https://morakjung.goegu.kr",
-							"name": "모락중학교 급식 식단표 안내",
-							"description": "모락중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 모락중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "모락중학교",
+						"alternateName": "MORAK MIDDLE SCHOOL",
+						"description": "경기도군포의왕교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16047 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "의왕시",
+							"streetAddress": "경기도 의왕시 모락로 110 (오전동/ 모락중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "모락중학교",
-							"alternateName": "MORAK MIDDLE SCHOOL",
-							"description": "경기도군포의왕교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16047 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "의왕시",
-								"streetAddress": "경기도 의왕시 모락로 110 (오전동/ 모락중학교)"
-							},
-							"telephone": "031-477-7091",
-							"faxNumber": "031-477-9658",
-							"sameAs": ["https://morakjung.goegu.kr"]
-						}
-					],
+						"telephone": "031-477-7091",
+						"faxNumber": "031-477-9658",
+						"sameAs": ["https://morakjung.goegu.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "640.6 Kcal",
 										"carbohydrateContent": "91.7 g",
 										"proteinContent": "21.2 g",
-										"fatContent": "20.2 g",
-										"vitaminAContent": "187.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "26.8 mg",
-										"calciumContent": "151.5 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "20.2 g"
 									}
 								}
 							]

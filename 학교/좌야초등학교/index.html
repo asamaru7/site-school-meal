@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/좌야초등학교/",
 				"headline": "좌야초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/좌야초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jwaya.es.jne.kr",
-							"url": "http://jwaya.es.jne.kr",
-							"name": "좌야초등학교 급식 식단표 안내",
-							"description": "좌야초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 좌야초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "좌야초등학교",
+						"alternateName": "Jwaya Elementary School",
+						"description": "전라남도순천교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58013 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "순천시",
+							"streetAddress": "전라남도 순천시 해룡면 좌야로 77-9 / 좌야초등학교 (해룡면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "좌야초등학교",
-							"alternateName": "Jwaya Elementary School",
-							"description": "전라남도순천교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58013 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "순천시",
-								"streetAddress": "전라남도 순천시 해룡면 좌야로 77-9 / 좌야초등학교 (해룡면)"
-							},
-							"telephone": "061-804-8462",
-							"faxNumber": "061-721-1063",
-							"sameAs": ["http://jwaya.es.jne.kr"]
-						}
-					],
+						"telephone": "061-804-8462",
+						"faxNumber": "061-721-1063",
+						"sameAs": ["http://jwaya.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "582.5 Kcal",
 										"carbohydrateContent": "84.0 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "14.2 g",
-										"vitaminAContent": "100.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "180.4 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "14.2 g"
 									}
 								}
 							]

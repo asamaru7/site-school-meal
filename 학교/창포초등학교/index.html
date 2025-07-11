@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창포초등학교/",
 				"headline": "창포초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/changpoes",
-							"url": "http://school.gyo6.net/changpoes",
-							"name": "창포초등학교 급식 식단표 안내",
-							"description": "창포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창포초등학교",
+						"alternateName": "Changpo Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37630 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 새천년대로1075번길 32 (창포동/ 창포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창포초등학교",
-							"alternateName": "Changpo Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37630 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 새천년대로1075번길 32 (창포동/ 창포초등학교)"
-							},
-							"telephone": "054-230-5703",
-							"faxNumber": "054-256-7813",
-							"sameAs": ["http://school.gyo6.net/changpoes"]
-						}
-					],
+						"telephone": "054-230-5703",
+						"faxNumber": "054-256-7813",
+						"sameAs": ["http://school.gyo6.net/changpoes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "676.5 Kcal",
 										"carbohydrateContent": "108.4 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "15.3 g",
-										"vitaminAContent": "151.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.3 mg",
-										"calciumContent": "152.0 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "15.3 g"
 									}
 								}
 							]

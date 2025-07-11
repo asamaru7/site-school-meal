@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서석초등학교/",
 				"headline": "서석초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seoseok.gwe.es.kr/",
-							"url": "http://seoseok.gwe.es.kr/",
-							"name": "서석초등학교 급식 식단표 안내",
-							"description": "서석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서석초등학교",
+						"alternateName": "SeoSeok Elementary School",
+						"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25166 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "홍천군",
+							"streetAddress": "강원특별자치도 홍천군 서석면 풍암길 58 (서석면/ 서석초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서석초등학교",
-							"alternateName": "SeoSeok Elementary School",
-							"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25166 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "홍천군",
-								"streetAddress": "강원특별자치도 홍천군 서석면 풍암길 58 (서석면/ 서석초등학교)"
-							},
-							"telephone": "033-433-4947",
-							"faxNumber": "033-433-1163",
-							"sameAs": ["http://seoseok.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-433-4947",
+						"faxNumber": "033-433-1163",
+						"sameAs": ["http://seoseok.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "602.5 Kcal",
 										"carbohydrateContent": "87.5 g",
 										"proteinContent": "30.8 g",
-										"fatContent": "14.3 g",
-										"vitaminAContent": "251.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "20.5 mg",
-										"calciumContent": "442.8 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "14.3 g"
 									}
 								}
 							]

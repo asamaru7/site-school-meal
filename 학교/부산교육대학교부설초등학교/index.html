@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산교육대학교부설초등학교/",
 				"headline": "부산교육대학교부설초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산교육대학교부설초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://es.bnue.ac.kr",
-							"url": "http://es.bnue.ac.kr",
-							"name": "부산교육대학교부설초등학교 급식 식단표 안내",
-							"description": "부산교육대학교부설초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산교육대학교부설초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산교육대학교부설초등학교",
+						"alternateName": "The Attachment Elementary School Of Busan National University Of Education",
+						"description": "교육부 / 국립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47503 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 교대로 24 (거제동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산교육대학교부설초등학교",
-							"alternateName": "The Attachment Elementary School Of Busan National University Of Education",
-							"description": "교육부 / 국립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47503 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 교대로 24 (거제동)"
-							},
-							"telephone": "051-550-2800",
-							"faxNumber": "051-505-9122",
-							"sameAs": ["http://es.bnue.ac.kr"]
-						}
-					],
+						"telephone": "051-550-2800",
+						"faxNumber": "051-505-9122",
+						"sameAs": ["http://es.bnue.ac.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "650.9 Kcal",
 										"carbohydrateContent": "98.7 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "141.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "37.0 mg",
-										"calciumContent": "224.3 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "15.7 g"
 									}
 								}
 							]

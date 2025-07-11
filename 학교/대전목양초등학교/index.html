@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전목양초등학교/",
 				"headline": "대전목양초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전목양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://djmokyanges.djsch.kr/",
-							"url": "http://djmokyanges.djsch.kr/",
-							"name": "대전목양초등학교 급식 식단표 안내",
-							"description": "대전목양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전목양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전목양초등학교",
+						"alternateName": "Daejeon Mokyang Elementary School",
+						"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34818 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대전광역시 중구 목동로 69 (목동/ 목양초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전목양초등학교",
-							"alternateName": "Daejeon Mokyang Elementary School",
-							"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34818 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대전광역시 중구 목동로 69 (목동/ 목양초등학교)"
-							},
-							"telephone": "042-257-9574",
-							"faxNumber": "042-257-9577",
-							"sameAs": ["http://djmokyanges.djsch.kr/"]
-						}
-					],
+						"telephone": "042-257-9574",
+						"faxNumber": "042-257-9577",
+						"sameAs": ["http://djmokyanges.djsch.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.6 Kcal",
 										"carbohydrateContent": "100.9 g",
 										"proteinContent": "19.9 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "73.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "108.3 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

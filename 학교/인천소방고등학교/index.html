@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천소방고등학교/",
 				"headline": "인천소방고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천소방고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ifth.icehs.kr",
-							"url": "http://ifth.icehs.kr",
-							"name": "인천소방고등학교 급식 식단표 안내",
-							"description": "인천소방고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천소방고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천소방고등학교",
+						"alternateName": "Incheon Fire Tech High School",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22100 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "미추홀구",
+							"streetAddress": "인천광역시 미추홀구 석정로 165 (도화동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천소방고등학교",
-							"alternateName": "Incheon Fire Tech High School",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22100 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "미추홀구",
-								"streetAddress": "인천광역시 미추홀구 석정로 165 (도화동)"
-							},
-							"telephone": "032-760-0107",
-							"faxNumber": "032-760-0123",
-							"sameAs": ["http://ifth.icehs.kr"]
-						}
-					],
+						"telephone": "032-760-0107",
+						"faxNumber": "032-760-0123",
+						"sameAs": ["http://ifth.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1208.2 Kcal",
 										"carbohydrateContent": "117.4 g",
 										"proteinContent": "53.7 g",
-										"fatContent": "57.9 g",
-										"vitaminAContent": "155.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "42.9 mg",
-										"calciumContent": "372.4 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "57.9 g"
 									}
 								}
 							]

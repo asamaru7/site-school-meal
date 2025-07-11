@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울송천초등학교/",
 				"headline": "서울송천초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울송천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://song-cheon.sen.es.kr",
-							"url": "http://song-cheon.sen.es.kr",
-							"name": "서울송천초등학교 급식 식단표 안내",
-							"description": "서울송천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울송천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울송천초등학교",
+						"alternateName": "Seoul Songcheon Elementary School",
+						"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01208 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강북구",
+							"streetAddress": "서울특별시 강북구 삼양로20길 29 (미아동/서울송천초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울송천초등학교",
-							"alternateName": "Seoul Songcheon Elementary School",
-							"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01208 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강북구",
-								"streetAddress": "서울특별시 강북구 삼양로20길 29 (미아동/서울송천초등학교)"
-							},
-							"telephone": "02-982-9511",
-							"faxNumber": "02-984-4854",
-							"sameAs": ["http://song-cheon.sen.es.kr"]
-						}
-					],
+						"telephone": "02-982-9511",
+						"faxNumber": "02-984-4854",
+						"sameAs": ["http://song-cheon.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "560.0 Kcal",
 										"carbohydrateContent": "68.7 g",
 										"proteinContent": "31.3 g",
-										"fatContent": "16.2 g",
-										"vitaminAContent": "121.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "12.5 mg",
-										"calciumContent": "293.7 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "16.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수성고등학교-수원/",
 				"headline": "수성고등학교(수원) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수성고등학교-수원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "susung-h.goesw.kr",
-							"url": "susung-h.goesw.kr",
-							"name": "수성고등학교(수원) 급식 식단표 안내",
-							"description": "수성고등학교(수원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수성고등학교(수원)",
+						"alternateName": "Susung High School",
+						"description": "경기도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16313 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 장안구",
+							"streetAddress": "경기도 수원시 장안구 장안로90번길 39 (정자동/ 수성고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수성고등학교(수원)",
-							"alternateName": "Susung High School",
-							"description": "경기도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16313 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 장안구",
-								"streetAddress": "경기도 수원시 장안구 장안로90번길 39 (정자동/ 수성고등학교)"
-							},
-							"telephone": "031-259-1114",
-							"faxNumber": "031-251-2229",
-							"sameAs": ["susung-h.goesw.kr"]
-						}
-					],
+						"telephone": "031-259-1114",
+						"faxNumber": "031-251-2229",
+						"sameAs": ["susung-h.goesw.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "983.4 Kcal",
 										"carbohydrateContent": "162.6 g",
 										"proteinContent": "31.1 g",
-										"fatContent": "23.4 g",
-										"vitaminAContent": "245.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "18.8 mg",
-										"calciumContent": "472.7 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "23.4 g"
 									}
 								}
 							]

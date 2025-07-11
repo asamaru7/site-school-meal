@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정신여자중학교/",
 				"headline": "정신여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정신여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chungshin.sen.ms.kr",
-							"url": "http://chungshin.sen.ms.kr",
-							"name": "정신여자중학교 급식 식단표 안내",
-							"description": "정신여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정신여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정신여자중학교",
+						"alternateName": "Chungshin Girls’ Middle School",
+						"description": "서울특별시강동송파교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05571 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 올림픽로4길 16 / 정신여자중학교 (잠실동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정신여자중학교",
-							"alternateName": "Chungshin Girls’ Middle School",
-							"description": "서울특별시강동송파교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05571 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 올림픽로4길 16 / 정신여자중학교 (잠실동)"
-							},
-							"telephone": "02-423-4123",
-							"faxNumber": "02-423-8322",
-							"sameAs": ["http://chungshin.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-423-4123",
+						"faxNumber": "02-423-8322",
+						"sameAs": ["http://chungshin.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1002.0 Kcal",
 										"carbohydrateContent": "139.7 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "36.6 g",
-										"vitaminAContent": "181.0 R.E",
-										"thiaminContent": "1.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.8 mg",
-										"calciumContent": "200.3 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "36.6 g"
 									}
 								}
 							]

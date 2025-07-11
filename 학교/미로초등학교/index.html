@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미로초등학교/",
 				"headline": "미로초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미로초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://miro.gwe.es.kr/",
-							"url": "http://miro.gwe.es.kr/",
-							"name": "미로초등학교 급식 식단표 안내",
-							"description": "미로초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미로초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미로초등학교",
+						"alternateName": "Miro Elementary School",
+						"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25904 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "삼척시",
+							"streetAddress": "강원특별자치도 삼척시 미로면 미로강변로1길 10-11 (미로면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미로초등학교",
-							"alternateName": "Miro Elementary School",
-							"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25904 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "삼척시",
-								"streetAddress": "강원특별자치도 삼척시 미로면 미로강변로1길 10-11 (미로면)"
-							},
-							"telephone": "033-570-0801",
-							"faxNumber": "033-573-7998",
-							"sameAs": ["http://miro.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-570-0801",
+						"faxNumber": "033-573-7998",
+						"sameAs": ["http://miro.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "898.4 Kcal",
 										"carbohydrateContent": "135.5 g",
 										"proteinContent": "42.1 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "230.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "26.9 mg",
-										"calciumContent": "417.3 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

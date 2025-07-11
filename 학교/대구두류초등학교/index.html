@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구두류초등학교/",
 				"headline": "대구두류초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구두류초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.duryu.dge.es.kr/",
-							"url": "http://www.duryu.dge.es.kr/",
-							"name": "대구두류초등학교 급식 식단표 안내",
-							"description": "대구두류초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구두류초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구두류초등학교",
+						"alternateName": "Daegu Turyu Elementary School",
+						"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41864 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대구광역시 서구 달구벌대로357길 22 (내당동/ 두류초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구두류초등학교",
-							"alternateName": "Daegu Turyu Elementary School",
-							"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41864 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대구광역시 서구 달구벌대로357길 22 (내당동/ 두류초등학교)"
-							},
-							"telephone": "053-233-2712",
-							"faxNumber": "053-567-4803",
-							"sameAs": ["http://www.duryu.dge.es.kr/"]
-						}
-					],
+						"telephone": "053-233-2712",
+						"faxNumber": "053-567-4803",
+						"sameAs": ["http://www.duryu.dge.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.6 Kcal",
 										"carbohydrateContent": "94.1 g",
 										"proteinContent": "31.8 g",
-										"fatContent": "21.5 g",
-										"vitaminAContent": "202.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "23.9 mg",
-										"calciumContent": "465.1 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "21.5 g"
 									}
 								}
 							]

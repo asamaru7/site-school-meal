@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동평초등학교-울산/",
 				"headline": "동평초등학교(울산) 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동평초등학교-울산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.dp.es.kr",
-							"url": "www.dp.es.kr",
-							"name": "동평초등학교(울산) 급식 식단표 안내",
-							"description": "동평초등학교(울산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동평초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동평초등학교(울산)",
+						"alternateName": "Dongpyeong Elementary School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44725 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 도산로77번길 13-14 (달동/ 동평초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동평초등학교(울산)",
-							"alternateName": "Dongpyeong Elementary School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44725 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 도산로77번길 13-14 (달동/ 동평초등학교)"
-							},
-							"telephone": "052-261-2371",
-							"faxNumber": "052-261-2372",
-							"sameAs": ["www.dp.es.kr"]
-						}
-					],
+						"telephone": "052-261-2371",
+						"faxNumber": "052-261-2372",
+						"sameAs": ["www.dp.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "497.3 Kcal",
 										"carbohydrateContent": "62.4 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "8.8 g",
-										"vitaminAContent": "56.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "25.5 mg",
-										"calciumContent": "153.7 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "8.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대우초등학교/",
 				"headline": "대우초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대우초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daeu-p.gne.go.kr",
-							"url": "http://daeu-p.gne.go.kr",
-							"name": "대우초등학교 급식 식단표 안내",
-							"description": "대우초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대우초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대우초등학교",
+						"alternateName": "Daewoo Elementary School",
+						"description": "거제교육지원청 / 사립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53310 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 아주로3길 63 (아주동/ 대우초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대우초등학교",
-							"alternateName": "Daewoo Elementary School",
-							"description": "거제교육지원청 / 사립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53310 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 아주로3길 63 (아주동/ 대우초등학교)"
-							},
-							"telephone": "055-681-2281",
-							"faxNumber": "055-682-3313",
-							"sameAs": ["http://daeu-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-681-2281",
+						"faxNumber": "055-682-3313",
+						"sameAs": ["http://daeu-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "847.0 Kcal",
 										"carbohydrateContent": "125.9 g",
 										"proteinContent": "23.2 g",
-										"fatContent": "28.0 g",
-										"vitaminAContent": "234.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "14.7 mg",
-										"calciumContent": "391.7 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "28.0 g"
 									}
 								}
 							]

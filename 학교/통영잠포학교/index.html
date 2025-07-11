@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/통영잠포학교/",
 				"headline": "통영잠포학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/통영잠포학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tyjampo-s.gne.go.kr",
-							"url": "http://tyjampo-s.gne.go.kr",
-							"name": "통영잠포학교 급식 식단표 안내",
-							"description": "통영잠포학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 통영잠포학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "통영잠포학교",
+						"alternateName": "Tongyeong Jampo school",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53003 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 도산면 도산일주로 1705 (도산면/ 통영시잠포학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "통영잠포학교",
-							"alternateName": "Tongyeong Jampo school",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53003 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 도산면 도산일주로 1705 (도산면/ 통영시잠포학교)"
-							},
-							"telephone": "055-646-9893",
-							"faxNumber": "055-645-4565",
-							"sameAs": ["http://tyjampo-s.gne.go.kr"]
-						}
-					],
+						"telephone": "055-646-9893",
+						"faxNumber": "055-645-4565",
+						"sameAs": ["http://tyjampo-s.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "617.7 Kcal",
 										"carbohydrateContent": "90.0 g",
 										"proteinContent": "34.1 g",
-										"fatContent": "13.0 g",
-										"vitaminAContent": "202.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "18.7 mg",
-										"calciumContent": "292.3 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "13.0 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광운중학교/",
 				"headline": "광운중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광운중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kwangwoon.ms.kr",
-							"url": "http://www.kwangwoon.ms.kr",
-							"name": "광운중학교 급식 식단표 안내",
-							"description": "광운중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광운중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광운중학교",
+						"alternateName": "Kwangwoon Middle school",
+						"description": "서울특별시북부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01890 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "노원구",
+							"streetAddress": "서울특별시 노원구 광운로1길 24 (월계동/광운중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광운중학교",
-							"alternateName": "Kwangwoon Middle school",
-							"description": "서울특별시북부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01890 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "노원구",
-								"streetAddress": "서울특별시 노원구 광운로1길 24 (월계동/광운중학교)"
-							},
-							"telephone": "02-942-2293",
-							"faxNumber": "02-942-2373",
-							"sameAs": ["http://www.kwangwoon.ms.kr"]
-						}
-					],
+						"telephone": "02-942-2293",
+						"faxNumber": "02-942-2373",
+						"sameAs": ["http://www.kwangwoon.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "785.6 Kcal",
 										"carbohydrateContent": "110.5 g",
 										"proteinContent": "39.1 g",
-										"fatContent": "19.5 g",
-										"vitaminAContent": "214.1 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.3 mg",
-										"calciumContent": "219.2 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "19.5 g"
 									}
 								}
 							]

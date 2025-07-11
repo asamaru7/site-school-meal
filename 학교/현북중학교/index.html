@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/현북중학교/",
 				"headline": "현북중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/현북중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyunbuk.gwe.ms.kr",
-							"url": "http://hyunbuk.gwe.ms.kr",
-							"name": "현북중학교 급식 식단표 안내",
-							"description": "현북중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 현북중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "현북중학교",
+						"alternateName": "Hyunbuk Middle School",
+						"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25046 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "양양군",
+							"streetAddress": "강원특별자치도 양양군 현북면 송이로 254 (현북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "현북중학교",
-							"alternateName": "Hyunbuk Middle School",
-							"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25046 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "양양군",
-								"streetAddress": "강원특별자치도 양양군 현북면 송이로 254 (현북면)"
-							},
-							"telephone": "033-672-8739",
-							"faxNumber": "033-672-8741",
-							"sameAs": ["http://hyunbuk.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-672-8739",
+						"faxNumber": "033-672-8741",
+						"sameAs": ["http://hyunbuk.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "891.9 Kcal",
 										"carbohydrateContent": "140.0 g",
 										"proteinContent": "34.2 g",
-										"fatContent": "20.2 g",
-										"vitaminAContent": "117.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "36.0 mg",
-										"calciumContent": "350.2 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "20.2 g"
 									}
 								}
 							]

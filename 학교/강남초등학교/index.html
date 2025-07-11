@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/강남초등학교/",
 				"headline": "강남초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/강남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kangnam.es.kr",
-							"url": "http://www.kangnam.es.kr",
-							"name": "강남초등학교 급식 식단표 안내",
-							"description": "강남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "강남초등학교",
+						"alternateName": "Kangnam Elementary School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44692 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 중앙로166번길 51 (달동/ 강남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "강남초등학교",
-							"alternateName": "Kangnam Elementary School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44692 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 중앙로166번길 51 (달동/ 강남초등학교)"
-							},
-							"telephone": "052-220-6300",
-							"faxNumber": "052-268-1814",
-							"sameAs": ["http://www.kangnam.es.kr"]
-						}
-					],
+						"telephone": "052-220-6300",
+						"faxNumber": "052-268-1814",
+						"sameAs": ["http://www.kangnam.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "665.6 Kcal",
 										"carbohydrateContent": "71.9 g",
 										"proteinContent": "30.2 g",
-										"fatContent": "28.4 g",
-										"vitaminAContent": "47.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "75.0 mg",
-										"calciumContent": "173.2 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "28.4 g"
 									}
 								}
 							]

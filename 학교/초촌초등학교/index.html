@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/초촌초등학교/",
 				"headline": "초촌초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/초촌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chochon.cnees.kr",
-							"url": "http://chochon.cnees.kr",
-							"name": "초촌초등학교 급식 식단표 안내",
-							"description": "초촌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초촌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "초촌초등학교",
+						"alternateName": "Chochon Elementary School",
+						"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33175 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 초촌면 초촌로 55 (초촌면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "초촌초등학교",
-							"alternateName": "Chochon Elementary School",
-							"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33175 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 초촌면 초촌로 55 (초촌면)"
-							},
-							"telephone": "041-832-7862",
-							"faxNumber": "041-832-7864",
-							"sameAs": ["http://chochon.cnees.kr"]
-						}
-					]
+						"telephone": "041-832-7862",
+						"faxNumber": "041-832-7864",
+						"sameAs": ["http://chochon.cnees.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/만덕초등학교/",
 				"headline": "만덕초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/만덕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://manduk.or.kr",
-							"url": "http://manduk.or.kr",
-							"name": "만덕초등학교 급식 식단표 안내",
-							"description": "만덕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 만덕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "만덕초등학교",
+						"alternateName": "Manduk Elementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46558 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "북구",
+							"streetAddress": "부산광역시 북구 만덕1로 72 (만덕동/ 만덕초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "만덕초등학교",
-							"alternateName": "Manduk Elementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46558 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "북구",
-								"streetAddress": "부산광역시 북구 만덕1로 72 (만덕동/ 만덕초등학교)"
-							},
-							"telephone": "051-320-7600",
-							"faxNumber": "051-320-7699",
-							"sameAs": ["http://manduk.or.kr"]
-						}
-					]
+						"telephone": "051-320-7600",
+						"faxNumber": "051-320-7699",
+						"sameAs": ["http://manduk.or.kr"]
+					}
 				]
 			}
 		</script>

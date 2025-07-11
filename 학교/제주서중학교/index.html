@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제주서중학교/",
 				"headline": "제주서중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제주서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jejuseo.jje.ms.kr",
-							"url": "http://jejuseo.jje.ms.kr",
-							"name": "제주서중학교 급식 식단표 안내",
-							"description": "제주서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제주서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제주서중학교",
+						"alternateName": "JEJUSEO MIDDLE SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63116 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 일주서로 7811 / 제주서중학교 (연동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제주서중학교",
-							"alternateName": "JEJUSEO MIDDLE SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63116 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 일주서로 7811 / 제주서중학교 (연동)"
-							},
-							"telephone": "064-754-8400",
-							"faxNumber": "064-747-0397",
-							"sameAs": ["http://jejuseo.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-754-8400",
+						"faxNumber": "064-747-0397",
+						"sameAs": ["http://jejuseo.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "812.0 Kcal",
 										"carbohydrateContent": "119.6 g",
 										"proteinContent": "37.1 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "80.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "182.1 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "19.3 g"
 									}
 								}
 							]

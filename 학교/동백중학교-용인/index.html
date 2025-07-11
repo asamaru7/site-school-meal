@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동백중학교-용인/",
 				"headline": "동백중학교(용인) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동백중학교-용인/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dongbaek-m.goeyi.kr",
-							"url": "dongbaek-m.goeyi.kr",
-							"name": "동백중학교(용인) 급식 식단표 안내",
-							"description": "동백중학교(용인)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동백중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동백중학교(용인)",
+						"alternateName": "Dong-baek Middle School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16999 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 기흥구",
+							"streetAddress": "경기도 용인시 기흥구 동백중앙로 385 (동백동/동백중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동백중학교(용인)",
-							"alternateName": "Dong-baek Middle School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16999 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 기흥구",
-								"streetAddress": "경기도 용인시 기흥구 동백중앙로 385 (동백동/동백중학교)"
-							},
-							"telephone": "031-8006-7001",
-							"faxNumber": "031-693-8525",
-							"sameAs": ["dongbaek-m.goeyi.kr"]
-						}
-					],
+						"telephone": "031-8006-7001",
+						"faxNumber": "031-693-8525",
+						"sameAs": ["dongbaek-m.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1022.2 Kcal",
 										"carbohydrateContent": "137.9 g",
 										"proteinContent": "41.0 g",
-										"fatContent": "33.6 g",
-										"vitaminAContent": "228.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "20.5 mg",
-										"calciumContent": "229.9 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "33.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우송중학교/",
 				"headline": "우송중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우송중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://woosongms.djsch.kr",
-							"url": "http://woosongms.djsch.kr",
-							"name": "우송중학교 급식 식단표 안내",
-							"description": "우송중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우송중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우송중학교",
+						"alternateName": "Woosong Middle School",
+						"description": "대전광역시동부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34609 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대전광역시 동구 동대전로131번길 53 (자양동/ 우송고등학교/우송중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우송중학교",
-							"alternateName": "Woosong Middle School",
-							"description": "대전광역시동부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34609 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대전광역시 동구 동대전로131번길 53 (자양동/ 우송고등학교/우송중학교)"
-							},
-							"telephone": "042-620-5050",
-							"faxNumber": "042-623-0071",
-							"sameAs": ["http://woosongms.djsch.kr"]
-						}
-					],
+						"telephone": "042-620-5050",
+						"faxNumber": "042-623-0071",
+						"sameAs": ["http://woosongms.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1194.7 Kcal",
 										"carbohydrateContent": "131.8 g",
 										"proteinContent": "62.1 g",
-										"fatContent": "43.6 g",
-										"vitaminAContent": "152.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "1.8 mg",
-										"vitaminCContent": "88.8 mg",
-										"calciumContent": "333.3 mg",
-										"ironContent": "7.1 mg"
+										"fatContent": "43.6 g"
 									}
 								}
 							]

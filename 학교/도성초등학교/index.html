@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도성초등학교/",
 				"headline": "도성초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gwdoseong.gwe.es.kr/",
-							"url": "http://gwdoseong.gwe.es.kr/",
-							"name": "도성초등학교 급식 식단표 안내",
-							"description": "도성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도성초등학교",
+						"alternateName": "Doseong Elementary School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25350 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 대관령면 경강로 4177-6 (대관령면/ 도성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도성초등학교",
-							"alternateName": "Doseong Elementary School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25350 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 대관령면 경강로 4177-6 (대관령면/ 도성초등학교)"
-							},
-							"telephone": "033-332-6408",
-							"faxNumber": "033-333-8650",
-							"sameAs": ["http://gwdoseong.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-332-6408",
+						"faxNumber": "033-333-8650",
+						"sameAs": ["http://gwdoseong.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "543.7 Kcal",
 										"carbohydrateContent": "80.3 g",
 										"proteinContent": "33.0 g",
-										"fatContent": "8.9 g",
-										"vitaminAContent": "111.8 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "6.5 mg",
-										"calciumContent": "230.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "8.9 g"
 									}
 								}
 							]

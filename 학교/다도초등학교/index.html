@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/다도초등학교/",
 				"headline": "다도초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/다도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://najudado.es.jne.kr",
-							"url": "http://najudado.es.jne.kr",
-							"name": "다도초등학교 급식 식단표 안내",
-							"description": "다도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 다도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "다도초등학교",
+						"alternateName": "Dado Elementary School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58319 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 다도면 다도로 636 (다도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "다도초등학교",
-							"alternateName": "Dado Elementary School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58319 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 다도면 다도로 636 (다도면)"
-							},
-							"telephone": "061-337-3009",
-							"faxNumber": "061-337-3062",
-							"sameAs": ["http://najudado.es.jne.kr"]
-						}
-					],
+						"telephone": "061-337-3009",
+						"faxNumber": "061-337-3062",
+						"sameAs": ["http://najudado.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "763.3 Kcal",
 										"carbohydrateContent": "104.5 g",
 										"proteinContent": "37.2 g",
-										"fatContent": "20.7 g",
-										"vitaminAContent": "84.5 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "32.7 mg",
-										"calciumContent": "198.2 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "20.7 g"
 									}
 								}
 							]

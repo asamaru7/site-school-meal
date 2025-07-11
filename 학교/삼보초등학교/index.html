@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼보초등학교/",
 				"headline": "삼보초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼보초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/sambo-e",
-							"url": "school.cbe.go.kr/sambo-e",
-							"name": "삼보초등학교 급식 식단표 안내",
-							"description": "삼보초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼보초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼보초등학교",
+						"alternateName": "Sambo elementary school",
+						"description": "충청북도괴산증평교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27943 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "증평군",
+							"streetAddress": "충청북도 증평군 증평읍 삼보로 140 (증평읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼보초등학교",
-							"alternateName": "Sambo elementary school",
-							"description": "충청북도괴산증평교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27943 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "증평군",
-								"streetAddress": "충청북도 증평군 증평읍 삼보로 140 (증평읍)"
-							},
-							"telephone": "043-836-7991",
-							"faxNumber": "043-838-1730",
-							"sameAs": ["school.cbe.go.kr/sambo-e"]
-						}
-					],
+						"telephone": "043-836-7991",
+						"faxNumber": "043-838-1730",
+						"sameAs": ["school.cbe.go.kr/sambo-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "654.7 Kcal",
 										"carbohydrateContent": "106.5 g",
 										"proteinContent": "26.9 g",
-										"fatContent": "13.2 g",
-										"vitaminAContent": "131.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "187.5 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "13.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉양초등학교/",
 				"headline": "봉양초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "bongyang.gwe.es.kr",
-							"url": "bongyang.gwe.es.kr",
-							"name": "봉양초등학교 급식 식단표 안내",
-							"description": "봉양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉양초등학교",
+						"alternateName": "Bongyang Elementary School",
+						"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26128 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "정선군",
+							"streetAddress": "강원특별자치도 정선군 정선읍 녹송7길 1 (정선읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉양초등학교",
-							"alternateName": "Bongyang Elementary School",
-							"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26128 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "정선군",
-								"streetAddress": "강원특별자치도 정선군 정선읍 녹송7길 1 (정선읍)"
-							},
-							"telephone": "033-562-8463",
-							"faxNumber": "033-562-8465",
-							"sameAs": ["bongyang.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-562-8463",
+						"faxNumber": "033-562-8465",
+						"sameAs": ["bongyang.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "657.9 Kcal",
 										"carbohydrateContent": "108.3 g",
 										"proteinContent": "28.3 g",
-										"fatContent": "11.4 g",
-										"vitaminAContent": "143.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "20.1 mg",
-										"calciumContent": "129.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "11.4 g"
 									}
 								}
 							]

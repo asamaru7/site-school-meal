@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청주여자중학교/",
 				"headline": "청주여자중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청주여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/cheongju-m",
-							"url": "http://school.cbe.go.kr/cheongju-m",
-							"name": "청주여자중학교 급식 식단표 안내",
-							"description": "청주여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청주여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청주여자중학교",
+						"alternateName": "Cheongju Girls Middle School",
+						"description": "충청북도청주교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28655 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 서원구",
+							"streetAddress": "충청북도 청주시 서원구 사운로 60 (사직동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청주여자중학교",
-							"alternateName": "Cheongju Girls Middle School",
-							"description": "충청북도청주교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28655 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 서원구",
-								"streetAddress": "충청북도 청주시 서원구 사운로 60 (사직동)"
-							},
-							"telephone": "043-273-7102",
-							"faxNumber": "043-267-1232",
-							"sameAs": ["http://school.cbe.go.kr/cheongju-m"]
-						}
-					],
+						"telephone": "043-273-7102",
+						"faxNumber": "043-267-1232",
+						"sameAs": ["http://school.cbe.go.kr/cheongju-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "544.7 Kcal",
 										"carbohydrateContent": "90.7 g",
 										"proteinContent": "22.8 g",
-										"fatContent": "9.4 g",
-										"vitaminAContent": "137.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "13.3 mg",
-										"calciumContent": "313.3 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "9.4 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/물금중학교/",
 				"headline": "물금중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/물금중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mulgeum-m.gne.go.kr",
-							"url": "http://mulgeum-m.gne.go.kr",
-							"name": "물금중학교 급식 식단표 안내",
-							"description": "물금중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 물금중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "물금중학교",
+						"alternateName": "Mulgeum",
+						"description": "양산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50654 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 물금읍 새실로 39 (물금읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "물금중학교",
-							"alternateName": "Mulgeum",
-							"description": "양산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50654 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 물금읍 새실로 39 (물금읍)"
-							},
-							"telephone": "055-736-1701",
-							"faxNumber": "055-367-1703",
-							"sameAs": ["http://mulgeum-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-736-1701",
+						"faxNumber": "055-367-1703",
+						"sameAs": ["http://mulgeum-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "803.8 Kcal",
 										"carbohydrateContent": "91.1 g",
 										"proteinContent": "40.3 g",
-										"fatContent": "28.7 g",
-										"vitaminAContent": "143.0 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.9 mg",
-										"calciumContent": "309.2 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "28.7 g"
 									}
 								}
 							]

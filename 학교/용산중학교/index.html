@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용산중학교/",
 				"headline": "용산중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ys.ms.kr",
-							"url": "http://www.ys.ms.kr",
-							"name": "용산중학교 급식 식단표 안내",
-							"description": "용산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용산중학교",
+						"alternateName": "Yongsan Middle School",
+						"description": "서울특별시중부교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04353 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "용산구",
+							"streetAddress": "서울특별시 용산구 두텁바위로 74 (용산동2가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용산중학교",
-							"alternateName": "Yongsan Middle School",
-							"description": "서울특별시중부교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04353 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "용산구",
-								"streetAddress": "서울특별시 용산구 두텁바위로 74 (용산동2가)"
-							},
-							"telephone": "070-4000-3800",
-							"faxNumber": "02-319-1625",
-							"sameAs": ["http://www.ys.ms.kr"]
-						}
-					],
+						"telephone": "070-4000-3800",
+						"faxNumber": "02-319-1625",
+						"sameAs": ["http://www.ys.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "917.7 Kcal",
 										"carbohydrateContent": "95.1 g",
 										"proteinContent": "52.1 g",
-										"fatContent": "34.4 g",
-										"vitaminAContent": "83.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.3 mg",
-										"calciumContent": "213.7 mg",
-										"ironContent": "17.8 mg"
+										"fatContent": "34.4 g"
 									}
 								}
 							]

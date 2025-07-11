@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대가초등학교/",
 				"headline": "대가초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대가초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/taega-e/M01",
-							"url": "http://school.cbe.go.kr/taega-e/M01",
-							"name": "대가초등학교 급식 식단표 안내",
-							"description": "대가초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대가초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대가초등학교",
+						"alternateName": "Daega elementary school",
+						"description": "충청북도단양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27000 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "단양군",
+							"streetAddress": "충청북도 단양군 적성면 적성로 453 (적성면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대가초등학교",
-							"alternateName": "Daega elementary school",
-							"description": "충청북도단양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27000 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "단양군",
-								"streetAddress": "충청북도 단양군 적성면 적성로 453 (적성면)"
-							},
-							"telephone": "043-422-1987",
-							"faxNumber": "043-422-4293",
-							"sameAs": ["http://school.cbe.go.kr/taega-e/M01"]
-						}
-					],
+						"telephone": "043-422-1987",
+						"faxNumber": "043-422-4293",
+						"sameAs": ["http://school.cbe.go.kr/taega-e/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "634.6 Kcal",
 										"carbohydrateContent": "89.8 g",
 										"proteinContent": "37.3 g",
-										"fatContent": "12.7 g",
-										"vitaminAContent": "132.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "38.6 mg",
-										"calciumContent": "175.4 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "12.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이수중학교/",
 				"headline": "이수중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이수중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.isu.ms.kr",
-							"url": "http://www.isu.ms.kr",
-							"name": "이수중학교 급식 식단표 안내",
-							"description": "이수중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이수중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이수중학교",
+						"alternateName": "Isu Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06689 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 방배중앙로3길 32 (방배동/이수중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이수중학교",
-							"alternateName": "Isu Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06689 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 방배중앙로3길 32 (방배동/이수중학교)"
-							},
-							"telephone": "02-521-4651",
-							"faxNumber": "02-521-1283",
-							"sameAs": ["http://www.isu.ms.kr"]
-						}
-					],
+						"telephone": "02-521-4651",
+						"faxNumber": "02-521-1283",
+						"sameAs": ["http://www.isu.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "957.2 Kcal",
 										"carbohydrateContent": "92.2 g",
 										"proteinContent": "51.1 g",
-										"fatContent": "40.1 g",
-										"vitaminAContent": "134.5 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "18.9 mg",
-										"calciumContent": "196.1 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "40.1 g"
 									}
 								}
 							]

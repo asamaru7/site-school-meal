@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하성중학교/",
 				"headline": "하성중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://haseong-m.gpoe.kr",
-							"url": "https://haseong-m.gpoe.kr",
-							"name": "하성중학교 급식 식단표 안내",
-							"description": "하성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하성중학교",
+						"alternateName": "Haseong junior middle school",
+						"description": "경기도김포교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10011 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "김포시",
+							"streetAddress": "경기도 김포시 하성면 애기봉로806번길 30 (하성중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하성중학교",
-							"alternateName": "Haseong junior middle school",
-							"description": "경기도김포교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10011 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "김포시",
-								"streetAddress": "경기도 김포시 하성면 애기봉로806번길 30 (하성중학교)"
-							},
-							"telephone": "031-988-7263",
-							"faxNumber": "031-988-8304",
-							"sameAs": ["https://haseong-m.gpoe.kr"]
-						}
-					]
+						"telephone": "031-988-7263",
+						"faxNumber": "031-988-8304",
+						"sameAs": ["https://haseong-m.gpoe.kr"]
+					}
 				]
 			}
 		</script>

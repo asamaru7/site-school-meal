@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전온라인학교/",
 				"headline": "대전온라인학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전온라인학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://djonline.djsch.kr/main.do",
-							"url": "https://djonline.djsch.kr/main.do",
-							"name": "대전온라인학교 급식 식단표 안내",
-							"description": "대전온라인학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전온라인학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전온라인학교",
+						"alternateName": "Daejeon Online School",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34330 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "대덕구",
+							"streetAddress": "대전광역시 대덕구 덕암로233번길 24 (덕암동, 대전온라인학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전온라인학교",
-							"alternateName": "Daejeon Online School",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34330 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "대덕구",
-								"streetAddress": "대전광역시 대덕구 덕암로233번길 24 (덕암동, 대전온라인학교)"
-							},
-							"telephone": "042-620-2900",
-							"faxNumber": "042-937-1019",
-							"sameAs": ["https://djonline.djsch.kr/main.do"]
-						}
-					]
+						"telephone": "042-620-2900",
+						"faxNumber": "042-937-1019",
+						"sameAs": ["https://djonline.djsch.kr/main.do"]
+					}
 				]
 			}
 		</script>

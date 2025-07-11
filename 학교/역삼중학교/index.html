@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/역삼중학교/",
 				"headline": "역삼중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/역삼중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeoksam.sen.ms.kr",
-							"url": "http://yeoksam.sen.ms.kr",
-							"name": "역삼중학교 급식 식단표 안내",
-							"description": "역삼중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 역삼중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "역삼중학교",
+						"alternateName": "Yeoksam Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06219 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 도곡로43길 10 (역삼동/역삼중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "역삼중학교",
-							"alternateName": "Yeoksam Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06219 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 도곡로43길 10 (역삼동/역삼중학교)"
-							},
-							"telephone": "02-558-1501",
-							"faxNumber": "02-563-9770",
-							"sameAs": ["http://yeoksam.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-558-1501",
+						"faxNumber": "02-563-9770",
+						"sameAs": ["http://yeoksam.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "939.0 Kcal",
 										"carbohydrateContent": "119.5 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "34.3 g",
-										"vitaminAContent": "113.8 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "17.9 mg",
-										"calciumContent": "196.9 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "34.3 g"
 									}
 								}
 							]

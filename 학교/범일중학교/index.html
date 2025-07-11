@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/범일중학교/",
 				"headline": "범일중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/범일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.beomil.dge.ms.kr",
-							"url": "http://www.beomil.dge.ms.kr",
-							"name": "범일중학교 급식 식단표 안내",
-							"description": "범일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 범일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "범일중학교",
+						"alternateName": "Beomil Middle School",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42199 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 지범로41길 23 (범물동/범일중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "범일중학교",
-							"alternateName": "Beomil Middle School",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42199 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 지범로41길 23 (범물동/범일중학교)"
-							},
-							"telephone": "053-232-7870",
-							"faxNumber": "053-784-9628",
-							"sameAs": ["http://www.beomil.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-232-7870",
+						"faxNumber": "053-784-9628",
+						"sameAs": ["http://www.beomil.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "836.5 Kcal",
 										"carbohydrateContent": "89.7 g",
 										"proteinContent": "42.8 g",
-										"fatContent": "31.5 g",
-										"vitaminAContent": "71.0 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "14.6 mg",
-										"calciumContent": "106.7 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "31.5 g"
 									}
 								}
 							]

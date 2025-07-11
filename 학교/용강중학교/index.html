@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용강중학교/",
 				"headline": "용강중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용강중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.yonggang.ms.kr",
-							"url": "http://www.yonggang.ms.kr",
-							"name": "용강중학교 급식 식단표 안내",
-							"description": "용강중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용강중학교",
+						"alternateName": "Yong-gang Middle School",
+						"description": "서울특별시중부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04423 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "용산구",
+							"streetAddress": "서울특별시 용산구 이촌로65가길 91 (이촌동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용강중학교",
-							"alternateName": "Yong-gang Middle School",
-							"description": "서울특별시중부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04423 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "용산구",
-								"streetAddress": "서울특별시 용산구 이촌로65가길 91 (이촌동)"
-							},
-							"telephone": "02-795-6176",
-							"faxNumber": "02-795-5707",
-							"sameAs": ["http://www.yonggang.ms.kr"]
-						}
-					],
+						"telephone": "02-795-6176",
+						"faxNumber": "02-795-5707",
+						"sameAs": ["http://www.yonggang.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "853.1 Kcal",
 										"carbohydrateContent": "154.6 g",
 										"proteinContent": "27.0 g",
-										"fatContent": "13.4 g",
-										"vitaminAContent": "126.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "152.3 mg",
-										"ironContent": "9.9 mg"
+										"fatContent": "13.4 g"
 									}
 								}
 							]

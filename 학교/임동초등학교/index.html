@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/임동초등학교/",
 				"headline": "임동초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/임동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/imdong",
-							"url": "http://school.gyo6.net/imdong",
-							"name": "임동초등학교 급식 식단표 안내",
-							"description": "임동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 임동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "임동초등학교",
+						"alternateName": "Imdong Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36732 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 임동면 편항길 42 (임동면/임동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "임동초등학교",
-							"alternateName": "Imdong Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36732 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 임동면 편항길 42 (임동면/임동초등학교)"
-							},
-							"telephone": "054-822-5802",
-							"faxNumber": "054-822-2801",
-							"sameAs": ["http://school.gyo6.net/imdong"]
-						}
-					],
+						"telephone": "054-822-5802",
+						"faxNumber": "054-822-2801",
+						"sameAs": ["http://school.gyo6.net/imdong"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "639.2 Kcal",
 										"carbohydrateContent": "101.2 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "13.0 g",
-										"vitaminAContent": "157.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.9 mg",
-										"calciumContent": "173.5 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "13.0 g"
 									}
 								}
 							]

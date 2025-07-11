@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보성고등학교/",
 				"headline": "보성고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보성고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://posung.sen.hs.kr",
-							"url": "http://posung.sen.hs.kr",
-							"name": "보성고등학교 급식 식단표 안내",
-							"description": "보성고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보성고등학교",
+						"alternateName": "Posung High School",
+						"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05649 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 양재대로 1278 (방이동/보성중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보성고등학교",
-							"alternateName": "Posung High School",
-							"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05649 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 양재대로 1278 (방이동/보성중고등학교)"
-							},
-							"telephone": "02-2152-2430",
-							"faxNumber": "02-449-9355",
-							"sameAs": ["http://posung.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-2152-2430",
+						"faxNumber": "02-449-9355",
+						"sameAs": ["http://posung.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "812.0 Kcal",
 										"carbohydrateContent": "99.0 g",
 										"proteinContent": "39.1 g",
-										"fatContent": "27.1 g",
-										"vitaminAContent": "131.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.9 mg",
-										"calciumContent": "192.1 mg",
-										"ironContent": "6.0 mg"
+										"fatContent": "27.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "886.6 Kcal",
 										"carbohydrateContent": "118.9 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "26.1 g",
-										"vitaminAContent": "67.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "3.1 mg",
-										"calciumContent": "282.0 mg",
-										"ironContent": "6.6 mg"
+										"fatContent": "26.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포항초등학교/",
 				"headline": "포항초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포항초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/pohanges",
-							"url": "school.gyo6.net/pohanges",
-							"name": "포항초등학교 급식 식단표 안내",
-							"description": "포항초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포항초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포항초등학교",
+						"alternateName": "Pohang Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37703 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 서동로47번길 23 (덕산동/ 포항초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포항초등학교",
-							"alternateName": "Pohang Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37703 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 서동로47번길 23 (덕산동/ 포항초등학교)"
-							},
-							"telephone": "054-246-3314",
-							"faxNumber": "054-247-3027",
-							"sameAs": ["school.gyo6.net/pohanges"]
-						}
-					],
+						"telephone": "054-246-3314",
+						"faxNumber": "054-247-3027",
+						"sameAs": ["school.gyo6.net/pohanges"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "631.7 Kcal",
 										"carbohydrateContent": "88.5 g",
 										"proteinContent": "23.4 g",
-										"fatContent": "19.4 g",
-										"vitaminAContent": "89.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "137.1 mg",
-										"ironContent": "7.4 mg"
+										"fatContent": "19.4 g"
 									}
 								}
 							]

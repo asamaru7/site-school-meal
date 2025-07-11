@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해원학교/",
 				"headline": "해원학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해원학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.haewon.sc.kr",
-							"url": "www.haewon.sc.kr",
-							"name": "해원학교 급식 식단표 안내",
-							"description": "해원학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해원학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해원학교",
+						"alternateName": "Heawon School",
+						"description": "경기도교육청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18584 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 장안면 은골길30번길 43 (장안면/ 해원학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해원학교",
-							"alternateName": "Heawon School",
-							"description": "경기도교육청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18584 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 장안면 은골길30번길 43 (장안면/ 해원학교)"
-							},
-							"telephone": "031-351-0805",
-							"faxNumber": "031-351-0807",
-							"sameAs": ["www.haewon.sc.kr"]
-						}
-					],
+						"telephone": "031-351-0805",
+						"faxNumber": "031-351-0807",
+						"sameAs": ["www.haewon.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "798.0 Kcal",
 										"carbohydrateContent": "104.1 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "21.4 g",
-										"vitaminAContent": "270.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "22.9 mg",
-										"calciumContent": "257.9 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "21.4 g"
 									}
 								}
 							]

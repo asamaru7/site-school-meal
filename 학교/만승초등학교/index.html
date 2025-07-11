@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/만승초등학교/",
 				"headline": "만승초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/만승초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/mansung-e",
-							"url": "school.cbe.go.kr/mansung-e",
-							"name": "만승초등학교 급식 식단표 안내",
-							"description": "만승초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 만승초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "만승초등학교",
+						"alternateName": "mansung elementary school",
+						"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27802 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 광혜원면 중리길 11 (광혜원면/ 만승초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "만승초등학교",
-							"alternateName": "mansung elementary school",
-							"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27802 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 광혜원면 중리길 11 (광혜원면/ 만승초등학교)"
-							},
-							"telephone": "043-535-3290",
-							"faxNumber": "043-535-1412",
-							"sameAs": ["school.cbe.go.kr/mansung-e"]
-						}
-					],
+						"telephone": "043-535-3290",
+						"faxNumber": "043-535-1412",
+						"sameAs": ["school.cbe.go.kr/mansung-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "587.7 Kcal",
 										"carbohydrateContent": "69.9 g",
 										"proteinContent": "22.8 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "197.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "84.0 mg",
-										"calciumContent": "265.8 mg",
-										"ironContent": "1.6 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

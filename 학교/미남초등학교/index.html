@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미남초등학교/",
 				"headline": "미남초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://minam.es.kr/",
-							"url": "http://minam.es.kr/",
-							"name": "미남초등학교 급식 식단표 안내",
-							"description": "미남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미남초등학교",
+						"alternateName": "Minam Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47826 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 충렬대로100번길 83 (온천동/ 미남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미남초등학교",
-							"alternateName": "Minam Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47826 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 충렬대로100번길 83 (온천동/ 미남초등학교)"
-							},
-							"telephone": "051-504-9666",
-							"faxNumber": "051-503-3854",
-							"sameAs": ["http://minam.es.kr/"]
-						}
-					],
+						"telephone": "051-504-9666",
+						"faxNumber": "051-503-3854",
+						"sameAs": ["http://minam.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "808.0 Kcal",
 										"carbohydrateContent": "140.6 g",
 										"proteinContent": "34.6 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "103.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "28.8 mg",
-										"calciumContent": "151.0 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

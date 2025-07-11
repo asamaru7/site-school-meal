@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수내중학교/",
 				"headline": "수내중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수내중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "sunae-m.goesn.kr",
-							"url": "sunae-m.goesn.kr",
-							"name": "수내중학교 급식 식단표 안내",
-							"description": "수내중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수내중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수내중학교",
+						"alternateName": "Sunae Middle School",
+						"description": "경기도성남교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "13600 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "성남시 분당구",
+							"streetAddress": "경기도 성남시 분당구 수내로192번길 12 (수내동/ 수내중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수내중학교",
-							"alternateName": "Sunae Middle School",
-							"description": "경기도성남교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "13600 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "성남시 분당구",
-								"streetAddress": "경기도 성남시 분당구 수내로192번길 12 (수내동/ 수내중학교)"
-							},
-							"telephone": "031-710-4700",
-							"faxNumber": "031-711-2272",
-							"sameAs": ["sunae-m.goesn.kr"]
-						}
-					],
+						"telephone": "031-710-4700",
+						"faxNumber": "031-711-2272",
+						"sameAs": ["sunae-m.goesn.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "757.5 Kcal",
 										"carbohydrateContent": "80.5 g",
 										"proteinContent": "37.1 g",
-										"fatContent": "29.5 g",
-										"vitaminAContent": "119.9 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "211.1 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "29.5 g"
 									}
 								}
 							]

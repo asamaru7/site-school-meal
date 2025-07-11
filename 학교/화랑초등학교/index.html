@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화랑초등학교/",
 				"headline": "화랑초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화랑초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hwarang-s.es.kr/",
-							"url": "http://www.hwarang-s.es.kr/",
-							"name": "화랑초등학교 급식 식단표 안내",
-							"description": "화랑초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화랑초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화랑초등학교",
+						"alternateName": "Hwarang Elementary School",
+						"description": "서울특별시북부교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01797 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "노원구",
+							"streetAddress": "서울특별시 노원구 화랑로 621 (공릉동/화랑초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화랑초등학교",
-							"alternateName": "Hwarang Elementary School",
-							"description": "서울특별시북부교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01797 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "노원구",
-								"streetAddress": "서울특별시 노원구 화랑로 621 (공릉동/화랑초등학교)"
-							},
-							"telephone": "02-972-2261",
-							"faxNumber": "02-978-0512",
-							"sameAs": ["http://www.hwarang-s.es.kr/"]
-						}
-					],
+						"telephone": "02-972-2261",
+						"faxNumber": "02-978-0512",
+						"sameAs": ["http://www.hwarang-s.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "569.3 Kcal",
 										"carbohydrateContent": "86.1 g",
 										"proteinContent": "23.8 g",
-										"fatContent": "13.3 g",
-										"vitaminAContent": "207.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.4 mg",
-										"calciumContent": "199.7 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "13.3 g"
 									}
 								}
 							]

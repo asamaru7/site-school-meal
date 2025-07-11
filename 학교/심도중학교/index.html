@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/심도중학교/",
 				"headline": "심도중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/심도중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://simdo.icems.kr",
-							"url": "http://simdo.icems.kr",
-							"name": "심도중학교 급식 식단표 안내",
-							"description": "심도중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 심도중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "심도중학교",
+						"alternateName": "SimDo Middle School",
+						"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "23060 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "강화군",
+							"streetAddress": "인천광역시 강화군 화도면 마니산로 703-20 (화도면/ 심도중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "심도중학교",
-							"alternateName": "SimDo Middle School",
-							"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "23060 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "강화군",
-								"streetAddress": "인천광역시 강화군 화도면 마니산로 703-20 (화도면/ 심도중학교)"
-							},
-							"telephone": "032-627-4010",
-							"faxNumber": "032-937-5907",
-							"sameAs": ["http://simdo.icems.kr"]
-						}
-					]
+						"telephone": "032-627-4010",
+						"faxNumber": "032-937-5907",
+						"sameAs": ["http://simdo.icems.kr"]
+					}
 				]
 			}
 		</script>

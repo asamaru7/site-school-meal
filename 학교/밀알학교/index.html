@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/밀알학교/",
 				"headline": "밀알학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/밀알학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.miral.sc.kr",
-							"url": "http://www.miral.sc.kr",
-							"name": "밀알학교 급식 식단표 안내",
-							"description": "밀알학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 밀알학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "밀알학교",
+						"alternateName": "Miral School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06350 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 일원로 90 (일원동/밀알학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "밀알학교",
-							"alternateName": "Miral School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06350 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 일원로 90 (일원동/밀알학교)"
-							},
-							"telephone": "02-3412-1133",
-							"faxNumber": "02-6958-3777",
-							"sameAs": ["http://www.miral.sc.kr"]
-						}
-					],
+						"telephone": "02-3412-1133",
+						"faxNumber": "02-6958-3777",
+						"sameAs": ["http://www.miral.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "902.5 Kcal",
 										"carbohydrateContent": "123.1 g",
 										"proteinContent": "43.7 g",
-										"fatContent": "24.3 g",
-										"vitaminAContent": "345.2 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "28.0 mg",
-										"calciumContent": "534.2 mg",
-										"ironContent": "11.9 mg"
+										"fatContent": "24.3 g"
 									}
 								}
 							]

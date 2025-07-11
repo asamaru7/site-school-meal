@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한재초등학교/",
 				"headline": "한재초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한재초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hanjae.es.jne.kr",
-							"url": "hanjae.es.jne.kr",
-							"name": "한재초등학교 급식 식단표 안내",
-							"description": "한재초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한재초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한재초등학교",
+						"alternateName": "Hanjae Elementary School",
+						"description": "전라남도담양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57328 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "담양군",
+							"streetAddress": "전라남도 담양군 대전면 추성1로 217 (대전면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한재초등학교",
-							"alternateName": "Hanjae Elementary School",
-							"description": "전라남도담양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57328 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "담양군",
-								"streetAddress": "전라남도 담양군 대전면 추성1로 217 (대전면)"
-							},
-							"telephone": "061-383-1858",
-							"faxNumber": "061-382-0483",
-							"sameAs": ["hanjae.es.jne.kr"]
-						}
-					],
+						"telephone": "061-383-1858",
+						"faxNumber": "061-382-0483",
+						"sameAs": ["hanjae.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "670.6 Kcal",
 										"carbohydrateContent": "95.5 g",
 										"proteinContent": "29.7 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "81.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.0 mg",
-										"calciumContent": "168.2 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

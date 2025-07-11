@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/변산중학교/",
 				"headline": "변산중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/변산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "byeonsan.ms.kr",
-							"url": "byeonsan.ms.kr",
-							"name": "변산중학교 급식 식단표 안내",
-							"description": "변산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 변산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "변산중학교",
+						"alternateName": "Byeonsan Middle School",
+						"description": "전북특별자치도부안교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "56346 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "부안군",
+							"streetAddress": "전북특별자치도 부안군 진서면 청자로 921 변산중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "변산중학교",
-							"alternateName": "Byeonsan Middle School",
-							"description": "전북특별자치도부안교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "56346 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "부안군",
-								"streetAddress": "전북특별자치도 부안군 진서면 청자로 921 변산중학교"
-							},
-							"telephone": "063-582-1212",
-							"faxNumber": "063-584-6406",
-							"sameAs": ["byeonsan.ms.kr"]
-						}
-					],
+						"telephone": "063-582-1212",
+						"faxNumber": "063-584-6406",
+						"sameAs": ["byeonsan.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "777.7 Kcal",
 										"carbohydrateContent": "126.8 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "15.0 g",
-										"vitaminAContent": "95.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.1 mg",
-										"calciumContent": "279.3 mg",
-										"ironContent": "11.5 mg"
+										"fatContent": "15.0 g"
 									}
 								}
 							]

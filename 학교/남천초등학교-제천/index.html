@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남천초등학교-제천/",
 				"headline": "남천초등학교(제천) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남천초등학교-제천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/namchon-e/M01",
-							"url": "http://school.cbe.go.kr/namchon-e/M01",
-							"name": "남천초등학교(제천) 급식 식단표 안내",
-							"description": "남천초등학교(제천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남천초등학교(제천)",
+						"alternateName": "NamChon Elementary School",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27174 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 풍양로21안길 25 (남천동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남천초등학교(제천)",
-							"alternateName": "NamChon Elementary School",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27174 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 풍양로21안길 25 (남천동)"
-							},
-							"telephone": "043-644-2331",
-							"faxNumber": "043-646-8103",
-							"sameAs": ["http://school.cbe.go.kr/namchon-e/M01"]
-						}
-					],
+						"telephone": "043-644-2331",
+						"faxNumber": "043-646-8103",
+						"sameAs": ["http://school.cbe.go.kr/namchon-e/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "700.3 Kcal",
 										"carbohydrateContent": "97.6 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "53.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.3 mg",
-										"calciumContent": "133.6 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

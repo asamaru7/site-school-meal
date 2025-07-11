@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/귀산초등학교/",
 				"headline": "귀산초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/귀산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.guisan.cnees.kr/",
-							"url": "www.guisan.cnees.kr/",
-							"name": "귀산초등학교 급식 식단표 안내",
-							"description": "귀산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 귀산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "귀산초등학교",
+						"alternateName": "Guisan Elementary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32528 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 우성면 귀산길 81-15 (우성면/ 귀산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "귀산초등학교",
-							"alternateName": "Guisan Elementary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32528 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 우성면 귀산길 81-15 (우성면/ 귀산초등학교)"
-							},
-							"telephone": "041-854-7304",
-							"faxNumber": "041-854-7306",
-							"sameAs": ["www.guisan.cnees.kr/"]
-						}
-					]
+						"telephone": "041-854-7304",
+						"faxNumber": "041-854-7306",
+						"sameAs": ["www.guisan.cnees.kr/"]
+					}
 				]
 			}
 		</script>

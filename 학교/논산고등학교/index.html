@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/논산고등학교/",
 				"headline": "논산고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/논산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nsh.cnehs.kr",
-							"url": "http://nsh.cnehs.kr",
-							"name": "논산고등학교 급식 식단표 안내",
-							"description": "논산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 논산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "논산고등학교",
+						"alternateName": "Nonsan High School",
+						"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32988 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 시민로 173-9 (내동/ 논산고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "논산고등학교",
-							"alternateName": "Nonsan High School",
-							"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32988 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 시민로 173-9 (내동/ 논산고등학교)"
-							},
-							"telephone": "041-980-0500",
-							"faxNumber": "041-980-0007",
-							"sameAs": ["http://nsh.cnehs.kr"]
-						}
-					],
+						"telephone": "041-980-0500",
+						"faxNumber": "041-980-0007",
+						"sameAs": ["http://nsh.cnehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "799.7 Kcal",
 										"carbohydrateContent": "105.0 g",
 										"proteinContent": "45.5 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "111.5 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.3 mg",
-										"calciumContent": "227.9 mg",
-										"ironContent": "10.0 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은여울중학교-진천/",
 				"headline": "은여울중학교(진천) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은여울중학교-진천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/eyu-m",
-							"url": "http://school.cbe.go.kr/eyu-m",
-							"name": "은여울중학교(진천) 급식 식단표 안내",
-							"description": "은여울중학교(진천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은여울중 (각종학교(중)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은여울중학교(진천)",
+						"alternateName": "eunyeoul",
+						"description": "충청북도진천교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27867 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 문백면 농다리로 536-45 / 은여울중학교 (문백면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은여울중학교(진천)",
-							"alternateName": "eunyeoul",
-							"description": "충청북도진천교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27867 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 문백면 농다리로 536-45 / 은여울중학교 (문백면)"
-							},
-							"telephone": "043-530-5807",
-							"faxNumber": "043-534-5834",
-							"sameAs": ["http://school.cbe.go.kr/eyu-m"]
-						}
-					],
+						"telephone": "043-530-5807",
+						"faxNumber": "043-534-5834",
+						"sameAs": ["http://school.cbe.go.kr/eyu-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1013.0 Kcal",
 										"carbohydrateContent": "109.6 g",
 										"proteinContent": "31.8 g",
-										"fatContent": "48.3 g",
-										"vitaminAContent": "50.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "26.3 mg",
-										"calciumContent": "133.6 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "48.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "792.6 Kcal",
 										"carbohydrateContent": "86.5 g",
 										"proteinContent": "39.4 g",
-										"fatContent": "31.0 g",
-										"vitaminAContent": "231.4 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "52.8 mg",
-										"calciumContent": "287.2 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "31.0 g"
 									}
 								}
 							]

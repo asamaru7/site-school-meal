@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한림중학교/",
 				"headline": "한림중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한림중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hallim-m.gne.go.kr",
-							"url": "hallim-m.gne.go.kr",
-							"name": "한림중학교 급식 식단표 안내",
-							"description": "한림중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한림중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한림중학교",
+						"alternateName": "Halrim Middle School",
+						"description": "김해교육지원청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50848 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 한림면 한림로365번길 33 (한림면/ 한림중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한림중학교",
-							"alternateName": "Halrim Middle School",
-							"description": "김해교육지원청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50848 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 한림면 한림로365번길 33 (한림면/ 한림중학교)"
-							},
-							"telephone": "055-342-6360",
-							"faxNumber": "055-342-6481",
-							"sameAs": ["hallim-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-342-6360",
+						"faxNumber": "055-342-6481",
+						"sameAs": ["hallim-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "748.9 Kcal",
 										"carbohydrateContent": "111.2 g",
 										"proteinContent": "32.6 g",
-										"fatContent": "17.8 g",
-										"vitaminAContent": "168.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "19.1 mg",
-										"calciumContent": "86.4 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "17.8 g"
 									}
 								}
 							]

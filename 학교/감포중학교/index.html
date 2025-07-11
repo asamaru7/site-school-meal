@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/감포중학교/",
 				"headline": "감포중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/감포중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gampo",
-							"url": "http://school.gyo6.net/gampo",
-							"name": "감포중학교 급식 식단표 안내",
-							"description": "감포중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 감포중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "감포중학교",
+						"alternateName": "Gampo Middle School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38125 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 감포읍 감포로12길 20 (감포읍/ 감포중학교/감포종합중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "감포중학교",
-							"alternateName": "Gampo Middle School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38125 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 감포읍 감포로12길 20 (감포읍/ 감포중학교/감포종합중고등학교)"
-							},
-							"telephone": "054-744-3633",
-							"faxNumber": "054-744-3632",
-							"sameAs": ["http://school.gyo6.net/gampo"]
-						}
-					]
+						"telephone": "054-744-3633",
+						"faxNumber": "054-744-3632",
+						"sameAs": ["http://school.gyo6.net/gampo"]
+					}
 				]
 			}
 		</script>

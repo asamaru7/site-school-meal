@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성산초등학교-서귀포/",
 				"headline": "성산초등학교(서귀포) 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성산초등학교-서귀포/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jjseongsan.jje.es.kr",
-							"url": "http://jjseongsan.jje.es.kr",
-							"name": "성산초등학교(서귀포) 급식 식단표 안내",
-							"description": "성산초등학교(서귀포)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성산초등학교(서귀포)",
+						"alternateName": "SEONGSAN ELEMENTARY SCHOOL",
+						"description": "서귀포시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63643 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "서귀포시",
+							"streetAddress": "제주특별자치도 서귀포시 성산읍 한도로 217 / 성산초등학교 (성산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성산초등학교(서귀포)",
-							"alternateName": "SEONGSAN ELEMENTARY SCHOOL",
-							"description": "서귀포시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63643 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "서귀포시",
-								"streetAddress": "제주특별자치도 서귀포시 성산읍 한도로 217 / 성산초등학교 (성산읍)"
-							},
-							"telephone": "064-786-4000",
-							"faxNumber": "064-786-4019",
-							"sameAs": ["http://jjseongsan.jje.es.kr"]
-						}
-					],
+						"telephone": "064-786-4000",
+						"faxNumber": "064-786-4019",
+						"sameAs": ["http://jjseongsan.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "638.7 Kcal",
 										"carbohydrateContent": "84.2 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "18.5 g",
-										"vitaminAContent": "245.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "393.8 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "18.5 g"
 									}
 								}
 							]

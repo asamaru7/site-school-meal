@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/벌교고등학교/",
 				"headline": "벌교고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/벌교고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://beolgyo.hs.jne.kr",
-							"url": "http://beolgyo.hs.jne.kr",
-							"name": "벌교고등학교 급식 식단표 안내",
-							"description": "벌교고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 벌교고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "벌교고등학교",
+						"alternateName": "Beolgyo high school",
+						"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59430 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 벌교읍 채동선로 115 (벌교읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "벌교고등학교",
-							"alternateName": "Beolgyo high school",
-							"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59430 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 벌교읍 채동선로 115 (벌교읍)"
-							},
-							"telephone": "061-859-0100",
-							"faxNumber": "061-858-0056",
-							"sameAs": ["http://beolgyo.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-859-0100",
+						"faxNumber": "061-858-0056",
+						"sameAs": ["http://beolgyo.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "780.6 Kcal",
 										"carbohydrateContent": "108.5 g",
 										"proteinContent": "40.7 g",
-										"fatContent": "18.5 g",
-										"vitaminAContent": "93.5 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.7 mg",
-										"calciumContent": "162.8 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "18.5 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "910.2 Kcal",
 										"carbohydrateContent": "98.6 g",
 										"proteinContent": "41.7 g",
-										"fatContent": "37.9 g",
-										"vitaminAContent": "108.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "60.6 mg",
-										"calciumContent": "156.6 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "37.9 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "681.6 Kcal",
 										"carbohydrateContent": "105.8 g",
 										"proteinContent": "30.2 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "75.4 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "10.9 mg",
-										"calciumContent": "173.9 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "15.7 g"
 									}
 								}
 							]

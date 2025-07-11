@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용성초등학교-익산/",
 				"headline": "용성초등학교(익산) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용성초등학교-익산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.isyongseong.com",
-							"url": "http://www.isyongseong.com",
-							"name": "용성초등학교(익산) 급식 식단표 안내",
-							"description": "용성초등학교(익산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용성초등학교(익산)",
+						"alternateName": "Yongsung Elementary School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54523 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 낭산면 하맹길 183 용성초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용성초등학교(익산)",
-							"alternateName": "Yongsung Elementary School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54523 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 낭산면 하맹길 183 용성초등학교"
-							},
-							"telephone": "063-861-5109",
-							"faxNumber": "063-861-7407",
-							"sameAs": ["http://www.isyongseong.com"]
-						}
-					],
+						"telephone": "063-861-5109",
+						"faxNumber": "063-861-7407",
+						"sameAs": ["http://www.isyongseong.com"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "681.1 Kcal",
 										"carbohydrateContent": "108.2 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "11.5 g",
-										"vitaminAContent": "159.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "59.9 mg",
-										"calciumContent": "234.8 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "11.5 g"
 									}
 								}
 							]

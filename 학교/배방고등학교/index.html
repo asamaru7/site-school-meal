@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/배방고등학교/",
 				"headline": "배방고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/배방고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.baebang.cnehs.kr",
-							"url": "http://www.baebang.cnehs.kr",
-							"name": "배방고등학교 급식 식단표 안내",
-							"description": "배방고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 배방고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "배방고등학교",
+						"alternateName": "Baebang High School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31496 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 배방읍 배방산길359번길 61 (배방읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "배방고등학교",
-							"alternateName": "Baebang High School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31496 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 배방읍 배방산길359번길 61 (배방읍)"
-							},
-							"telephone": "041-530-9500",
-							"faxNumber": "041-546-1166",
-							"sameAs": ["http://www.baebang.cnehs.kr"]
-						}
-					]
+						"telephone": "041-530-9500",
+						"faxNumber": "041-546-1166",
+						"sameAs": ["http://www.baebang.cnehs.kr"]
+					}
 				]
 			}
 		</script>

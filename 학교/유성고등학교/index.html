@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/유성고등학교/",
 				"headline": "유성고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/유성고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yshs.djsch.kr",
-							"url": "http://yshs.djsch.kr",
-							"name": "유성고등학교 급식 식단표 안내",
-							"description": "유성고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 유성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "유성고등학교",
+						"alternateName": "Yu Seong High School",
+						"description": "대전광역시교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34181 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 유성대로654번길 130 (구암동/유성고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "유성고등학교",
-							"alternateName": "Yu Seong High School",
-							"description": "대전광역시교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34181 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 유성대로654번길 130 (구암동/유성고등학교)"
-							},
-							"telephone": "042-710-6199",
-							"faxNumber": "042-824-0262",
-							"sameAs": ["http://yshs.djsch.kr"]
-						}
-					],
+						"telephone": "042-710-6199",
+						"faxNumber": "042-824-0262",
+						"sameAs": ["http://yshs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1613.9 Kcal",
 										"carbohydrateContent": "249.7 g",
 										"proteinContent": "49.4 g",
-										"fatContent": "44.6 g",
-										"vitaminAContent": "51.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "34.2 mg",
-										"calciumContent": "348.4 mg",
-										"ironContent": "8.2 mg"
+										"fatContent": "44.6 g"
 									}
 								}
 							]

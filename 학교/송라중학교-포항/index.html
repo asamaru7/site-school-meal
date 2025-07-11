@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송라중학교-포항/",
 				"headline": "송라중학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송라중학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/songra",
-							"url": "http://school.gyo6.net/songra",
-							"name": "송라중학교(포항) 급식 식단표 안내",
-							"description": "송라중학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송라중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송라중학교(포항)",
+						"alternateName": "Songra Middle School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37511 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 송라면 광천길 36 (송라면/ 송라중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송라중학교(포항)",
-							"alternateName": "Songra Middle School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37511 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 송라면 광천길 36 (송라면/ 송라중학교)"
-							},
-							"telephone": "054-243-5507",
-							"faxNumber": "054-246-1241",
-							"sameAs": ["http://school.gyo6.net/songra"]
-						}
-					],
+						"telephone": "054-243-5507",
+						"faxNumber": "054-246-1241",
+						"sameAs": ["http://school.gyo6.net/songra"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "742.7 Kcal",
 										"carbohydrateContent": "115.0 g",
 										"proteinContent": "35.6 g",
-										"fatContent": "14.8 g",
-										"vitaminAContent": "233.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "25.4 mg",
-										"calciumContent": "278.7 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "14.8 g"
 									}
 								}
 							]

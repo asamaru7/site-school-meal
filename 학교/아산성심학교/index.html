@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아산성심학교/",
 				"headline": "아산성심학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아산성심학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://asansungsim.cnesc.kr",
-							"url": "http://asansungsim.cnesc.kr",
-							"name": "아산성심학교 급식 식단표 안내",
-							"description": "아산성심학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아산성심학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아산성심학교",
+						"alternateName": "Asansungsim School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31546 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 선장면 아산만로 368 (선장면/아산성심학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아산성심학교",
-							"alternateName": "Asansungsim School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31546 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 선장면 아산만로 368 (선장면/아산성심학교)"
-							},
-							"telephone": "041-541-8790",
-							"faxNumber": "041-541-0101",
-							"sameAs": ["http://asansungsim.cnesc.kr"]
-						}
-					]
+						"telephone": "041-541-8790",
+						"faxNumber": "041-541-0101",
+						"sameAs": ["http://asansungsim.cnesc.kr"]
+					}
 				]
 			}
 		</script>

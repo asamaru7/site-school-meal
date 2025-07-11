@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남성중학교-익산/",
 				"headline": "남성중학교(익산) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남성중학교-익산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jb-namsung.ms.kr",
-							"url": "jb-namsung.ms.kr",
-							"name": "남성중학교(익산) 급식 식단표 안내",
-							"description": "남성중학교(익산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남성중학교(익산)",
+						"alternateName": "Namsung Middle School",
+						"description": "전북특별자치도익산교육지원청 / 사립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54634 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 동서로35길 41 남성중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남성중학교(익산)",
-							"alternateName": "Namsung Middle School",
-							"description": "전북특별자치도익산교육지원청 / 사립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54634 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 동서로35길 41 남성중학교"
-							},
-							"telephone": "063-841-3818",
-							"faxNumber": "063-856-3819",
-							"sameAs": ["jb-namsung.ms.kr"]
-						}
-					],
+						"telephone": "063-841-3818",
+						"faxNumber": "063-856-3819",
+						"sameAs": ["jb-namsung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "853.9 Kcal",
 										"carbohydrateContent": "138.2 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "83.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "11.9 mg",
-										"calciumContent": "92.8 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

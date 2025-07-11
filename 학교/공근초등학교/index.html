@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공근초등학교/",
 				"headline": "공근초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공근초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gongguen.gwe.es.kr",
-							"url": "http://gongguen.gwe.es.kr",
-							"name": "공근초등학교 급식 식단표 안내",
-							"description": "공근초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공근초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공근초등학교",
+						"alternateName": "Gongguen Elementary School",
+						"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25208 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "횡성군",
+							"streetAddress": "강원특별자치도 횡성군 공근면 영서로 207 / 공근초등학교 (공근면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공근초등학교",
-							"alternateName": "Gongguen Elementary School",
-							"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25208 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "횡성군",
-								"streetAddress": "강원특별자치도 횡성군 공근면 영서로 207 / 공근초등학교 (공근면)"
-							},
-							"telephone": "033-342-3020",
-							"faxNumber": "033-342-3095",
-							"sameAs": ["http://gongguen.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-342-3020",
+						"faxNumber": "033-342-3095",
+						"sameAs": ["http://gongguen.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "595.7 Kcal",
 										"carbohydrateContent": "91.0 g",
 										"proteinContent": "34.0 g",
-										"fatContent": "10.2 g",
-										"vitaminAContent": "223.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.9 mg",
-										"calciumContent": "301.1 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "10.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사북중학교/",
 				"headline": "사북중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사북중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sabuk.gwe.ms.kr/main.do",
-							"url": "http://sabuk.gwe.ms.kr/main.do",
-							"name": "사북중학교 급식 식단표 안내",
-							"description": "사북중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사북중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사북중학교",
+						"alternateName": "Sabuk Middle School",
+						"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26150 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "정선군",
+							"streetAddress": "강원특별자치도 정선군 사북읍 소금강로 3640 / 사북중고등학교 (사북읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사북중학교",
-							"alternateName": "Sabuk Middle School",
-							"description": "강원특별자치도정선교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26150 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "정선군",
-								"streetAddress": "강원특별자치도 정선군 사북읍 소금강로 3640 / 사북중고등학교 (사북읍)"
-							},
-							"telephone": "033-590-0102",
-							"faxNumber": "033-591-0171",
-							"sameAs": ["http://sabuk.gwe.ms.kr/main.do"]
-						}
-					]
+						"telephone": "033-590-0102",
+						"faxNumber": "033-591-0171",
+						"sameAs": ["http://sabuk.gwe.ms.kr/main.do"]
+					}
 				]
 			}
 		</script>

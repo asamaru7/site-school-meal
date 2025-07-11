@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상장초등학교/",
 				"headline": "상장초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상장초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sangjang-e.gwe.es.kr/",
-							"url": "http://sangjang-e.gwe.es.kr/",
-							"name": "상장초등학교 급식 식단표 안내",
-							"description": "상장초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상장초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상장초등학교",
+						"alternateName": "Sangjang Elementary School",
+						"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26040 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "태백시",
+							"streetAddress": "강원특별자치도 태백시 태백로 1223 (황지동/ 상장초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상장초등학교",
-							"alternateName": "Sangjang Elementary School",
-							"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26040 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "태백시",
-								"streetAddress": "강원특별자치도 태백시 태백로 1223 (황지동/ 상장초등학교)"
-							},
-							"telephone": "033-550-8806",
-							"faxNumber": "033-553-8810",
-							"sameAs": ["http://sangjang-e.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-550-8806",
+						"faxNumber": "033-553-8810",
+						"sameAs": ["http://sangjang-e.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "607.3 Kcal",
 										"carbohydrateContent": "64.8 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "21.2 g",
-										"vitaminAContent": "250.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "4.7 mg",
-										"calciumContent": "369.4 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "21.2 g"
 									}
 								}
 							]

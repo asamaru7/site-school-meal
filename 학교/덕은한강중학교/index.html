@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/덕은한강중학교/",
 				"headline": "덕은한강중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/덕은한강중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://deokeunhangang-m.goegy.kr",
-							"url": "https://deokeunhangang-m.goegy.kr",
-							"name": "덕은한강중학교 급식 식단표 안내",
-							"description": "덕은한강중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 덕은한강중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "덕은한강중학교",
+						"alternateName": "Deokeun Hangang Middle School",
+						"description": "경기도고양교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10543 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "고양시 덕양구",
+							"streetAddress": "경기도 고양시 덕양구 대덕산로 111 (덕은동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "덕은한강중학교",
-							"alternateName": "Deokeun Hangang Middle School",
-							"description": "경기도고양교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10543 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "고양시 덕양구",
-								"streetAddress": "경기도 고양시 덕양구 대덕산로 111 (덕은동)"
-							},
-							"telephone": "031-994-6902",
-							"faxNumber": "031-994-6920",
-							"sameAs": ["https://deokeunhangang-m.goegy.kr"]
-						}
-					],
+						"telephone": "031-994-6902",
+						"faxNumber": "031-994-6920",
+						"sameAs": ["https://deokeunhangang-m.goegy.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "797.1 Kcal",
 										"carbohydrateContent": "109.6 g",
 										"proteinContent": "45.7 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "437.9 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "37.0 mg",
-										"calciumContent": "369.6 mg",
-										"ironContent": "5.8 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구림초등학교-영암/",
 				"headline": "구림초등학교(영암) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구림초등학교-영암/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gurim.es.jne.kr/",
-							"url": "http://gurim.es.jne.kr/",
-							"name": "구림초등학교(영암) 급식 식단표 안내",
-							"description": "구림초등학교(영암)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구림초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구림초등학교(영암)",
+						"alternateName": "Gurim Elementary School",
+						"description": "전라남도영암교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58434 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 군서면 왕인로 509 (군서면/구림초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구림초등학교(영암)",
-							"alternateName": "Gurim Elementary School",
-							"description": "전라남도영암교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58434 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 군서면 왕인로 509 (군서면/구림초등학교)"
-							},
-							"telephone": "061-473-4525",
-							"faxNumber": "061-473-9439",
-							"sameAs": ["http://gurim.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-473-4525",
+						"faxNumber": "061-473-9439",
+						"sameAs": ["http://gurim.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "675.0 Kcal",
 										"carbohydrateContent": "97.6 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "169.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "17.5 mg",
-										"calciumContent": "199.0 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

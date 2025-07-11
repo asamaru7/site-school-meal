@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/계성여자고등학교/",
 				"headline": "계성여자고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/계성여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.계성여자고등학교.com",
-							"url": "http://www.계성여자고등학교.com",
-							"name": "계성여자고등학교 급식 식단표 안내",
-							"description": "계성여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 계성여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "계성여자고등학교",
+						"alternateName": "Gyesung Girls` High School",
+						"description": "부산광역시교육청 / 사립 / 여 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47531 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 해맞이로109번길 47 (거제동/ 계성여자상업고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "계성여자고등학교",
-							"alternateName": "Gyesung Girls` High School",
-							"description": "부산광역시교육청 / 사립 / 여 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47531 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 해맞이로109번길 47 (거제동/ 계성여자상업고등학교)"
-							},
-							"telephone": "051-503-4894",
-							"faxNumber": "051-506-1782",
-							"sameAs": ["http://www.계성여자고등학교.com"]
-						}
-					],
+						"telephone": "051-503-4894",
+						"faxNumber": "051-506-1782",
+						"sameAs": ["http://www.계성여자고등학교.com"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "722.1 Kcal",
 										"carbohydrateContent": "114.7 g",
 										"proteinContent": "33.7 g",
-										"fatContent": "14.1 g",
-										"vitaminAContent": "99.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "14.0 mg",
-										"calciumContent": "320.8 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "14.1 g"
 									}
 								}
 							]

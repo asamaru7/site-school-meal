@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉현초등학교/",
 				"headline": "봉현초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/bonghyeon",
-							"url": "http://school.gyo6.net/bonghyeon",
-							"name": "봉현초등학교 급식 식단표 안내",
-							"description": "봉현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉현초등학교",
+						"alternateName": "Bonghyeon Elementary School",
+						"description": "경상북도영주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36045 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영주시",
+							"streetAddress": "경상북도 영주시 봉현면 소백로1623번길 6 (봉현면/ 봉현초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉현초등학교",
-							"alternateName": "Bonghyeon Elementary School",
-							"description": "경상북도영주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36045 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영주시",
-								"streetAddress": "경상북도 영주시 봉현면 소백로1623번길 6 (봉현면/ 봉현초등학교)"
-							},
-							"telephone": "054-636-2280",
-							"faxNumber": "054-636-5799",
-							"sameAs": ["http://school.gyo6.net/bonghyeon"]
-						}
-					],
+						"telephone": "054-636-2280",
+						"faxNumber": "054-636-5799",
+						"sameAs": ["http://school.gyo6.net/bonghyeon"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "681.9 Kcal",
 										"carbohydrateContent": "81.8 g",
 										"proteinContent": "27.2 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "124.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.3 mg",
-										"calciumContent": "266.1 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

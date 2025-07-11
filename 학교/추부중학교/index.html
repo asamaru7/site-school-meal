@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/추부중학교/",
 				"headline": "추부중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/추부중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chubu.cnems.kr",
-							"url": "http://chubu.cnems.kr",
-							"name": "추부중학교 급식 식단표 안내",
-							"description": "추부중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 추부중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "추부중학교",
+						"alternateName": "Chubu Middle School",
+						"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32714 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "금산군",
+							"streetAddress": "충청남도 금산군 추부면 마전2길 21 (추부면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "추부중학교",
-							"alternateName": "Chubu Middle School",
-							"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32714 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "금산군",
-								"streetAddress": "충청남도 금산군 추부면 마전2길 21 (추부면)"
-							},
-							"telephone": "041-753-7003",
-							"faxNumber": "041-753-8918",
-							"sameAs": ["http://chubu.cnems.kr"]
-						}
-					],
+						"telephone": "041-753-7003",
+						"faxNumber": "041-753-8918",
+						"sameAs": ["http://chubu.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "913.9 Kcal",
 										"carbohydrateContent": "135.7 g",
 										"proteinContent": "42.0 g",
-										"fatContent": "21.2 g",
-										"vitaminAContent": "341.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "15.9 mg",
-										"calciumContent": "379.0 mg",
-										"ironContent": "7.8 mg"
+										"fatContent": "21.2 g"
 									}
 								}
 							]

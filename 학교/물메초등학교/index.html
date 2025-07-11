@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/물메초등학교/",
 				"headline": "물메초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/물메초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mulme.jje.es.kr",
-							"url": "http://mulme.jje.es.kr",
-							"name": "물메초등학교 급식 식단표 안내",
-							"description": "물메초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 물메초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "물메초등학교",
+						"alternateName": "MULME ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63056 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 애월읍 엄수로 202-4 (애월읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "물메초등학교",
-							"alternateName": "MULME ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63056 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 애월읍 엄수로 202-4 (애월읍)"
-							},
-							"telephone": "064-717-8000",
-							"faxNumber": "064-717-8099",
-							"sameAs": ["http://mulme.jje.es.kr"]
-						}
-					],
+						"telephone": "064-717-8000",
+						"faxNumber": "064-717-8099",
+						"sameAs": ["http://mulme.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "679.2 Kcal",
 										"carbohydrateContent": "102.3 g",
 										"proteinContent": "23.7 g",
-										"fatContent": "18.8 g",
-										"vitaminAContent": "254.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "31.3 mg",
-										"calciumContent": "288.3 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "18.8 g"
 									}
 								}
 							]

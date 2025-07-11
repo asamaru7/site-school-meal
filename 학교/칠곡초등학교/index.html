@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/칠곡초등학교/",
 				"headline": "칠곡초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/칠곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chilgok-p.gne.go.kr/",
-							"url": "http://chilgok-p.gne.go.kr/",
-							"name": "칠곡초등학교 급식 식단표 안내",
-							"description": "칠곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 칠곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "칠곡초등학교",
+						"alternateName": "",
+						"description": "의령교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52134 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "의령군",
+							"streetAddress": "경상남도 의령군 칠곡면 칠곡로 59 (칠곡면/ 칠곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "칠곡초등학교",
-							"alternateName": "",
-							"description": "의령교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52134 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "의령군",
-								"streetAddress": "경상남도 의령군 칠곡면 칠곡로 59 (칠곡면/ 칠곡초등학교)"
-							},
-							"telephone": "055-572-3816",
-							"faxNumber": "055-573-5207",
-							"sameAs": ["http://chilgok-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-572-3816",
+						"faxNumber": "055-573-5207",
+						"sameAs": ["http://chilgok-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "650.0 Kcal",
 										"carbohydrateContent": "88.8 g",
 										"proteinContent": "31.8 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "185.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "57.0 mg",
-										"calciumContent": "288.8 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

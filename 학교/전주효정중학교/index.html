@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전주효정중학교/",
 				"headline": "전주효정중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전주효정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.cjhj.ms.kr",
-							"url": "www.cjhj.ms.kr",
-							"name": "전주효정중학교 급식 식단표 안내",
-							"description": "전주효정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전주효정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전주효정중학교",
+						"alternateName": "Jeonju Hyojeong Middle School",
+						"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55095 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "전주시 완산구",
+							"streetAddress": "전북특별자치도 전주시 완산구 안행로 127 전주효정중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전주효정중학교",
-							"alternateName": "Jeonju Hyojeong Middle School",
-							"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55095 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "전주시 완산구",
-								"streetAddress": "전북특별자치도 전주시 완산구 안행로 127 전주효정중학교"
-							},
-							"telephone": "063-231-0407",
-							"faxNumber": "063-231-0409",
-							"sameAs": ["www.cjhj.ms.kr"]
-						}
-					],
+						"telephone": "063-231-0407",
+						"faxNumber": "063-231-0409",
+						"sameAs": ["www.cjhj.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "753.8 Kcal",
 										"carbohydrateContent": "127.3 g",
 										"proteinContent": "27.3 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "67.5 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.2 mg",
-										"calciumContent": "448.7 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

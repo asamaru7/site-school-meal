@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전관저중학교/",
 				"headline": "대전관저중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전관저중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gjms.djsch.kr",
-							"url": "http://gjms.djsch.kr",
-							"name": "대전관저중학교 급식 식단표 안내",
-							"description": "대전관저중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전관저중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전관저중학교",
+						"alternateName": "Daejeon Gwanjeo Middle School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35359 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 관저동로 143 (관저동/ 관저중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전관저중학교",
-							"alternateName": "Daejeon Gwanjeo Middle School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35359 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 관저동로 143 (관저동/ 관저중학교)"
-							},
-							"telephone": "042-540-5881",
-							"faxNumber": "042-545-4769",
-							"sameAs": ["http://gjms.djsch.kr"]
-						}
-					],
+						"telephone": "042-540-5881",
+						"faxNumber": "042-545-4769",
+						"sameAs": ["http://gjms.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "933.3 Kcal",
 										"carbohydrateContent": "154.1 g",
 										"proteinContent": "39.6 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "126.8 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.7 mg",
-										"calciumContent": "137.2 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "15.7 g"
 									}
 								}
 							]

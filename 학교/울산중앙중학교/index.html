@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/울산중앙중학교/",
 				"headline": "울산중앙중학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/울산중앙중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://usjm.ms.kr",
-							"url": "http://usjm.ms.kr",
-							"name": "울산중앙중학교 급식 식단표 안내",
-							"description": "울산중앙중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 울산중앙중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "울산중앙중학교",
+						"alternateName": "Ulsan Joongang Middle School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44743 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 중앙로63번길 5 (신정동/ 울산중앙중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "울산중앙중학교",
-							"alternateName": "Ulsan Joongang Middle School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44743 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 중앙로63번길 5 (신정동/ 울산중앙중학교)"
-							},
-							"telephone": "052-269-1747",
-							"faxNumber": "052-273-0083",
-							"sameAs": ["http://usjm.ms.kr"]
-						}
-					],
+						"telephone": "052-269-1747",
+						"faxNumber": "052-273-0083",
+						"sameAs": ["http://usjm.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "772.2 Kcal",
 										"carbohydrateContent": "89.8 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "24.9 g",
-										"vitaminAContent": "126.4 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "23.0 mg",
-										"calciumContent": "209.0 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "24.9 g"
 									}
 								}
 							]

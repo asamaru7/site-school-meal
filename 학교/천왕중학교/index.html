@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/천왕중학교/",
 				"headline": "천왕중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/천왕중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cheonwang.ms.kr",
-							"url": "http://cheonwang.ms.kr",
-							"name": "천왕중학교 급식 식단표 안내",
-							"description": "천왕중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 천왕중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "천왕중학교",
+						"alternateName": "Cheonwang Middle School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08364 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "구로구",
+							"streetAddress": "서울특별시 구로구 천왕로 63 (천왕동/ 천왕중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "천왕중학교",
-							"alternateName": "Cheonwang Middle School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08364 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "구로구",
-								"streetAddress": "서울특별시 구로구 천왕로 63 (천왕동/ 천왕중학교)"
-							},
-							"telephone": "02-2618-2832",
-							"faxNumber": "02-2618-2851",
-							"sameAs": ["http://cheonwang.ms.kr"]
-						}
-					],
+						"telephone": "02-2618-2832",
+						"faxNumber": "02-2618-2851",
+						"sameAs": ["http://cheonwang.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "633.0 Kcal",
 										"carbohydrateContent": "107.8 g",
 										"proteinContent": "22.6 g",
-										"fatContent": "11.5 g",
-										"vitaminAContent": "219.8 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "32.0 mg",
-										"calciumContent": "178.5 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "11.5 g"
 									}
 								}
 							]

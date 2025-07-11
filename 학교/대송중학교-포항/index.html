@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대송중학교-포항/",
 				"headline": "대송중학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대송중학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/dae-song",
-							"url": "http://school.gyo6.net/dae-song",
-							"name": "대송중학교(포항) 급식 식단표 안내",
-							"description": "대송중학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대송중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대송중학교(포항)",
+						"alternateName": "Daesong Middle School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37857 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 대송면 남성길 100 / 대송중학교 (대송면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대송중학교(포항)",
-							"alternateName": "Daesong Middle School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37857 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 대송면 남성길 100 / 대송중학교 (대송면)"
-							},
-							"telephone": "054-285-5373",
-							"faxNumber": "054-285-5375",
-							"sameAs": ["http://school.gyo6.net/dae-song"]
-						}
-					],
+						"telephone": "054-285-5373",
+						"faxNumber": "054-285-5375",
+						"sameAs": ["http://school.gyo6.net/dae-song"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "782.3 Kcal",
 										"carbohydrateContent": "76.8 g",
 										"proteinContent": "28.9 g",
-										"fatContent": "37.5 g",
-										"vitaminAContent": "230.2 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "25.1 mg",
-										"calciumContent": "360.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "37.5 g"
 									}
 								}
 							]

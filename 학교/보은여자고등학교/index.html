@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보은여자고등학교/",
 				"headline": "보은여자고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보은여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/boeung-h",
-							"url": "http://school.cbe.go.kr/boeung-h",
-							"name": "보은여자고등학교 급식 식단표 안내",
-							"description": "보은여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보은여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보은여자고등학교",
+						"alternateName": "Bo-eun Girls High School",
+						"description": "충청북도교육청 / 공립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28933 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "보은군",
+							"streetAddress": "충청북도 보은군 보은읍 보은로 223 (보은읍/ 보은여자중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보은여자고등학교",
-							"alternateName": "Bo-eun Girls High School",
-							"description": "충청북도교육청 / 공립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28933 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "보은군",
-								"streetAddress": "충청북도 보은군 보은읍 보은로 223 (보은읍/ 보은여자중고등학교)"
-							},
-							"telephone": "043-542-3978",
-							"faxNumber": "043-542-1117",
-							"sameAs": ["http://school.cbe.go.kr/boeung-h"]
-						}
-					],
+						"telephone": "043-542-3978",
+						"faxNumber": "043-542-1117",
+						"sameAs": ["http://school.cbe.go.kr/boeung-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "919.1 Kcal",
 										"carbohydrateContent": "127.8 g",
 										"proteinContent": "42.7 g",
-										"fatContent": "24.8 g",
-										"vitaminAContent": "231.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "32.3 mg",
-										"calciumContent": "301.8 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "24.8 g"
 									}
 								}
 							]

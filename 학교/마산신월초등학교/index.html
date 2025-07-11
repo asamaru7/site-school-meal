@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/마산신월초등학교/",
 				"headline": "마산신월초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/마산신월초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "mssinwol-p.gne.go.kr",
-							"url": "mssinwol-p.gne.go.kr",
-							"name": "마산신월초등학교 급식 식단표 안내",
-							"description": "마산신월초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 마산신월초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "마산신월초등학교",
+						"alternateName": "Masansinwol Elementary School",
+						"description": "창원교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51773 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 월영마을로 40 (월영동/ 마산신월초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "마산신월초등학교",
-							"alternateName": "Masansinwol Elementary School",
-							"description": "창원교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51773 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 월영마을로 40 (월영동/ 마산신월초등학교)"
-							},
-							"telephone": "055-224-2386",
-							"faxNumber": "055-224-2382",
-							"sameAs": ["mssinwol-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-224-2386",
+						"faxNumber": "055-224-2382",
+						"sameAs": ["mssinwol-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "537.9 Kcal",
 										"carbohydrateContent": "74.7 g",
 										"proteinContent": "23.7 g",
-										"fatContent": "15.4 g",
-										"vitaminAContent": "174.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "14.2 mg",
-										"calciumContent": "379.3 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "15.4 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/증약초등학교/",
 				"headline": "증약초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/증약초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jngyak.es.kr/",
-							"url": "http://www.jngyak.es.kr/",
-							"name": "증약초등학교 급식 식단표 안내",
-							"description": "증약초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 증약초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "증약초등학교",
+						"alternateName": "Jeungyak Elementary school",
+						"description": "충청북도옥천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "29000 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "옥천군",
+							"streetAddress": "충청북도 옥천군 군북면 옥천로 1006-22 (군북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "증약초등학교",
-							"alternateName": "Jeungyak Elementary school",
-							"description": "충청북도옥천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "29000 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "옥천군",
-								"streetAddress": "충청북도 옥천군 군북면 옥천로 1006-22 (군북면)"
-							},
-							"telephone": "043-733-6311",
-							"faxNumber": "043-733-6312",
-							"sameAs": ["http://www.jngyak.es.kr/"]
-						}
-					],
+						"telephone": "043-733-6311",
+						"faxNumber": "043-733-6312",
+						"sameAs": ["http://www.jngyak.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1027.8 Kcal",
 										"carbohydrateContent": "182.3 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "17.8 g",
-										"vitaminAContent": "455.9 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "24.1 mg",
-										"calciumContent": "677.4 mg",
-										"ironContent": "10.2 mg"
+										"fatContent": "17.8 g"
 									}
 								}
 							]

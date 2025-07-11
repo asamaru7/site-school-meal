@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대덕중학교-장흥/",
 				"headline": "대덕중학교(장흥) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대덕중학교-장흥/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daeduk.ms.jne.kr",
-							"url": "http://daeduk.ms.jne.kr",
-							"name": "대덕중학교(장흥) 급식 식단표 안내",
-							"description": "대덕중학교(장흥)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대덕중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대덕중학교(장흥)",
+						"alternateName": "Daedeok Middle School",
+						"description": "전라남도장흥교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59363 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장흥군",
+							"streetAddress": "전라남도 장흥군 대덕읍 대대로 1005 (대덕읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대덕중학교(장흥)",
-							"alternateName": "Daedeok Middle School",
-							"description": "전라남도장흥교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59363 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장흥군",
-								"streetAddress": "전라남도 장흥군 대덕읍 대대로 1005 (대덕읍)"
-							},
-							"telephone": "061-867-1755",
-							"faxNumber": "061-867-7236",
-							"sameAs": ["http://daeduk.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-867-1755",
+						"faxNumber": "061-867-7236",
+						"sameAs": ["http://daeduk.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "895.1 Kcal",
 										"carbohydrateContent": "123.1 g",
 										"proteinContent": "56.0 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "100.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "8.8 mg",
-										"calciumContent": "208.6 mg",
-										"ironContent": "7.8 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

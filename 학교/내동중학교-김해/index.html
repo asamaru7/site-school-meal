@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/내동중학교-김해/",
 				"headline": "내동중학교(김해) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/내동중학교-김해/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://naedong-m.gne.go.kr/",
-							"url": "http://naedong-m.gne.go.kr/",
-							"name": "내동중학교(김해) 급식 식단표 안내",
-							"description": "내동중학교(김해)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 내동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "내동중학교(김해)",
+						"alternateName": "Nae-Dong Middle School",
+						"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50892 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 평전로 135 (내동/ 내동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "내동중학교(김해)",
-							"alternateName": "Nae-Dong Middle School",
-							"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50892 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 평전로 135 (내동/ 내동중학교)"
-							},
-							"telephone": "055-335-2671",
-							"faxNumber": "055-324-4395",
-							"sameAs": ["http://naedong-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-335-2671",
+						"faxNumber": "055-324-4395",
+						"sameAs": ["http://naedong-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "723.1 Kcal",
 										"carbohydrateContent": "127.1 g",
 										"proteinContent": "22.1 g",
-										"fatContent": "13.3 g",
-										"vitaminAContent": "163.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "29.1 mg",
-										"calciumContent": "116.3 mg",
-										"ironContent": "10.6 mg"
+										"fatContent": "13.3 g"
 									}
 								}
 							]

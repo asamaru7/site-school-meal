@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진잠초등학교/",
 				"headline": "진잠초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진잠초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jinjames.djsch.kr/",
-							"url": "http://jinjames.djsch.kr/",
-							"name": "진잠초등학교 급식 식단표 안내",
-							"description": "진잠초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진잠초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진잠초등학교",
+						"alternateName": "Jin Jam Elementary School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34229 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 진잠로59번길 53 / 진잠초등학교 (원내동/ 진잠초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진잠초등학교",
-							"alternateName": "Jin Jam Elementary School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34229 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 진잠로59번길 53 / 진잠초등학교 (원내동/ 진잠초등학교)"
-							},
-							"telephone": "042-543-3072",
-							"faxNumber": "042-543-5097",
-							"sameAs": ["http://jinjames.djsch.kr/"]
-						}
-					],
+						"telephone": "042-543-3072",
+						"faxNumber": "042-543-5097",
+						"sameAs": ["http://jinjames.djsch.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "679.2 Kcal",
 										"carbohydrateContent": "100.5 g",
 										"proteinContent": "32.1 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "123.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "15.3 mg",
-										"calciumContent": "178.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

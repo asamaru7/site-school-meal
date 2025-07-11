@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/노원고등학교/",
 				"headline": "노원고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/노원고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nowon.sen.hs.kr",
-							"url": "http://nowon.sen.hs.kr",
-							"name": "노원고등학교 급식 식단표 안내",
-							"description": "노원고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 노원고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "노원고등학교",
+						"alternateName": "Nowon High School",
+						"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01675 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "노원구",
+							"streetAddress": "서울특별시 노원구 노원로 586 (상계동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "노원고등학교",
-							"alternateName": "Nowon High School",
-							"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01675 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "노원구",
-								"streetAddress": "서울특별시 노원구 노원로 586 (상계동)"
-							},
-							"telephone": "02-937-0079",
-							"faxNumber": "02-951-4607",
-							"sameAs": ["http://nowon.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-937-0079",
+						"faxNumber": "02-951-4607",
+						"sameAs": ["http://nowon.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1324.4 Kcal",
 										"carbohydrateContent": "199.3 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "39.9 g",
-										"vitaminAContent": "84.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "31.6 mg",
-										"calciumContent": "310.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "39.9 g"
 									}
 								}
 							]

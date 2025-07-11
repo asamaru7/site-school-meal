@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/단천초등학교/",
 				"headline": "단천초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/단천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/dancheon-e/",
-							"url": "http://school.cbe.go.kr/dancheon-e/",
-							"name": "단천초등학교 급식 식단표 안내",
-							"description": "단천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 단천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "단천초등학교",
+						"alternateName": "Dancheon Elementary School",
+						"description": "충청북도단양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27027 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "단양군",
+							"streetAddress": "충청북도 단양군 단성면 북상하리길 53 / 단천초등학교 (단성면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "단천초등학교",
-							"alternateName": "Dancheon Elementary School",
-							"description": "충청북도단양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27027 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "단양군",
-								"streetAddress": "충청북도 단양군 단성면 북상하리길 53 / 단천초등학교 (단성면)"
-							},
-							"telephone": "043-422-0597",
-							"faxNumber": "043-422-6270",
-							"sameAs": ["http://school.cbe.go.kr/dancheon-e/"]
-						}
-					],
+						"telephone": "043-422-0597",
+						"faxNumber": "043-422-6270",
+						"sameAs": ["http://school.cbe.go.kr/dancheon-e/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.7 Kcal",
 										"carbohydrateContent": "106.0 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "255.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.7 mg",
-										"calciumContent": "458.9 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

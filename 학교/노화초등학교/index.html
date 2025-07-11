@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/노화초등학교/",
 				"headline": "노화초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/노화초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nohwa.es.jne.kr",
-							"url": "http://nohwa.es.jne.kr",
-							"name": "노화초등학교 급식 식단표 안내",
-							"description": "노화초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 노화초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "노화초등학교",
+						"alternateName": "Nohwa Elementary School",
+						"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59156 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 노화읍 노화서로 149 (노화읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "노화초등학교",
-							"alternateName": "Nohwa Elementary School",
-							"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59156 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 노화읍 노화서로 149 (노화읍)"
-							},
-							"telephone": "061-553-4903",
-							"faxNumber": "061-553-1729",
-							"sameAs": ["http://nohwa.es.jne.kr"]
-						}
-					],
+						"telephone": "061-553-4903",
+						"faxNumber": "061-553-1729",
+						"sameAs": ["http://nohwa.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "574.4 Kcal",
 										"carbohydrateContent": "85.5 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "13.5 g",
-										"vitaminAContent": "182.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "20.3 mg",
-										"calciumContent": "320.4 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "13.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공주정명학교/",
 				"headline": "공주정명학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공주정명학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gjm.cnesc.kr",
-							"url": "http://www.gjm.cnesc.kr",
-							"name": "공주정명학교 급식 식단표 안내",
-							"description": "공주정명학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공주정명학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공주정명학교",
+						"alternateName": "Kongjujeoungmyeong School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32590 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 장척로 116-14 / 공주정명학교 (송선동/ 공주정명학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공주정명학교",
-							"alternateName": "Kongjujeoungmyeong School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32590 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 장척로 116-14 / 공주정명학교 (송선동/ 공주정명학교)"
-							},
-							"telephone": "041-857-2062",
-							"faxNumber": "041-857-0845",
-							"sameAs": ["http://www.gjm.cnesc.kr"]
-						}
-					],
+						"telephone": "041-857-2062",
+						"faxNumber": "041-857-0845",
+						"sameAs": ["http://www.gjm.cnesc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "712.0 Kcal",
 										"carbohydrateContent": "106.9 g",
 										"proteinContent": "22.7 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "105.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.9 mg",
-										"calciumContent": "237.8 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "20.9 g"
 									}
 								}
 							]

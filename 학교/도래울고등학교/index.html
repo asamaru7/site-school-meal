@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도래울고등학교/",
 				"headline": "도래울고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도래울고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://doraeul.hs.kr",
-							"url": "http://doraeul.hs.kr",
-							"name": "도래울고등학교 급식 식단표 안내",
-							"description": "도래울고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도래울고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도래울고등학교",
+						"alternateName": "Doraeul High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10551 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "고양시 덕양구",
+							"streetAddress": "경기도 고양시 덕양구 도래울1로 67 (도내동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도래울고등학교",
-							"alternateName": "Doraeul High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10551 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "고양시 덕양구",
-								"streetAddress": "경기도 고양시 덕양구 도래울1로 67 (도내동)"
-							},
-							"telephone": "031-968-9261",
-							"faxNumber": "031-968-9264",
-							"sameAs": ["http://doraeul.hs.kr"]
-						}
-					],
+						"telephone": "031-968-9261",
+						"faxNumber": "031-968-9264",
+						"sameAs": ["http://doraeul.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1325.0 Kcal",
 										"carbohydrateContent": "202.5 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "43.2 g",
-										"vitaminAContent": "169.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "27.3 mg",
-										"calciumContent": "395.3 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "43.2 g"
 									}
 								}
 							]

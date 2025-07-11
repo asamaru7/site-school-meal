@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경북대학교사범대학부설초등학교/",
 				"headline": "경북대학교사범대학부설초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경북대학교사범대학부설초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ksadae.dge.es.kr",
-							"url": "http://ksadae.dge.es.kr",
-							"name": "경북대학교사범대학부설초등학교 급식 식단표 안내",
-							"description": "경북대학교사범대학부설초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경북대학교사범대학부설초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경북대학교사범대학부설초등학교",
+						"alternateName": "Kyungpook National University Elementary School",
+						"description": "교육부 / 국립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41959 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대구광역시 중구 달구벌대로 2150 (봉산동/ 경북대학사범대학부속초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경북대학교사범대학부설초등학교",
-							"alternateName": "Kyungpook National University Elementary School",
-							"description": "교육부 / 국립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41959 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대구광역시 중구 달구벌대로 2150 (봉산동/ 경북대학사범대학부속초등학교)"
-							},
-							"telephone": "053-232-5804",
-							"faxNumber": "053-427-9455",
-							"sameAs": ["http://ksadae.dge.es.kr"]
-						}
-					],
+						"telephone": "053-232-5804",
+						"faxNumber": "053-427-9455",
+						"sameAs": ["http://ksadae.dge.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "627.0 Kcal",
 										"carbohydrateContent": "93.6 g",
 										"proteinContent": "33.5 g",
-										"fatContent": "12.0 g",
-										"vitaminAContent": "140.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "30.7 mg",
-										"calciumContent": "240.2 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "12.0 g"
 									}
 								}
 							]

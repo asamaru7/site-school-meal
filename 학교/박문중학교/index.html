@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/박문중학교/",
 				"headline": "박문중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/박문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bakmun.icems.kr",
-							"url": "http://bakmun.icems.kr",
-							"name": "박문중학교 급식 식단표 안내",
-							"description": "박문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 박문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "박문중학교",
+						"alternateName": "BAKMUN MIDDLE SCHOOL",
+						"description": "인천광역시동부교육지원청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21982 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "연수구",
+							"streetAddress": "인천광역시 연수구 송도과학로51번길 102 (송도동/ 박문중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "박문중학교",
-							"alternateName": "BAKMUN MIDDLE SCHOOL",
-							"description": "인천광역시동부교육지원청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21982 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "연수구",
-								"streetAddress": "인천광역시 연수구 송도과학로51번길 102 (송도동/ 박문중학교)"
-							},
-							"telephone": "032-890-1965",
-							"faxNumber": "032-890-1990",
-							"sameAs": ["http://bakmun.icems.kr"]
-						}
-					],
+						"telephone": "032-890-1965",
+						"faxNumber": "032-890-1990",
+						"sameAs": ["http://bakmun.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "894.4 Kcal",
 										"carbohydrateContent": "124.8 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "26.8 g",
-										"vitaminAContent": "42.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "236.9 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "26.8 g"
 									}
 								}
 							]

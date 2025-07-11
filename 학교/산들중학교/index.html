@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/산들중학교/",
 				"headline": "산들중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/산들중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sandeul.ms.kr",
-							"url": "http://www.sandeul.ms.kr",
-							"name": "산들중학교 급식 식단표 안내",
-							"description": "산들중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 산들중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "산들중학교",
+						"alternateName": "Sandeul Middle School",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10872 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 교하로 43 (목동동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "산들중학교",
-							"alternateName": "Sandeul Middle School",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10872 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 교하로 43 (목동동)"
-							},
-							"telephone": "031-930-6794",
-							"faxNumber": "031-930-6746",
-							"sameAs": ["http://www.sandeul.ms.kr"]
-						}
-					],
+						"telephone": "031-930-6794",
+						"faxNumber": "031-930-6746",
+						"sameAs": ["http://www.sandeul.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "675.5 Kcal",
 										"carbohydrateContent": "80.4 g",
 										"proteinContent": "40.8 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "157.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.1 mg",
-										"calciumContent": "305.2 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

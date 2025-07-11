@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울영등포초등학교/",
 				"headline": "서울영등포초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울영등포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ydp.es.kr",
-							"url": "http://www.ydp.es.kr",
-							"name": "서울영등포초등학교 급식 식단표 안내",
-							"description": "서울영등포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울영등포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울영등포초등학교",
+						"alternateName": "Seoul Yeongdeungpo Elementary School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07363 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "영등포구",
+							"streetAddress": "서울특별시 영등포구 경인로 756 (문래동1가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울영등포초등학교",
-							"alternateName": "Seoul Yeongdeungpo Elementary School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07363 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "영등포구",
-								"streetAddress": "서울특별시 영등포구 경인로 756 (문래동1가)"
-							},
-							"telephone": "02-2633-6544",
-							"faxNumber": "02-2675-0827",
-							"sameAs": ["http://www.ydp.es.kr"]
-						}
-					],
+						"telephone": "02-2633-6544",
+						"faxNumber": "02-2675-0827",
+						"sameAs": ["http://www.ydp.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "689.2 Kcal",
 										"carbohydrateContent": "106.0 g",
 										"proteinContent": "23.0 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "237.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.0 mg",
-										"calciumContent": "316.4 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

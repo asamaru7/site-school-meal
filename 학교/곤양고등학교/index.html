@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/곤양고등학교/",
 				"headline": "곤양고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/곤양고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "gonyang-h.gne.go.kr",
-							"url": "gonyang-h.gne.go.kr",
-							"name": "곤양고등학교 급식 식단표 안내",
-							"description": "곤양고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 곤양고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "곤양고등학교",
+						"alternateName": "",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52504 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "사천시",
+							"streetAddress": "경상남도 사천시 곤양면 솥골길 120 / 곤양고등학교 (곤양면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "곤양고등학교",
-							"alternateName": "",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52504 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "사천시",
-								"streetAddress": "경상남도 사천시 곤양면 솥골길 120 / 곤양고등학교 (곤양면)"
-							},
-							"telephone": "055-853-0122",
-							"faxNumber": "055-853-0123",
-							"sameAs": ["gonyang-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-853-0122",
+						"faxNumber": "055-853-0123",
+						"sameAs": ["gonyang-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "833.8 Kcal",
 										"carbohydrateContent": "106.5 g",
 										"proteinContent": "56.6 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "107.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "27.1 mg",
-										"calciumContent": "343.4 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

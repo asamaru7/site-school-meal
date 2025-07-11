@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/에바다학교/",
 				"headline": "에바다학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/에바다학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://ebada-s.goept.kr",
-							"url": "https://ebada-s.goept.kr",
-							"name": "에바다학교 급식 식단표 안내",
-							"description": "에바다학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 에바다학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "에바다학교",
+						"alternateName": "Ebada School",
+						"description": "경기도교육청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17714 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "평택시",
+							"streetAddress": "경기도 평택시 진위면 하북4길 129-23 / 에바다학교 (진위면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "에바다학교",
-							"alternateName": "Ebada School",
-							"description": "경기도교육청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17714 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "평택시",
-								"streetAddress": "경기도 평택시 진위면 하북4길 129-23 / 에바다학교 (진위면)"
-							},
-							"telephone": "031-611-9342",
-							"faxNumber": "031-611-9347",
-							"sameAs": ["https://ebada-s.goept.kr"]
-						}
-					],
+						"telephone": "031-611-9342",
+						"faxNumber": "031-611-9347",
+						"sameAs": ["https://ebada-s.goept.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "719.8 Kcal",
 										"carbohydrateContent": "97.4 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "18.1 g",
-										"vitaminAContent": "57.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "22.9 mg",
-										"calciumContent": "143.6 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "18.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "820.3 Kcal",
 										"carbohydrateContent": "100.2 g",
 										"proteinContent": "54.3 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "143.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "11.5 mg",
-										"calciumContent": "296.6 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

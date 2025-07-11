@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/현일중학교/",
 				"headline": "현일중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/현일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/hyunilms",
-							"url": "http://school.gyo6.net/hyunilms",
-							"name": "현일중학교 급식 식단표 안내",
-							"description": "현일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 현일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "현일중학교",
+						"alternateName": "Hyunil Middle School",
+						"description": "경상북도구미교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39151 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 고아읍 선산대로 656 (항곡리/ 현일중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "현일중학교",
-							"alternateName": "Hyunil Middle School",
-							"description": "경상북도구미교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39151 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 고아읍 선산대로 656 (항곡리/ 현일중학교)"
-							},
-							"telephone": "054-454-1986",
-							"faxNumber": "054-458-1907",
-							"sameAs": ["http://school.gyo6.net/hyunilms"]
-						}
-					],
+						"telephone": "054-454-1986",
+						"faxNumber": "054-458-1907",
+						"sameAs": ["http://school.gyo6.net/hyunilms"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "852.4 Kcal",
 										"carbohydrateContent": "105.5 g",
 										"proteinContent": "30.4 g",
-										"fatContent": "33.8 g",
-										"vitaminAContent": "472.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "2.0 mg",
-										"vitaminCContent": "58.8 mg",
-										"calciumContent": "386.6 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "33.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "698.1 Kcal",
 										"carbohydrateContent": "97.9 g",
 										"proteinContent": "43.1 g",
-										"fatContent": "13.6 g",
-										"vitaminAContent": "110.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "199.4 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "13.6 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "934.5 Kcal",
 										"carbohydrateContent": "121.0 g",
 										"proteinContent": "17.3 g",
-										"fatContent": "41.8 g",
-										"vitaminAContent": "42.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "18.8 mg",
-										"calciumContent": "83.3 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "41.8 g"
 									}
 								}
 							]

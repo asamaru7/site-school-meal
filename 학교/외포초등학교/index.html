@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/외포초등학교/",
 				"headline": "외포초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/외포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wepo-p.gne.go.kr",
-							"url": "http://wepo-p.gne.go.kr",
-							"name": "외포초등학교 급식 식단표 안내",
-							"description": "외포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 외포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "외포초등학교",
+						"alternateName": "Oepo Elementary School",
+						"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53202 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 장목면 외포5길 7 (장목면/ 외포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "외포초등학교",
-							"alternateName": "Oepo Elementary School",
-							"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53202 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 장목면 외포5길 7 (장목면/ 외포초등학교)"
-							},
-							"telephone": "055-636-6014",
-							"faxNumber": "055-636-1557",
-							"sameAs": ["http://wepo-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-636-6014",
+						"faxNumber": "055-636-1557",
+						"sameAs": ["http://wepo-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "758.3 Kcal",
 										"carbohydrateContent": "86.8 g",
 										"proteinContent": "33.9 g",
-										"fatContent": "29.1 g",
-										"vitaminAContent": "184.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "18.2 mg",
-										"calciumContent": "215.5 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "29.1 g"
 									}
 								}
 							]

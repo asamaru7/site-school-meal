@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/합도초등학교/",
 				"headline": "합도초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/합도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hapdo.cnees.kr/",
-							"url": "http://hapdo.cnees.kr/",
-							"name": "합도초등학교 급식 식단표 안내",
-							"description": "합도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 합도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "합도초등학교",
+						"alternateName": "Hapdo Elementary School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31811 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 합덕읍 면천로 1538 (합덕읍/ 합도초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "합도초등학교",
-							"alternateName": "Hapdo Elementary School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31811 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 합덕읍 면천로 1538 (합덕읍/ 합도초등학교)"
-							},
-							"telephone": "041-362-2303",
-							"faxNumber": "041-363-1413",
-							"sameAs": ["http://hapdo.cnees.kr/"]
-						}
-					],
+						"telephone": "041-362-2303",
+						"faxNumber": "041-363-1413",
+						"sameAs": ["http://hapdo.cnees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "713.1 Kcal",
 										"carbohydrateContent": "95.1 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "22.7 g",
-										"vitaminAContent": "67.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "80.7 mg",
-										"calciumContent": "117.7 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "22.7 g"
 									}
 								}
 							]

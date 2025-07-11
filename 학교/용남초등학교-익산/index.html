@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용남초등학교-익산/",
 				"headline": "용남초등학교(익산) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용남초등학교-익산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.용남초등학교.kr/",
-							"url": "http://www.용남초등학교.kr/",
-							"name": "용남초등학교(익산) 급식 식단표 안내",
-							"description": "용남초등학교(익산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용남초등학교(익산)",
+						"alternateName": "Yongnam Elementary School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54508 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 용안면 입산길 13 용남초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용남초등학교(익산)",
-							"alternateName": "Yongnam Elementary School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54508 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 용안면 입산길 13 용남초등학교"
-							},
-							"telephone": "063-861-2612",
-							"faxNumber": "063-861-7539",
-							"sameAs": ["http://www.용남초등학교.kr/"]
-						}
-					],
+						"telephone": "063-861-2612",
+						"faxNumber": "063-861-7539",
+						"sameAs": ["http://www.용남초등학교.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "837.1 Kcal",
 										"carbohydrateContent": "133.7 g",
 										"proteinContent": "37.1 g",
-										"fatContent": "14.5 g",
-										"vitaminAContent": "158.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "143.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "14.5 g"
 									}
 								}
 							]

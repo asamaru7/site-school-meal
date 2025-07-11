@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청양중학교/",
 				"headline": "청양중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청양중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cyj.cnems.kr",
-							"url": "http://cyj.cnems.kr",
-							"name": "청양중학교 급식 식단표 안내",
-							"description": "청양중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청양중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청양중학교",
+						"alternateName": "Chongyang Middle School",
+						"description": "충청남도청양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33339 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "청양군",
+							"streetAddress": "충청남도 청양군 청양읍 칠갑산로 179 (청양읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청양중학교",
-							"alternateName": "Chongyang Middle School",
-							"description": "충청남도청양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33339 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "청양군",
-								"streetAddress": "충청남도 청양군 청양읍 칠갑산로 179 (청양읍)"
-							},
-							"telephone": "041-944-1193",
-							"faxNumber": "041-943-6791",
-							"sameAs": ["http://cyj.cnems.kr"]
-						}
-					],
+						"telephone": "041-944-1193",
+						"faxNumber": "041-943-6791",
+						"sameAs": ["http://cyj.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "753.9 Kcal",
 										"carbohydrateContent": "113.5 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "184.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "15.9 mg",
-										"calciumContent": "308.9 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

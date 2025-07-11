@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함평영화학교/",
 				"headline": "함평영화학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함평영화학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yh.sc.jne.kr",
-							"url": "http://yh.sc.jne.kr",
-							"name": "함평영화학교 급식 식단표 안내",
-							"description": "함평영화학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함평영화학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함평영화학교",
+						"alternateName": "Hampyeong Yeonghwa",
+						"description": "전라남도교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57135 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "함평군",
+							"streetAddress": "전라남도 함평군 함평읍 한나리길 10-25 / 함평영화학교 (함평읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함평영화학교",
-							"alternateName": "Hampyeong Yeonghwa",
-							"description": "전라남도교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57135 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "함평군",
-								"streetAddress": "전라남도 함평군 함평읍 한나리길 10-25 / 함평영화학교 (함평읍)"
-							},
-							"telephone": "061-323-9889",
-							"faxNumber": "061-323-9779",
-							"sameAs": ["http://yh.sc.jne.kr"]
-						}
-					],
+						"telephone": "061-323-9889",
+						"faxNumber": "061-323-9779",
+						"sameAs": ["http://yh.sc.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "872.1 Kcal",
 										"carbohydrateContent": "153.8 g",
 										"proteinContent": "40.3 g",
-										"fatContent": "8.9 g",
-										"vitaminAContent": "87.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "256.9 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "8.9 g"
 									}
 								}
 							]

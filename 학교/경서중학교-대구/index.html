@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경서중학교-대구/",
 				"headline": "경서중학교(대구) 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경서중학교-대구/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kyeongseo.ms.kr",
-							"url": "http://www.kyeongseo.ms.kr",
-							"name": "경서중학교(대구) 급식 식단표 안내",
-							"description": "경서중학교(대구)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경서중학교(대구)",
+						"alternateName": "Kyeong-Seo Middle School",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42974 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 옥포읍 돌미로5길 15 (옥포읍/ 경서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경서중학교(대구)",
-							"alternateName": "Kyeong-Seo Middle School",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42974 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 옥포읍 돌미로5길 15 (옥포읍/ 경서중학교)"
-							},
-							"telephone": "053-235-3104",
-							"faxNumber": "053-235-3149",
-							"sameAs": ["http://www.kyeongseo.ms.kr"]
-						}
-					],
+						"telephone": "053-235-3104",
+						"faxNumber": "053-235-3149",
+						"sameAs": ["http://www.kyeongseo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "817.8 Kcal",
 										"carbohydrateContent": "128.4 g",
 										"proteinContent": "33.0 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "76.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "48.2 mg",
-										"calciumContent": "223.3 mg",
-										"ironContent": "7.6 mg"
+										"fatContent": "19.3 g"
 									}
 								}
 							]

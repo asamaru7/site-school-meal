@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영광여자중학교/",
 				"headline": "영광여자중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영광여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/yeongju-ykg",
-							"url": "http://school.gyo6.net/yeongju-ykg",
-							"name": "영광여자중학교 급식 식단표 안내",
-							"description": "영광여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영광여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영광여자중학교",
+						"alternateName": "Yeonggwang Girls Middle School",
+						"description": "경상북도영주교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36072 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영주시",
+							"streetAddress": "경상북도 영주시 두서길 120 (영주동/ 영광여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영광여자중학교",
-							"alternateName": "Yeonggwang Girls Middle School",
-							"description": "경상북도영주교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36072 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영주시",
-								"streetAddress": "경상북도 영주시 두서길 120 (영주동/ 영광여자중학교)"
-							},
-							"telephone": "054-634-1621",
-							"faxNumber": "054-631-4596",
-							"sameAs": ["http://school.gyo6.net/yeongju-ykg"]
-						}
-					],
+						"telephone": "054-634-1621",
+						"faxNumber": "054-631-4596",
+						"sameAs": ["http://school.gyo6.net/yeongju-ykg"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "779.1 Kcal",
 										"carbohydrateContent": "108.2 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "22.5 g",
-										"vitaminAContent": "92.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "34.2 mg",
-										"calciumContent": "108.0 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "22.5 g"
 									}
 								}
 							]

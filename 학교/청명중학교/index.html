@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청명중학교/",
 				"headline": "청명중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청명중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "cm-m.goesw.kr",
-							"url": "cm-m.goesw.kr",
-							"name": "청명중학교 급식 식단표 안내",
-							"description": "청명중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청명중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청명중학교",
+						"alternateName": "Chungmyung Middle School",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16708 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 영통구",
+							"streetAddress": "경기도 수원시 영통구 청명북로 118 (영통동/청명중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청명중학교",
-							"alternateName": "Chungmyung Middle School",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16708 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 영통구",
-								"streetAddress": "경기도 수원시 영통구 청명북로 118 (영통동/청명중학교)"
-							},
-							"telephone": "031-547-4100",
-							"faxNumber": "031-547-4219",
-							"sameAs": ["cm-m.goesw.kr"]
-						}
-					],
+						"telephone": "031-547-4100",
+						"faxNumber": "031-547-4219",
+						"sameAs": ["cm-m.goesw.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "810.0 Kcal",
 										"carbohydrateContent": "115.6 g",
 										"proteinContent": "23.5 g",
-										"fatContent": "28.5 g",
-										"vitaminAContent": "113.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "29.1 mg",
-										"calciumContent": "259.6 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "28.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/마천중학교/",
 				"headline": "마천중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/마천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://macheon-m.gne.go.kr/",
-							"url": "http://macheon-m.gne.go.kr/",
-							"name": "마천중학교 급식 식단표 안내",
-							"description": "마천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 마천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "마천중학교",
+						"alternateName": "",
+						"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50055 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "함양군",
+							"streetAddress": "경상남도 함양군 마천면 마천삼정로 108 (마천면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "마천중학교",
-							"alternateName": "",
-							"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50055 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "함양군",
-								"streetAddress": "경상남도 함양군 마천면 마천삼정로 108 (마천면)"
-							},
-							"telephone": "055-962-5434",
-							"faxNumber": "055-964-0676",
-							"sameAs": ["http://macheon-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-962-5434",
+						"faxNumber": "055-964-0676",
+						"sameAs": ["http://macheon-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "769.3 Kcal",
 										"carbohydrateContent": "103.1 g",
 										"proteinContent": "47.3 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "332.8 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "38.2 mg",
-										"calciumContent": "232.2 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

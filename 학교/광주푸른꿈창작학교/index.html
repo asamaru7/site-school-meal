@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주푸른꿈창작학교/",
 				"headline": "광주푸른꿈창작학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주푸른꿈창작학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ypureunkkum.kr/",
-							"url": "http://ypureunkkum.kr/",
-							"name": "광주푸른꿈창작학교 급식 식단표 안내",
-							"description": "광주푸른꿈창작학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주푸른꿈창작학교 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주푸른꿈창작학교",
+						"alternateName": "푸른꿈창작학교",
+						"description": "광주광역시교육청 / 기타 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61724 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "남구",
+							"streetAddress": "광주광역시 남구 서문대로749번길 12 (주월동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주푸른꿈창작학교",
-							"alternateName": "푸른꿈창작학교",
-							"description": "광주광역시교육청 / 기타 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61724 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "남구",
-								"streetAddress": "광주광역시 남구 서문대로749번길 12 (주월동)"
-							},
-							"telephone": "062-602-0222",
-							"faxNumber": "062-655-3540",
-							"sameAs": ["http://ypureunkkum.kr/"]
-						}
-					],
+						"telephone": "062-602-0222",
+						"faxNumber": "062-655-3540",
+						"sameAs": ["http://ypureunkkum.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.3 Kcal",
 										"carbohydrateContent": "110.7 g",
 										"proteinContent": "36.4 g",
-										"fatContent": "27.5 g",
-										"vitaminAContent": "157.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.2 mg",
-										"calciumContent": "297.3 mg",
-										"ironContent": "7.6 mg"
+										"fatContent": "27.5 g"
 									}
 								}
 							]

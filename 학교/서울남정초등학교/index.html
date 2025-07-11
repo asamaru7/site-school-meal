@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울남정초등학교/",
 				"headline": "서울남정초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울남정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.seoul-nj.es.kr",
-							"url": "http://www.seoul-nj.es.kr",
-							"name": "서울남정초등학교 급식 식단표 안내",
-							"description": "서울남정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울남정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울남정초등학교",
+						"alternateName": "Seoul Namjeong Elementary School",
+						"description": "서울특별시중부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04368 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "용산구",
+							"streetAddress": "서울특별시 용산구 원효로64길 17-10 / 서울남정초등학교 (원효로2가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울남정초등학교",
-							"alternateName": "Seoul Namjeong Elementary School",
-							"description": "서울특별시중부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04368 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "용산구",
-								"streetAddress": "서울특별시 용산구 원효로64길 17-10 / 서울남정초등학교 (원효로2가)"
-							},
-							"telephone": "02-712-8938",
-							"faxNumber": "02-718-0108",
-							"sameAs": ["http://www.seoul-nj.es.kr"]
-						}
-					],
+						"telephone": "02-712-8938",
+						"faxNumber": "02-718-0108",
+						"sameAs": ["http://www.seoul-nj.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "569.1 Kcal",
 										"carbohydrateContent": "73.2 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "161.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "19.9 mg",
-										"calciumContent": "208.6 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

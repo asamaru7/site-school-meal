@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/현암고등학교/",
 				"headline": "현암고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/현암고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://hyunam-h.goeyi.kr",
-							"url": "https://hyunam-h.goeyi.kr",
-							"name": "현암고등학교 급식 식단표 안내",
-							"description": "현암고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 현암고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "현암고등학교",
+						"alternateName": "Hyun-Am High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16882 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 수지구",
+							"streetAddress": "경기도 용인시 수지구 디지털벨리로 17 / 현암고등학교 (죽전동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "현암고등학교",
-							"alternateName": "Hyun-Am High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16882 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 수지구",
-								"streetAddress": "경기도 용인시 수지구 디지털벨리로 17 / 현암고등학교 (죽전동)"
-							},
-							"telephone": "031-896-5035",
-							"faxNumber": "031-896-5038",
-							"sameAs": ["https://hyunam-h.goeyi.kr"]
-						}
-					],
+						"telephone": "031-896-5035",
+						"faxNumber": "031-896-5038",
+						"sameAs": ["https://hyunam-h.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "827.9 Kcal",
 										"carbohydrateContent": "86.6 g",
 										"proteinContent": "34.7 g",
-										"fatContent": "37.5 g",
-										"vitaminAContent": "257.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "369.8 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "37.5 g"
 									}
 								}
 							]

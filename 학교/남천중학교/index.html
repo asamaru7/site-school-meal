@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남천중학교/",
 				"headline": "남천중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.busanedu.net/namcheon-m",
-							"url": "https://school.busanedu.net/namcheon-m",
-							"name": "남천중학교 급식 식단표 안내",
-							"description": "남천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남천중학교",
+						"alternateName": "Namcheon Middle School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48510 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "부산광역시 남구 황령대로492번길 71 / 남천중 (대연동/ 남천중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남천중학교",
-							"alternateName": "Namcheon Middle School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48510 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "부산광역시 남구 황령대로492번길 71 / 남천중 (대연동/ 남천중학교)"
-							},
-							"telephone": "051-624-5310",
-							"faxNumber": "051-625-8879",
-							"sameAs": ["https://school.busanedu.net/namcheon-m"]
-						}
-					],
+						"telephone": "051-624-5310",
+						"faxNumber": "051-625-8879",
+						"sameAs": ["https://school.busanedu.net/namcheon-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "757.1 Kcal",
 										"carbohydrateContent": "93.8 g",
 										"proteinContent": "30.9 g",
-										"fatContent": "28.1 g",
-										"vitaminAContent": "180.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "30.6 mg",
-										"calciumContent": "436.2 mg",
-										"ironContent": "9.5 mg"
+										"fatContent": "28.1 g"
 									}
 								}
 							]

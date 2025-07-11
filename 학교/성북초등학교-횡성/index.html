@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성북초등학교-횡성/",
 				"headline": "성북초등학교(횡성) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성북초등학교-횡성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hsseongbuk.gwe.es.kr/main.do",
-							"url": "http://hsseongbuk.gwe.es.kr/main.do",
-							"name": "성북초등학교(횡성) 급식 식단표 안내",
-							"description": "성북초등학교(횡성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성북초등학교(횡성)",
+						"alternateName": "Seongbuk Elementary School",
+						"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25226 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "횡성군",
+							"streetAddress": "강원특별자치도 횡성군 횡성읍 성북로 10 (횡성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성북초등학교(횡성)",
-							"alternateName": "Seongbuk Elementary School",
-							"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25226 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "횡성군",
-								"streetAddress": "강원특별자치도 횡성군 횡성읍 성북로 10 (횡성읍)"
-							},
-							"telephone": "033-808-7565",
-							"faxNumber": "033-343-7057",
-							"sameAs": ["http://hsseongbuk.gwe.es.kr/main.do"]
-						}
-					],
+						"telephone": "033-808-7565",
+						"faxNumber": "033-343-7057",
+						"sameAs": ["http://hsseongbuk.gwe.es.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "732.8 Kcal",
 										"carbohydrateContent": "123.8 g",
 										"proteinContent": "24.7 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "262.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "414.2 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

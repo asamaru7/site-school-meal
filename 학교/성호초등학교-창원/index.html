@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성호초등학교-창원/",
 				"headline": "성호초등학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성호초등학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seongho-p.gne.go.kr",
-							"url": "http://seongho-p.gne.go.kr",
-							"name": "성호초등학교(창원) 급식 식단표 안내",
-							"description": "성호초등학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성호초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성호초등학교(창원)",
+						"alternateName": "",
+						"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51282 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 성호동4길 21 (성호동/성호초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성호초등학교(창원)",
-							"alternateName": "",
-							"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51282 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 성호동4길 21 (성호동/성호초등학교)"
-							},
-							"telephone": "055-246-5548",
-							"faxNumber": "055-247-9468",
-							"sameAs": ["http://seongho-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-246-5548",
+						"faxNumber": "055-247-9468",
+						"sameAs": ["http://seongho-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "564.5 Kcal",
 										"carbohydrateContent": "83.7 g",
 										"proteinContent": "23.5 g",
-										"fatContent": "14.5 g",
-										"vitaminAContent": "210.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "29.7 mg",
-										"calciumContent": "412.7 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "14.5 g"
 									}
 								}
 							]

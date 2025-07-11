@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동해초등학교-포항/",
 				"headline": "동해초등학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동해초등학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/phdonghae",
-							"url": "http://school.gyo6.net/phdonghae",
-							"name": "동해초등학교(포항) 급식 식단표 안내",
-							"description": "동해초등학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동해초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동해초등학교(포항)",
+						"alternateName": "Donghae Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37926 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 동해면 일월로 78 (동해면/ 동해초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동해초등학교(포항)",
-							"alternateName": "Donghae Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37926 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 동해면 일월로 78 (동해면/ 동해초등학교)"
-							},
-							"telephone": "054-284-3029",
-							"faxNumber": "054-284-0397",
-							"sameAs": ["http://school.gyo6.net/phdonghae"]
-						}
-					],
+						"telephone": "054-284-3029",
+						"faxNumber": "054-284-0397",
+						"sameAs": ["http://school.gyo6.net/phdonghae"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "725.4 Kcal",
 										"carbohydrateContent": "102.1 g",
 										"proteinContent": "24.9 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "164.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "15.0 mg",
-										"calciumContent": "212.4 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

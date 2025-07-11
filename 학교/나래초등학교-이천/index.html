@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/나래초등학교-이천/",
 				"headline": "나래초등학교(이천) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/나래초등학교-이천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://narae.goeic.kr",
-							"url": "https://narae.goeic.kr",
-							"name": "나래초등학교(이천) 급식 식단표 안내",
-							"description": "나래초등학교(이천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 나래초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "나래초등학교(이천)",
+						"alternateName": "Narae Elementary School",
+						"description": "경기도이천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17414 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "이천시",
+							"streetAddress": "경기도 이천시 장호원읍 이풍로63번길 114 / 나래초등학교 (장호원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "나래초등학교(이천)",
-							"alternateName": "Narae Elementary School",
-							"description": "경기도이천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17414 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "이천시",
-								"streetAddress": "경기도 이천시 장호원읍 이풍로63번길 114 / 나래초등학교 (장호원읍)"
-							},
-							"telephone": "031-641-0972",
-							"faxNumber": "031-641-6153",
-							"sameAs": ["https://narae.goeic.kr"]
-						}
-					],
+						"telephone": "031-641-0972",
+						"faxNumber": "031-641-6153",
+						"sameAs": ["https://narae.goeic.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "619.8 Kcal",
 										"carbohydrateContent": "97.1 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "13.1 g",
-										"vitaminAContent": "63.7 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "111.6 mg",
-										"calciumContent": "215.3 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "13.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가운고등학교/",
 				"headline": "가운고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가운고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gaun.hs.kr",
-							"url": "http://www.gaun.hs.kr",
-							"name": "가운고등학교 급식 식단표 안내",
-							"description": "가운고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가운고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가운고등학교",
+						"alternateName": "Gaun High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12266 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "남양주시",
+							"streetAddress": "경기도 남양주시 가운로2길 115 (가운동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가운고등학교",
-							"alternateName": "Gaun High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12266 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "남양주시",
-								"streetAddress": "경기도 남양주시 가운로2길 115 (가운동)"
-							},
-							"telephone": "031-567-2913",
-							"faxNumber": "031-567-2917",
-							"sameAs": ["http://www.gaun.hs.kr"]
-						}
-					],
+						"telephone": "031-567-2913",
+						"faxNumber": "031-567-2917",
+						"sameAs": ["http://www.gaun.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1034.8 Kcal",
 										"carbohydrateContent": "124.5 g",
 										"proteinContent": "38.7 g",
-										"fatContent": "41.9 g",
-										"vitaminAContent": "97.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "45.5 mg",
-										"calciumContent": "208.8 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "41.9 g"
 									}
 								}
 							]

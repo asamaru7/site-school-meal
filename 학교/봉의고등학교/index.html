@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉의고등학교/",
 				"headline": "봉의고등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉의고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bongeui.gwe.hs.kr",
-							"url": "http://bongeui.gwe.hs.kr",
-							"name": "봉의고등학교 급식 식단표 안내",
-							"description": "봉의고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉의고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉의고등학교",
+						"alternateName": "bongeui-high school",
+						"description": "강원특별자치도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24313 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 후석로250번길 22 (후평동,봉의고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉의고등학교",
-							"alternateName": "bongeui-high school",
-							"description": "강원특별자치도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24313 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 후석로250번길 22 (후평동,봉의고등학교)"
-							},
-							"telephone": "033-815-0100",
-							"faxNumber": "033-242-8262",
-							"sameAs": ["http://bongeui.gwe.hs.kr"]
-						}
-					],
+						"telephone": "033-815-0100",
+						"faxNumber": "033-242-8262",
+						"sameAs": ["http://bongeui.gwe.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "685.2 Kcal",
 										"carbohydrateContent": "103.6 g",
 										"proteinContent": "24.6 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "77.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.5 mg",
-										"calciumContent": "88.3 mg",
-										"ironContent": "8.8 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

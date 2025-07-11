@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서산부춘중학교/",
 				"headline": "서산부춘중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서산부춘중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://buchun.cnems.kr",
-							"url": "http://buchun.cnems.kr",
-							"name": "서산부춘중학교 급식 식단표 안내",
-							"description": "서산부춘중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서산부춘중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서산부춘중학교",
+						"alternateName": "Seosanbuchun Middle School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31972 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 부춘2로 42 (읍내동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서산부춘중학교",
-							"alternateName": "Seosanbuchun Middle School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31972 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 부춘2로 42 (읍내동)"
-							},
-							"telephone": "041-667-0127",
-							"faxNumber": "041-667-0130",
-							"sameAs": ["http://buchun.cnems.kr"]
-						}
-					],
+						"telephone": "041-667-0127",
+						"faxNumber": "041-667-0130",
+						"sameAs": ["http://buchun.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.6 Kcal",
 										"carbohydrateContent": "106.6 g",
 										"proteinContent": "51.0 g",
-										"fatContent": "6.9 g",
-										"vitaminAContent": "90.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.1 mg",
-										"calciumContent": "295.5 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "6.9 g"
 									}
 								}
 							]

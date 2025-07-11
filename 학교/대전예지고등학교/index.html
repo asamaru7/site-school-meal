@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전예지고등학교/",
 				"headline": "대전예지고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전예지고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yejihs.djsch.kr",
-							"url": "http://yejihs.djsch.kr",
-							"name": "대전예지고등학교 급식 식단표 안내",
-							"description": "대전예지고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전예지고 (평생학교(고)-2년6학기) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전예지고등학교",
+						"alternateName": "Daejeon Yeji High School",
+						"description": "대전광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35299 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 도솔로 376 376"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전예지고등학교",
-							"alternateName": "Daejeon Yeji High School",
-							"description": "대전광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35299 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 도솔로 376 376"
-							},
-							"telephone": "042-535-0736",
-							"faxNumber": "042-532-0736",
-							"sameAs": ["http://yejihs.djsch.kr"]
-						}
-					]
+						"telephone": "042-535-0736",
+						"faxNumber": "042-532-0736",
+						"sameAs": ["http://yejihs.djsch.kr"]
+					}
 				]
 			}
 		</script>

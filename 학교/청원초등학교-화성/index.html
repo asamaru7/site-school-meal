@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청원초등학교-화성/",
 				"headline": "청원초등학교(화성) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청원초등학교-화성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.cheongwon.es.kr",
-							"url": "www.cheongwon.es.kr",
-							"name": "청원초등학교(화성) 급식 식단표 안내",
-							"description": "청원초등학교(화성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청원초등학교(화성)",
+						"alternateName": "Cheong Won Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18543 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 마도면 해운로 794 (마도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청원초등학교(화성)",
-							"alternateName": "Cheong Won Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18543 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 마도면 해운로 794 (마도면)"
-							},
-							"telephone": "031-356-6165",
-							"faxNumber": "031-356-3394",
-							"sameAs": ["www.cheongwon.es.kr"]
-						}
-					],
+						"telephone": "031-356-6165",
+						"faxNumber": "031-356-3394",
+						"sameAs": ["www.cheongwon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "710.1 Kcal",
 										"carbohydrateContent": "98.1 g",
 										"proteinContent": "31.9 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "163.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "348.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "20.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/감곡중학교/",
 				"headline": "감곡중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/감곡중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/gamgok-m",
-							"url": "school.cbe.go.kr/gamgok-m",
-							"name": "감곡중학교 급식 식단표 안내",
-							"description": "감곡중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 감곡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "감곡중학교",
+						"alternateName": "Gamgok Middle School",
+						"description": "충청북도음성교육지원청 / 공립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27611 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 감곡면 음성로 2629 (감곡면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "감곡중학교",
-							"alternateName": "Gamgok Middle School",
-							"description": "충청북도음성교육지원청 / 공립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27611 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 감곡면 음성로 2629 (감곡면)"
-							},
-							"telephone": "043-882-2091",
-							"faxNumber": "043-881-0706",
-							"sameAs": ["school.cbe.go.kr/gamgok-m"]
-						}
-					],
+						"telephone": "043-882-2091",
+						"faxNumber": "043-881-0706",
+						"sameAs": ["school.cbe.go.kr/gamgok-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "966.4 Kcal",
 										"carbohydrateContent": "115.3 g",
 										"proteinContent": "40.9 g",
-										"fatContent": "36.9 g",
-										"vitaminAContent": "235.8 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "75.8 mg",
-										"calciumContent": "227.6 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "36.9 g"
 									}
 								}
 							]

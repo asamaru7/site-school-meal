@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍북초등학교/",
 				"headline": "홍북초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍북초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hongbuk.cnees.kr/main.do",
-							"url": "http://www.hongbuk.cnees.kr/main.do",
-							"name": "홍북초등학교 급식 식단표 안내",
-							"description": "홍북초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍북초등학교",
+						"alternateName": "Hongbuk Elementary School",
+						"description": "충청남도홍성교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32278 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 홍북읍 매죽헌길 5 (홍북읍/ 홍북초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍북초등학교",
-							"alternateName": "Hongbuk Elementary School",
-							"description": "충청남도홍성교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32278 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 홍북읍 매죽헌길 5 (홍북읍/ 홍북초등학교)"
-							},
-							"telephone": "041-632-9027",
-							"faxNumber": "041-632-2605",
-							"sameAs": ["http://www.hongbuk.cnees.kr/main.do"]
-						}
-					],
+						"telephone": "041-632-9027",
+						"faxNumber": "041-632-2605",
+						"sameAs": ["http://www.hongbuk.cnees.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "602.8 Kcal",
 										"carbohydrateContent": "87.7 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "12.2 g",
-										"vitaminAContent": "107.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "150.6 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "12.2 g"
 									}
 								}
 							]

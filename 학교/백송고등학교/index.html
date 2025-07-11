@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/백송고등학교/",
 				"headline": "백송고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/백송고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.baeksong.hs.kr",
-							"url": "www.baeksong.hs.kr",
-							"name": "백송고등학교 급식 식단표 안내",
-							"description": "백송고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 백송고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "백송고등학교",
+						"alternateName": "Baeksong High School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10228 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "고양시 일산서구",
+							"streetAddress": "경기도 고양시 일산서구 덕이로 172번길 4-39 (덕이동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "백송고등학교",
-							"alternateName": "Baeksong High School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10228 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "고양시 일산서구",
-								"streetAddress": "경기도 고양시 일산서구 덕이로 172번길 4-39 (덕이동)"
-							},
-							"telephone": "031-929-0600",
-							"faxNumber": "031-922-0905",
-							"sameAs": ["www.baeksong.hs.kr"]
-						}
-					],
+						"telephone": "031-929-0600",
+						"faxNumber": "031-922-0905",
+						"sameAs": ["www.baeksong.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "819.7 Kcal",
 										"carbohydrateContent": "88.0 g",
 										"proteinContent": "32.5 g",
-										"fatContent": "36.2 g",
-										"vitaminAContent": "162.0 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "26.9 mg",
-										"calciumContent": "147.2 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "36.2 g"
 									}
 								}
 							]

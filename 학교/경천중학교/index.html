@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경천중학교/",
 				"headline": "경천중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kyongchon.cnems.kr",
-							"url": "http://kyongchon.cnems.kr",
-							"name": "경천중학교 급식 식단표 안내",
-							"description": "경천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경천중학교",
+						"alternateName": "Kyongchon Middle School",
+						"description": "충청남도공주교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32619 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 계룡면 어사길 2 (계룡면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경천중학교",
-							"alternateName": "Kyongchon Middle School",
-							"description": "충청남도공주교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32619 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 계룡면 어사길 2 (계룡면)"
-							},
-							"telephone": "041-852-4043",
-							"faxNumber": "041-852-4063",
-							"sameAs": ["http://kyongchon.cnems.kr"]
-						}
-					],
+						"telephone": "041-852-4043",
+						"faxNumber": "041-852-4063",
+						"sameAs": ["http://kyongchon.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 23일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "299.9 Kcal",
 										"carbohydrateContent": "44.6 g",
 										"proteinContent": "19.4 g",
-										"fatContent": "4.5 g",
-										"vitaminAContent": "82.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "86.6 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "4.5 g"
 									}
 								}
 							]

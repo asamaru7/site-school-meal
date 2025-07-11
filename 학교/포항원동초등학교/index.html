@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포항원동초등학교/",
 				"headline": "포항원동초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포항원동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ph-one.school.gyo6.net",
-							"url": "http://ph-one.school.gyo6.net",
-							"name": "포항원동초등학교 급식 식단표 안내",
-							"description": "포항원동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포항원동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포항원동초등학교",
+						"alternateName": "Pohang Wondong Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37883 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 오천읍 냉천로340번길 64 (오천읍/원동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포항원동초등학교",
-							"alternateName": "Pohang Wondong Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37883 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 오천읍 냉천로340번길 64 (오천읍/원동초등학교)"
-							},
-							"telephone": "054-291-3013",
-							"faxNumber": "054-291-3043",
-							"sameAs": ["http://ph-one.school.gyo6.net"]
-						}
-					],
+						"telephone": "054-291-3013",
+						"faxNumber": "054-291-3043",
+						"sameAs": ["http://ph-one.school.gyo6.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "734.9 Kcal",
 										"carbohydrateContent": "85.9 g",
 										"proteinContent": "32.6 g",
-										"fatContent": "28.5 g",
-										"vitaminAContent": "125.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "291.3 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "28.5 g"
 									}
 								}
 							]

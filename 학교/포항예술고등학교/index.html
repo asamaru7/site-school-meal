@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포항예술고등학교/",
 				"headline": "포항예술고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포항예술고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://pharts.hs.kr/",
-							"url": "http://pharts.hs.kr/",
-							"name": "포항예술고등학교 급식 식단표 안내",
-							"description": "포항예술고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포항예고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포항예술고등학교",
+						"alternateName": "Pohang Arts High School",
+						"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37653 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 흥해읍 연화길 56 (흥해읍/포항예술고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포항예술고등학교",
-							"alternateName": "Pohang Arts High School",
-							"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37653 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 흥해읍 연화길 56 (흥해읍/포항예술고등학교)"
-							},
-							"telephone": "054-262-5400",
-							"faxNumber": "054-262-5403",
-							"sameAs": ["http://pharts.hs.kr/"]
-						}
-					],
+						"telephone": "054-262-5400",
+						"faxNumber": "054-262-5403",
+						"sameAs": ["http://pharts.hs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "751.1 Kcal",
 										"carbohydrateContent": "39.3 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "47.1 g",
-										"vitaminAContent": "221.7 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "113.7 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "47.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "763.3 Kcal",
 										"carbohydrateContent": "121.2 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "19.5 g",
-										"vitaminAContent": "71.5 R.E",
-										"thiaminContent": "0.1 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "27.5 mg",
-										"calciumContent": "79.2 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "19.5 g"
 									}
 								}
 							]

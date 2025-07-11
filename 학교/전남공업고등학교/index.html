@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전남공업고등학교/",
 				"headline": "전남공업고등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전남공업고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kiram.gen.hs.kr",
-							"url": "http://kiram.gen.hs.kr",
-							"name": "전남공업고등학교 급식 식단표 안내",
-							"description": "전남공업고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전남공고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전남공업고등학교",
+						"alternateName": "JeonNam Technical High school",
+						"description": "광주광역시교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62252 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 왕버들로322번길 26 (신창동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전남공업고등학교",
-							"alternateName": "JeonNam Technical High school",
-							"description": "광주광역시교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62252 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 왕버들로322번길 26 (신창동)"
-							},
-							"telephone": "062-603-1201",
-							"faxNumber": "062-603-1214",
-							"sameAs": ["http://kiram.gen.hs.kr"]
-						}
-					],
+						"telephone": "062-603-1201",
+						"faxNumber": "062-603-1214",
+						"sameAs": ["http://kiram.gen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "850.9 Kcal",
 										"carbohydrateContent": "129.5 g",
 										"proteinContent": "24.6 g",
-										"fatContent": "24.9 g",
-										"vitaminAContent": "135.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "22.9 mg",
-										"calciumContent": "198.2 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "24.9 g"
 									}
 								}
 							]

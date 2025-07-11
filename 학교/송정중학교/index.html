@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송정중학교/",
 				"headline": "송정중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songjeong.sen.ms.kr",
-							"url": "http://songjeong.sen.ms.kr",
-							"name": "송정중학교 급식 식단표 안내",
-							"description": "송정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송정중학교",
+						"alternateName": "Songjeong Middle School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07628 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 남부순환로 121 (공항동/송정중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송정중학교",
-							"alternateName": "Songjeong Middle School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07628 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 남부순환로 121 (공항동/송정중학교)"
-							},
-							"telephone": "02-2661-0478",
-							"faxNumber": "02-2667-0021",
-							"sameAs": ["http://songjeong.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-2661-0478",
+						"faxNumber": "02-2667-0021",
+						"sameAs": ["http://songjeong.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "816.0 Kcal",
 										"carbohydrateContent": "117.8 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "19.5 g",
-										"vitaminAContent": "136.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "7.5 mg",
-										"calciumContent": "163.9 mg",
-										"ironContent": "6.0 mg"
+										"fatContent": "19.5 g"
 									}
 								}
 							]

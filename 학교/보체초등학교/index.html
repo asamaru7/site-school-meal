@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보체초등학교/",
 				"headline": "보체초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보체초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://poche-e.goean.kr",
-							"url": "https://poche-e.goean.kr",
-							"name": "보체초등학교 급식 식단표 안내",
-							"description": "보체초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보체초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보체초등학교",
+						"alternateName": "Boche Elementary School",
+						"description": "경기도안성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17600 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안성시",
+							"streetAddress": "경기도 안성시 미양면 보체길 47 / 보체초등학교 (미양면/보체초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보체초등학교",
-							"alternateName": "Boche Elementary School",
-							"description": "경기도안성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17600 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안성시",
-								"streetAddress": "경기도 안성시 미양면 보체길 47 / 보체초등학교 (미양면/보체초등학교)"
-							},
-							"telephone": "031-677-8082",
-							"faxNumber": "031-677-8085",
-							"sameAs": ["https://poche-e.goean.kr"]
-						}
-					],
+						"telephone": "031-677-8082",
+						"faxNumber": "031-677-8085",
+						"sameAs": ["https://poche-e.goean.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "671.8 Kcal",
 										"carbohydrateContent": "78.2 g",
 										"proteinContent": "39.3 g",
-										"fatContent": "20.3 g",
-										"vitaminAContent": "93.3 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "412.2 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "20.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/주학초등학교/",
 				"headline": "주학초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/주학초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.juhak.es.kr",
-							"url": "http://www.juhak.es.kr",
-							"name": "주학초등학교 급식 식단표 안내",
-							"description": "주학초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 주학초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "주학초등학교",
+						"alternateName": "Juhak Elementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47010 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사상구",
+							"streetAddress": "부산광역시 사상구 가야대로366번길 120 (주례동/ 주학초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "주학초등학교",
-							"alternateName": "Juhak Elementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47010 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사상구",
-								"streetAddress": "부산광역시 사상구 가야대로366번길 120 (주례동/ 주학초등학교)"
-							},
-							"telephone": "051-327-7471",
-							"faxNumber": "051-324-9880",
-							"sameAs": ["http://www.juhak.es.kr"]
-						}
-					],
+						"telephone": "051-327-7471",
+						"faxNumber": "051-324-9880",
+						"sameAs": ["http://www.juhak.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "808.1 Kcal",
 										"carbohydrateContent": "108.9 g",
 										"proteinContent": "31.0 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "113.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "36.6 mg",
-										"calciumContent": "408.2 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

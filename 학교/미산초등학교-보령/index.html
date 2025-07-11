@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미산초등학교-보령/",
 				"headline": "미산초등학교(보령) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미산초등학교-보령/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://misann.cnees.kr",
-							"url": "http://misann.cnees.kr",
-							"name": "미산초등학교(보령) 급식 식단표 안내",
-							"description": "미산초등학교(보령)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미산초등학교(보령)",
+						"alternateName": "Misan Elementary School",
+						"description": "충청남도보령교육지원청 / 공립 / 남여공학 /   ",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33512 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "보령시",
+							"streetAddress": "충청남도 보령시 미산면 판미로 1462-7 / 미산초등학교 (미산면/미산초)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미산초등학교(보령)",
-							"alternateName": "Misan Elementary School",
-							"description": "충청남도보령교육지원청 / 공립 / 남여공학 /   ",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33512 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "보령시",
-								"streetAddress": "충청남도 보령시 미산면 판미로 1462-7 / 미산초등학교 (미산면/미산초)"
-							},
-							"telephone": "041-931-0163",
-							"faxNumber": "041-934-8031",
-							"sameAs": ["http://misann.cnees.kr"]
-						}
-					],
+						"telephone": "041-931-0163",
+						"faxNumber": "041-934-8031",
+						"sameAs": ["http://misann.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "850.9 Kcal",
 										"carbohydrateContent": "129.2 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "22.5 g",
-										"vitaminAContent": "194.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.3 mg",
-										"calciumContent": "179.8 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "22.5 g"
 									}
 								}
 							]

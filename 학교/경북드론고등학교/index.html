@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경북드론고등학교/",
 				"headline": "경북드론고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경북드론고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/cdehs",
-							"url": "http://school.gyo6.net/cdehs",
-							"name": "경북드론고등학교 급식 식단표 안내",
-							"description": "경북드론고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경북드론고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경북드론고등학교",
+						"alternateName": "GyeongBuk Drone High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38309 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "청도군",
+							"streetAddress": "경상북도 청도군 풍각면 헐티로 185 / 경북드론고등학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경북드론고등학교",
-							"alternateName": "GyeongBuk Drone High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38309 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "청도군",
-								"streetAddress": "경상북도 청도군 풍각면 헐티로 185 / 경북드론고등학교 "
-							},
-							"telephone": "054-370-9300",
-							"faxNumber": "054-371-4529",
-							"sameAs": ["http://school.gyo6.net/cdehs"]
-						}
-					],
+						"telephone": "054-370-9300",
+						"faxNumber": "054-371-4529",
+						"sameAs": ["http://school.gyo6.net/cdehs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "929.1 Kcal",
 										"carbohydrateContent": "147.9 g",
 										"proteinContent": "39.0 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "343.0 R.E",
-										"thiaminContent": "1.8 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "62.6 mg",
-										"calciumContent": "227.0 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "18.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "838.4 Kcal",
 										"carbohydrateContent": "152.2 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "11.8 g",
-										"vitaminAContent": "42.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "26.2 mg",
-										"calciumContent": "177.6 mg",
-										"ironContent": "6.0 mg"
+										"fatContent": "11.8 g"
 									}
 								}
 							]

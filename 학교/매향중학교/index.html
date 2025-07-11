@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/매향중학교/",
 				"headline": "매향중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/매향중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://maehyang-m.goesw.kr/index.do",
-							"url": "https://maehyang-m.goesw.kr/index.do",
-							"name": "매향중학교 급식 식단표 안내",
-							"description": "매향중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 매향중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "매향중학교",
+						"alternateName": "Maehyang Middle School",
+						"description": "경기도수원교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16254 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 팔달구",
+							"streetAddress": "경기도 수원시 팔달구 수원천로392번길 44-22 (매향동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "매향중학교",
-							"alternateName": "Maehyang Middle School",
-							"description": "경기도수원교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16254 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 팔달구",
-								"streetAddress": "경기도 수원시 팔달구 수원천로392번길 44-22 (매향동)"
-							},
-							"telephone": "031-259-0888",
-							"faxNumber": "031-259-0837",
-							"sameAs": ["https://maehyang-m.goesw.kr/index.do"]
-						}
-					],
+						"telephone": "031-259-0888",
+						"faxNumber": "031-259-0837",
+						"sameAs": ["https://maehyang-m.goesw.kr/index.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.5 Kcal",
 										"carbohydrateContent": "137.0 g",
 										"proteinContent": "25.5 g",
-										"fatContent": "7.4 g",
-										"vitaminAContent": "42.7 R.E",
-										"thiaminContent": "0.1 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "4.5 mg",
-										"calciumContent": "101.1 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "7.4 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오산초등학교-곡성/",
 				"headline": "오산초등학교(곡성) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오산초등학교-곡성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://osan7.es.jne.kr",
-							"url": "http://osan7.es.jne.kr",
-							"name": "오산초등학교(곡성) 급식 식단표 안내",
-							"description": "오산초등학교(곡성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오산초등학교(곡성)",
+						"alternateName": "Osan Elementary School",
+						"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57518 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "곡성군",
+							"streetAddress": "전라남도 곡성군 오산면 오산로 616 (오산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오산초등학교(곡성)",
-							"alternateName": "Osan Elementary School",
-							"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57518 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "곡성군",
-								"streetAddress": "전라남도 곡성군 오산면 오산로 616 (오산면)"
-							},
-							"telephone": "061-362-4007",
-							"faxNumber": "061-362-4042",
-							"sameAs": ["http://osan7.es.jne.kr"]
-						}
-					],
+						"telephone": "061-362-4007",
+						"faxNumber": "061-362-4042",
+						"sameAs": ["http://osan7.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "617.2 Kcal",
 										"carbohydrateContent": "89.5 g",
 										"proteinContent": "37.9 g",
-										"fatContent": "10.0 g",
-										"vitaminAContent": "187.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.5 mg",
-										"calciumContent": "232.2 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "10.0 g"
 									}
 								}
 							]

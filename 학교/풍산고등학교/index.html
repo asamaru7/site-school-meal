@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/풍산고등학교/",
 				"headline": "풍산고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/풍산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://poongsan-h.goegh.kr/poongsan-h/main.do",
-							"url": "https://poongsan-h.goegh.kr/poongsan-h/main.do",
-							"name": "풍산고등학교 급식 식단표 안내",
-							"description": "풍산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 풍산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "풍산고등학교",
+						"alternateName": "Poongsan High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12931 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "하남시",
+							"streetAddress": "경기도 하남시 덕풍서로 11 (덕풍동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "풍산고등학교",
-							"alternateName": "Poongsan High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12931 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "하남시",
-								"streetAddress": "경기도 하남시 덕풍서로 11 (덕풍동)"
-							},
-							"telephone": "031-790-0900",
-							"faxNumber": "031-796-1835",
-							"sameAs": ["https://poongsan-h.goegh.kr/poongsan-h/main.do"]
-						}
-					],
+						"telephone": "031-790-0900",
+						"faxNumber": "031-796-1835",
+						"sameAs": ["https://poongsan-h.goegh.kr/poongsan-h/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "811.7 Kcal",
 										"carbohydrateContent": "92.6 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "34.5 g",
-										"vitaminAContent": "114.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.6 mg",
-										"calciumContent": "222.7 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "34.5 g"
 									}
 								}
 							]

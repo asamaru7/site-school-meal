@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/언주중학교/",
 				"headline": "언주중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/언주중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.eonju.ms.kr",
-							"url": "http://www.eonju.ms.kr",
-							"name": "언주중학교 급식 식단표 안내",
-							"description": "언주중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 언주중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "언주중학교",
+						"alternateName": "Eonju Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06093 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 선릉로116길 57 / 언주중학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "언주중학교",
-							"alternateName": "Eonju Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06093 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 선릉로116길 57 / 언주중학교 "
-							},
-							"telephone": "02-514-7174",
-							"faxNumber": "02-514-8335",
-							"sameAs": ["http://www.eonju.ms.kr"]
-						}
-					],
+						"telephone": "02-514-7174",
+						"faxNumber": "02-514-8335",
+						"sameAs": ["http://www.eonju.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "667.7 Kcal",
 										"carbohydrateContent": "57.4 g",
 										"proteinContent": "44.0 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "122.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "4.3 mg",
-										"calciumContent": "75.7 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

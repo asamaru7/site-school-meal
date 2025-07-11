@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동패초등학교/",
 				"headline": "동패초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동패초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dongpae.es.kr",
-							"url": "dongpae.es.kr",
-							"name": "동패초등학교 급식 식단표 안내",
-							"description": "동패초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동패초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동패초등학교",
+						"alternateName": "Dongpae Elementary School",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10903 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 한울로 21 / 동패초등학교 (동패동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동패초등학교",
-							"alternateName": "Dongpae Elementary School",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10903 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 한울로 21 / 동패초등학교 (동패동)"
-							},
-							"telephone": "031-934-6000",
-							"faxNumber": "031-934-6109",
-							"sameAs": ["dongpae.es.kr"]
-						}
-					],
+						"telephone": "031-934-6000",
+						"faxNumber": "031-934-6109",
+						"sameAs": ["dongpae.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "537.6 Kcal",
 										"carbohydrateContent": "80.6 g",
 										"proteinContent": "17.9 g",
-										"fatContent": "14.8 g",
-										"vitaminAContent": "48.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "4.3 mg",
-										"calciumContent": "140.7 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "14.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서전고등학교/",
 				"headline": "서전고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서전고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/seojeon-h",
-							"url": "http://school.cbe.go.kr/seojeon-h",
-							"name": "서전고등학교 급식 식단표 안내",
-							"description": "서전고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서전고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서전고등학교",
+						"alternateName": "SEOJEON HIGH SCHOOL",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27876 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 덕산읍 대하로 47 (덕산읍/ 서전고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서전고등학교",
-							"alternateName": "SEOJEON HIGH SCHOOL",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27876 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 덕산읍 대하로 47 (덕산읍/ 서전고등학교)"
-							},
-							"telephone": "043-537-8737",
-							"faxNumber": "043-537-8740",
-							"sameAs": ["http://school.cbe.go.kr/seojeon-h"]
-						}
-					],
+						"telephone": "043-537-8737",
+						"faxNumber": "043-537-8740",
+						"sameAs": ["http://school.cbe.go.kr/seojeon-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "419.0 Kcal",
 										"carbohydrateContent": "56.2 g",
 										"proteinContent": "10.3 g",
-										"fatContent": "16.6 g",
-										"vitaminAContent": "22.0 R.E",
-										"thiaminContent": "0.0 mg",
-										"riboflavinContent": "0.0 mg",
-										"vitaminCContent": "0.0 mg",
-										"calciumContent": "9.6 mg",
-										"ironContent": "1.6 mg"
+										"fatContent": "16.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "969.1 Kcal",
 										"carbohydrateContent": "130.6 g",
 										"proteinContent": "37.5 g",
-										"fatContent": "32.8 g",
-										"vitaminAContent": "114.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "38.3 mg",
-										"calciumContent": "189.0 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "32.8 g"
 									}
 								}
 							]

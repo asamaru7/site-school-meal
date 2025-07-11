@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/다율초등학교/",
 				"headline": "다율초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/다율초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.dayul.es.kr",
-							"url": "http://www.dayul.es.kr",
-							"name": "다율초등학교 급식 식단표 안내",
-							"description": "다율초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 다율초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "다율초등학교",
+						"alternateName": "Dayul elementary school",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10865 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 다율로 30 / 다율초등학교 (다율동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "다율초등학교",
-							"alternateName": "Dayul elementary school",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10865 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 다율로 30 / 다율초등학교 (다율동)"
-							},
-							"telephone": "031-550-0900",
-							"faxNumber": "031-550-0991",
-							"sameAs": ["http://www.dayul.es.kr"]
-						}
-					],
+						"telephone": "031-550-0900",
+						"faxNumber": "031-550-0991",
+						"sameAs": ["http://www.dayul.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "688.1 Kcal",
 										"carbohydrateContent": "77.5 g",
 										"proteinContent": "53.3 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "20.6 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.9 mg",
-										"calciumContent": "229.0 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

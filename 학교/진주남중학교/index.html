@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진주남중학교/",
 				"headline": "진주남중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진주남중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jjnam-m.gne.go.kr/",
-							"url": "http://jjnam-m.gne.go.kr/",
-							"name": "진주남중학교 급식 식단표 안내",
-							"description": "진주남중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진주남중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진주남중학교",
+						"alternateName": "",
+						"description": "진주교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52725 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 진주대로 900 (칠암동/ 진주남중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진주남중학교",
-							"alternateName": "",
-							"description": "진주교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52725 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 진주대로 900 (칠암동/ 진주남중학교)"
-							},
-							"telephone": "055-752-0905",
-							"faxNumber": "055-752-1395",
-							"sameAs": ["http://jjnam-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-752-0905",
+						"faxNumber": "055-752-1395",
+						"sameAs": ["http://jjnam-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "895.4 Kcal",
 										"carbohydrateContent": "129.7 g",
 										"proteinContent": "48.1 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "128.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "220.6 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

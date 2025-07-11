@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경안중학교-안동/",
 				"headline": "경안중학교(안동) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경안중학교-안동/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gyeongan",
-							"url": "http://school.gyo6.net/gyeongan",
-							"name": "경안중학교(안동) 급식 식단표 안내",
-							"description": "경안중학교(안동)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경안중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경안중학교(안동)",
+						"alternateName": "Gyeongan Middle School",
+						"description": "경상북도안동교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36623 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 경동로 205-33 (송현동/경안중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경안중학교(안동)",
-							"alternateName": "Gyeongan Middle School",
-							"description": "경상북도안동교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36623 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 경동로 205-33 (송현동/경안중학교)"
-							},
-							"telephone": "054-843-4043",
-							"faxNumber": "054-843-4045",
-							"sameAs": ["http://school.gyo6.net/gyeongan"]
-						}
-					],
+						"telephone": "054-843-4043",
+						"faxNumber": "054-843-4045",
+						"sameAs": ["http://school.gyo6.net/gyeongan"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1010.1 Kcal",
 										"carbohydrateContent": "160.7 g",
 										"proteinContent": "41.7 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "172.4 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "21.5 mg",
-										"calciumContent": "234.9 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남양초등학교-청양/",
 				"headline": "남양초등학교(청양) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남양초등학교-청양/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.nam-yang.cnees.kr",
-							"url": "www.nam-yang.cnees.kr",
-							"name": "남양초등학교(청양) 급식 식단표 안내",
-							"description": "남양초등학교(청양)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남양초등학교(청양)",
+						"alternateName": "Namyang Elementary School",
+						"description": "충청남도청양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33306 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "청양군",
+							"streetAddress": "충청남도 청양군 남양면 구용길 324 (남양면/ 남양초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남양초등학교(청양)",
-							"alternateName": "Namyang Elementary School",
-							"description": "충청남도청양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33306 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "청양군",
-								"streetAddress": "충청남도 청양군 남양면 구용길 324 (남양면/ 남양초등학교)"
-							},
-							"telephone": "041-942-1445",
-							"faxNumber": "041-943-7961",
-							"sameAs": ["www.nam-yang.cnees.kr"]
-						}
-					],
+						"telephone": "041-942-1445",
+						"faxNumber": "041-943-7961",
+						"sameAs": ["www.nam-yang.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "798.1 Kcal",
 										"carbohydrateContent": "131.9 g",
 										"proteinContent": "29.0 g",
-										"fatContent": "15.4 g",
-										"vitaminAContent": "214.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "35.6 mg",
-										"calciumContent": "133.4 mg",
-										"ironContent": "11.5 mg"
+										"fatContent": "15.4 g"
 									}
 								}
 							]

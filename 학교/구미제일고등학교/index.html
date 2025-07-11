@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구미제일고등학교/",
 				"headline": "구미제일고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구미제일고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.gyo6.net/gmjeil",
-							"url": "https://school.gyo6.net/gmjeil",
-							"name": "구미제일고등학교 급식 식단표 안내",
-							"description": "구미제일고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구미제일고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구미제일고등학교",
+						"alternateName": "Gumi Jeil High School",
+						"description": "경상북도교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39129 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 선산대로 129 (지산동, 구미제일고)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구미제일고등학교",
-							"alternateName": "Gumi Jeil High School",
-							"description": "경상북도교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39129 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 선산대로 129 (지산동, 구미제일고)"
-							},
-							"telephone": "054-452-8424",
-							"faxNumber": "054-452-8423",
-							"sameAs": ["https://school.gyo6.net/gmjeil"]
-						}
-					],
+						"telephone": "054-452-8424",
+						"faxNumber": "054-452-8423",
+						"sameAs": ["https://school.gyo6.net/gmjeil"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "831.2 Kcal",
 										"carbohydrateContent": "118.8 g",
 										"proteinContent": "38.0 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "185.8 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "38.2 mg",
-										"calciumContent": "221.1 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "21.0 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "786.7 Kcal",
 										"carbohydrateContent": "113.4 g",
 										"proteinContent": "25.4 g",
-										"fatContent": "26.4 g",
-										"vitaminAContent": "56.8 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "30.3 mg",
-										"calciumContent": "202.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "26.4 g"
 									}
 								}
 							]

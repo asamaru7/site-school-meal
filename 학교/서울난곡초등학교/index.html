@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울난곡초등학교/",
 				"headline": "서울난곡초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울난곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nangok.es.kr/",
-							"url": "http://nangok.es.kr/",
-							"name": "서울난곡초등학교 급식 식단표 안내",
-							"description": "서울난곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울난곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울난곡초등학교",
+						"alternateName": "Seoul Nangok Elementary School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08858 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "관악구",
+							"streetAddress": "서울특별시 관악구 난곡로35길 102 (신림동/ 난곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울난곡초등학교",
-							"alternateName": "Seoul Nangok Elementary School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08858 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "관악구",
-								"streetAddress": "서울특별시 관악구 난곡로35길 102 (신림동/ 난곡초등학교)"
-							},
-							"telephone": "02-855-2131",
-							"faxNumber": "02-855-2135",
-							"sameAs": ["http://nangok.es.kr/"]
-						}
-					],
+						"telephone": "02-855-2131",
+						"faxNumber": "02-855-2135",
+						"sameAs": ["http://nangok.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "673.4 Kcal",
 										"carbohydrateContent": "92.3 g",
 										"proteinContent": "35.6 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "244.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "19.2 mg",
-										"calciumContent": "340.1 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

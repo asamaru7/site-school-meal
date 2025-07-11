@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/벌교중학교/",
 				"headline": "벌교중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/벌교중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://beolgyo.ms.jne.kr",
-							"url": "http://beolgyo.ms.jne.kr",
-							"name": "벌교중학교 급식 식단표 안내",
-							"description": "벌교중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 벌교중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "벌교중학교",
+						"alternateName": "Beolgyo Middle School",
+						"description": "전라남도보성교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59422 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 벌교읍 조정래길 86-27 (벌교읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "벌교중학교",
-							"alternateName": "Beolgyo Middle School",
-							"description": "전라남도보성교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59422 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 벌교읍 조정래길 86-27 (벌교읍)"
-							},
-							"telephone": "061-857-0018",
-							"faxNumber": "061-857-4510",
-							"sameAs": ["http://beolgyo.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-857-0018",
+						"faxNumber": "061-857-4510",
+						"sameAs": ["http://beolgyo.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "822.2 Kcal",
 										"carbohydrateContent": "125.9 g",
 										"proteinContent": "42.3 g",
-										"fatContent": "15.4 g",
-										"vitaminAContent": "150.4 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "28.7 mg",
-										"calciumContent": "170.8 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "15.4 g"
 									}
 								}
 							]

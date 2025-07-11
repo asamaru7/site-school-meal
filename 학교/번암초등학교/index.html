@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/번암초등학교/",
 				"headline": "번암초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/번암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.beonam.es.kr",
-							"url": "http://www.beonam.es.kr",
-							"name": "번암초등학교 급식 식단표 안내",
-							"description": "번암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 번암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "번암초등학교",
+						"alternateName": "Beon-am Elementary School",
+						"description": "전북특별자치도장수교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55659 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "장수군",
+							"streetAddress": "전북특별자치도 장수군 번암면 동강길 21 번암초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "번암초등학교",
-							"alternateName": "Beon-am Elementary School",
-							"description": "전북특별자치도장수교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55659 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "장수군",
-								"streetAddress": "전북특별자치도 장수군 번암면 동강길 21 번암초등학교"
-							},
-							"telephone": "063-353-5546",
-							"faxNumber": "063-353-1912",
-							"sameAs": ["http://www.beonam.es.kr"]
-						}
-					],
+						"telephone": "063-353-5546",
+						"faxNumber": "063-353-1912",
+						"sameAs": ["http://www.beonam.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "896.0 Kcal",
 										"carbohydrateContent": "98.8 g",
 										"proteinContent": "33.9 g",
-										"fatContent": "40.2 g",
-										"vitaminAContent": "160.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "49.2 mg",
-										"calciumContent": "202.8 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "40.2 g"
 									}
 								}
 							]

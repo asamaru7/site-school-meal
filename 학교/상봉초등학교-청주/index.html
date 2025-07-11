@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상봉초등학교-청주/",
 				"headline": "상봉초등학교(청주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상봉초등학교-청주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sangbong.es.kr",
-							"url": "http://sangbong.es.kr",
-							"name": "상봉초등학교(청주) 급식 식단표 안내",
-							"description": "상봉초등학교(청주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상봉초등학교(청주)",
+						"alternateName": "SangBong elementary school",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28155 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 흥덕구",
+							"streetAddress": "충청북도 청주시 흥덕구 오송읍 상봉길 9 / 상봉초등학교 (오송읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상봉초등학교(청주)",
-							"alternateName": "SangBong elementary school",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28155 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 흥덕구",
-								"streetAddress": "충청북도 청주시 흥덕구 오송읍 상봉길 9 / 상봉초등학교 (오송읍)"
-							},
-							"telephone": "043-239-1501",
-							"faxNumber": "043239-1504",
-							"sameAs": ["http://sangbong.es.kr"]
-						}
-					],
+						"telephone": "043-239-1501",
+						"faxNumber": "043239-1504",
+						"sameAs": ["http://sangbong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "605.7 Kcal",
 										"carbohydrateContent": "90.6 g",
 										"proteinContent": "22.4 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "267.1 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "325.1 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

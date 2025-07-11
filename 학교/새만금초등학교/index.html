@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/새만금초등학교/",
 				"headline": "새만금초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/새만금초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.smg.es.kr",
-							"url": "http://www.smg.es.kr",
-							"name": "새만금초등학교 급식 식단표 안내",
-							"description": "새만금초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 새만금초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "새만금초등학교",
+						"alternateName": "Saemangeum Elementary School",
+						"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54005 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "군산시",
+							"streetAddress": "전북특별자치도 군산시 요죽5길 42 새만금초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "새만금초등학교",
-							"alternateName": "Saemangeum Elementary School",
-							"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54005 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "군산시",
-								"streetAddress": "전북특별자치도 군산시 요죽5길 42 새만금초등학교"
-							},
-							"telephone": "063-469-7602",
-							"faxNumber": "063-461-9300",
-							"sameAs": ["http://www.smg.es.kr"]
-						}
-					],
+						"telephone": "063-469-7602",
+						"faxNumber": "063-461-9300",
+						"sameAs": ["http://www.smg.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "612.4 Kcal",
 										"carbohydrateContent": "100.8 g",
 										"proteinContent": "21.2 g",
-										"fatContent": "13.5 g",
-										"vitaminAContent": "184.7 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.5 mg",
-										"calciumContent": "136.1 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "13.5 g"
 									}
 								}
 							]

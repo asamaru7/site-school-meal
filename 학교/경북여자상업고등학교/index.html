@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경북여자상업고등학교/",
 				"headline": "경북여자상업고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경북여자상업고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gbgc.kr",
-							"url": "http://www.gbgc.kr",
-							"name": "경북여자상업고등학교 급식 식단표 안내",
-							"description": "경북여자상업고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경북여상 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경북여자상업고등학교",
+						"alternateName": "Gyeongbuk Girls Commercial High School",
+						"description": "대구광역시교육청 / 사립 / 여 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42410 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "남구",
+							"streetAddress": "대구광역시 남구 명덕로38길 36 (대명동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경북여자상업고등학교",
-							"alternateName": "Gyeongbuk Girls Commercial High School",
-							"description": "대구광역시교육청 / 사립 / 여 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42410 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "남구",
-								"streetAddress": "대구광역시 남구 명덕로38길 36 (대명동)"
-							},
-							"telephone": "053-235-9398",
-							"faxNumber": "053-652-4607",
-							"sameAs": ["http://www.gbgc.kr"]
-						}
-					],
+						"telephone": "053-235-9398",
+						"faxNumber": "053-652-4607",
+						"sameAs": ["http://www.gbgc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "618.1 Kcal",
 										"carbohydrateContent": "83.3 g",
 										"proteinContent": "30.3 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "123.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "31.3 mg",
-										"calciumContent": "90.0 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

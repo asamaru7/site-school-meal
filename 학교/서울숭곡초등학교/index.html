@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울숭곡초등학교/",
 				"headline": "서울숭곡초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울숭곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://soonggok.es.kr/",
-							"url": "http://soonggok.es.kr/",
-							"name": "서울숭곡초등학교 급식 식단표 안내",
-							"description": "서울숭곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울숭곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울숭곡초등학교",
+						"alternateName": "Seoul Soong-gok Elementary School",
+						"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02736 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "성북구",
+							"streetAddress": "서울특별시 성북구 종암로40길 30 (하월곡동/서울숭곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울숭곡초등학교",
-							"alternateName": "Seoul Soong-gok Elementary School",
-							"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02736 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "성북구",
-								"streetAddress": "서울특별시 성북구 종암로40길 30 (하월곡동/서울숭곡초등학교)"
-							},
-							"telephone": "02-912-5846",
-							"faxNumber": "02-942-2630",
-							"sameAs": ["http://soonggok.es.kr/"]
-						}
-					],
+						"telephone": "02-912-5846",
+						"faxNumber": "02-942-2630",
+						"sameAs": ["http://soonggok.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "634.9 Kcal",
 										"carbohydrateContent": "77.4 g",
 										"proteinContent": "19.0 g",
-										"fatContent": "27.9 g",
-										"vitaminAContent": "225.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "27.9 mg",
-										"calciumContent": "455.4 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "27.9 g"
 									}
 								}
 							]

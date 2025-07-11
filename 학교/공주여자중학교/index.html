@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공주여자중학교/",
 				"headline": "공주여자중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공주여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kjg.cnems.kr",
-							"url": "http://kjg.cnems.kr",
-							"name": "공주여자중학교 급식 식단표 안내",
-							"description": "공주여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공주여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공주여자중학교",
+						"alternateName": "Gongju Girls Middle School",
+						"description": "충청남도공주교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32541 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 용당길 54 (교동/ 공주여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공주여자중학교",
-							"alternateName": "Gongju Girls Middle School",
-							"description": "충청남도공주교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32541 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 용당길 54 (교동/ 공주여자중학교)"
-							},
-							"telephone": "041-851-1001",
-							"faxNumber": "041-856-7571",
-							"sameAs": ["http://kjg.cnems.kr"]
-						}
-					]
+						"telephone": "041-851-1001",
+						"faxNumber": "041-856-7571",
+						"sameAs": ["http://kjg.cnems.kr"]
+					}
 				]
 			}
 		</script>

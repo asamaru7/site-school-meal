@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/매호중학교/",
 				"headline": "매호중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/매호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.maeho.ms.kr",
-							"url": "http://www.maeho.ms.kr",
-							"name": "매호중학교 급식 식단표 안내",
-							"description": "매호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 매호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "매호중학교",
+						"alternateName": "MAEHO MIDDLE SCHOOL",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42268 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 천을로 106 (매호동/ 매호중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "매호중학교",
-							"alternateName": "MAEHO MIDDLE SCHOOL",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42268 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 천을로 106 (매호동/ 매호중학교)"
-							},
-							"telephone": "053-232-7400",
-							"faxNumber": "053-791-9840",
-							"sameAs": ["http://www.maeho.ms.kr"]
-						}
-					],
+						"telephone": "053-232-7400",
+						"faxNumber": "053-791-9840",
+						"sameAs": ["http://www.maeho.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "755.0 Kcal",
 										"carbohydrateContent": "108.2 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "163.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.5 mg",
-										"calciumContent": "310.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

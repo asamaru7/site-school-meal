@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전가오고등학교/",
 				"headline": "대전가오고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전가오고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gaohs.djsch.kr",
-							"url": "http://gaohs.djsch.kr",
-							"name": "대전가오고등학교 급식 식단표 안내",
-							"description": "대전가오고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전가오고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전가오고등학교",
+						"alternateName": "Daejeon Gao High School",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34691 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대전광역시 동구 신기로 71 (가오동/ 대전가오고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전가오고등학교",
-							"alternateName": "Daejeon Gao High School",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34691 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대전광역시 동구 신기로 71 (가오동/ 대전가오고등학교)"
-							},
-							"telephone": "042-280-3700",
-							"faxNumber": "042-280-3790",
-							"sameAs": ["http://gaohs.djsch.kr"]
-						}
-					],
+						"telephone": "042-280-3700",
+						"faxNumber": "042-280-3790",
+						"sameAs": ["http://gaohs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "923.3 Kcal",
 										"carbohydrateContent": "141.2 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "26.3 g",
-										"vitaminAContent": "64.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.9 mg",
-										"calciumContent": "187.2 mg",
-										"ironContent": "11.4 mg"
+										"fatContent": "26.3 g"
 									}
 								}
 							]

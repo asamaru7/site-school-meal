@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남대구초등학교/",
 				"headline": "남대구초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남대구초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ndg.dge.es.kr",
-							"url": "http://www.ndg.dge.es.kr",
-							"name": "남대구초등학교 급식 식단표 안내",
-							"description": "남대구초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남대구초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남대구초등학교",
+						"alternateName": "Namtaegu Elementary School",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42412 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "남구",
+							"streetAddress": "대구광역시 남구 중앙대로47길 55 (대명동/ 남대구초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남대구초등학교",
-							"alternateName": "Namtaegu Elementary School",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42412 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "남구",
-								"streetAddress": "대구광역시 남구 중앙대로47길 55 (대명동/ 남대구초등학교)"
-							},
-							"telephone": "053-234-1711",
-							"faxNumber": "053-624-1025",
-							"sameAs": ["http://www.ndg.dge.es.kr"]
-						}
-					],
+						"telephone": "053-234-1711",
+						"faxNumber": "053-624-1025",
+						"sameAs": ["http://www.ndg.dge.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "666.5 Kcal",
 										"carbohydrateContent": "99.6 g",
 										"proteinContent": "21.0 g",
-										"fatContent": "19.9 g",
-										"vitaminAContent": "191.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.8 mg",
-										"calciumContent": "258.9 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "19.9 g"
 									}
 								}
 							]

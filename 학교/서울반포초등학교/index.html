@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울반포초등학교/",
 				"headline": "서울반포초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울반포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seoulbanpo.sen.es.kr",
-							"url": "http://seoulbanpo.sen.es.kr",
-							"name": "서울반포초등학교 급식 식단표 안내",
-							"description": "서울반포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울반포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울반포초등학교",
+						"alternateName": "Seoul Banpo Elementary School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06502 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 신반포로 55-4 / 서울반포초등학교 (반포동/반포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울반포초등학교",
-							"alternateName": "Seoul Banpo Elementary School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06502 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 신반포로 55-4 / 서울반포초등학교 (반포동/반포초등학교)"
-							},
-							"telephone": "02-599-1349",
-							"faxNumber": "02-533-4208",
-							"sameAs": ["http://seoulbanpo.sen.es.kr"]
-						}
-					]
+						"telephone": "02-599-1349",
+						"faxNumber": "02-533-4208",
+						"sameAs": ["http://seoulbanpo.sen.es.kr"]
+					}
 				]
 			}
 		</script>

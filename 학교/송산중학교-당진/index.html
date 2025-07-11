@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송산중학교-당진/",
 				"headline": "송산중학교(당진) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송산중학교-당진/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songsan.cnems.kr",
-							"url": "http://songsan.cnems.kr",
-							"name": "송산중학교(당진) 급식 식단표 안내",
-							"description": "송산중학교(당진)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송산중학교(당진)",
+						"alternateName": "Songsan Middle School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31714 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 송산면 도문로 48 (송산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송산중학교(당진)",
-							"alternateName": "Songsan Middle School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31714 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 송산면 도문로 48 (송산면)"
-							},
-							"telephone": "041-353-7227~7229",
-							"faxNumber": "041-352-2794",
-							"sameAs": ["http://songsan.cnems.kr"]
-						}
-					]
+						"telephone": "041-353-7227~7229",
+						"faxNumber": "041-352-2794",
+						"sameAs": ["http://songsan.cnems.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영광대마중학교/",
 				"headline": "영광대마중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영광대마중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daema.ms.jne.kr/",
-							"url": "http://daema.ms.jne.kr/",
-							"name": "영광대마중학교 급식 식단표 안내",
-							"description": "영광대마중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영광대마중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영광대마중학교",
+						"alternateName": "Yeonggwang Deama Middle School",
+						"description": "전라남도영광교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57054 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영광군",
+							"streetAddress": "전라남도 영광군 대마면 영장로 231 (대마면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영광대마중학교",
-							"alternateName": "Yeonggwang Deama Middle School",
-							"description": "전라남도영광교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57054 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영광군",
-								"streetAddress": "전라남도 영광군 대마면 영장로 231 (대마면)"
-							},
-							"telephone": "061-352-4061",
-							"faxNumber": "061-353-4062",
-							"sameAs": ["http://daema.ms.jne.kr/"]
-						}
-					],
+						"telephone": "061-352-4061",
+						"faxNumber": "061-353-4062",
+						"sameAs": ["http://daema.ms.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "893.1 Kcal",
 										"carbohydrateContent": "98.9 g",
 										"proteinContent": "43.8 g",
-										"fatContent": "35.8 g",
-										"vitaminAContent": "121.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "30.0 mg",
-										"calciumContent": "236.3 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "35.8 g"
 									}
 								}
 							]

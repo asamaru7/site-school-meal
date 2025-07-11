@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영파여자중학교/",
 				"headline": "영파여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영파여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://youngpa.sen.ms.kr",
-							"url": "http://youngpa.sen.ms.kr",
-							"name": "영파여자중학교 급식 식단표 안내",
-							"description": "영파여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영파여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영파여자중학교",
+						"alternateName": "Young-Pa Girls’ Middle School",
+						"description": "서울특별시강동송파교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05529 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 올림픽로 565 (풍납동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영파여자중학교",
-							"alternateName": "Young-Pa Girls’ Middle School",
-							"description": "서울특별시강동송파교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05529 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 올림픽로 565 (풍납동)"
-							},
-							"telephone": "02-488-4074",
-							"faxNumber": "02-487-9810",
-							"sameAs": ["http://youngpa.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-488-4074",
+						"faxNumber": "02-487-9810",
+						"sameAs": ["http://youngpa.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "726.3 Kcal",
 										"carbohydrateContent": "105.7 g",
 										"proteinContent": "35.3 g",
-										"fatContent": "17.8 g",
-										"vitaminAContent": "186.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "355.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "17.8 g"
 									}
 								}
 							]

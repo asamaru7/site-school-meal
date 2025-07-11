@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청라초등학교/",
 				"headline": "청라초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청라초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chongla.cnees.kr",
-							"url": "http://chongla.cnees.kr",
-							"name": "청라초등학교 급식 식단표 안내",
-							"description": "청라초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청라초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청라초등학교",
+						"alternateName": "Chongra Elementary School",
+						"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33424 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "보령시",
+							"streetAddress": "충청남도 보령시 청라면 원모루길 205 (청라면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청라초등학교",
-							"alternateName": "Chongra Elementary School",
-							"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33424 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "보령시",
-								"streetAddress": "충청남도 보령시 청라면 원모루길 205 (청라면)"
-							},
-							"telephone": "041-932-8038",
-							"faxNumber": "041-934-5307",
-							"sameAs": ["http://chongla.cnees.kr"]
-						}
-					]
+						"telephone": "041-932-8038",
+						"faxNumber": "041-934-5307",
+						"sameAs": ["http://chongla.cnees.kr"]
+					}
 				]
 			}
 		</script>

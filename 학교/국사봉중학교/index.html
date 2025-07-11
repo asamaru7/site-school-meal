@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/국사봉중학교/",
 				"headline": "국사봉중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/국사봉중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kuksabong.ms.kr",
-							"url": "http://www.kuksabong.ms.kr",
-							"name": "국사봉중학교 급식 식단표 안내",
-							"description": "국사봉중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 국사봉중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "국사봉중학교",
+						"alternateName": "Kuksabong Middle School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07038 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 양녕로20길 20 / 국사봉중학교 (상도동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "국사봉중학교",
-							"alternateName": "Kuksabong Middle School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07038 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 양녕로20길 20 / 국사봉중학교 (상도동)"
-							},
-							"telephone": "02-823-8715",
-							"faxNumber": "02-823-7531",
-							"sameAs": ["http://www.kuksabong.ms.kr"]
-						}
-					],
+						"telephone": "02-823-8715",
+						"faxNumber": "02-823-7531",
+						"sameAs": ["http://www.kuksabong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.3 Kcal",
 										"carbohydrateContent": "129.5 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "251.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "128.4 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

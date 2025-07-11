@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/군산동초등학교/",
 				"headline": "군산동초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/군산동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kunsandong.es.kr/",
-							"url": "http://kunsandong.es.kr/",
-							"name": "군산동초등학교 급식 식단표 안내",
-							"description": "군산동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 군산동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "군산동초등학교",
+						"alternateName": "Gunsan Dong Elementary School",
+						"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54080 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "군산시",
+							"streetAddress": "전북특별자치도 군산시 번영로 181 군산동초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "군산동초등학교",
-							"alternateName": "Gunsan Dong Elementary School",
-							"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54080 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "군산시",
-								"streetAddress": "전북특별자치도 군산시 번영로 181 군산동초등학교"
-							},
-							"telephone": "063-452-3732",
-							"faxNumber": "063-452-3116",
-							"sameAs": ["http://kunsandong.es.kr/"]
-						}
-					],
+						"telephone": "063-452-3732",
+						"faxNumber": "063-452-3116",
+						"sameAs": ["http://kunsandong.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1133.9 Kcal",
 										"carbohydrateContent": "162.0 g",
 										"proteinContent": "44.4 g",
-										"fatContent": "33.3 g",
-										"vitaminAContent": "188.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "366.5 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "33.3 g"
 									}
 								}
 							]

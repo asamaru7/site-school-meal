@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사동고등학교/",
 				"headline": "사동고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사동고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sadonggo.school.gyo6.net",
-							"url": "http://sadonggo.school.gyo6.net",
-							"name": "사동고등학교 급식 식단표 안내",
-							"description": "사동고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사동고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사동고등학교",
+						"alternateName": "sadong high school",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38602 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경산시",
+							"streetAddress": "경상북도 경산시 삼성현로91길 36 (사동/ 사동고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사동고등학교",
-							"alternateName": "sadong high school",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38602 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경산시",
-								"streetAddress": "경상북도 경산시 삼성현로91길 36 (사동/ 사동고등학교)"
-							},
-							"telephone": "053-819-8241",
-							"faxNumber": "053-819-8295",
-							"sameAs": ["http://sadonggo.school.gyo6.net"]
-						}
-					],
+						"telephone": "053-819-8241",
+						"faxNumber": "053-819-8295",
+						"sameAs": ["http://sadonggo.school.gyo6.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1152.5 Kcal",
 										"carbohydrateContent": "150.1 g",
 										"proteinContent": "53.6 g",
-										"fatContent": "35.7 g",
-										"vitaminAContent": "219.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "12.8 mg",
-										"calciumContent": "232.3 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "35.7 g"
 									}
 								}
 							]

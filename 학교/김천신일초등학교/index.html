@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김천신일초등학교/",
 				"headline": "김천신일초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김천신일초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gcsiniles",
-							"url": "http://school.gyo6.net/gcsiniles",
-							"name": "김천신일초등학교 급식 식단표 안내",
-							"description": "김천신일초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김천신일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김천신일초등학교",
+						"alternateName": "Gimcheon Sinil Elementary School",
+						"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39544 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "김천시",
+							"streetAddress": "경상북도 김천시 신음3길 42 / 김천신일초등학교 (신음동/김천신일초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김천신일초등학교",
-							"alternateName": "Gimcheon Sinil Elementary School",
-							"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39544 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "김천시",
-								"streetAddress": "경상북도 김천시 신음3길 42 / 김천신일초등학교 (신음동/김천신일초등학교)"
-							},
-							"telephone": "054-433-5572",
-							"faxNumber": "054-433-5570",
-							"sameAs": ["http://school.gyo6.net/gcsiniles"]
-						}
-					],
+						"telephone": "054-433-5572",
+						"faxNumber": "054-433-5570",
+						"sameAs": ["http://school.gyo6.net/gcsiniles"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "636.1 Kcal",
 										"carbohydrateContent": "90.5 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "224.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "37.0 mg",
-										"calciumContent": "248.1 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/운림중학교/",
 				"headline": "운림중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/운림중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://unlim.gen.ms.kr",
-							"url": "https://unlim.gen.ms.kr",
-							"name": "운림중학교 급식 식단표 안내",
-							"description": "운림중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 운림중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "운림중학교",
+						"alternateName": "Unlim Middle School",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61492 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "동구",
+							"streetAddress": "광주광역시 동구 의재로 137 / (운림동/ 운림중학교) (운림동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "운림중학교",
-							"alternateName": "Unlim Middle School",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61492 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "동구",
-								"streetAddress": "광주광역시 동구 의재로 137 / (운림동/ 운림중학교) (운림동)"
-							},
-							"telephone": "062-230-3915",
-							"faxNumber": "062-230-3922",
-							"sameAs": ["https://unlim.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-230-3915",
+						"faxNumber": "062-230-3922",
+						"sameAs": ["https://unlim.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1073.5 Kcal",
 										"carbohydrateContent": "135.3 g",
 										"proteinContent": "45.9 g",
-										"fatContent": "36.8 g",
-										"vitaminAContent": "233.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "34.6 mg",
-										"calciumContent": "515.2 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "36.8 g"
 									}
 								}
 							]

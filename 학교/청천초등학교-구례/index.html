@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청천초등학교-구례/",
 				"headline": "청천초등학교(구례) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청천초등학교-구례/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chengchen.es.jne.kr",
-							"url": "http://chengchen.es.jne.kr",
-							"name": "청천초등학교(구례) 급식 식단표 안내",
-							"description": "청천초등학교(구례)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청천초등학교(구례)",
+						"alternateName": "Cheongcheon Elementary School",
+						"description": "전라남도구례교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57617 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "구례군",
+							"streetAddress": "전라남도 구례군 마산면 화엄사로 136 (마산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청천초등학교(구례)",
-							"alternateName": "Cheongcheon Elementary School",
-							"description": "전라남도구례교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57617 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "구례군",
-								"streetAddress": "전라남도 구례군 마산면 화엄사로 136 (마산면)"
-							},
-							"telephone": "061-782-4014",
-							"faxNumber": "061-782-4180",
-							"sameAs": ["http://chengchen.es.jne.kr"]
-						}
-					],
+						"telephone": "061-782-4014",
+						"faxNumber": "061-782-4180",
+						"sameAs": ["http://chengchen.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "633.9 Kcal",
 										"carbohydrateContent": "94.9 g",
 										"proteinContent": "26.5 g",
-										"fatContent": "15.9 g",
-										"vitaminAContent": "118.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "216.4 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "15.9 g"
 									}
 								}
 							]

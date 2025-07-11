@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경주여자중학교/",
 				"headline": "경주여자중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경주여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gyeongju-g",
-							"url": "http://school.gyo6.net/gyeongju-g",
-							"name": "경주여자중학교 급식 식단표 안내",
-							"description": "경주여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경주여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경주여자중학교",
+						"alternateName": "Gyeongju Girls Middle School",
+						"description": "경상북도경주교육지원청 / 공립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38062 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 태종로 613-12 (서악동/ 경주여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경주여자중학교",
-							"alternateName": "Gyeongju Girls Middle School",
-							"description": "경상북도경주교육지원청 / 공립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38062 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 태종로 613-12 (서악동/ 경주여자중학교)"
-							},
-							"telephone": "054-743-0410",
-							"faxNumber": "054-771-3885",
-							"sameAs": ["http://school.gyo6.net/gyeongju-g"]
-						}
-					],
+						"telephone": "054-743-0410",
+						"faxNumber": "054-771-3885",
+						"sameAs": ["http://school.gyo6.net/gyeongju-g"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "900.9 Kcal",
 										"carbohydrateContent": "99.2 g",
 										"proteinContent": "55.5 g",
-										"fatContent": "29.7 g",
-										"vitaminAContent": "329.9 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "79.0 mg",
-										"calciumContent": "469.2 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "29.7 g"
 									}
 								}
 							]

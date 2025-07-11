@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/휘경중학교/",
 				"headline": "휘경중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/휘경중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hwigyong.ms.kr",
-							"url": "http://www.hwigyong.ms.kr",
-							"name": "휘경중학교 급식 식단표 안내",
-							"description": "휘경중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 휘경중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "휘경중학교",
+						"alternateName": "Hwigyong Middle School",
+						"description": "서울특별시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02498 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 망우로18나길 20 (휘경동/휘경중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "휘경중학교",
-							"alternateName": "Hwigyong Middle School",
-							"description": "서울특별시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02498 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 망우로18나길 20 (휘경동/휘경중학교)"
-							},
-							"telephone": "02-2244-1359",
-							"faxNumber": "02-2215-6027",
-							"sameAs": ["http://www.hwigyong.ms.kr"]
-						}
-					],
+						"telephone": "02-2244-1359",
+						"faxNumber": "02-2215-6027",
+						"sameAs": ["http://www.hwigyong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1069.1 Kcal",
 										"carbohydrateContent": "168.6 g",
 										"proteinContent": "30.0 g",
-										"fatContent": "31.3 g",
-										"vitaminAContent": "82.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.1 mg",
-										"calciumContent": "170.5 mg",
-										"ironContent": "11.4 mg"
+										"fatContent": "31.3 g"
 									}
 								}
 							]

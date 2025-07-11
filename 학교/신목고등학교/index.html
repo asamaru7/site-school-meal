@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신목고등학교/",
 				"headline": "신목고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신목고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinmok.hs.kr",
-							"url": "http://shinmok.hs.kr",
-							"name": "신목고등학교 급식 식단표 안내",
-							"description": "신목고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신목고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신목고등학교",
+						"alternateName": "Shinmok High School",
+						"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08018 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "양천구",
+							"streetAddress": "서울특별시 양천구 안양천로 739 (신정동/신목고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신목고등학교",
-							"alternateName": "Shinmok High School",
-							"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08018 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "양천구",
-								"streetAddress": "서울특별시 양천구 안양천로 739 (신정동/신목고등학교)"
-							},
-							"telephone": "070-8720-5010",
-							"faxNumber": "02-2645-5902",
-							"sameAs": ["http://shinmok.hs.kr"]
-						}
-					],
+						"telephone": "070-8720-5010",
+						"faxNumber": "02-2645-5902",
+						"sameAs": ["http://shinmok.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "703.6 Kcal",
 										"carbohydrateContent": "104.1 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "138.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.1 mg",
-										"calciumContent": "372.2 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

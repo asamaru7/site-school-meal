@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성산초등학교/",
 				"headline": "성산초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.sungsan.es.kr",
-							"url": "www.sungsan.es.kr",
-							"name": "성산초등학교 급식 식단표 안내",
-							"description": "성산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성산초등학교",
+						"alternateName": "Sungsan Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18129 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "오산시",
+							"streetAddress": "경기도 오산시 성호대로 43 / 성산초등학교 (오산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성산초등학교",
-							"alternateName": "Sungsan Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18129 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "오산시",
-								"streetAddress": "경기도 오산시 성호대로 43 / 성산초등학교 (오산동)"
-							},
-							"telephone": "031-377-4323",
-							"faxNumber": "031-377-4326",
-							"sameAs": ["www.sungsan.es.kr"]
-						}
-					],
+						"telephone": "031-377-4323",
+						"faxNumber": "031-377-4326",
+						"sameAs": ["www.sungsan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "762.1 Kcal",
 										"carbohydrateContent": "84.5 g",
 										"proteinContent": "35.7 g",
-										"fatContent": "29.6 g",
-										"vitaminAContent": "94.7 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "19.3 mg",
-										"calciumContent": "200.7 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "29.6 g"
 									}
 								}
 							]

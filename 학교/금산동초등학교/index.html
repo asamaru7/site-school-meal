@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금산동초등학교/",
 				"headline": "금산동초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금산동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://geumsandongcho.cnees.kr",
-							"url": "http://geumsandongcho.cnees.kr",
-							"name": "금산동초등학교 급식 식단표 안내",
-							"description": "금산동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금산동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금산동초등학교",
+						"alternateName": "Kumsandong Elementary School",
+						"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32725 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "금산군",
+							"streetAddress": "충청남도 금산군 금산읍 후곤천길 145 (금산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금산동초등학교",
-							"alternateName": "Kumsandong Elementary School",
-							"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32725 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "금산군",
-								"streetAddress": "충청남도 금산군 금산읍 후곤천길 145 (금산읍)"
-							},
-							"telephone": "041-753-6135",
-							"faxNumber": "041-754-6135",
-							"sameAs": ["http://geumsandongcho.cnees.kr"]
-						}
-					],
+						"telephone": "041-753-6135",
+						"faxNumber": "041-754-6135",
+						"sameAs": ["http://geumsandongcho.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "451.5 Kcal",
 										"carbohydrateContent": "73.2 g",
 										"proteinContent": "12.7 g",
-										"fatContent": "11.6 g",
-										"vitaminAContent": "100.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "152.9 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "11.6 g"
 									}
 								}
 							]

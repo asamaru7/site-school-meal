@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제석초등학교/",
 				"headline": "제석초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tyjs-p.gne.go.kr/",
-							"url": "http://tyjs-p.gne.go.kr/",
-							"name": "제석초등학교 급식 식단표 안내",
-							"description": "제석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제석초등학교",
+						"alternateName": "Jeseok Elementary School",
+						"description": "통영교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53017 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 광도면 신죽1길 27 (광도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제석초등학교",
-							"alternateName": "Jeseok Elementary School",
-							"description": "통영교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53017 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 광도면 신죽1길 27 (광도면)"
-							},
-							"telephone": "055-725-7900",
-							"faxNumber": "055-725-7903",
-							"sameAs": ["http://tyjs-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-725-7900",
+						"faxNumber": "055-725-7903",
+						"sameAs": ["http://tyjs-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.7 Kcal",
 										"carbohydrateContent": "126.2 g",
 										"proteinContent": "26.8 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "327.9 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "10.2 mg",
-										"calciumContent": "595.9 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

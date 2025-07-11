@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼호초등학교/",
 				"headline": "삼호초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼호초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.samho.es.kr",
-							"url": "www.samho.es.kr",
-							"name": "삼호초등학교 급식 식단표 안내",
-							"description": "삼호초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼호초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼호초등학교",
+						"alternateName": "Samho Elementary School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44629 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 북부순환도로19번길 8 / 삼호초등학교 (무거동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼호초등학교",
-							"alternateName": "Samho Elementary School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44629 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 북부순환도로19번길 8 / 삼호초등학교 (무거동)"
-							},
-							"telephone": "052-277-1211",
-							"faxNumber": "052-247-7140",
-							"sameAs": ["www.samho.es.kr"]
-						}
-					],
+						"telephone": "052-277-1211",
+						"faxNumber": "052-247-7140",
+						"sameAs": ["www.samho.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "678.2 Kcal",
 										"carbohydrateContent": "78.6 g",
 										"proteinContent": "37.8 g",
-										"fatContent": "22.0 g",
-										"vitaminAContent": "97.9 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.9 mg",
-										"calciumContent": "295.8 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "22.0 g"
 									}
 								}
 							]

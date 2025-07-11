@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/석문중학교/",
 				"headline": "석문중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/석문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sokmun.cnems.kr",
-							"url": "http://www.sokmun.cnems.kr",
-							"name": "석문중학교 급식 식단표 안내",
-							"description": "석문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 석문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "석문중학교",
+						"alternateName": "Sokmun Middle School",
+						"description": "충청남도당진교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31706 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 석문면 대호로 1533-6 (석문면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "석문중학교",
-							"alternateName": "Sokmun Middle School",
-							"description": "충청남도당진교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31706 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 석문면 대호로 1533-6 (석문면)"
-							},
-							"telephone": "041-353-0792",
-							"faxNumber": "041-354-0791",
-							"sameAs": ["http://www.sokmun.cnems.kr"]
-						}
-					]
+						"telephone": "041-353-0792",
+						"faxNumber": "041-354-0791",
+						"sameAs": ["http://www.sokmun.cnems.kr"]
+					}
 				]
 			}
 		</script>

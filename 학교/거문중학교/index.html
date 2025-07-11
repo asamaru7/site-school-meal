@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거문중학교/",
 				"headline": "거문중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://geomun.ms.jne.kr",
-							"url": "http://geomun.ms.jne.kr",
-							"name": "거문중학교 급식 식단표 안내",
-							"description": "거문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거문중학교",
+						"alternateName": "Geomun Middle School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59790 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 삼산면 덕흥1길 30 (삼산면/ 거문중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거문중학교",
-							"alternateName": "Geomun Middle School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59790 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 삼산면 덕흥1길 30 (삼산면/ 거문중학교)"
-							},
-							"telephone": "061-665-8340",
-							"faxNumber": "061-665-0566",
-							"sameAs": ["http://geomun.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-665-8340",
+						"faxNumber": "061-665-0566",
+						"sameAs": ["http://geomun.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "868.9 Kcal",
 										"carbohydrateContent": "107.8 g",
 										"proteinContent": "53.4 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "152.9 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "211.3 mg",
-										"ironContent": "6.6 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

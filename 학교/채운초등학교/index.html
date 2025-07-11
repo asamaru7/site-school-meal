@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/채운초등학교/",
 				"headline": "채운초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/채운초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cheun.cnees.kr",
-							"url": "http://cheun.cnees.kr",
-							"name": "채운초등학교 급식 식단표 안내",
-							"description": "채운초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 채운초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "채운초등학교",
+						"alternateName": "Cheun Elementary School",
+						"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32945 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 채운면 채운로 112 (채운면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "채운초등학교",
-							"alternateName": "Cheun Elementary School",
-							"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32945 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 채운면 채운로 112 (채운면)"
-							},
-							"telephone": "041-734-3274",
-							"faxNumber": "041-736-3911",
-							"sameAs": ["http://cheun.cnees.kr"]
-						}
-					]
+						"telephone": "041-734-3274",
+						"faxNumber": "041-736-3911",
+						"sameAs": ["http://cheun.cnees.kr"]
+					}
 				]
 			}
 		</script>

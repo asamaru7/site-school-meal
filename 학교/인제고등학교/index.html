@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인제고등학교/",
 				"headline": "인제고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인제고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://inje.icehs.kr",
-							"url": "http://inje.icehs.kr",
-							"name": "인제고등학교 급식 식단표 안내",
-							"description": "인제고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인제고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인제고등학교",
+						"alternateName": "INJE High School",
+						"description": "인천광역시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21545 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "남동구",
+							"streetAddress": "인천광역시 남동구 석산로197번길 19 / 인제고등학교 (간석동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인제고등학교",
-							"alternateName": "INJE High School",
-							"description": "인천광역시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21545 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "남동구",
-								"streetAddress": "인천광역시 남동구 석산로197번길 19 / 인제고등학교 (간석동)"
-							},
-							"telephone": "032-422-6681",
-							"faxNumber": "032-422-7779",
-							"sameAs": ["http://inje.icehs.kr"]
-						}
-					],
+						"telephone": "032-422-6681",
+						"faxNumber": "032-422-7779",
+						"sameAs": ["http://inje.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1458.5 Kcal",
 										"carbohydrateContent": "167.9 g",
 										"proteinContent": "17.4 g",
-										"fatContent": "77.4 g",
-										"vitaminAContent": "85.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "4.3 mg",
-										"calciumContent": "196.6 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "77.4 g"
 									}
 								}
 							]

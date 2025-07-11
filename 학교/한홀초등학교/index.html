@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한홀초등학교/",
 				"headline": "한홀초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한홀초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://hanhol-e.goegh.kr",
-							"url": "https://hanhol-e.goegh.kr",
-							"name": "한홀초등학교 급식 식단표 안내",
-							"description": "한홀초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한홀초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한홀초등학교",
+						"alternateName": "한홀초등학교(Hanhol Elementary School)",
+						"description": "경기도광주하남교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12917 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "하남시",
+							"streetAddress": "경기도 하남시 미사강변서로 68 (풍산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한홀초등학교",
-							"alternateName": "한홀초등학교(Hanhol Elementary School)",
-							"description": "경기도광주하남교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12917 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "하남시",
-								"streetAddress": "경기도 하남시 미사강변서로 68 (풍산동)"
-							},
-							"telephone": "031-8026-2004",
-							"faxNumber": "031-8026-2098",
-							"sameAs": ["https://hanhol-e.goegh.kr"]
-						}
-					],
+						"telephone": "031-8026-2004",
+						"faxNumber": "031-8026-2098",
+						"sameAs": ["https://hanhol-e.goegh.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "475.3 Kcal",
 										"carbohydrateContent": "85.1 g",
 										"proteinContent": "15.5 g",
-										"fatContent": "8.1 g",
-										"vitaminAContent": "37.3 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "167.0 mg",
-										"ironContent": "8.9 mg"
+										"fatContent": "8.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/황산중학교/",
 				"headline": "황산중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/황산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hwangsan.ms.jne.kr",
-							"url": "hwangsan.ms.jne.kr",
-							"name": "황산중학교 급식 식단표 안내",
-							"description": "황산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 황산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "황산중학교",
+						"alternateName": "Hwangsan Middle School",
+						"description": "전라남도해남교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59007 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "해남군",
+							"streetAddress": "전라남도 해남군 황산면 관두길 24 (황산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "황산중학교",
-							"alternateName": "Hwangsan Middle School",
-							"description": "전라남도해남교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59007 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "해남군",
-								"streetAddress": "전라남도 해남군 황산면 관두길 24 (황산면)"
-							},
-							"telephone": "061-532-2861",
-							"faxNumber": "061-534-9059",
-							"sameAs": ["hwangsan.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-532-2861",
+						"faxNumber": "061-534-9059",
+						"sameAs": ["hwangsan.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "810.5 Kcal",
 										"carbohydrateContent": "98.9 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "29.5 g",
-										"vitaminAContent": "155.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "44.5 mg",
-										"calciumContent": "271.8 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "29.5 g"
 									}
 								}
 							]

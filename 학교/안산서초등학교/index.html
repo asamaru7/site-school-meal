@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안산서초등학교/",
 				"headline": "안산서초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안산서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.ansanseo.es.kr",
-							"url": "www.ansanseo.es.kr",
-							"name": "안산서초등학교 급식 식단표 안내",
-							"description": "안산서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안산서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안산서초등학교",
+						"alternateName": "ansanseo elementary school",
+						"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15364 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안산시 단원구",
+							"streetAddress": "경기도 안산시 단원구 원선로 67 (원곡동/안산서초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안산서초등학교",
-							"alternateName": "ansanseo elementary school",
-							"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15364 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안산시 단원구",
-								"streetAddress": "경기도 안산시 단원구 원선로 67 (원곡동/안산서초등학교)"
-							},
-							"telephone": "031-487-4550",
-							"faxNumber": "031-487-4551",
-							"sameAs": ["www.ansanseo.es.kr"]
-						}
-					],
+						"telephone": "031-487-4550",
+						"faxNumber": "031-487-4551",
+						"sameAs": ["www.ansanseo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.8 Kcal",
 										"carbohydrateContent": "83.6 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "27.4 g",
-										"vitaminAContent": "225.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.0 mg",
-										"calciumContent": "208.4 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "27.4 g"
 									}
 								}
 							]

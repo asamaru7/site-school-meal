@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성내중학교/",
 				"headline": "성내중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성내중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seongnae.sen.ms.kr",
-							"url": "http://seongnae.sen.ms.kr",
-							"name": "성내중학교 급식 식단표 안내",
-							"description": "성내중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성내중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성내중학교",
+						"alternateName": "Seongnae Middle School",
+						"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05396 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강동구",
+							"streetAddress": "서울특별시 강동구 성안로7길 36 (성내동/성내중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성내중학교",
-							"alternateName": "Seongnae Middle School",
-							"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05396 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강동구",
-								"streetAddress": "서울특별시 강동구 성안로7길 36 (성내동/성내중학교)"
-							},
-							"telephone": "02-480-1600",
-							"faxNumber": "02-472-8198",
-							"sameAs": ["http://seongnae.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-480-1600",
+						"faxNumber": "02-472-8198",
+						"sameAs": ["http://seongnae.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "771.0 Kcal",
 										"carbohydrateContent": "106.9 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "23.5 g",
-										"vitaminAContent": "103.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.2 mg",
-										"calciumContent": "217.0 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "23.5 g"
 									}
 								}
 							]

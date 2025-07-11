@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동작중학교/",
 				"headline": "동작중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동작중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongjak.ms.kr",
-							"url": "http://dongjak.ms.kr",
-							"name": "동작중학교 급식 식단표 안내",
-							"description": "동작중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동작중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동작중학교",
+						"alternateName": "Dongjak Middle School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06992 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 동작대로39가길 83 (동작동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동작중학교",
-							"alternateName": "Dongjak Middle School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06992 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 동작대로39가길 83 (동작동)"
-							},
-							"telephone": "02-591-6595",
-							"faxNumber": "02-535-7156",
-							"sameAs": ["http://dongjak.ms.kr"]
-						}
-					],
+						"telephone": "02-591-6595",
+						"faxNumber": "02-535-7156",
+						"sameAs": ["http://dongjak.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1244.3 Kcal",
 										"carbohydrateContent": "181.2 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "44.9 g",
-										"vitaminAContent": "297.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "21.9 mg",
-										"calciumContent": "396.2 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "44.9 g"
 									}
 								}
 							]

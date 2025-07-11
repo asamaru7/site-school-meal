@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은평대영학교/",
 				"headline": "은평대영학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은평대영학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sep.sc.kr",
-							"url": "http://www.sep.sc.kr",
-							"name": "은평대영학교 급식 식단표 안내",
-							"description": "은평대영학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은평대영학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은평대영학교",
+						"alternateName": "Eunpyeong Daeyoung School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03428 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "은평구",
+							"streetAddress": "서울특별시 은평구 갈현로11길 30 / 은평대영학교 (구산동/ 사회복지법인 엔젤스헤이븐)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은평대영학교",
-							"alternateName": "Eunpyeong Daeyoung School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03428 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "은평구",
-								"streetAddress": "서울특별시 은평구 갈현로11길 30 / 은평대영학교 (구산동/ 사회복지법인 엔젤스헤이븐)"
-							},
-							"telephone": "02-357-1702",
-							"faxNumber": "02-389-0623",
-							"sameAs": ["http://www.sep.sc.kr"]
-						}
-					],
+						"telephone": "02-357-1702",
+						"faxNumber": "02-389-0623",
+						"sameAs": ["http://www.sep.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "837.9 Kcal",
 										"carbohydrateContent": "116.2 g",
 										"proteinContent": "39.5 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "186.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "26.9 mg",
-										"calciumContent": "418.3 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

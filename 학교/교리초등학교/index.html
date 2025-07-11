@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/교리초등학교/",
 				"headline": "교리초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/교리초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyori.es.kr",
-							"url": "http://gyori.es.kr",
-							"name": "교리초등학교 급식 식단표 안내",
-							"description": "교리초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 교리초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "교리초등학교",
+						"alternateName": "Gyori Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46054 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 기장읍 차성로 427 (기장읍/ 교리초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "교리초등학교",
-							"alternateName": "Gyori Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46054 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 기장읍 차성로 427 (기장읍/ 교리초등학교)"
-							},
-							"telephone": "051-720-0503",
-							"faxNumber": "051-720-0504",
-							"sameAs": ["http://gyori.es.kr"]
-						}
-					],
+						"telephone": "051-720-0503",
+						"faxNumber": "051-720-0504",
+						"sameAs": ["http://gyori.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.4 Kcal",
 										"carbohydrateContent": "83.1 g",
 										"proteinContent": "29.6 g",
-										"fatContent": "21.1 g",
-										"vitaminAContent": "84.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "22.2 mg",
-										"calciumContent": "357.7 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "21.1 g"
 									}
 								}
 							]

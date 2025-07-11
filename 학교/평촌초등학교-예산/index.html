@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/평촌초등학교-예산/",
 				"headline": "평촌초등학교(예산) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/평촌초등학교-예산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yspc.cnees.kr",
-							"url": "http://yspc.cnees.kr",
-							"name": "평촌초등학교(예산) 급식 식단표 안내",
-							"description": "평촌초등학교(예산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 평촌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "평촌초등학교(예산)",
+						"alternateName": "Pyungchon Elementary School",
+						"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32447 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "예산군",
+							"streetAddress": "충청남도 예산군 응봉면 예당로 1211 (응봉면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "평촌초등학교(예산)",
-							"alternateName": "Pyungchon Elementary School",
-							"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32447 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "예산군",
-								"streetAddress": "충청남도 예산군 응봉면 예당로 1211 (응봉면)"
-							},
-							"telephone": "041-332-0082",
-							"faxNumber": "041-333-9627",
-							"sameAs": ["http://yspc.cnees.kr"]
-						}
-					],
+						"telephone": "041-332-0082",
+						"faxNumber": "041-333-9627",
+						"sameAs": ["http://yspc.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "581.8 Kcal",
 										"carbohydrateContent": "74.6 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "13.3 g",
-										"vitaminAContent": "44.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "4.0 mg",
-										"calciumContent": "154.0 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "13.3 g"
 									}
 								}
 							]

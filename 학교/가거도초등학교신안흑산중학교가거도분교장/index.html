@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가거도초등학교신안흑산중학교가거도분교장/",
 				"headline": "가거도초등학교신안흑산중학교가거도분교장 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가거도초등학교신안흑산중학교가거도분교장/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gageodo.es.jne.kr/",
-							"url": "http://gageodo.es.jne.kr/",
-							"name": "가거도초등학교신안흑산중학교가거도분교장 급식 식단표 안내",
-							"description": "가거도초등학교신안흑산중학교가거도분교장의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가거도초등학교신안흑산중학교가거도분교장 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가거도초등학교신안흑산중학교가거도분교장",
+						"alternateName": "Shinan Huksan Junior High School Gageodo Branch School",
+						"description": "전라남도신안교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58866 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "신안군",
+							"streetAddress": "전라남도 신안군 흑산면 가거도길 18-31 (흑산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가거도초등학교신안흑산중학교가거도분교장",
-							"alternateName": "Shinan Huksan Junior High School Gageodo Branch School",
-							"description": "전라남도신안교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58866 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "신안군",
-								"streetAddress": "전라남도 신안군 흑산면 가거도길 18-31 (흑산면)"
-							},
-							"telephone": "061-246-5065",
-							"faxNumber": "061-246-4423",
-							"sameAs": ["http://gageodo.es.jne.kr/"]
-						}
-					],
+						"telephone": "061-246-5065",
+						"faxNumber": "061-246-4423",
+						"sameAs": ["http://gageodo.es.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "726.7 Kcal",
 										"carbohydrateContent": "97.2 g",
 										"proteinContent": "30.9 g",
-										"fatContent": "23.6 g",
-										"vitaminAContent": "96.7 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "72.9 mg",
-										"calciumContent": "169.8 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "23.6 g"
 									}
 								}
 							]

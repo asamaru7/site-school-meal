@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장흥유치중학교/",
 				"headline": "장흥유치중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장흥유치중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://yuchi.ms.jne.kr",
-							"url": "https://yuchi.ms.jne.kr",
-							"name": "장흥유치중학교 급식 식단표 안내",
-							"description": "장흥유치중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장흥유치중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장흥유치중학교",
+						"alternateName": "Jangheungyuchi Middle School",
+						"description": "전라남도장흥교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59301 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장흥군",
+							"streetAddress": "전라남도 장흥군 유치면 유치로 48 (유치면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장흥유치중학교",
-							"alternateName": "Jangheungyuchi Middle School",
-							"description": "전라남도장흥교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59301 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장흥군",
-								"streetAddress": "전라남도 장흥군 유치면 유치로 48 (유치면)"
-							},
-							"telephone": "061-863-1731",
-							"faxNumber": "061-863-1734",
-							"sameAs": ["https://yuchi.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-863-1731",
+						"faxNumber": "061-863-1734",
+						"sameAs": ["https://yuchi.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "728.4 Kcal",
 										"carbohydrateContent": "108.1 g",
 										"proteinContent": "36.9 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "94.0 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "38.8 mg",
-										"calciumContent": "196.5 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

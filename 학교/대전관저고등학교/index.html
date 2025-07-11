@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전관저고등학교/",
 				"headline": "대전관저고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전관저고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gjhs.djsch.kr",
-							"url": "http://gjhs.djsch.kr",
-							"name": "대전관저고등학교 급식 식단표 안내",
-							"description": "대전관저고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전관저고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전관저고등학교",
+						"alternateName": "DaeJeon GwanJeo High School",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35358 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 관저북로 94 / 대전관저고등학교 (관저동/ 관저고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전관저고등학교",
-							"alternateName": "DaeJeon GwanJeo High School",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35358 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 관저북로 94 / 대전관저고등학교 (관저동/ 관저고등학교)"
-							},
-							"telephone": "042-540-2800",
-							"faxNumber": "042-545-2866",
-							"sameAs": ["http://gjhs.djsch.kr"]
-						}
-					],
+						"telephone": "042-540-2800",
+						"faxNumber": "042-545-2866",
+						"sameAs": ["http://gjhs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1052.9 Kcal",
 										"carbohydrateContent": "124.5 g",
 										"proteinContent": "53.5 g",
-										"fatContent": "35.4 g",
-										"vitaminAContent": "130.9 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "15.2 mg",
-										"calciumContent": "296.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "35.4 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "900.9 Kcal",
 										"carbohydrateContent": "154.6 g",
 										"proteinContent": "37.5 g",
-										"fatContent": "13.9 g",
-										"vitaminAContent": "251.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "45.5 mg",
-										"calciumContent": "489.4 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "13.9 g"
 									}
 								}
 							]

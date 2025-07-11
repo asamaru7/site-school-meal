@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/북동중학교/",
 				"headline": "북동중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/북동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bukdong.dge.ms.kr",
-							"url": "http://www.bukdong.dge.ms.kr",
-							"name": "북동중학교 급식 식단표 안내",
-							"description": "북동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 북동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "북동중학교",
+						"alternateName": "BukDong Middle School",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42978 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 논공읍 논공로7길 43 / 북동중학교 (논공읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "북동중학교",
-							"alternateName": "BukDong Middle School",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42978 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 논공읍 논공로7길 43 / 북동중학교 (논공읍)"
-							},
-							"telephone": "053-235-3600",
-							"faxNumber": "053-235-3613",
-							"sameAs": ["http://www.bukdong.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-235-3600",
+						"faxNumber": "053-235-3613",
+						"sameAs": ["http://www.bukdong.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "994.6 Kcal",
 										"carbohydrateContent": "129.8 g",
 										"proteinContent": "42.1 g",
-										"fatContent": "32.6 g",
-										"vitaminAContent": "198.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "20.1 mg",
-										"calciumContent": "317.2 mg",
-										"ironContent": "8.5 mg"
+										"fatContent": "32.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용호중학교/",
 				"headline": "용호중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yongho.ms.kr",
-							"url": "http://yongho.ms.kr",
-							"name": "용호중학교 급식 식단표 안내",
-							"description": "용호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용호중학교",
+						"alternateName": "Yongho Middle School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48581 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "부산광역시 남구 동명로 185-17 (용호동/용호중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용호중학교",
-							"alternateName": "Yongho Middle School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48581 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "부산광역시 남구 동명로 185-17 (용호동/용호중학교)"
-							},
-							"telephone": "051-790-5343",
-							"faxNumber": "051-790-5377",
-							"sameAs": ["http://yongho.ms.kr"]
-						}
-					],
+						"telephone": "051-790-5343",
+						"faxNumber": "051-790-5377",
+						"sameAs": ["http://yongho.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "821.9 Kcal",
 										"carbohydrateContent": "120.0 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "25.0 g",
-										"vitaminAContent": "169.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "32.9 mg",
-										"calciumContent": "364.9 mg",
-										"ironContent": "10.8 mg"
+										"fatContent": "25.0 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포은초등학교/",
 				"headline": "포은초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포은초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/poeun",
-							"url": "http://school.gyo6.net/poeun",
-							"name": "포은초등학교 급식 식단표 안내",
-							"description": "포은초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포은초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포은초등학교",
+						"alternateName": "Poeun Elementary School",
+						"description": "경상북도영천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38831 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영천시",
+							"streetAddress": "경상북도 영천시 망정4길 72 (야사동/ 영천포은초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포은초등학교",
-							"alternateName": "Poeun Elementary School",
-							"description": "경상북도영천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38831 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영천시",
-								"streetAddress": "경상북도 영천시 망정4길 72 (야사동/ 영천포은초등학교)"
-							},
-							"telephone": "054-338-1293",
-							"faxNumber": "054-338-4763",
-							"sameAs": ["http://school.gyo6.net/poeun"]
-						}
-					],
+						"telephone": "054-338-1293",
+						"faxNumber": "054-338-4763",
+						"sameAs": ["http://school.gyo6.net/poeun"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "581.5 Kcal",
 										"carbohydrateContent": "102.0 g",
 										"proteinContent": "20.8 g",
-										"fatContent": "9.6 g",
-										"vitaminAContent": "105.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.9 mg",
-										"calciumContent": "148.9 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "9.6 g"
 									}
 								}
 							]

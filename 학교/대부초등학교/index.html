@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대부초등학교/",
 				"headline": "대부초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대부초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.daebu.es.kr",
-							"url": "http://www.daebu.es.kr",
-							"name": "대부초등학교 급식 식단표 안내",
-							"description": "대부초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대부초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대부초등학교",
+						"alternateName": "daebu elementary school",
+						"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15645 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안산시 단원구",
+							"streetAddress": "경기도 안산시 단원구 대부중앙로 56 / 대부초등학교 (대부북동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대부초등학교",
-							"alternateName": "daebu elementary school",
-							"description": "경기도안산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15645 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안산시 단원구",
-								"streetAddress": "경기도 안산시 단원구 대부중앙로 56 / 대부초등학교 (대부북동)"
-							},
-							"telephone": "032-886-3600",
-							"faxNumber": "032-884-6405",
-							"sameAs": ["http://www.daebu.es.kr"]
-						}
-					],
+						"telephone": "032-886-3600",
+						"faxNumber": "032-884-6405",
+						"sameAs": ["http://www.daebu.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "678.5 Kcal",
 										"carbohydrateContent": "73.2 g",
 										"proteinContent": "32.1 g",
-										"fatContent": "29.1 g",
-										"vitaminAContent": "112.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "32.7 mg",
-										"calciumContent": "325.8 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "29.1 g"
 									}
 								}
 							]

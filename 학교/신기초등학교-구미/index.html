@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신기초등학교-구미/",
 				"headline": "신기초등학교(구미) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신기초등학교-구미/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gumisingi",
-							"url": "http://school.gyo6.net/gumisingi",
-							"name": "신기초등학교(구미) 급식 식단표 안내",
-							"description": "신기초등학교(구미)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신기초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신기초등학교(구미)",
+						"alternateName": "Singi Elementary School",
+						"description": "경상북도구미교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39240 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 신비로3길 37-8 (신평동/ 신기초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신기초등학교(구미)",
-							"alternateName": "Singi Elementary School",
-							"description": "경상북도구미교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39240 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 신비로3길 37-8 (신평동/ 신기초등학교)"
-							},
-							"telephone": "054-464-4216",
-							"faxNumber": "054-462-9695",
-							"sameAs": ["http://school.gyo6.net/gumisingi"]
-						}
-					],
+						"telephone": "054-464-4216",
+						"faxNumber": "054-462-9695",
+						"sameAs": ["http://school.gyo6.net/gumisingi"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "555.9 Kcal",
 										"carbohydrateContent": "85.7 g",
 										"proteinContent": "18.0 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "17.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "23.1 mg",
-										"calciumContent": "57.9 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

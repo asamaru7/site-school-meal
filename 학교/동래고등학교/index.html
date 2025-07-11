@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동래고등학교/",
 				"headline": "동래고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동래고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongnae.hs.kr/",
-							"url": "http://dongnae.hs.kr/",
-							"name": "동래고등학교 급식 식단표 안내",
-							"description": "동래고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동래고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동래고등학교",
+						"alternateName": "dongnae high school",
+						"description": "부산광역시교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47812 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 충렬대로285번길 22 (칠산동/동래고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동래고등학교",
-							"alternateName": "dongnae high school",
-							"description": "부산광역시교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47812 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 충렬대로285번길 22 (칠산동/동래고등학교)"
-							},
-							"telephone": "051-555-0151",
-							"faxNumber": "051-555-3865",
-							"sameAs": ["http://dongnae.hs.kr/"]
-						}
-					],
+						"telephone": "051-555-0151",
+						"faxNumber": "051-555-3865",
+						"sameAs": ["http://dongnae.hs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "930.7 Kcal",
 										"carbohydrateContent": "166.2 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "14.6 g",
-										"vitaminAContent": "84.9 R.E",
-										"thiaminContent": "2.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "24.4 mg",
-										"calciumContent": "328.4 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "14.6 g"
 									}
 								}
 							]

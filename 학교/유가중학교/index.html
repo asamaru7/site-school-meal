@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/유가중학교/",
 				"headline": "유가중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/유가중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yuga.dge.ms.kr",
-							"url": "http://yuga.dge.ms.kr",
-							"name": "유가중학교 급식 식단표 안내",
-							"description": "유가중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 유가중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "유가중학교",
+						"alternateName": "YUGA MIDDLE SCHOOL",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "43019 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 유가읍 테크노대로5길 20 (유가읍/ 유가중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "유가중학교",
-							"alternateName": "YUGA MIDDLE SCHOOL",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "43019 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 유가읍 테크노대로5길 20 (유가읍/ 유가중학교)"
-							},
-							"telephone": "053-235-2750",
-							"faxNumber": "053-615-2718",
-							"sameAs": ["http://yuga.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-235-2750",
+						"faxNumber": "053-615-2718",
+						"sameAs": ["http://yuga.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "792.7 Kcal",
 										"carbohydrateContent": "102.7 g",
 										"proteinContent": "50.5 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "223.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "20.7 mg",
-										"calciumContent": "484.1 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

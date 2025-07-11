@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/합덕초등학교/",
 				"headline": "합덕초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/합덕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hapdeok.cnees.kr",
-							"url": "http://www.hapdeok.cnees.kr",
-							"name": "합덕초등학교 급식 식단표 안내",
-							"description": "합덕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 합덕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "합덕초등학교",
+						"alternateName": "Hapdeok Elementary School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31813 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 합덕읍 덕평로 508 / 합덕초등학교 (합덕읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "합덕초등학교",
-							"alternateName": "Hapdeok Elementary School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31813 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 합덕읍 덕평로 508 / 합덕초등학교 (합덕읍)"
-							},
-							"telephone": "041-362-2691",
-							"faxNumber": "041-363-0806",
-							"sameAs": ["http://www.hapdeok.cnees.kr"]
-						}
-					],
+						"telephone": "041-362-2691",
+						"faxNumber": "041-363-0806",
+						"sameAs": ["http://www.hapdeok.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "690.5 Kcal",
 										"carbohydrateContent": "87.4 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "21.9 g",
-										"vitaminAContent": "314.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "7.5 mg",
-										"calciumContent": "405.1 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "21.9 g"
 									}
 								}
 							]

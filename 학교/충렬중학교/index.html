@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/충렬중학교/",
 				"headline": "충렬중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/충렬중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.choongryul.ms.kr",
-							"url": "www.choongryul.ms.kr",
-							"name": "충렬중학교 급식 식단표 안내",
-							"description": "충렬중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 충렬중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "충렬중학교",
+						"alternateName": "Choongryul Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47776 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 명장로64번길 45 (명장동/ 충렬중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "충렬중학교",
-							"alternateName": "Choongryul Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47776 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 명장로64번길 45 (명장동/ 충렬중학교)"
-							},
-							"telephone": "051-520-3300",
-							"faxNumber": "051-523-8565",
-							"sameAs": ["www.choongryul.ms.kr"]
-						}
-					],
+						"telephone": "051-520-3300",
+						"faxNumber": "051-523-8565",
+						"sameAs": ["www.choongryul.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.2 Kcal",
 										"carbohydrateContent": "122.3 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "520.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "20.6 mg",
-										"calciumContent": "284.4 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

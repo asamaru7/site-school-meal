@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/예산고등학교/",
 				"headline": "예산고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/예산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yesan.cnehs.kr",
-							"url": "http://yesan.cnehs.kr",
-							"name": "예산고등학교 급식 식단표 안내",
-							"description": "예산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 예산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "예산고등학교",
+						"alternateName": "Yesan High School",
+						"description": "충청남도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32435 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "예산군",
+							"streetAddress": "충청남도 예산군 예산읍 예산로 101 (예산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "예산고등학교",
-							"alternateName": "Yesan High School",
-							"description": "충청남도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32435 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "예산군",
-								"streetAddress": "충청남도 예산군 예산읍 예산로 101 (예산읍)"
-							},
-							"telephone": "041-335-2512",
-							"faxNumber": "041-333-2511",
-							"sameAs": ["http://yesan.cnehs.kr"]
-						}
-					]
+						"telephone": "041-335-2512",
+						"faxNumber": "041-333-2511",
+						"sameAs": ["http://yesan.cnehs.kr"]
+					}
 				]
 			}
 		</script>

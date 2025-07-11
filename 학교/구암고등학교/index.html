@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구암고등학교/",
 				"headline": "구암고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구암고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.guahm.hs.kr",
-							"url": "http://www.guahm.hs.kr",
-							"name": "구암고등학교 급식 식단표 안내",
-							"description": "구암고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구암고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구암고등학교",
+						"alternateName": "Guahm High School",
+						"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08723 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "관악구",
+							"streetAddress": "서울특별시 관악구 성현로 57 (봉천동/구암고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구암고등학교",
-							"alternateName": "Guahm High School",
-							"description": "서울특별시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08723 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "관악구",
-								"streetAddress": "서울특별시 관악구 성현로 57 (봉천동/구암고등학교)"
-							},
-							"telephone": "02-879-9823",
-							"faxNumber": "02-879-1981",
-							"sameAs": ["http://www.guahm.hs.kr"]
-						}
-					],
+						"telephone": "02-879-9823",
+						"faxNumber": "02-879-1981",
+						"sameAs": ["http://www.guahm.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "877.3 Kcal",
 										"carbohydrateContent": "127.8 g",
 										"proteinContent": "27.2 g",
-										"fatContent": "29.4 g",
-										"vitaminAContent": "107.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.8 mg",
-										"calciumContent": "378.6 mg",
-										"ironContent": "16.8 mg"
+										"fatContent": "29.4 g"
 									}
 								}
 							]

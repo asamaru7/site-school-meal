@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/선운중학교/",
 				"headline": "선운중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/선운중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seonun.gen.ms.kr",
-							"url": "http://seonun.gen.ms.kr",
-							"name": "선운중학교 급식 식단표 안내",
-							"description": "선운중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 선운중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "선운중학교",
+						"alternateName": "SEONUN Middle School ",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62402 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 선운로20번길 37 (선암동, 선운중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "선운중학교",
-							"alternateName": "SEONUN Middle School ",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62402 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 선운로20번길 37 (선암동, 선운중학교)"
-							},
-							"telephone": "062-717-9400",
-							"faxNumber": "062-717-9499",
-							"sameAs": ["http://seonun.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-717-9400",
+						"faxNumber": "062-717-9499",
+						"sameAs": ["http://seonun.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.9 Kcal",
 										"carbohydrateContent": "96.3 g",
 										"proteinContent": "42.1 g",
-										"fatContent": "18.1 g",
-										"vitaminAContent": "229.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "50.2 mg",
-										"calciumContent": "216.6 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "18.1 g"
 									}
 								}
 							]

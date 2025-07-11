@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명도초등학교/",
 				"headline": "명도초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myungdo-p.gne.go.kr/myungdo-p/main.do",
-							"url": "http://myungdo-p.gne.go.kr/myungdo-p/main.do",
-							"name": "명도초등학교 급식 식단표 안내",
-							"description": "명도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명도초등학교",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51161 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 의창구",
+							"streetAddress": "경상남도 창원시 의창구 도계두리길 233 (명곡동/ 명도초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명도초등학교",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51161 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 의창구",
-								"streetAddress": "경상남도 창원시 의창구 도계두리길 233 (명곡동/ 명도초등학교)"
-							},
-							"telephone": "055-237-6342",
-							"faxNumber": "055-237-6349",
-							"sameAs": ["http://myungdo-p.gne.go.kr/myungdo-p/main.do"]
-						}
-					],
+						"telephone": "055-237-6342",
+						"faxNumber": "055-237-6349",
+						"sameAs": ["http://myungdo-p.gne.go.kr/myungdo-p/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "883.2 Kcal",
 										"carbohydrateContent": "110.2 g",
 										"proteinContent": "15.4 g",
-										"fatContent": "41.0 g",
-										"vitaminAContent": "65.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "28.0 mg",
-										"calciumContent": "183.2 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "41.0 g"
 									}
 								}
 							]

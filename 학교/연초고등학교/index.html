@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연초고등학교/",
 				"headline": "연초고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연초고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeoncho-h.gne.go.kr",
-							"url": "http://yeoncho-h.gne.go.kr",
-							"name": "연초고등학교 급식 식단표 안내",
-							"description": "연초고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연초고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연초고등학교",
+						"alternateName": "Yeoncho High School",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53209 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 연초면 연사1길 40 (연초면/ 연초고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연초고등학교",
-							"alternateName": "Yeoncho High School",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53209 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 연초면 연사1길 40 (연초면/ 연초고등학교)"
-							},
-							"telephone": "055-636-9804",
-							"faxNumber": "055-636-9806",
-							"sameAs": ["http://yeoncho-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-636-9804",
+						"faxNumber": "055-636-9806",
+						"sameAs": ["http://yeoncho-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "808.4 Kcal",
 										"carbohydrateContent": "113.6 g",
 										"proteinContent": "45.2 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "231.6 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "21.1 mg",
-										"calciumContent": "222.4 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "18.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "791.2 Kcal",
 										"carbohydrateContent": "122.6 g",
 										"proteinContent": "30.5 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "143.3 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.7 mg",
-										"calciumContent": "181.5 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

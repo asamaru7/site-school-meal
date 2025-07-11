@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서후초등학교/",
 				"headline": "서후초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서후초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/seohu/",
-							"url": "http://school.gyo6.net/seohu/",
-							"name": "서후초등학교 급식 식단표 안내",
-							"description": "서후초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서후초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서후초등학교",
+						"alternateName": "Seohu Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36616 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 서후면 학가산온천길 375 / 서후초등학교 (서후면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서후초등학교",
-							"alternateName": "Seohu Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36616 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 서후면 학가산온천길 375 / 서후초등학교 (서후면)"
-							},
-							"telephone": "054-852-3016",
-							"faxNumber": "054-843-1272",
-							"sameAs": ["http://school.gyo6.net/seohu/"]
-						}
-					]
+						"telephone": "054-852-3016",
+						"faxNumber": "054-843-1272",
+						"sameAs": ["http://school.gyo6.net/seohu/"]
+					}
 				]
 			}
 		</script>

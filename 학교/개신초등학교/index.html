@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/개신초등학교/",
 				"headline": "개신초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/개신초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/gaesin-e",
-							"url": "http://school.cbe.go.kr/gaesin-e",
-							"name": "개신초등학교 급식 식단표 안내",
-							"description": "개신초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 개신초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "개신초등학교",
+						"alternateName": "Gaesin Elementary School",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28610 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 서원구",
+							"streetAddress": "충청북도 청주시 서원구 신율로 20 (개신동/개신초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "개신초등학교",
-							"alternateName": "Gaesin Elementary School",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28610 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 서원구",
-								"streetAddress": "충청북도 청주시 서원구 신율로 20 (개신동/개신초등학교)"
-							},
-							"telephone": "043-236-0238",
-							"faxNumber": "043-236-0347",
-							"sameAs": ["http://school.cbe.go.kr/gaesin-e"]
-						}
-					],
+						"telephone": "043-236-0238",
+						"faxNumber": "043-236-0347",
+						"sameAs": ["http://school.cbe.go.kr/gaesin-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "570.3 Kcal",
 										"carbohydrateContent": "101.4 g",
 										"proteinContent": "18.1 g",
-										"fatContent": "9.7 g",
-										"vitaminAContent": "51.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "22.2 mg",
-										"calciumContent": "163.6 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "9.7 g"
 									}
 								}
 							]

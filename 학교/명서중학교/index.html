@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명서중학교/",
 				"headline": "명서중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myeongseo-m.gne.go.kr",
-							"url": "http://myeongseo-m.gne.go.kr",
-							"name": "명서중학교 급식 식단표 안내",
-							"description": "명서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명서중학교",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51170 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 의창구",
+							"streetAddress": "경상남도 창원시 의창구 명지로 54 (명서동/ 명서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명서중학교",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51170 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 의창구",
-								"streetAddress": "경상남도 창원시 의창구 명지로 54 (명서동/ 명서중학교)"
-							},
-							"telephone": "055-265-3501",
-							"faxNumber": "055-265-5932",
-							"sameAs": ["http://myeongseo-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-265-3501",
+						"faxNumber": "055-265-5932",
+						"sameAs": ["http://myeongseo-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.1 Kcal",
 										"carbohydrateContent": "107.6 g",
 										"proteinContent": "42.1 g",
-										"fatContent": "12.5 g",
-										"vitaminAContent": "91.8 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "16.0 mg",
-										"calciumContent": "200.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "12.5 g"
 									}
 								}
 							]

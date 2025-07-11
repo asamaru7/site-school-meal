@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울덕의초등학교/",
 				"headline": "서울덕의초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울덕의초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.dukeui.es.kr",
-							"url": "http://www.dukeui.es.kr",
-							"name": "서울덕의초등학교 급식 식단표 안내",
-							"description": "서울덕의초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울덕의초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울덕의초등학교",
+						"alternateName": "Seoul Duckyee Elementary School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08241 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "구로구",
+							"streetAddress": "서울특별시 구로구 고척로 213 (고척동/덕의초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울덕의초등학교",
-							"alternateName": "Seoul Duckyee Elementary School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08241 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "구로구",
-								"streetAddress": "서울특별시 구로구 고척로 213 (고척동/덕의초등학교)"
-							},
-							"telephone": "02-2685-0928",
-							"faxNumber": "02-2685-0938",
-							"sameAs": ["http://www.dukeui.es.kr"]
-						}
-					],
+						"telephone": "02-2685-0928",
+						"faxNumber": "02-2685-0938",
+						"sameAs": ["http://www.dukeui.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "610.6 Kcal",
 										"carbohydrateContent": "83.9 g",
 										"proteinContent": "23.9 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "93.1 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.6 mg",
-										"calciumContent": "266.1 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "19.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/울산경의고등학교/",
 				"headline": "울산경의고등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/울산경의고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyeongui.hs.kr",
-							"url": "http://gyeongui.hs.kr",
-							"name": "울산경의고등학교 급식 식단표 안내",
-							"description": "울산경의고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 울산경의고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "울산경의고등학교",
+						"alternateName": "Ulsan Gyeongui High School",
+						"description": "울산광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44902 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "울주군",
+							"streetAddress": "울산광역시 울주군 상북면 상북로 248 (상북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "울산경의고등학교",
-							"alternateName": "Ulsan Gyeongui High School",
-							"description": "울산광역시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44902 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "울주군",
-								"streetAddress": "울산광역시 울주군 상북면 상북로 248 (상북면)"
-							},
-							"telephone": "052-226-6113",
-							"faxNumber": "052-226-6161",
-							"sameAs": ["http://gyeongui.hs.kr"]
-						}
-					],
+						"telephone": "052-226-6113",
+						"faxNumber": "052-226-6161",
+						"sameAs": ["http://gyeongui.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "972.0 Kcal",
 										"carbohydrateContent": "131.0 g",
 										"proteinContent": "35.2 g",
-										"fatContent": "35.0 g",
-										"vitaminAContent": "267.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "24.4 mg",
-										"calciumContent": "241.0 mg",
-										"ironContent": "6.0 mg"
+										"fatContent": "35.0 g"
 									}
 								}
 							]

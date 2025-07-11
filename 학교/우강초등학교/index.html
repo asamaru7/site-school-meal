@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우강초등학교/",
 				"headline": "우강초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우강초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ugang.cnees.kr",
-							"url": "http://www.ugang.cnees.kr",
-							"name": "우강초등학교 급식 식단표 안내",
-							"description": "우강초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우강초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우강초등학교",
+						"alternateName": "Ugang Elementary School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31754 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 우강면 우강송산로 183-7 / 우강초등학교 (우강면/ 우강초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우강초등학교",
-							"alternateName": "Ugang Elementary School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31754 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 우강면 우강송산로 183-7 / 우강초등학교 (우강면/ 우강초등학교)"
-							},
-							"telephone": "041-362-3046",
-							"faxNumber": "041-363-1678",
-							"sameAs": ["http://www.ugang.cnees.kr"]
-						}
-					],
+						"telephone": "041-362-3046",
+						"faxNumber": "041-363-1678",
+						"sameAs": ["http://www.ugang.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "804.9 Kcal",
 										"carbohydrateContent": "106.5 g",
 										"proteinContent": "55.1 g",
-										"fatContent": "16.6 g",
-										"vitaminAContent": "300.9 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "38.5 mg",
-										"calciumContent": "508.7 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "16.6 g"
 									}
 								}
 							]

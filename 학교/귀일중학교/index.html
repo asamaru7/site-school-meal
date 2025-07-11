@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/귀일중학교/",
 				"headline": "귀일중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/귀일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kwiil.jje.ms.kr",
-							"url": "http://kwiil.jje.ms.kr",
-							"name": "귀일중학교 급식 식단표 안내",
-							"description": "귀일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 귀일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "귀일중학교",
+						"alternateName": "KWIIL MIDDLE SCHOOL",
+						"description": "제주시교육지원청 / 사립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63051 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 애월읍 항몽로 44 (애월읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "귀일중학교",
-							"alternateName": "KWIIL MIDDLE SCHOOL",
-							"description": "제주시교육지원청 / 사립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63051 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 애월읍 항몽로 44 (애월읍)"
-							},
-							"telephone": "064-766-8100",
-							"faxNumber": "064-713-6131",
-							"sameAs": ["http://kwiil.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-766-8100",
+						"faxNumber": "064-713-6131",
+						"sameAs": ["http://kwiil.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "885.2 Kcal",
 										"carbohydrateContent": "162.0 g",
 										"proteinContent": "24.5 g",
-										"fatContent": "13.8 g",
-										"vitaminAContent": "201.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.1 mg",
-										"calciumContent": "201.0 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "13.8 g"
 									}
 								}
 							]

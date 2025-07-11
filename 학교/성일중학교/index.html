@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성일중학교/",
 				"headline": "성일중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sungil.ms.kr",
-							"url": "http://sungil.ms.kr",
-							"name": "성일중학교 급식 식단표 안내",
-							"description": "성일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성일중학교",
+						"alternateName": "Sung-il Middle School",
+						"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02575 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 왕산로23길 55 (제기동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성일중학교",
-							"alternateName": "Sung-il Middle School",
-							"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02575 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 왕산로23길 55 (제기동)"
-							},
-							"telephone": "02-926-0211",
-							"faxNumber": "02-926-7401",
-							"sameAs": ["http://sungil.ms.kr"]
-						}
-					],
+						"telephone": "02-926-0211",
+						"faxNumber": "02-926-7401",
+						"sameAs": ["http://sungil.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "611.9 Kcal",
 										"carbohydrateContent": "95.5 g",
 										"proteinContent": "30.2 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "177.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "20.6 mg",
-										"calciumContent": "161.2 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

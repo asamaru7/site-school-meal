@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울은천초등학교/",
 				"headline": "서울은천초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울은천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.euncheon.es.kr",
-							"url": "http://www.euncheon.es.kr",
-							"name": "서울은천초등학교 급식 식단표 안내",
-							"description": "서울은천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울은천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울은천초등학교",
+						"alternateName": "Seoul Euncheon Elementary School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08716 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "관악구",
+							"streetAddress": "서울특별시 관악구 은천로 69 (봉천동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울은천초등학교",
-							"alternateName": "Seoul Euncheon Elementary School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08716 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "관악구",
-								"streetAddress": "서울특별시 관악구 은천로 69 (봉천동)"
-							},
-							"telephone": "02-883-6321",
-							"faxNumber": "02-883-6280",
-							"sameAs": ["http://www.euncheon.es.kr"]
-						}
-					],
+						"telephone": "02-883-6321",
+						"faxNumber": "02-883-6280",
+						"sameAs": ["http://www.euncheon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "627.2 Kcal",
 										"carbohydrateContent": "69.0 g",
 										"proteinContent": "27.8 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "238.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "24.2 mg",
-										"calciumContent": "325.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

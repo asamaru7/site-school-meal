@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/곡강초등학교/",
 				"headline": "곡강초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/곡강초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gokgang",
-							"url": "http://school.gyo6.net/gokgang",
-							"name": "곡강초등학교 급식 식단표 안내",
-							"description": "곡강초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 곡강초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "곡강초등학교",
+						"alternateName": "Gokgang Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37531 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 흥해읍 칠포로 7 (흥해읍/곡강초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "곡강초등학교",
-							"alternateName": "Gokgang Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37531 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 흥해읍 칠포로 7 (흥해읍/곡강초등학교)"
-							},
-							"telephone": "054-261-0121",
-							"faxNumber": "054-261-6860",
-							"sameAs": ["http://school.gyo6.net/gokgang"]
-						}
-					],
+						"telephone": "054-261-0121",
+						"faxNumber": "054-261-6860",
+						"sameAs": ["http://school.gyo6.net/gokgang"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "680.2 Kcal",
 										"carbohydrateContent": "98.6 g",
 										"proteinContent": "21.4 g",
-										"fatContent": "22.2 g",
-										"vitaminAContent": "111.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "26.0 mg",
-										"calciumContent": "119.8 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "22.2 g"
 									}
 								}
 							]

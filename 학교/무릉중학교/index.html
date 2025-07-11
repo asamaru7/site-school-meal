@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무릉중학교/",
 				"headline": "무릉중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무릉중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://murung.jje.ms.kr",
-							"url": "http://murung.jje.ms.kr",
-							"name": "무릉중학교 급식 식단표 안내",
-							"description": "무릉중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무릉중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무릉중학교",
+						"alternateName": "MURUNG MIDDLE SCHOOL",
+						"description": "서귀포시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63501 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "서귀포시",
+							"streetAddress": "제주특별자치도 서귀포시 대정읍 서삼중로 106 / 무릉중학교 (대정읍/ 무릉초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무릉중학교",
-							"alternateName": "MURUNG MIDDLE SCHOOL",
-							"description": "서귀포시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63501 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "서귀포시",
-								"streetAddress": "제주특별자치도 서귀포시 대정읍 서삼중로 106 / 무릉중학교 (대정읍/ 무릉초등학교)"
-							},
-							"telephone": "064-793-5300",
-							"faxNumber": "064-792-5303",
-							"sameAs": ["http://murung.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-793-5300",
+						"faxNumber": "064-792-5303",
+						"sameAs": ["http://murung.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "847.0 Kcal",
 										"carbohydrateContent": "134.8 g",
 										"proteinContent": "31.0 g",
-										"fatContent": "21.2 g",
-										"vitaminAContent": "368.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "41.8 mg",
-										"calciumContent": "429.7 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "21.2 g"
 									}
 								}
 							]

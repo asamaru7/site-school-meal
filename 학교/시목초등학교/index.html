@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/시목초등학교/",
 				"headline": "시목초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/시목초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shimok.cnees.kr",
-							"url": "http://shimok.cnees.kr",
-							"name": "시목초등학교 급식 식단표 안내",
-							"description": "시목초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 시목초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "시목초등학교",
+						"alternateName": "Shimoke Elementary School",
+						"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32118 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "태안군",
+							"streetAddress": "충청남도 태안군 소원면 서해로 1147-26 (소원면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "시목초등학교",
-							"alternateName": "Shimoke Elementary School",
-							"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32118 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "태안군",
-								"streetAddress": "충청남도 태안군 소원면 서해로 1147-26 (소원면)"
-							},
-							"telephone": "041-674-6809",
-							"faxNumber": "041-674-6812",
-							"sameAs": ["http://shimok.cnees.kr"]
-						}
-					],
+						"telephone": "041-674-6809",
+						"faxNumber": "041-674-6812",
+						"sameAs": ["http://shimok.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "640.8 Kcal",
 										"carbohydrateContent": "95.6 g",
 										"proteinContent": "28.5 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "262.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "41.7 mg",
-										"calciumContent": "286.8 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

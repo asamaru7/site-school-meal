@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울영동초등학교/",
 				"headline": "서울영동초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울영동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.youngdong.es.kr",
-							"url": "http://www.youngdong.es.kr",
-							"name": "서울영동초등학교 급식 식단표 안내",
-							"description": "서울영동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울영동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울영동초등학교",
+						"alternateName": "Seoul Yeongdong Elementary School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07229 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "영등포구",
+							"streetAddress": "서울특별시 영등포구 국회대로53길 20 / (당산동/ 영동초등학교) (당산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울영동초등학교",
-							"alternateName": "Seoul Yeongdong Elementary School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07229 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "영등포구",
-								"streetAddress": "서울특별시 영등포구 국회대로53길 20 / (당산동/ 영동초등학교) (당산동)"
-							},
-							"telephone": "02-2633-7450",
-							"faxNumber": "02-2678-6569",
-							"sameAs": ["http://www.youngdong.es.kr"]
-						}
-					],
+						"telephone": "02-2633-7450",
+						"faxNumber": "02-2678-6569",
+						"sameAs": ["http://www.youngdong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "683.8 Kcal",
 										"carbohydrateContent": "88.0 g",
 										"proteinContent": "35.5 g",
-										"fatContent": "19.4 g",
-										"vitaminAContent": "136.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.9 mg",
-										"calciumContent": "272.2 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "19.4 g"
 									}
 								}
 							]

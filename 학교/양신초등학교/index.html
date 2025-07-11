@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/양신초등학교/",
 				"headline": "양신초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/양신초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.yangsin.cnees.kr",
-							"url": "http://www.yangsin.cnees.kr",
-							"name": "양신초등학교 급식 식단표 안내",
-							"description": "양신초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 양신초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "양신초등학교",
+						"alternateName": "Yangshin Elementary School",
+						"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32424 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "예산군",
+							"streetAddress": "충청남도 예산군 오가면 내양막길 5 / 양신초등학교 (오가면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "양신초등학교",
-							"alternateName": "Yangshin Elementary School",
-							"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32424 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "예산군",
-								"streetAddress": "충청남도 예산군 오가면 내양막길 5 / 양신초등학교 (오가면)"
-							},
-							"telephone": "041-332-6865",
-							"faxNumber": "041-333-8766",
-							"sameAs": ["http://www.yangsin.cnees.kr"]
-						}
-					],
+						"telephone": "041-332-6865",
+						"faxNumber": "041-333-8766",
+						"sameAs": ["http://www.yangsin.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "663.8 Kcal",
 										"carbohydrateContent": "83.4 g",
 										"proteinContent": "39.0 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "127.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.4 mg",
-										"calciumContent": "167.5 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

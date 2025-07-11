@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/마포중학교/",
 				"headline": "마포중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/마포중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mapo.sen.ms.kr",
-							"url": "http://mapo.sen.ms.kr",
-							"name": "마포중학교 급식 식단표 안내",
-							"description": "마포중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 마포중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "마포중학교",
+						"alternateName": "Mapo Middle School",
+						"description": "서울특별시강서양천교육지원청 / 사립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07576 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 화곡로 403 / 마포중학교 (전화 02-3663-2587)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "마포중학교",
-							"alternateName": "Mapo Middle School",
-							"description": "서울특별시강서양천교육지원청 / 사립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07576 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 화곡로 403 / 마포중학교 (전화 02-3663-2587)"
-							},
-							"telephone": "02-3663-2591",
-							"faxNumber": "02-3663-2593",
-							"sameAs": ["http://mapo.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-3663-2591",
+						"faxNumber": "02-3663-2593",
+						"sameAs": ["http://mapo.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "881.0 Kcal",
 										"carbohydrateContent": "120.1 g",
 										"proteinContent": "37.5 g",
-										"fatContent": "27.1 g",
-										"vitaminAContent": "133.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "26.1 mg",
-										"calciumContent": "78.5 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "27.1 g"
 									}
 								}
 							]

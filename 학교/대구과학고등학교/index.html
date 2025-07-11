@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구과학고등학교/",
 				"headline": "대구과학고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구과학고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://dshs.dge.hs.kr",
-							"url": "https://dshs.dge.hs.kr",
-							"name": "대구과학고등학교 급식 식단표 안내",
-							"description": "대구과학고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구과고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구과학고등학교",
+						"alternateName": "DAEGU SCIENCE HIGH SCHOOL",
+						"description": "대구광역시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42110 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 동대구로 154 / 대구과학고등학교 (황금2동 613)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구과학고등학교",
-							"alternateName": "DAEGU SCIENCE HIGH SCHOOL",
-							"description": "대구광역시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42110 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 동대구로 154 / 대구과학고등학교 (황금2동 613)"
-							},
-							"telephone": "053-231-7532",
-							"faxNumber": "053-765-0023",
-							"sameAs": ["https://dshs.dge.hs.kr"]
-						}
-					]
+						"telephone": "053-231-7532",
+						"faxNumber": "053-765-0023",
+						"sameAs": ["https://dshs.dge.hs.kr"]
+					}
 				]
 			}
 		</script>

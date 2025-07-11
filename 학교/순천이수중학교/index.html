@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/순천이수중학교/",
 				"headline": "순천이수중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/순천이수중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://isujung.ms.jne.kr",
-							"url": "http://isujung.ms.jne.kr",
-							"name": "순천이수중학교 급식 식단표 안내",
-							"description": "순천이수중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 순천이수중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "순천이수중학교",
+						"alternateName": "Suncheon Isu Middle School",
+						"description": "전라남도순천교육지원청 / 공립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57953 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "순천시",
+							"streetAddress": "전라남도 순천시 수박등1길 13 (생목동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "순천이수중학교",
-							"alternateName": "Suncheon Isu Middle School",
-							"description": "전라남도순천교육지원청 / 공립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57953 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "순천시",
-								"streetAddress": "전라남도 순천시 수박등1길 13 (생목동)"
-							},
-							"telephone": "061-742-9164",
-							"faxNumber": "061-742-9163",
-							"sameAs": ["http://isujung.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-742-9164",
+						"faxNumber": "061-742-9163",
+						"sameAs": ["http://isujung.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "810.6 Kcal",
 										"carbohydrateContent": "108.9 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "26.8 g",
-										"vitaminAContent": "270.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.6 mg",
-										"calciumContent": "367.9 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "26.8 g"
 									}
 								}
 							]

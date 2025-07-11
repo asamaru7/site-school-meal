@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진안초등학교-진안/",
 				"headline": "진안초등학교(진안) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진안초등학교-진안/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jinan.es.kr",
-							"url": "http://www.jinan.es.kr",
-							"name": "진안초등학교(진안) 급식 식단표 안내",
-							"description": "진안초등학교(진안)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진안초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진안초등학교(진안)",
+						"alternateName": "Jin-an Elementary School",
+						"description": "전북특별자치도진안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55434 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "진안군",
+							"streetAddress": "전북특별자치도 진안군 진안읍 중앙로 55 진안초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진안초등학교(진안)",
-							"alternateName": "Jin-an Elementary School",
-							"description": "전북특별자치도진안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55434 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "진안군",
-								"streetAddress": "전북특별자치도 진안군 진안읍 중앙로 55 진안초등학교"
-							},
-							"telephone": "063-432-6322",
-							"faxNumber": "063-433-1956",
-							"sameAs": ["http://www.jinan.es.kr"]
-						}
-					],
+						"telephone": "063-432-6322",
+						"faxNumber": "063-433-1956",
+						"sameAs": ["http://www.jinan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "690.8 Kcal",
 										"carbohydrateContent": "72.6 g",
 										"proteinContent": "28.2 g",
-										"fatContent": "29.6 g",
-										"vitaminAContent": "31.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.1 mg",
-										"calciumContent": "173.5 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "29.6 g"
 									}
 								}
 							]

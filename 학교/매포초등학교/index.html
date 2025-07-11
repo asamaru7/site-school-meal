@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/매포초등학교/",
 				"headline": "매포초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/매포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.maepo.es.kr",
-							"url": "http://www.maepo.es.kr",
-							"name": "매포초등학교 급식 식단표 안내",
-							"description": "매포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 매포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "매포초등학교",
+						"alternateName": "Maepo elementary school",
+						"description": "충청북도단양교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27005 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "단양군",
+							"streetAddress": "충청북도 단양군 매포읍 단양로 1929 (매포읍/매포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "매포초등학교",
-							"alternateName": "Maepo elementary school",
-							"description": "충청북도단양교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27005 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "단양군",
-								"streetAddress": "충청북도 단양군 매포읍 단양로 1929 (매포읍/매포초등학교)"
-							},
-							"telephone": "043-422-4132",
-							"faxNumber": "043-422-8177",
-							"sameAs": ["http://www.maepo.es.kr"]
-						}
-					],
+						"telephone": "043-422-4132",
+						"faxNumber": "043-422-8177",
+						"sameAs": ["http://www.maepo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "686.3 Kcal",
 										"carbohydrateContent": "113.4 g",
 										"proteinContent": "29.3 g",
-										"fatContent": "10.5 g",
-										"vitaminAContent": "99.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "62.9 mg",
-										"calciumContent": "167.1 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "10.5 g"
 									}
 								}
 							]

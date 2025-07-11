@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/천안성성중학교/",
 				"headline": "천안성성중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/천안성성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sseong.caems.kr",
-							"url": "http://www.sseong.caems.kr",
-							"name": "천안성성중학교 급식 식단표 안내",
-							"description": "천안성성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 천안성성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "천안성성중학교",
+						"alternateName": "Cheonansungsung Middle School",
+						"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31100 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "천안시 서북구",
+							"streetAddress": "충청남도 천안시 서북구 부성1길 83 (두정동/천안성성중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "천안성성중학교",
-							"alternateName": "Cheonansungsung Middle School",
-							"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31100 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "천안시 서북구",
-								"streetAddress": "충청남도 천안시 서북구 부성1길 83 (두정동/천안성성중학교)"
-							},
-							"telephone": "041-622-3700",
-							"faxNumber": "041-622-3711",
-							"sameAs": ["http://www.sseong.caems.kr"]
-						}
-					],
+						"telephone": "041-622-3700",
+						"faxNumber": "041-622-3711",
+						"sameAs": ["http://www.sseong.caems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "608.0 Kcal",
 										"carbohydrateContent": "92.0 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "11.0 g",
-										"vitaminAContent": "129.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "168.9 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "11.0 g"
 									}
 								}
 							]

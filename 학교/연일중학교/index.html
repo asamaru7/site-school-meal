@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연일중학교/",
 				"headline": "연일중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeonil.ms.kr/",
-							"url": "http://yeonil.ms.kr/",
-							"name": "연일중학교 급식 식단표 안내",
-							"description": "연일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연일중학교",
+						"alternateName": "Yeonil Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47583 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 고분로 138 (연산동/연일중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연일중학교",
-							"alternateName": "Yeonil Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47583 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 고분로 138 (연산동/연일중학교)"
-							},
-							"telephone": "051-867-0114",
-							"faxNumber": "051-861-3557",
-							"sameAs": ["http://yeonil.ms.kr/"]
-						}
-					],
+						"telephone": "051-867-0114",
+						"faxNumber": "051-861-3557",
+						"sameAs": ["http://yeonil.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "771.7 Kcal",
 										"carbohydrateContent": "107.6 g",
 										"proteinContent": "38.2 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "197.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "15.0 mg",
-										"calciumContent": "566.0 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "19.7 g"
 									}
 								}
 							]

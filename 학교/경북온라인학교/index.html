@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경북온라인학교/",
 				"headline": "경북온라인학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경북온라인학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.gyo6.net/gbonline",
-							"url": "https://school.gyo6.net/gbonline",
-							"name": "경북온라인학교 급식 식단표 안내",
-							"description": "경북온라인학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경북온라인학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경북온라인학교",
+						"alternateName": "경북온라인학교( Gyeongbuk Online School )",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38577 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경산시",
+							"streetAddress": "경상북도 경산시 남산면 하대2길 32-7 경북온라인학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경북온라인학교",
-							"alternateName": "경북온라인학교( Gyeongbuk Online School )",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38577 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경산시",
-								"streetAddress": "경상북도 경산시 남산면 하대2길 32-7 경북온라인학교"
-							},
-							"telephone": "053-719-3748",
-							"faxNumber": "053-719-3758",
-							"sameAs": ["https://school.gyo6.net/gbonline"]
-						}
-					]
+						"telephone": "053-719-3748",
+						"faxNumber": "053-719-3758",
+						"sameAs": ["https://school.gyo6.net/gbonline"]
+					}
 				]
 			}
 		</script>

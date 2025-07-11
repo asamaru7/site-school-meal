@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함태초등학교/",
 				"headline": "함태초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함태초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hamtae.gwe.es.kr/",
-							"url": "http://hamtae.gwe.es.kr/",
-							"name": "함태초등학교 급식 식단표 안내",
-							"description": "함태초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함태초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함태초등학교",
+						"alternateName": "Hamtae Elementary School",
+						"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26043 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "태백시",
+							"streetAddress": "강원특별자치도 태백시 소도길 69 (소도동/함태초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함태초등학교",
-							"alternateName": "Hamtae Elementary School",
-							"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26043 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "태백시",
-								"streetAddress": "강원특별자치도 태백시 소도길 69 (소도동/함태초등학교)"
-							},
-							"telephone": "033-552-1342",
-							"faxNumber": "033-553-7447",
-							"sameAs": ["http://hamtae.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-552-1342",
+						"faxNumber": "033-553-7447",
+						"sameAs": ["http://hamtae.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "751.2 Kcal",
 										"carbohydrateContent": "118.7 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "151.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "17.2 mg",
-										"calciumContent": "317.9 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

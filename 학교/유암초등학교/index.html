@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/유암초등학교/",
 				"headline": "유암초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/유암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yuam.es.kr",
-							"url": "yuam.es.kr",
-							"name": "유암초등학교 급식 식단표 안내",
-							"description": "유암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 유암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "유암초등학교",
+						"alternateName": "Yuam Elementary School",
+						"description": "경기도포천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "11157 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "포천시",
+							"streetAddress": "경기도 포천시 가산면 유교로88번길 8 / 유암초등학교 (가산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "유암초등학교",
-							"alternateName": "Yuam Elementary School",
-							"description": "경기도포천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "11157 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "포천시",
-								"streetAddress": "경기도 포천시 가산면 유교로88번길 8 / 유암초등학교 (가산면)"
-							},
-							"telephone": "031-535-7467",
-							"faxNumber": "031-535-6319",
-							"sameAs": ["yuam.es.kr"]
-						}
-					]
+						"telephone": "031-535-7467",
+						"faxNumber": "031-535-6319",
+						"sameAs": ["yuam.es.kr"]
+					}
 				]
 			}
 		</script>

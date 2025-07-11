@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여수여명학교/",
 				"headline": "여수여명학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여수여명학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeomyeong.sc.jne.kr/",
-							"url": "http://yeomyeong.sc.jne.kr/",
-							"name": "여수여명학교 급식 식단표 안내",
-							"description": "여수여명학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여수여명학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여수여명학교",
+						"alternateName": "Yeosuyeomyeong School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59656 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 소라면 화양로 1965 (소라면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여수여명학교",
-							"alternateName": "Yeosuyeomyeong School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59656 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 소라면 화양로 1965 (소라면)"
-							},
-							"telephone": "061-808-3804",
-							"faxNumber": "061-652-5595",
-							"sameAs": ["http://yeomyeong.sc.jne.kr/"]
-						}
-					],
+						"telephone": "061-808-3804",
+						"faxNumber": "061-652-5595",
+						"sameAs": ["http://yeomyeong.sc.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "825.8 Kcal",
 										"carbohydrateContent": "122.1 g",
 										"proteinContent": "44.2 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "281.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.8 mg",
-										"calciumContent": "254.2 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

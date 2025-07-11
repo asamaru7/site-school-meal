@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전만년고등학교/",
 				"headline": "대전만년고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전만년고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mannyonhs.djsch.kr",
-							"url": "http://mannyonhs.djsch.kr",
-							"name": "대전만년고등학교 급식 식단표 안내",
-							"description": "대전만년고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전만년고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전만년고등학교",
+						"alternateName": "Daejeon Mannyon High School",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35200 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 만년로 6 (만년동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전만년고등학교",
-							"alternateName": "Daejeon Mannyon High School",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35200 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 만년로 6 (만년동)"
-							},
-							"telephone": "042-479-9600",
-							"faxNumber": "042-488-7387",
-							"sameAs": ["http://mannyonhs.djsch.kr"]
-						}
-					],
+						"telephone": "042-479-9600",
+						"faxNumber": "042-488-7387",
+						"sameAs": ["http://mannyonhs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1107.1 Kcal",
 										"carbohydrateContent": "127.6 g",
 										"proteinContent": "50.0 g",
-										"fatContent": "43.5 g",
-										"vitaminAContent": "189.5 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "53.2 mg",
-										"calciumContent": "309.5 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "43.5 g"
 									}
 								}
 							]

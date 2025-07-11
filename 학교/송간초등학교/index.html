@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송간초등학교/",
 				"headline": "송간초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송간초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songgan.cnees.kr",
-							"url": "http://songgan.cnees.kr",
-							"name": "송간초등학교 급식 식단표 안내",
-							"description": "송간초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송간초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송간초등학교",
+						"alternateName": "Songgan Elementary School",
+						"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33127 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 부여읍 삼충로272번길 5 (부여읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송간초등학교",
-							"alternateName": "Songgan Elementary School",
-							"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33127 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 부여읍 삼충로272번길 5 (부여읍)"
-							},
-							"telephone": "041-834-3346",
-							"faxNumber": "041-837-0613",
-							"sameAs": ["http://songgan.cnees.kr"]
-						}
-					]
+						"telephone": "041-834-3346",
+						"faxNumber": "041-837-0613",
+						"sameAs": ["http://songgan.cnees.kr"]
+					}
 				]
 			}
 		</script>

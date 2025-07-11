@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/조천중학교/",
 				"headline": "조천중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/조천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jocheon.jje.ms.kr",
-							"url": "http://jocheon.jje.ms.kr",
-							"name": "조천중학교 급식 식단표 안내",
-							"description": "조천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 조천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "조천중학교",
+						"alternateName": "JOCHEON MIDDLE SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63337 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 조천읍 신북로 31 (조천읍/ 조천중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "조천중학교",
-							"alternateName": "JOCHEON MIDDLE SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63337 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 조천읍 신북로 31 (조천읍/ 조천중학교)"
-							},
-							"telephone": "064-780-0770",
-							"faxNumber": "064-782-6455",
-							"sameAs": ["http://jocheon.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-780-0770",
+						"faxNumber": "064-782-6455",
+						"sameAs": ["http://jocheon.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "777.6 Kcal",
 										"carbohydrateContent": "103.5 g",
 										"proteinContent": "46.4 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "319.0 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "16.8 mg",
-										"calciumContent": "416.0 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

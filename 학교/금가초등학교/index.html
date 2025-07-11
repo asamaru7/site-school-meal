@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금가초등학교/",
 				"headline": "금가초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금가초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/gumga-e",
-							"url": "school.cbe.go.kr/gumga-e",
-							"name": "금가초등학교 급식 식단표 안내",
-							"description": "금가초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금가초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금가초등학교",
+						"alternateName": "gumga elementary school",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27442 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 금가면 가마골길 16 , 금가초등학교 (금가면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금가초등학교",
-							"alternateName": "gumga elementary school",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27442 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 금가면 가마골길 16 , 금가초등학교 (금가면)"
-							},
-							"telephone": "043-853-2106",
-							"faxNumber": "043-853-8973",
-							"sameAs": ["school.cbe.go.kr/gumga-e"]
-						}
-					],
+						"telephone": "043-853-2106",
+						"faxNumber": "043-853-8973",
+						"sameAs": ["school.cbe.go.kr/gumga-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "788.9 Kcal",
 										"carbohydrateContent": "102.2 g",
 										"proteinContent": "23.1 g",
-										"fatContent": "32.0 g",
-										"vitaminAContent": "287.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.2 mg",
-										"calciumContent": "215.7 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "32.0 g"
 									}
 								}
 							]

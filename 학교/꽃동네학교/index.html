@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/꽃동네학교/",
 				"headline": "꽃동네학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/꽃동네학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.cbe.go.kr/kkot-s",
-							"url": "https://school.cbe.go.kr/kkot-s",
-							"name": "꽃동네학교 급식 식단표 안내",
-							"description": "꽃동네학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 꽃동네학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "꽃동네학교",
+						"alternateName": "kkottongne school",
+						"description": "충청북도교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27736 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 맹동면 원중로1119번길 42 / 꽃동네학교 (맹동면/꽃동네학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "꽃동네학교",
-							"alternateName": "kkottongne school",
-							"description": "충청북도교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27736 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 맹동면 원중로1119번길 42 / 꽃동네학교 (맹동면/꽃동네학교)"
-							},
-							"telephone": "043-882-7700",
-							"faxNumber": "043-882-9500",
-							"sameAs": ["https://school.cbe.go.kr/kkot-s"]
-						}
-					],
+						"telephone": "043-882-7700",
+						"faxNumber": "043-882-9500",
+						"sameAs": ["https://school.cbe.go.kr/kkot-s"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "750.0 Kcal",
 										"carbohydrateContent": "118.2 g",
 										"proteinContent": "37.3 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "117.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "30.3 mg",
-										"calciumContent": "346.0 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

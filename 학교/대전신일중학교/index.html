@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전신일중학교/",
 				"headline": "대전신일중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전신일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinilms.djsch.kr/",
-							"url": "http://shinilms.djsch.kr/",
-							"name": "대전신일중학교 급식 식단표 안내",
-							"description": "대전신일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전신일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전신일중학교",
+						"alternateName": "Daejeon Shinil Middle School",
+						"description": "대전광역시동부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35058 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대전광역시 중구 부사로32번길 27 (부사동/대전신일여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전신일중학교",
-							"alternateName": "Daejeon Shinil Middle School",
-							"description": "대전광역시동부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35058 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대전광역시 중구 부사로32번길 27 (부사동/대전신일여자중학교)"
-							},
-							"telephone": "042-250-8500",
-							"faxNumber": "042-221-1781",
-							"sameAs": ["http://shinilms.djsch.kr/"]
-						}
-					],
+						"telephone": "042-250-8500",
+						"faxNumber": "042-221-1781",
+						"sameAs": ["http://shinilms.djsch.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "602.2 Kcal",
 										"carbohydrateContent": "83.0 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "15.3 g",
-										"vitaminAContent": "119.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "243.4 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "15.3 g"
 									}
 								}
 							]

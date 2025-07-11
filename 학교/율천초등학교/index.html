@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/율천초등학교/",
 				"headline": "율천초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/율천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yulcheon-p.gne.go.kr/",
-							"url": "http://yulcheon-p.gne.go.kr/",
-							"name": "율천초등학교 급식 식단표 안내",
-							"description": "율천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 율천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "율천초등학교",
+						"alternateName": "",
+						"description": "고성교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52930 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 고성읍 죽계2길 19 / 율천초등학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "율천초등학교",
-							"alternateName": "",
-							"description": "고성교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52930 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 고성읍 죽계2길 19 / 율천초등학교 "
-							},
-							"telephone": "055-674-8024",
-							"faxNumber": "055-674-8026",
-							"sameAs": ["http://yulcheon-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-674-8024",
+						"faxNumber": "055-674-8026",
+						"sameAs": ["http://yulcheon-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "687.5 Kcal",
 										"carbohydrateContent": "100.4 g",
 										"proteinContent": "21.8 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "132.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "19.2 mg",
-										"calciumContent": "228.7 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

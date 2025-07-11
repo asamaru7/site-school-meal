@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울성원초등학교/",
 				"headline": "서울성원초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울성원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sungwon.sen.es.kr",
-							"url": "http://sungwon.sen.es.kr",
-							"name": "서울성원초등학교 급식 식단표 안내",
-							"description": "서울성원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울성원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울성원초등학교",
+						"alternateName": "Seoul Seongwon Elementary School",
+						"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03939 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "마포구",
+							"streetAddress": "서울특별시 마포구 월드컵로36길 34 (성산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울성원초등학교",
-							"alternateName": "Seoul Seongwon Elementary School",
-							"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03939 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "마포구",
-								"streetAddress": "서울특별시 마포구 월드컵로36길 34 (성산동)"
-							},
-							"telephone": "02-305-7201",
-							"faxNumber": "02-309-3887",
-							"sameAs": ["http://sungwon.sen.es.kr"]
-						}
-					],
+						"telephone": "02-305-7201",
+						"faxNumber": "02-309-3887",
+						"sameAs": ["http://sungwon.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "584.3 Kcal",
 										"carbohydrateContent": "88.0 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "12.0 g",
-										"vitaminAContent": "263.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "25.8 mg",
-										"calciumContent": "363.5 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "12.0 g"
 									}
 								}
 							]

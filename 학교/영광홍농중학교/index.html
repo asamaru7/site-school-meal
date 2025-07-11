@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영광홍농중학교/",
 				"headline": "영광홍농중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영광홍농중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hongnong.ms.jne.kr",
-							"url": "http://hongnong.ms.jne.kr",
-							"name": "영광홍농중학교 급식 식단표 안내",
-							"description": "영광홍농중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영광홍농중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영광홍농중학교",
+						"alternateName": "Yeonggwang Hongnong Middle School",
+						"description": "전라남도영광교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57004 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영광군",
+							"streetAddress": "전라남도 영광군 홍농읍 상하길 109 (홍농읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영광홍농중학교",
-							"alternateName": "Yeonggwang Hongnong Middle School",
-							"description": "전라남도영광교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57004 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영광군",
-								"streetAddress": "전라남도 영광군 홍농읍 상하길 109 (홍농읍)"
-							},
-							"telephone": "061-356-3234",
-							"faxNumber": "061-356-8365",
-							"sameAs": ["http://hongnong.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-356-3234",
+						"faxNumber": "061-356-8365",
+						"sameAs": ["http://hongnong.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "818.5 Kcal",
 										"carbohydrateContent": "112.0 g",
 										"proteinContent": "51.2 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "279.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "26.2 mg",
-										"calciumContent": "273.2 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신사중학교/",
 				"headline": "신사중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신사중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sinsa.ms.kr",
-							"url": "http://sinsa.ms.kr",
-							"name": "신사중학교 급식 식단표 안내",
-							"description": "신사중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신사중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신사중학교",
+						"alternateName": "Sinsa Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06000 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 압구정로 123 (압구정동/신사중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신사중학교",
-							"alternateName": "Sinsa Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06000 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 압구정로 123 (압구정동/신사중학교)"
-							},
-							"telephone": "02-541-1062",
-							"faxNumber": "02-547-6940",
-							"sameAs": ["http://sinsa.ms.kr"]
-						}
-					],
+						"telephone": "02-541-1062",
+						"faxNumber": "02-547-6940",
+						"sameAs": ["http://sinsa.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "644.5 Kcal",
 										"carbohydrateContent": "98.7 g",
 										"proteinContent": "19.2 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "192.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.0 mg",
-										"calciumContent": "235.8 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

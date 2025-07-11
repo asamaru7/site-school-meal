@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울염경초등학교/",
 				"headline": "서울염경초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울염경초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeomkyoung.sen.es.kr",
-							"url": "http://yeomkyoung.sen.es.kr",
-							"name": "서울염경초등학교 급식 식단표 안내",
-							"description": "서울염경초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울염경초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울염경초등학교",
+						"alternateName": "Seoul Yeomkyoung Elementary School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07535 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 양천로69길 49 (염창동/서울염경초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울염경초등학교",
-							"alternateName": "Seoul Yeomkyoung Elementary School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07535 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 양천로69길 49 (염창동/서울염경초등학교)"
-							},
-							"telephone": "02-3662-0773",
-							"faxNumber": "02-3662-2059",
-							"sameAs": ["http://yeomkyoung.sen.es.kr"]
-						}
-					],
+						"telephone": "02-3662-0773",
+						"faxNumber": "02-3662-2059",
+						"sameAs": ["http://yeomkyoung.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "591.3 Kcal",
 										"carbohydrateContent": "90.5 g",
 										"proteinContent": "30.6 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "229.5 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "501.6 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

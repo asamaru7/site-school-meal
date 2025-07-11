@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제물포여자중학교/",
 				"headline": "제물포여자중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제물포여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jmp.icems.kr",
-							"url": "http://jmp.icems.kr",
-							"name": "제물포여자중학교 급식 식단표 안내",
-							"description": "제물포여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제물포여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제물포여자중학교",
+						"alternateName": "Jemulpo Girls Middle School",
+						"description": "인천광역시남부교육지원청 / 공립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22228 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "미추홀구",
+							"streetAddress": "인천광역시 미추홀구 인주대로470번길 20 (주안동/ 제물포여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제물포여자중학교",
-							"alternateName": "Jemulpo Girls Middle School",
-							"description": "인천광역시남부교육지원청 / 공립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22228 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "미추홀구",
-								"streetAddress": "인천광역시 미추홀구 인주대로470번길 20 (주안동/ 제물포여자중학교)"
-							},
-							"telephone": "032-422-2069",
-							"faxNumber": "032-426-8826",
-							"sameAs": ["http://jmp.icems.kr"]
-						}
-					],
+						"telephone": "032-422-2069",
+						"faxNumber": "032-426-8826",
+						"sameAs": ["http://jmp.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "745.7 Kcal",
 										"carbohydrateContent": "95.3 g",
 										"proteinContent": "23.9 g",
-										"fatContent": "29.5 g",
-										"vitaminAContent": "253.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "26.0 mg",
-										"calciumContent": "95.7 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "29.5 g"
 									}
 								}
 							]

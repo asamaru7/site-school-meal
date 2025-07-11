@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아산공수초등학교/",
 				"headline": "아산공수초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아산공수초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://asangongsucho.cnees.kr/",
-							"url": "http://asangongsucho.cnees.kr/",
-							"name": "아산공수초등학교 급식 식단표 안내",
-							"description": "아산공수초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아산공수초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아산공수초등학교",
+						"alternateName": ".",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31480 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 배방읍 모산로 38-43 (배방읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아산공수초등학교",
-							"alternateName": ".",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31480 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 배방읍 모산로 38-43 (배방읍)"
-							},
-							"telephone": "041-424-7900",
-							"faxNumber": "041-532-8243",
-							"sameAs": ["http://asangongsucho.cnees.kr/"]
-						}
-					],
+						"telephone": "041-424-7900",
+						"faxNumber": "041-532-8243",
+						"sameAs": ["http://asangongsucho.cnees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "522.8 Kcal",
 										"carbohydrateContent": "73.3 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "13.0 g",
-										"vitaminAContent": "150.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "27.9 mg",
-										"calciumContent": "144.1 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "13.0 g"
 									}
 								}
 							]

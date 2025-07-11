@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상산전자고등학교/",
 				"headline": "상산전자고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상산전자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/sangsanhs",
-							"url": "http://school.gyo6.net/sangsanhs",
-							"name": "상산전자고등학교 급식 식단표 안내",
-							"description": "상산전자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상산전자고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상산전자고등학교",
+						"alternateName": "Sangsan Electronic High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37159 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "상주시",
+							"streetAddress": "경상북도 상주시 상산로 430 (계산동/ 상산전자고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상산전자고등학교",
-							"alternateName": "Sangsan Electronic High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37159 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "상주시",
-								"streetAddress": "경상북도 상주시 상산로 430 (계산동/ 상산전자고등학교)"
-							},
-							"telephone": "054-532-1515",
-							"faxNumber": "054-536-1516",
-							"sameAs": ["http://school.gyo6.net/sangsanhs"]
-						}
-					],
+						"telephone": "054-532-1515",
+						"faxNumber": "054-536-1516",
+						"sameAs": ["http://school.gyo6.net/sangsanhs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "744.7 Kcal",
 										"carbohydrateContent": "102.9 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "104.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.3 mg",
-										"calciumContent": "193.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "19.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1009.3 Kcal",
 										"carbohydrateContent": "121.1 g",
 										"proteinContent": "59.7 g",
-										"fatContent": "30.6 g",
-										"vitaminAContent": "202.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "36.6 mg",
-										"calciumContent": "413.1 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "30.6 g"
 									}
 								}
 							]

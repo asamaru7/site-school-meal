@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍천초등학교-홍천/",
 				"headline": "홍천초등학교(홍천) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍천초등학교-홍천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hc.gwe.es.kr",
-							"url": "http://hc.gwe.es.kr",
-							"name": "홍천초등학교(홍천) 급식 식단표 안내",
-							"description": "홍천초등학교(홍천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍천초등학교(홍천)",
+						"alternateName": "Hongcheon Elementary School",
+						"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25134 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "홍천군",
+							"streetAddress": "강원특별자치도 홍천군 홍천읍 희망로4길 12 / 홍천초등학교 (홍천읍/ 홍천초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍천초등학교(홍천)",
-							"alternateName": "Hongcheon Elementary School",
-							"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25134 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "홍천군",
-								"streetAddress": "강원특별자치도 홍천군 홍천읍 희망로4길 12 / 홍천초등학교 (홍천읍/ 홍천초등학교)"
-							},
-							"telephone": "033-432-0012",
-							"faxNumber": "033-434-1838",
-							"sameAs": ["http://hc.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-432-0012",
+						"faxNumber": "033-434-1838",
+						"sameAs": ["http://hc.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "695.6 Kcal",
 										"carbohydrateContent": "97.4 g",
 										"proteinContent": "25.6 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "75.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "45.7 mg",
-										"calciumContent": "473.2 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

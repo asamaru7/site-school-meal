@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/묘산중학교/",
 				"headline": "묘산중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/묘산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myosan-m.gne.go.kr",
-							"url": "http://myosan-m.gne.go.kr",
-							"name": "묘산중학교 급식 식단표 안내",
-							"description": "묘산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 묘산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "묘산중학교",
+						"alternateName": "",
+						"description": "합천교육지원청 / 사립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50209 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 묘산면 묘산로 157-70 (묘산면/ 묘산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "묘산중학교",
-							"alternateName": "",
-							"description": "합천교육지원청 / 사립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50209 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 묘산면 묘산로 157-70 (묘산면/ 묘산중학교)"
-							},
-							"telephone": "055-932-6111",
-							"faxNumber": "055-931-9073",
-							"sameAs": ["http://myosan-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-932-6111",
+						"faxNumber": "055-931-9073",
+						"sameAs": ["http://myosan-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "736.5 Kcal",
 										"carbohydrateContent": "119.6 g",
 										"proteinContent": "40.9 g",
-										"fatContent": "10.2 g",
-										"vitaminAContent": "78.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "120.9 mg",
-										"calciumContent": "245.3 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "10.2 g"
 									}
 								}
 							]

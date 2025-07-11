@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울옥수초등학교/",
 				"headline": "서울옥수초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울옥수초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.oksu.es.kr",
-							"url": "http://www.oksu.es.kr",
-							"name": "서울옥수초등학교 급식 식단표 안내",
-							"description": "서울옥수초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울옥수초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울옥수초등학교",
+						"alternateName": "Seoul Oksu Elementary School",
+						"description": "서울특별시성동광진교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04740 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "성동구",
+							"streetAddress": "서울특별시 성동구 금호로1길 25 / 옥수초등학교 (금호동4가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울옥수초등학교",
-							"alternateName": "Seoul Oksu Elementary School",
-							"description": "서울특별시성동광진교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04740 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "성동구",
-								"streetAddress": "서울특별시 성동구 금호로1길 25 / 옥수초등학교 (금호동4가)"
-							},
-							"telephone": "02-2297-8623",
-							"faxNumber": "02-2299-5209",
-							"sameAs": ["http://www.oksu.es.kr"]
-						}
-					],
+						"telephone": "02-2297-8623",
+						"faxNumber": "02-2299-5209",
+						"sameAs": ["http://www.oksu.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "628.1 Kcal",
 										"carbohydrateContent": "82.2 g",
 										"proteinContent": "24.7 g",
-										"fatContent": "22.5 g",
-										"vitaminAContent": "58.7 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "13.8 mg",
-										"calciumContent": "131.2 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "22.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울정덕초등학교/",
 				"headline": "서울정덕초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울정덕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jeongdeok.es.kr",
-							"url": "http://www.jeongdeok.es.kr",
-							"name": "서울정덕초등학교 급식 식단표 안내",
-							"description": "서울정덕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울정덕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울정덕초등학교",
+						"alternateName": "Seoul Jeongdeok Elementary School",
+						"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02826 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "성북구",
+							"streetAddress": "서울특별시 성북구 아리랑로 63 (동소문동7가/서울정덕초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울정덕초등학교",
-							"alternateName": "Seoul Jeongdeok Elementary School",
-							"description": "서울특별시성북강북교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02826 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "성북구",
-								"streetAddress": "서울특별시 성북구 아리랑로 63 (동소문동7가/서울정덕초등학교)"
-							},
-							"telephone": "02-928-0422",
-							"faxNumber": "02-923-5537",
-							"sameAs": ["http://www.jeongdeok.es.kr"]
-						}
-					],
+						"telephone": "02-928-0422",
+						"faxNumber": "02-923-5537",
+						"sameAs": ["http://www.jeongdeok.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "610.5 Kcal",
 										"carbohydrateContent": "80.3 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "156.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "10.6 mg",
-										"calciumContent": "345.4 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

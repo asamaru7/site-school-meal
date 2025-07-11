@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무극초등학교/",
 				"headline": "무극초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무극초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/muguk-e",
-							"url": "http://school.cbe.go.kr/muguk-e",
-							"name": "무극초등학교 급식 식단표 안내",
-							"description": "무극초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무극초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무극초등학교",
+						"alternateName": "muguk elementary school",
+						"description": "충청북도음성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27636 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 금왕읍 금석로 64 / 무극초등학교 (금왕읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무극초등학교",
-							"alternateName": "muguk elementary school",
-							"description": "충청북도음성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27636 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 금왕읍 금석로 64 / 무극초등학교 (금왕읍)"
-							},
-							"telephone": "043-877-0813",
-							"faxNumber": "043-878-4401",
-							"sameAs": ["http://school.cbe.go.kr/muguk-e"]
-						}
-					],
+						"telephone": "043-877-0813",
+						"faxNumber": "043-878-4401",
+						"sameAs": ["http://school.cbe.go.kr/muguk-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "682.2 Kcal",
 										"carbohydrateContent": "90.9 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "166.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.7 mg",
-										"calciumContent": "243.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

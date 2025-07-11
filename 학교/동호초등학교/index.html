@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동호초등학교/",
 				"headline": "동호초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동호초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongho.gwe.es.kr",
-							"url": "http://dongho.gwe.es.kr",
-							"name": "동호초등학교 급식 식단표 안내",
-							"description": "동호초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동호초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동호초등학교",
+						"alternateName": "Dongho Elementary School",
+						"description": "강원특별자치도동해교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25724 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "동해시",
+							"streetAddress": "강원특별자치도 동해시 발한로 123 (발한동/ 동호초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동호초등학교",
-							"alternateName": "Dongho Elementary School",
-							"description": "강원특별자치도동해교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25724 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "동해시",
-								"streetAddress": "강원특별자치도 동해시 발한로 123 (발한동/ 동호초등학교)"
-							},
-							"telephone": "033-530-7408",
-							"faxNumber": "033-531-3328",
-							"sameAs": ["http://dongho.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-530-7408",
+						"faxNumber": "033-531-3328",
+						"sameAs": ["http://dongho.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "630.1 Kcal",
 										"carbohydrateContent": "86.3 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "17.7 g",
-										"vitaminAContent": "105.0 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "30.3 mg",
-										"calciumContent": "103.3 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "17.7 g"
 									}
 								}
 							]

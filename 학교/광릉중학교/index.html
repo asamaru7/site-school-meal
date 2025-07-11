@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광릉중학교/",
 				"headline": "광릉중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광릉중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gwangreung.ms.kr",
-							"url": "http://gwangreung.ms.kr",
-							"name": "광릉중학교 급식 식단표 안내",
-							"description": "광릉중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광릉중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광릉중학교",
+						"alternateName": "Gwangreung Middle School",
+						"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12021 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "남양주시",
+							"streetAddress": "경기도 남양주시 진접읍 진벌로 78-23 / 광릉중학교 (진접읍/광릉중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광릉중학교",
-							"alternateName": "Gwangreung Middle School",
-							"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12021 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "남양주시",
-								"streetAddress": "경기도 남양주시 진접읍 진벌로 78-23 / 광릉중학교 (진접읍/광릉중학교)"
-							},
-							"telephone": "031-570-5533",
-							"faxNumber": "031-529-5341",
-							"sameAs": ["http://gwangreung.ms.kr"]
-						}
-					],
+						"telephone": "031-570-5533",
+						"faxNumber": "031-529-5341",
+						"sameAs": ["http://gwangreung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "797.2 Kcal",
 										"carbohydrateContent": "112.9 g",
 										"proteinContent": "50.6 g",
-										"fatContent": "13.2 g",
-										"vitaminAContent": "158.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.9 mg",
-										"calciumContent": "279.6 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "13.2 g"
 									}
 								}
 							]

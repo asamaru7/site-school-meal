@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문경여자중학교/",
 				"headline": "문경여자중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문경여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/mkgms",
-							"url": "school.gyo6.net/mkgms",
-							"name": "문경여자중학교 급식 식단표 안내",
-							"description": "문경여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문경여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문경여자중학교",
+						"alternateName": "Mungyeong Girls Middle School",
+						"description": "경상북도문경교육지원청 / 공립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36956 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "문경시",
+							"streetAddress": "경상북도 문경시 돈달로 15 (모전동/ 문경여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문경여자중학교",
-							"alternateName": "Mungyeong Girls Middle School",
-							"description": "경상북도문경교육지원청 / 공립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36956 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "문경시",
-								"streetAddress": "경상북도 문경시 돈달로 15 (모전동/ 문경여자중학교)"
-							},
-							"telephone": "054-555-2548",
-							"faxNumber": "054-555-8769",
-							"sameAs": ["school.gyo6.net/mkgms"]
-						}
-					],
+						"telephone": "054-555-2548",
+						"faxNumber": "054-555-8769",
+						"sameAs": ["school.gyo6.net/mkgms"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "966.9 Kcal",
 										"carbohydrateContent": "118.6 g",
 										"proteinContent": "46.5 g",
-										"fatContent": "31.8 g",
-										"vitaminAContent": "129.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.1 mg",
-										"calciumContent": "318.1 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "31.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이월중학교/",
 				"headline": "이월중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이월중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/iwol-m/",
-							"url": "http://school.cbe.go.kr/iwol-m/",
-							"name": "이월중학교 급식 식단표 안내",
-							"description": "이월중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이월중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이월중학교",
+						"alternateName": "iwol middle school",
+						"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27813 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "진천군",
+							"streetAddress": "충청북도 진천군 이월면 진광로 753 (이월면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이월중학교",
-							"alternateName": "iwol middle school",
-							"description": "충청북도진천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27813 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "진천군",
-								"streetAddress": "충청북도 진천군 이월면 진광로 753 (이월면)"
-							},
-							"telephone": "043-536-7781",
-							"faxNumber": "043-536-7413",
-							"sameAs": ["http://school.cbe.go.kr/iwol-m/"]
-						}
-					],
+						"telephone": "043-536-7781",
+						"faxNumber": "043-536-7413",
+						"sameAs": ["http://school.cbe.go.kr/iwol-m/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "675.1 Kcal",
 										"carbohydrateContent": "103.9 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "80.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "8.0 mg",
-										"calciumContent": "317.7 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

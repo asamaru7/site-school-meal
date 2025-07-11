@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도계초등학교/",
 				"headline": "도계초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도계초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dogye.gwe.es.kr",
-							"url": "dogye.gwe.es.kr",
-							"name": "도계초등학교 급식 식단표 안내",
-							"description": "도계초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도계초등학교",
+						"alternateName": "Dogye Elementary School",
+						"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25947 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "삼척시",
+							"streetAddress": "강원특별자치도 삼척시 도계읍 도계로 265 (도계읍, 도계초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도계초등학교",
-							"alternateName": "Dogye Elementary School",
-							"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25947 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "삼척시",
-								"streetAddress": "강원특별자치도 삼척시 도계읍 도계로 265 (도계읍, 도계초등학교)"
-							},
-							"telephone": "033-541-0108",
-							"faxNumber": "033-541-8534",
-							"sameAs": ["dogye.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-541-0108",
+						"faxNumber": "033-541-8534",
+						"sameAs": ["dogye.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "717.2 Kcal",
 										"carbohydrateContent": "114.1 g",
 										"proteinContent": "33.6 g",
-										"fatContent": "12.6 g",
-										"vitaminAContent": "69.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.8 mg",
-										"calciumContent": "125.6 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "12.6 g"
 									}
 								}
 							]

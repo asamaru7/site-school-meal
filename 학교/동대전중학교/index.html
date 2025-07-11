@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동대전중학교/",
 				"headline": "동대전중학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동대전중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongdaejeonms.djsch.kr/main.do",
-							"url": "http://dongdaejeonms.djsch.kr/main.do",
-							"name": "동대전중학교 급식 식단표 안내",
-							"description": "동대전중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동대전중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동대전중학교",
+						"alternateName": "Dongdaejeon Middle School",
+						"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34505 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "동구",
+							"streetAddress": "대전광역시 동구 충정로 73-6 (가양동/ 동대전중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동대전중학교",
-							"alternateName": "Dongdaejeon Middle School",
-							"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34505 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "동구",
-								"streetAddress": "대전광역시 동구 충정로 73-6 (가양동/ 동대전중학교)"
-							},
-							"telephone": "042-330-8800",
-							"faxNumber": "042-330-8850",
-							"sameAs": ["http://dongdaejeonms.djsch.kr/main.do"]
-						}
-					],
+						"telephone": "042-330-8800",
+						"faxNumber": "042-330-8850",
+						"sameAs": ["http://dongdaejeonms.djsch.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "719.9 Kcal",
 										"carbohydrateContent": "112.7 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "14.3 g",
-										"vitaminAContent": "79.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "8.5 mg",
-										"calciumContent": "351.6 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "14.3 g"
 									}
 								}
 							]

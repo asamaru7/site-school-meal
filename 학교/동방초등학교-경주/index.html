@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동방초등학교-경주/",
 				"headline": "동방초등학교(경주) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동방초등학교-경주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/dongbang",
-							"url": "http://school.gyo6.net/dongbang",
-							"name": "동방초등학교(경주) 급식 식단표 안내",
-							"description": "동방초등학교(경주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동방초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동방초등학교(경주)",
+						"alternateName": "Dongbang Elementary School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38174 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 산업로 3485-8 (동방동/ 동방초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동방초등학교(경주)",
-							"alternateName": "Dongbang Elementary School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38174 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 산업로 3485-8 (동방동/ 동방초등학교)"
-							},
-							"telephone": "054-748-1379",
-							"faxNumber": "054-748-9766",
-							"sameAs": ["http://school.gyo6.net/dongbang"]
-						}
-					],
+						"telephone": "054-748-1379",
+						"faxNumber": "054-748-9766",
+						"sameAs": ["http://school.gyo6.net/dongbang"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "670.5 Kcal",
 										"carbohydrateContent": "74.7 g",
 										"proteinContent": "44.7 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "51.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "56.8 mg",
-										"calciumContent": "185.0 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

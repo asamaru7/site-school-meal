@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼호서초등학교/",
 				"headline": "삼호서초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼호서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "samhoseo.es.jne.kr",
-							"url": "samhoseo.es.jne.kr",
-							"name": "삼호서초등학교 급식 식단표 안내",
-							"description": "삼호서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼호서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼호서초등학교",
+						"alternateName": "Samhoseo Elementary School",
+						"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58462 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 삼호읍 신항로 77 (삼호읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼호서초등학교",
-							"alternateName": "Samhoseo Elementary School",
-							"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58462 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 삼호읍 신항로 77 (삼호읍)"
-							},
-							"telephone": "061-461-2988",
-							"faxNumber": "061-461-2983",
-							"sameAs": ["samhoseo.es.jne.kr"]
-						}
-					],
+						"telephone": "061-461-2988",
+						"faxNumber": "061-461-2983",
+						"sameAs": ["samhoseo.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.7 Kcal",
 										"carbohydrateContent": "87.6 g",
 										"proteinContent": "51.7 g",
-										"fatContent": "11.6 g",
-										"vitaminAContent": "61.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "4.5 mg",
-										"calciumContent": "216.8 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "11.6 g"
 									}
 								}
 							]

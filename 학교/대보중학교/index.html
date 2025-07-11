@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대보중학교/",
 				"headline": "대보중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대보중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daeboms.school.gyo6.net/",
-							"url": "http://daeboms.school.gyo6.net/",
-							"name": "대보중학교 급식 식단표 안내",
-							"description": "대보중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대보중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대보중학교",
+						"alternateName": "Daebo Middle School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37928 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 호미곶면 해맞이로 122 / 대보중학교 (호미곶면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대보중학교",
-							"alternateName": "Daebo Middle School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37928 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 호미곶면 해맞이로 122 / 대보중학교 (호미곶면)"
-							},
-							"telephone": "054-284-8811",
-							"faxNumber": "054-284-5386",
-							"sameAs": ["http://daeboms.school.gyo6.net/"]
-						}
-					],
+						"telephone": "054-284-8811",
+						"faxNumber": "054-284-5386",
+						"sameAs": ["http://daeboms.school.gyo6.net/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.9 Kcal",
 										"carbohydrateContent": "93.8 g",
 										"proteinContent": "37.8 g",
-										"fatContent": "31.2 g",
-										"vitaminAContent": "53.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "40.5 mg",
-										"calciumContent": "143.7 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "31.2 g"
 									}
 								}
 							]

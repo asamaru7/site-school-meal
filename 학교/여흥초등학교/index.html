@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여흥초등학교/",
 				"headline": "여흥초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yhes-e.goeyj.kr",
-							"url": "yhes-e.goeyj.kr",
-							"name": "여흥초등학교 급식 식단표 안내",
-							"description": "여흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여흥초등학교",
+						"alternateName": "Yeohung Elementary School",
+						"description": "경기도여주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12629 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "여주시",
+							"streetAddress": "경기도 여주시 여양로 91 (상동/ 여흥초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여흥초등학교",
-							"alternateName": "Yeohung Elementary School",
-							"description": "경기도여주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12629 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "여주시",
-								"streetAddress": "경기도 여주시 여양로 91 (상동/ 여흥초등학교)"
-							},
-							"telephone": "031-880-8470",
-							"faxNumber": "031-886-2329",
-							"sameAs": ["yhes-e.goeyj.kr"]
-						}
-					],
+						"telephone": "031-880-8470",
+						"faxNumber": "031-886-2329",
+						"sameAs": ["yhes-e.goeyj.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "633.0 Kcal",
 										"carbohydrateContent": "121.1 g",
 										"proteinContent": "17.6 g",
-										"fatContent": "7.1 g",
-										"vitaminAContent": "63.7 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.1 mg",
-										"vitaminCContent": "5.7 mg",
-										"calciumContent": "132.9 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "7.1 g"
 									}
 								}
 							]

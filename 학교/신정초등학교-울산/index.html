@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신정초등학교-울산/",
 				"headline": "신정초등학교(울산) 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신정초등학교-울산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.use.go.kr/usj-e/ ",
-							"url": "school.use.go.kr/usj-e/ ",
-							"name": "신정초등학교(울산) 급식 식단표 안내",
-							"description": "신정초등학교(울산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신정초등학교(울산)",
+						"alternateName": "Sinjeong Elementary School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44650 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "울산광역시 남구 봉월로67번길 16 (신정동/ 신정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신정초등학교(울산)",
-							"alternateName": "Sinjeong Elementary School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44650 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "울산광역시 남구 봉월로67번길 16 (신정동/ 신정초등학교)"
-							},
-							"telephone": "052-257-8157",
-							"faxNumber": "052-257-8328",
-							"sameAs": ["school.use.go.kr/usj-e/ "]
-						}
-					],
+						"telephone": "052-257-8157",
+						"faxNumber": "052-257-8328",
+						"sameAs": ["school.use.go.kr/usj-e/ "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "512.7 Kcal",
 										"carbohydrateContent": "57.4 g",
 										"proteinContent": "26.6 g",
-										"fatContent": "18.6 g",
-										"vitaminAContent": "81.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "118.7 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "18.6 g"
 									}
 								}
 							]

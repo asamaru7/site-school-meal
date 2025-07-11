@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/능주중학교/",
 				"headline": "능주중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/능주중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://neungju.ms.jne.kr",
-							"url": "http://neungju.ms.jne.kr",
-							"name": "능주중학교 급식 식단표 안내",
-							"description": "능주중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 능주중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "능주중학교",
+						"alternateName": "Neungju Middle School",
+						"description": "전라남도화순교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58153 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "화순군",
+							"streetAddress": "전라남도 화순군 능주면 죽수길 31-2 (능주면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "능주중학교",
-							"alternateName": "Neungju Middle School",
-							"description": "전라남도화순교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58153 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "화순군",
-								"streetAddress": "전라남도 화순군 능주면 죽수길 31-2 (능주면)"
-							},
-							"telephone": "061-372-1191",
-							"faxNumber": "061-373-8779",
-							"sameAs": ["http://neungju.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-372-1191",
+						"faxNumber": "061-373-8779",
+						"sameAs": ["http://neungju.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "729.6 Kcal",
 										"carbohydrateContent": "98.4 g",
 										"proteinContent": "34.4 g",
-										"fatContent": "20.6 g",
-										"vitaminAContent": "196.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "17.0 mg",
-										"calciumContent": "292.8 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "20.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "802.1 Kcal",
 										"carbohydrateContent": "93.9 g",
 										"proteinContent": "40.7 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "110.2 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.0 mg",
-										"calciumContent": "202.8 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "27.3 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "910.3 Kcal",
 										"carbohydrateContent": "144.7 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "57.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "5.8 mg",
-										"calciumContent": "235.1 mg",
-										"ironContent": "10.4 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

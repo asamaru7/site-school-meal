@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/개진초등학교/",
 				"headline": "개진초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/개진초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gaejin",
-							"url": "http://school.gyo6.net/gaejin",
-							"name": "개진초등학교 급식 식단표 안내",
-							"description": "개진초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 개진초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "개진초등학교",
+						"alternateName": "Gaejin Elementary School",
+						"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "40148 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "고령군",
+							"streetAddress": "경상북도 고령군 개진면 오사길 83 (개진면/ 개진초등학교 고령중학교개진분교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "개진초등학교",
-							"alternateName": "Gaejin Elementary School",
-							"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "40148 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "고령군",
-								"streetAddress": "경상북도 고령군 개진면 오사길 83 (개진면/ 개진초등학교 고령중학교개진분교)"
-							},
-							"telephone": "054-954-8594",
-							"faxNumber": "054-954-8595",
-							"sameAs": ["http://school.gyo6.net/gaejin"]
-						}
-					],
+						"telephone": "054-954-8594",
+						"faxNumber": "054-954-8595",
+						"sameAs": ["http://school.gyo6.net/gaejin"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "885.9 Kcal",
 										"carbohydrateContent": "103.9 g",
 										"proteinContent": "41.4 g",
-										"fatContent": "21.2 g",
-										"vitaminAContent": "140.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "394.9 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "21.2 g"
 									}
 								}
 							]

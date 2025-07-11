@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금오중학교-구미/",
 				"headline": "금오중학교(구미) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금오중학교-구미/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.geumo.ms.kr",
-							"url": "http://www.geumo.ms.kr",
-							"name": "금오중학교(구미) 급식 식단표 안내",
-							"description": "금오중학교(구미)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금오중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금오중학교(구미)",
+						"alternateName": "Geumo Middle School",
+						"description": "경상북도구미교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39353 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 왕산로 90 (임은동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금오중학교(구미)",
-							"alternateName": "Geumo Middle School",
-							"description": "경상북도구미교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39353 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 왕산로 90 (임은동)"
-							},
-							"telephone": "054-465-8576",
-							"faxNumber": "054-461-8102",
-							"sameAs": ["http://www.geumo.ms.kr"]
-						}
-					],
+						"telephone": "054-465-8576",
+						"faxNumber": "054-461-8102",
+						"sameAs": ["http://www.geumo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "922.9 Kcal",
 										"carbohydrateContent": "165.4 g",
 										"proteinContent": "34.6 g",
-										"fatContent": "13.2 g",
-										"vitaminAContent": "147.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.5 mg",
-										"calciumContent": "231.6 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "13.2 g"
 									}
 								}
 							]

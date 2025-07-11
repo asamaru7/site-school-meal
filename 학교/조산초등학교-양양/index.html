@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/조산초등학교-양양/",
 				"headline": "조산초등학교(양양) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/조산초등학교-양양/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://josan.gwe.es.kr",
-							"url": "http://josan.gwe.es.kr",
-							"name": "조산초등학교(양양) 급식 식단표 안내",
-							"description": "조산초등학교(양양)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 조산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "조산초등학교(양양)",
+						"alternateName": "Josan Elementary School",
+						"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25015 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "양양군",
+							"streetAddress": "강원특별자치도 양양군 양양읍 동해대로 3020 / 조산초등학교 (양양읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "조산초등학교(양양)",
-							"alternateName": "Josan Elementary School",
-							"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25015 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "양양군",
-								"streetAddress": "강원특별자치도 양양군 양양읍 동해대로 3020 / 조산초등학교 (양양읍)"
-							},
-							"telephone": "033-670-9811",
-							"faxNumber": "033-672-4868",
-							"sameAs": ["http://josan.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-670-9811",
+						"faxNumber": "033-672-4868",
+						"sameAs": ["http://josan.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "601.5 Kcal",
 										"carbohydrateContent": "90.6 g",
 										"proteinContent": "27.8 g",
-										"fatContent": "12.7 g",
-										"vitaminAContent": "117.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "30.9 mg",
-										"calciumContent": "201.9 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "12.7 g"
 									}
 								}
 							]

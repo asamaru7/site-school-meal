@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/원평중학교/",
 				"headline": "원평중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/원평중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.cbe.go.kr/wp-m/",
-							"url": "https://school.cbe.go.kr/wp-m/",
-							"name": "원평중학교 급식 식단표 안내",
-							"description": "원평중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 원평중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "원평중학교",
+						"alternateName": "Wonpyeong middle school",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28801 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 서원구",
+							"streetAddress": "충청북도 청주시 서원구 1순환로1137번길 36 (분평동/원평중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "원평중학교",
-							"alternateName": "Wonpyeong middle school",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28801 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 서원구",
-								"streetAddress": "충청북도 청주시 서원구 1순환로1137번길 36 (분평동/원평중학교)"
-							},
-							"telephone": "043-299-7200",
-							"faxNumber": "043-287-8815",
-							"sameAs": ["https://school.cbe.go.kr/wp-m/"]
-						}
-					],
+						"telephone": "043-299-7200",
+						"faxNumber": "043-287-8815",
+						"sameAs": ["https://school.cbe.go.kr/wp-m/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1060.1 Kcal",
 										"carbohydrateContent": "154.2 g",
 										"proteinContent": "31.6 g",
-										"fatContent": "35.6 g",
-										"vitaminAContent": "140.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "273.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "35.6 g"
 									}
 								}
 							]

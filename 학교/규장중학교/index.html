@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/규장중학교/",
 				"headline": "규장중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/규장중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyujang-m.goesw.kr",
-							"url": "http://gyujang-m.goesw.kr",
-							"name": "규장중학교 급식 식단표 안내",
-							"description": "규장중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 규장중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "규장중학교",
+						"alternateName": "GYUJANG MIDDLE SCHOOL",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16662 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 권선구",
+							"streetAddress": "경기도 수원시 권선구 덕영대로1190번길 152 (권선동, 규장초.중학교) 규장중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "규장중학교",
-							"alternateName": "GYUJANG MIDDLE SCHOOL",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16662 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 권선구",
-								"streetAddress": "경기도 수원시 권선구 덕영대로1190번길 152 (권선동, 규장초.중학교) 규장중학교"
-							},
-							"telephone": "031-8067-7630",
-							"faxNumber": "031-8067-7634",
-							"sameAs": ["http://gyujang-m.goesw.kr"]
-						}
-					],
+						"telephone": "031-8067-7630",
+						"faxNumber": "031-8067-7634",
+						"sameAs": ["http://gyujang-m.goesw.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "812.8 Kcal",
 										"carbohydrateContent": "113.5 g",
 										"proteinContent": "34.1 g",
-										"fatContent": "24.1 g",
-										"vitaminAContent": "168.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "232.9 mg",
-										"ironContent": "10.1 mg"
+										"fatContent": "24.1 g"
 									}
 								}
 							]

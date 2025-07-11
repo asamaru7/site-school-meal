@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/의성남부초등학교/",
 				"headline": "의성남부초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/의성남부초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/usnambu",
-							"url": "http://school.gyo6.net/usnambu",
-							"name": "의성남부초등학교 급식 식단표 안내",
-							"description": "의성남부초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 의성남부초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "의성남부초등학교",
+						"alternateName": "Uiseong Nambu Elementary School",
+						"description": "경상북도의성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37341 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "의성군",
+							"streetAddress": "경상북도 의성군 의성읍 문소1길 24 (의성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "의성남부초등학교",
-							"alternateName": "Uiseong Nambu Elementary School",
-							"description": "경상북도의성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37341 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "의성군",
-								"streetAddress": "경상북도 의성군 의성읍 문소1길 24 (의성읍)"
-							},
-							"telephone": "054-832-0131",
-							"faxNumber": "054-832-5877",
-							"sameAs": ["http://school.gyo6.net/usnambu"]
-						}
-					],
+						"telephone": "054-832-0131",
+						"faxNumber": "054-832-5877",
+						"sameAs": ["http://school.gyo6.net/usnambu"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "535.0 Kcal",
 										"carbohydrateContent": "82.8 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "9.8 g",
-										"vitaminAContent": "44.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.9 mg",
-										"calciumContent": "176.7 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "9.8 g"
 									}
 								}
 							]

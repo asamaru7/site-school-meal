@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/반송초등학교/",
 				"headline": "반송초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/반송초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bansong.es.kr",
-							"url": "http://www.bansong.es.kr",
-							"name": "반송초등학교 급식 식단표 안내",
-							"description": "반송초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 반송초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "반송초등학교",
+						"alternateName": "Bansong Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48018 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 아랫반송로30번길 37-16 (반송동) 반송초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "반송초등학교",
-							"alternateName": "Bansong Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48018 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 아랫반송로30번길 37-16 (반송동) 반송초등학교"
-							},
-							"telephone": "051-540-5800",
-							"faxNumber": "051-544-1120",
-							"sameAs": ["http://www.bansong.es.kr"]
-						}
-					],
+						"telephone": "051-540-5800",
+						"faxNumber": "051-544-1120",
+						"sameAs": ["http://www.bansong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "710.8 Kcal",
 										"carbohydrateContent": "84.0 g",
 										"proteinContent": "32.7 g",
-										"fatContent": "26.7 g",
-										"vitaminAContent": "109.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "351.6 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "26.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문장초등학교/",
 				"headline": "문장초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문장초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://munjang-e.goeyj.kr/munjang-e/main.do",
-							"url": "https://munjang-e.goeyj.kr/munjang-e/main.do",
-							"name": "문장초등학교 급식 식단표 안내",
-							"description": "문장초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문장초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문장초등학교",
+						"alternateName": "MUN-JANG ELEMENTARY SCHOOL",
+						"description": "경기도여주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12605 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "여주시",
+							"streetAddress": "경기도 여주시 흥천면 문바실길 20 문장초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문장초등학교",
-							"alternateName": "MUN-JANG ELEMENTARY SCHOOL",
-							"description": "경기도여주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12605 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "여주시",
-								"streetAddress": "경기도 여주시 흥천면 문바실길 20 문장초등학교"
-							},
-							"telephone": "031-883-0404",
-							"faxNumber": "031-882-2016",
-							"sameAs": ["https://munjang-e.goeyj.kr/munjang-e/main.do"]
-						}
-					],
+						"telephone": "031-883-0404",
+						"faxNumber": "031-882-2016",
+						"sameAs": ["https://munjang-e.goeyj.kr/munjang-e/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "621.7 Kcal",
 										"carbohydrateContent": "83.8 g",
 										"proteinContent": "37.9 g",
-										"fatContent": "13.4 g",
-										"vitaminAContent": "227.2 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "19.9 mg",
-										"calciumContent": "380.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "13.4 g"
 									}
 								}
 							]

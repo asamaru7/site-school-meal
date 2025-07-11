@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아산북수초등학교/",
 				"headline": "아산북수초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아산북수초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://asbs.cnees.kr",
-							"url": "http://asbs.cnees.kr",
-							"name": "아산북수초등학교 급식 식단표 안내",
-							"description": "아산북수초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아산북수초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아산북수초등학교",
+						"alternateName": "Asanbuksu Elementary School",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31496 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 배방읍 호서로 405 (배방읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아산북수초등학교",
-							"alternateName": "Asanbuksu Elementary School",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31496 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 배방읍 호서로 405 (배방읍)"
-							},
-							"telephone": "041-547-0932",
-							"faxNumber": "041-547-0937",
-							"sameAs": ["http://asbs.cnees.kr"]
-						}
-					]
+						"telephone": "041-547-0932",
+						"faxNumber": "041-547-0937",
+						"sameAs": ["http://asbs.cnees.kr"]
+					}
 				]
 			}
 		</script>

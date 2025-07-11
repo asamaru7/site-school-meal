@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천영선고등학교/",
 				"headline": "인천영선고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천영선고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://youngsun.icehs.kr",
-							"url": "http://youngsun.icehs.kr",
-							"name": "인천영선고등학교 급식 식단표 안내",
-							"description": "인천영선고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천영선고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천영선고등학교",
+						"alternateName": "Incheon Youngsun High School",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21325 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 체육관로 179 (삼산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천영선고등학교",
-							"alternateName": "Incheon Youngsun High School",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21325 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 체육관로 179 (삼산동)"
-							},
-							"telephone": "032-511-1635",
-							"faxNumber": "032-511-1706",
-							"sameAs": ["http://youngsun.icehs.kr"]
-						}
-					],
+						"telephone": "032-511-1635",
+						"faxNumber": "032-511-1706",
+						"sameAs": ["http://youngsun.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "779.8 Kcal",
 										"carbohydrateContent": "88.7 g",
 										"proteinContent": "36.3 g",
-										"fatContent": "29.5 g",
-										"vitaminAContent": "125.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "184.1 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "29.5 g"
 									}
 								}
 							]

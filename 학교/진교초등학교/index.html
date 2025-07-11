@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진교초등학교/",
 				"headline": "진교초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진교초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jingyo-p.gne.go.kr/",
-							"url": "http://jingyo-p.gne.go.kr/",
-							"name": "진교초등학교 급식 식단표 안내",
-							"description": "진교초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진교초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진교초등학교",
+						"alternateName": "",
+						"description": "하동교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52345 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "하동군",
+							"streetAddress": "경상남도 하동군 진교면 민다리길 141 (진교면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진교초등학교",
-							"alternateName": "",
-							"description": "하동교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52345 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "하동군",
-								"streetAddress": "경상남도 하동군 진교면 민다리길 141 (진교면)"
-							},
-							"telephone": "055-882-3505",
-							"faxNumber": "055-882-3791",
-							"sameAs": ["http://jingyo-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-882-3505",
+						"faxNumber": "055-882-3791",
+						"sameAs": ["http://jingyo-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "608.9 Kcal",
 										"carbohydrateContent": "71.2 g",
 										"proteinContent": "30.0 g",
-										"fatContent": "21.1 g",
-										"vitaminAContent": "115.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "25.9 mg",
-										"calciumContent": "277.1 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "21.1 g"
 									}
 								}
 							]

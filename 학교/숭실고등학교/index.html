@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/숭실고등학교/",
 				"headline": "숭실고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/숭실고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.soongsil.net",
-							"url": "http://www.soongsil.net",
-							"name": "숭실고등학교 급식 식단표 안내",
-							"description": "숭실고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 숭실고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "숭실고등학교",
+						"alternateName": "Soongsil High School",
+						"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03445 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "은평구",
+							"streetAddress": "서울특별시 은평구 은평터널로7길 6 (신사동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "숭실고등학교",
-							"alternateName": "Soongsil High School",
-							"description": "서울특별시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03445 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "은평구",
-								"streetAddress": "서울특별시 은평구 은평터널로7길 6 (신사동)"
-							},
-							"telephone": "02-373-5910",
-							"faxNumber": "02-374-7166",
-							"sameAs": ["http://www.soongsil.net"]
-						}
-					],
+						"telephone": "02-373-5910",
+						"faxNumber": "02-374-7166",
+						"sameAs": ["http://www.soongsil.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "694.1 Kcal",
 										"carbohydrateContent": "96.4 g",
 										"proteinContent": "33.4 g",
-										"fatContent": "16.6 g",
-										"vitaminAContent": "55.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "35.6 mg",
-										"calciumContent": "65.3 mg",
-										"ironContent": "1.6 mg"
+										"fatContent": "16.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구예담학교/",
 				"headline": "대구예담학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구예담학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://dgyedam.dge.sc.kr",
-							"url": "https://dgyedam.dge.sc.kr",
-							"name": "대구예담학교 급식 식단표 안내",
-							"description": "대구예담학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구예담학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구예담학교",
+						"alternateName": "DAEGU YEDAM SCHOOL",
+						"description": "대구광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42683 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 구마로21길 36 / 예담학교 (본리동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구예담학교",
-							"alternateName": "DAEGU YEDAM SCHOOL",
-							"description": "대구광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42683 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 구마로21길 36 / 예담학교 (본리동)"
-							},
-							"telephone": "053-231-9820",
-							"faxNumber": "053-526-8603",
-							"sameAs": ["https://dgyedam.dge.sc.kr"]
-						}
-					],
+						"telephone": "053-231-9820",
+						"faxNumber": "053-526-8603",
+						"sameAs": ["https://dgyedam.dge.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "880.9 Kcal",
 										"carbohydrateContent": "104.5 g",
 										"proteinContent": "47.0 g",
-										"fatContent": "28.8 g",
-										"vitaminAContent": "211.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "29.2 mg",
-										"calciumContent": "363.9 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "28.8 g"
 									}
 								}
 							]

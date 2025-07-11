@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/철성중학교/",
 				"headline": "철성중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/철성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "cheolseong-m.gne.go.kr",
-							"url": "cheolseong-m.gne.go.kr",
-							"name": "철성중학교 급식 식단표 안내",
-							"description": "철성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 철성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "철성중학교",
+						"alternateName": "",
+						"description": "고성교육지원청 / 사립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52931 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 고성읍 대가로 36 (고성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "철성중학교",
-							"alternateName": "",
-							"description": "고성교육지원청 / 사립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52931 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 고성읍 대가로 36 (고성읍)"
-							},
-							"telephone": "055-673-3925",
-							"faxNumber": "055-674-3949",
-							"sameAs": ["cheolseong-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-673-3925",
+						"faxNumber": "055-674-3949",
+						"sameAs": ["cheolseong-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "899.9 Kcal",
 										"carbohydrateContent": "130.9 g",
 										"proteinContent": "41.7 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "206.3 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "185.1 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

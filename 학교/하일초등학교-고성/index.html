@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하일초등학교-고성/",
 				"headline": "하일초등학교(고성) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하일초등학교-고성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hail-p.gne.go.kr",
-							"url": "http://hail-p.gne.go.kr",
-							"name": "하일초등학교(고성) 급식 식단표 안내",
-							"description": "하일초등학교(고성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하일초등학교(고성)",
+						"alternateName": " ",
+						"description": "고성교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52956 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 하일면 학림2길 70-15 / 하일초등학교 (하일면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하일초등학교(고성)",
-							"alternateName": " ",
-							"description": "고성교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52956 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 하일면 학림2길 70-15 / 하일초등학교 (하일면)"
-							},
-							"telephone": "055-673-1027",
-							"faxNumber": "055-673-6929",
-							"sameAs": ["http://hail-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-673-1027",
+						"faxNumber": "055-673-6929",
+						"sameAs": ["http://hail-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "737.0 Kcal",
 										"carbohydrateContent": "86.6 g",
 										"proteinContent": "34.0 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "67.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "58.8 mg",
-										"calciumContent": "146.3 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

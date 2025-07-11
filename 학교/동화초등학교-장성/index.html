@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동화초등학교-장성/",
 				"headline": "동화초등학교(장성) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동화초등학교-장성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://donghwa.es.jne.kr",
-							"url": "http://donghwa.es.jne.kr",
-							"name": "동화초등학교(장성) 급식 식단표 안내",
-							"description": "동화초등학교(장성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동화초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동화초등학교(장성)",
+						"alternateName": "Donghwa Elementary School",
+						"description": "전라남도장성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57241 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장성군",
+							"streetAddress": "전라남도 장성군 동화면 용정교촌길 45 (동화면/교실)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동화초등학교(장성)",
-							"alternateName": "Donghwa Elementary School",
-							"description": "전라남도장성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57241 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장성군",
-								"streetAddress": "전라남도 장성군 동화면 용정교촌길 45 (동화면/교실)"
-							},
-							"telephone": "061-392-1258",
-							"faxNumber": "061-392-5669",
-							"sameAs": ["http://donghwa.es.jne.kr"]
-						}
-					],
+						"telephone": "061-392-1258",
+						"faxNumber": "061-392-5669",
+						"sameAs": ["http://donghwa.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "628.5 Kcal",
 										"carbohydrateContent": "92.3 g",
 										"proteinContent": "34.7 g",
-										"fatContent": "12.9 g",
-										"vitaminAContent": "87.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "71.2 mg",
-										"calciumContent": "188.7 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "12.9 g"
 									}
 								}
 							]

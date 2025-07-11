@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신관중학교/",
 				"headline": "신관중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신관중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.shingwan.ms.kr",
-							"url": "http://www.shingwan.ms.kr",
-							"name": "신관중학교 급식 식단표 안내",
-							"description": "신관중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신관중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신관중학교",
+						"alternateName": "Shingwan Middle School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08781 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "관악구",
+							"streetAddress": "서울특별시 관악구 신림로48길 17-16 / (신림동 신관중학교) "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신관중학교",
-							"alternateName": "Shingwan Middle School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08781 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "관악구",
-								"streetAddress": "서울특별시 관악구 신림로48길 17-16 / (신림동 신관중학교) "
-							},
-							"telephone": "02-885-6893",
-							"faxNumber": "02-872-4057",
-							"sameAs": ["http://www.shingwan.ms.kr"]
-						}
-					],
+						"telephone": "02-885-6893",
+						"faxNumber": "02-872-4057",
+						"sameAs": ["http://www.shingwan.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "921.7 Kcal",
 										"carbohydrateContent": "128.6 g",
 										"proteinContent": "40.1 g",
-										"fatContent": "25.1 g",
-										"vitaminAContent": "298.9 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "22.3 mg",
-										"calciumContent": "246.5 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "25.1 g"
 									}
 								}
 							]

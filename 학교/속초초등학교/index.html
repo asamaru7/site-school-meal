@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/속초초등학교/",
 				"headline": "속초초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/속초초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sokcho.gwe.es.kr",
-							"url": "http://sokcho.gwe.es.kr",
-							"name": "속초초등학교 급식 식단표 안내",
-							"description": "속초초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 속초초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "속초초등학교",
+						"alternateName": "Sokcho Elementary School",
+						"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24829 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "속초시",
+							"streetAddress": "강원특별자치도 속초시 수복로 117 / 속초초등학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "속초초등학교",
-							"alternateName": "Sokcho Elementary School",
-							"description": "강원특별자치도속초양양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24829 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "속초시",
-								"streetAddress": "강원특별자치도 속초시 수복로 117 / 속초초등학교 "
-							},
-							"telephone": "033-638-8873",
-							"faxNumber": "033-636-1186",
-							"sameAs": ["http://sokcho.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-638-8873",
+						"faxNumber": "033-636-1186",
+						"sameAs": ["http://sokcho.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.6 Kcal",
 										"carbohydrateContent": "101.4 g",
 										"proteinContent": "22.1 g",
-										"fatContent": "33.9 g",
-										"vitaminAContent": "132.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "7.3 mg",
-										"calciumContent": "165.9 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "33.9 g"
 									}
 								}
 							]

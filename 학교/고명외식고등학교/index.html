@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/고명외식고등학교/",
 				"headline": "고명외식고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/고명외식고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://komyung.sen.hs.kr",
-							"url": "http://komyung.sen.hs.kr",
-							"name": "고명외식고등학교 급식 식단표 안내",
-							"description": "고명외식고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 고명외식고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "고명외식고등학교",
+						"alternateName": "Komyung Food Service High School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02828 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "성북구",
+							"streetAddress": "서울특별시 성북구 북악산로 870 (돈암동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "고명외식고등학교",
-							"alternateName": "Komyung Food Service High School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02828 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "성북구",
-								"streetAddress": "서울특별시 성북구 북악산로 870 (돈암동)"
-							},
-							"telephone": "02-928-8366",
-							"faxNumber": "02-924-6059",
-							"sameAs": ["http://komyung.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-928-8366",
+						"faxNumber": "02-924-6059",
+						"sameAs": ["http://komyung.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1074.8 Kcal",
 										"carbohydrateContent": "145.8 g",
 										"proteinContent": "79.6 g",
-										"fatContent": "17.8 g",
-										"vitaminAContent": "243.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "25.0 mg",
-										"calciumContent": "497.0 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "17.8 g"
 									}
 								}
 							]

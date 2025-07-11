@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/율하초등학교/",
 				"headline": "율하초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/율하초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ghyulha-p.gne.go.kr",
-							"url": "http://ghyulha-p.gne.go.kr",
-							"name": "율하초등학교 급식 식단표 안내",
-							"description": "율하초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 율하초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "율하초등학교",
+						"alternateName": "Yulha elementary school",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51019 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 율하2로58번길 7 (율하동/ 율하초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "율하초등학교",
-							"alternateName": "Yulha elementary school",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51019 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 율하2로58번길 7 (율하동/ 율하초등학교)"
-							},
-							"telephone": "055-321-8642",
-							"faxNumber": "055-321-2705",
-							"sameAs": ["http://ghyulha-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-321-8642",
+						"faxNumber": "055-321-2705",
+						"sameAs": ["http://ghyulha-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "664.4 Kcal",
 										"carbohydrateContent": "118.4 g",
 										"proteinContent": "22.6 g",
-										"fatContent": "10.9 g",
-										"vitaminAContent": "96.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "228.2 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "10.9 g"
 									}
 								}
 							]

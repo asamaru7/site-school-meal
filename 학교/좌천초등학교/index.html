@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/좌천초등학교/",
 				"headline": "좌천초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/좌천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.jwacheon.es.kr",
-							"url": "http://www.jwacheon.es.kr",
-							"name": "좌천초등학교 급식 식단표 안내",
-							"description": "좌천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 좌천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "좌천초등학교",
+						"alternateName": "Jwacheon Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46033 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 장안읍 좌천로 13-66 / 좌천초등학교 (장안읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "좌천초등학교",
-							"alternateName": "Jwacheon Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46033 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 장안읍 좌천로 13-66 / 좌천초등학교 (장안읍)"
-							},
-							"telephone": "051-720-4101",
-							"faxNumber": "051-727-6803",
-							"sameAs": ["http://www.jwacheon.es.kr"]
-						}
-					],
+						"telephone": "051-720-4101",
+						"faxNumber": "051-727-6803",
+						"sameAs": ["http://www.jwacheon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "695.0 Kcal",
 										"carbohydrateContent": "113.8 g",
 										"proteinContent": "23.5 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "51.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "16.6 mg",
-										"calciumContent": "183.6 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대촌중학교/",
 				"headline": "대촌중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대촌중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daechon.gen.ms.kr",
-							"url": "http://daechon.gen.ms.kr",
-							"name": "대촌중학교 급식 식단표 안내",
-							"description": "대촌중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대촌중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대촌중학교",
+						"alternateName": "Daechon Middle School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61751 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "남구",
+							"streetAddress": "광주광역시 남구 고싸움로164번길 28 (지석동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대촌중학교",
-							"alternateName": "Daechon Middle School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61751 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "남구",
-								"streetAddress": "광주광역시 남구 고싸움로164번길 28 (지석동)"
-							},
-							"telephone": "062-712-3106",
-							"faxNumber": "062-712-3115",
-							"sameAs": ["http://daechon.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-712-3106",
+						"faxNumber": "062-712-3115",
+						"sameAs": ["http://daechon.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "768.4 Kcal",
 										"carbohydrateContent": "116.9 g",
 										"proteinContent": "41.0 g",
-										"fatContent": "14.6 g",
-										"vitaminAContent": "230.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "8.3 mg",
-										"calciumContent": "306.3 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "14.6 g"
 									}
 								}
 							]

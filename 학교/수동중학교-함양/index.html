@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수동중학교-함양/",
 				"headline": "수동중학교(함양) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수동중학교-함양/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.su-dong.ms.kr",
-							"url": "www.su-dong.ms.kr",
-							"name": "수동중학교(함양) 급식 식단표 안내",
-							"description": "수동중학교(함양)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수동중학교(함양)",
+						"alternateName": "",
+						"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50022 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "함양군",
+							"streetAddress": "경상남도 함양군 수동면 수동내동길 19 (수동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수동중학교(함양)",
-							"alternateName": "",
-							"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50022 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "함양군",
-								"streetAddress": "경상남도 함양군 수동면 수동내동길 19 (수동면)"
-							},
-							"telephone": "055-963-5506",
-							"faxNumber": "055-963-5317",
-							"sameAs": ["www.su-dong.ms.kr"]
-						}
-					],
+						"telephone": "055-963-5506",
+						"faxNumber": "055-963-5317",
+						"sameAs": ["www.su-dong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "736.8 Kcal",
 										"carbohydrateContent": "118.3 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "12.4 g",
-										"vitaminAContent": "77.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "50.5 mg",
-										"calciumContent": "219.9 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "12.4 g"
 									}
 								}
 							]

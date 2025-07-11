@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/호명초등학교/",
 				"headline": "호명초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/호명초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": " http://homyung.gwe.es.kr/",
-							"url": " http://homyung.gwe.es.kr/",
-							"name": "호명초등학교 급식 식단표 안내",
-							"description": "호명초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 호명초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "호명초등학교",
+						"alternateName": "Homyung Elementary School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25328 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 진부면 약수동길 11 (진부면/호명초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "호명초등학교",
-							"alternateName": "Homyung Elementary School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25328 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 진부면 약수동길 11 (진부면/호명초등학교)"
-							},
-							"telephone": "033-335-7479",
-							"faxNumber": "033-336-7479",
-							"sameAs": [" http://homyung.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-335-7479",
+						"faxNumber": "033-336-7479",
+						"sameAs": [" http://homyung.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "617.2 Kcal",
 										"carbohydrateContent": "96.7 g",
 										"proteinContent": "30.9 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "322.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.5 mg",
-										"calciumContent": "319.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

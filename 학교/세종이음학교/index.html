@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/세종이음학교/",
 				"headline": "세종이음학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/세종이음학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sjeeum.sjeduhs.kr",
-							"url": "http://sjeeum.sjeduhs.kr",
-							"name": "세종이음학교 급식 식단표 안내",
-							"description": "세종이음학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 세종이음학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "세종이음학교",
+						"alternateName": "세종이음학교",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30138 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 집현부강로 15 / 세종이음학교 (집현동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "세종이음학교",
-							"alternateName": "세종이음학교",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 / 일반고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30138 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 집현부강로 15 / 세종이음학교 (집현동)"
-							},
-							"telephone": "044-995-7100",
-							"faxNumber": "044-995-7198",
-							"sameAs": ["http://sjeeum.sjeduhs.kr"]
-						}
-					],
+						"telephone": "044-995-7100",
+						"faxNumber": "044-995-7198",
+						"sameAs": ["http://sjeeum.sjeduhs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "749.9 Kcal",
 										"carbohydrateContent": "121.6 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "14.6 g",
-										"vitaminAContent": "101.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "44.1 mg",
-										"calciumContent": "179.0 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "14.6 g"
 									}
 								}
 							]

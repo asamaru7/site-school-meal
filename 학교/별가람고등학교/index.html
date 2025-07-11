@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/별가람고등학교/",
 				"headline": "별가람고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/별가람고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.byeolgaram.hs.kr",
-							"url": "http://www.byeolgaram.hs.kr",
-							"name": "별가람고등학교 급식 식단표 안내",
-							"description": "별가람고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 별가람고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "별가람고등학교",
+						"alternateName": "Byeolgaram High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12103 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "남양주시",
+							"streetAddress": "경기도 남양주시 순화궁로 393 (별내동/ 별가람고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "별가람고등학교",
-							"alternateName": "Byeolgaram High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12103 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "남양주시",
-								"streetAddress": "경기도 남양주시 순화궁로 393 (별내동/ 별가람고등학교)"
-							},
-							"telephone": "031-523-7411",
-							"faxNumber": "031-523-7408",
-							"sameAs": ["http://www.byeolgaram.hs.kr"]
-						}
-					],
+						"telephone": "031-523-7411",
+						"faxNumber": "031-523-7408",
+						"sameAs": ["http://www.byeolgaram.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "786.4 Kcal",
 										"carbohydrateContent": "119.6 g",
 										"proteinContent": "32.3 g",
-										"fatContent": "18.0 g",
-										"vitaminAContent": "132.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "172.8 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "18.0 g"
 									}
 								}
 							]

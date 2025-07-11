@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신례초등학교/",
 				"headline": "신례초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신례초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinrye.jje.es.kr",
-							"url": "http://shinrye.jje.es.kr",
-							"name": "신례초등학교 급식 식단표 안내",
-							"description": "신례초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신례초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신례초등학교",
+						"alternateName": "SHINRYE ELEMENTARY SCHOOL",
+						"description": "서귀포시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63608 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "서귀포시",
+							"streetAddress": "제주특별자치도 서귀포시 남원읍 중산간동로 7116 (남원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신례초등학교",
-							"alternateName": "SHINRYE ELEMENTARY SCHOOL",
-							"description": "서귀포시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63608 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "서귀포시",
-								"streetAddress": "제주특별자치도 서귀포시 남원읍 중산간동로 7116 (남원읍)"
-							},
-							"telephone": "064-766-5300",
-							"faxNumber": "064-766-5390",
-							"sameAs": ["http://shinrye.jje.es.kr"]
-						}
-					],
+						"telephone": "064-766-5300",
+						"faxNumber": "064-766-5390",
+						"sameAs": ["http://shinrye.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "732.5 Kcal",
 										"carbohydrateContent": "93.7 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "26.6 g",
-										"vitaminAContent": "215.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "179.5 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "26.6 g"
 									}
 								}
 							]

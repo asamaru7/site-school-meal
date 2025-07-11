@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영주가흥초등학교/",
 				"headline": "영주가흥초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영주가흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/yjgh",
-							"url": "http://school.gyo6.net/yjgh",
-							"name": "영주가흥초등학교 급식 식단표 안내",
-							"description": "영주가흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영주가흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영주가흥초등학교",
+						"alternateName": "YeongJuGaHeung Elementary School",
+						"description": "경상북도영주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36135 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영주시",
+							"streetAddress": "경상북도 영주시 대동로70번길 8-9 (가흥동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영주가흥초등학교",
-							"alternateName": "YeongJuGaHeung Elementary School",
-							"description": "경상북도영주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36135 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영주시",
-								"streetAddress": "경상북도 영주시 대동로70번길 8-9 (가흥동)"
-							},
-							"telephone": "054-630-0606",
-							"faxNumber": "054-636-1712",
-							"sameAs": ["http://school.gyo6.net/yjgh"]
-						}
-					],
+						"telephone": "054-630-0606",
+						"faxNumber": "054-636-1712",
+						"sameAs": ["http://school.gyo6.net/yjgh"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.3 Kcal",
 										"carbohydrateContent": "97.5 g",
 										"proteinContent": "25.2 g",
-										"fatContent": "17.7 g",
-										"vitaminAContent": "182.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "260.1 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "17.7 g"
 									}
 								}
 							]

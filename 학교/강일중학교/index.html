@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/강일중학교/",
 				"headline": "강일중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/강일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kangil.ms.kr",
-							"url": "http://www.kangil.ms.kr",
-							"name": "강일중학교 급식 식단표 안내",
-							"description": "강일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "강일중학교",
+						"alternateName": "Gang-il Middle School",
+						"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05236 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강동구",
+							"streetAddress": "서울특별시 강동구 고덕로27길 12 (암사동414-17)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "강일중학교",
-							"alternateName": "Gang-il Middle School",
-							"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05236 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강동구",
-								"streetAddress": "서울특별시 강동구 고덕로27길 12 (암사동414-17)"
-							},
-							"telephone": "02-441-4651",
-							"faxNumber": "02-441-4677",
-							"sameAs": ["http://www.kangil.ms.kr"]
-						}
-					],
+						"telephone": "02-441-4651",
+						"faxNumber": "02-441-4677",
+						"sameAs": ["http://www.kangil.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "814.1 Kcal",
 										"carbohydrateContent": "123.5 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "423.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "9.0 mg",
-										"calciumContent": "512.1 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

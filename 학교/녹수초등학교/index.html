@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/녹수초등학교/",
 				"headline": "녹수초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/녹수초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://noksu.es.kr",
-							"url": "http://noksu.es.kr",
-							"name": "녹수초등학교 급식 식단표 안내",
-							"description": "녹수초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 녹수초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "녹수초등학교",
+						"alternateName": "Noksu Elementary School",
+						"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44018 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "동구",
+							"streetAddress": "울산광역시 동구 봉수로 545 / 녹수초등학교 (서부동/ 녹수초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "녹수초등학교",
-							"alternateName": "Noksu Elementary School",
-							"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44018 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "동구",
-								"streetAddress": "울산광역시 동구 봉수로 545 / 녹수초등학교 (서부동/ 녹수초등학교)"
-							},
-							"telephone": "052-235-6615",
-							"faxNumber": "052-252-4544",
-							"sameAs": ["http://noksu.es.kr"]
-						}
-					],
+						"telephone": "052-235-6615",
+						"faxNumber": "052-252-4544",
+						"sameAs": ["http://noksu.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "542.8 Kcal",
 										"carbohydrateContent": "82.4 g",
 										"proteinContent": "27.3 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "113.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "20.0 mg",
-										"calciumContent": "309.7 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

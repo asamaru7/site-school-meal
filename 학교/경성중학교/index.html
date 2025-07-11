@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경성중학교/",
 				"headline": "경성중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gyeongseong.ms.kr",
-							"url": "http://www.gyeongseong.ms.kr",
-							"name": "경성중학교 급식 식단표 안내",
-							"description": "경성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경성중학교",
+						"alternateName": "Gyeongseong Middle School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03977 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "마포구",
+							"streetAddress": "서울특별시 마포구 성미산로 111 / 경성중학교 (연남동/경성중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경성중학교",
-							"alternateName": "Gyeongseong Middle School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03977 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "마포구",
-								"streetAddress": "서울특별시 마포구 성미산로 111 / 경성중학교 (연남동/경성중고등학교)"
-							},
-							"telephone": "02-3140-1114",
-							"faxNumber": "02-334-7533",
-							"sameAs": ["http://www.gyeongseong.ms.kr"]
-						}
-					],
+						"telephone": "02-3140-1114",
+						"faxNumber": "02-334-7533",
+						"sameAs": ["http://www.gyeongseong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "857.9 Kcal",
 										"carbohydrateContent": "97.4 g",
 										"proteinContent": "58.0 g",
-										"fatContent": "23.6 g",
-										"vitaminAContent": "205.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.9 mg",
-										"calciumContent": "268.0 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "23.6 g"
 									}
 								}
 							]

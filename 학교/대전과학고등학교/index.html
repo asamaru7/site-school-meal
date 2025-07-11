@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전과학고등학교/",
 				"headline": "대전과학고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전과학고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://djshs.djsch.kr",
-							"url": "http://djshs.djsch.kr",
-							"name": "대전과학고등학교 급식 식단표 안내",
-							"description": "대전과학고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전과고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전과학고등학교",
+						"alternateName": "Daejeon Science High School",
+						"description": "대전광역시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34142 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 과학로 46 (구성동/ 과학고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전과학고등학교",
-							"alternateName": "Daejeon Science High School",
-							"description": "대전광역시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34142 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 과학로 46 (구성동/ 과학고등학교)"
-							},
-							"telephone": "042-860-0207",
-							"faxNumber": "042-863-5488",
-							"sameAs": ["http://djshs.djsch.kr"]
-						}
-					]
+						"telephone": "042-860-0207",
+						"faxNumber": "042-863-5488",
+						"sameAs": ["http://djshs.djsch.kr"]
+					}
 				]
 			}
 		</script>

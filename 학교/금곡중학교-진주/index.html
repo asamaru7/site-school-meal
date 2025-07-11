@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금곡중학교-진주/",
 				"headline": "금곡중학교(진주) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금곡중학교-진주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "geumgok-m.gne.go.kr",
-							"url": "geumgok-m.gne.go.kr",
-							"name": "금곡중학교(진주) 급식 식단표 안내",
-							"description": "금곡중학교(진주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금곡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금곡중학교(진주)",
+						"alternateName": "",
+						"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52843 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 금곡면 월아산로 255 (금곡면/금곡중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금곡중학교(진주)",
-							"alternateName": "",
-							"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52843 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 금곡면 월아산로 255 (금곡면/금곡중학교)"
-							},
-							"telephone": "055-754-2047",
-							"faxNumber": "055-758-9949",
-							"sameAs": ["geumgok-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-754-2047",
+						"faxNumber": "055-758-9949",
+						"sameAs": ["geumgok-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "741.1 Kcal",
 										"carbohydrateContent": "110.3 g",
 										"proteinContent": "29.6 g",
-										"fatContent": "19.1 g",
-										"vitaminAContent": "194.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "22.5 mg",
-										"calciumContent": "301.9 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "19.1 g"
 									}
 								}
 							]

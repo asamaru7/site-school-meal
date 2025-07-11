@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/세지초등학교/",
 				"headline": "세지초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/세지초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://najuseji.es.jne.kr",
-							"url": "http://najuseji.es.jne.kr",
-							"name": "세지초등학교 급식 식단표 안내",
-							"description": "세지초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 세지초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "세지초등학교",
+						"alternateName": "Seji Elementary School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58318 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 세지면 동창로 111 (세지면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "세지초등학교",
-							"alternateName": "Seji Elementary School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58318 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 세지면 동창로 111 (세지면)"
-							},
-							"telephone": "061-331-2958",
-							"faxNumber": "061-331-0991",
-							"sameAs": ["http://najuseji.es.jne.kr"]
-						}
-					],
+						"telephone": "061-331-2958",
+						"faxNumber": "061-331-0991",
+						"sameAs": ["http://najuseji.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "697.8 Kcal",
 										"carbohydrateContent": "92.0 g",
 										"proteinContent": "26.6 g",
-										"fatContent": "25.0 g",
-										"vitaminAContent": "40.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "23.5 mg",
-										"calciumContent": "147.9 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "25.0 g"
 									}
 								}
 							]

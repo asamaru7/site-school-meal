@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청도고등학교/",
 				"headline": "청도고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청도고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/cheongdohs",
-							"url": "http://school.gyo6.net/cheongdohs",
-							"name": "청도고등학교 급식 식단표 안내",
-							"description": "청도고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청도고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청도고등학교",
+						"alternateName": "Cheongdo High School",
+						"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38341 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "청도군",
+							"streetAddress": "경상북도 청도군 청도읍 청화로 219-21 (청도읍/ 청도중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청도고등학교",
-							"alternateName": "Cheongdo High School",
-							"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38341 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "청도군",
-								"streetAddress": "경상북도 청도군 청도읍 청화로 219-21 (청도읍/ 청도중고등학교)"
-							},
-							"telephone": "054-372-9337",
-							"faxNumber": "054-373-4247",
-							"sameAs": ["http://school.gyo6.net/cheongdohs"]
-						}
-					],
+						"telephone": "054-372-9337",
+						"faxNumber": "054-373-4247",
+						"sameAs": ["http://school.gyo6.net/cheongdohs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "866.4 Kcal",
 										"carbohydrateContent": "136.6 g",
 										"proteinContent": "23.5 g",
-										"fatContent": "24.2 g",
-										"vitaminAContent": "171.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.6 mg",
-										"calciumContent": "98.3 mg",
-										"ironContent": "6.1 mg"
+										"fatContent": "24.2 g"
 									}
 								}
 							]

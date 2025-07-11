@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/재한몽골학교/",
 				"headline": "재한몽골학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/재한몽골학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mongolschool.org/",
-							"url": "http://mongolschool.org/",
-							"name": "재한몽골학교 급식 식단표 안내",
-							"description": "재한몽골학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 재한몽골학교 (외국인학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "재한몽골학교",
+						"alternateName": "International Mongolia School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04966 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "광진구",
+							"streetAddress": "서울특별시 광진구 광장로1가길 13-10 (광장동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "재한몽골학교",
-							"alternateName": "International Mongolia School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04966 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "광진구",
-								"streetAddress": "서울특별시 광진구 광장로1가길 13-10 (광장동)"
-							},
-							"telephone": "02-3437-7078",
-							"faxNumber": "02-458-2980",
-							"sameAs": ["http://mongolschool.org/"]
-						}
-					]
+						"telephone": "02-3437-7078",
+						"faxNumber": "02-458-2980",
+						"sameAs": ["http://mongolschool.org/"]
+					}
 				]
 			}
 		</script>

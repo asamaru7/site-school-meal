@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동삭중학교/",
 				"headline": "동삭중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동삭중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://dongsak-m.goept.kr/dongsak-m/main.do",
-							"url": "https://dongsak-m.goept.kr/dongsak-m/main.do",
-							"name": "동삭중학교 급식 식단표 안내",
-							"description": "동삭중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동삭중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동삭중학교",
+						"alternateName": "Dongsak Middle School",
+						"description": "경기도평택교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18032 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "평택시",
+							"streetAddress": "경기도 평택시 상서재로2길 101 (동삭동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동삭중학교",
-							"alternateName": "Dongsak Middle School",
-							"description": "경기도평택교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18032 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "평택시",
-								"streetAddress": "경기도 평택시 상서재로2길 101 (동삭동)"
-							},
-							"telephone": "031-5182-6800",
-							"faxNumber": "031-5182-6899",
-							"sameAs": ["https://dongsak-m.goept.kr/dongsak-m/main.do"]
-						}
-					],
+						"telephone": "031-5182-6800",
+						"faxNumber": "031-5182-6899",
+						"sameAs": ["https://dongsak-m.goept.kr/dongsak-m/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "572.6 Kcal",
 										"carbohydrateContent": "105.3 g",
 										"proteinContent": "26.7 g",
-										"fatContent": "5.2 g",
-										"vitaminAContent": "229.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "44.9 mg",
-										"calciumContent": "185.9 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "5.2 g"
 									}
 								}
 							]

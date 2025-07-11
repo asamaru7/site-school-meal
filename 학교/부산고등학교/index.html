@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산고등학교/",
 				"headline": "부산고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://busan.hs.kr",
-							"url": "http://busan.hs.kr",
-							"name": "부산고등학교 급식 식단표 안내",
-							"description": "부산고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산고등학교",
+						"alternateName": "Busan High School",
+						"description": "부산광역시교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48802 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동구",
+							"streetAddress": "부산광역시 동구 초량로40번길 23 (초량동/ 부산고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산고등학교",
-							"alternateName": "Busan High School",
-							"description": "부산광역시교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48802 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동구",
-								"streetAddress": "부산광역시 동구 초량로40번길 23 (초량동/ 부산고등학교)"
-							},
-							"telephone": "051-600-0700",
-							"faxNumber": "051-466-2344",
-							"sameAs": ["http://busan.hs.kr"]
-						}
-					],
+						"telephone": "051-600-0700",
+						"faxNumber": "051-466-2344",
+						"sameAs": ["http://busan.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1083.4 Kcal",
 										"carbohydrateContent": "148.8 g",
 										"proteinContent": "44.7 g",
-										"fatContent": "32.9 g",
-										"vitaminAContent": "137.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.5 mg",
-										"vitaminCContent": "9.3 mg",
-										"calciumContent": "258.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "32.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "2312.7 Kcal",
 										"carbohydrateContent": "215.1 g",
 										"proteinContent": "63.3 g",
-										"fatContent": "133.1 g",
-										"vitaminAContent": "201.8 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "59.9 mg",
-										"calciumContent": "369.4 mg",
-										"ironContent": "12.4 mg"
+										"fatContent": "133.1 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "504.2 Kcal",
 										"carbohydrateContent": "42.2 g",
 										"proteinContent": "27.0 g",
-										"fatContent": "26.8 g",
-										"vitaminAContent": "317.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "62.2 mg",
-										"calciumContent": "377.0 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "26.8 g"
 									}
 								}
 							]

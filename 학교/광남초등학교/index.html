@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광남초등학교/",
 				"headline": "광남초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gwangnam.es.kr/",
-							"url": "http://gwangnam.es.kr/",
-							"name": "광남초등학교 급식 식단표 안내",
-							"description": "광남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광남초등학교",
+						"alternateName": "Gwangnam Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48305 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "수영구",
+							"streetAddress": "부산광역시 수영구 광안해변로 115 (남천동/ 광남초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광남초등학교",
-							"alternateName": "Gwangnam Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48305 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "수영구",
-								"streetAddress": "부산광역시 수영구 광안해변로 115 (남천동/ 광남초등학교)"
-							},
-							"telephone": "051-610-6600",
-							"faxNumber": "051-628-0767",
-							"sameAs": ["http://gwangnam.es.kr/"]
-						}
-					],
+						"telephone": "051-610-6600",
+						"faxNumber": "051-628-0767",
+						"sameAs": ["http://gwangnam.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "596.2 Kcal",
 										"carbohydrateContent": "86.6 g",
 										"proteinContent": "33.7 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "115.5 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "28.3 mg",
-										"calciumContent": "266.0 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화정초등학교-여수/",
 				"headline": "화정초등학교(여수) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화정초등학교-여수/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hwajeong.es.jne.kr",
-							"url": "hwajeong.es.jne.kr",
-							"name": "화정초등학교(여수) 급식 식단표 안내",
-							"description": "화정초등학교(여수)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화정초등학교(여수)",
+						"alternateName": "Whajeong Elementary School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59783 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 화정면 개도화산길 50 (화정면/화정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화정초등학교(여수)",
-							"alternateName": "Whajeong Elementary School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59783 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 화정면 개도화산길 50 (화정면/화정초등학교)"
-							},
-							"telephone": "061-666-8655",
-							"faxNumber": "061-666-0231",
-							"sameAs": ["hwajeong.es.jne.kr"]
-						}
-					],
+						"telephone": "061-666-8655",
+						"faxNumber": "061-666-0231",
+						"sameAs": ["hwajeong.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "902.4 Kcal",
 										"carbohydrateContent": "141.5 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "24.7 g",
-										"vitaminAContent": "222.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "34.5 mg",
-										"calciumContent": "386.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "24.7 g"
 									}
 								}
 							]

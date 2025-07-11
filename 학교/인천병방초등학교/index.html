@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천병방초등학교/",
 				"headline": "인천병방초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천병방초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ibb.icees.kr",
-							"url": "http://ibb.icees.kr",
-							"name": "인천병방초등학교 급식 식단표 안내",
-							"description": "인천병방초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천병방초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천병방초등학교",
+						"alternateName": "Incheon Byeongbang Elementary School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21035 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 병방로 2 (병방동, 인천병방초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천병방초등학교",
-							"alternateName": "Incheon Byeongbang Elementary School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21035 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 병방로 2 (병방동, 인천병방초등학교)"
-							},
-							"telephone": "032-548-8345",
-							"faxNumber": "032-548-8346",
-							"sameAs": ["http://ibb.icees.kr"]
-						}
-					],
+						"telephone": "032-548-8345",
+						"faxNumber": "032-548-8346",
+						"sameAs": ["http://ibb.icees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "764.5 Kcal",
 										"carbohydrateContent": "83.7 g",
 										"proteinContent": "28.6 g",
-										"fatContent": "32.9 g",
-										"vitaminAContent": "30.4 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "19.2 mg",
-										"calciumContent": "209.6 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "32.9 g"
 									}
 								}
 							]

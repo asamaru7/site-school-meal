@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명지중학교-부산/",
 				"headline": "명지중학교(부산) 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명지중학교-부산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myeongji.ms.kr",
-							"url": "http://myeongji.ms.kr",
-							"name": "명지중학교(부산) 급식 식단표 안내",
-							"description": "명지중학교(부산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명지중학교(부산)",
+						"alternateName": "myeongji middle school",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46773 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "강서구",
+							"streetAddress": "부산광역시 강서구 명지국제6로318번길 54 (명지동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명지중학교(부산)",
-							"alternateName": "myeongji middle school",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46773 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "강서구",
-								"streetAddress": "부산광역시 강서구 명지국제6로318번길 54 (명지동)"
-							},
-							"telephone": "051-220-1400",
-							"faxNumber": "051-220-1498",
-							"sameAs": ["http://myeongji.ms.kr"]
-						}
-					],
+						"telephone": "051-220-1400",
+						"faxNumber": "051-220-1498",
+						"sameAs": ["http://myeongji.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "825.1 Kcal",
 										"carbohydrateContent": "101.6 g",
 										"proteinContent": "28.0 g",
-										"fatContent": "33.8 g",
-										"vitaminAContent": "135.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "29.2 mg",
-										"calciumContent": "71.8 mg",
-										"ironContent": "1.5 mg"
+										"fatContent": "33.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안흥초등학교-태안/",
 				"headline": "안흥초등학교(태안) 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안흥초등학교-태안/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://anhung.cnees.kr",
-							"url": "http://anhung.cnees.kr",
-							"name": "안흥초등학교(태안) 급식 식단표 안내",
-							"description": "안흥초등학교(태안)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안흥초등학교(태안)",
+						"alternateName": "Anhung Elementary School",
+						"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32131 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "태안군",
+							"streetAddress": "충청남도 태안군 근흥면 죽림길 45 (근흥면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안흥초등학교(태안)",
-							"alternateName": "Anhung Elementary School",
-							"description": "충청남도태안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32131 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "태안군",
-								"streetAddress": "충청남도 태안군 근흥면 죽림길 45 (근흥면)"
-							},
-							"telephone": "041-674-9323",
-							"faxNumber": "041-674-9324",
-							"sameAs": ["http://anhung.cnees.kr"]
-						}
-					],
+						"telephone": "041-674-9323",
+						"faxNumber": "041-674-9324",
+						"sameAs": ["http://anhung.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "610.7 Kcal",
 										"carbohydrateContent": "49.3 g",
 										"proteinContent": "37.9 g",
-										"fatContent": "27.9 g",
-										"vitaminAContent": "113.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.5 mg",
-										"calciumContent": "121.5 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "27.9 g"
 									}
 								}
 							]

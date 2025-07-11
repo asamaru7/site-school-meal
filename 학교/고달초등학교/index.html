@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/고달초등학교/",
 				"headline": "고달초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/고달초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://godal.es.jne.kr",
-							"url": "http://godal.es.jne.kr",
-							"name": "고달초등학교 급식 식단표 안내",
-							"description": "고달초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 고달초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "고달초등학교",
+						"alternateName": "Godal Elementary School",
+						"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57546 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "곡성군",
+							"streetAddress": "전라남도 곡성군 고달면 곡고로 424 (고달면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "고달초등학교",
-							"alternateName": "Godal Elementary School",
-							"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57546 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "곡성군",
-								"streetAddress": "전라남도 곡성군 고달면 곡고로 424 (고달면)"
-							},
-							"telephone": "061-362-0004",
-							"faxNumber": "061-362-4229",
-							"sameAs": ["http://godal.es.jne.kr"]
-						}
-					],
+						"telephone": "061-362-0004",
+						"faxNumber": "061-362-4229",
+						"sameAs": ["http://godal.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "601.7 Kcal",
 										"carbohydrateContent": "89.9 g",
 										"proteinContent": "25.7 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "325.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "24.3 mg",
-										"calciumContent": "304.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

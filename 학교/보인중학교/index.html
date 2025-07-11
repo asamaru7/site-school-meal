@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보인중학교/",
 				"headline": "보인중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보인중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.boin.ms.kr",
-							"url": "http://www.boin.ms.kr",
-							"name": "보인중학교 급식 식단표 안내",
-							"description": "보인중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보인중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보인중학교",
+						"alternateName": "Boin Middle School",
+						"description": "서울특별시강동송파교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05742 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 오금로49길 18 (오금동/ 보인중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보인중학교",
-							"alternateName": "Boin Middle School",
-							"description": "서울특별시강동송파교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05742 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 오금로49길 18 (오금동/ 보인중고등학교)"
-							},
-							"telephone": "02-449-6017",
-							"faxNumber": "02-449-8068",
-							"sameAs": ["http://www.boin.ms.kr"]
-						}
-					],
+						"telephone": "02-449-6017",
+						"faxNumber": "02-449-8068",
+						"sameAs": ["http://www.boin.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "957.2 Kcal",
 										"carbohydrateContent": "107.1 g",
 										"proteinContent": "65.6 g",
-										"fatContent": "28.1 g",
-										"vitaminAContent": "272.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "2.8 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "380.8 mg",
-										"ironContent": "7.3 mg"
+										"fatContent": "28.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "854.9 Kcal",
 										"carbohydrateContent": "117.4 g",
 										"proteinContent": "30.5 g",
-										"fatContent": "27.4 g",
-										"vitaminAContent": "104.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "6.4 mg",
-										"calciumContent": "145.3 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "27.4 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "1394.3 Kcal",
 										"carbohydrateContent": "198.3 g",
 										"proteinContent": "58.6 g",
-										"fatContent": "40.4 g",
-										"vitaminAContent": "348.6 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "25.8 mg",
-										"calciumContent": "296.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "40.4 g"
 									}
 								}
 							]

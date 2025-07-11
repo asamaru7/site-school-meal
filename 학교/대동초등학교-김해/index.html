@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대동초등학교-김해/",
 				"headline": "대동초등학교(김해) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대동초등학교-김해/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "daedong-p.gne.go.kr",
-							"url": "daedong-p.gne.go.kr",
-							"name": "대동초등학교(김해) 급식 식단표 안내",
-							"description": "대동초등학교(김해)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대동초등학교(김해)",
+						"alternateName": "",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50809 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 대동면 대동로 613 (대동면/ 대동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대동초등학교(김해)",
-							"alternateName": "",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50809 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 대동면 대동로 613 (대동면/ 대동초등학교)"
-							},
-							"telephone": "055-335-6006",
-							"faxNumber": "055-335-6605",
-							"sameAs": ["daedong-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-335-6006",
+						"faxNumber": "055-335-6605",
+						"sameAs": ["daedong-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "698.4 Kcal",
 										"carbohydrateContent": "85.3 g",
 										"proteinContent": "26.8 g",
-										"fatContent": "26.9 g",
-										"vitaminAContent": "159.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "19.2 mg",
-										"calciumContent": "320.8 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "26.9 g"
 									}
 								}
 							]

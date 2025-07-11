@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/집현초등학교/",
 				"headline": "집현초등학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/집현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://jiphyeon.sjedues.kr/",
-							"url": "https://jiphyeon.sjedues.kr/",
-							"name": "집현초등학교 급식 식단표 안내",
-							"description": "집현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 집현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "집현초등학교",
+						"alternateName": "집현초등학교",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30141 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 집현서로 23 (집현동/ 집현초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "집현초등학교",
-							"alternateName": "집현초등학교",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30141 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 집현서로 23 (집현동/ 집현초등학교)"
-							},
-							"telephone": "044-902-6700",
-							"faxNumber": "044-902-6779",
-							"sameAs": ["https://jiphyeon.sjedues.kr/"]
-						}
-					],
+						"telephone": "044-902-6700",
+						"faxNumber": "044-902-6779",
+						"sameAs": ["https://jiphyeon.sjedues.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "809.4 Kcal",
 										"carbohydrateContent": "73.4 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "39.9 g",
-										"vitaminAContent": "140.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.1 mg",
-										"calciumContent": "120.9 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "39.9 g"
 									}
 								}
 							]

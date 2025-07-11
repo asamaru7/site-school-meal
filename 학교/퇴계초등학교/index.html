@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/퇴계초등학교/",
 				"headline": "퇴계초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/퇴계초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tgschool.gwe.sc.kr",
-							"url": "http://tgschool.gwe.sc.kr",
-							"name": "퇴계초등학교 급식 식단표 안내",
-							"description": "퇴계초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 퇴계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "퇴계초등학교",
+						"alternateName": "toegye elementary school",
+						"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24448 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 안마산로 123 (퇴계동/ 퇴계초중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "퇴계초등학교",
-							"alternateName": "toegye elementary school",
-							"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24448 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 안마산로 123 (퇴계동/ 퇴계초중학교)"
-							},
-							"telephone": "033-818-4013",
-							"faxNumber": "033-818-4015",
-							"sameAs": ["http://tgschool.gwe.sc.kr"]
-						}
-					],
+						"telephone": "033-818-4013",
+						"faxNumber": "033-818-4015",
+						"sameAs": ["http://tgschool.gwe.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1206.5 Kcal",
 										"carbohydrateContent": "153.1 g",
 										"proteinContent": "43.7 g",
-										"fatContent": "43.9 g",
-										"vitaminAContent": "83.2 R.E",
-										"thiaminContent": "0.1 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "6.8 mg",
-										"calciumContent": "1120.5 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "43.9 g"
 									}
 								}
 							]

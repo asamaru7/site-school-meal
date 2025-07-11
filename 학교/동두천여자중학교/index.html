@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동두천여자중학교/",
 				"headline": "동두천여자중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동두천여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://tdcgm-m.goedy.kr",
-							"url": "https://tdcgm-m.goedy.kr",
-							"name": "동두천여자중학교 급식 식단표 안내",
-							"description": "동두천여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동두천여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동두천여자중학교",
+						"alternateName": "DONGDUCHEON GIRLS MIDDLE SCHOOL",
+						"description": "경기도동두천양주교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "11314 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "동두천시",
+							"streetAddress": "경기도 동두천시 평화로2452번길 31 (생연동/ 동두천여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동두천여자중학교",
-							"alternateName": "DONGDUCHEON GIRLS MIDDLE SCHOOL",
-							"description": "경기도동두천양주교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "11314 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "동두천시",
-								"streetAddress": "경기도 동두천시 평화로2452번길 31 (생연동/ 동두천여자중학교)"
-							},
-							"telephone": "031-860-7400",
-							"faxNumber": "031-864-0852",
-							"sameAs": ["https://tdcgm-m.goedy.kr"]
-						}
-					],
+						"telephone": "031-860-7400",
+						"faxNumber": "031-864-0852",
+						"sameAs": ["https://tdcgm-m.goedy.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "771.0 Kcal",
 										"carbohydrateContent": "131.2 g",
 										"proteinContent": "22.6 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "149.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "17.3 mg",
-										"calciumContent": "182.6 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

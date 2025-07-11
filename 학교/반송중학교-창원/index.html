@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/반송중학교-창원/",
 				"headline": "반송중학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/반송중학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bansong-m.gne.go.kr/",
-							"url": "http://bansong-m.gne.go.kr/",
-							"name": "반송중학교(창원) 급식 식단표 안내",
-							"description": "반송중학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 반송중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "반송중학교(창원)",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51426 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 성산구",
+							"streetAddress": "경상남도 창원시 성산구 반송로 182 (반림동/ 반송중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "반송중학교(창원)",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51426 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 성산구",
-								"streetAddress": "경상남도 창원시 성산구 반송로 182 (반림동/ 반송중학교)"
-							},
-							"telephone": "055-282-2144",
-							"faxNumber": "055-266-3974",
-							"sameAs": ["http://bansong-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-282-2144",
+						"faxNumber": "055-266-3974",
+						"sameAs": ["http://bansong-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "880.4 Kcal",
 										"carbohydrateContent": "99.5 g",
 										"proteinContent": "47.6 g",
-										"fatContent": "31.6 g",
-										"vitaminAContent": "117.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "22.2 mg",
-										"calciumContent": "249.5 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "31.6 g"
 									}
 								}
 							]

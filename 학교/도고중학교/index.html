@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도고중학교/",
 				"headline": "도고중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도고중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dogo.cnems.kr",
-							"url": "http://dogo.cnems.kr",
-							"name": "도고중학교 급식 식단표 안내",
-							"description": "도고중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도고중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도고중학교",
+						"alternateName": "Dogo Middle School",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31552 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 도고면 도고산로 573 (도고면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도고중학교",
-							"alternateName": "Dogo Middle School",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31552 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 도고면 도고산로 573 (도고면)"
-							},
-							"telephone": "041-544-7601",
-							"faxNumber": "041-542-7695",
-							"sameAs": ["http://dogo.cnems.kr"]
-						}
-					]
+						"telephone": "041-544-7601",
+						"faxNumber": "041-542-7695",
+						"sameAs": ["http://dogo.cnems.kr"]
+					}
 				]
 			}
 		</script>

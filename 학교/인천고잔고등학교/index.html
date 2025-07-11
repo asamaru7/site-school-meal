@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천고잔고등학교/",
 				"headline": "인천고잔고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천고잔고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gojan.icehs.kr",
-							"url": "http://gojan.icehs.kr",
-							"name": "인천고잔고등학교 급식 식단표 안내",
-							"description": "인천고잔고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천고잔고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천고잔고등학교",
+						"alternateName": "INCHEON GOJAN HIGH SCHOOL",
+						"description": "인천광역시교육청 / 공립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21681 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "남동구",
+							"streetAddress": "인천광역시 남동구 에코중앙로 117 (논현동/고잔고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천고잔고등학교",
-							"alternateName": "INCHEON GOJAN HIGH SCHOOL",
-							"description": "인천광역시교육청 / 공립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21681 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "남동구",
-								"streetAddress": "인천광역시 남동구 에코중앙로 117 (논현동/고잔고등학교)"
-							},
-							"telephone": "032-430-2400",
-							"faxNumber": "032)435-9040",
-							"sameAs": ["http://gojan.icehs.kr"]
-						}
-					],
+						"telephone": "032-430-2400",
+						"faxNumber": "032)435-9040",
+						"sameAs": ["http://gojan.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "848.6 Kcal",
 										"carbohydrateContent": "92.3 g",
 										"proteinContent": "38.6 g",
-										"fatContent": "34.6 g",
-										"vitaminAContent": "178.1 R.E",
-										"thiaminContent": "5.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "26.1 mg",
-										"calciumContent": "297.0 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "34.6 g"
 									}
 								}
 							]

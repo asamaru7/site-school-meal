@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여수송현초등학교/",
 				"headline": "여수송현초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여수송현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yssonghyeon.es.jne.kr",
-							"url": "http://yssonghyeon.es.jne.kr",
-							"name": "여수송현초등학교 급식 식단표 안내",
-							"description": "여수송현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여수송현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여수송현초등학교",
+						"alternateName": "Yeosu SongHyeon Elementary School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59694 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 웅천로 219 (웅천동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여수송현초등학교",
-							"alternateName": "Yeosu SongHyeon Elementary School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59694 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 웅천로 219 (웅천동)"
-							},
-							"telephone": "061-689-2905",
-							"faxNumber": "061-692-3566",
-							"sameAs": ["http://yssonghyeon.es.jne.kr"]
-						}
-					],
+						"telephone": "061-689-2905",
+						"faxNumber": "061-692-3566",
+						"sameAs": ["http://yssonghyeon.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "731.3 Kcal",
 										"carbohydrateContent": "85.4 g",
 										"proteinContent": "26.4 g",
-										"fatContent": "30.8 g",
-										"vitaminAContent": "113.3 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.3 mg",
-										"calciumContent": "230.6 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "30.8 g"
 									}
 								}
 							]

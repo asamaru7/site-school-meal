@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/세종중학교/",
 				"headline": "세종중학교  급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/세종중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sejong.sjedums.kr",
-							"url": "http://sejong.sjedums.kr",
-							"name": "세종중학교  급식 식단표 안내",
-							"description": "세종중학교 의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 세종중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "세종중학교 ",
+						"alternateName": "Sejong Middle School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30024 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 조치원읍 새내로 160 / (세종중학교) (조치원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "세종중학교 ",
-							"alternateName": "Sejong Middle School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30024 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 조치원읍 새내로 160 / (세종중학교) (조치원읍)"
-							},
-							"telephone": "044-864-2071",
-							"faxNumber": "044-866-9996",
-							"sameAs": ["http://sejong.sjedums.kr"]
-						}
-					],
+						"telephone": "044-864-2071",
+						"faxNumber": "044-866-9996",
+						"sameAs": ["http://sejong.sjedums.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "771.1 Kcal",
 										"carbohydrateContent": "99.8 g",
 										"proteinContent": "46.9 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "103.4 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.8 mg",
-										"calciumContent": "246.4 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

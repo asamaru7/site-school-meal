@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대룡초등학교/",
 				"headline": "대룡초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대룡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/kdrschool",
-							"url": "http://school.gyo6.net/kdrschool",
-							"name": "대룡초등학교 급식 식단표 안내",
-							"description": "대룡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대룡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대룡초등학교",
+						"alternateName": "Daeryong Elementary School",
+						"description": "경상북도김천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39569 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "김천시",
+							"streetAddress": "경상북도 김천시 대항면 대룡로 82 (대항면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대룡초등학교",
-							"alternateName": "Daeryong Elementary School",
-							"description": "경상북도김천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39569 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "김천시",
-								"streetAddress": "경상북도 김천시 대항면 대룡로 82 (대항면)"
-							},
-							"telephone": "054-436-6116",
-							"faxNumber": "054-436-6458",
-							"sameAs": ["http://school.gyo6.net/kdrschool"]
-						}
-					],
+						"telephone": "054-436-6116",
+						"faxNumber": "054-436-6458",
+						"sameAs": ["http://school.gyo6.net/kdrschool"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "684.2 Kcal",
 										"carbohydrateContent": "95.2 g",
 										"proteinContent": "30.4 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "103.8 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.0 mg",
-										"calciumContent": "178.3 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "19.8 g"
 									}
 								}
 							]

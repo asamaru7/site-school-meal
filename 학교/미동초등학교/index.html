@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미동초등학교/",
 				"headline": "미동초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "midong.gwe.es.kr",
-							"url": "midong.gwe.es.kr",
-							"name": "미동초등학교 급식 식단표 안내",
-							"description": "미동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미동초등학교",
+						"alternateName": "Midong Elementary School",
+						"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26001 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "태백시",
+							"streetAddress": "강원특별자치도 태백시 역둔원동로 1405 (원동/ 미동초교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미동초등학교",
-							"alternateName": "Midong Elementary School",
-							"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26001 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "태백시",
-								"streetAddress": "강원특별자치도 태백시 역둔원동로 1405 (원동/ 미동초교)"
-							},
-							"telephone": "033-552-0095",
-							"faxNumber": "033-552-9277",
-							"sameAs": ["midong.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-552-0095",
+						"faxNumber": "033-552-9277",
+						"sameAs": ["midong.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "796.0 Kcal",
 										"carbohydrateContent": "107.2 g",
 										"proteinContent": "27.9 g",
-										"fatContent": "28.9 g",
-										"vitaminAContent": "246.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "25.2 mg",
-										"calciumContent": "369.8 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "28.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김녕초등학교동복분교장/",
 				"headline": "김녕초등학교동복분교장 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김녕초등학교동복분교장/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kimnyeong.jje.es.kr",
-							"url": "http://kimnyeong.jje.es.kr",
-							"name": "김녕초등학교동복분교장 급식 식단표 안내",
-							"description": "김녕초등학교동복분교장의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김녕초등학교동복분교장 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김녕초등학교동복분교장",
+						"alternateName": "KimNyeong Elementaryschool DongBok Branch",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63347 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 구좌읍 동복로 66-5 (구좌읍/김녕초등학교분교장)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김녕초등학교동복분교장",
-							"alternateName": "KimNyeong Elementaryschool DongBok Branch",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63347 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 구좌읍 동복로 66-5 (구좌읍/김녕초등학교분교장)"
-							},
-							"telephone": "064-780-5900",
-							"faxNumber": "064-780-5990",
-							"sameAs": ["http://kimnyeong.jje.es.kr"]
-						}
-					],
+						"telephone": "064-780-5900",
+						"faxNumber": "064-780-5990",
+						"sameAs": ["http://kimnyeong.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "623.7 Kcal",
 										"carbohydrateContent": "86.5 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "192.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "5.5 mg",
-										"calciumContent": "297.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

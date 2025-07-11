@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전남고등학교/",
 				"headline": "전남고등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전남고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeonnam.gen.hs.kr",
-							"url": "http://jeonnam.gen.hs.kr",
-							"name": "전남고등학교 급식 식단표 안내",
-							"description": "전남고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전남고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전남고등학교",
+						"alternateName": "Jeonnam High school",
+						"description": "광주광역시교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61959 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "서구",
+							"streetAddress": "광주광역시 서구 상무공원로 32 (치평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전남고등학교",
-							"alternateName": "Jeonnam High school",
-							"description": "광주광역시교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61959 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "서구",
-								"streetAddress": "광주광역시 서구 상무공원로 32 (치평동)"
-							},
-							"telephone": "062-370-8500",
-							"faxNumber": "062-370-8509",
-							"sameAs": ["http://jeonnam.gen.hs.kr"]
-						}
-					],
+						"telephone": "062-370-8500",
+						"faxNumber": "062-370-8509",
+						"sameAs": ["http://jeonnam.gen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1183.6 Kcal",
 										"carbohydrateContent": "127.5 g",
 										"proteinContent": "50.4 g",
-										"fatContent": "51.6 g",
-										"vitaminAContent": "85.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "59.4 mg",
-										"calciumContent": "303.1 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "51.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1052.8 Kcal",
 										"carbohydrateContent": "93.5 g",
 										"proteinContent": "67.9 g",
-										"fatContent": "42.5 g",
-										"vitaminAContent": "255.3 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "23.6 mg",
-										"calciumContent": "185.3 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "42.5 g"
 									}
 								}
 							]

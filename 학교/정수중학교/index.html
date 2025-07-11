@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/정수중학교/",
 				"headline": "정수중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/정수중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/jeongsu-m/",
-							"url": "http://school.cbe.go.kr/jeongsu-m/",
-							"name": "정수중학교 급식 식단표 안내",
-							"description": "정수중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 정수중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "정수중학교",
+						"alternateName": "Jeongsu middle school",
+						"description": "충청북도영동교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "29163 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "영동군",
+							"streetAddress": "충청북도 영동군 양산면 송호로1길 56 (양산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "정수중학교",
-							"alternateName": "Jeongsu middle school",
-							"description": "충청북도영동교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "29163 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "영동군",
-								"streetAddress": "충청북도 영동군 양산면 송호로1길 56 (양산면)"
-							},
-							"telephone": "043-744-8079",
-							"faxNumber": "043-744-0195",
-							"sameAs": ["http://school.cbe.go.kr/jeongsu-m/"]
-						}
-					],
+						"telephone": "043-744-8079",
+						"faxNumber": "043-744-0195",
+						"sameAs": ["http://school.cbe.go.kr/jeongsu-m/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1030.6 Kcal",
 										"carbohydrateContent": "181.2 g",
 										"proteinContent": "34.9 g",
-										"fatContent": "18.1 g",
-										"vitaminAContent": "493.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "56.0 mg",
-										"calciumContent": "504.6 mg",
-										"ironContent": "7.2 mg"
+										"fatContent": "18.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사능초등학교/",
 				"headline": "사능초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사능초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.saneung.es.kr/",
-							"url": "http://www.saneung.es.kr/",
-							"name": "사능초등학교 급식 식단표 안내",
-							"description": "사능초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사능초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사능초등학교",
+						"alternateName": "Saneung Elementary School",
+						"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12140 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "남양주시",
+							"streetAddress": "경기도 남양주시 진건읍 사릉로372번길 2 / 사능초등학교 (진건읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사능초등학교",
-							"alternateName": "Saneung Elementary School",
-							"description": "경기도구리남양주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12140 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "남양주시",
-								"streetAddress": "경기도 남양주시 진건읍 사릉로372번길 2 / 사능초등학교 (진건읍)"
-							},
-							"telephone": "031-574-1726",
-							"faxNumber": "031-574-1495",
-							"sameAs": ["http://www.saneung.es.kr/"]
-						}
-					],
+						"telephone": "031-574-1726",
+						"faxNumber": "031-574-1495",
+						"sameAs": ["http://www.saneung.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "579.0 Kcal",
 										"carbohydrateContent": "76.2 g",
 										"proteinContent": "29.5 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "271.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.6 mg",
-										"calciumContent": "437.8 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

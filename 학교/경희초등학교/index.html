@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경희초등학교/",
 				"headline": "경희초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경희초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kyunghee.es.kr",
-							"url": "http://www.kyunghee.es.kr",
-							"name": "경희초등학교 급식 식단표 안내",
-							"description": "경희초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경희초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경희초등학교",
+						"alternateName": "Kyunghee Elementary School",
+						"description": "서울특별시동부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02447 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 경희대로 26 / 경희초등학교 (회기동/ 경희대학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경희초등학교",
-							"alternateName": "Kyunghee Elementary School",
-							"description": "서울특별시동부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02447 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 경희대로 26 / 경희초등학교 (회기동/ 경희대학교)"
-							},
-							"telephone": "02-962-4300",
-							"faxNumber": "02-967-2498",
-							"sameAs": ["http://www.kyunghee.es.kr"]
-						}
-					],
+						"telephone": "02-962-4300",
+						"faxNumber": "02-967-2498",
+						"sameAs": ["http://www.kyunghee.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "552.8 Kcal",
 										"carbohydrateContent": "65.1 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "121.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "42.5 mg",
-										"calciumContent": "261.3 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

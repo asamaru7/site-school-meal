@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/소망초등학교/",
 				"headline": "소망초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/소망초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://somang.caees.kr",
-							"url": "http://somang.caees.kr",
-							"name": "소망초등학교 급식 식단표 안내",
-							"description": "소망초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 소망초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "소망초등학교",
+						"alternateName": "Somang  Elementary  School",
+						"description": "충청남도천안교육지원청 / 공립 / 남여공학 /   ",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31048 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "천안시 서북구",
+							"streetAddress": "충청남도 천안시 서북구 성거읍 역전말3길 102 / 소망초등학교 (성거읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "소망초등학교",
-							"alternateName": "Somang  Elementary  School",
-							"description": "충청남도천안교육지원청 / 공립 / 남여공학 /   ",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31048 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "천안시 서북구",
-								"streetAddress": "충청남도 천안시 서북구 성거읍 역전말3길 102 / 소망초등학교 (성거읍)"
-							},
-							"telephone": "041-587-0064",
-							"faxNumber": "041-587-0071",
-							"sameAs": ["http://somang.caees.kr"]
-						}
-					]
+						"telephone": "041-587-0064",
+						"faxNumber": "041-587-0071",
+						"sameAs": ["http://somang.caees.kr"]
+					}
 				]
 			}
 		</script>

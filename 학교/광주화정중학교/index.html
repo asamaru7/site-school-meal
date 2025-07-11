@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주화정중학교/",
 				"headline": "광주화정중학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주화정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hwajeong.gen.ms.kr",
-							"url": "http://hwajeong.gen.ms.kr",
-							"name": "광주화정중학교 급식 식단표 안내",
-							"description": "광주화정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주화정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주화정중학교",
+						"alternateName": "Gwangju Hwajeong Middle School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62039 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "서구",
+							"streetAddress": "광주광역시 서구 화운로 53 (화정동/광주화정중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주화정중학교",
-							"alternateName": "Gwangju Hwajeong Middle School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62039 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "서구",
-								"streetAddress": "광주광역시 서구 화운로 53 (화정동/광주화정중학교)"
-							},
-							"telephone": "062-380-3700",
-							"faxNumber": "062-380-3709",
-							"sameAs": ["http://hwajeong.gen.ms.kr"]
-						}
-					],
+						"telephone": "062-380-3700",
+						"faxNumber": "062-380-3709",
+						"sameAs": ["http://hwajeong.gen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "781.1 Kcal",
 										"carbohydrateContent": "124.6 g",
 										"proteinContent": "49.7 g",
-										"fatContent": "9.1 g",
-										"vitaminAContent": "100.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "315.2 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "9.1 g"
 									}
 								}
 							]

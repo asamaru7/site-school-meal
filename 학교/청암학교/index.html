@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청암학교/",
 				"headline": "청암학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청암학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/cheongam-s/",
-							"url": "http://school.cbe.go.kr/cheongam-s/",
-							"name": "청암학교 급식 식단표 안내",
-							"description": "청암학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청암학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청암학교",
+						"alternateName": "Cheongam School",
+						"description": "충청북도교육청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27130 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 의병대로45길 58 (흑석동/ 다하(청암학교))"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청암학교",
-							"alternateName": "Cheongam School",
-							"description": "충청북도교육청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27130 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 의병대로45길 58 (흑석동/ 다하(청암학교))"
-							},
-							"telephone": "043-649-0214",
-							"faxNumber": "043-649-0229",
-							"sameAs": ["http://school.cbe.go.kr/cheongam-s/"]
-						}
-					],
+						"telephone": "043-649-0214",
+						"faxNumber": "043-649-0229",
+						"sameAs": ["http://school.cbe.go.kr/cheongam-s/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "826.1 Kcal",
 										"carbohydrateContent": "125.2 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "155.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "19.9 mg",
-										"calciumContent": "249.5 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

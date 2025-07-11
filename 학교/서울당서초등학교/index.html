@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울당서초등학교/",
 				"headline": "서울당서초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울당서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dangseo.es.kr/",
-							"url": "http://dangseo.es.kr/",
-							"name": "서울당서초등학교 급식 식단표 안내",
-							"description": "서울당서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울당서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울당서초등학교",
+						"alternateName": "Seoul Dangseo Elementary School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07213 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "영등포구",
+							"streetAddress": "서울특별시 영등포구 당산로 187 / 서울당서초등학교 (당산동5가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울당서초등학교",
-							"alternateName": "Seoul Dangseo Elementary School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07213 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "영등포구",
-								"streetAddress": "서울특별시 영등포구 당산로 187 / 서울당서초등학교 (당산동5가)"
-							},
-							"telephone": "02-2675-4532",
-							"faxNumber": "02-2675-3722",
-							"sameAs": ["http://dangseo.es.kr/"]
-						}
-					],
+						"telephone": "02-2675-4532",
+						"faxNumber": "02-2675-3722",
+						"sameAs": ["http://dangseo.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "744.2 Kcal",
 										"carbohydrateContent": "97.3 g",
 										"proteinContent": "35.9 g",
-										"fatContent": "22.1 g",
-										"vitaminAContent": "179.8 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "10.6 mg",
-										"calciumContent": "342.6 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "22.1 g"
 									}
 								}
 							]

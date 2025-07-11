@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/월랑초등학교/",
 				"headline": "월랑초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/월랑초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wollang.cnees.kr",
-							"url": "http://wollang.cnees.kr",
-							"name": "월랑초등학교 급식 식단표 안내",
-							"description": "월랑초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 월랑초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "월랑초등학교",
+						"alternateName": "Wollang Elementary School",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31416 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 음봉면 음봉로 515-50 (음봉면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "월랑초등학교",
-							"alternateName": "Wollang Elementary School",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31416 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 음봉면 음봉로 515-50 (음봉면)"
-							},
-							"telephone": "041-543-3559",
-							"faxNumber": "041-542-5448",
-							"sameAs": ["http://wollang.cnees.kr"]
-						}
-					]
+						"telephone": "041-543-3559",
+						"faxNumber": "041-542-5448",
+						"sameAs": ["http://wollang.cnees.kr"]
+					}
 				]
 			}
 		</script>

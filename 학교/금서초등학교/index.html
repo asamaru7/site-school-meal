@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금서초등학교/",
 				"headline": "금서초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://geumseo-p.gne.go.kr/",
-							"url": "http://geumseo-p.gne.go.kr/",
-							"name": "금서초등학교 급식 식단표 안내",
-							"description": "금서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금서초등학교",
+						"alternateName": "Geumseo Elementary School",
+						"description": "산청교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52228 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "산청군",
+							"streetAddress": "경상남도 산청군 금서면 화계오봉로 12 (금서면/ 금서초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금서초등학교",
-							"alternateName": "Geumseo Elementary School",
-							"description": "산청교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52228 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "산청군",
-								"streetAddress": "경상남도 산청군 금서면 화계오봉로 12 (금서면/ 금서초등학교)"
-							},
-							"telephone": "055-973-0020",
-							"faxNumber": "055-973-0019",
-							"sameAs": ["http://geumseo-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-973-0020",
+						"faxNumber": "055-973-0019",
+						"sameAs": ["http://geumseo-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "701.1 Kcal",
 										"carbohydrateContent": "117.3 g",
 										"proteinContent": "37.5 g",
-										"fatContent": "8.6 g",
-										"vitaminAContent": "330.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "28.2 mg",
-										"calciumContent": "291.3 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "8.6 g"
 									}
 								}
 							]

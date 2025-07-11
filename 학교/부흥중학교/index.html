@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부흥중학교/",
 				"headline": "부흥중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부흥중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/buheung-m",
-							"url": "http://school.busanedu.net/buheung-m",
-							"name": "부흥중학교 급식 식단표 안내",
-							"description": "부흥중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부흥중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부흥중학교",
+						"alternateName": "Buheung Middle School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48077 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 좌동순환로 226 (좌동/ 부흥중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부흥중학교",
-							"alternateName": "Buheung Middle School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48077 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 좌동순환로 226 (좌동/ 부흥중학교)"
-							},
-							"telephone": "051-709-2300",
-							"faxNumber": "051-701-0176",
-							"sameAs": ["http://school.busanedu.net/buheung-m"]
-						}
-					],
+						"telephone": "051-709-2300",
+						"faxNumber": "051-701-0176",
+						"sameAs": ["http://school.busanedu.net/buheung-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "778.7 Kcal",
 										"carbohydrateContent": "113.7 g",
 										"proteinContent": "34.9 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "193.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "17.3 mg",
-										"calciumContent": "348.2 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

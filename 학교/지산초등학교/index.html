@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지산초등학교/",
 				"headline": "지산초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.jisan.es.kr",
-							"url": "www.jisan.es.kr",
-							"name": "지산초등학교 급식 식단표 안내",
-							"description": "지산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지산초등학교",
+						"alternateName": "Jisan Elementary School",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10895 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 경의로 1274 (와동동/ 지산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지산초등학교",
-							"alternateName": "Jisan Elementary School",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10895 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 경의로 1274 (와동동/ 지산초등학교)"
-							},
-							"telephone": "031-945-8342",
-							"faxNumber": "031-945-2389",
-							"sameAs": ["www.jisan.es.kr"]
-						}
-					],
+						"telephone": "031-945-8342",
+						"faxNumber": "031-945-2389",
+						"sameAs": ["www.jisan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "637.9 Kcal",
 										"carbohydrateContent": "107.2 g",
 										"proteinContent": "21.2 g",
-										"fatContent": "13.8 g",
-										"vitaminAContent": "105.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "63.2 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "13.8 g"
 									}
 								}
 							]

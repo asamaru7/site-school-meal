@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이리남중학교/",
 				"headline": "이리남중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이리남중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/irinam-m",
-							"url": "https://school.jbedu.kr/irinam-m",
-							"name": "이리남중학교 급식 식단표 안내",
-							"description": "이리남중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이리남중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이리남중학교",
+						"alternateName": "Iri-nam Middle School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54658 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 배산로3길 55 이리남중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이리남중학교",
-							"alternateName": "Iri-nam Middle School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54658 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 배산로3길 55 이리남중학교"
-							},
-							"telephone": "063-841-6923",
-							"faxNumber": "063-842-5895",
-							"sameAs": ["https://school.jbedu.kr/irinam-m"]
-						}
-					],
+						"telephone": "063-841-6923",
+						"faxNumber": "063-842-5895",
+						"sameAs": ["https://school.jbedu.kr/irinam-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "991.9 Kcal",
 										"carbohydrateContent": "138.2 g",
 										"proteinContent": "49.0 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "145.8 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.3 mg",
-										"calciumContent": "185.8 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

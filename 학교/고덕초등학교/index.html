@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/고덕초등학교/",
 				"headline": "고덕초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/고덕초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.goept.kr/godeok-e/main.do",
-							"url": "www.goept.kr/godeok-e/main.do",
-							"name": "고덕초등학교 급식 식단표 안내",
-							"description": "고덕초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 고덕초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "고덕초등학교",
+						"alternateName": "Godok Elementary School",
+						"description": "경기도평택교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18016 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "평택시",
+							"streetAddress": "경기도 평택시 함박산로 161 (고덕동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "고덕초등학교",
-							"alternateName": "Godok Elementary School",
-							"description": "경기도평택교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18016 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "평택시",
-								"streetAddress": "경기도 평택시 함박산로 161 (고덕동)"
-							},
-							"telephone": "031-647-5305",
-							"faxNumber": "031-647-5399",
-							"sameAs": ["www.goept.kr/godeok-e/main.do"]
-						}
-					],
+						"telephone": "031-647-5305",
+						"faxNumber": "031-647-5399",
+						"sameAs": ["www.goept.kr/godeok-e/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "505.7 Kcal",
 										"carbohydrateContent": "59.8 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "13.4 g",
-										"vitaminAContent": "138.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "28.7 mg",
-										"calciumContent": "195.3 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "13.4 g"
 									}
 								}
 							]

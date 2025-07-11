@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/임호중학교/",
 				"headline": "임호중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/임호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "imho-m.gne.go.kr",
-							"url": "imho-m.gne.go.kr",
-							"name": "임호중학교 급식 식단표 안내",
-							"description": "임호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 임호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "임호중학교",
+						"alternateName": "",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50953 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 내외로 117 (내동/ 임호중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "임호중학교",
-							"alternateName": "",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50953 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 내외로 117 (내동/ 임호중학교)"
-							},
-							"telephone": "055-334-1407",
-							"faxNumber": "055-334-1419",
-							"sameAs": ["imho-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-334-1407",
+						"faxNumber": "055-334-1419",
+						"sameAs": ["imho-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "830.9 Kcal",
 										"carbohydrateContent": "122.2 g",
 										"proteinContent": "19.0 g",
-										"fatContent": "29.0 g",
-										"vitaminAContent": "106.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "15.0 mg",
-										"calciumContent": "166.1 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "29.0 g"
 									}
 								}
 							]

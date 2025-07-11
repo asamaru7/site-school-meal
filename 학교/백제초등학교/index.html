@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/백제초등학교/",
 				"headline": "백제초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/백제초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://baekje.cnees.kr/",
-							"url": "http://baekje.cnees.kr/",
-							"name": "백제초등학교 급식 식단표 안내",
-							"description": "백제초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 백제초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "백제초등학교",
+						"alternateName": "Baekje Elementary School",
+						"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33155 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 부여읍 계백로 321 / 백제초등학교 (부여읍/ 백제초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "백제초등학교",
-							"alternateName": "Baekje Elementary School",
-							"description": "충청남도부여교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33155 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 부여읍 계백로 321 / 백제초등학교 (부여읍/ 백제초등학교)"
-							},
-							"telephone": "041-833-7263",
-							"faxNumber": "041-837-0611",
-							"sameAs": ["http://baekje.cnees.kr/"]
-						}
-					],
+						"telephone": "041-833-7263",
+						"faxNumber": "041-837-0611",
+						"sameAs": ["http://baekje.cnees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "729.3 Kcal",
 										"carbohydrateContent": "113.4 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "74.4 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "404.0 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

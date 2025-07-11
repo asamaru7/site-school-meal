@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/마산중앙고등학교/",
 				"headline": "마산중앙고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/마산중앙고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://msja-h.gne.go.kr",
-							"url": "http://msja-h.gne.go.kr",
-							"name": "마산중앙고등학교 급식 식단표 안내",
-							"description": "마산중앙고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 마산중앙고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "마산중앙고등학교",
+						"alternateName": "",
+						"description": "경상남도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51759 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 고운로 103 (신월동/ 마산중앙고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "마산중앙고등학교",
-							"alternateName": "",
-							"description": "경상남도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51759 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 고운로 103 (신월동/ 마산중앙고등학교)"
-							},
-							"telephone": "055-246-9350",
-							"faxNumber": "055-222-1804",
-							"sameAs": ["http://msja-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-246-9350",
+						"faxNumber": "055-222-1804",
+						"sameAs": ["http://msja-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "958.6 Kcal",
 										"carbohydrateContent": "146.8 g",
 										"proteinContent": "39.0 g",
-										"fatContent": "22.8 g",
-										"vitaminAContent": "144.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "19.6 mg",
-										"calciumContent": "300.9 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "22.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1136.3 Kcal",
 										"carbohydrateContent": "163.1 g",
 										"proteinContent": "33.8 g",
-										"fatContent": "37.9 g",
-										"vitaminAContent": "61.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "17.1 mg",
-										"calciumContent": "162.9 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "37.9 g"
 									}
 								}
 							]

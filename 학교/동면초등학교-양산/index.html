@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동면초등학교-양산/",
 				"headline": "동면초등학교(양산) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동면초등학교-양산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongmyon-p.gne.go.kr",
-							"url": "http://dongmyon-p.gne.go.kr",
-							"name": "동면초등학교(양산) 급식 식단표 안내",
-							"description": "동면초등학교(양산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동면초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동면초등학교(양산)",
+						"alternateName": "Dongmyon Elementary School",
+						"description": "양산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50644 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 동면 내송큰들1길 14 동면초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동면초등학교(양산)",
-							"alternateName": "Dongmyon Elementary School",
-							"description": "양산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50644 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 동면 내송큰들1길 14 동면초등학교"
-							},
-							"telephone": "055-388-7062",
-							"faxNumber": "055-388-7064",
-							"sameAs": ["http://dongmyon-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-388-7062",
+						"faxNumber": "055-388-7064",
+						"sameAs": ["http://dongmyon-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "647.6 Kcal",
 										"carbohydrateContent": "110.9 g",
 										"proteinContent": "21.4 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "125.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "26.7 mg",
-										"calciumContent": "219.1 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

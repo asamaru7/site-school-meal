@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사곡고등학교/",
 				"headline": "사곡고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사곡고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/sagok",
-							"url": "http://school.gyo6.net/sagok",
-							"name": "사곡고등학교 급식 식단표 안내",
-							"description": "사곡고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사곡고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사곡고등학교",
+						"alternateName": "Sagok High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39331 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 박정희로 195 (사곡동/사곡고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사곡고등학교",
-							"alternateName": "Sagok High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39331 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 박정희로 195 (사곡동/사곡고등학교)"
-							},
-							"telephone": "054-713-2500",
-							"faxNumber": "054-464-7197",
-							"sameAs": ["http://school.gyo6.net/sagok"]
-						}
-					],
+						"telephone": "054-713-2500",
+						"faxNumber": "054-464-7197",
+						"sameAs": ["http://school.gyo6.net/sagok"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.1 Kcal",
 										"carbohydrateContent": "132.8 g",
 										"proteinContent": "33.8 g",
-										"fatContent": "13.2 g",
-										"vitaminAContent": "66.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "14.8 mg",
-										"calciumContent": "146.8 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "13.2 g"
 									}
 								}
 							]

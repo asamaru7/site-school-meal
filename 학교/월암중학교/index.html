@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/월암중학교/",
 				"headline": "월암중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/월암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://wolam.dge.ms.kr",
-							"url": "https://wolam.dge.ms.kr",
-							"name": "월암중학교 급식 식단표 안내",
-							"description": "월암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 월암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "월암중학교",
+						"alternateName": "Wolam Middle School",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42753 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 조암로6길 33 (월성동/ 월암중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "월암중학교",
-							"alternateName": "Wolam Middle School",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42753 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 조암로6길 33 (월성동/ 월암중학교)"
-							},
-							"telephone": "053-234-8280",
-							"faxNumber": "053-635-2309",
-							"sameAs": ["https://wolam.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-234-8280",
+						"faxNumber": "053-635-2309",
+						"sameAs": ["https://wolam.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "862.9 Kcal",
 										"carbohydrateContent": "125.1 g",
 										"proteinContent": "43.1 g",
-										"fatContent": "20.7 g",
-										"vitaminAContent": "167.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "29.9 mg",
-										"calciumContent": "241.5 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "20.7 g"
 									}
 								}
 							]

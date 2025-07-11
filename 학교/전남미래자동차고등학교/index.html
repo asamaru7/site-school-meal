@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전남미래자동차고등학교/",
 				"headline": "전남미래자동차고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전남미래자동차고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeongnamjin.hs.jne.kr",
-							"url": "http://jeongnamjin.hs.jne.kr",
-							"name": "전남미래자동차고등학교 급식 식단표 안내",
-							"description": "전남미래자동차고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전남미래자동차고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전남미래자동차고등학교",
+						"alternateName": "Jeonnam miraejadongcha high school",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59313 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "장흥군",
+							"streetAddress": "전라남도 장흥군 장흥읍 행원강변길 , 8 (장흥읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전남미래자동차고등학교",
-							"alternateName": "Jeonnam miraejadongcha high school",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59313 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "장흥군",
-								"streetAddress": "전라남도 장흥군 장흥읍 행원강변길 , 8 (장흥읍)"
-							},
-							"telephone": "061-863-2993",
-							"faxNumber": "061-863-8452",
-							"sameAs": ["http://jeongnamjin.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-863-2993",
+						"faxNumber": "061-863-8452",
+						"sameAs": ["http://jeongnamjin.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "898.4 Kcal",
 										"carbohydrateContent": "139.8 g",
 										"proteinContent": "28.9 g",
-										"fatContent": "23.8 g",
-										"vitaminAContent": "51.4 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "5.9 mg",
-										"calciumContent": "409.4 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "23.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "799.3 Kcal",
 										"carbohydrateContent": "115.3 g",
 										"proteinContent": "32.3 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "93.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "17.3 mg",
-										"calciumContent": "229.0 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

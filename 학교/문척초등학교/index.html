@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문척초등학교/",
 				"headline": "문척초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문척초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://muncheok.es.jne.kr",
-							"url": "http://muncheok.es.jne.kr",
-							"name": "문척초등학교 급식 식단표 안내",
-							"description": "문척초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문척초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문척초등학교",
+						"alternateName": "Muncheok Elementary School",
+						"description": "전라남도구례교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57630 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "구례군",
+							"streetAddress": "전라남도 구례군 문척면 수달생태로 270 (문척면/ 문척초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문척초등학교",
-							"alternateName": "Muncheok Elementary School",
-							"description": "전라남도구례교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57630 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "구례군",
-								"streetAddress": "전라남도 구례군 문척면 수달생태로 270 (문척면/ 문척초등학교)"
-							},
-							"telephone": "061-781-5306",
-							"faxNumber": "061-781-6906",
-							"sameAs": ["http://muncheok.es.jne.kr"]
-						}
-					],
+						"telephone": "061-781-5306",
+						"faxNumber": "061-781-6906",
+						"sameAs": ["http://muncheok.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "595.5 Kcal",
 										"carbohydrateContent": "95.2 g",
 										"proteinContent": "22.9 g",
-										"fatContent": "13.5 g",
-										"vitaminAContent": "188.4 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "27.9 mg",
-										"calciumContent": "255.9 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "13.5 g"
 									}
 								}
 							]

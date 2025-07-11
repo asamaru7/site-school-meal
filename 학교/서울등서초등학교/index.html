@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울등서초등학교/",
 				"headline": "서울등서초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울등서초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://deungseo.sen.es.kr",
-							"url": "http://deungseo.sen.es.kr",
-							"name": "서울등서초등학교 급식 식단표 안내",
-							"description": "서울등서초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울등서초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울등서초등학교",
+						"alternateName": "Seoul Deungseo Elementary School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07656 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 화곡로58길 86 (화곡동/등서초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울등서초등학교",
-							"alternateName": "Seoul Deungseo Elementary School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07656 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 화곡로58길 86 (화곡동/등서초등학교)"
-							},
-							"telephone": "02-2695-4555",
-							"faxNumber": "02-2601-3680",
-							"sameAs": ["http://deungseo.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2695-4555",
+						"faxNumber": "02-2601-3680",
+						"sameAs": ["http://deungseo.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "724.6 Kcal",
 										"carbohydrateContent": "88.1 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "25.3 g",
-										"vitaminAContent": "276.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "25.6 mg",
-										"calciumContent": "309.6 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "25.3 g"
 									}
 								}
 							]

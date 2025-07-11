@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/주봉초등학교/",
 				"headline": "주봉초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/주봉초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jubong.gwe.es.kr/",
-							"url": "http://jubong.gwe.es.kr/",
-							"name": "주봉초등학교 급식 식단표 안내",
-							"description": "주봉초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 주봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "주봉초등학교",
+						"alternateName": "Jubong Elementary School",
+						"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25126 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "홍천군",
+							"streetAddress": "강원특별자치도 홍천군 홍천읍 두루봉1길 16 (홍천읍/ 주봉초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "주봉초등학교",
-							"alternateName": "Jubong Elementary School",
-							"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25126 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "홍천군",
-								"streetAddress": "강원특별자치도 홍천군 홍천읍 두루봉1길 16 (홍천읍/ 주봉초등학교)"
-							},
-							"telephone": "033-434-3298",
-							"faxNumber": "033-434-2917",
-							"sameAs": ["http://jubong.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-434-3298",
+						"faxNumber": "033-434-2917",
+						"sameAs": ["http://jubong.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "594.8 Kcal",
 										"carbohydrateContent": "93.2 g",
 										"proteinContent": "30.5 g",
-										"fatContent": "10.1 g",
-										"vitaminAContent": "45.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.6 mg",
-										"calciumContent": "331.9 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "10.1 g"
 									}
 								}
 							]

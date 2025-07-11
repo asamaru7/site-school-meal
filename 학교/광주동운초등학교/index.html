@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주동운초등학교/",
 				"headline": "광주동운초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주동운초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dongun.gen.es.kr",
-							"url": "http://dongun.gen.es.kr",
-							"name": "광주동운초등학교 급식 식단표 안내",
-							"description": "광주동운초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주동운초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주동운초등학교",
+						"alternateName": "Gwangju Dongun Elementary School",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61117 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "북구",
+							"streetAddress": "광주광역시 북구 북문대로8번길 21 (운암동/동운초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주동운초등학교",
-							"alternateName": "Gwangju Dongun Elementary School",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61117 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "북구",
-								"streetAddress": "광주광역시 북구 북문대로8번길 21 (운암동/동운초등학교)"
-							},
-							"telephone": "062-520-5500",
-							"faxNumber": "062-520-5599",
-							"sameAs": ["http://dongun.gen.es.kr"]
-						}
-					],
+						"telephone": "062-520-5500",
+						"faxNumber": "062-520-5599",
+						"sameAs": ["http://dongun.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "644.2 Kcal",
 										"carbohydrateContent": "79.7 g",
 										"proteinContent": "28.3 g",
-										"fatContent": "23.7 g",
-										"vitaminAContent": "295.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "20.1 mg",
-										"calciumContent": "322.6 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "23.7 g"
 									}
 								}
 							]

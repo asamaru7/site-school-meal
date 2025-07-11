@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/군산산북중학교/",
 				"headline": "군산산북중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/군산산북중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.kssanbuk.ms.kr",
-							"url": "www.kssanbuk.ms.kr",
-							"name": "군산산북중학교 급식 식단표 안내",
-							"description": "군산산북중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 군산산북중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "군산산북중학교",
+						"alternateName": "Gunsan Sanbuk Middle School",
+						"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54165 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "군산시",
+							"streetAddress": "전북특별자치도 군산시 동아로 109 군산산북중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "군산산북중학교",
-							"alternateName": "Gunsan Sanbuk Middle School",
-							"description": "전북특별자치도군산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54165 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "군산시",
-								"streetAddress": "전북특별자치도 군산시 동아로 109 군산산북중학교"
-							},
-							"telephone": "063-468-0222",
-							"faxNumber": "063-468-0225",
-							"sameAs": ["www.kssanbuk.ms.kr"]
-						}
-					],
+						"telephone": "063-468-0222",
+						"faxNumber": "063-468-0225",
+						"sameAs": ["www.kssanbuk.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "887.8 Kcal",
 										"carbohydrateContent": "110.7 g",
 										"proteinContent": "54.2 g",
-										"fatContent": "25.1 g",
-										"vitaminAContent": "36.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "227.2 mg",
-										"ironContent": "8.8 mg"
+										"fatContent": "25.1 g"
 									}
 								}
 							]

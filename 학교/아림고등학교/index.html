@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아림고등학교/",
 				"headline": "아림고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아림고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "arim-h.gne.go.kr",
-							"url": "arim-h.gne.go.kr",
-							"name": "아림고등학교 급식 식단표 안내",
-							"description": "아림고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아림고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아림고등학교",
+						"alternateName": "Arim High School",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50147 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거창군",
+							"streetAddress": "경상남도 거창군 거창읍 정장길 19 / 아림고등학교 (거창읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아림고등학교",
-							"alternateName": "Arim High School",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50147 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거창군",
-								"streetAddress": "경상남도 거창군 거창읍 정장길 19 / 아림고등학교 (거창읍)"
-							},
-							"telephone": "055-942-3711",
-							"faxNumber": "055-942-1791",
-							"sameAs": ["arim-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-942-3711",
+						"faxNumber": "055-942-1791",
+						"sameAs": ["arim-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "931.6 Kcal",
 										"carbohydrateContent": "131.0 g",
 										"proteinContent": "46.0 g",
-										"fatContent": "23.9 g",
-										"vitaminAContent": "170.0 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "20.8 mg",
-										"calciumContent": "190.4 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "23.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "835.2 Kcal",
 										"carbohydrateContent": "103.5 g",
 										"proteinContent": "44.7 g",
-										"fatContent": "25.2 g",
-										"vitaminAContent": "176.9 R.E",
-										"thiaminContent": "1.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "64.4 mg",
-										"calciumContent": "253.9 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "25.2 g"
 									}
 								}
 							]

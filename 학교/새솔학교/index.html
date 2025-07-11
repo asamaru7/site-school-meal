@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/새솔학교/",
 				"headline": "새솔학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/새솔학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://saesol.sc.kr",
-							"url": "http://saesol.sc.kr",
-							"name": "새솔학교 급식 식단표 안내",
-							"description": "새솔학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 새솔학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "새솔학교",
+						"alternateName": "saesol school",
+						"description": "경기도교육청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10086 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "김포시",
+							"streetAddress": "경기도 김포시 김포한강3로 315 / 새솔학교 (장기동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "새솔학교",
-							"alternateName": "saesol school",
-							"description": "경기도교육청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10086 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "김포시",
-								"streetAddress": "경기도 김포시 김포한강3로 315 / 새솔학교 (장기동)"
-							},
-							"telephone": "031-999-9110",
-							"faxNumber": "031-986-9263",
-							"sameAs": ["http://saesol.sc.kr"]
-						}
-					],
+						"telephone": "031-999-9110",
+						"faxNumber": "031-986-9263",
+						"sameAs": ["http://saesol.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "664.9 Kcal",
 										"carbohydrateContent": "104.2 g",
 										"proteinContent": "25.5 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "190.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "15.7 mg",
-										"calciumContent": "271.0 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

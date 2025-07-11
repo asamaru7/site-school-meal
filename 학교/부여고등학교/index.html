@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부여고등학교/",
 				"headline": "부여고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부여고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://buyeo.cnehs.kr",
-							"url": "http://buyeo.cnehs.kr",
-							"name": "부여고등학교 급식 식단표 안내",
-							"description": "부여고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부여고등학교",
+						"alternateName": "Buyeo High School",
+						"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33160 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "부여군",
+							"streetAddress": "충청남도 부여군 부여읍 금성로91번길 3 (부여읍/부여고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부여고등학교",
-							"alternateName": "Buyeo High School",
-							"description": "충청남도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33160 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "부여군",
-								"streetAddress": "충청남도 부여군 부여읍 금성로91번길 3 (부여읍/부여고등학교)"
-							},
-							"telephone": "041-836-6000",
-							"faxNumber": "041-836-6005",
-							"sameAs": ["http://buyeo.cnehs.kr"]
-						}
-					]
+						"telephone": "041-836-6000",
+						"faxNumber": "041-836-6005",
+						"sameAs": ["http://buyeo.cnehs.kr"]
+					}
 				]
 			}
 		</script>

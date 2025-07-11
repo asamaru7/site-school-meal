@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이음학교/",
 				"headline": "이음학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이음학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://jnsei.da.jne.kr/user/indexMain.action?siteId=jnseia_da",
-							"url": "https://jnsei.da.jne.kr/user/indexMain.action?siteId=jnseia_da",
-							"name": "이음학교 급식 식단표 안내",
-							"description": "이음학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이음학교 (각종학교(중)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이음학교",
+						"alternateName": "EEUM School",
+						"description": "전라남도광양교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57749 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "광양시",
+							"streetAddress": "전라남도 광양시 광양읍 제철로 59 / 이음학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이음학교",
-							"alternateName": "EEUM School",
-							"description": "전라남도광양교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57749 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "광양시",
-								"streetAddress": "전라남도 광양시 광양읍 제철로 59 / 이음학교 "
-							},
-							"telephone": "061-761-1283",
-							"faxNumber": "061-761-1217",
-							"sameAs": ["https://jnsei.da.jne.kr/user/indexMain.action?siteId=jnseia_da"]
-						}
-					],
+						"telephone": "061-761-1283",
+						"faxNumber": "061-761-1217",
+						"sameAs": ["https://jnsei.da.jne.kr/user/indexMain.action?siteId=jnseia_da"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "746.0 Kcal",
 										"carbohydrateContent": "116.9 g",
 										"proteinContent": "48.8 g",
-										"fatContent": "10.2 g",
-										"vitaminAContent": "196.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "63.1 mg",
-										"calciumContent": "226.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "10.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "796.8 Kcal",
 										"carbohydrateContent": "63.8 g",
 										"proteinContent": "47.8 g",
-										"fatContent": "36.8 g",
-										"vitaminAContent": "192.6 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "39.8 mg",
-										"calciumContent": "236.3 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "36.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연풍초등학교-괴산/",
 				"headline": "연풍초등학교(괴산) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연풍초등학교-괴산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/yunpung-e/M01",
-							"url": "http://school.cbe.go.kr/yunpung-e/M01",
-							"name": "연풍초등학교(괴산) 급식 식단표 안내",
-							"description": "연풍초등학교(괴산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연풍초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연풍초등학교(괴산)",
+						"alternateName": "yunpung elementary school",
+						"description": "충청북도괴산증평교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28013 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "괴산군",
+							"streetAddress": "충청북도 괴산군 연풍면 중앙로 53 (연풍면/연풍초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연풍초등학교(괴산)",
-							"alternateName": "yunpung elementary school",
-							"description": "충청북도괴산증평교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28013 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "괴산군",
-								"streetAddress": "충청북도 괴산군 연풍면 중앙로 53 (연풍면/연풍초등학교)"
-							},
-							"telephone": "043-834-5152",
-							"faxNumber": "043-833-3686",
-							"sameAs": ["http://school.cbe.go.kr/yunpung-e/M01"]
-						}
-					],
+						"telephone": "043-834-5152",
+						"faxNumber": "043-833-3686",
+						"sameAs": ["http://school.cbe.go.kr/yunpung-e/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "905.6 Kcal",
 										"carbohydrateContent": "130.0 g",
 										"proteinContent": "38.6 g",
-										"fatContent": "23.6 g",
-										"vitaminAContent": "215.7 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.8 mg",
-										"calciumContent": "178.2 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "23.6 g"
 									}
 								}
 							]

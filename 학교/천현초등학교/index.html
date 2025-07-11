@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/천현초등학교/",
 				"headline": "천현초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/천현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "chunhyun.es.kr",
-							"url": "chunhyun.es.kr",
-							"name": "천현초등학교 급식 식단표 안내",
-							"description": "천현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 천현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "천현초등학교",
+						"alternateName": "Chunhyun Elementary School",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10826 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 법원읍 사임당로 875 / 천현초등학교 (법원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "천현초등학교",
-							"alternateName": "Chunhyun Elementary School",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10826 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 법원읍 사임당로 875 / 천현초등학교 (법원읍)"
-							},
-							"telephone": "031-958-0281",
-							"faxNumber": "031-959-7537",
-							"sameAs": ["chunhyun.es.kr"]
-						}
-					],
+						"telephone": "031-958-0281",
+						"faxNumber": "031-959-7537",
+						"sameAs": ["chunhyun.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "669.9 Kcal",
 										"carbohydrateContent": "99.0 g",
 										"proteinContent": "29.6 g",
-										"fatContent": "16.2 g",
-										"vitaminAContent": "175.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.0 mg",
-										"calciumContent": "185.6 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "16.2 g"
 									}
 								}
 							]

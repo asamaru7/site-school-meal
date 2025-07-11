@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동주중학교/",
 				"headline": "동주중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동주중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.dongju.ms.kr",
-							"url": "http://www.dongju.ms.kr",
-							"name": "동주중학교 급식 식단표 안내",
-							"description": "동주중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동주중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동주중학교",
+						"alternateName": "Dongju Middle School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47017 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사상구",
+							"streetAddress": "부산광역시 사상구 주례로 107 (주례동/동주중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동주중학교",
-							"alternateName": "Dongju Middle School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47017 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사상구",
-								"streetAddress": "부산광역시 사상구 주례로 107 (주례동/동주중학교)"
-							},
-							"telephone": "051-322-0057",
-							"faxNumber": "051-316-4175",
-							"sameAs": ["http://www.dongju.ms.kr"]
-						}
-					],
+						"telephone": "051-322-0057",
+						"faxNumber": "051-316-4175",
+						"sameAs": ["http://www.dongju.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "914.6 Kcal",
 										"carbohydrateContent": "126.5 g",
 										"proteinContent": "40.8 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "264.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "38.9 mg",
-										"calciumContent": "535.3 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

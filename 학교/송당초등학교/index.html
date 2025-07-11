@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/송당초등학교/",
 				"headline": "송당초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/송당초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://songdang.jje.es.kr",
-							"url": "http://songdang.jje.es.kr",
-							"name": "송당초등학교 급식 식단표 안내",
-							"description": "송당초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 송당초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "송당초등학교",
+						"alternateName": "SONGDANG ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63355 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 구좌읍 중산간동로 2218-3 (구좌읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "송당초등학교",
-							"alternateName": "SONGDANG ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63355 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 구좌읍 중산간동로 2218-3 (구좌읍)"
-							},
-							"telephone": "064-780-6800",
-							"faxNumber": "064-780-6899",
-							"sameAs": ["http://songdang.jje.es.kr"]
-						}
-					],
+						"telephone": "064-780-6800",
+						"faxNumber": "064-780-6899",
+						"sameAs": ["http://songdang.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.0 Kcal",
 										"carbohydrateContent": "92.2 g",
 										"proteinContent": "36.8 g",
-										"fatContent": "19.9 g",
-										"vitaminAContent": "157.0 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.8 mg",
-										"calciumContent": "361.2 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "19.9 g"
 									}
 								}
 							]

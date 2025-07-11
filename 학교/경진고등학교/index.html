@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경진고등학교/",
 				"headline": "경진고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경진고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyeongjin-h.gne.go.kr",
-							"url": "http://gyeongjin-h.gne.go.kr",
-							"name": "경진고등학교 급식 식단표 안내",
-							"description": "경진고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경진고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경진고등학교",
+						"alternateName": "Gyeongjin High School",
+						"description": "경상남도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52655 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 의병로71번길 3-21 (상봉동/ 경진고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경진고등학교",
-							"alternateName": "Gyeongjin High School",
-							"description": "경상남도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52655 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 의병로71번길 3-21 (상봉동/ 경진고등학교)"
-							},
-							"telephone": "055-746-1521",
-							"faxNumber": "055-746-1524",
-							"sameAs": ["http://gyeongjin-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-746-1521",
+						"faxNumber": "055-746-1524",
+						"sameAs": ["http://gyeongjin-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1346.3 Kcal",
 										"carbohydrateContent": "170.5 g",
 										"proteinContent": "50.8 g",
-										"fatContent": "50.5 g",
-										"vitaminAContent": "384.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.5 mg",
-										"calciumContent": "421.6 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "50.5 g"
 									}
 								}
 							]

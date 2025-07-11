@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함열중학교/",
 				"headline": "함열중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함열중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hamyeol.ms.kr/",
-							"url": "http://www.hamyeol.ms.kr/",
-							"name": "함열중학교 급식 식단표 안내",
-							"description": "함열중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함열중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함열중학교",
+						"alternateName": "Hamyeol Middle School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54511 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 함열읍 함열3길 37 함열중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함열중학교",
-							"alternateName": "Hamyeol Middle School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54511 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 함열읍 함열3길 37 함열중학교"
-							},
-							"telephone": "063-861-0889",
-							"faxNumber": "063-862-1957",
-							"sameAs": ["http://www.hamyeol.ms.kr/"]
-						}
-					],
+						"telephone": "063-861-0889",
+						"faxNumber": "063-862-1957",
+						"sameAs": ["http://www.hamyeol.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "158.0 Kcal",
 										"carbohydrateContent": "28.8 g",
 										"proteinContent": "3.6 g",
-										"fatContent": "3.2 g",
-										"vitaminAContent": "34.0 R.E",
-										"thiaminContent": "0.1 mg",
-										"riboflavinContent": "0.1 mg",
-										"vitaminCContent": "0.0 mg",
-										"calciumContent": "30.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "3.2 g"
 									}
 								}
 							]

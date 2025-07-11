@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/괴정초등학교/",
 				"headline": "괴정초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/괴정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.koejeong.es.kr",
-							"url": "www.koejeong.es.kr",
-							"name": "괴정초등학교 급식 식단표 안내",
-							"description": "괴정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 괴정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "괴정초등학교",
+						"alternateName": "Goejeong Elementary School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49319 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 낙동대로 152 (괴정동/ 괴정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "괴정초등학교",
-							"alternateName": "Goejeong Elementary School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49319 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 낙동대로 152 (괴정동/ 괴정초등학교)"
-							},
-							"telephone": "051-220-0500",
-							"faxNumber": "051-220-0599",
-							"sameAs": ["www.koejeong.es.kr"]
-						}
-					],
+						"telephone": "051-220-0500",
+						"faxNumber": "051-220-0599",
+						"sameAs": ["www.koejeong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "681.5 Kcal",
 										"carbohydrateContent": "111.1 g",
 										"proteinContent": "29.1 g",
-										"fatContent": "12.3 g",
-										"vitaminAContent": "151.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "19.1 mg",
-										"calciumContent": "232.0 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "12.3 g"
 									}
 								}
 							]

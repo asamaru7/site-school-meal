@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/충북과학고등학교/",
 				"headline": "충북과학고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/충북과학고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/cbs-h/M01",
-							"url": "http://school.cbe.go.kr/cbs-h/M01",
-							"name": "충북과학고등학교 급식 식단표 안내",
-							"description": "충북과학고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 충북과고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "충북과학고등학교",
+						"alternateName": "Chungbuk Science High School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 특목고 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28189 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 상당구",
+							"streetAddress": "충청북도 청주시 상당구 가덕면 교육원로 153-135 / 충북과학고등학교 (가덕면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "충북과학고등학교",
-							"alternateName": "Chungbuk Science High School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 특목고 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28189 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 상당구",
-								"streetAddress": "충청북도 청주시 상당구 가덕면 교육원로 153-135 / 충북과학고등학교 (가덕면)"
-							},
-							"telephone": "043-715-2505",
-							"faxNumber": "043-297-8408",
-							"sameAs": ["http://school.cbe.go.kr/cbs-h/M01"]
-						}
-					],
+						"telephone": "043-715-2505",
+						"faxNumber": "043-297-8408",
+						"sameAs": ["http://school.cbe.go.kr/cbs-h/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1242.7 Kcal",
 										"carbohydrateContent": "194.6 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "35.4 g",
-										"vitaminAContent": "633.3 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "1.8 mg",
-										"vitaminCContent": "71.6 mg",
-										"calciumContent": "824.2 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "35.4 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1010.4 Kcal",
 										"carbohydrateContent": "115.0 g",
 										"proteinContent": "46.9 g",
-										"fatContent": "34.2 g",
-										"vitaminAContent": "203.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "27.7 mg",
-										"calciumContent": "230.2 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "34.2 g"
 									}
 								}
 							]

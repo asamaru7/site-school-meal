@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서면초등학교-철원/",
 				"headline": "서면초등학교(철원) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서면초등학교-철원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sm.gwe.es.kr",
-							"url": "http://sm.gwe.es.kr",
-							"name": "서면초등학교(철원) 급식 식단표 안내",
-							"description": "서면초등학교(철원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서면초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서면초등학교(철원)",
+						"alternateName": "Seomyeon Elementary School",
+						"description": "강원특별자치도철원교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24062 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "철원군",
+							"streetAddress": "강원특별자치도 철원군 서면 자등로 634 (서면, 서면초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서면초등학교(철원)",
-							"alternateName": "Seomyeon Elementary School",
-							"description": "강원특별자치도철원교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24062 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "철원군",
-								"streetAddress": "강원특별자치도 철원군 서면 자등로 634 (서면, 서면초등학교)"
-							},
-							"telephone": "033-458-3179",
-							"faxNumber": "033-458-0731",
-							"sameAs": ["http://sm.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-458-3179",
+						"faxNumber": "033-458-0731",
+						"sameAs": ["http://sm.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "636.1 Kcal",
 										"carbohydrateContent": "89.8 g",
 										"proteinContent": "26.1 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "212.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "17.0 mg",
-										"calciumContent": "296.0 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

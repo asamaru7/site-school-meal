@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한우리학교/",
 				"headline": "한우리학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한우리학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.hwr.sc.kr",
-							"url": "www.hwr.sc.kr",
-							"name": "한우리학교 급식 식단표 안내",
-							"description": "한우리학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한우리학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한우리학교",
+						"alternateName": "Hanwoori School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18520 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 정남면 관항길 243 (정남면/ 한우리학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한우리학교",
-							"alternateName": "Hanwoori School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18520 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 정남면 관항길 243 (정남면/ 한우리학교)"
-							},
-							"telephone": "031-352-3090",
-							"faxNumber": "031-352-3091",
-							"sameAs": ["www.hwr.sc.kr"]
-						}
-					]
+						"telephone": "031-352-3090",
+						"faxNumber": "031-352-3091",
+						"sameAs": ["www.hwr.sc.kr"]
+					}
 				]
 			}
 		</script>

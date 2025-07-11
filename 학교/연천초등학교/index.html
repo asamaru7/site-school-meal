@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연천초등학교/",
 				"headline": "연천초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yonchon.es.kr",
-							"url": "http://yonchon.es.kr",
-							"name": "연천초등학교 급식 식단표 안내",
-							"description": "연천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연천초등학교",
+						"alternateName": "Yeoncheon Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47557 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 과정로225번길 46 (연산동/ 연천 초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연천초등학교",
-							"alternateName": "Yeoncheon Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47557 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 과정로225번길 46 (연산동/ 연천 초등학교)"
-							},
-							"telephone": "051-850-1700",
-							"faxNumber": "051-850-1795",
-							"sameAs": ["http://yonchon.es.kr"]
-						}
-					],
+						"telephone": "051-850-1700",
+						"faxNumber": "051-850-1795",
+						"sameAs": ["http://yonchon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "505.6 Kcal",
 										"carbohydrateContent": "78.0 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "8.5 g",
-										"vitaminAContent": "52.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "31.8 mg",
-										"calciumContent": "246.0 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "8.5 g"
 									}
 								}
 							]

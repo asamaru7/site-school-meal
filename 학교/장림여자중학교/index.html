@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장림여자중학교/",
 				"headline": "장림여자중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장림여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://janglim.ms.kr",
-							"url": "http://janglim.ms.kr",
-							"name": "장림여자중학교 급식 식단표 안내",
-							"description": "장림여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장림여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장림여자중학교",
+						"alternateName": "Jang Lim Girls Middle School",
+						"description": "부산광역시서부교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49510 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 두송로 64 (장림동/장림여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장림여자중학교",
-							"alternateName": "Jang Lim Girls Middle School",
-							"description": "부산광역시서부교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49510 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 두송로 64 (장림동/장림여자중학교)"
-							},
-							"telephone": "051-260-4203",
-							"faxNumber": "051-263-1793",
-							"sameAs": ["http://janglim.ms.kr"]
-						}
-					],
+						"telephone": "051-260-4203",
+						"faxNumber": "051-263-1793",
+						"sameAs": ["http://janglim.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "683.7 Kcal",
 										"carbohydrateContent": "92.4 g",
 										"proteinContent": "32.6 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "270.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "12.4 mg",
-										"calciumContent": "390.4 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "19.7 g"
 									}
 								}
 							]

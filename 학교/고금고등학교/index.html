@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/고금고등학교/",
 				"headline": "고금고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/고금고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gogeum.hs.jne.kr",
-							"url": "http://gogeum.hs.jne.kr",
-							"name": "고금고등학교 급식 식단표 안내",
-							"description": "고금고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 고금고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "고금고등학교",
+						"alternateName": "Gogeum High School",
+						"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59130 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 고금면 고금로684번길 15 / 고금고등학교 (고금고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "고금고등학교",
-							"alternateName": "Gogeum High School",
-							"description": "전라남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59130 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 고금면 고금로684번길 15 / 고금고등학교 (고금고등학교)"
-							},
-							"telephone": "061-553-1207",
-							"faxNumber": "061-554-1230",
-							"sameAs": ["http://gogeum.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-553-1207",
+						"faxNumber": "061-554-1230",
+						"sameAs": ["http://gogeum.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "845.0 Kcal",
 										"carbohydrateContent": "136.9 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "19.9 g",
-										"vitaminAContent": "177.1 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "50.1 mg",
-										"calciumContent": "352.9 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "19.9 g"
 									}
 								}
 							]

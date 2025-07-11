@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용전중학교/",
 				"headline": "용전중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용전중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yongjeon.gwe.ms.kr",
-							"url": "http://yongjeon.gwe.ms.kr",
-							"name": "용전중학교 급식 식단표 안내",
-							"description": "용전중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용전중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용전중학교",
+						"alternateName": "Yongjeon Middle School",
+						"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25313 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "평창군",
+							"streetAddress": "강원특별자치도 평창군 용평면 도사길 9 / 용전중학교 (용평면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용전중학교",
-							"alternateName": "Yongjeon Middle School",
-							"description": "강원특별자치도평창교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25313 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "평창군",
-								"streetAddress": "강원특별자치도 평창군 용평면 도사길 9 / 용전중학교 (용평면)"
-							},
-							"telephone": "033-332-5021",
-							"faxNumber": "033-332-5022",
-							"sameAs": ["http://yongjeon.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-332-5021",
+						"faxNumber": "033-332-5022",
+						"sameAs": ["http://yongjeon.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1701.6 Kcal",
 										"carbohydrateContent": "252.9 g",
 										"proteinContent": "84.6 g",
-										"fatContent": "40.0 g",
-										"vitaminAContent": "364.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "25.2 mg",
-										"calciumContent": "563.9 mg",
-										"ironContent": "19.4 mg"
+										"fatContent": "40.0 g"
 									}
 								}
 							]

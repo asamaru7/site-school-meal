@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해서중학교/",
 				"headline": "김해서중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gimhaeseo-m.gne.go.kr",
-							"url": "http://gimhaeseo-m.gne.go.kr",
-							"name": "김해서중학교 급식 식단표 안내",
-							"description": "김해서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해서중학교",
+						"alternateName": "Gimhae Seo Middle School",
+						"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50966 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 주촌면 선지로45번길 24 (주촌면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해서중학교",
-							"alternateName": "Gimhae Seo Middle School",
-							"description": "김해교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50966 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 주촌면 선지로45번길 24 (주촌면)"
-							},
-							"telephone": "055-335-3511",
-							"faxNumber": "055-335-3524",
-							"sameAs": ["http://gimhaeseo-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-335-3511",
+						"faxNumber": "055-335-3524",
+						"sameAs": ["http://gimhaeseo-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "861.9 Kcal",
 										"carbohydrateContent": "109.8 g",
 										"proteinContent": "32.5 g",
-										"fatContent": "32.4 g",
-										"vitaminAContent": "148.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "30.1 mg",
-										"calciumContent": "242.7 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "32.4 g"
 									}
 								}
 							]

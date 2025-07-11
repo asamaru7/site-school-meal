@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동화초등학교-제주/",
 				"headline": "동화초등학교(제주) 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동화초등학교-제주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://donghwa.jje.es.kr",
-							"url": "http://donghwa.jje.es.kr",
-							"name": "동화초등학교(제주) 급식 식단표 안내",
-							"description": "동화초등학교(제주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동화초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동화초등학교(제주)",
+						"alternateName": "DONGHWA ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63301 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 동화로1길 44 (화북일동/ 동화초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동화초등학교(제주)",
-							"alternateName": "DONGHWA ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63301 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 동화로1길 44 (화북일동/ 동화초등학교)"
-							},
-							"telephone": "064-729-5700",
-							"faxNumber": "064-729-5789",
-							"sameAs": ["http://donghwa.jje.es.kr"]
-						}
-					],
+						"telephone": "064-729-5700",
+						"faxNumber": "064-729-5789",
+						"sameAs": ["http://donghwa.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "541.7 Kcal",
 										"carbohydrateContent": "78.2 g",
 										"proteinContent": "22.2 g",
-										"fatContent": "13.9 g",
-										"vitaminAContent": "127.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "41.6 mg",
-										"calciumContent": "118.2 mg",
-										"ironContent": "1.6 mg"
+										"fatContent": "13.9 g"
 									}
 								}
 							]

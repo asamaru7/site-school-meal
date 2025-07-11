@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장산초등학교-경산/",
 				"headline": "장산초등학교(경산) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장산초등학교-경산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/jsan",
-							"url": "http://school.gyo6.net/jsan",
-							"name": "장산초등학교(경산) 급식 식단표 안내",
-							"description": "장산초등학교(경산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장산초등학교(경산)",
+						"alternateName": "Jangsan Elementary School",
+						"description": "경상북도경산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38680 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경산시",
+							"streetAddress": "경상북도 경산시 성암로8길 25 (옥산동/경산장산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장산초등학교(경산)",
-							"alternateName": "Jangsan Elementary School",
-							"description": "경상북도경산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38680 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경산시",
-								"streetAddress": "경상북도 경산시 성암로8길 25 (옥산동/경산장산초등학교)"
-							},
-							"telephone": "053-813-6197",
-							"faxNumber": "053-813-6194",
-							"sameAs": ["http://school.gyo6.net/jsan"]
-						}
-					],
+						"telephone": "053-813-6197",
+						"faxNumber": "053-813-6194",
+						"sameAs": ["http://school.gyo6.net/jsan"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "640.0 Kcal",
 										"carbohydrateContent": "67.5 g",
 										"proteinContent": "34.1 g",
-										"fatContent": "24.2 g",
-										"vitaminAContent": "153.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.3 mg",
-										"calciumContent": "105.3 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "24.2 g"
 									}
 								}
 							]

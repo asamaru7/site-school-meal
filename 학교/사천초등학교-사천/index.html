@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/사천초등학교-사천/",
 				"headline": "사천초등학교(사천) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/사천초등학교-사천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sacheon-p.gne.go.kr/",
-							"url": "http://sacheon-p.gne.go.kr/",
-							"name": "사천초등학교(사천) 급식 식단표 안내",
-							"description": "사천초등학교(사천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 사천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "사천초등학교(사천)",
+						"alternateName": "",
+						"description": "사천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52517 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "사천시",
+							"streetAddress": "경상남도 사천시 사천읍 읍내로 59 (사천읍/ 사천초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "사천초등학교(사천)",
-							"alternateName": "",
-							"description": "사천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52517 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "사천시",
-								"streetAddress": "경상남도 사천시 사천읍 읍내로 59 (사천읍/ 사천초등학교)"
-							},
-							"telephone": "055-852-2704",
-							"faxNumber": "055-852-7280",
-							"sameAs": ["http://sacheon-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-852-2704",
+						"faxNumber": "055-852-7280",
+						"sameAs": ["http://sacheon-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "519.5 Kcal",
 										"carbohydrateContent": "70.9 g",
 										"proteinContent": "28.7 g",
-										"fatContent": "12.6 g",
-										"vitaminAContent": "148.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "54.2 mg",
-										"calciumContent": "196.5 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "12.6 g"
 									}
 								}
 							]

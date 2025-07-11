@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/산북중학교/",
 				"headline": "산북중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/산북중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/sanbukms",
-							"url": "http://school.gyo6.net/sanbukms",
-							"name": "산북중학교 급식 식단표 안내",
-							"description": "산북중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 산북중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "산북중학교",
+						"alternateName": "Sanbuk Middle School",
+						"description": "경상북도문경교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36910 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "문경시",
+							"streetAddress": "경상북도 문경시 산북면 금천로 560 (산북면/산북중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "산북중학교",
-							"alternateName": "Sanbuk Middle School",
-							"description": "경상북도문경교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36910 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "문경시",
-								"streetAddress": "경상북도 문경시 산북면 금천로 560 (산북면/산북중학교)"
-							},
-							"telephone": "054-552-7221",
-							"faxNumber": "054-553-3744",
-							"sameAs": ["http://school.gyo6.net/sanbukms"]
-						}
-					]
+						"telephone": "054-552-7221",
+						"faxNumber": "054-553-3744",
+						"sameAs": ["http://school.gyo6.net/sanbukms"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/을지중학교/",
 				"headline": "을지중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/을지중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.eulji.ms.kr",
-							"url": "www.eulji.ms.kr",
-							"name": "을지중학교 급식 식단표 안내",
-							"description": "을지중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 을지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "을지중학교",
+						"alternateName": "Eulji Middle School",
+						"description": "서울특별시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01741 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "노원구",
+							"streetAddress": "서울특별시 노원구 덕릉로 580 (중계동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "을지중학교",
-							"alternateName": "Eulji Middle School",
-							"description": "서울특별시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01741 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "노원구",
-								"streetAddress": "서울특별시 노원구 덕릉로 580 (중계동)"
-							},
-							"telephone": "02-938-7083",
-							"faxNumber": "02-932-8294",
-							"sameAs": ["www.eulji.ms.kr"]
-						}
-					],
+						"telephone": "02-938-7083",
+						"faxNumber": "02-932-8294",
+						"sameAs": ["www.eulji.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "719.4 Kcal",
 										"carbohydrateContent": "103.5 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "18.6 g",
-										"vitaminAContent": "82.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "18.7 mg",
-										"calciumContent": "178.5 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "18.6 g"
 									}
 								}
 							]

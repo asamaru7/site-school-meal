@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/녹전초등학교/",
 				"headline": "녹전초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/녹전초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nokjeon.gwe.es.kr",
-							"url": "http://nokjeon.gwe.es.kr",
-							"name": "녹전초등학교 급식 식단표 안내",
-							"description": "녹전초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 녹전초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "녹전초등학교",
+						"alternateName": "Nokjeon Elementary School",
+						"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26243 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "영월군",
+							"streetAddress": "강원특별자치도 영월군 산솔면 유전길 3-2 / 녹전초등학교 (산솔면/ 녹전초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "녹전초등학교",
-							"alternateName": "Nokjeon Elementary School",
-							"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26243 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "영월군",
-								"streetAddress": "강원특별자치도 영월군 산솔면 유전길 3-2 / 녹전초등학교 (산솔면/ 녹전초등학교)"
-							},
-							"telephone": "033-378-2709",
-							"faxNumber": "033-378-4086",
-							"sameAs": ["http://nokjeon.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-378-2709",
+						"faxNumber": "033-378-4086",
+						"sameAs": ["http://nokjeon.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "699.4 Kcal",
 										"carbohydrateContent": "85.7 g",
 										"proteinContent": "36.4 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "166.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.5 mg",
-										"calciumContent": "440.7 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

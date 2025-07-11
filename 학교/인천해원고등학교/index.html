@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천해원고등학교/",
 				"headline": "인천해원고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천해원고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "ihw.icehs.kr/",
-							"url": "ihw.icehs.kr/",
-							"name": "인천해원고등학교 급식 식단표 안내",
-							"description": "인천해원고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천해원고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천해원고등학교",
+						"alternateName": "Incheon Haewon High School",
+						"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22765 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "서구",
+							"streetAddress": "인천광역시 서구 청라사파이어로140번길 25 (경서동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천해원고등학교",
-							"alternateName": "Incheon Haewon High School",
-							"description": "인천광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22765 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "서구",
-								"streetAddress": "인천광역시 서구 청라사파이어로140번길 25 (경서동)"
-							},
-							"telephone": "032-590-7600",
-							"faxNumber": "032-590-7680",
-							"sameAs": ["ihw.icehs.kr/"]
-						}
-					],
+						"telephone": "032-590-7600",
+						"faxNumber": "032-590-7680",
+						"sameAs": ["ihw.icehs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "934.4 Kcal",
 										"carbohydrateContent": "105.1 g",
 										"proteinContent": "50.6 g",
-										"fatContent": "33.8 g",
-										"vitaminAContent": "151.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "38.6 mg",
-										"calciumContent": "191.0 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "33.8 g"
 									}
 								}
 							]

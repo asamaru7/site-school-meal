@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/당포초등학교/",
 				"headline": "당포초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/당포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/dangpoes",
-							"url": "http://school.gyo6.net/dangpoes",
-							"name": "당포초등학교 급식 식단표 안내",
-							"description": "당포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 당포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "당포초등학교",
+						"alternateName": "Dangpo Elementary School",
+						"description": "경상북도문경교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36912 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "문경시",
+							"streetAddress": "경상북도 문경시 문경읍 여우목로 580 (문경읍/당포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "당포초등학교",
-							"alternateName": "Dangpo Elementary School",
-							"description": "경상북도문경교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36912 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "문경시",
-								"streetAddress": "경상북도 문경시 문경읍 여우목로 580 (문경읍/당포초등학교)"
-							},
-							"telephone": "054-572-0211",
-							"faxNumber": "054-572-2996",
-							"sameAs": ["http://school.gyo6.net/dangpoes"]
-						}
-					],
+						"telephone": "054-572-0211",
+						"faxNumber": "054-572-2996",
+						"sameAs": ["http://school.gyo6.net/dangpoes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.6 Kcal",
 										"carbohydrateContent": "137.4 g",
 										"proteinContent": "19.2 g",
-										"fatContent": "10.2 g",
-										"vitaminAContent": "104.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "56.9 mg",
-										"calciumContent": "163.5 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "10.2 g"
 									}
 								}
 							]

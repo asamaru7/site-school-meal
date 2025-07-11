@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/입장중학교/",
 				"headline": "입장중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/입장중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ipjang.caems.kr",
-							"url": "http://ipjang.caems.kr",
-							"name": "입장중학교 급식 식단표 안내",
-							"description": "입장중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 입장중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "입장중학교",
+						"alternateName": "Ipjang Middle School",
+						"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31027 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "천안시 서북구",
+							"streetAddress": "충청남도 천안시 서북구 입장면 연곡길 36 (입장면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "입장중학교",
-							"alternateName": "Ipjang Middle School",
-							"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31027 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "천안시 서북구",
-								"streetAddress": "충청남도 천안시 서북구 입장면 연곡길 36 (입장면)"
-							},
-							"telephone": "041-585-5021",
-							"faxNumber": "041-585-5020",
-							"sameAs": ["http://ipjang.caems.kr"]
-						}
-					]
+						"telephone": "041-585-5021",
+						"faxNumber": "041-585-5020",
+						"sameAs": ["http://ipjang.caems.kr"]
+					}
 				]
 			}
 		</script>

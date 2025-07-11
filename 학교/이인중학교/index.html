@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이인중학교/",
 				"headline": "이인중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이인중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.iinmiddle.cnems.kr",
-							"url": "http://www.iinmiddle.cnems.kr",
-							"name": "이인중학교 급식 식단표 안내",
-							"description": "이인중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이인중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이인중학교",
+						"alternateName": "Iin Middle School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32607 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 이인면 금광로 12-5 (이인면/ 이인중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이인중학교",
-							"alternateName": "Iin Middle School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32607 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 이인면 금광로 12-5 (이인면/ 이인중학교)"
-							},
-							"telephone": "041-857-3102",
-							"faxNumber": "041-857-9058",
-							"sameAs": ["http://www.iinmiddle.cnems.kr"]
-						}
-					]
+						"telephone": "041-857-3102",
+						"faxNumber": "041-857-9058",
+						"sameAs": ["http://www.iinmiddle.cnems.kr"]
+					}
 				]
 			}
 		</script>

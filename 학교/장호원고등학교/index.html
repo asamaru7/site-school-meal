@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장호원고등학교/",
 				"headline": "장호원고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장호원고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://janggo.goeic.kr/",
-							"url": "https://janggo.goeic.kr/",
-							"name": "장호원고등학교 급식 식단표 안내",
-							"description": "장호원고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장호원고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장호원고등학교",
+						"alternateName": "Janghowon High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17419 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "이천시",
+							"streetAddress": "경기도 이천시 장호원읍 샘재로 27-37 / (장호원읍/ 장호원고등학교) (장호원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장호원고등학교",
-							"alternateName": "Janghowon High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17419 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "이천시",
-								"streetAddress": "경기도 이천시 장호원읍 샘재로 27-37 / (장호원읍/ 장호원고등학교) (장호원읍)"
-							},
-							"telephone": "031-641-2028",
-							"faxNumber": "031-642-3247",
-							"sameAs": ["https://janggo.goeic.kr/"]
-						}
-					],
+						"telephone": "031-641-2028",
+						"faxNumber": "031-642-3247",
+						"sameAs": ["https://janggo.goeic.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "753.1 Kcal",
 										"carbohydrateContent": "102.0 g",
 										"proteinContent": "53.2 g",
-										"fatContent": "13.4 g",
-										"vitaminAContent": "202.4 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "23.3 mg",
-										"calciumContent": "410.0 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "13.4 g"
 									}
 								}
 							]

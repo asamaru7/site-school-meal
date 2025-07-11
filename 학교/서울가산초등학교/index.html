@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울가산초등학교/",
 				"headline": "서울가산초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울가산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.gasan.es.kr",
-							"url": "www.gasan.es.kr",
-							"name": "서울가산초등학교 급식 식단표 안내",
-							"description": "서울가산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울가산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울가산초등학교",
+						"alternateName": "Seoul Gasan Elementary School",
+						"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08530 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "금천구",
+							"streetAddress": "서울특별시 금천구 남부순환로 1304-11 / 서울가산초등학교 (독산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울가산초등학교",
-							"alternateName": "Seoul Gasan Elementary School",
-							"description": "서울특별시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08530 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "금천구",
-								"streetAddress": "서울특별시 금천구 남부순환로 1304-11 / 서울가산초등학교 (독산동)"
-							},
-							"telephone": "02-864-3206",
-							"faxNumber": "02-859-5556",
-							"sameAs": ["www.gasan.es.kr"]
-						}
-					],
+						"telephone": "02-864-3206",
+						"faxNumber": "02-859-5556",
+						"sameAs": ["www.gasan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "695.0 Kcal",
 										"carbohydrateContent": "110.2 g",
 										"proteinContent": "34.3 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "94.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "174.8 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

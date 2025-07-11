@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상도중학교-포항/",
 				"headline": "상도중학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상도중학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/sangdo/",
-							"url": "http://school.gyo6.net/sangdo/",
-							"name": "상도중학교(포항) 급식 식단표 안내",
-							"description": "상도중학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상도중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상도중학교(포항)",
+						"alternateName": "Sangdo Middle School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37826 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 상공로92번길 16 / 상도중학교 (대도동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상도중학교(포항)",
-							"alternateName": "Sangdo Middle School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37826 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 상공로92번길 16 / 상도중학교 (대도동)"
-							},
-							"telephone": "054-274-8469",
-							"faxNumber": "054-273-0251",
-							"sameAs": ["http://school.gyo6.net/sangdo/"]
-						}
-					],
+						"telephone": "054-274-8469",
+						"faxNumber": "054-273-0251",
+						"sameAs": ["http://school.gyo6.net/sangdo/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "843.5 Kcal",
 										"carbohydrateContent": "110.2 g",
 										"proteinContent": "42.2 g",
-										"fatContent": "26.0 g",
-										"vitaminAContent": "146.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "282.0 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "26.0 g"
 									}
 								}
 							]

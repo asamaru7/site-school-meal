@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이곡중학교/",
 				"headline": "이곡중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이곡중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yigok.dge.ms.kr",
-							"url": "yigok.dge.ms.kr",
-							"name": "이곡중학교 급식 식단표 안내",
-							"description": "이곡중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이곡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이곡중학교",
+						"alternateName": "Yigok Middle School",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42605 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 선원로37길 65 (이곡동/이곡중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이곡중학교",
-							"alternateName": "Yigok Middle School",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42605 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 선원로37길 65 (이곡동/이곡중학교)"
-							},
-							"telephone": "053-234-7160",
-							"faxNumber": "053-588-0932",
-							"sameAs": ["yigok.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-234-7160",
+						"faxNumber": "053-588-0932",
+						"sameAs": ["yigok.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "920.1 Kcal",
 										"carbohydrateContent": "125.0 g",
 										"proteinContent": "43.7 g",
-										"fatContent": "25.3 g",
-										"vitaminAContent": "96.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "19.9 mg",
-										"calciumContent": "207.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "25.3 g"
 									}
 								}
 							]

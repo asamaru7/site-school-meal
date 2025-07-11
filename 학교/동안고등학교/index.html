@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동안고등학교/",
 				"headline": "동안고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동안고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.dongan.hs.kr",
-							"url": "www.dongan.hs.kr",
-							"name": "동안고등학교 급식 식단표 안내",
-							"description": "동안고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동안고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동안고등학교",
+						"alternateName": "DongAn High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14070 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안양시 동안구",
+							"streetAddress": "경기도 안양시 동안구 부림로 71 (평촌동/동안고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동안고등학교",
-							"alternateName": "DongAn High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14070 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안양시 동안구",
-								"streetAddress": "경기도 안양시 동안구 부림로 71 (평촌동/동안고등학교)"
-							},
-							"telephone": "031-387-6105",
-							"faxNumber": "031-387-6108",
-							"sameAs": ["www.dongan.hs.kr"]
-						}
-					],
+						"telephone": "031-387-6105",
+						"faxNumber": "031-387-6108",
+						"sameAs": ["www.dongan.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "722.5 Kcal",
 										"carbohydrateContent": "100.8 g",
 										"proteinContent": "42.6 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "227.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.6 mg",
-										"calciumContent": "254.2 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도계중학교-창원/",
 				"headline": "도계중학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도계중학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dogye-m.gne.go.kr",
-							"url": "http://dogye-m.gne.go.kr",
-							"name": "도계중학교(창원) 급식 식단표 안내",
-							"description": "도계중학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도계중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도계중학교(창원)",
+						"alternateName": "Dogye Middle School",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51381 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 의창구",
+							"streetAddress": "경상남도 창원시 의창구 원이대로56번길 19-15 (도계동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도계중학교(창원)",
-							"alternateName": "Dogye Middle School",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51381 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 의창구",
-								"streetAddress": "경상남도 창원시 의창구 원이대로56번길 19-15 (도계동)"
-							},
-							"telephone": "055-237-2393",
-							"faxNumber": "055-237-2398",
-							"sameAs": ["http://dogye-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-237-2393",
+						"faxNumber": "055-237-2398",
+						"sameAs": ["http://dogye-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "762.0 Kcal",
 										"carbohydrateContent": "117.8 g",
 										"proteinContent": "30.1 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "299.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.8 mg",
-										"calciumContent": "174.8 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

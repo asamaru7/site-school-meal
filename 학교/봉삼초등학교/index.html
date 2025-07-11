@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉삼초등학교/",
 				"headline": "봉삼초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉삼초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bongsam.es.kr",
-							"url": "http://bongsam.es.kr",
-							"name": "봉삼초등학교 급식 식단표 안내",
-							"description": "봉삼초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉삼초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉삼초등학교",
+						"alternateName": "Bongsam Elementary School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49113 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "영도구",
+							"streetAddress": "부산광역시 영도구 함지로79번길 39 (동삼동/ 봉삼초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉삼초등학교",
-							"alternateName": "Bongsam Elementary School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49113 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "영도구",
-								"streetAddress": "부산광역시 영도구 함지로79번길 39 (동삼동/ 봉삼초등학교)"
-							},
-							"telephone": "051-405-0916",
-							"faxNumber": "051-405-4222",
-							"sameAs": ["http://bongsam.es.kr"]
-						}
-					],
+						"telephone": "051-405-0916",
+						"faxNumber": "051-405-4222",
+						"sameAs": ["http://bongsam.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "648.1 Kcal",
 										"carbohydrateContent": "106.8 g",
 										"proteinContent": "27.3 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "136.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "32.7 mg",
-										"calciumContent": "243.7 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

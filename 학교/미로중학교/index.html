@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미로중학교/",
 				"headline": "미로중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미로중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://miro.gwe.ms.kr",
-							"url": "http://miro.gwe.ms.kr",
-							"name": "미로중학교 급식 식단표 안내",
-							"description": "미로중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미로중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미로중학교",
+						"alternateName": "Miro Middle School",
+						"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25904 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "삼척시",
+							"streetAddress": "강원특별자치도 삼척시 미로면 강원남부로 3907 (미로면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미로중학교",
-							"alternateName": "Miro Middle School",
-							"description": "강원특별자치도삼척교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25904 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "삼척시",
-								"streetAddress": "강원특별자치도 삼척시 미로면 강원남부로 3907 (미로면)"
-							},
-							"telephone": "033-572-0072",
-							"faxNumber": "033-572-9907",
-							"sameAs": ["http://miro.gwe.ms.kr"]
-						}
-					]
+						"telephone": "033-572-0072",
+						"faxNumber": "033-572-9907",
+						"sameAs": ["http://miro.gwe.ms.kr"]
+					}
 				]
 			}
 		</script>

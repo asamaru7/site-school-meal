@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용호중학교-군포/",
 				"headline": "용호중학교(군포) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용호중학교-군포/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yonghojung.goegu.kr",
-							"url": "http://yonghojung.goegu.kr",
-							"name": "용호중학교(군포) 급식 식단표 안내",
-							"description": "용호중학교(군포)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용호중학교(군포)",
+						"alternateName": "Yong-ho Middle School",
+						"description": "경기도군포의왕교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15876 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "군포시",
+							"streetAddress": "경기도 군포시 용호2로54번길 14 (당동/용호중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용호중학교(군포)",
-							"alternateName": "Yong-ho Middle School",
-							"description": "경기도군포의왕교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15876 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "군포시",
-								"streetAddress": "경기도 군포시 용호2로54번길 14 (당동/용호중학교)"
-							},
-							"telephone": "031-398-4361",
-							"faxNumber": "031-398-4365",
-							"sameAs": ["http://yonghojung.goegu.kr"]
-						}
-					],
+						"telephone": "031-398-4361",
+						"faxNumber": "031-398-4365",
+						"sameAs": ["http://yonghojung.goegu.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "699.3 Kcal",
 										"carbohydrateContent": "95.7 g",
 										"proteinContent": "46.6 g",
-										"fatContent": "12.9 g",
-										"vitaminAContent": "292.8 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "11.3 mg",
-										"calciumContent": "352.9 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "12.9 g"
 									}
 								}
 							]

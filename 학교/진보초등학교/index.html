@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진보초등학교/",
 				"headline": "진보초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진보초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/jinboes",
-							"url": "school.gyo6.net/jinboes",
-							"name": "진보초등학교 급식 식단표 안내",
-							"description": "진보초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진보초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진보초등학교",
+						"alternateName": "Jinbo Elementary School",
+						"description": "경상북도청송교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37405 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "청송군",
+							"streetAddress": "경상북도 청송군 진보면 진보로 149 (진보면/ 진보초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진보초등학교",
-							"alternateName": "Jinbo Elementary School",
-							"description": "경상북도청송교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37405 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "청송군",
-								"streetAddress": "경상북도 청송군 진보면 진보로 149 (진보면/ 진보초등학교)"
-							},
-							"telephone": "054-872-9605",
-							"faxNumber": "054-874-0083",
-							"sameAs": ["school.gyo6.net/jinboes"]
-						}
-					],
+						"telephone": "054-872-9605",
+						"faxNumber": "054-874-0083",
+						"sameAs": ["school.gyo6.net/jinboes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "583.1 Kcal",
 										"carbohydrateContent": "94.5 g",
 										"proteinContent": "27.0 g",
-										"fatContent": "10.3 g",
-										"vitaminAContent": "162.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.7 mg",
-										"calciumContent": "183.5 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "10.3 g"
 									}
 								}
 							]

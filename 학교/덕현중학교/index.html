@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/덕현중학교/",
 				"headline": "덕현중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/덕현중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://dhms-m.goedy.kr",
-							"url": "https://dhms-m.goedy.kr",
-							"name": "덕현중학교 급식 식단표 안내",
-							"description": "덕현중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 덕현중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "덕현중학교",
+						"alternateName": "Deokhyeon Middle School",
+						"description": "경기도동두천양주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "11481 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "양주시",
+							"streetAddress": "경기도 양주시 고읍로35번길 21 (고읍동)덕현중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "덕현중학교",
-							"alternateName": "Deokhyeon Middle School",
-							"description": "경기도동두천양주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "11481 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "양주시",
-								"streetAddress": "경기도 양주시 고읍로35번길 21 (고읍동)덕현중학교"
-							},
-							"telephone": "031-856-9764",
-							"faxNumber": "031-856-9772",
-							"sameAs": ["https://dhms-m.goedy.kr"]
-						}
-					],
+						"telephone": "031-856-9764",
+						"faxNumber": "031-856-9772",
+						"sameAs": ["https://dhms-m.goedy.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "668.2 Kcal",
 										"carbohydrateContent": "76.7 g",
 										"proteinContent": "58.1 g",
-										"fatContent": "12.3 g",
-										"vitaminAContent": "106.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "175.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "12.3 g"
 									}
 								}
 							]

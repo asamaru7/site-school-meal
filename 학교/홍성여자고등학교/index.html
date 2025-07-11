@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍성여자고등학교/",
 				"headline": "홍성여자고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍성여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hongyoe.cnehs.kr",
-							"url": "http://hongyoe.cnehs.kr",
-							"name": "홍성여자고등학교 급식 식단표 안내",
-							"description": "홍성여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍성여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍성여자고등학교",
+						"alternateName": "Hongseong Girls High School",
+						"description": "충청남도교육청 / 공립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32218 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 홍성읍 충서로 1575번길 10 (홍성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍성여자고등학교",
-							"alternateName": "Hongseong Girls High School",
-							"description": "충청남도교육청 / 공립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32218 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 홍성읍 충서로 1575번길 10 (홍성읍)"
-							},
-							"telephone": "041-635-9500",
-							"faxNumber": "041-635-9542",
-							"sameAs": ["http://hongyoe.cnehs.kr"]
-						}
-					]
+						"telephone": "041-635-9500",
+						"faxNumber": "041-635-9542",
+						"sameAs": ["http://hongyoe.cnehs.kr"]
+					}
 				]
 			}
 		</script>

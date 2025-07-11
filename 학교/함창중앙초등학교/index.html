@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함창중앙초등학교/",
 				"headline": "함창중앙초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함창중앙초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/hcja",
-							"url": "http://school.gyo6.net/hcja",
-							"name": "함창중앙초등학교 급식 식단표 안내",
-							"description": "함창중앙초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함창중앙초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함창중앙초등학교",
+						"alternateName": "Hamchang Jungang Elementary School",
+						"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37110 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "상주시",
+							"streetAddress": "경상북도 상주시 함창읍 구향로 87-10 (함창읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함창중앙초등학교",
-							"alternateName": "Hamchang Jungang Elementary School",
-							"description": "경상북도상주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37110 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "상주시",
-								"streetAddress": "경상북도 상주시 함창읍 구향로 87-10 (함창읍)"
-							},
-							"telephone": "054-541-3117",
-							"faxNumber": "054-541-8969",
-							"sameAs": ["http://school.gyo6.net/hcja"]
-						}
-					],
+						"telephone": "054-541-3117",
+						"faxNumber": "054-541-8969",
+						"sameAs": ["http://school.gyo6.net/hcja"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "599.0 Kcal",
 										"carbohydrateContent": "68.3 g",
 										"proteinContent": "30.7 g",
-										"fatContent": "24.2 g",
-										"vitaminAContent": "96.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "1.4 mg",
-										"vitaminCContent": "26.0 mg",
-										"calciumContent": "187.7 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "24.2 g"
 									}
 								}
 							]

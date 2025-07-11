@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포항영신고등학교/",
 				"headline": "포항영신고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포항영신고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/physhs",
-							"url": "http://school.gyo6.net/physhs",
-							"name": "포항영신고등학교 급식 식단표 안내",
-							"description": "포항영신고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포항영신고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포항영신고등학교",
+						"alternateName": "Pohang Youngshin High School",
+						"description": "경상북도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37642 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 소티재로 107 (우현동/ 영신중학교/ 영신고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포항영신고등학교",
-							"alternateName": "Pohang Youngshin High School",
-							"description": "경상북도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37642 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 소티재로 107 (우현동/ 영신중학교/ 영신고등학교)"
-							},
-							"telephone": "054-250-7750",
-							"faxNumber": "054-250-7710",
-							"sameAs": ["http://school.gyo6.net/physhs"]
-						}
-					],
+						"telephone": "054-250-7750",
+						"faxNumber": "054-250-7710",
+						"sameAs": ["http://school.gyo6.net/physhs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "802.1 Kcal",
 										"carbohydrateContent": "144.1 g",
 										"proteinContent": "24.9 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "126.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "27.2 mg",
-										"calciumContent": "298.2 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "15.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "956.7 Kcal",
 										"carbohydrateContent": "134.4 g",
 										"proteinContent": "58.7 g",
-										"fatContent": "18.7 g",
-										"vitaminAContent": "258.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "219.5 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "18.7 g"
 									}
 								}
 							]

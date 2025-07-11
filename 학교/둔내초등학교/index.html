@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/둔내초등학교/",
 				"headline": "둔내초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/둔내초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dunnae.gwe.es.kr/",
-							"url": "http://dunnae.gwe.es.kr/",
-							"name": "둔내초등학교 급식 식단표 안내",
-							"description": "둔내초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 둔내초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "둔내초등학교",
+						"alternateName": "Dunnae Elementary School",
+						"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25264 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "횡성군",
+							"streetAddress": "강원특별자치도 횡성군 둔내면 둔내로47번길 6 (둔내면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "둔내초등학교",
-							"alternateName": "Dunnae Elementary School",
-							"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25264 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "횡성군",
-								"streetAddress": "강원특별자치도 횡성군 둔내면 둔내로47번길 6 (둔내면)"
-							},
-							"telephone": "033-342-1252",
-							"faxNumber": "033-342-3839",
-							"sameAs": ["http://dunnae.gwe.es.kr/"]
-						}
-					],
+						"telephone": "033-342-1252",
+						"faxNumber": "033-342-3839",
+						"sameAs": ["http://dunnae.gwe.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.0 Kcal",
 										"carbohydrateContent": "98.5 g",
 										"proteinContent": "23.9 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "43.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "20.9 mg",
-										"calciumContent": "181.6 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/평해초등학교/",
 				"headline": "평해초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/평해초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/phes",
-							"url": "http://school.gyo6.net/phes",
-							"name": "평해초등학교 급식 식단표 안내",
-							"description": "평해초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 평해초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "평해초등학교",
+						"alternateName": "Pyeonghae Elementary School",
+						"description": "경상북도울진교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36366 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "울진군",
+							"streetAddress": "경상북도 울진군 평해읍 평해로 19 (평해읍/ 평해초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "평해초등학교",
-							"alternateName": "Pyeonghae Elementary School",
-							"description": "경상북도울진교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36366 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "울진군",
-								"streetAddress": "경상북도 울진군 평해읍 평해로 19 (평해읍/ 평해초등학교)"
-							},
-							"telephone": "054-787-5006",
-							"faxNumber": "054-787-9024",
-							"sameAs": ["http://school.gyo6.net/phes"]
-						}
-					],
+						"telephone": "054-787-5006",
+						"faxNumber": "054-787-9024",
+						"sameAs": ["http://school.gyo6.net/phes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "729.8 Kcal",
 										"carbohydrateContent": "109.4 g",
 										"proteinContent": "24.7 g",
-										"fatContent": "19.9 g",
-										"vitaminAContent": "48.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "26.3 mg",
-										"calciumContent": "108.3 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "19.9 g"
 									}
 								}
 							]

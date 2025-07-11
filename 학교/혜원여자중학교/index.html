@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/혜원여자중학교/",
 				"headline": "혜원여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/혜원여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyewon.ms.kr",
-							"url": "http://hyewon.ms.kr",
-							"name": "혜원여자중학교 급식 식단표 안내",
-							"description": "혜원여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 혜원여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "혜원여자중학교",
+						"alternateName": "Hyewon Girls’ Middle School",
+						"description": "서울특별시동부교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02174 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "중랑구",
+							"streetAddress": "서울특별시 중랑구 봉우재로58길 39 (망우동/혜원여자중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "혜원여자중학교",
-							"alternateName": "Hyewon Girls’ Middle School",
-							"description": "서울특별시동부교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02174 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "중랑구",
-								"streetAddress": "서울특별시 중랑구 봉우재로58길 39 (망우동/혜원여자중고등학교)"
-							},
-							"telephone": "02-434-5947",
-							"faxNumber": "02-492-5703",
-							"sameAs": ["http://hyewon.ms.kr"]
-						}
-					],
+						"telephone": "02-434-5947",
+						"faxNumber": "02-492-5703",
+						"sameAs": ["http://hyewon.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "714.3 Kcal",
 										"carbohydrateContent": "93.6 g",
 										"proteinContent": "38.3 g",
-										"fatContent": "20.8 g",
-										"vitaminAContent": "128.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "42.1 mg",
-										"calciumContent": "92.4 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "20.8 g"
 									}
 								}
 							]

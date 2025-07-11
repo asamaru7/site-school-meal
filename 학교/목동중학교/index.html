@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/목동중학교/",
 				"headline": "목동중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/목동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.mokdong.ms.kr",
-							"url": "http://www.mokdong.ms.kr",
-							"name": "목동중학교 급식 식단표 안내",
-							"description": "목동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 목동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "목동중학교",
+						"alternateName": "Mokdong Middle School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08010 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "양천구",
+							"streetAddress": "서울특별시 양천구 목동동로 172 (신정동/목동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "목동중학교",
-							"alternateName": "Mokdong Middle School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08010 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "양천구",
-								"streetAddress": "서울특별시 양천구 목동동로 172 (신정동/목동중학교)"
-							},
-							"telephone": "02-2643-1103",
-							"faxNumber": "02-2653-5848",
-							"sameAs": ["http://www.mokdong.ms.kr"]
-						}
-					],
+						"telephone": "02-2643-1103",
+						"faxNumber": "02-2653-5848",
+						"sameAs": ["http://www.mokdong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "714.0 Kcal",
 										"carbohydrateContent": "107.0 g",
 										"proteinContent": "43.7 g",
-										"fatContent": "10.9 g",
-										"vitaminAContent": "95.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "32.8 mg",
-										"calciumContent": "137.2 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "10.9 g"
 									}
 								}
 							]

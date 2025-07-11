@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신북초등학교-영암/",
 				"headline": "신북초등학교(영암) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신북초등학교-영암/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ya-sinbuk.es.jne.kr",
-							"url": "http://ya-sinbuk.es.jne.kr",
-							"name": "신북초등학교(영암) 급식 식단표 안내",
-							"description": "신북초등학교(영암)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신북초등학교(영암)",
+						"alternateName": "Sinbuk Elementary School",
+						"description": "전라남도영암교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58401 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 신북면 간은정로 67 / 신북초등학교 (신북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신북초등학교(영암)",
-							"alternateName": "Sinbuk Elementary School",
-							"description": "전라남도영암교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58401 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 신북면 간은정로 67 / 신북초등학교 (신북면)"
-							},
-							"telephone": "061-472-9025",
-							"faxNumber": "061-473-7292",
-							"sameAs": ["http://ya-sinbuk.es.jne.kr"]
-						}
-					],
+						"telephone": "061-472-9025",
+						"faxNumber": "061-473-7292",
+						"sameAs": ["http://ya-sinbuk.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "613.7 Kcal",
 										"carbohydrateContent": "88.3 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "241.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.3 mg",
-										"calciumContent": "281.6 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

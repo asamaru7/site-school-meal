@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/태종대중학교/",
 				"headline": "태종대중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/태종대중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.taejongdae.ms.kr",
-							"url": "http://www.taejongdae.ms.kr",
-							"name": "태종대중학교 급식 식단표 안내",
-							"description": "태종대중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 태종대중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "태종대중학교",
+						"alternateName": "Taejongdae Middle School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49113 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "영도구",
+							"streetAddress": "부산광역시 영도구 함지로79번길 9 (동삼동/태종대중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "태종대중학교",
-							"alternateName": "Taejongdae Middle School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49113 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "영도구",
-								"streetAddress": "부산광역시 영도구 함지로79번길 9 (동삼동/태종대중학교)"
-							},
-							"telephone": "051-400-2700",
-							"faxNumber": "051-400-2725",
-							"sameAs": ["http://www.taejongdae.ms.kr"]
-						}
-					],
+						"telephone": "051-400-2700",
+						"faxNumber": "051-400-2725",
+						"sameAs": ["http://www.taejongdae.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1347.2 Kcal",
 										"carbohydrateContent": "166.6 g",
 										"proteinContent": "50.5 g",
-										"fatContent": "50.1 g",
-										"vitaminAContent": "81.4 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "56.9 mg",
-										"calciumContent": "171.9 mg",
-										"ironContent": "11.4 mg"
+										"fatContent": "50.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대청중학교/",
 				"headline": "대청중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대청중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daecheong.sen.ms.kr",
-							"url": "http://daecheong.sen.ms.kr",
-							"name": "대청중학교 급식 식단표 안내",
-							"description": "대청중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대청중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대청중학교",
+						"alternateName": "Daecheong Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06289 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 양재천로 321 (대치동/ 대청중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대청중학교",
-							"alternateName": "Daecheong Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06289 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 양재천로 321 (대치동/ 대청중학교)"
-							},
-							"telephone": "02-553-9830",
-							"faxNumber": "02-561-6224",
-							"sameAs": ["http://daecheong.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-553-9830",
+						"faxNumber": "02-561-6224",
+						"sameAs": ["http://daecheong.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "736.9 Kcal",
 										"carbohydrateContent": "102.7 g",
 										"proteinContent": "23.4 g",
-										"fatContent": "26.3 g",
-										"vitaminAContent": "153.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "3.8 mg",
-										"calciumContent": "163.8 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "26.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/합천중학교/",
 				"headline": "합천중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/합천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hapcheon-m.gne.go.kr/",
-							"url": "http://hapcheon-m.gne.go.kr/",
-							"name": "합천중학교 급식 식단표 안내",
-							"description": "합천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 합천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "합천중학교",
+						"alternateName": "",
+						"description": "합천교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50238 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 합천읍 동서로 140 (합천읍/ 합천중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "합천중학교",
-							"alternateName": "",
-							"description": "합천교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50238 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 합천읍 동서로 140 (합천읍/ 합천중학교)"
-							},
-							"telephone": "055-933-0045",
-							"faxNumber": "055-932-9183",
-							"sameAs": ["http://hapcheon-m.gne.go.kr/"]
-						}
-					]
+						"telephone": "055-933-0045",
+						"faxNumber": "055-932-9183",
+						"sameAs": ["http://hapcheon-m.gne.go.kr/"]
+					}
 				]
 			}
 		</script>

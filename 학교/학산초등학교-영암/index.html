@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/학산초등학교-영암/",
 				"headline": "학산초등학교(영암) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/학산초등학교-영암/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "ya-haksan.es.jne.kr",
-							"url": "ya-haksan.es.jne.kr",
-							"name": "학산초등학교(영암) 급식 식단표 안내",
-							"description": "학산초등학교(영암)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 학산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "학산초등학교(영암)",
+						"alternateName": "Haksan Elementary School",
+						"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58440 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 학산면 금계로 193 (학산면/ 학산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "학산초등학교(영암)",
-							"alternateName": "Haksan Elementary School",
-							"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58440 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 학산면 금계로 193 (학산면/ 학산초등학교)"
-							},
-							"telephone": "061-472-4166",
-							"faxNumber": "061-472-5342",
-							"sameAs": ["ya-haksan.es.jne.kr"]
-						}
-					],
+						"telephone": "061-472-4166",
+						"faxNumber": "061-472-5342",
+						"sameAs": ["ya-haksan.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "710.1 Kcal",
 										"carbohydrateContent": "104.8 g",
 										"proteinContent": "35.6 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "57.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.5 mg",
-										"calciumContent": "253.7 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

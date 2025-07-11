@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울동교초등학교/",
 				"headline": "서울동교초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울동교초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.donggyo.es.kr",
-							"url": "www.donggyo.es.kr",
-							"name": "서울동교초등학교 급식 식단표 안내",
-							"description": "서울동교초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울동교초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울동교초등학교",
+						"alternateName": "Seoul Dong-gyo Elementary School",
+						"description": "서울특별시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03959 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "마포구",
+							"streetAddress": "서울특별시 마포구 월드컵로25길 86 / 동교초등학교 (망원동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울동교초등학교",
-							"alternateName": "Seoul Dong-gyo Elementary School",
-							"description": "서울특별시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03959 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "마포구",
-								"streetAddress": "서울특별시 마포구 월드컵로25길 86 / 동교초등학교 (망원동)"
-							},
-							"telephone": "02-324-5091",
-							"faxNumber": "02-324-5094",
-							"sameAs": ["www.donggyo.es.kr"]
-						}
-					],
+						"telephone": "02-324-5091",
+						"faxNumber": "02-324-5094",
+						"sameAs": ["www.donggyo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "609.1 Kcal",
 										"carbohydrateContent": "83.1 g",
 										"proteinContent": "20.0 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "297.6 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.9 mg",
-										"calciumContent": "342.5 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "21.0 g"
 									}
 								}
 							]

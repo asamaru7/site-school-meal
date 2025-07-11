@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포두중학교/",
 				"headline": "포두중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포두중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://podu.ms.jne.kr",
-							"url": "http://podu.ms.jne.kr",
-							"name": "포두중학교 급식 식단표 안내",
-							"description": "포두중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포두중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포두중학교",
+						"alternateName": "Podu Middle School",
+						"description": "전라남도고흥교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59524 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "고흥군",
+							"streetAddress": "전라남도 고흥군 포두면 우주로 628-34 (포두면/ 포두중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포두중학교",
-							"alternateName": "Podu Middle School",
-							"description": "전라남도고흥교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59524 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "고흥군",
-								"streetAddress": "전라남도 고흥군 포두면 우주로 628-34 (포두면/ 포두중학교)"
-							},
-							"telephone": "061-832-5421",
-							"faxNumber": "061-833-5920",
-							"sameAs": ["http://podu.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-832-5421",
+						"faxNumber": "061-833-5920",
+						"sameAs": ["http://podu.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1043.6 Kcal",
 										"carbohydrateContent": "129.1 g",
 										"proteinContent": "59.7 g",
-										"fatContent": "29.3 g",
-										"vitaminAContent": "107.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "30.8 mg",
-										"calciumContent": "259.6 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "29.3 g"
 									}
 								}
 							]

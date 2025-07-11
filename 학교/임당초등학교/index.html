@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/임당초등학교/",
 				"headline": "임당초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/임당초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://imdang.gwe.es.kr",
-							"url": "http://imdang.gwe.es.kr",
-							"name": "임당초등학교 급식 식단표 안내",
-							"description": "임당초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 임당초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "임당초등학교",
+						"alternateName": "Imdang Elementary School",
+						"description": "강원특별자치도양구교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24507 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "양구군",
+							"streetAddress": "강원특별자치도 양구군 동면 금강산로 1673 (동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "임당초등학교",
-							"alternateName": "Imdang Elementary School",
-							"description": "강원특별자치도양구교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24507 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "양구군",
-								"streetAddress": "강원특별자치도 양구군 동면 금강산로 1673 (동면)"
-							},
-							"telephone": "033-481-8660",
-							"faxNumber": "033-481-2847",
-							"sameAs": ["http://imdang.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-481-8660",
+						"faxNumber": "033-481-2847",
+						"sameAs": ["http://imdang.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "796.7 Kcal",
 										"carbohydrateContent": "72.7 g",
 										"proteinContent": "38.7 g",
-										"fatContent": "37.1 g",
-										"vitaminAContent": "224.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "16.7 mg",
-										"calciumContent": "365.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "37.1 g"
 									}
 								}
 							]

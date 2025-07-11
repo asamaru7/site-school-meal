@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/큰별초등학교/",
 				"headline": "큰별초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/큰별초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://keunbyeol.gen.es.kr",
-							"url": "http://keunbyeol.gen.es.kr",
-							"name": "큰별초등학교 급식 식단표 안내",
-							"description": "큰별초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 큰별초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "큰별초등학교",
+						"alternateName": "Keunbyeol elementary school",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62307 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 수등로 115 (신가동/ 큰별초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "큰별초등학교",
-							"alternateName": "Keunbyeol elementary school",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62307 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 수등로 115 (신가동/ 큰별초등학교)"
-							},
-							"telephone": "062-960-2404",
-							"faxNumber": "062-951-7643",
-							"sameAs": ["http://keunbyeol.gen.es.kr"]
-						}
-					],
+						"telephone": "062-960-2404",
+						"faxNumber": "062-951-7643",
+						"sameAs": ["http://keunbyeol.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "612.8 Kcal",
 										"carbohydrateContent": "77.3 g",
 										"proteinContent": "33.4 g",
-										"fatContent": "18.4 g",
-										"vitaminAContent": "193.3 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.8 mg",
-										"calciumContent": "106.9 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "18.4 g"
 									}
 								}
 							]

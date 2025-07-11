@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울포이초등학교/",
 				"headline": "서울포이초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울포이초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://poi.sen.es.kr",
-							"url": "http://poi.sen.es.kr",
-							"name": "서울포이초등학교 급식 식단표 안내",
-							"description": "서울포이초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울포이초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울포이초등학교",
+						"alternateName": "Seoul Po-i Elementary School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06311 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 개포로22길 87 / 서울포이초등학교 (개포동/포이초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울포이초등학교",
-							"alternateName": "Seoul Po-i Elementary School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06311 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 개포로22길 87 / 서울포이초등학교 (개포동/포이초등학교)"
-							},
-							"telephone": "02-578-7334",
-							"faxNumber": "02-6009-5310",
-							"sameAs": ["http://poi.sen.es.kr"]
-						}
-					],
+						"telephone": "02-578-7334",
+						"faxNumber": "02-6009-5310",
+						"sameAs": ["http://poi.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "723.0 Kcal",
 										"carbohydrateContent": "81.8 g",
 										"proteinContent": "36.4 g",
-										"fatContent": "27.7 g",
-										"vitaminAContent": "136.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "47.3 mg",
-										"calciumContent": "270.1 mg",
-										"ironContent": "5.2 mg"
+										"fatContent": "27.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼괴고등학교/",
 				"headline": "삼괴고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼괴고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.samgoe.hs.kr",
-							"url": "www.samgoe.hs.kr",
-							"name": "삼괴고등학교 급식 식단표 안내",
-							"description": "삼괴고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼괴고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼괴고등학교",
+						"alternateName": "Samgoe High School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18564 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 우정읍 장안로 35 (우정읍/ 삼괴고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼괴고등학교",
-							"alternateName": "Samgoe High School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18564 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 우정읍 장안로 35 (우정읍/ 삼괴고등학교)"
-							},
-							"telephone": "031-831-0600",
-							"faxNumber": "031-358-3809",
-							"sameAs": ["www.samgoe.hs.kr"]
-						}
-					]
+						"telephone": "031-831-0600",
+						"faxNumber": "031-358-3809",
+						"sameAs": ["www.samgoe.hs.kr"]
+					}
 				]
 			}
 		</script>

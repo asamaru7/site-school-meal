@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오송솔미초등학교/",
 				"headline": "오송솔미초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오송솔미초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/osongsolmi-e",
-							"url": "http://school.cbe.go.kr/osongsolmi-e",
-							"name": "오송솔미초등학교 급식 식단표 안내",
-							"description": "오송솔미초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오송솔미초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오송솔미초등학교",
+						"alternateName": "오송솔미초등학교",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28222 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 흥덕구",
+							"streetAddress": "충청북도 청주시 흥덕구 오송읍 오송생명12로 83 오송솔미초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오송솔미초등학교",
-							"alternateName": "오송솔미초등학교",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28222 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 흥덕구",
-								"streetAddress": "충청북도 청주시 흥덕구 오송읍 오송생명12로 83 오송솔미초등학교"
-							},
-							"telephone": "043-231-7921",
-							"faxNumber": "043-231-7911",
-							"sameAs": ["http://school.cbe.go.kr/osongsolmi-e"]
-						}
-					],
+						"telephone": "043-231-7921",
+						"faxNumber": "043-231-7911",
+						"sameAs": ["http://school.cbe.go.kr/osongsolmi-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "602.6 Kcal",
 										"carbohydrateContent": "85.3 g",
 										"proteinContent": "27.8 g",
-										"fatContent": "16.7 g",
-										"vitaminAContent": "160.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "24.0 mg",
-										"calciumContent": "106.9 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "16.7 g"
 									}
 								}
 							]

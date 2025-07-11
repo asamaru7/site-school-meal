@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서포중학교/",
 				"headline": "서포중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서포중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/gbnursinghs",
-							"url": "http://school.gyo6.net/gbnursinghs",
-							"name": "서포중학교 급식 식단표 안내",
-							"description": "서포중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서포중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서포중학교",
+						"alternateName": "Seopo Middle School",
+						"description": "경상북도포항교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37507 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 죽장면 일광길 2 (죽장면/ 서포중학교/경북간호고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서포중학교",
-							"alternateName": "Seopo Middle School",
-							"description": "경상북도포항교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37507 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 죽장면 일광길 2 (죽장면/ 서포중학교/경북간호고등학교)"
-							},
-							"telephone": "054-243-3203",
-							"faxNumber": "054-243-3205",
-							"sameAs": ["http://school.gyo6.net/gbnursinghs"]
-						}
-					],
+						"telephone": "054-243-3203",
+						"faxNumber": "054-243-3205",
+						"sameAs": ["http://school.gyo6.net/gbnursinghs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "806.7 Kcal",
 										"carbohydrateContent": "127.2 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "16.6 g",
-										"vitaminAContent": "82.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "36.8 mg",
-										"calciumContent": "352.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "16.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "876.5 Kcal",
 										"carbohydrateContent": "113.9 g",
 										"proteinContent": "48.7 g",
-										"fatContent": "23.1 g",
-										"vitaminAContent": "144.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.4 mg",
-										"calciumContent": "438.5 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "23.1 g"
 									}
 								}
 							]

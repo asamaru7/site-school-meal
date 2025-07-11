@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미사강변중학교/",
 				"headline": "미사강변중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미사강변중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://msgb-m.goegh.kr",
-							"url": "https://msgb-m.goegh.kr",
-							"name": "미사강변중학교 급식 식단표 안내",
-							"description": "미사강변중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미사강변중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미사강변중학교",
+						"alternateName": "Misagangbyeon Middle School",
+						"description": "경기도광주하남교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12901 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "하남시",
+							"streetAddress": "경기도 하남시 미사강변한강로 89 (선동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미사강변중학교",
-							"alternateName": "Misagangbyeon Middle School",
-							"description": "경기도광주하남교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12901 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "하남시",
-								"streetAddress": "경기도 하남시 미사강변한강로 89 (선동)"
-							},
-							"telephone": "031-8026-0519",
-							"faxNumber": "031-8026-0538",
-							"sameAs": ["https://msgb-m.goegh.kr"]
-						}
-					],
+						"telephone": "031-8026-0519",
+						"faxNumber": "031-8026-0538",
+						"sameAs": ["https://msgb-m.goegh.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "944.0 Kcal",
 										"carbohydrateContent": "115.0 g",
 										"proteinContent": "23.0 g",
-										"fatContent": "41.9 g",
-										"vitaminAContent": "129.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "15.8 mg",
-										"calciumContent": "177.4 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "41.9 g"
 									}
 								}
 							]

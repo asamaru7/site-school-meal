@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수산초등학교/",
 				"headline": "수산초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/soosan-e",
-							"url": "http://school.cbe.go.kr/soosan-e",
-							"name": "수산초등학교 급식 식단표 안내",
-							"description": "수산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수산초등학교",
+						"alternateName": "Susan elementary school",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27220 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 수산면 지곡로 12 (수산면,수산초.수산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수산초등학교",
-							"alternateName": "Susan elementary school",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27220 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 수산면 지곡로 12 (수산면,수산초.수산중학교)"
-							},
-							"telephone": "043-648-5489",
-							"faxNumber": "043-647-8417",
-							"sameAs": ["http://school.cbe.go.kr/soosan-e"]
-						}
-					],
+						"telephone": "043-648-5489",
+						"faxNumber": "043-647-8417",
+						"sameAs": ["http://school.cbe.go.kr/soosan-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "888.4 Kcal",
 										"carbohydrateContent": "118.1 g",
 										"proteinContent": "46.2 g",
-										"fatContent": "24.9 g",
-										"vitaminAContent": "278.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "55.8 mg",
-										"calciumContent": "457.4 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "24.9 g"
 									}
 								}
 							]

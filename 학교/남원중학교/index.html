@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남원중학교/",
 				"headline": "남원중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남원중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nw.ms.kr",
-							"url": "http://nw.ms.kr",
-							"name": "남원중학교 급식 식단표 안내",
-							"description": "남원중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남원중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남원중학교",
+						"alternateName": "Namwon Middle School",
+						"description": "전북특별자치도남원교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55728 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "남원시",
+							"streetAddress": "전북특별자치도 남원시 만인로 41-51 남원중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남원중학교",
-							"alternateName": "Namwon Middle School",
-							"description": "전북특별자치도남원교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55728 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "남원시",
-								"streetAddress": "전북특별자치도 남원시 만인로 41-51 남원중학교"
-							},
-							"telephone": "063-625-2029",
-							"faxNumber": "063-631-4733",
-							"sameAs": ["http://nw.ms.kr"]
-						}
-					],
+						"telephone": "063-625-2029",
+						"faxNumber": "063-631-4733",
+						"sameAs": ["http://nw.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "697.2 Kcal",
 										"carbohydrateContent": "97.3 g",
 										"proteinContent": "35.3 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "111.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "28.7 mg",
-										"calciumContent": "296.1 mg",
-										"ironContent": "7.8 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

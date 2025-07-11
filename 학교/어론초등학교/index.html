@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/어론초등학교/",
 				"headline": "어론초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/어론초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://aron.gwe.es.kr",
-							"url": "http://aron.gwe.es.kr",
-							"name": "어론초등학교 급식 식단표 안내",
-							"description": "어론초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 어론초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "어론초등학교",
+						"alternateName": "Eoron  Elementary School",
+						"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24652 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "인제군",
+							"streetAddress": "강원특별자치도 인제군 남면 설악로 198 (남면/어론초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "어론초등학교",
-							"alternateName": "Eoron  Elementary School",
-							"description": "강원특별자치도인제교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24652 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "인제군",
-								"streetAddress": "강원특별자치도 인제군 남면 설악로 198 (남면/어론초등학교)"
-							},
-							"telephone": "033-461-6171",
-							"faxNumber": "033-461-6635",
-							"sameAs": ["http://aron.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-461-6171",
+						"faxNumber": "033-461-6635",
+						"sameAs": ["http://aron.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "647.4 Kcal",
 										"carbohydrateContent": "96.2 g",
 										"proteinContent": "23.6 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "79.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.6 mg",
-										"calciumContent": "245.5 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

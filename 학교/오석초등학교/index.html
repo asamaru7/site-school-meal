@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오석초등학교/",
 				"headline": "오석초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.cbe.go.kr/oseok-e",
-							"url": "https://school.cbe.go.kr/oseok-e",
-							"name": "오석초등학교 급식 식단표 안내",
-							"description": "오석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오석초등학교",
+						"alternateName": "Oseok  Elementary School",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27445 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 금가면 김생로 456 (금가면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오석초등학교",
-							"alternateName": "Oseok  Elementary School",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27445 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 금가면 김생로 456 (금가면)"
-							},
-							"telephone": "043-848-3882",
-							"faxNumber": "043-848-3881",
-							"sameAs": ["https://school.cbe.go.kr/oseok-e"]
-						}
-					],
+						"telephone": "043-848-3882",
+						"faxNumber": "043-848-3881",
+						"sameAs": ["https://school.cbe.go.kr/oseok-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "591.7 Kcal",
 										"carbohydrateContent": "85.6 g",
 										"proteinContent": "38.7 g",
-										"fatContent": "9.6 g",
-										"vitaminAContent": "124.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "258.3 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "9.6 g"
 									}
 								}
 							]

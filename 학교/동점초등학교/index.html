@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동점초등학교/",
 				"headline": "동점초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동점초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dongjum.gwe.es.kr",
-							"url": "dongjum.gwe.es.kr",
-							"name": "동점초등학교 급식 식단표 안내",
-							"description": "동점초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동점초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동점초등학교",
+						"alternateName": "Dongjeom Elementary School",
+						"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26048 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "태백시",
+							"streetAddress": "강원특별자치도 태백시 방터골1길 59 (동점동/ 동점초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동점초등학교",
-							"alternateName": "Dongjeom Elementary School",
-							"description": "강원특별자치도태백교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26048 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "태백시",
-								"streetAddress": "강원특별자치도 태백시 방터골1길 59 (동점동/ 동점초등학교)"
-							},
-							"telephone": "033-582-7975",
-							"faxNumber": "033-582-1437",
-							"sameAs": ["dongjum.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-582-7975",
+						"faxNumber": "033-582-1437",
+						"sameAs": ["dongjum.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "624.4 Kcal",
 										"carbohydrateContent": "90.6 g",
 										"proteinContent": "23.9 g",
-										"fatContent": "16.9 g",
-										"vitaminAContent": "62.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "2.7 mg",
-										"calciumContent": "97.7 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "16.9 g"
 									}
 								}
 							]

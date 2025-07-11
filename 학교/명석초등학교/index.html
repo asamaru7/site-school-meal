@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명석초등학교/",
 				"headline": "명석초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://myeongseok-p.gne.go.kr/myeongseok-p/main.do",
-							"url": "http://myeongseok-p.gne.go.kr/myeongseok-p/main.do",
-							"name": "명석초등학교 급식 식단표 안내",
-							"description": "명석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명석초등학교",
+						"alternateName": "Myeongseok Elementary School",
+						"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52642 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 명석면 광제산로 23 (명석면/명석초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명석초등학교",
-							"alternateName": "Myeongseok Elementary School",
-							"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52642 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 명석면 광제산로 23 (명석면/명석초등학교)"
-							},
-							"telephone": "055-744-4987",
-							"faxNumber": "055-744-3446",
-							"sameAs": ["http://myeongseok-p.gne.go.kr/myeongseok-p/main.do"]
-						}
-					],
+						"telephone": "055-744-4987",
+						"faxNumber": "055-744-3446",
+						"sameAs": ["http://myeongseok-p.gne.go.kr/myeongseok-p/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "783.3 Kcal",
 										"carbohydrateContent": "91.0 g",
 										"proteinContent": "52.1 g",
-										"fatContent": "22.4 g",
-										"vitaminAContent": "317.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "18.1 mg",
-										"calciumContent": "369.7 mg",
-										"ironContent": "6.4 mg"
+										"fatContent": "22.4 g"
 									}
 								}
 							]

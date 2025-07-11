@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경남산업고등학교/",
 				"headline": "경남산업고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경남산업고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gni-h.gne.go.kr",
-							"url": "http://gni-h.gne.go.kr",
-							"name": "경남산업고등학교 급식 식단표 안내",
-							"description": "경남산업고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경남산업고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경남산업고등학교",
+						"alternateName": "Gyeongnam Industrial High School",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53204 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 하청면 서리1길 17 (하청면, 경남산업고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경남산업고등학교",
-							"alternateName": "Gyeongnam Industrial High School",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53204 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 하청면 서리1길 17 (하청면, 경남산업고등학교)"
-							},
-							"telephone": "055-636-1801",
-							"faxNumber": "055-636-1804",
-							"sameAs": ["http://gni-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-636-1801",
+						"faxNumber": "055-636-1804",
+						"sameAs": ["http://gni-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.8 Kcal",
 										"carbohydrateContent": "123.3 g",
 										"proteinContent": "40.0 g",
-										"fatContent": "18.9 g",
-										"vitaminAContent": "24.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "12.2 mg",
-										"calciumContent": "265.2 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "18.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/백암초등학교/",
 				"headline": "백암초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/백암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "packam-e.goeyi.kr",
-							"url": "packam-e.goeyi.kr",
-							"name": "백암초등학교 급식 식단표 안내",
-							"description": "백암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 백암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "백암초등학교",
+						"alternateName": "Backam Elementary School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17177 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 처인구",
+							"streetAddress": "경기도 용인시 처인구 백암면 백원로 501 (백암면/백암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "백암초등학교",
-							"alternateName": "Backam Elementary School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17177 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 처인구",
-								"streetAddress": "경기도 용인시 처인구 백암면 백원로 501 (백암면/백암초등학교)"
-							},
-							"telephone": "031-332-4612",
-							"faxNumber": "031-334-5202",
-							"sameAs": ["packam-e.goeyi.kr"]
-						}
-					],
+						"telephone": "031-332-4612",
+						"faxNumber": "031-334-5202",
+						"sameAs": ["packam-e.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "699.7 Kcal",
 										"carbohydrateContent": "89.4 g",
 										"proteinContent": "33.3 g",
-										"fatContent": "21.1 g",
-										"vitaminAContent": "95.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "10.5 mg",
-										"calciumContent": "51.7 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "21.1 g"
 									}
 								}
 							]

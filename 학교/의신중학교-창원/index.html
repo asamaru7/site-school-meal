@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/의신중학교-창원/",
 				"headline": "의신중학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/의신중학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://msuisinyeo-m.gne.go.kr/",
-							"url": "http://msuisinyeo-m.gne.go.kr/",
-							"name": "의신중학교(창원) 급식 식단표 안내",
-							"description": "의신중학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 의신중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "의신중학교(창원)",
+						"alternateName": "Euishin Middle School",
+						"description": "창원교육지원청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51278 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 천하장사로 21 (교방동, 마산의신여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "의신중학교(창원)",
-							"alternateName": "Euishin Middle School",
-							"description": "창원교육지원청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51278 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 천하장사로 21 (교방동, 마산의신여자중학교)"
-							},
-							"telephone": "055-246-1651",
-							"faxNumber": "055-223-5848",
-							"sameAs": ["http://msuisinyeo-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-246-1651",
+						"faxNumber": "055-223-5848",
+						"sameAs": ["http://msuisinyeo-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "734.0 Kcal",
 										"carbohydrateContent": "86.2 g",
 										"proteinContent": "34.0 g",
-										"fatContent": "26.4 g",
-										"vitaminAContent": "113.5 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.0 mg",
-										"calciumContent": "232.6 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "26.4 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은성중학교/",
 				"headline": "은성중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eunseong.sen.ms.kr",
-							"url": "http://eunseong.sen.ms.kr",
-							"name": "은성중학교 급식 식단표 안내",
-							"description": "은성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은성중학교",
+						"alternateName": "Eunseong Middle School",
+						"description": "서울특별시강남서초교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06264 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 남부순환로359길 36 (도곡동/은광여자고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은성중학교",
-							"alternateName": "Eunseong Middle School",
-							"description": "서울특별시강남서초교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06264 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 남부순환로359길 36 (도곡동/은광여자고등학교)"
-							},
-							"telephone": "02-3462-2003",
-							"faxNumber": "02-3462-0088",
-							"sameAs": ["http://eunseong.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-3462-2003",
+						"faxNumber": "02-3462-0088",
+						"sameAs": ["http://eunseong.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "660.2 Kcal",
 										"carbohydrateContent": "94.9 g",
 										"proteinContent": "40.9 g",
-										"fatContent": "11.8 g",
-										"vitaminAContent": "147.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "23.9 mg",
-										"calciumContent": "557.1 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "11.8 g"
 									}
 								}
 							]

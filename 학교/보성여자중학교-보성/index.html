@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보성여자중학교-보성/",
 				"headline": "보성여자중학교(보성) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보성여자중학교-보성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bs-girl.ms.jne.kr",
-							"url": "http://bs-girl.ms.jne.kr",
-							"name": "보성여자중학교(보성) 급식 식단표 안내",
-							"description": "보성여자중학교(보성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보성여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보성여자중학교(보성)",
+						"alternateName": "Boseong Girls Middle School",
+						"description": "전라남도보성교육지원청 / 공립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59459 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 보성읍 중앙로 20 (보성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보성여자중학교(보성)",
-							"alternateName": "Boseong Girls Middle School",
-							"description": "전라남도보성교육지원청 / 공립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59459 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 보성읍 중앙로 20 (보성읍)"
-							},
-							"telephone": "061-852-2986",
-							"faxNumber": "061-853-2986",
-							"sameAs": ["http://bs-girl.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-852-2986",
+						"faxNumber": "061-853-2986",
+						"sameAs": ["http://bs-girl.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "803.1 Kcal",
 										"carbohydrateContent": "124.8 g",
 										"proteinContent": "22.0 g",
-										"fatContent": "23.3 g",
-										"vitaminAContent": "145.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "82.5 mg",
-										"calciumContent": "172.8 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "23.3 g"
 									}
 								}
 							]

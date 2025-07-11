@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대곡중학교-진주/",
 				"headline": "대곡중학교(진주) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대곡중학교-진주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jjdaegok-m.gne.go.kr/",
-							"url": "http://jjdaegok-m.gne.go.kr/",
-							"name": "대곡중학교(진주) 급식 식단표 안내",
-							"description": "대곡중학교(진주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대곡중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대곡중학교(진주)",
+						"alternateName": "Daegok Middle School",
+						"description": "진주교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52858 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 소호로 8 (충무공동/ 대곡중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대곡중학교(진주)",
-							"alternateName": "Daegok Middle School",
-							"description": "진주교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52858 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 소호로 8 (충무공동/ 대곡중학교)"
-							},
-							"telephone": "055-795-0991",
-							"faxNumber": "055-744-0008",
-							"sameAs": ["http://jjdaegok-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-795-0991",
+						"faxNumber": "055-744-0008",
+						"sameAs": ["http://jjdaegok-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "781.7 Kcal",
 										"carbohydrateContent": "102.7 g",
 										"proteinContent": "42.5 g",
-										"fatContent": "20.3 g",
-										"vitaminAContent": "113.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.8 mg",
-										"calciumContent": "368.6 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "20.3 g"
 									}
 								}
 							]

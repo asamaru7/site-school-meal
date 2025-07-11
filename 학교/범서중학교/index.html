@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/범서중학교/",
 				"headline": "범서중학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/범서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.beomseo.ms.kr",
-							"url": "www.beomseo.ms.kr",
-							"name": "범서중학교 급식 식단표 안내",
-							"description": "범서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 범서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "범서중학교",
+						"alternateName": "Beomseo Middle School",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44922 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "울주군",
+							"streetAddress": "울산광역시 울주군 범서읍 대리1길 16 (범서읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "범서중학교",
-							"alternateName": "Beomseo Middle School",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44922 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "울주군",
-								"streetAddress": "울산광역시 울주군 범서읍 대리1길 16 (범서읍)"
-							},
-							"telephone": "052-946-7227",
-							"faxNumber": "052-946-7297",
-							"sameAs": ["www.beomseo.ms.kr"]
-						}
-					],
+						"telephone": "052-946-7227",
+						"faxNumber": "052-946-7297",
+						"sameAs": ["www.beomseo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "802.0 Kcal",
 										"carbohydrateContent": "108.2 g",
 										"proteinContent": "34.9 g",
-										"fatContent": "25.1 g",
-										"vitaminAContent": "189.1 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.8 mg",
-										"calciumContent": "247.5 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "25.1 g"
 									}
 								}
 							]

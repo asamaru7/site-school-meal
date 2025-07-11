@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/해미중학교/",
 				"headline": "해미중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/해미중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.haemi.cnems.kr/",
-							"url": "http://www.haemi.cnems.kr/",
-							"name": "해미중학교 급식 식단표 안내",
-							"description": "해미중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 해미중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "해미중학교",
+						"alternateName": "Haemi Middle School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31960 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 해미면 남문2로 93 (해미면/ 서산해미중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "해미중학교",
-							"alternateName": "Haemi Middle School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31960 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 해미면 남문2로 93 (해미면/ 서산해미중학교)"
-							},
-							"telephone": "041-688-5814",
-							"faxNumber": "041-688-5815",
-							"sameAs": ["http://www.haemi.cnems.kr/"]
-						}
-					]
+						"telephone": "041-688-5814",
+						"faxNumber": "041-688-5815",
+						"sameAs": ["http://www.haemi.cnems.kr/"]
+					}
 				]
 			}
 		</script>

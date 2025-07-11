@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/조도초등학교/",
 				"headline": "조도초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/조도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jodo.es.jne.kr",
-							"url": "jodo.es.jne.kr",
-							"name": "조도초등학교 급식 식단표 안내",
-							"description": "조도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 조도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "조도초등학교",
+						"alternateName": "Jodo Elementary School",
+						"description": "전라남도진도교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58956 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 조도면 창유1길 36-14 (조도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "조도초등학교",
-							"alternateName": "Jodo Elementary School",
-							"description": "전라남도진도교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58956 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 조도면 창유1길 36-14 (조도면)"
-							},
-							"telephone": "061-542-4909",
-							"faxNumber": "061-542-8490",
-							"sameAs": ["jodo.es.jne.kr"]
-						}
-					],
+						"telephone": "061-542-4909",
+						"faxNumber": "061-542-8490",
+						"sameAs": ["jodo.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "611.3 Kcal",
 										"carbohydrateContent": "97.9 g",
 										"proteinContent": "31.0 g",
-										"fatContent": "10.3 g",
-										"vitaminAContent": "139.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.1 mg",
-										"calciumContent": "209.5 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "10.3 g"
 									}
 								}
 							]

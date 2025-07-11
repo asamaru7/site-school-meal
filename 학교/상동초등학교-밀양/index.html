@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/상동초등학교-밀양/",
 				"headline": "상동초등학교(밀양) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/상동초등학교-밀양/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mlsangdong-p.gne.go.kr",
-							"url": "http://mlsangdong-p.gne.go.kr",
-							"name": "상동초등학교(밀양) 급식 식단표 안내",
-							"description": "상동초등학교(밀양)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 상동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "상동초등학교(밀양)",
+						"alternateName": "Sangdong Elementary School",
+						"description": "밀양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50409 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "밀양시",
+							"streetAddress": "경상남도 밀양시 상동면 금산5길 4 (상동면/상동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "상동초등학교(밀양)",
-							"alternateName": "Sangdong Elementary School",
-							"description": "밀양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50409 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "밀양시",
-								"streetAddress": "경상남도 밀양시 상동면 금산5길 4 (상동면/상동초등학교)"
-							},
-							"telephone": "055-352-8056",
-							"faxNumber": "055-352-8964",
-							"sameAs": ["http://mlsangdong-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-352-8056",
+						"faxNumber": "055-352-8964",
+						"sameAs": ["http://mlsangdong-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "826.1 Kcal",
 										"carbohydrateContent": "82.2 g",
 										"proteinContent": "50.6 g",
-										"fatContent": "29.9 g",
-										"vitaminAContent": "211.0 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "20.1 mg",
-										"calciumContent": "350.3 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "29.9 g"
 									}
 								}
 							]

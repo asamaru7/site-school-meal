@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산영선중학교/",
 				"headline": "부산영선중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산영선중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeongseon.ms.kr",
-							"url": "http://yeongseon.ms.kr",
-							"name": "부산영선중학교 급식 식단표 안내",
-							"description": "부산영선중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산영선중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산영선중학교",
+						"alternateName": "Pusan Yeongseon Middle School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49072 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "영도구",
+							"streetAddress": "부산광역시 영도구 영상길 83 / 부산영선중학교 (신선동3가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산영선중학교",
-							"alternateName": "Pusan Yeongseon Middle School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49072 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "영도구",
-								"streetAddress": "부산광역시 영도구 영상길 83 / 부산영선중학교 (신선동3가)"
-							},
-							"telephone": "051-413-5607",
-							"faxNumber": "051-418-7317",
-							"sameAs": ["http://yeongseon.ms.kr"]
-						}
-					],
+						"telephone": "051-413-5607",
+						"faxNumber": "051-418-7317",
+						"sameAs": ["http://yeongseon.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "671.2 Kcal",
 										"carbohydrateContent": "91.8 g",
 										"proteinContent": "28.9 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "102.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "22.5 mg",
-										"calciumContent": "299.9 mg",
-										"ironContent": "7.3 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

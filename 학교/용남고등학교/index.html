@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용남고등학교/",
 				"headline": "용남고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용남고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yongnam.cnehs.kr",
-							"url": "http://yongnam.cnehs.kr",
-							"name": "용남고등학교 급식 식단표 안내",
-							"description": "용남고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용남고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용남고등학교",
+						"alternateName": "Yongnam High School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32801 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "계룡시",
+							"streetAddress": "충청남도 계룡시 신도안면 신도안1길 32 (신도안면/용남고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용남고등학교",
-							"alternateName": "Yongnam High School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32801 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "계룡시",
-								"streetAddress": "충청남도 계룡시 신도안면 신도안1길 32 (신도안면/용남고등학교)"
-							},
-							"telephone": "042-717-2100",
-							"faxNumber": "042-717-2198",
-							"sameAs": ["http://yongnam.cnehs.kr"]
-						}
-					]
+						"telephone": "042-717-2100",
+						"faxNumber": "042-717-2198",
+						"sameAs": ["http://yongnam.cnehs.kr"]
+					}
 				]
 			}
 		</script>

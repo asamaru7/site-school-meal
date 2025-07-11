@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/충남외국어고등학교/",
 				"headline": "충남외국어고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/충남외국어고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cnfl.cnehs.kr",
-							"url": "http://cnfl.cnehs.kr",
-							"name": "충남외국어고등학교 급식 식단표 안내",
-							"description": "충남외국어고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 충남외고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "충남외국어고등학교",
+						"alternateName": "Chungnam Foreign Language High School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31455 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 탕정면 탕정면로 53-60 (탕정면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "충남외국어고등학교",
-							"alternateName": "Chungnam Foreign Language High School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31455 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 탕정면 탕정면로 53-60 (탕정면)"
-							},
-							"telephone": "041-538-4012",
-							"faxNumber": "041-538-4010",
-							"sameAs": ["http://cnfl.cnehs.kr"]
-						}
-					]
+						"telephone": "041-538-4012",
+						"faxNumber": "041-538-4010",
+						"sameAs": ["http://cnfl.cnehs.kr"]
+					}
 				]
 			}
 		</script>

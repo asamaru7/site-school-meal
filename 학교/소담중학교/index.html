@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/소담중학교/",
 				"headline": "소담중학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/소담중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sodam.sjedums.kr",
-							"url": "http://sodam.sjedums.kr",
-							"name": "소담중학교 급식 식단표 안내",
-							"description": "소담중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 소담중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "소담중학교",
+						"alternateName": "Sodam Middle School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30150 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 남세종로 340 (소담동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "소담중학교",
-							"alternateName": "Sodam Middle School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30150 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 남세종로 340 (소담동)"
-							},
-							"telephone": "044-905-0200",
-							"faxNumber": "044-905-0220",
-							"sameAs": ["http://sodam.sjedums.kr"]
-						}
-					],
+						"telephone": "044-905-0200",
+						"faxNumber": "044-905-0220",
+						"sameAs": ["http://sodam.sjedums.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "789.0 Kcal",
 										"carbohydrateContent": "83.3 g",
 										"proteinContent": "44.2 g",
-										"fatContent": "28.7 g",
-										"vitaminAContent": "272.6 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "108.2 mg",
-										"calciumContent": "272.4 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "28.7 g"
 									}
 								}
 							]

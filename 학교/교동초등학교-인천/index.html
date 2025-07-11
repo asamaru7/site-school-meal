@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/교동초등학교-인천/",
 				"headline": "교동초등학교(인천) 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/교동초등학교-인천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kd.icees.kr/",
-							"url": "http://kd.icees.kr/",
-							"name": "교동초등학교(인천) 급식 식단표 안내",
-							"description": "교동초등학교(인천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 교동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "교동초등학교(인천)",
+						"alternateName": "Kyodong Elementary School",
+						"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "23002 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "강화군",
+							"streetAddress": "인천광역시 강화군 교동면 대룡안길 29 / 교동초등학교 (교동면/ 교동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "교동초등학교(인천)",
-							"alternateName": "Kyodong Elementary School",
-							"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "23002 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "강화군",
-								"streetAddress": "인천광역시 강화군 교동면 대룡안길 29 / 교동초등학교 (교동면/ 교동초등학교)"
-							},
-							"telephone": "032-932-4021",
-							"faxNumber": "032-933-4012",
-							"sameAs": ["http://kd.icees.kr/"]
-						}
-					]
+						"telephone": "032-932-4021",
+						"faxNumber": "032-933-4012",
+						"sameAs": ["http://kd.icees.kr/"]
+					}
 				]
 			}
 		</script>

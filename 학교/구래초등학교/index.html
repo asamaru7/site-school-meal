@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구래초등학교/",
 				"headline": "구래초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구래초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "kurae.gwe.es.kr",
-							"url": "kurae.gwe.es.kr",
-							"name": "구래초등학교 급식 식단표 안내",
-							"description": "구래초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구래초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구래초등학교",
+						"alternateName": "Gurae  Elementary School",
+						"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26248 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "영월군",
+							"streetAddress": "강원특별자치도 영월군 상동읍 교촌길 20 (상동읍/구래초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구래초등학교",
-							"alternateName": "Gurae  Elementary School",
-							"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26248 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "영월군",
-								"streetAddress": "강원특별자치도 영월군 상동읍 교촌길 20 (상동읍/구래초등학교)"
-							},
-							"telephone": "033-378-2514",
-							"faxNumber": "033-378-3465",
-							"sameAs": ["kurae.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-378-2514",
+						"faxNumber": "033-378-3465",
+						"sameAs": ["kurae.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.9 Kcal",
 										"carbohydrateContent": "106.1 g",
 										"proteinContent": "35.6 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "113.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "29.3 mg",
-										"calciumContent": "114.1 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

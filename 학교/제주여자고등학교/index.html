@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제주여자고등학교/",
 				"headline": "제주여자고등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제주여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeju-g.jje.hs.kr",
-							"url": "http://jeju-g.jje.hs.kr",
-							"name": "제주여자고등학교 급식 식단표 안내",
-							"description": "제주여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제주여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제주여자고등학교",
+						"alternateName": "JEJU GIRLS' HIGH SCHOOL",
+						"description": "제주특별자치도교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63236 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 구산로 50 , 제주여자고등학교 (아라일동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제주여자고등학교",
-							"alternateName": "JEJU GIRLS' HIGH SCHOOL",
-							"description": "제주특별자치도교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63236 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 구산로 50 , 제주여자고등학교 (아라일동)"
-							},
-							"telephone": "064-728-0100",
-							"faxNumber": "064-728-0101",
-							"sameAs": ["http://jeju-g.jje.hs.kr"]
-						}
-					],
+						"telephone": "064-728-0100",
+						"faxNumber": "064-728-0101",
+						"sameAs": ["http://jeju-g.jje.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "711.1 Kcal",
 										"carbohydrateContent": "103.5 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "47.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "68.6 mg",
-										"calciumContent": "163.4 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "19.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "713.2 Kcal",
 										"carbohydrateContent": "97.6 g",
 										"proteinContent": "41.3 g",
-										"fatContent": "16.3 g",
-										"vitaminAContent": "327.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "22.8 mg",
-										"calciumContent": "299.0 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "16.3 g"
 									}
 								}
 							]

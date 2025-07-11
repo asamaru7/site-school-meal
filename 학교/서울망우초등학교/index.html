@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울망우초등학교/",
 				"headline": "서울망우초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울망우초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mangwoo.sen.es.kr",
-							"url": "http://mangwoo.sen.es.kr",
-							"name": "서울망우초등학교 급식 식단표 안내",
-							"description": "서울망우초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울망우초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울망우초등학교",
+						"alternateName": "Seoul Mang-u Elementary School",
+						"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02179 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "중랑구",
+							"streetAddress": "서울특별시 중랑구 망우로72길 49 / 서울망우초등학교 (망우동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울망우초등학교",
-							"alternateName": "Seoul Mang-u Elementary School",
-							"description": "서울특별시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02179 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "중랑구",
-								"streetAddress": "서울특별시 중랑구 망우로72길 49 / 서울망우초등학교 (망우동)"
-							},
-							"telephone": "02-2209-6323",
-							"faxNumber": "02-2209-6327",
-							"sameAs": ["http://mangwoo.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2209-6323",
+						"faxNumber": "02-2209-6327",
+						"sameAs": ["http://mangwoo.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "654.6 Kcal",
 										"carbohydrateContent": "89.1 g",
 										"proteinContent": "30.5 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "174.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "58.6 mg",
-										"calciumContent": "331.9 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

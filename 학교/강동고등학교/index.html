@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/강동고등학교/",
 				"headline": "강동고등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/강동고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kangdong.sen.hs.kr",
-							"url": "http://kangdong.sen.hs.kr",
-							"name": "강동고등학교 급식 식단표 안내",
-							"description": "강동고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강동고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "강동고등학교",
+						"alternateName": "Kangdong High School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05279 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강동구",
+							"streetAddress": "서울특별시 강동구 구천면로 572 (상일동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "강동고등학교",
-							"alternateName": "Kangdong High School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05279 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강동구",
-								"streetAddress": "서울특별시 강동구 구천면로 572 (상일동)"
-							},
-							"telephone": "02-427-0231",
-							"faxNumber": "02-441-3494",
-							"sameAs": ["http://kangdong.sen.hs.kr"]
-						}
-					],
+						"telephone": "02-427-0231",
+						"faxNumber": "02-441-3494",
+						"sameAs": ["http://kangdong.sen.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "915.7 Kcal",
 										"carbohydrateContent": "123.1 g",
 										"proteinContent": "36.9 g",
-										"fatContent": "30.2 g",
-										"vitaminAContent": "177.1 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "42.8 mg",
-										"calciumContent": "210.2 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "30.2 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1005.7 Kcal",
 										"carbohydrateContent": "157.9 g",
 										"proteinContent": "42.4 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "243.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "12.9 mg",
-										"calciumContent": "401.7 mg",
-										"ironContent": "13.6 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

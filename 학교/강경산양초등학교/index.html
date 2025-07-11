@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/강경산양초등학교/",
 				"headline": "강경산양초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/강경산양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ssanyang.cnees.kr",
-							"url": "http://ssanyang.cnees.kr",
-							"name": "강경산양초등학교 급식 식단표 안내",
-							"description": "강경산양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강경산양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "강경산양초등학교",
+						"alternateName": "Ganggyongsanyang Elementary School",
+						"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32942 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 강경읍 산양길 45 (강경읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "강경산양초등학교",
-							"alternateName": "Ganggyongsanyang Elementary School",
-							"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32942 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 강경읍 산양길 45 (강경읍)"
-							},
-							"telephone": "070-7862-5330",
-							"faxNumber": "041-745-0366",
-							"sameAs": ["http://ssanyang.cnees.kr"]
-						}
-					],
+						"telephone": "070-7862-5330",
+						"faxNumber": "041-745-0366",
+						"sameAs": ["http://ssanyang.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "695.6 Kcal",
 										"carbohydrateContent": "107.1 g",
 										"proteinContent": "48.7 g",
-										"fatContent": "6.4 g",
-										"vitaminAContent": "195.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "30.6 mg",
-										"calciumContent": "251.3 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "6.4 g"
 									}
 								}
 							]

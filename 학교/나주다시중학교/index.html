@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/나주다시중학교/",
 				"headline": "나주다시중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/나주다시중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://najudasi.ms.jne.kr",
-							"url": "http://najudasi.ms.jne.kr",
-							"name": "나주다시중학교 급식 식단표 안내",
-							"description": "나주다시중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 나주다시중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "나주다시중학교",
+						"alternateName": "Najudasi Middle School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58280 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 다시면 무숙로 776 (다시면/다시중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "나주다시중학교",
-							"alternateName": "Najudasi Middle School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58280 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 다시면 무숙로 776 (다시면/다시중학교)"
-							},
-							"telephone": "061-335-4033",
-							"faxNumber": "061-335-7997",
-							"sameAs": ["http://najudasi.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-335-4033",
+						"faxNumber": "061-335-7997",
+						"sameAs": ["http://najudasi.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "419.5 Kcal",
 										"carbohydrateContent": "53.1 g",
 										"proteinContent": "22.0 g",
-										"fatContent": "13.4 g",
-										"vitaminAContent": "245.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.1 mg",
-										"calciumContent": "306.9 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "13.4 g"
 									}
 								}
 							]

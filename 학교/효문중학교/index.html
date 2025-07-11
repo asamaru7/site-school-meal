@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/효문중학교/",
 				"headline": "효문중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/효문중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyomun.ms.kr",
-							"url": "http://hyomun.ms.kr",
-							"name": "효문중학교 급식 식단표 안내",
-							"description": "효문중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 효문중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "효문중학교",
+						"alternateName": "Hyomun Middle School",
+						"description": "서울특별시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01372 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "도봉구",
+							"streetAddress": "서울특별시 도봉구 우이천로 432 (쌍문동/ 효문중 고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "효문중학교",
-							"alternateName": "Hyomun Middle School",
-							"description": "서울특별시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01372 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "도봉구",
-								"streetAddress": "서울특별시 도봉구 우이천로 432 (쌍문동/ 효문중 고등학교)"
-							},
-							"telephone": "02-999-1785",
-							"faxNumber": "02-999-1341",
-							"sameAs": ["http://hyomun.ms.kr"]
-						}
-					],
+						"telephone": "02-999-1785",
+						"faxNumber": "02-999-1341",
+						"sameAs": ["http://hyomun.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "891.1 Kcal",
 										"carbohydrateContent": "130.4 g",
 										"proteinContent": "58.1 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "159.9 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "21.7 mg",
-										"calciumContent": "245.6 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

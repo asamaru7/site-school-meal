@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가창중학교/",
 				"headline": "가창중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가창중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "gachang.dge.ms.kr",
-							"url": "gachang.dge.ms.kr",
-							"name": "가창중학교 급식 식단표 안내",
-							"description": "가창중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가창중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가창중학교",
+						"alternateName": "GaChang Middle School",
+						"description": "대구광역시달성교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42938 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 가창면 원정길 2 (가창면/ 가창중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가창중학교",
-							"alternateName": "GaChang Middle School",
-							"description": "대구광역시달성교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42938 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 가창면 원정길 2 (가창면/ 가창중학교)"
-							},
-							"telephone": "053-235-3859",
-							"faxNumber": "053-767-7220",
-							"sameAs": ["gachang.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-235-3859",
+						"faxNumber": "053-767-7220",
+						"sameAs": ["gachang.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "676.0 Kcal",
 										"carbohydrateContent": "94.4 g",
 										"proteinContent": "35.7 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "348.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "29.2 mg",
-										"calciumContent": "161.0 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

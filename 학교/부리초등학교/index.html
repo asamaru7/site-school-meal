@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부리초등학교/",
 				"headline": "부리초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부리초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://buri.cnees.kr",
-							"url": "http://buri.cnees.kr",
-							"name": "부리초등학교 급식 식단표 안내",
-							"description": "부리초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부리초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부리초등학교",
+						"alternateName": "Buri Elementary School",
+						"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32757 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "금산군",
+							"streetAddress": "충청남도 금산군 부리면 현내로 81 (부리면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부리초등학교",
-							"alternateName": "Buri Elementary School",
-							"description": "충청남도금산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32757 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "금산군",
-								"streetAddress": "충청남도 금산군 부리면 현내로 81 (부리면)"
-							},
-							"telephone": "041-753-0527",
-							"faxNumber": "041-753-9833",
-							"sameAs": ["http://buri.cnees.kr"]
-						}
-					],
+						"telephone": "041-753-0527",
+						"faxNumber": "041-753-9833",
+						"sameAs": ["http://buri.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "714.5 Kcal",
 										"carbohydrateContent": "105.9 g",
 										"proteinContent": "33.6 g",
-										"fatContent": "15.3 g",
-										"vitaminAContent": "228.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "28.5 mg",
-										"calciumContent": "259.6 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "15.3 g"
 									}
 								}
 							]

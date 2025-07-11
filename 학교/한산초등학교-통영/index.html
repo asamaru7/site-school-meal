@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한산초등학교-통영/",
 				"headline": "한산초등학교(통영) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한산초등학교-통영/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hansan-pm.gne.go.kr",
-							"url": "hansan-pm.gne.go.kr",
-							"name": "한산초등학교(통영) 급식 식단표 안내",
-							"description": "한산초등학교(통영)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한산초등학교(통영)",
+						"alternateName": "",
+						"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53092 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 한산면 한산일주로 850-2 / 한산초등학교 (한산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한산초등학교(통영)",
-							"alternateName": "",
-							"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53092 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 한산면 한산일주로 850-2 / 한산초등학교 (한산면)"
-							},
-							"telephone": "055-648-5001",
-							"faxNumber": "055-648-5005",
-							"sameAs": ["hansan-pm.gne.go.kr"]
-						}
-					],
+						"telephone": "055-648-5001",
+						"faxNumber": "055-648-5005",
+						"sameAs": ["hansan-pm.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "861.4 Kcal",
 										"carbohydrateContent": "94.9 g",
 										"proteinContent": "40.1 g",
-										"fatContent": "34.8 g",
-										"vitaminAContent": "102.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "57.5 mg",
-										"calciumContent": "246.8 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "34.8 g"
 									}
 								}
 							]

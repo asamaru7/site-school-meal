@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/운흥초등학교/",
 				"headline": "운흥초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/운흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.wh.es.kr",
-							"url": "http://www.wh.es.kr",
-							"name": "운흥초등학교 급식 식단표 안내",
-							"description": "운흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 운흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "운흥초등학교",
+						"alternateName": "Woonheung Elementary School",
+						"description": "경기도시흥교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14988 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "시흥시",
+							"streetAddress": "경기도 시흥시 목감둘레로 109 , 운흥초등학교 (조남동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "운흥초등학교",
-							"alternateName": "Woonheung Elementary School",
-							"description": "경기도시흥교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14988 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "시흥시",
-								"streetAddress": "경기도 시흥시 목감둘레로 109 , 운흥초등학교 (조남동)"
-							},
-							"telephone": "031-363-5900",
-							"faxNumber": "031-487-9301",
-							"sameAs": ["http://www.wh.es.kr"]
-						}
-					],
+						"telephone": "031-363-5900",
+						"faxNumber": "031-487-9301",
+						"sameAs": ["http://www.wh.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "461.1 Kcal",
 										"carbohydrateContent": "59.9 g",
 										"proteinContent": "25.0 g",
-										"fatContent": "12.0 g",
-										"vitaminAContent": "59.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.7 mg",
-										"calciumContent": "193.3 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "12.0 g"
 									}
 								}
 							]

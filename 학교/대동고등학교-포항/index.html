@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대동고등학교-포항/",
 				"headline": "대동고등학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대동고등학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/daedonghs",
-							"url": "http://school.gyo6.net/daedonghs",
-							"name": "대동고등학교(포항) 급식 식단표 안내",
-							"description": "대동고등학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대동고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대동고등학교(포항)",
+						"alternateName": "Daedong High School",
+						"description": "경상북도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37635 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 우창서길 34 / 대동고등학교 (우현동/ 대동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대동고등학교(포항)",
-							"alternateName": "Daedong High School",
-							"description": "경상북도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37635 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 우창서길 34 / 대동고등학교 (우현동/ 대동중학교)"
-							},
-							"telephone": "054-241-1216",
-							"faxNumber": "054-241-3305",
-							"sameAs": ["http://school.gyo6.net/daedonghs"]
-						}
-					],
+						"telephone": "054-241-1216",
+						"faxNumber": "054-241-3305",
+						"sameAs": ["http://school.gyo6.net/daedonghs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "959.5 Kcal",
 										"carbohydrateContent": "103.2 g",
 										"proteinContent": "56.0 g",
-										"fatContent": "34.3 g",
-										"vitaminAContent": "158.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "15.7 mg",
-										"calciumContent": "285.5 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "34.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "981.0 Kcal",
 										"carbohydrateContent": "125.0 g",
 										"proteinContent": "48.0 g",
-										"fatContent": "29.9 g",
-										"vitaminAContent": "368.3 R.E",
-										"thiaminContent": "2.7 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "50.5 mg",
-										"calciumContent": "314.6 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "29.9 g"
 									}
 								}
 							]

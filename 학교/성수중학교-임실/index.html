@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성수중학교-임실/",
 				"headline": "성수중학교(임실) 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성수중학교-임실/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "sungsu.ms.kr",
-							"url": "sungsu.ms.kr",
-							"name": "성수중학교(임실) 급식 식단표 안내",
-							"description": "성수중학교(임실)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성수중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성수중학교(임실)",
+						"alternateName": "Sungsoo Middle School",
+						"description": "전북특별자치도임실교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55918 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "임실군",
+							"streetAddress": "전북특별자치도 임실군 성수면 월삼로 354 성수중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성수중학교(임실)",
-							"alternateName": "Sungsoo Middle School",
-							"description": "전북특별자치도임실교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55918 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "임실군",
-								"streetAddress": "전북특별자치도 임실군 성수면 월삼로 354 성수중학교"
-							},
-							"telephone": "063-642-9014",
-							"faxNumber": "063-642-1896",
-							"sameAs": ["sungsu.ms.kr"]
-						}
-					],
+						"telephone": "063-642-9014",
+						"faxNumber": "063-642-1896",
+						"sameAs": ["sungsu.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.9 Kcal",
 										"carbohydrateContent": "96.3 g",
 										"proteinContent": "32.3 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "152.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.9 mg",
-										"calciumContent": "198.0 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

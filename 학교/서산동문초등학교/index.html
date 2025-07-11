@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서산동문초등학교/",
 				"headline": "서산동문초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서산동문초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ssdm.cnees.kr",
-							"url": "http://ssdm.cnees.kr",
-							"name": "서산동문초등학교 급식 식단표 안내",
-							"description": "서산동문초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서산동문초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서산동문초등학교",
+						"alternateName": "Dongmun Elementary School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31967 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 쌍연북2로 31 (동문동/ 서산동문초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서산동문초등학교",
-							"alternateName": "Dongmun Elementary School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31967 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 쌍연북2로 31 (동문동/ 서산동문초등학교)"
-							},
-							"telephone": "041-668-7913",
-							"faxNumber": "041-668-7919",
-							"sameAs": ["http://ssdm.cnees.kr"]
-						}
-					],
+						"telephone": "041-668-7913",
+						"faxNumber": "041-668-7919",
+						"sameAs": ["http://ssdm.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.3 Kcal",
 										"carbohydrateContent": "132.8 g",
 										"proteinContent": "16.0 g",
-										"fatContent": "9.0 g",
-										"vitaminAContent": "268.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "33.3 mg",
-										"calciumContent": "339.9 mg",
-										"ironContent": "7.3 mg"
+										"fatContent": "9.0 g"
 									}
 								}
 							]

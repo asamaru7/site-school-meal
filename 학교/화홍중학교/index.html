@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화홍중학교/",
 				"headline": "화홍중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화홍중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://hwahong-m.goesw.kr/",
-							"url": "https://hwahong-m.goesw.kr/",
-							"name": "화홍중학교 급식 식단표 안내",
-							"description": "화홍중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화홍중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화홍중학교",
+						"alternateName": "HwaHong Middle School",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16554 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 권선구",
+							"streetAddress": "경기도 수원시 권선구 덕영대로1323번길 25-11 (권선동/화홍중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화홍중학교",
-							"alternateName": "HwaHong Middle School",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16554 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 권선구",
-								"streetAddress": "경기도 수원시 권선구 덕영대로1323번길 25-11 (권선동/화홍중학교)"
-							},
-							"telephone": "031-225-9917",
-							"faxNumber": "031-225-9970",
-							"sameAs": ["https://hwahong-m.goesw.kr/"]
-						}
-					],
+						"telephone": "031-225-9917",
+						"faxNumber": "031-225-9970",
+						"sameAs": ["https://hwahong-m.goesw.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "762.0 Kcal",
 										"carbohydrateContent": "124.5 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "13.7 g",
-										"vitaminAContent": "165.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "12.7 mg",
-										"calciumContent": "205.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "13.7 g"
 									}
 								}
 							]

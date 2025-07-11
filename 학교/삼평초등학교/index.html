@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼평초등학교/",
 				"headline": "삼평초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼평초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://samp.es.kr/",
-							"url": "http://samp.es.kr/",
-							"name": "삼평초등학교 급식 식단표 안내",
-							"description": "삼평초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼평초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼평초등학교",
+						"alternateName": "Sampyeong Elementary school",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "45008 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "울주군",
+							"streetAddress": "울산광역시 울주군 온산읍 삼평길 200 (온산읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼평초등학교",
-							"alternateName": "Sampyeong Elementary school",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "45008 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "울주군",
-								"streetAddress": "울산광역시 울주군 온산읍 삼평길 200 (온산읍)"
-							},
-							"telephone": "052-239-4097",
-							"faxNumber": "052-238-0798",
-							"sameAs": ["http://samp.es.kr/"]
-						}
-					],
+						"telephone": "052-239-4097",
+						"faxNumber": "052-238-0798",
+						"sameAs": ["http://samp.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "628.6 Kcal",
 										"carbohydrateContent": "94.0 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "16.2 g",
-										"vitaminAContent": "82.2 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "14.6 mg",
-										"calciumContent": "245.9 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "16.2 g"
 									}
 								}
 							]

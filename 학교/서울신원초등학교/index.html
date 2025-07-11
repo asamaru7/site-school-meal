@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울신원초등학교/",
 				"headline": "서울신원초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울신원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinwon.sen.es.kr",
-							"url": "http://shinwon.sen.es.kr",
-							"name": "서울신원초등학교 급식 식단표 안내",
-							"description": "서울신원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울신원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울신원초등학교",
+						"alternateName": "Seoul Sinwon Elementary School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07915 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "양천구",
+							"streetAddress": "서울특별시 양천구 남부순환로58길 32 (신월동/서울신원초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울신원초등학교",
-							"alternateName": "Seoul Sinwon Elementary School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07915 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "양천구",
-								"streetAddress": "서울특별시 양천구 남부순환로58길 32 (신월동/서울신원초등학교)"
-							},
-							"telephone": "02-2608-4675",
-							"faxNumber": "02-2695-8233",
-							"sameAs": ["http://shinwon.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2608-4675",
+						"faxNumber": "02-2695-8233",
+						"sameAs": ["http://shinwon.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "772.1 Kcal",
 										"carbohydrateContent": "96.1 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "26.5 g",
-										"vitaminAContent": "163.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.0 mg",
-										"calciumContent": "251.7 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "26.5 g"
 									}
 								}
 							]

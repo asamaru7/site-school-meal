@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/양산초등학교-나주/",
 				"headline": "양산초등학교(나주) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/양산초등학교-나주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://najuyangsan.es.jne.kr",
-							"url": "http://najuyangsan.es.jne.kr",
-							"name": "양산초등학교(나주) 급식 식단표 안내",
-							"description": "양산초등학교(나주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 양산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "양산초등학교(나주)",
+						"alternateName": "Yangsan Elementary School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58304 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 왕곡면 고분로 1560 (왕곡면/ 양산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "양산초등학교(나주)",
-							"alternateName": "Yangsan Elementary School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58304 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 왕곡면 고분로 1560 (왕곡면/ 양산초등학교)"
-							},
-							"telephone": "061-337-2088",
-							"faxNumber": "061-337-4990",
-							"sameAs": ["http://najuyangsan.es.jne.kr"]
-						}
-					],
+						"telephone": "061-337-2088",
+						"faxNumber": "061-337-4990",
+						"sameAs": ["http://najuyangsan.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "661.7 Kcal",
 										"carbohydrateContent": "84.9 g",
 										"proteinContent": "37.0 g",
-										"fatContent": "18.3 g",
-										"vitaminAContent": "94.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "2.9 mg",
-										"vitaminCContent": "6.5 mg",
-										"calciumContent": "253.3 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "18.3 g"
 									}
 								}
 							]

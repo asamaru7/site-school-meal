@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보덕중학교/",
 				"headline": "보덕중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보덕중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/boduck-m",
-							"url": "http://school.cbe.go.kr/boduck-m",
-							"name": "보덕중학교 급식 식단표 안내",
-							"description": "보덕중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보덕중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보덕중학교",
+						"alternateName": "Boduck Middle School",
+						"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28960 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "보은군",
+							"streetAddress": "충청북도 보은군 탄부면 삼승탄부로 843-21 (탄부면/ 보덕중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보덕중학교",
-							"alternateName": "Boduck Middle School",
-							"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28960 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "보은군",
-								"streetAddress": "충청북도 보은군 탄부면 삼승탄부로 843-21 (탄부면/ 보덕중학교)"
-							},
-							"telephone": "043-542-7782",
-							"faxNumber": "043-543-1816",
-							"sameAs": ["http://school.cbe.go.kr/boduck-m"]
-						}
-					],
+						"telephone": "043-542-7782",
+						"faxNumber": "043-543-1816",
+						"sameAs": ["http://school.cbe.go.kr/boduck-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1004.7 Kcal",
 										"carbohydrateContent": "175.6 g",
 										"proteinContent": "35.0 g",
-										"fatContent": "16.3 g",
-										"vitaminAContent": "138.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "257.0 mg",
-										"ironContent": "6.4 mg"
+										"fatContent": "16.3 g"
 									}
 								}
 							]

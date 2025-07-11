@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동해중학교-고성/",
 				"headline": "동해중학교(고성) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동해중학교-고성/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "donghae-m.gne.go.kr/",
-							"url": "donghae-m.gne.go.kr/",
-							"name": "동해중학교(고성) 급식 식단표 안내",
-							"description": "동해중학교(고성)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동해중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동해중학교(고성)",
+						"alternateName": "",
+						"description": "고성교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52918 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 동해면 동해로 1613 (동해면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동해중학교(고성)",
-							"alternateName": "",
-							"description": "고성교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52918 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 동해면 동해로 1613 (동해면)"
-							},
-							"telephone": "055-672-5019",
-							"faxNumber": "055-673-3053",
-							"sameAs": ["donghae-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-672-5019",
+						"faxNumber": "055-673-3053",
+						"sameAs": ["donghae-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.2 Kcal",
 										"carbohydrateContent": "114.9 g",
 										"proteinContent": "27.3 g",
-										"fatContent": "17.1 g",
-										"vitaminAContent": "210.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "39.8 mg",
-										"calciumContent": "226.4 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "17.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/방배중학교/",
 				"headline": "방배중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/방배중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.bangbae.ms.kr",
-							"url": "http://www.bangbae.ms.kr",
-							"name": "방배중학교 급식 식단표 안내",
-							"description": "방배중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 방배중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "방배중학교",
+						"alternateName": "Bangbae Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06589 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 동광로 144 (반포동/방배중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "방배중학교",
-							"alternateName": "Bangbae Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06589 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 동광로 144 (반포동/방배중학교)"
-							},
-							"telephone": "02-532-1342",
-							"faxNumber": "02-599-6455",
-							"sameAs": ["http://www.bangbae.ms.kr"]
-						}
-					],
+						"telephone": "02-532-1342",
+						"faxNumber": "02-599-6455",
+						"sameAs": ["http://www.bangbae.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "707.7 Kcal",
 										"carbohydrateContent": "108.4 g",
 										"proteinContent": "34.3 g",
-										"fatContent": "13.7 g",
-										"vitaminAContent": "106.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "133.9 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "13.7 g"
 									}
 								}
 							]

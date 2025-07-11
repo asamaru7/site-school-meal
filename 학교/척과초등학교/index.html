@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/척과초등학교/",
 				"headline": "척과초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/척과초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.chukkwa.es.kr",
-							"url": "http://www.chukkwa.es.kr",
-							"name": "척과초등학교 급식 식단표 안내",
-							"description": "척과초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 척과초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "척과초등학교",
+						"alternateName": "Cheokgwa Elementary School ",
+						"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44917 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "울주군",
+							"streetAddress": "울산광역시 울주군 범서읍 갈매정길 16 (범서읍/ 척과초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "척과초등학교",
-							"alternateName": "Cheokgwa Elementary School ",
-							"description": "울산광역시강남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44917 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "울주군",
-								"streetAddress": "울산광역시 울주군 범서읍 갈매정길 16 (범서읍/ 척과초등학교)"
-							},
-							"telephone": "052-211-9002",
-							"faxNumber": "052-211-8919",
-							"sameAs": ["http://www.chukkwa.es.kr"]
-						}
-					],
+						"telephone": "052-211-9002",
+						"faxNumber": "052-211-8919",
+						"sameAs": ["http://www.chukkwa.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "678.5 Kcal",
 										"carbohydrateContent": "95.9 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "111.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "8.2 mg",
-										"calciumContent": "262.6 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

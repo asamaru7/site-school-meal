@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진경여자중학교/",
 				"headline": "진경여자중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진경여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jingyeong.ms.kr",
-							"url": "http://jingyeong.ms.kr",
-							"name": "진경여자중학교 급식 식단표 안내",
-							"description": "진경여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진경여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진경여자중학교",
+						"alternateName": "Jin-gyeong Girls Middle Schooll",
+						"description": "전북특별자치도익산교육지원청 / 사립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54534 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 황등면 황등서로 104 진경여자중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진경여자중학교",
-							"alternateName": "Jin-gyeong Girls Middle Schooll",
-							"description": "전북특별자치도익산교육지원청 / 사립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54534 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 황등면 황등서로 104 진경여자중학교"
-							},
-							"telephone": "063-856-4476",
-							"faxNumber": "063-856-9690",
-							"sameAs": ["http://jingyeong.ms.kr"]
-						}
-					],
+						"telephone": "063-856-4476",
+						"faxNumber": "063-856-9690",
+						"sameAs": ["http://jingyeong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "708.4 Kcal",
 										"carbohydrateContent": "114.9 g",
 										"proteinContent": "22.9 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "63.7 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "13.7 mg",
-										"calciumContent": "108.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

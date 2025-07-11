@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/울릉고등학교/",
 				"headline": "울릉고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/울릉고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/ul",
-							"url": "http://school.gyo6.net/ul",
-							"name": "울릉고등학교 급식 식단표 안내",
-							"description": "울릉고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 울릉고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "울릉고등학교",
+						"alternateName": "Ulleung High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "40219 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "울릉군",
+							"streetAddress": "경상북도 울릉군 울릉읍 울릉순환로 236 (울릉읍/ 울릉고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "울릉고등학교",
-							"alternateName": "Ulleung High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "40219 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "울릉군",
-								"streetAddress": "경상북도 울릉군 울릉읍 울릉순환로 236 (울릉읍/ 울릉고등학교)"
-							},
-							"telephone": "054-791-2734",
-							"faxNumber": "054-791-9322",
-							"sameAs": ["http://school.gyo6.net/ul"]
-						}
-					],
+						"telephone": "054-791-2734",
+						"faxNumber": "054-791-9322",
+						"sameAs": ["http://school.gyo6.net/ul"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1294.8 Kcal",
 										"carbohydrateContent": "148.2 g",
 										"proteinContent": "72.1 g",
-										"fatContent": "43.1 g",
-										"vitaminAContent": "124.1 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "36.7 mg",
-										"calciumContent": "357.2 mg",
-										"ironContent": "14.2 mg"
+										"fatContent": "43.1 g"
 									}
 								}
 							]

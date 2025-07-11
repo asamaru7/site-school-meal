@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/과천외국어고등학교/",
 				"headline": "과천외국어고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/과천외국어고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.gcfl.or.kr",
-							"url": "www.gcfl.or.kr",
-							"name": "과천외국어고등학교 급식 식단표 안내",
-							"description": "과천외국어고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 과천외고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "과천외국어고등학교",
+						"alternateName": "Gwacheon Foreign Language High School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "13805 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "과천시",
+							"streetAddress": "경기도 과천시 희망길 36 (중앙동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "과천외국어고등학교",
-							"alternateName": "Gwacheon Foreign Language High School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "13805 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "과천시",
-								"streetAddress": "경기도 과천시 희망길 36 (중앙동)"
-							},
-							"telephone": "02-504-3300",
-							"faxNumber": "02-502-6653",
-							"sameAs": ["www.gcfl.or.kr"]
-						}
-					]
+						"telephone": "02-504-3300",
+						"faxNumber": "02-502-6653",
+						"sameAs": ["www.gcfl.or.kr"]
+					}
 				]
 			}
 		</script>

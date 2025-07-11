@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/절영초등학교/",
 				"headline": "절영초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/절영초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeolyeong.es.kr",
-							"url": "http://jeolyeong.es.kr",
-							"name": "절영초등학교 급식 식단표 안내",
-							"description": "절영초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 절영초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "절영초등학교",
+						"alternateName": "Jeolyeong Elementary School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49113 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "영도구",
+							"streetAddress": "부산광역시 영도구 함지로 37 (동삼동/절영초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "절영초등학교",
-							"alternateName": "Jeolyeong Elementary School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49113 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "영도구",
-								"streetAddress": "부산광역시 영도구 함지로 37 (동삼동/절영초등학교)"
-							},
-							"telephone": "051-403-5648",
-							"faxNumber": "051-403-5646",
-							"sameAs": ["http://jeolyeong.es.kr"]
-						}
-					],
+						"telephone": "051-403-5648",
+						"faxNumber": "051-403-5646",
+						"sameAs": ["http://jeolyeong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.9 Kcal",
 										"carbohydrateContent": "110.7 g",
 										"proteinContent": "30.9 g",
-										"fatContent": "28.6 g",
-										"vitaminAContent": "220.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "295.6 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "28.6 g"
 									}
 								}
 							]

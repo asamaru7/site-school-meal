@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창촌중학교/",
 				"headline": "창촌중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창촌중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ccms.gwe.ms.kr/",
-							"url": "http://ccms.gwe.ms.kr/",
-							"name": "창촌중학교 급식 식단표 안내",
-							"description": "창촌중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창촌중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창촌중학교",
+						"alternateName": "Changchon Middle School",
+						"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24465 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 남산면 강촌로 136 (남산면/ 창촌중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창촌중학교",
-							"alternateName": "Changchon Middle School",
-							"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24465 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 남산면 강촌로 136 (남산면/ 창촌중학교)"
-							},
-							"telephone": "033-261-0006",
-							"faxNumber": "033-261-9581",
-							"sameAs": ["http://ccms.gwe.ms.kr/"]
-						}
-					],
+						"telephone": "033-261-0006",
+						"faxNumber": "033-261-9581",
+						"sameAs": ["http://ccms.gwe.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "944.4 Kcal",
 										"carbohydrateContent": "110.5 g",
 										"proteinContent": "61.5 g",
-										"fatContent": "25.9 g",
-										"vitaminAContent": "110.3 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "54.2 mg",
-										"calciumContent": "195.6 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "25.9 g"
 									}
 								}
 							]

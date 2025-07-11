@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/시흥은행초등학교/",
 				"headline": "시흥은행초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/시흥은행초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.gingko.es.kr",
-							"url": "www.gingko.es.kr",
-							"name": "시흥은행초등학교 급식 식단표 안내",
-							"description": "시흥은행초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 시흥은행초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "시흥은행초등학교",
+						"alternateName": "Siheung Eunhaeng Elementary School",
+						"description": "경기도시흥교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14916 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "시흥시",
+							"streetAddress": "경기도 시흥시 대은로104번길 29-10 (은행동/시흥은행초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "시흥은행초등학교",
-							"alternateName": "Siheung Eunhaeng Elementary School",
-							"description": "경기도시흥교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14916 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "시흥시",
-								"streetAddress": "경기도 시흥시 대은로104번길 29-10 (은행동/시흥은행초등학교)"
-							},
-							"telephone": "07070970204",
-							"faxNumber": "031-311-6936",
-							"sameAs": ["www.gingko.es.kr"]
-						}
-					],
+						"telephone": "07070970204",
+						"faxNumber": "031-311-6936",
+						"sameAs": ["www.gingko.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "603.5 Kcal",
 										"carbohydrateContent": "73.1 g",
 										"proteinContent": "26.2 g",
-										"fatContent": "21.8 g",
-										"vitaminAContent": "92.5 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.8 mg",
-										"calciumContent": "288.1 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "21.8 g"
 									}
 								}
 							]

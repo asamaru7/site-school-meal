@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/용산중학교-대구/",
 				"headline": "용산중학교(대구) 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/용산중학교-대구/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yongsan.dge.ms.kr",
-							"url": "http://yongsan.dge.ms.kr",
-							"name": "용산중학교(대구) 급식 식단표 안내",
-							"description": "용산중학교(대구)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 용산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "용산중학교(대구)",
+						"alternateName": "YONGSAN MIDDLE SCHOOL",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42632 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 와룡로45길 72 (용산동/ 용산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "용산중학교(대구)",
-							"alternateName": "YONGSAN MIDDLE SCHOOL",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42632 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 와룡로45길 72 (용산동/ 용산중학교)"
-							},
-							"telephone": "053-234-7456",
-							"faxNumber": "053-557-4371",
-							"sameAs": ["http://yongsan.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-234-7456",
+						"faxNumber": "053-557-4371",
+						"sameAs": ["http://yongsan.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "851.7 Kcal",
 										"carbohydrateContent": "86.7 g",
 										"proteinContent": "48.5 g",
-										"fatContent": "32.7 g",
-										"vitaminAContent": "190.7 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "21.7 mg",
-										"calciumContent": "283.4 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "32.7 g"
 									}
 								}
 							]

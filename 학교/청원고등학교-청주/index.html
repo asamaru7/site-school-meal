@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청원고등학교-청주/",
 				"headline": "청원고등학교(청주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청원고등학교-청주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/cw-h",
-							"url": "http://school.cbe.go.kr/cw-h",
-							"name": "청원고등학교(청주) 급식 식단표 안내",
-							"description": "청원고등학교(청주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청원고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청원고등학교(청주)",
+						"alternateName": "Cheongwon High School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 자율고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28121 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 청원구",
+							"streetAddress": "충청북도 청주시 청원구 오창읍 구룡5길 9 (오창읍/ 청원고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청원고등학교(청주)",
-							"alternateName": "Cheongwon High School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 자율고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28121 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 청원구",
-								"streetAddress": "충청북도 청주시 청원구 오창읍 구룡5길 9 (오창읍/ 청원고등학교)"
-							},
-							"telephone": "043-717-6500",
-							"faxNumber": "043-717-6509",
-							"sameAs": ["http://school.cbe.go.kr/cw-h"]
-						}
-					],
+						"telephone": "043-717-6500",
+						"faxNumber": "043-717-6509",
+						"sameAs": ["http://school.cbe.go.kr/cw-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1225.1 Kcal",
 										"carbohydrateContent": "216.6 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "247.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "80.7 mg",
-										"calciumContent": "281.3 mg",
-										"ironContent": "14.7 mg"
+										"fatContent": "25.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "866.2 Kcal",
 										"carbohydrateContent": "126.2 g",
 										"proteinContent": "54.2 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "273.0 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "230.5 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

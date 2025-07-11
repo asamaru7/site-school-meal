@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/주산초등학교/",
 				"headline": "주산초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/주산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jusan.cnees.kr",
-							"url": "http://jusan.cnees.kr",
-							"name": "주산초등학교 급식 식단표 안내",
-							"description": "주산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 주산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "주산초등학교",
+						"alternateName": "Jusan Elementary School",
+						"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33517 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "보령시",
+							"streetAddress": "충청남도 보령시 주산면 충서로 416 (주산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "주산초등학교",
-							"alternateName": "Jusan Elementary School",
-							"description": "충청남도보령교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33517 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "보령시",
-								"streetAddress": "충청남도 보령시 주산면 충서로 416 (주산면)"
-							},
-							"telephone": "041-933-6025",
-							"faxNumber": "041-934-5729",
-							"sameAs": ["http://jusan.cnees.kr"]
-						}
-					],
+						"telephone": "041-933-6025",
+						"faxNumber": "041-934-5729",
+						"sameAs": ["http://jusan.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.3 Kcal",
 										"carbohydrateContent": "97.5 g",
 										"proteinContent": "26.8 g",
-										"fatContent": "25.6 g",
-										"vitaminAContent": "95.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "4.9 mg",
-										"calciumContent": "154.4 mg",
-										"ironContent": "7.1 mg"
+										"fatContent": "25.6 g"
 									}
 								}
 							]

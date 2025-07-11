@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉림중학교-창원/",
 				"headline": "봉림중학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉림중학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bonglim-m.gne.go.kr/",
-							"url": "http://bonglim-m.gne.go.kr/",
-							"name": "봉림중학교(창원) 급식 식단표 안내",
-							"description": "봉림중학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉림중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉림중학교(창원)",
+						"alternateName": "Bonglim Middle School",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51149 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 의창구",
+							"streetAddress": "경상남도 창원시 의창구 사림로16번길 15 (사림동/ 봉림중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉림중학교(창원)",
-							"alternateName": "Bonglim Middle School",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51149 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 의창구",
-								"streetAddress": "경상남도 창원시 의창구 사림로16번길 15 (사림동/ 봉림중학교)"
-							},
-							"telephone": "055-263-6796",
-							"faxNumber": "055-263-6772",
-							"sameAs": ["http://bonglim-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-263-6796",
+						"faxNumber": "055-263-6772",
+						"sameAs": ["http://bonglim-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "850.5 Kcal",
 										"carbohydrateContent": "92.1 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "40.8 g",
-										"vitaminAContent": "179.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "45.2 mg",
-										"calciumContent": "302.6 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "40.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김천모암초등학교/",
 				"headline": "김천모암초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김천모암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/moam",
-							"url": "http://school.gyo6.net/moam",
-							"name": "김천모암초등학교 급식 식단표 안내",
-							"description": "김천모암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김천모암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김천모암초등학교",
+						"alternateName": "Gimcheon Moam Elementary School",
+						"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39581 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "김천시",
+							"streetAddress": "경상북도 김천시 모암사랑10길 6 (모암동/김천모암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김천모암초등학교",
-							"alternateName": "Gimcheon Moam Elementary School",
-							"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39581 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "김천시",
-								"streetAddress": "경상북도 김천시 모암사랑10길 6 (모암동/김천모암초등학교)"
-							},
-							"telephone": "054-433-0176",
-							"faxNumber": "054-432-3508",
-							"sameAs": ["http://school.gyo6.net/moam"]
-						}
-					],
+						"telephone": "054-433-0176",
+						"faxNumber": "054-432-3508",
+						"sameAs": ["http://school.gyo6.net/moam"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.0 Kcal",
 										"carbohydrateContent": "72.4 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "28.3 g",
-										"vitaminAContent": "139.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "197.8 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "28.3 g"
 									}
 								}
 							]

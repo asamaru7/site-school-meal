@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영해중학교/",
 				"headline": "영해중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영해중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/yhj",
-							"url": "http://school.gyo6.net/yhj",
-							"name": "영해중학교 급식 식단표 안내",
-							"description": "영해중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영해중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영해중학교",
+						"alternateName": "Yeonghae Middle School",
+						"description": "경상북도영덕교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36415 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영덕군",
+							"streetAddress": "경상북도 영덕군 영해면 예주길 135 (영해면/ 영해중고교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영해중학교",
-							"alternateName": "Yeonghae Middle School",
-							"description": "경상북도영덕교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36415 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영덕군",
-								"streetAddress": "경상북도 영덕군 영해면 예주길 135 (영해면/ 영해중고교)"
-							},
-							"telephone": "054-733-5911",
-							"faxNumber": "054-734-1049",
-							"sameAs": ["http://school.gyo6.net/yhj"]
-						}
-					]
+						"telephone": "054-733-5911",
+						"faxNumber": "054-734-1049",
+						"sameAs": ["http://school.gyo6.net/yhj"]
+					}
 				]
 			}
 		</script>

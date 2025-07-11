@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전탄방초등학교/",
 				"headline": "대전탄방초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전탄방초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tanbanges.djsch.kr",
-							"url": "http://tanbanges.djsch.kr",
-							"name": "대전탄방초등학교 급식 식단표 안내",
-							"description": "대전탄방초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전탄방초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전탄방초등학교",
+						"alternateName": "Daejeon Tanbang Elementary School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35256 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 탄방로 15 (탄방동/ 대전탄방초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전탄방초등학교",
-							"alternateName": "Daejeon Tanbang Elementary School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35256 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 탄방로 15 (탄방동/ 대전탄방초등학교)"
-							},
-							"telephone": "042-486-7602",
-							"faxNumber": "042-486-3127",
-							"sameAs": ["http://tanbanges.djsch.kr"]
-						}
-					],
+						"telephone": "042-486-7602",
+						"faxNumber": "042-486-3127",
+						"sameAs": ["http://tanbanges.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.8 Kcal",
 										"carbohydrateContent": "80.7 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "158.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "14.6 mg",
-										"calciumContent": "106.4 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "19.8 g"
 									}
 								}
 							]

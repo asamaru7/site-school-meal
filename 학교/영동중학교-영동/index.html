@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영동중학교-영동/",
 				"headline": "영동중학교(영동) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영동중학교-영동/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/yeongdong-m/M01",
-							"url": "http://school.cbe.go.kr/yeongdong-m/M01",
-							"name": "영동중학교(영동) 급식 식단표 안내",
-							"description": "영동중학교(영동)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영동중학교(영동)",
+						"alternateName": "Yeongdong Middle School",
+						"description": "충청북도영동교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "29143 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "영동군",
+							"streetAddress": "충청북도 영동군 영동읍 계산로 106 (영동읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영동중학교(영동)",
-							"alternateName": "Yeongdong Middle School",
-							"description": "충청북도영동교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "29143 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "영동군",
-								"streetAddress": "충청북도 영동군 영동읍 계산로 106 (영동읍)"
-							},
-							"telephone": "043-740-7900",
-							"faxNumber": "043-740-7988",
-							"sameAs": ["http://school.cbe.go.kr/yeongdong-m/M01"]
-						}
-					],
+						"telephone": "043-740-7900",
+						"faxNumber": "043-740-7988",
+						"sameAs": ["http://school.cbe.go.kr/yeongdong-m/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "819.9 Kcal",
 										"carbohydrateContent": "121.1 g",
 										"proteinContent": "36.0 g",
-										"fatContent": "20.3 g",
-										"vitaminAContent": "223.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "11.1 mg",
-										"calciumContent": "398.7 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "20.3 g"
 									}
 								}
 							]

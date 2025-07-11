@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/원곡고등학교/",
 				"headline": "원곡고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/원곡고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "wongok.hs.kr",
-							"url": "wongok.hs.kr",
-							"name": "원곡고등학교 급식 식단표 안내",
-							"description": "원곡고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 원곡고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "원곡고등학교",
+						"alternateName": "Wongok High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15364 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안산시 단원구",
+							"streetAddress": "경기도 안산시 단원구 화랑로 15 (원곡동/ 원곡고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "원곡고등학교",
-							"alternateName": "Wongok High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15364 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안산시 단원구",
-								"streetAddress": "경기도 안산시 단원구 화랑로 15 (원곡동/ 원곡고등학교)"
-							},
-							"telephone": "031-8085-0008",
-							"faxNumber": "031-495-1701",
-							"sameAs": ["wongok.hs.kr"]
-						}
-					],
+						"telephone": "031-8085-0008",
+						"faxNumber": "031-495-1701",
+						"sameAs": ["wongok.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1085.6 Kcal",
 										"carbohydrateContent": "171.0 g",
 										"proteinContent": "45.9 g",
-										"fatContent": "22.7 g",
-										"vitaminAContent": "264.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "9.4 mg",
-										"calciumContent": "325.3 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "22.7 g"
 									}
 								}
 							]

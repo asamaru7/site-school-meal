@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부평서중학교/",
 				"headline": "부평서중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부평서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bupyeongseo.icems.kr/main.do",
-							"url": "http://bupyeongseo.icems.kr/main.do",
-							"name": "부평서중학교 급식 식단표 안내",
-							"description": "부평서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부평서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부평서중학교",
+						"alternateName": "Bupyeong Seo Middle School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21375 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 화랑로 29 (십정동/ 부평서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부평서중학교",
-							"alternateName": "Bupyeong Seo Middle School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21375 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 화랑로 29 (십정동/ 부평서중학교)"
-							},
-							"telephone": "032-522-3577",
-							"faxNumber": "032-628-3131",
-							"sameAs": ["http://bupyeongseo.icems.kr/main.do"]
-						}
-					],
+						"telephone": "032-522-3577",
+						"faxNumber": "032-628-3131",
+						"sameAs": ["http://bupyeongseo.icems.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1753.3 Kcal",
 										"carbohydrateContent": "163.5 g",
 										"proteinContent": "58.4 g",
-										"fatContent": "95.7 g",
-										"vitaminAContent": "255.9 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "40.3 mg",
-										"calciumContent": "1217.6 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "95.7 g"
 									}
 								}
 							]

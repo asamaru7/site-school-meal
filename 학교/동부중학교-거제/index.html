@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동부중학교-거제/",
 				"headline": "동부중학교(거제) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동부중학교-거제/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://db-m.gne.go.kr",
-							"url": "http://db-m.gne.go.kr",
-							"name": "동부중학교(거제) 급식 식단표 안내",
-							"description": "동부중학교(거제)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동부중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동부중학교(거제)",
+						"alternateName": "",
+						"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53331 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 동부면 동부로 28-6 (동부면/ 동부중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동부중학교(거제)",
-							"alternateName": "",
-							"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53331 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 동부면 동부로 28-6 (동부면/ 동부중학교)"
-							},
-							"telephone": "055-632-9162",
-							"faxNumber": "055-632-9163",
-							"sameAs": ["http://db-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-632-9162",
+						"faxNumber": "055-632-9163",
+						"sameAs": ["http://db-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "720.7 Kcal",
 										"carbohydrateContent": "101.4 g",
 										"proteinContent": "27.1 g",
-										"fatContent": "23.2 g",
-										"vitaminAContent": "54.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.9 mg",
-										"calciumContent": "172.6 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "23.2 g"
 									}
 								}
 							]

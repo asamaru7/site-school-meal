@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수정초등학교-보은/",
 				"headline": "수정초등학교(보은) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수정초등학교-보은/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/sjeong-e",
-							"url": "http://school.cbe.go.kr/sjeong-e",
-							"name": "수정초등학교(보은) 급식 식단표 안내",
-							"description": "수정초등학교(보은)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수정초등학교(보은)",
+						"alternateName": "sujeong elementary school",
+						"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28908 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "보은군",
+							"streetAddress": "충청북도 보은군 속리산면 사내1길 125 / 수정초등학교 (속리산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수정초등학교(보은)",
-							"alternateName": "sujeong elementary school",
-							"description": "충청북도보은교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28908 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "보은군",
-								"streetAddress": "충청북도 보은군 속리산면 사내1길 125 / 수정초등학교 (속리산면)"
-							},
-							"telephone": "043-543-3775",
-							"faxNumber": "043-543-5864",
-							"sameAs": ["http://school.cbe.go.kr/sjeong-e"]
-						}
-					],
+						"telephone": "043-543-3775",
+						"faxNumber": "043-543-5864",
+						"sameAs": ["http://school.cbe.go.kr/sjeong-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "815.2 Kcal",
 										"carbohydrateContent": "110.9 g",
 										"proteinContent": "38.4 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "197.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "37.0 mg",
-										"calciumContent": "367.4 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

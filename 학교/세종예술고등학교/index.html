@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/세종예술고등학교/",
 				"headline": "세종예술고등학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/세종예술고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sjarts.sjeduhs.kr",
-							"url": "http://sjarts.sjeduhs.kr",
-							"name": "세종예술고등학교 급식 식단표 안내",
-							"description": "세종예술고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 세종예고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "세종예술고등학교",
+						"alternateName": "Sejong Arts High School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30106 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 중앙공원서로 60 (세종동/ 세종예술고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "세종예술고등학교",
-							"alternateName": "Sejong Arts High School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 / 특목고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30106 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 중앙공원서로 60 (세종동/ 세종예술고등학교)"
-							},
-							"telephone": "044-902-3000",
-							"faxNumber": "044-902-3119",
-							"sameAs": ["http://sjarts.sjeduhs.kr"]
-						}
-					],
+						"telephone": "044-902-3000",
+						"faxNumber": "044-902-3119",
+						"sameAs": ["http://sjarts.sjeduhs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "879.4 Kcal",
 										"carbohydrateContent": "126.5 g",
 										"proteinContent": "23.3 g",
-										"fatContent": "30.8 g",
-										"vitaminAContent": "98.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "268.4 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "30.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/호서중학교/",
 				"headline": "호서중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/호서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hoseo.cnems.kr",
-							"url": "http://hoseo.cnems.kr",
-							"name": "호서중학교 급식 식단표 안내",
-							"description": "호서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 호서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "호서중학교",
+						"alternateName": "Hoseo Middle School",
+						"description": "충청남도당진교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31771 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 밤절로 2-31 (읍내동/ 호서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "호서중학교",
-							"alternateName": "Hoseo Middle School",
-							"description": "충청남도당진교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31771 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 밤절로 2-31 (읍내동/ 호서중학교)"
-							},
-							"telephone": "041-352-2521",
-							"faxNumber": "041-353-2522",
-							"sameAs": ["http://hoseo.cnems.kr"]
-						}
-					],
+						"telephone": "041-352-2521",
+						"faxNumber": "041-353-2522",
+						"sameAs": ["http://hoseo.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "734.0 Kcal",
 										"carbohydrateContent": "99.9 g",
 										"proteinContent": "32.5 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "86.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "32.0 mg",
-										"calciumContent": "295.2 mg",
-										"ironContent": "1.5 mg"
+										"fatContent": "19.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광양중앙초등학교/",
 				"headline": "광양중앙초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광양중앙초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyjang.es.jne.kr",
-							"url": "http://gyjang.es.jne.kr",
-							"name": "광양중앙초등학교 급식 식단표 안내",
-							"description": "광양중앙초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광양중앙초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광양중앙초등학교",
+						"alternateName": "Gwangyangjungang Elementary School",
+						"description": "전라남도광양교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57777 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "광양시",
+							"streetAddress": "전라남도 광양시 불무길 15 (중동/광양중앙초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광양중앙초등학교",
-							"alternateName": "Gwangyangjungang Elementary School",
-							"description": "전라남도광양교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57777 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "광양시",
-								"streetAddress": "전라남도 광양시 불무길 15 (중동/광양중앙초등학교)"
-							},
-							"telephone": "061-791-2317",
-							"faxNumber": "061-791-2321",
-							"sameAs": ["http://gyjang.es.jne.kr"]
-						}
-					],
+						"telephone": "061-791-2317",
+						"faxNumber": "061-791-2321",
+						"sameAs": ["http://gyjang.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "667.6 Kcal",
 										"carbohydrateContent": "97.2 g",
 										"proteinContent": "31.4 g",
-										"fatContent": "19.1 g",
-										"vitaminAContent": "265.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.2 mg",
-										"calciumContent": "384.6 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "19.1 g"
 									}
 								}
 							]

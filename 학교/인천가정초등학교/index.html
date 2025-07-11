@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천가정초등학교/",
 				"headline": "인천가정초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천가정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gje.icees.kr",
-							"url": "http://gje.icees.kr",
-							"name": "인천가정초등학교 급식 식단표 안내",
-							"description": "인천가정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천가정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천가정초등학교",
+						"alternateName": "Incheon Gajung Elementary School",
+						"description": "인천광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22811 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "서구",
+							"streetAddress": "인천광역시 서구 장고개로 336-1 (가좌동/가정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천가정초등학교",
-							"alternateName": "Incheon Gajung Elementary School",
-							"description": "인천광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22811 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "서구",
-								"streetAddress": "인천광역시 서구 장고개로 336-1 (가좌동/가정초등학교)"
-							},
-							"telephone": "032-576-9980",
-							"faxNumber": "032-578-2243",
-							"sameAs": ["http://gje.icees.kr"]
-						}
-					],
+						"telephone": "032-576-9980",
+						"faxNumber": "032-578-2243",
+						"sameAs": ["http://gje.icees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "598.5 Kcal",
 										"carbohydrateContent": "83.3 g",
 										"proteinContent": "23.7 g",
-										"fatContent": "18.0 g",
-										"vitaminAContent": "119.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.0 mg",
-										"calciumContent": "156.5 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "18.0 g"
 									}
 								}
 							]

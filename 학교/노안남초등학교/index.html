@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/노안남초등학교/",
 				"headline": "노안남초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/노안남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://noannam.es.jne.kr",
-							"url": "http://noannam.es.jne.kr",
-							"name": "노안남초등학교 급식 식단표 안내",
-							"description": "노안남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 노안남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "노안남초등학교",
+						"alternateName": "Noannam Elementary School",
+						"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58208 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "나주시",
+							"streetAddress": "전라남도 나주시 노안면 만호길 20-11 / 노안남초등학교 (노안면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "노안남초등학교",
-							"alternateName": "Noannam Elementary School",
-							"description": "전라남도나주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58208 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "나주시",
-								"streetAddress": "전라남도 나주시 노안면 만호길 20-11 / 노안남초등학교 (노안면)"
-							},
-							"telephone": "061-335-6840",
-							"faxNumber": "061-335-5830",
-							"sameAs": ["http://noannam.es.jne.kr"]
-						}
-					],
+						"telephone": "061-335-6840",
+						"faxNumber": "061-335-5830",
+						"sameAs": ["http://noannam.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "653.5 Kcal",
 										"carbohydrateContent": "92.9 g",
 										"proteinContent": "40.8 g",
-										"fatContent": "12.2 g",
-										"vitaminAContent": "97.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "14.2 mg",
-										"calciumContent": "450.9 mg",
-										"ironContent": "9.3 mg"
+										"fatContent": "12.2 g"
 									}
 								}
 							]

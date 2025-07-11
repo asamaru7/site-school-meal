@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미르초등학교/",
 				"headline": "미르초등학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미르초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mir.sjedues.kr",
-							"url": "http://mir.sjedues.kr",
-							"name": "미르초등학교 급식 식단표 안내",
-							"description": "미르초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미르초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미르초등학교",
+						"alternateName": "Mir Elementary School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30130 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 나리로 26-16 (한솔동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미르초등학교",
-							"alternateName": "Mir Elementary School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30130 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 나리로 26-16 (한솔동)"
-							},
-							"telephone": "044-960-2900",
-							"faxNumber": "044-960-2909",
-							"sameAs": ["http://mir.sjedues.kr"]
-						}
-					],
+						"telephone": "044-960-2900",
+						"faxNumber": "044-960-2909",
+						"sameAs": ["http://mir.sjedues.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "652.4 Kcal",
 										"carbohydrateContent": "118.7 g",
 										"proteinContent": "19.7 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "91.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "165.5 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

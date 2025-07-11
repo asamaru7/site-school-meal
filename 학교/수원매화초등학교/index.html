@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수원매화초등학교/",
 				"headline": "수원매화초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수원매화초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://swmaehwa-e.goesw.kr/index.do",
-							"url": "https://swmaehwa-e.goesw.kr/index.do",
-							"name": "수원매화초등학교 급식 식단표 안내",
-							"description": "수원매화초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수원매화초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수원매화초등학교",
+						"alternateName": "Suwon Maehwa Elementary School",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16530 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 영통구",
+							"streetAddress": "경기도 수원시 영통구 권광로304번길 47-17 / 수원매화초등학교 (매탄동/ 매화초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수원매화초등학교",
-							"alternateName": "Suwon Maehwa Elementary School",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16530 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 영통구",
-								"streetAddress": "경기도 수원시 영통구 권광로304번길 47-17 / 수원매화초등학교 (매탄동/ 매화초등학교)"
-							},
-							"telephone": "031-216-4083",
-							"faxNumber": "031-216-4085",
-							"sameAs": ["https://swmaehwa-e.goesw.kr/index.do"]
-						}
-					],
+						"telephone": "031-216-4083",
+						"faxNumber": "031-216-4085",
+						"sameAs": ["https://swmaehwa-e.goesw.kr/index.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "612.7 Kcal",
 										"carbohydrateContent": "91.3 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "113.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.0 mg",
-										"calciumContent": "305.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

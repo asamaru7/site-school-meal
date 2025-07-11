@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거진고등학교/",
 				"headline": "거진고등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거진고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://geojin.gwe.hs.kr",
-							"url": "https://geojin.gwe.hs.kr",
-							"name": "거진고등학교 급식 식단표 안내",
-							"description": "거진고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거진고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거진고등학교",
+						"alternateName": "Geojin High School",
+						"description": "강원특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24720 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "고성군",
+							"streetAddress": "강원특별자치도 고성군 거진읍 거탄진로 39-7 (거진읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거진고등학교",
-							"alternateName": "Geojin High School",
-							"description": "강원특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24720 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "고성군",
-								"streetAddress": "강원특별자치도 고성군 거진읍 거탄진로 39-7 (거진읍)"
-							},
-							"telephone": "033-680-1703",
-							"faxNumber": "033-682-2702",
-							"sameAs": ["https://geojin.gwe.hs.kr"]
-						}
-					],
+						"telephone": "033-680-1703",
+						"faxNumber": "033-682-2702",
+						"sameAs": ["https://geojin.gwe.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "904.4 Kcal",
 										"carbohydrateContent": "73.4 g",
 										"proteinContent": "55.7 g",
-										"fatContent": "38.7 g",
-										"vitaminAContent": "127.0 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "45.1 mg",
-										"calciumContent": "267.6 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "38.7 g"
 									}
 								}
 							]

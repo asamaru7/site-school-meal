@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/약산중학교/",
 				"headline": "약산중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/약산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yaksan.hs.jne.kr",
-							"url": "http://yaksan.hs.jne.kr",
-							"name": "약산중학교 급식 식단표 안내",
-							"description": "약산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 약산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "약산중학교",
+						"alternateName": "Yaksan Middle School",
+						"description": "전라남도완도교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59135 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 약산면 약산로 366 / 약산중학교 (약산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "약산중학교",
-							"alternateName": "Yaksan Middle School",
-							"description": "전라남도완도교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59135 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 약산면 약산로 366 / 약산중학교 (약산면)"
-							},
-							"telephone": "061-553-8488",
-							"faxNumber": "061-552-4753",
-							"sameAs": ["http://yaksan.hs.jne.kr"]
-						}
-					]
+						"telephone": "061-553-8488",
+						"faxNumber": "061-552-4753",
+						"sameAs": ["http://yaksan.hs.jne.kr"]
+					}
 				]
 			}
 		</script>

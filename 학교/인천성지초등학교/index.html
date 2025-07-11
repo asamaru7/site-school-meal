@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천성지초등학교/",
 				"headline": "인천성지초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천성지초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sj.icees.kr",
-							"url": "http://sj.icees.kr",
-							"name": "인천성지초등학교 급식 식단표 안내",
-							"description": "인천성지초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천성지초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천성지초등학교",
+						"alternateName": "Incheon Sungji Elementary School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21111 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 아나지로247번길 8 (작전동,성지초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천성지초등학교",
-							"alternateName": "Incheon Sungji Elementary School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21111 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 아나지로247번길 8 (작전동,성지초등학교)"
-							},
-							"telephone": "032-546-3551",
-							"faxNumber": "032-541-6096",
-							"sameAs": ["http://sj.icees.kr"]
-						}
-					],
+						"telephone": "032-546-3551",
+						"faxNumber": "032-541-6096",
+						"sameAs": ["http://sj.icees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "593.2 Kcal",
 										"carbohydrateContent": "97.4 g",
 										"proteinContent": "27.8 g",
-										"fatContent": "10.0 g",
-										"vitaminAContent": "472.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "23.0 mg",
-										"calciumContent": "551.8 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "10.0 g"
 									}
 								}
 							]

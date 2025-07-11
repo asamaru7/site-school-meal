@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/갈원초등학교/",
 				"headline": "갈원초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/갈원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/galwon-e",
-							"url": "school.cbe.go.kr/galwon-e",
-							"name": "갈원초등학교 급식 식단표 안내",
-							"description": "갈원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 갈원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "갈원초등학교",
+						"alternateName": "GalWon Elementary  School",
+						"description": "충청북도청주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "28184 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "청주시 서원구",
+							"streetAddress": "충청북도 청주시 서원구 남이면 저산척북로 375 (남이면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "갈원초등학교",
-							"alternateName": "GalWon Elementary  School",
-							"description": "충청북도청주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "28184 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "청주시 서원구",
-								"streetAddress": "충청북도 청주시 서원구 남이면 저산척북로 375 (남이면)"
-							},
-							"telephone": "043-260-6614",
-							"faxNumber": "043-260-4123",
-							"sameAs": ["school.cbe.go.kr/galwon-e"]
-						}
-					],
+						"telephone": "043-260-6614",
+						"faxNumber": "043-260-4123",
+						"sameAs": ["school.cbe.go.kr/galwon-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "852.7 Kcal",
 										"carbohydrateContent": "154.6 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "13.1 g",
-										"vitaminAContent": "279.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "34.9 mg",
-										"calciumContent": "450.1 mg",
-										"ironContent": "9.1 mg"
+										"fatContent": "13.1 g"
 									}
 								}
 							]

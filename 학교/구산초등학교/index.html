@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구산초등학교/",
 				"headline": "구산초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kusan.cnees.kr",
-							"url": "http://kusan.cnees.kr",
-							"name": "구산초등학교 급식 식단표 안내",
-							"description": "구산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구산초등학교",
+						"alternateName": "Kusan Elementary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32508 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 유구읍 유구마곡사로 61-1 (유구읍/구산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구산초등학교",
-							"alternateName": "Kusan Elementary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32508 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 유구읍 유구마곡사로 61-1 (유구읍/구산초등학교)"
-							},
-							"telephone": "041-841-8588",
-							"faxNumber": "041-841-6938",
-							"sameAs": ["http://kusan.cnees.kr"]
-						}
-					]
+						"telephone": "041-841-8588",
+						"faxNumber": "041-841-6938",
+						"sameAs": ["http://kusan.cnees.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/창선초등학교/",
 				"headline": "창선초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/창선초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://changsun-p.gne.go.kr/",
-							"url": "http://changsun-p.gne.go.kr/",
-							"name": "창선초등학교 급식 식단표 안내",
-							"description": "창선초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 창선초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "창선초등학교",
+						"alternateName": "Changseon Elementary School",
+						"description": "남해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52453 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "남해군",
+							"streetAddress": "경상남도 남해군 창선면 창선로97번길 16 (창선면/ 창선초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "창선초등학교",
-							"alternateName": "Changseon Elementary School",
-							"description": "남해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52453 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "남해군",
-								"streetAddress": "경상남도 남해군 창선면 창선로97번길 16 (창선면/ 창선초등학교)"
-							},
-							"telephone": "055-867-3003",
-							"faxNumber": "055-867-7400",
-							"sameAs": ["http://changsun-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-867-3003",
+						"faxNumber": "055-867-7400",
+						"sameAs": ["http://changsun-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "570.6 Kcal",
 										"carbohydrateContent": "79.7 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "88.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "330.3 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

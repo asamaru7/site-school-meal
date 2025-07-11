@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보성복내중학교/",
 				"headline": "보성복내중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보성복내중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://boknae.ms.jne.kr",
-							"url": "http://boknae.ms.jne.kr",
-							"name": "보성복내중학교 급식 식단표 안내",
-							"description": "보성복내중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보성복내중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보성복내중학교",
+						"alternateName": "BoseongBoknae Middle School",
+						"description": "전라남도보성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59405 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 복내면 송재로 1926 / 보성복내중학교 (복내면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보성복내중학교",
-							"alternateName": "BoseongBoknae Middle School",
-							"description": "전라남도보성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59405 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 복내면 송재로 1926 / 보성복내중학교 (복내면)"
-							},
-							"telephone": "061-888-2590",
-							"faxNumber": "061-853-7880",
-							"sameAs": ["http://boknae.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-888-2590",
+						"faxNumber": "061-853-7880",
+						"sameAs": ["http://boknae.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "614.8 Kcal",
 										"carbohydrateContent": "105.7 g",
 										"proteinContent": "20.0 g",
-										"fatContent": "10.9 g",
-										"vitaminAContent": "55.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "16.5 mg",
-										"calciumContent": "104.1 mg",
-										"ironContent": "1.7 mg"
+										"fatContent": "10.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "805.4 Kcal",
 										"carbohydrateContent": "131.5 g",
 										"proteinContent": "36.5 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "111.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "22.9 mg",
-										"calciumContent": "232.5 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

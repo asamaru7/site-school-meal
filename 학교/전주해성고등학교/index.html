@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전주해성고등학교/",
 				"headline": "전주해성고등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전주해성고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/jhs",
-							"url": "https://school.jbedu.kr/jhs",
-							"name": "전주해성고등학교 급식 식단표 안내",
-							"description": "전주해성고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전주해성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전주해성고등학교",
+						"alternateName": "Jeonju Haesung High School",
+						"description": "전북특별자치도교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55074 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "전주시 완산구",
+							"streetAddress": "전북특별자치도 전주시 완산구 계룡산길 88 (삼천동2가, 전주해성중,고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전주해성고등학교",
-							"alternateName": "Jeonju Haesung High School",
-							"description": "전북특별자치도교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55074 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "전주시 완산구",
-								"streetAddress": "전북특별자치도 전주시 완산구 계룡산길 88 (삼천동2가, 전주해성중,고등학교)"
-							},
-							"telephone": "063-224-6110",
-							"faxNumber": "063-224-6115",
-							"sameAs": ["https://school.jbedu.kr/jhs"]
-						}
-					],
+						"telephone": "063-224-6110",
+						"faxNumber": "063-224-6115",
+						"sameAs": ["https://school.jbedu.kr/jhs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "903.6 Kcal",
 										"carbohydrateContent": "137.3 g",
 										"proteinContent": "32.4 g",
-										"fatContent": "23.3 g",
-										"vitaminAContent": "84.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "30.8 mg",
-										"calciumContent": "113.2 mg",
-										"ironContent": "9.8 mg"
+										"fatContent": "23.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "919.3 Kcal",
 										"carbohydrateContent": "127.0 g",
 										"proteinContent": "43.1 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "171.1 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "12.2 mg",
-										"calciumContent": "243.3 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

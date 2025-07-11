@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울신남성초등학교/",
 				"headline": "서울신남성초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울신남성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.shinnamsung.es.kr",
-							"url": "http://www.shinnamsung.es.kr",
-							"name": "서울신남성초등학교 급식 식단표 안내",
-							"description": "서울신남성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울신남성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울신남성초등학교",
+						"alternateName": "Seoul Shinnamsung Elementary School",
+						"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07030 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 사당로 146 (사당동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울신남성초등학교",
-							"alternateName": "Seoul Shinnamsung Elementary School",
-							"description": "서울특별시동작관악교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07030 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 사당로 146 (사당동)"
-							},
-							"telephone": "02-521-6268",
-							"faxNumber": "02-584-5755",
-							"sameAs": ["http://www.shinnamsung.es.kr"]
-						}
-					],
+						"telephone": "02-521-6268",
+						"faxNumber": "02-584-5755",
+						"sameAs": ["http://www.shinnamsung.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "498.0 Kcal",
 										"carbohydrateContent": "69.9 g",
 										"proteinContent": "28.1 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "78.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "53.7 mg",
-										"calciumContent": "220.8 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이동초등학교-포항/",
 				"headline": "이동초등학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이동초등학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/edong",
-							"url": "http://school.gyo6.net/edong",
-							"name": "이동초등학교(포항) 급식 식단표 안내",
-							"description": "이동초등학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이동초등학교(포항)",
+						"alternateName": "Edong Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37677 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 포스코대로 147-10 (대잠동/ 이동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이동초등학교(포항)",
-							"alternateName": "Edong Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37677 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 포스코대로 147-10 (대잠동/ 이동초등학교)"
-							},
-							"telephone": "054-275-0437",
-							"faxNumber": "054-275-5227",
-							"sameAs": ["http://school.gyo6.net/edong"]
-						}
-					],
+						"telephone": "054-275-0437",
+						"faxNumber": "054-275-5227",
+						"sameAs": ["http://school.gyo6.net/edong"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "648.8 Kcal",
 										"carbohydrateContent": "90.8 g",
 										"proteinContent": "28.7 g",
-										"fatContent": "18.0 g",
-										"vitaminAContent": "35.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.9 mg",
-										"calciumContent": "185.6 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "18.0 g"
 									}
 								}
 							]

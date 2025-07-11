@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해내동초등학교/",
 				"headline": "김해내동초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해내동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kimhaenaedong-p.gne.go.kr/",
-							"url": "http://kimhaenaedong-p.gne.go.kr/",
-							"name": "김해내동초등학교 급식 식단표 안내",
-							"description": "김해내동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해내동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해내동초등학교",
+						"alternateName": "",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50892 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 평전로 151 / 김해내동초등학교 (내동/ 내동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해내동초등학교",
-							"alternateName": "",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50892 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 평전로 151 / 김해내동초등학교 (내동/ 내동초등학교)"
-							},
-							"telephone": "055-332-5601",
-							"faxNumber": "055-322-6602",
-							"sameAs": ["http://kimhaenaedong-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-332-5601",
+						"faxNumber": "055-322-6602",
+						"sameAs": ["http://kimhaenaedong-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "606.5 Kcal",
 										"carbohydrateContent": "80.6 g",
 										"proteinContent": "34.0 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "175.8 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "35.2 mg",
-										"calciumContent": "337.6 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

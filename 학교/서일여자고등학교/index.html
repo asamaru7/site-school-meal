@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서일여자고등학교/",
 				"headline": "서일여자고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서일여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seoil-ghs.djsch.kr",
-							"url": "http://seoil-ghs.djsch.kr",
-							"name": "서일여자고등학교 급식 식단표 안내",
-							"description": "서일여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서일여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서일여자고등학교",
+						"alternateName": "SEOIL GIRLS` HIGH SCHOOL",
+						"description": "대전광역시교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35377 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 구봉산북로 22 (관저동/ 서일여자고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서일여자고등학교",
-							"alternateName": "SEOIL GIRLS` HIGH SCHOOL",
-							"description": "대전광역시교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35377 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 구봉산북로 22 (관저동/ 서일여자고등학교)"
-							},
-							"telephone": "042-540-7740",
-							"faxNumber": "042-543-7429",
-							"sameAs": ["http://seoil-ghs.djsch.kr"]
-						}
-					],
+						"telephone": "042-540-7740",
+						"faxNumber": "042-543-7429",
+						"sameAs": ["http://seoil-ghs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1378.6 Kcal",
 										"carbohydrateContent": "219.9 g",
 										"proteinContent": "41.5 g",
-										"fatContent": "33.7 g",
-										"vitaminAContent": "171.3 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "25.7 mg",
-										"calciumContent": "233.4 mg",
-										"ironContent": "5.8 mg"
+										"fatContent": "33.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "985.0 Kcal",
 										"carbohydrateContent": "97.5 g",
 										"proteinContent": "42.3 g",
-										"fatContent": "45.6 g",
-										"vitaminAContent": "251.4 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "24.6 mg",
-										"calciumContent": "264.0 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "45.6 g"
 									}
 								}
 							]

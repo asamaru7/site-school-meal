@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/관동중학교/",
 				"headline": "관동중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/관동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gwandong.gwe.ms.kr",
-							"url": "http://gwandong.gwe.ms.kr",
-							"name": "관동중학교 급식 식단표 안내",
-							"description": "관동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 관동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "관동중학교",
+						"alternateName": "Gwandong Middle School",
+						"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25518 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "강릉시",
+							"streetAddress": "강원특별자치도 강릉시 하슬라로20번길 14 (교동/ 관동중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "관동중학교",
-							"alternateName": "Gwandong Middle School",
-							"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25518 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "강릉시",
-								"streetAddress": "강원특별자치도 강릉시 하슬라로20번길 14 (교동/ 관동중학교)"
-							},
-							"telephone": "033-650-4650",
-							"faxNumber": "033-647-6867",
-							"sameAs": ["http://gwandong.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-650-4650",
+						"faxNumber": "033-647-6867",
+						"sameAs": ["http://gwandong.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "907.0 Kcal",
 										"carbohydrateContent": "133.1 g",
 										"proteinContent": "45.6 g",
-										"fatContent": "21.3 g",
-										"vitaminAContent": "139.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.2 mg",
-										"calciumContent": "314.8 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "21.3 g"
 									}
 								}
 							]

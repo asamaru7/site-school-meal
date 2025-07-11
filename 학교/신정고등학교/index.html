@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신정고등학교/",
 				"headline": "신정고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신정고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/shinjeong-h",
-							"url": "http://school.busanedu.net/shinjeong-h",
-							"name": "신정고등학교 급식 식단표 안내",
-							"description": "신정고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신정고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신정고등학교",
+						"alternateName": "Shinjeong High School",
+						"description": "부산광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46011 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 정관읍 정관3로 14 / 신정고등학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신정고등학교",
-							"alternateName": "Shinjeong High School",
-							"description": "부산광역시교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46011 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 정관읍 정관3로 14 / 신정고등학교 "
-							},
-							"telephone": "051-745-3300",
-							"faxNumber": "051-727-9702",
-							"sameAs": ["http://school.busanedu.net/shinjeong-h"]
-						}
-					],
+						"telephone": "051-745-3300",
+						"faxNumber": "051-727-9702",
+						"sameAs": ["http://school.busanedu.net/shinjeong-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "772.4 Kcal",
 										"carbohydrateContent": "113.5 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "99.3 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.9 mg",
-										"calciumContent": "230.2 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "22.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "813.3 Kcal",
 										"carbohydrateContent": "116.0 g",
 										"proteinContent": "36.9 g",
-										"fatContent": "21.3 g",
-										"vitaminAContent": "49.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "20.6 mg",
-										"calciumContent": "294.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "21.3 g"
 									}
 								}
 							]

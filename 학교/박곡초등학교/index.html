@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/박곡초등학교/",
 				"headline": "박곡초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/박곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/bakgokes",
-							"url": "http://school.gyo6.net/bakgokes",
-							"name": "박곡초등학교 급식 식단표 안내",
-							"description": "박곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 박곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "박곡초등학교",
+						"alternateName": "Bakgok Elementary School",
+						"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "40115 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "고령군",
+							"streetAddress": "경상북도 고령군 성산면 성암로 125 (성산면/박곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "박곡초등학교",
-							"alternateName": "Bakgok Elementary School",
-							"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "40115 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "고령군",
-								"streetAddress": "경상북도 고령군 성산면 성암로 125 (성산면/박곡초등학교)"
-							},
-							"telephone": "054-954-4216",
-							"faxNumber": "054-954-6329",
-							"sameAs": ["http://school.gyo6.net/bakgokes"]
-						}
-					]
+						"telephone": "054-954-4216",
+						"faxNumber": "054-954-6329",
+						"sameAs": ["http://school.gyo6.net/bakgokes"]
+					}
 				]
 			}
 		</script>

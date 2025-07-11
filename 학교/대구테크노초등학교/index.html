@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구테크노초등학교/",
 				"headline": "대구테크노초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구테크노초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://techno.dge.es.kr/technoe/main.do",
-							"url": "https://techno.dge.es.kr/technoe/main.do",
-							"name": "대구테크노초등학교 급식 식단표 안내",
-							"description": "대구테크노초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구테크노초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구테크노초등학교",
+						"alternateName": "Daegu Techno Elementary School",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42989 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 유가읍 현풍로 245 대구테크노초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구테크노초등학교",
-							"alternateName": "Daegu Techno Elementary School",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42989 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 유가읍 현풍로 245 대구테크노초등학교"
-							},
-							"telephone": "2349585",
-							"faxNumber": "6110992 ",
-							"sameAs": ["https://techno.dge.es.kr/technoe/main.do"]
-						}
-					],
+						"telephone": "2349585",
+						"faxNumber": "6110992 ",
+						"sameAs": ["https://techno.dge.es.kr/technoe/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "569.1 Kcal",
 										"carbohydrateContent": "81.4 g",
 										"proteinContent": "26.0 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "128.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "26.9 mg",
-										"calciumContent": "239.4 mg",
-										"ironContent": "10.4 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제황초등학교/",
 				"headline": "제황초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제황초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jehwang-p.gne.go.kr/",
-							"url": "http://jehwang-p.gne.go.kr/",
-							"name": "제황초등학교 급식 식단표 안내",
-							"description": "제황초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제황초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제황초등학교",
+						"alternateName": " ",
+						"description": "진해교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51685 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 진해구",
+							"streetAddress": "경상남도 창원시 진해구 제황로 32 (제황산동/ 제황초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제황초등학교",
-							"alternateName": " ",
-							"description": "진해교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51685 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 진해구",
-								"streetAddress": "경상남도 창원시 진해구 제황로 32 (제황산동/ 제황초등학교)"
-							},
-							"telephone": "055-551-3963",
-							"faxNumber": "055-544-8018",
-							"sameAs": ["http://jehwang-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-551-3963",
+						"faxNumber": "055-544-8018",
+						"sameAs": ["http://jehwang-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "669.7 Kcal",
 										"carbohydrateContent": "101.9 g",
 										"proteinContent": "30.8 g",
-										"fatContent": "13.8 g",
-										"vitaminAContent": "398.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "23.2 mg",
-										"calciumContent": "597.4 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "13.8 g"
 									}
 								}
 							]

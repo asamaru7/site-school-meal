@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대정중학교/",
 				"headline": "대정중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daejung.jje.ms.kr",
-							"url": "http://daejung.jje.ms.kr",
-							"name": "대정중학교 급식 식단표 안내",
-							"description": "대정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대정중학교",
+						"alternateName": "DAEJUNG MIDDLE SCHOOL",
+						"description": "서귀포시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63513 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "서귀포시",
+							"streetAddress": "제주특별자치도 서귀포시 대정읍 비행장로 18 (대정읍/ 대정중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대정중학교",
-							"alternateName": "DAEJUNG MIDDLE SCHOOL",
-							"description": "서귀포시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63513 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "서귀포시",
-								"streetAddress": "제주특별자치도 서귀포시 대정읍 비행장로 18 (대정읍/ 대정중학교)"
-							},
-							"telephone": "064-798-0700",
-							"faxNumber": "064-798-0705",
-							"sameAs": ["http://daejung.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-798-0700",
+						"faxNumber": "064-798-0705",
+						"sameAs": ["http://daejung.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "796.1 Kcal",
 										"carbohydrateContent": "115.3 g",
 										"proteinContent": "40.0 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "178.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "28.0 mg",
-										"calciumContent": "455.8 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

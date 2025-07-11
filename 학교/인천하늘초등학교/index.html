@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천하늘초등학교/",
 				"headline": "인천하늘초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천하늘초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sky.icees.kr/",
-							"url": "http://sky.icees.kr/",
-							"name": "인천하늘초등학교 급식 식단표 안내",
-							"description": "인천하늘초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천하늘초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천하늘초등학교",
+						"alternateName": "Incheon Haneul Elementary School",
+						"description": "인천광역시남부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22390 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "중구",
+							"streetAddress": "인천광역시 중구 은하수로 294 (중산동/ 영종하늘초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천하늘초등학교",
-							"alternateName": "Incheon Haneul Elementary School",
-							"description": "인천광역시남부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22390 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "중구",
-								"streetAddress": "인천광역시 중구 은하수로 294 (중산동/ 영종하늘초등학교)"
-							},
-							"telephone": "032-745-6700",
-							"faxNumber": "032-745-6710",
-							"sameAs": ["http://sky.icees.kr/"]
-						}
-					],
+						"telephone": "032-745-6700",
+						"faxNumber": "032-745-6710",
+						"sameAs": ["http://sky.icees.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "532.9 Kcal",
 										"carbohydrateContent": "72.1 g",
 										"proteinContent": "32.0 g",
-										"fatContent": "11.5 g",
-										"vitaminAContent": "62.9 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.1 mg",
-										"calciumContent": "230.0 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "11.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/주천중학교/",
 				"headline": "주천중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/주천중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jucheon.gwe.ms.kr/",
-							"url": "http://jucheon.gwe.ms.kr/",
-							"name": "주천중학교 급식 식단표 안내",
-							"description": "주천중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 주천중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "주천중학교",
+						"alternateName": "Jucheon Middle School",
+						"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26203 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "영월군",
+							"streetAddress": "강원특별자치도 영월군 주천면 주천로89번길 41 (주천면/주천중・고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "주천중학교",
-							"alternateName": "Jucheon Middle School",
-							"description": "강원특별자치도영월교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26203 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "영월군",
-								"streetAddress": "강원특별자치도 영월군 주천면 주천로89번길 41 (주천면/주천중・고등학교)"
-							},
-							"telephone": "033-370-6000",
-							"faxNumber": "033-370-6090",
-							"sameAs": ["http://jucheon.gwe.ms.kr/"]
-						}
-					]
+						"telephone": "033-370-6000",
+						"faxNumber": "033-370-6090",
+						"sameAs": ["http://jucheon.gwe.ms.kr/"]
+					}
 				]
 			}
 		</script>

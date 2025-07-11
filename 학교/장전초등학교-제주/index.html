@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/장전초등학교-제주/",
 				"headline": "장전초등학교(제주) 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/장전초등학교-제주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jangjeon.jje.es.kr",
-							"url": "http://jangjeon.jje.es.kr",
-							"name": "장전초등학교(제주) 급식 식단표 안내",
-							"description": "장전초등학교(제주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 장전초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "장전초등학교(제주)",
+						"alternateName": "JANGJEON ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63055 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 애월읍 장전로 122 / 장전초등학교 (애월읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "장전초등학교(제주)",
-							"alternateName": "JANGJEON ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63055 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 애월읍 장전로 122 / 장전초등학교 (애월읍)"
-							},
-							"telephone": "064-798-2202",
-							"faxNumber": "064-798-2250",
-							"sameAs": ["http://jangjeon.jje.es.kr"]
-						}
-					],
+						"telephone": "064-798-2202",
+						"faxNumber": "064-798-2250",
+						"sameAs": ["http://jangjeon.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "759.6 Kcal",
 										"carbohydrateContent": "118.5 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "16.9 g",
-										"vitaminAContent": "103.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "10.0 mg",
-										"calciumContent": "265.9 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "16.9 g"
 									}
 								}
 							]

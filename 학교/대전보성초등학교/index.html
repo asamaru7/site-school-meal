@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전보성초등학교/",
 				"headline": "대전보성초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전보성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://boses.djsch.kr",
-							"url": "http://boses.djsch.kr",
-							"name": "대전보성초등학교 급식 식단표 안내",
-							"description": "대전보성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전보성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전보성초등학교",
+						"alternateName": "Daejeon Bosung Elementary School",
+						"description": "대전광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35010 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대전광역시 중구 보문산로141번길 34 (문화동/ 대전보성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전보성초등학교",
-							"alternateName": "Daejeon Bosung Elementary School",
-							"description": "대전광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35010 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대전광역시 중구 보문산로141번길 34 (문화동/ 대전보성초등학교)"
-							},
-							"telephone": "042-584-0030",
-							"faxNumber": "042-585-6207",
-							"sameAs": ["http://boses.djsch.kr"]
-						}
-					],
+						"telephone": "042-584-0030",
+						"faxNumber": "042-585-6207",
+						"sameAs": ["http://boses.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "649.1 Kcal",
 										"carbohydrateContent": "100.3 g",
 										"proteinContent": "23.9 g",
-										"fatContent": "14.9 g",
-										"vitaminAContent": "79.6 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.8 mg",
-										"calciumContent": "74.2 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "14.9 g"
 									}
 								}
 							]

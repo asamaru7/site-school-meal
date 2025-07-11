@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/통영중앙중학교/",
 				"headline": "통영중앙중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/통영중앙중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tyja-m.gne.go.kr/",
-							"url": "http://tyja-m.gne.go.kr/",
-							"name": "통영중앙중학교 급식 식단표 안내",
-							"description": "통영중앙중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 통영중앙중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "통영중앙중학교",
+						"alternateName": "Tongyeong Jungang Middle School",
+						"description": "통영교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53035 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 무전3길 23-10 (무전동/ 통영중앙중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "통영중앙중학교",
-							"alternateName": "Tongyeong Jungang Middle School",
-							"description": "통영교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53035 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 무전3길 23-10 (무전동/ 통영중앙중학교)"
-							},
-							"telephone": "055-648-0558",
-							"faxNumber": "055-645-0558",
-							"sameAs": ["http://tyja-m.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-648-0558",
+						"faxNumber": "055-645-0558",
+						"sameAs": ["http://tyja-m.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "682.3 Kcal",
 										"carbohydrateContent": "88.8 g",
 										"proteinContent": "36.5 g",
-										"fatContent": "18.1 g",
-										"vitaminAContent": "120.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "210.7 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "18.1 g"
 									}
 								}
 							]

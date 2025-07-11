@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신림중학교-원주/",
 				"headline": "신림중학교(원주) 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신림중학교-원주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "sinlim.gwe.ms.kr",
-							"url": "sinlim.gwe.ms.kr",
-							"name": "신림중학교(원주) 급식 식단표 안내",
-							"description": "신림중학교(원주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신림중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신림중학교(원주)",
+						"alternateName": "Sinlim Middle School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26506 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 신림면 마지동길 91 / 신림중학교 (신림면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신림중학교(원주)",
-							"alternateName": "Sinlim Middle School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26506 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 신림면 마지동길 91 / 신림중학교 (신림면)"
-							},
-							"telephone": "033-762-7116",
-							"faxNumber": "033-763-5848",
-							"sameAs": ["sinlim.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-762-7116",
+						"faxNumber": "033-763-5848",
+						"sameAs": ["sinlim.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "777.5 Kcal",
 										"carbohydrateContent": "116.7 g",
 										"proteinContent": "36.3 g",
-										"fatContent": "17.0 g",
-										"vitaminAContent": "113.1 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "215.8 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "17.0 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/마산여자중학교/",
 				"headline": "마산여자중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/마산여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "masanyeo-m.gne.go.kr",
-							"url": "masanyeo-m.gne.go.kr",
-							"name": "마산여자중학교 급식 식단표 안내",
-							"description": "마산여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 마산여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "마산여자중학교",
+						"alternateName": "",
+						"description": "마산교육청(폐지) / 공립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51286 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산회원구",
+							"streetAddress": "경상남도 창원시 마산회원구 무학로 587 (회원동/ 마산여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "마산여자중학교",
-							"alternateName": "",
-							"description": "마산교육청(폐지) / 공립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51286 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산회원구",
-								"streetAddress": "경상남도 창원시 마산회원구 무학로 587 (회원동/ 마산여자중학교)"
-							},
-							"telephone": "055-246-6411",
-							"faxNumber": "055-242-2995",
-							"sameAs": ["masanyeo-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-246-6411",
+						"faxNumber": "055-242-2995",
+						"sameAs": ["masanyeo-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "707.8 Kcal",
 										"carbohydrateContent": "116.7 g",
 										"proteinContent": "24.6 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "142.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "46.9 mg",
-										"calciumContent": "202.5 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/잠실여자중학교/",
 				"headline": "잠실여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/잠실여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jamsilg.sen.ms.kr",
-							"url": "http://jamsilg.sen.ms.kr",
-							"name": "잠실여자중학교 급식 식단표 안내",
-							"description": "잠실여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 잠실여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "잠실여자중학교",
+						"alternateName": "Jamsil Girls’ Middle School",
+						"description": "서울특별시강동송파교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05676 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 송파대로38길 8 (송파동,잠실여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "잠실여자중학교",
-							"alternateName": "Jamsil Girls’ Middle School",
-							"description": "서울특별시강동송파교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05676 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 송파대로38길 8 (송파동,잠실여자중학교)"
-							},
-							"telephone": "02-2140-8131",
-							"faxNumber": "02-2140-8136",
-							"sameAs": ["http://jamsilg.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-2140-8131",
+						"faxNumber": "02-2140-8136",
+						"sameAs": ["http://jamsilg.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "788.4 Kcal",
 										"carbohydrateContent": "118.1 g",
 										"proteinContent": "24.0 g",
-										"fatContent": "24.7 g",
-										"vitaminAContent": "121.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.3 mg",
-										"calciumContent": "146.4 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "24.7 g"
 									}
 								}
 							]

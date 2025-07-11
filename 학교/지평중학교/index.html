@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지평중학교/",
 				"headline": "지평중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지평중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://jp-m.goeyp.kr/jp-m/main.do",
-							"url": "https://jp-m.goeyp.kr/jp-m/main.do",
-							"name": "지평중학교 급식 식단표 안내",
-							"description": "지평중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지평중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지평중학교",
+						"alternateName": "Jipyeong Middle School",
+						"description": "경기도양평교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12541 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "양평군",
+							"streetAddress": "경기도 양평군 지평면 지평로 418 / 지평중학교 (지평면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지평중학교",
-							"alternateName": "Jipyeong Middle School",
-							"description": "경기도양평교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12541 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "양평군",
-								"streetAddress": "경기도 양평군 지평면 지평로 418 / 지평중학교 (지평면)"
-							},
-							"telephone": "031-773-7843",
-							"faxNumber": "031-771-1536",
-							"sameAs": ["https://jp-m.goeyp.kr/jp-m/main.do"]
-						}
-					],
+						"telephone": "031-773-7843",
+						"faxNumber": "031-771-1536",
+						"sameAs": ["https://jp-m.goeyp.kr/jp-m/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "674.6 Kcal",
 										"carbohydrateContent": "100.7 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "17.8 g",
-										"vitaminAContent": "64.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.6 mg",
-										"calciumContent": "225.9 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "17.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진선여자중학교/",
 				"headline": "진선여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진선여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jinseon.sen.ms.kr",
-							"url": "http://jinseon.sen.ms.kr",
-							"name": "진선여자중학교 급식 식단표 안내",
-							"description": "진선여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진선여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진선여자중학교",
+						"alternateName": "Jinseon Girls’ Middle School",
+						"description": "서울특별시강남서초교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06213 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 선릉로85길 27 (역삼동/ 진선여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진선여자중학교",
-							"alternateName": "Jinseon Girls’ Middle School",
-							"description": "서울특별시강남서초교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06213 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 선릉로85길 27 (역삼동/ 진선여자중학교)"
-							},
-							"telephone": "02-2185-4300",
-							"faxNumber": "02-2185-4397",
-							"sameAs": ["http://jinseon.sen.ms.kr"]
-						}
-					]
+						"telephone": "02-2185-4300",
+						"faxNumber": "02-2185-4397",
+						"sameAs": ["http://jinseon.sen.ms.kr"]
+					}
 				]
 			}
 		</script>

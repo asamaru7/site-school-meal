@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/우신중학교/",
 				"headline": "우신중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/우신중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wooshin.sen.ms.kr",
-							"url": "http://wooshin.sen.ms.kr",
-							"name": "우신중학교 급식 식단표 안내",
-							"description": "우신중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 우신중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "우신중학교",
+						"alternateName": "Wooshin Middle School",
+						"description": "서울특별시남부교육지원청 / 사립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08258 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "구로구",
+							"streetAddress": "서울특별시 구로구 부일로 917 / 우신중학교 (궁동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "우신중학교",
-							"alternateName": "Wooshin Middle School",
-							"description": "서울특별시남부교육지원청 / 사립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08258 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "구로구",
-								"streetAddress": "서울특별시 구로구 부일로 917 / 우신중학교 (궁동)"
-							},
-							"telephone": "02-2610-1610",
-							"faxNumber": "02-2610-1609",
-							"sameAs": ["http://wooshin.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-2610-1610",
+						"faxNumber": "02-2610-1609",
+						"sameAs": ["http://wooshin.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "924.4 Kcal",
 										"carbohydrateContent": "123.7 g",
 										"proteinContent": "50.2 g",
-										"fatContent": "21.6 g",
-										"vitaminAContent": "137.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "5.2 mg",
-										"calciumContent": "209.7 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "21.6 g"
 									}
 								}
 							]

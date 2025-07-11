@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/쌍백초등학교/",
 				"headline": "쌍백초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/쌍백초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ssangbaek-p.gne.go.kr/",
-							"url": "http://ssangbaek-p.gne.go.kr/",
-							"name": "쌍백초등학교 급식 식단표 안내",
-							"description": "쌍백초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 쌍백초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "쌍백초등학교",
+						"alternateName": "Ssangbaek Elementary School",
+						"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50218 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 쌍백면 평구3길 17 (쌍백면/ 쌍백초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "쌍백초등학교",
-							"alternateName": "Ssangbaek Elementary School",
-							"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50218 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 쌍백면 평구3길 17 (쌍백면/ 쌍백초등학교)"
-							},
-							"telephone": "055-932-3509",
-							"faxNumber": "055-931-6992",
-							"sameAs": ["http://ssangbaek-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-932-3509",
+						"faxNumber": "055-931-6992",
+						"sameAs": ["http://ssangbaek-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "754.4 Kcal",
 										"carbohydrateContent": "125.2 g",
 										"proteinContent": "21.1 g",
-										"fatContent": "19.2 g",
-										"vitaminAContent": "169.5 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "108.6 mg",
-										"calciumContent": "212.2 mg",
-										"ironContent": "5.0 mg"
+										"fatContent": "19.2 g"
 									}
 								}
 							]

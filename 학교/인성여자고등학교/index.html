@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인성여자고등학교/",
 				"headline": "인성여자고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인성여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "insunghs.icehs.kr",
-							"url": "insunghs.icehs.kr",
-							"name": "인성여자고등학교 급식 식단표 안내",
-							"description": "인성여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인성여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인성여자고등학교",
+						"alternateName": "Insung Girls` High School",
+						"description": "인천광역시교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22315 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "중구",
+							"streetAddress": "인천광역시 중구 홍예문로 39 (송학동2가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인성여자고등학교",
-							"alternateName": "Insung Girls` High School",
-							"description": "인천광역시교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22315 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "중구",
-								"streetAddress": "인천광역시 중구 홍예문로 39 (송학동2가)"
-							},
-							"telephone": "032-762-8506",
-							"faxNumber": "032-764-8505",
-							"sameAs": ["insunghs.icehs.kr"]
-						}
-					],
+						"telephone": "032-762-8506",
+						"faxNumber": "032-764-8505",
+						"sameAs": ["insunghs.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1056.1 Kcal",
 										"carbohydrateContent": "115.1 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "44.5 g",
-										"vitaminAContent": "154.8 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.9 mg",
-										"calciumContent": "197.1 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "44.5 g"
 									}
 								}
 							]

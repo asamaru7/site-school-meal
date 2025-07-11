@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/압해중학교/",
 				"headline": "압해중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/압해중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://aphae.ms.jne.kr/",
-							"url": "http://aphae.ms.jne.kr/",
-							"name": "압해중학교 급식 식단표 안내",
-							"description": "압해중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 압해중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "압해중학교",
+						"alternateName": "Aphae Middle School",
+						"description": "전라남도신안교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58824 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "신안군",
+							"streetAddress": "전라남도 신안군 압해읍 구항길 31-5 / 압해중학교 (압해읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "압해중학교",
-							"alternateName": "Aphae Middle School",
-							"description": "전라남도신안교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58824 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "신안군",
-								"streetAddress": "전라남도 신안군 압해읍 구항길 31-5 / 압해중학교 (압해읍)"
-							},
-							"telephone": "061-271-0496",
-							"faxNumber": "061-271-5350",
-							"sameAs": ["http://aphae.ms.jne.kr/"]
-						}
-					],
+						"telephone": "061-271-0496",
+						"faxNumber": "061-271-5350",
+						"sameAs": ["http://aphae.ms.jne.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.8 Kcal",
 										"carbohydrateContent": "105.3 g",
 										"proteinContent": "37.7 g",
-										"fatContent": "26.8 g",
-										"vitaminAContent": "353.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "26.6 mg",
-										"calciumContent": "337.5 mg",
-										"ironContent": "10.8 mg"
+										"fatContent": "26.8 g"
 									}
 								}
 							]

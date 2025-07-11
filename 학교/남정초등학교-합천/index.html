@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남정초등학교-합천/",
 				"headline": "남정초등학교(합천) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남정초등학교-합천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hcnj-p.gne.go.kr",
-							"url": "hcnj-p.gne.go.kr",
-							"name": "남정초등학교(합천) 급식 식단표 안내",
-							"description": "남정초등학교(합천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남정초등학교(합천)",
+						"alternateName": "Namjeong Elementary School",
+						"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50235 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 합천읍 남정길 28 (합천읍/ 남정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남정초등학교(합천)",
-							"alternateName": "Namjeong Elementary School",
-							"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50235 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 합천읍 남정길 28 (합천읍/ 남정초등학교)"
-							},
-							"telephone": "055-934-0652",
-							"faxNumber": "055-931-4302",
-							"sameAs": ["hcnj-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-934-0652",
+						"faxNumber": "055-931-4302",
+						"sameAs": ["hcnj-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "695.8 Kcal",
 										"carbohydrateContent": "93.1 g",
 										"proteinContent": "31.3 g",
-										"fatContent": "21.6 g",
-										"vitaminAContent": "240.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "37.8 mg",
-										"calciumContent": "411.1 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "21.6 g"
 									}
 								}
 							]

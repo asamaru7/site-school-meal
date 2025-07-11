@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오륜중학교/",
 				"headline": "오륜중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오륜중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://oryun.sen.ms.kr",
-							"url": "http://oryun.sen.ms.kr",
-							"name": "오륜중학교 급식 식단표 안내",
-							"description": "오륜중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오륜중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오륜중학교",
+						"alternateName": "Oryun Middle School",
+						"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05649 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 양재대로 1242 (방이동/오륜중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오륜중학교",
-							"alternateName": "Oryun Middle School",
-							"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05649 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 양재대로 1242 (방이동/오륜중학교)"
-							},
-							"telephone": "02-3434-4100",
-							"faxNumber": "02-3434-4199",
-							"sameAs": ["http://oryun.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-3434-4100",
+						"faxNumber": "02-3434-4199",
+						"sameAs": ["http://oryun.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "727.0 Kcal",
 										"carbohydrateContent": "84.6 g",
 										"proteinContent": "50.1 g",
-										"fatContent": "18.9 g",
-										"vitaminAContent": "122.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.7 mg",
-										"calciumContent": "205.7 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "18.9 g"
 									}
 								}
 							]

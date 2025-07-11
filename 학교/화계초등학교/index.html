@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화계초등학교/",
 				"headline": "화계초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화계초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hwagye.gwe.es.kr",
-							"url": "http://hwagye.gwe.es.kr",
-							"name": "화계초등학교 급식 식단표 안내",
-							"description": "화계초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화계초등학교",
+						"alternateName": "Hwagye Elementary School",
+						"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25112 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "홍천군",
+							"streetAddress": "강원특별자치도 홍천군 북방면 능평길 10 (북방면/화계초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화계초등학교",
-							"alternateName": "Hwagye Elementary School",
-							"description": "강원특별자치도홍천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25112 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "홍천군",
-								"streetAddress": "강원특별자치도 홍천군 북방면 능평길 10 (북방면/화계초등학교)"
-							},
-							"telephone": "033-434-5095",
-							"faxNumber": "033-435-3165",
-							"sameAs": ["http://hwagye.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-434-5095",
+						"faxNumber": "033-435-3165",
+						"sameAs": ["http://hwagye.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "644.8 Kcal",
 										"carbohydrateContent": "90.4 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "18.5 g",
-										"vitaminAContent": "132.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "61.0 mg",
-										"calciumContent": "251.8 mg",
-										"ironContent": "7.3 mg"
+										"fatContent": "18.5 g"
 									}
 								}
 							]

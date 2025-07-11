@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/맹동초등학교/",
 				"headline": "맹동초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/맹동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/maengdong-e",
-							"url": "http://school.cbe.go.kr/maengdong-e",
-							"name": "맹동초등학교 급식 식단표 안내",
-							"description": "맹동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 맹동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "맹동초등학교",
+						"alternateName": "maengdong elementary school",
+						"description": "충청북도음성교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27733 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 맹동면 대동로 9 , 맹동초등학교 (맹동면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "맹동초등학교",
-							"alternateName": "maengdong elementary school",
-							"description": "충청북도음성교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27733 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 맹동면 대동로 9 , 맹동초등학교 (맹동면)"
-							},
-							"telephone": "043-878-9013",
-							"faxNumber": "043-877-2648",
-							"sameAs": ["http://school.cbe.go.kr/maengdong-e"]
-						}
-					]
+						"telephone": "043-878-9013",
+						"faxNumber": "043-877-2648",
+						"sameAs": ["http://school.cbe.go.kr/maengdong-e"]
+					}
 				]
 			}
 		</script>

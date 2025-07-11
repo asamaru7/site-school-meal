@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/임성중학교/",
 				"headline": "임성중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/임성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://imsung.cnems.kr",
-							"url": "http://imsung.cnems.kr",
-							"name": "임성중학교 급식 식단표 안내",
-							"description": "임성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 임성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "임성중학교",
+						"alternateName": "Imsung Middle School",
+						"description": "충청남도예산교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32425 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "예산군",
+							"streetAddress": "충청남도 예산군 오가면 윤봉길로 1983-32 (오가면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "임성중학교",
-							"alternateName": "Imsung Middle School",
-							"description": "충청남도예산교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32425 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "예산군",
-								"streetAddress": "충청남도 예산군 오가면 윤봉길로 1983-32 (오가면)"
-							},
-							"telephone": "041-335-6921",
-							"faxNumber": "041-333-6089",
-							"sameAs": ["http://imsung.cnems.kr"]
-						}
-					],
+						"telephone": "041-335-6921",
+						"faxNumber": "041-333-6089",
+						"sameAs": ["http://imsung.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "795.6 Kcal",
 										"carbohydrateContent": "127.4 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "16.3 g",
-										"vitaminAContent": "500.9 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "559.9 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "16.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/범어초등학교/",
 				"headline": "범어초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/범어초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://beomeo-p.gne.go.kr",
-							"url": "http://beomeo-p.gne.go.kr",
-							"name": "범어초등학교 급식 식단표 안내",
-							"description": "범어초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 범어초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "범어초등학교",
+						"alternateName": "",
+						"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50597 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 물금읍 동중6길 8 / 범어초등학교 (물금읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "범어초등학교",
-							"alternateName": "",
-							"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50597 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 물금읍 동중6길 8 / 범어초등학교 (물금읍)"
-							},
-							"telephone": "055-384-8895",
-							"faxNumber": "055-388-7381",
-							"sameAs": ["http://beomeo-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-384-8895",
+						"faxNumber": "055-388-7381",
+						"sameAs": ["http://beomeo-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "888.7 Kcal",
 										"carbohydrateContent": "82.4 g",
 										"proteinContent": "35.3 g",
-										"fatContent": "44.4 g",
-										"vitaminAContent": "253.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "1.6 mg",
-										"vitaminCContent": "10.5 mg",
-										"calciumContent": "464.2 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "44.4 g"
 									}
 								}
 							]

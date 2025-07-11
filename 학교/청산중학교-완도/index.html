@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청산중학교-완도/",
 				"headline": "청산중학교(완도) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청산중학교-완도/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yd-cheongsan.ms.jne.kr",
-							"url": "yd-cheongsan.ms.jne.kr",
-							"name": "청산중학교(완도) 급식 식단표 안내",
-							"description": "청산중학교(완도)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청산중학교(완도)",
+						"alternateName": "Cheongsan Middle School",
+						"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59151 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 청산면 청산로 1579-74 (청산면, 청산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청산중학교(완도)",
-							"alternateName": "Cheongsan Middle School",
-							"description": "전라남도완도교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59151 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 청산면 청산로 1579-74 (청산면, 청산중학교)"
-							},
-							"telephone": "061-552-8544",
-							"faxNumber": "061-554-7304",
-							"sameAs": ["yd-cheongsan.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-552-8544",
+						"faxNumber": "061-554-7304",
+						"sameAs": ["yd-cheongsan.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "803.1 Kcal",
 										"carbohydrateContent": "101.0 g",
 										"proteinContent": "25.2 g",
-										"fatContent": "32.7 g",
-										"vitaminAContent": "42.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "13.7 mg",
-										"calciumContent": "97.8 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "32.7 g"
 									}
 								}
 							]

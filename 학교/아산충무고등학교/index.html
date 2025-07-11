@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/아산충무고등학교/",
 				"headline": "아산충무고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/아산충무고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.asanchungmu.cnehs.kr/",
-							"url": "http://www.asanchungmu.cnehs.kr/",
-							"name": "아산충무고등학교 급식 식단표 안내",
-							"description": "아산충무고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 아산충무고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "아산충무고등학교",
+						"alternateName": "asanchungmu high school",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31406 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 둔포면 둔포로38번길 145 아산충무고등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "아산충무고등학교",
-							"alternateName": "asanchungmu high school",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31406 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 둔포면 둔포로38번길 145 아산충무고등학교"
-							},
-							"telephone": "041-424-0402",
-							"faxNumber": "",
-							"sameAs": ["http://www.asanchungmu.cnehs.kr/"]
-						}
-					],
+						"telephone": "041-424-0402",
+						"faxNumber": "",
+						"sameAs": ["http://www.asanchungmu.cnehs.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "949.9 Kcal",
 										"carbohydrateContent": "119.7 g",
 										"proteinContent": "44.1 g",
-										"fatContent": "31.0 g",
-										"vitaminAContent": "403.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "44.5 mg",
-										"calciumContent": "635.5 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "31.0 g"
 									}
 								}
 							]

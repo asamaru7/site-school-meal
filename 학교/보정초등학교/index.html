@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보정초등학교/",
 				"headline": "보정초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "bojeong-e.goeyi.kr",
-							"url": "bojeong-e.goeyi.kr",
-							"name": "보정초등학교 급식 식단표 안내",
-							"description": "보정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보정초등학교",
+						"alternateName": "Bojeong Elementary School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16904 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 기흥구",
+							"streetAddress": "경기도 용인시 기흥구 신촌로73번길 28 (보정동/ 보정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보정초등학교",
-							"alternateName": "Bojeong Elementary School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16904 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 기흥구",
-								"streetAddress": "경기도 용인시 기흥구 신촌로73번길 28 (보정동/ 보정초등학교)"
-							},
-							"telephone": "031-272-7320",
-							"faxNumber": "031-272-7324",
-							"sameAs": ["bojeong-e.goeyi.kr"]
-						}
-					],
+						"telephone": "031-272-7320",
+						"faxNumber": "031-272-7324",
+						"sameAs": ["bojeong-e.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "831.3 Kcal",
 										"carbohydrateContent": "93.7 g",
 										"proteinContent": "37.8 g",
-										"fatContent": "32.7 g",
-										"vitaminAContent": "109.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "54.6 mg",
-										"calciumContent": "223.5 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "32.7 g"
 									}
 								}
 							]

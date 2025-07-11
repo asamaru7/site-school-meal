@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신화초등학교/",
 				"headline": "신화초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신화초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shinhwa.cnees.kr",
-							"url": "http://shinhwa.cnees.kr",
-							"name": "신화초등학교 급식 식단표 안내",
-							"description": "신화초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신화초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신화초등학교",
+						"alternateName": "Shinhwa Elementary School",
+						"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31425 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "아산시",
+							"streetAddress": "충청남도 아산시 영인면 고룡산로 636 (영인면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신화초등학교",
-							"alternateName": "Shinhwa Elementary School",
-							"description": "충청남도아산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31425 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "아산시",
-								"streetAddress": "충청남도 아산시 영인면 고룡산로 636 (영인면)"
-							},
-							"telephone": "041-542-5002",
-							"faxNumber": "041-541-5229",
-							"sameAs": ["http://shinhwa.cnees.kr"]
-						}
-					],
+						"telephone": "041-542-5002",
+						"faxNumber": "041-541-5229",
+						"sameAs": ["http://shinhwa.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "759.4 Kcal",
 										"carbohydrateContent": "87.7 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "27.0 g",
-										"vitaminAContent": "121.5 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "11.3 mg",
-										"calciumContent": "156.6 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "27.0 g"
 									}
 								}
 							]

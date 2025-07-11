@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/조성중학교/",
 				"headline": "조성중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/조성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "joseong.ms.jne.kr ",
-							"url": "joseong.ms.jne.kr ",
-							"name": "조성중학교 급식 식단표 안내",
-							"description": "조성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 조성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "조성중학교",
+						"alternateName": "Joseong Middle School",
+						"description": "전라남도보성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59440 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "보성군",
+							"streetAddress": "전라남도 보성군 조성면 조성2길 4-7 (조성면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "조성중학교",
-							"alternateName": "Joseong Middle School",
-							"description": "전라남도보성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59440 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "보성군",
-								"streetAddress": "전라남도 보성군 조성면 조성2길 4-7 (조성면)"
-							},
-							"telephone": "061-857-9021",
-							"faxNumber": "061-857-7198",
-							"sameAs": ["joseong.ms.jne.kr "]
-						}
-					],
+						"telephone": "061-857-9021",
+						"faxNumber": "061-857-7198",
+						"sameAs": ["joseong.ms.jne.kr "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "778.4 Kcal",
 										"carbohydrateContent": "126.7 g",
 										"proteinContent": "25.8 g",
-										"fatContent": "17.3 g",
-										"vitaminAContent": "195.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "20.8 mg",
-										"calciumContent": "202.7 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "17.3 g"
 									}
 								}
 							]

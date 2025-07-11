@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신길초등학교/",
 				"headline": "신길초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신길초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.singil-asn.es.kr/",
-							"url": "http://www.singil-asn.es.kr/",
-							"name": "신길초등학교 급식 식단표 안내",
-							"description": "신길초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신길초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신길초등학교",
+						"alternateName": "Singil elementary school",
+						"description": "경기도안산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "15400 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안산시 단원구",
+							"streetAddress": "경기도 안산시 단원구 새뿔길 100 (신길동/ 신길초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신길초등학교",
-							"alternateName": "Singil elementary school",
-							"description": "경기도안산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "15400 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안산시 단원구",
-								"streetAddress": "경기도 안산시 단원구 새뿔길 100 (신길동/ 신길초등학교)"
-							},
-							"telephone": "031-496-8090",
-							"faxNumber": "031-492-7987",
-							"sameAs": ["http://www.singil-asn.es.kr/"]
-						}
-					],
+						"telephone": "031-496-8090",
+						"faxNumber": "031-492-7987",
+						"sameAs": ["http://www.singil-asn.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "827.5 Kcal",
 										"carbohydrateContent": "79.6 g",
 										"proteinContent": "50.1 g",
-										"fatContent": "31.9 g",
-										"vitaminAContent": "222.9 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "23.6 mg",
-										"calciumContent": "299.3 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "31.9 g"
 									}
 								}
 							]

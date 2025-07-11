@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구일중학교/",
 				"headline": "대구일중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구일중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.tgil.ms.kr",
-							"url": "http://www.tgil.ms.kr",
-							"name": "대구일중학교 급식 식단표 안내",
-							"description": "대구일중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구일중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구일중학교",
+						"alternateName": "Daeguil Middle School",
+						"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "41590 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "북구",
+							"streetAddress": "대구광역시 북구 옥산로17길 21 (침산동/대구일중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구일중학교",
-							"alternateName": "Daeguil Middle School",
-							"description": "대구광역시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "41590 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "북구",
-								"streetAddress": "대구광역시 북구 옥산로17길 21 (침산동/대구일중학교)"
-							},
-							"telephone": "053-233-7500",
-							"faxNumber": "053-233-7483",
-							"sameAs": ["http://www.tgil.ms.kr"]
-						}
-					],
+						"telephone": "053-233-7500",
+						"faxNumber": "053-233-7483",
+						"sameAs": ["http://www.tgil.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "990.4 Kcal",
 										"carbohydrateContent": "143.9 g",
 										"proteinContent": "50.4 g",
-										"fatContent": "25.6 g",
-										"vitaminAContent": "306.2 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "29.9 mg",
-										"calciumContent": "460.6 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "25.6 g"
 									}
 								}
 							]

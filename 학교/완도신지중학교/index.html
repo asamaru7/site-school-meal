@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/완도신지중학교/",
 				"headline": "완도신지중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/완도신지중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://wandosinji.ms.jne.kr",
-							"url": "http://wandosinji.ms.jne.kr",
-							"name": "완도신지중학교 급식 식단표 안내",
-							"description": "완도신지중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 완도신지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "완도신지중학교",
+						"alternateName": "Wando Sinji Middle School",
+						"description": "전라남도완도교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59146 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "완도군",
+							"streetAddress": "전라남도 완도군 신지면 대곡길 26 / 신지중학교 (신지면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "완도신지중학교",
-							"alternateName": "Wando Sinji Middle School",
-							"description": "전라남도완도교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59146 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "완도군",
-								"streetAddress": "전라남도 완도군 신지면 대곡길 26 / 신지중학교 (신지면)"
-							},
-							"telephone": "061-552-7002",
-							"faxNumber": "061-553-3992",
-							"sameAs": ["http://wandosinji.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-552-7002",
+						"faxNumber": "061-553-3992",
+						"sameAs": ["http://wandosinji.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1938.6 Kcal",
 										"carbohydrateContent": "311.0 g",
 										"proteinContent": "63.1 g",
-										"fatContent": "47.3 g",
-										"vitaminAContent": "164.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "7.2 mg",
-										"calciumContent": "343.5 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "47.3 g"
 									}
 								}
 							]

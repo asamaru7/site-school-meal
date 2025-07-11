@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울서래초등학교/",
 				"headline": "서울서래초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울서래초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seorae.sen.es.kr",
-							"url": "http://seorae.sen.es.kr",
-							"name": "서울서래초등학교 급식 식단표 안내",
-							"description": "서울서래초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울서래초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울서래초등학교",
+						"alternateName": "Seoul Seorae Elementary School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06574 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 방배로 260 (방배동/서래초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울서래초등학교",
-							"alternateName": "Seoul Seorae Elementary School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06574 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 방배로 260 (방배동/서래초등학교)"
-							},
-							"telephone": "02-595-7512",
-							"faxNumber": "02-596-2443",
-							"sameAs": ["http://seorae.sen.es.kr"]
-						}
-					],
+						"telephone": "02-595-7512",
+						"faxNumber": "02-596-2443",
+						"sameAs": ["http://seorae.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "587.6 Kcal",
 										"carbohydrateContent": "79.9 g",
 										"proteinContent": "25.2 g",
-										"fatContent": "17.9 g",
-										"vitaminAContent": "136.6 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.3 mg",
-										"calciumContent": "166.5 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "17.9 g"
 									}
 								}
 							]

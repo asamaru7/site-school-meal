@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/익산가온초등학교/",
 				"headline": "익산가온초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/익산가온초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://isgaon.es.kr",
-							"url": "http://isgaon.es.kr",
-							"name": "익산가온초등학교 급식 식단표 안내",
-							"description": "익산가온초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 익산가온초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "익산가온초등학교",
+						"alternateName": "Iksan Gaon Elementary School",
+						"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54653 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "익산시",
+							"streetAddress": "전북특별자치도 익산시 선화로1길 106 익산가온초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "익산가온초등학교",
-							"alternateName": "Iksan Gaon Elementary School",
-							"description": "전북특별자치도익산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54653 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "익산시",
-								"streetAddress": "전북특별자치도 익산시 선화로1길 106 익산가온초등학교"
-							},
-							"telephone": "063-840-8205",
-							"faxNumber": "063-841-8210",
-							"sameAs": ["http://isgaon.es.kr"]
-						}
-					],
+						"telephone": "063-840-8205",
+						"faxNumber": "063-841-8210",
+						"sameAs": ["http://isgaon.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "621.6 Kcal",
 										"carbohydrateContent": "76.9 g",
 										"proteinContent": "27.0 g",
-										"fatContent": "21.5 g",
-										"vitaminAContent": "93.7 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "8.1 mg",
-										"calciumContent": "167.9 mg",
-										"ironContent": "7.7 mg"
+										"fatContent": "21.5 g"
 									}
 								}
 							]

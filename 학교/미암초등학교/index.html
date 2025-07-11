@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미암초등학교/",
 				"headline": "미암초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://miam.es.jne.kr",
-							"url": "http://miam.es.jne.kr",
-							"name": "미암초등학교 급식 식단표 안내",
-							"description": "미암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미암초등학교",
+						"alternateName": "Miam Elementary School",
+						"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58444 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 미암면 미중로 61 (미암면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미암초등학교",
-							"alternateName": "Miam Elementary School",
-							"description": "전라남도영암교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58444 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 미암면 미중로 61 (미암면)"
-							},
-							"telephone": "061-472-5045",
-							"faxNumber": "061-471-3960",
-							"sameAs": ["http://miam.es.jne.kr"]
-						}
-					],
+						"telephone": "061-472-5045",
+						"faxNumber": "061-471-3960",
+						"sameAs": ["http://miam.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "665.3 Kcal",
 										"carbohydrateContent": "94.1 g",
 										"proteinContent": "35.5 g",
-										"fatContent": "14.6 g",
-										"vitaminAContent": "60.0 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.7 mg",
-										"calciumContent": "253.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "14.6 g"
 									}
 								}
 							]

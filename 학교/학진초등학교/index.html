@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/학진초등학교/",
 				"headline": "학진초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/학진초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/hakjin-e",
-							"url": "http://school.busanedu.net/hakjin-e",
-							"name": "학진초등학교 급식 식단표 안내",
-							"description": "학진초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 학진초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "학진초등학교",
+						"alternateName": "Hakjin Elementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47035 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사상구",
+							"streetAddress": "부산광역시 사상구 대동로 34-16 (엄궁동/ 학진초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "학진초등학교",
-							"alternateName": "Hakjin Elementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47035 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사상구",
-								"streetAddress": "부산광역시 사상구 대동로 34-16 (엄궁동/ 학진초등학교)"
-							},
-							"telephone": "051-982-5000",
-							"faxNumber": "051-323-3921",
-							"sameAs": ["http://school.busanedu.net/hakjin-e"]
-						}
-					],
+						"telephone": "051-982-5000",
+						"faxNumber": "051-323-3921",
+						"sameAs": ["http://school.busanedu.net/hakjin-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "676.9 Kcal",
 										"carbohydrateContent": "101.6 g",
 										"proteinContent": "25.3 g",
-										"fatContent": "18.9 g",
-										"vitaminAContent": "127.1 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "29.4 mg",
-										"calciumContent": "153.6 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "18.9 g"
 									}
 								}
 							]

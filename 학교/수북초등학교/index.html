@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수북초등학교/",
 				"headline": "수북초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수북초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://subuk.es.jne.kr",
-							"url": "http://subuk.es.jne.kr",
-							"name": "수북초등학교 급식 식단표 안내",
-							"description": "수북초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수북초등학교",
+						"alternateName": "Subuk Elementary School",
+						"description": "전라남도담양교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57318 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "담양군",
+							"streetAddress": "전라남도 담양군 수북면 추성1로 714 (수북면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수북초등학교",
-							"alternateName": "Subuk Elementary School",
-							"description": "전라남도담양교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57318 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "담양군",
-								"streetAddress": "전라남도 담양군 수북면 추성1로 714 (수북면)"
-							},
-							"telephone": "061-382-7014",
-							"faxNumber": "061-383-1964",
-							"sameAs": ["http://subuk.es.jne.kr"]
-						}
-					],
+						"telephone": "061-382-7014",
+						"faxNumber": "061-383-1964",
+						"sameAs": ["http://subuk.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "548.1 Kcal",
 										"carbohydrateContent": "81.3 g",
 										"proteinContent": "22.1 g",
-										"fatContent": "14.9 g",
-										"vitaminAContent": "133.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "32.9 mg",
-										"calciumContent": "253.4 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "14.9 g"
 									}
 								}
 							]

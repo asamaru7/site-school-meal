@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대평초등학교-세종/",
 				"headline": "대평초등학교(세종) 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대평초등학교-세종/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daepyeong.sjedues.kr",
-							"url": "http://daepyeong.sjedues.kr",
-							"name": "대평초등학교(세종) 급식 식단표 안내",
-							"description": "대평초등학교(세종)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대평초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대평초등학교(세종)",
+						"alternateName": "Daepyeong Elementary School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30153 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 대평1길 19 (대평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대평초등학교(세종)",
-							"alternateName": "Daepyeong Elementary School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30153 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 대평1길 19 (대평동)"
-							},
-							"telephone": "044-902-4100",
-							"faxNumber": "044-902-4129",
-							"sameAs": ["http://daepyeong.sjedues.kr"]
-						}
-					],
+						"telephone": "044-902-4100",
+						"faxNumber": "044-902-4129",
+						"sameAs": ["http://daepyeong.sjedues.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "629.0 Kcal",
 										"carbohydrateContent": "115.3 g",
 										"proteinContent": "20.8 g",
-										"fatContent": "9.0 g",
-										"vitaminAContent": "144.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "29.7 mg",
-										"calciumContent": "251.6 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "9.0 g"
 									}
 								}
 							]

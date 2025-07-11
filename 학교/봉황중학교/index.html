@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉황중학교/",
 				"headline": "봉황중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉황중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bonghwang.cnems.kr",
-							"url": "http://bonghwang.cnems.kr",
-							"name": "봉황중학교 급식 식단표 안내",
-							"description": "봉황중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉황중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉황중학교",
+						"alternateName": "Bonghwang Middle School",
+						"description": "충청남도공주교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32529 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 금벽로 301 (신관동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉황중학교",
-							"alternateName": "Bonghwang Middle School",
-							"description": "충청남도공주교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32529 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 금벽로 301 (신관동)"
-							},
-							"telephone": "041-854-2771",
-							"faxNumber": "041-856-7998",
-							"sameAs": ["http://bonghwang.cnems.kr"]
-						}
-					]
+						"telephone": "041-854-2771",
+						"faxNumber": "041-856-7998",
+						"sameAs": ["http://bonghwang.cnems.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한들중학교/",
 				"headline": "한들중학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한들중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/handeul-m ",
-							"url": "https://school.jbedu.kr/handeul-m ",
-							"name": "한들중학교 급식 식단표 안내",
-							"description": "한들중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한들중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한들중학교",
+						"alternateName": "HANDEUL MIDDLE SCHOOL",
+						"description": "전북특별자치도김제교육지원청 / 공립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "54379 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "김제시",
+							"streetAddress": "전북특별자치도 김제시 중앙로 137 한들중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한들중학교",
-							"alternateName": "HANDEUL MIDDLE SCHOOL",
-							"description": "전북특별자치도김제교육지원청 / 공립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "54379 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "김제시",
-								"streetAddress": "전북특별자치도 김제시 중앙로 137 한들중학교"
-							},
-							"telephone": "063-546-4832",
-							"faxNumber": "063-546-4835",
-							"sameAs": ["https://school.jbedu.kr/handeul-m "]
-						}
-					],
+						"telephone": "063-546-4832",
+						"faxNumber": "063-546-4835",
+						"sameAs": ["https://school.jbedu.kr/handeul-m "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "800.5 Kcal",
 										"carbohydrateContent": "112.0 g",
 										"proteinContent": "28.6 g",
-										"fatContent": "26.3 g",
-										"vitaminAContent": "115.1 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.9 mg",
-										"calciumContent": "109.0 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "26.3 g"
 									}
 								}
 							]

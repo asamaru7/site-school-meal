@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구신매초등학교/",
 				"headline": "대구신매초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구신매초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://shinmae.dge.es.kr/",
-							"url": "https://shinmae.dge.es.kr/",
-							"name": "대구신매초등학교 급식 식단표 안내",
-							"description": "대구신매초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구신매초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구신매초등학교",
+						"alternateName": "Daegu Shinmae Elementary School",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42275 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 달구벌대로650길 26 (신매동/ 신매초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구신매초등학교",
-							"alternateName": "Daegu Shinmae Elementary School",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42275 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 달구벌대로650길 26 (신매동/ 신매초등학교)"
-							},
-							"telephone": "053-232-4271",
-							"faxNumber": "053-792-8125",
-							"sameAs": ["https://shinmae.dge.es.kr/"]
-						}
-					],
+						"telephone": "053-232-4271",
+						"faxNumber": "053-792-8125",
+						"sameAs": ["https://shinmae.dge.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "715.4 Kcal",
 										"carbohydrateContent": "118.4 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "10.6 g",
-										"vitaminAContent": "190.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.1 mg",
-										"calciumContent": "258.8 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "10.6 g"
 									}
 								}
 							]

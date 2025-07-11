@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/등촌중학교/",
 				"headline": "등촌중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/등촌중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://deungchon.sen.ms.kr",
-							"url": "http://deungchon.sen.ms.kr",
-							"name": "등촌중학교 급식 식단표 안내",
-							"description": "등촌중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 등촌중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "등촌중학교",
+						"alternateName": "Deung-chon Middle School",
+						"description": "서울특별시강서양천교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07664 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 공항대로 484-12 (등촌동/등촌중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "등촌중학교",
-							"alternateName": "Deung-chon Middle School",
-							"description": "서울특별시강서양천교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07664 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 공항대로 484-12 (등촌동/등촌중학교)"
-							},
-							"telephone": "02-2653-0392",
-							"faxNumber": "02-2653-4969",
-							"sameAs": ["http://deungchon.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-2653-0392",
+						"faxNumber": "02-2653-4969",
+						"sameAs": ["http://deungchon.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "751.3 Kcal",
 										"carbohydrateContent": "109.7 g",
 										"proteinContent": "23.6 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "1295.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "21.8 mg",
-										"calciumContent": "583.0 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

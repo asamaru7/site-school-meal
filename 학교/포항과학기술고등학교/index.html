@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/포항과학기술고등학교/",
 				"headline": "포항과학기술고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/포항과학기술고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/psths",
-							"url": "http://school.gyo6.net/psths",
-							"name": "포항과학기술고등학교 급식 식단표 안내",
-							"description": "포항과학기술고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 포항과학기술고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "포항과학기술고등학교",
+						"alternateName": "Pohang Science Technical High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37931 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 남구",
+							"streetAddress": "경상북도 포항시 남구 구룡포읍 호미로 341 (구룡포읍/ 포항과학기술고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "포항과학기술고등학교",
-							"alternateName": "Pohang Science Technical High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37931 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 남구",
-								"streetAddress": "경상북도 포항시 남구 구룡포읍 호미로 341 (구룡포읍/ 포항과학기술고등학교)"
-							},
-							"telephone": "054-276-5046",
-							"faxNumber": "054-284-2379",
-							"sameAs": ["http://school.gyo6.net/psths"]
-						}
-					],
+						"telephone": "054-276-5046",
+						"faxNumber": "054-284-2379",
+						"sameAs": ["http://school.gyo6.net/psths"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "782.1 Kcal",
 										"carbohydrateContent": "97.9 g",
 										"proteinContent": "28.2 g",
-										"fatContent": "30.5 g",
-										"vitaminAContent": "602.9 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "1.6 mg",
-										"vitaminCContent": "68.6 mg",
-										"calciumContent": "248.0 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "30.5 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "987.2 Kcal",
 										"carbohydrateContent": "119.5 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "40.4 g",
-										"vitaminAContent": "349.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "48.0 mg",
-										"calciumContent": "240.2 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "40.4 g"
 									}
 								}
 							]

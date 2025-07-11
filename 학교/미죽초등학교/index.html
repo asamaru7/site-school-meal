@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/미죽초등학교/",
 				"headline": "미죽초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/미죽초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mijuk.caees.kr/main.do",
-							"url": "http://mijuk.caees.kr/main.do",
-							"name": "미죽초등학교 급식 식단표 안내",
-							"description": "미죽초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 미죽초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "미죽초등학교",
+						"alternateName": "Mijuk Elementary Schcool",
+						"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31215 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "천안시 동남구",
+							"streetAddress": "충청남도 천안시 동남구 풍세면 미죽2길 7 / 미죽초등학교 (풍세면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "미죽초등학교",
-							"alternateName": "Mijuk Elementary Schcool",
-							"description": "충청남도천안교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31215 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "천안시 동남구",
-								"streetAddress": "충청남도 천안시 동남구 풍세면 미죽2길 7 / 미죽초등학교 (풍세면)"
-							},
-							"telephone": "041-566-6238",
-							"faxNumber": "041-566-0118",
-							"sameAs": ["http://mijuk.caees.kr/main.do"]
-						}
-					],
+						"telephone": "041-566-6238",
+						"faxNumber": "041-566-0118",
+						"sameAs": ["http://mijuk.caees.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "511.4 Kcal",
 										"carbohydrateContent": "82.8 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "6.9 g",
-										"vitaminAContent": "160.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "173.5 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "6.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여명학교/",
 				"headline": "여명학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여명학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ymschool.org",
-							"url": "http://ymschool.org",
-							"name": "여명학교 급식 식단표 안내",
-							"description": "여명학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여명학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여명학교",
+						"alternateName": "Yeo-Myung School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "04630 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "중구",
+							"streetAddress": "서울특별시 중구 소파로 99 / 여명학교 (남산동2가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여명학교",
-							"alternateName": "Yeo-Myung School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "04630 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "중구",
-								"streetAddress": "서울특별시 중구 소파로 99 / 여명학교 (남산동2가)"
-							},
-							"telephone": "02-888-1673",
-							"faxNumber": "02-888-1676",
-							"sameAs": ["http://ymschool.org"]
-						}
-					]
+						"telephone": "02-888-1673",
+						"faxNumber": "02-888-1676",
+						"sameAs": ["http://ymschool.org"]
+					}
 				]
 			}
 		</script>

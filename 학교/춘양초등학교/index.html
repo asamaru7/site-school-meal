@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/춘양초등학교/",
 				"headline": "춘양초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/춘양초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://choonyang.es.jne.kr",
-							"url": "http://choonyang.es.jne.kr",
-							"name": "춘양초등학교 급식 식단표 안내",
-							"description": "춘양초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 춘양초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "춘양초등학교",
+						"alternateName": "Chunyang Elementary School",
+						"description": "전라남도화순교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58157 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "화순군",
+							"streetAddress": "전라남도 화순군 춘양면 춘양로 124 (춘양면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "춘양초등학교",
-							"alternateName": "Chunyang Elementary School",
-							"description": "전라남도화순교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58157 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "화순군",
-								"streetAddress": "전라남도 화순군 춘양면 춘양로 124 (춘양면)"
-							},
-							"telephone": "061-372-7040",
-							"faxNumber": "061-373-7759",
-							"sameAs": ["http://choonyang.es.jne.kr"]
-						}
-					],
+						"telephone": "061-372-7040",
+						"faxNumber": "061-373-7759",
+						"sameAs": ["http://choonyang.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "619.2 Kcal",
 										"carbohydrateContent": "79.5 g",
 										"proteinContent": "26.5 g",
-										"fatContent": "22.1 g",
-										"vitaminAContent": "281.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "25.1 mg",
-										"calciumContent": "294.2 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "22.1 g"
 									}
 								}
 							]

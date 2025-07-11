@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산화교소학교/",
 				"headline": "부산화교소학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산화교소학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://",
-							"url": "http://",
-							"name": "부산화교소학교 급식 식단표 안내",
-							"description": "부산화교소학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산화교소학교 (외국인학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산화교소학교",
+						"alternateName": "Foreigner School",
+						"description": "부산광역시교육청 / 사립 / 남여공학 /   ",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48818 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동구",
+							"streetAddress": "부산광역시 동구 대영로239번길 43 (초량동, 부산화교소학)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산화교소학교",
-							"alternateName": "Foreigner School",
-							"description": "부산광역시교육청 / 사립 / 남여공학 /   ",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48818 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동구",
-								"streetAddress": "부산광역시 동구 대영로239번길 43 (초량동, 부산화교소학)"
-							},
-							"telephone": "051-467-0274",
-							"faxNumber": "051-468-0681",
-							"sameAs": ["http://"]
-						}
-					]
+						"telephone": "051-467-0274",
+						"faxNumber": "051-468-0681",
+						"sameAs": ["http://"]
+					}
 				]
 			}
 		</script>

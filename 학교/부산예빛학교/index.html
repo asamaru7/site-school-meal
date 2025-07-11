@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산예빛학교/",
 				"headline": "부산예빛학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산예빛학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.busanedu.net/yebit-h",
-							"url": "http://school.busanedu.net/yebit-h",
-							"name": "부산예빛학교 급식 식단표 안내",
-							"description": "부산예빛학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산예빛학교 (각종학교(고)) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산예빛학교",
+						"alternateName": "Busan Yebit School",
+						"description": "부산광역시교육청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46047 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "기장군",
+							"streetAddress": "부산광역시 기장군 일광면 이화로 147 / 부산예빛학교 (일광면/ 일광초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산예빛학교",
-							"alternateName": "Busan Yebit School",
-							"description": "부산광역시교육청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46047 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "기장군",
-								"streetAddress": "부산광역시 기장군 일광면 이화로 147 / 부산예빛학교 (일광면/ 일광초등학교)"
-							},
-							"telephone": "051-715-6200",
-							"faxNumber": "051-715-3373",
-							"sameAs": ["http://school.busanedu.net/yebit-h"]
-						}
-					],
+						"telephone": "051-715-6200",
+						"faxNumber": "051-715-3373",
+						"sameAs": ["http://school.busanedu.net/yebit-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "784.4 Kcal",
 										"carbohydrateContent": "120.9 g",
 										"proteinContent": "28.5 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "1089.1 R.E",
-										"thiaminContent": "2.5 mg",
-										"riboflavinContent": "1.8 mg",
-										"vitaminCContent": "147.7 mg",
-										"calciumContent": "411.8 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "20.9 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "811.1 Kcal",
 										"carbohydrateContent": "124.5 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "22.3 g",
-										"vitaminAContent": "192.2 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "42.2 mg",
-										"calciumContent": "318.1 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "22.3 g"
 									}
 								}
 							]

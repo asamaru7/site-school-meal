@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수영초등학교/",
 				"headline": "수영초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수영초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://suyoung.es.kr/",
-							"url": "http://suyoung.es.kr/",
-							"name": "수영초등학교 급식 식단표 안내",
-							"description": "수영초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수영초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수영초등학교",
+						"alternateName": "Suyoung Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48246 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "수영구",
+							"streetAddress": "부산광역시 수영구 광서로16번길 33 (광안동/ 수영초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수영초등학교",
-							"alternateName": "Suyoung Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48246 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "수영구",
-								"streetAddress": "부산광역시 수영구 광서로16번길 33 (광안동/ 수영초등학교)"
-							},
-							"telephone": "051-792-2500",
-							"faxNumber": "051-757-6494",
-							"sameAs": ["http://suyoung.es.kr/"]
-						}
-					],
+						"telephone": "051-792-2500",
+						"faxNumber": "051-757-6494",
+						"sameAs": ["http://suyoung.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "620.4 Kcal",
 										"carbohydrateContent": "104.6 g",
 										"proteinContent": "22.9 g",
-										"fatContent": "11.9 g",
-										"vitaminAContent": "40.3 R.E",
-										"thiaminContent": "1.8 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "54.1 mg",
-										"calciumContent": "210.2 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "11.9 g"
 									}
 								}
 							]

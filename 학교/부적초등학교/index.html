@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부적초등학교/",
 				"headline": "부적초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부적초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bujuk.cnees.kr",
-							"url": "http://bujuk.cnees.kr",
-							"name": "부적초등학교 급식 식단표 안내",
-							"description": "부적초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부적초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부적초등학교",
+						"alternateName": "Bujeok Elementary School",
+						"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32917 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 부적면 남마구평길 70 (부적면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부적초등학교",
-							"alternateName": "Bujeok Elementary School",
-							"description": "충청남도논산계룡교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32917 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 부적면 남마구평길 70 (부적면)"
-							},
-							"telephone": "041-732-7032",
-							"faxNumber": "041-732-1008",
-							"sameAs": ["http://bujuk.cnees.kr"]
-						}
-					]
+						"telephone": "041-732-7032",
+						"faxNumber": "041-732-1008",
+						"sameAs": ["http://bujuk.cnees.kr"]
+					}
 				]
 			}
 		</script>

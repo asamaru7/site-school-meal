@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/지사중학교/",
 				"headline": "지사중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/지사중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bsjisa.ms.kr",
-							"url": "http://bsjisa.ms.kr",
-							"name": "지사중학교 급식 식단표 안내",
-							"description": "지사중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 지사중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "지사중학교",
+						"alternateName": "Jisa middle school",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46743 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "강서구",
+							"streetAddress": "부산광역시 강서구 과학산단로306번길 33 (지사동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "지사중학교",
-							"alternateName": "Jisa middle school",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46743 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "강서구",
-								"streetAddress": "부산광역시 강서구 과학산단로306번길 33 (지사동)"
-							},
-							"telephone": "051-979-6200",
-							"faxNumber": "051-979-6209",
-							"sameAs": ["http://bsjisa.ms.kr"]
-						}
-					],
+						"telephone": "051-979-6200",
+						"faxNumber": "051-979-6209",
+						"sameAs": ["http://bsjisa.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "670.8 Kcal",
 										"carbohydrateContent": "127.2 g",
 										"proteinContent": "17.3 g",
-										"fatContent": "10.5 g",
-										"vitaminAContent": "149.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "32.0 mg",
-										"calciumContent": "295.0 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "10.5 g"
 									}
 								}
 							]

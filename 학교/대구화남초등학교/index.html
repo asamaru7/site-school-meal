@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구화남초등학교/",
 				"headline": "대구화남초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구화남초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.hwanam.dge.es.kr",
-							"url": "www.hwanam.dge.es.kr",
-							"name": "대구화남초등학교 급식 식단표 안내",
-							"description": "대구화남초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구화남초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구화남초등학교",
+						"alternateName": "daegu hwanam elementary school",
+						"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42960 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달성군",
+							"streetAddress": "대구광역시 달성군 화원읍 명천로 181 / 대구화남초등학교 (화원읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구화남초등학교",
-							"alternateName": "daegu hwanam elementary school",
-							"description": "대구광역시달성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42960 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달성군",
-								"streetAddress": "대구광역시 달성군 화원읍 명천로 181 / 대구화남초등학교 (화원읍)"
-							},
-							"telephone": "053-235-1272",
-							"faxNumber": "053-639-2015",
-							"sameAs": ["www.hwanam.dge.es.kr"]
-						}
-					],
+						"telephone": "053-235-1272",
+						"faxNumber": "053-639-2015",
+						"sameAs": ["www.hwanam.dge.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "737.6 Kcal",
 										"carbohydrateContent": "94.6 g",
 										"proteinContent": "25.4 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "200.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "21.3 mg",
-										"calciumContent": "75.7 mg",
-										"ironContent": "9.4 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/주례중학교/",
 				"headline": "주례중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/주례중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jurye.ms.kr",
-							"url": "http://jurye.ms.kr",
-							"name": "주례중학교 급식 식단표 안내",
-							"description": "주례중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 주례중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "주례중학교",
+						"alternateName": "Jurye  Middle School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47009 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사상구",
+							"streetAddress": "부산광역시 사상구 가야대로378번길 68 (주례동/ 주례중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "주례중학교",
-							"alternateName": "Jurye  Middle School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47009 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사상구",
-								"streetAddress": "부산광역시 사상구 가야대로378번길 68 (주례동/ 주례중학교)"
-							},
-							"telephone": "051-320-0300",
-							"faxNumber": "051-323-8191",
-							"sameAs": ["http://jurye.ms.kr"]
-						}
-					],
+						"telephone": "051-320-0300",
+						"faxNumber": "051-323-8191",
+						"sameAs": ["http://jurye.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "815.2 Kcal",
 										"carbohydrateContent": "117.9 g",
 										"proteinContent": "39.1 g",
-										"fatContent": "20.0 g",
-										"vitaminAContent": "142.2 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "24.6 mg",
-										"calciumContent": "233.6 mg",
-										"ironContent": "5.6 mg"
+										"fatContent": "20.0 g"
 									}
 								}
 							]

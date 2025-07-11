@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/구항초등학교/",
 				"headline": "구항초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/구항초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kuhang.cnees.kr",
-							"url": "http://kuhang.cnees.kr",
-							"name": "구항초등학교 급식 식단표 안내",
-							"description": "구항초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 구항초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "구항초등학교",
+						"alternateName": "Guhang Elementary School",
+						"description": "충청남도홍성교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32215 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 구항면 구성남로 928 (구항면/ 구항초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "구항초등학교",
-							"alternateName": "Guhang Elementary School",
-							"description": "충청남도홍성교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32215 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 구항면 구성남로 928 (구항면/ 구항초등학교)"
-							},
-							"telephone": "041-631-3297",
-							"faxNumber": "041-634-5708",
-							"sameAs": ["http://kuhang.cnees.kr"]
-						}
-					],
+						"telephone": "041-631-3297",
+						"faxNumber": "041-634-5708",
+						"sameAs": ["http://kuhang.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "625.1 Kcal",
 										"carbohydrateContent": "95.5 g",
 										"proteinContent": "32.6 g",
-										"fatContent": "11.8 g",
-										"vitaminAContent": "92.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.8 mg",
-										"calciumContent": "173.7 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "11.8 g"
 									}
 								}
 							]

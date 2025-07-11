@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가수원초등학교/",
 				"headline": "가수원초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가수원초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gasuwones.djsch.kr",
-							"url": "http://gasuwones.djsch.kr",
-							"name": "가수원초등학교 급식 식단표 안내",
-							"description": "가수원초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가수원초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가수원초등학교",
+						"alternateName": "Gasuwon Elementary School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "35387 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "서구",
+							"streetAddress": "대전광역시 서구 벌곡로 1359 (가수원동/ 가수원초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가수원초등학교",
-							"alternateName": "Gasuwon Elementary School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "35387 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "서구",
-								"streetAddress": "대전광역시 서구 벌곡로 1359 (가수원동/ 가수원초등학교)"
-							},
-							"telephone": "042-541-1334",
-							"faxNumber": "042-541-6415",
-							"sameAs": ["http://gasuwones.djsch.kr"]
-						}
-					],
+						"telephone": "042-541-1334",
+						"faxNumber": "042-541-6415",
+						"sameAs": ["http://gasuwones.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "429.7 Kcal",
 										"carbohydrateContent": "82.7 g",
 										"proteinContent": "14.1 g",
-										"fatContent": "4.0 g",
-										"vitaminAContent": "105.9 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "1.9 mg",
-										"calciumContent": "155.7 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "4.0 g"
 									}
 								}
 							]

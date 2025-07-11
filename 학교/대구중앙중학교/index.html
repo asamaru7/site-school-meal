@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구중앙중학교/",
 				"headline": "대구중앙중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구중앙중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ja.ms.kr",
-							"url": "http://www.ja.ms.kr",
-							"name": "대구중앙중학교 급식 식단표 안내",
-							"description": "대구중앙중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구중앙중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구중앙중학교",
+						"alternateName": "Daegu Joongang Middle School",
+						"description": "대구광역시동부교육지원청 / 사립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42000 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 신천동로 496 (수성동4가/ 대구중앙고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구중앙중학교",
-							"alternateName": "Daegu Joongang Middle School",
-							"description": "대구광역시동부교육지원청 / 사립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42000 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 신천동로 496 (수성동4가/ 대구중앙고등학교)"
-							},
-							"telephone": "053-770-0000",
-							"faxNumber": "053-770-0089",
-							"sameAs": ["http://www.ja.ms.kr"]
-						}
-					]
+						"telephone": "053-770-0000",
+						"faxNumber": "053-770-0089",
+						"sameAs": ["http://www.ja.ms.kr"]
+					}
 				]
 			}
 		</script>

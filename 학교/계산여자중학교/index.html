@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/계산여자중학교/",
 				"headline": "계산여자중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/계산여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyesan-gr.icems.kr",
-							"url": "http://gyesan-gr.icems.kr",
-							"name": "계산여자중학교 급식 식단표 안내",
-							"description": "계산여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 계산여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "계산여자중학교",
+						"alternateName": "Gyesan Girls Middle School",
+						"description": "인천광역시북부교육지원청 / 공립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21083 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 장제로755번길 16 (계산동,계산여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "계산여자중학교",
-							"alternateName": "Gyesan Girls Middle School",
-							"description": "인천광역시북부교육지원청 / 공립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21083 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 장제로755번길 16 (계산동,계산여자중학교)"
-							},
-							"telephone": "032-549-6279",
-							"faxNumber": "032-554-4620",
-							"sameAs": ["http://gyesan-gr.icems.kr"]
-						}
-					],
+						"telephone": "032-549-6279",
+						"faxNumber": "032-554-4620",
+						"sameAs": ["http://gyesan-gr.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "851.6 Kcal",
 										"carbohydrateContent": "125.3 g",
 										"proteinContent": "28.6 g",
-										"fatContent": "26.9 g",
-										"vitaminAContent": "299.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "709.2 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "26.9 g"
 									}
 								}
 							]

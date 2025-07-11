@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대성중학교-창녕/",
 				"headline": "대성중학교(창녕) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대성중학교-창녕/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ds-m.gne.go.kr",
-							"url": "http://ds-m.gne.go.kr",
-							"name": "대성중학교(창녕) 급식 식단표 안내",
-							"description": "대성중학교(창녕)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대성중학교(창녕)",
+						"alternateName": "Daeseong Middle School",
+						"description": "창녕교육지원청 / 사립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50308 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창녕군",
+							"streetAddress": "경상남도 창녕군 대합면 신안길 17 (대합면/대성중.고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대성중학교(창녕)",
-							"alternateName": "Daeseong Middle School",
-							"description": "창녕교육지원청 / 사립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50308 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창녕군",
-								"streetAddress": "경상남도 창녕군 대합면 신안길 17 (대합면/대성중.고등학교)"
-							},
-							"telephone": "055-532-2216",
-							"faxNumber": "055-532-4399",
-							"sameAs": ["http://ds-m.gne.go.kr"]
-						}
-					]
+						"telephone": "055-532-2216",
+						"faxNumber": "055-532-4399",
+						"sameAs": ["http://ds-m.gne.go.kr"]
+					}
 				]
 			}
 		</script>

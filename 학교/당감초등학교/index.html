@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/당감초등학교/",
 				"headline": "당감초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/당감초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.danggam.es.kr",
-							"url": "www.danggam.es.kr",
-							"name": "당감초등학교 급식 식단표 안내",
-							"description": "당감초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 당감초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "당감초등학교",
+						"alternateName": "Danggam Elementary School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47181 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 당감로 22-5 (당감동/당감초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "당감초등학교",
-							"alternateName": "Danggam Elementary School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47181 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 당감로 22-5 (당감동/당감초등학교)"
-							},
-							"telephone": "051-896-0081",
-							"faxNumber": "051-896-1114",
-							"sameAs": ["www.danggam.es.kr"]
-						}
-					],
+						"telephone": "051-896-0081",
+						"faxNumber": "051-896-1114",
+						"sameAs": ["www.danggam.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "596.7 Kcal",
 										"carbohydrateContent": "103.7 g",
 										"proteinContent": "21.2 g",
-										"fatContent": "11.0 g",
-										"vitaminAContent": "129.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "23.3 mg",
-										"calciumContent": "198.2 mg",
-										"ironContent": "1.9 mg"
+										"fatContent": "11.0 g"
 									}
 								}
 							]

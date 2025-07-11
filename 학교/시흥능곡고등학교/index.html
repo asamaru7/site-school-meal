@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/시흥능곡고등학교/",
 				"headline": "시흥능곡고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/시흥능곡고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.shng.hs.kr",
-							"url": "http://www.shng.hs.kr",
-							"name": "시흥능곡고등학교 급식 식단표 안내",
-							"description": "시흥능곡고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 시흥능곡고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "시흥능곡고등학교",
+						"alternateName": "Siheung Neung gok High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14994 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "시흥시",
+							"streetAddress": "경기도 시흥시 승지로 107 / 시흥능곡고등학교 (능곡동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "시흥능곡고등학교",
-							"alternateName": "Siheung Neung gok High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14994 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "시흥시",
-								"streetAddress": "경기도 시흥시 승지로 107 / 시흥능곡고등학교 (능곡동)"
-							},
-							"telephone": "031-8084-8102",
-							"faxNumber": "031-312-8208",
-							"sameAs": ["http://www.shng.hs.kr"]
-						}
-					],
+						"telephone": "031-8084-8102",
+						"faxNumber": "031-312-8208",
+						"sameAs": ["http://www.shng.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1102.7 Kcal",
 										"carbohydrateContent": "108.8 g",
 										"proteinContent": "56.8 g",
-										"fatContent": "46.0 g",
-										"vitaminAContent": "60.3 R.E",
-										"thiaminContent": "1.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "25.8 mg",
-										"calciumContent": "174.3 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "46.0 g"
 									}
 								}
 							]

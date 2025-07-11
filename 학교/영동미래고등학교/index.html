@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영동미래고등학교/",
 				"headline": "영동미래고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영동미래고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/ydmirae-h/M01",
-							"url": "http://school.cbe.go.kr/ydmirae-h/M01",
-							"name": "영동미래고등학교 급식 식단표 안내",
-							"description": "영동미래고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영동미래고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영동미래고등학교",
+						"alternateName": ".",
+						"description": "충청북도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "29139 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "영동군",
+							"streetAddress": "충청북도 영동군 영동읍 대학로 10 (영동읍/ 영동미래고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영동미래고등학교",
-							"alternateName": ".",
-							"description": "충청북도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "29139 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "영동군",
-								"streetAddress": "충청북도 영동군 영동읍 대학로 10 (영동읍/ 영동미래고등학교)"
-							},
-							"telephone": "043-742-3653",
-							"faxNumber": "043-743-5126",
-							"sameAs": ["http://school.cbe.go.kr/ydmirae-h/M01"]
-						}
-					],
+						"telephone": "043-742-3653",
+						"faxNumber": "043-743-5126",
+						"sameAs": ["http://school.cbe.go.kr/ydmirae-h/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1308.2 Kcal",
 										"carbohydrateContent": "208.7 g",
 										"proteinContent": "36.8 g",
-										"fatContent": "33.8 g",
-										"vitaminAContent": "91.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "22.0 mg",
-										"calciumContent": "397.3 mg",
-										"ironContent": "5.3 mg"
+										"fatContent": "33.8 g"
 									}
 								}
 							]

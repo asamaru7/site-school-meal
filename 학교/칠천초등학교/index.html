@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/칠천초등학교/",
 				"headline": "칠천초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/칠천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chilcheon-p.gne.go.kr/chilcheon-p/main.do",
-							"url": "http://chilcheon-p.gne.go.kr/chilcheon-p/main.do",
-							"name": "칠천초등학교 급식 식단표 안내",
-							"description": "칠천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 칠천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "칠천초등학교",
+						"alternateName": "Chilcheon Elementary School",
+						"description": "거제교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53203 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 하청면 칠천로 372 / 칠천초등학교 (하청면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "칠천초등학교",
-							"alternateName": "Chilcheon Elementary School",
-							"description": "거제교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53203 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 하청면 칠천로 372 / 칠천초등학교 (하청면)"
-							},
-							"telephone": "055-951-2400",
-							"faxNumber": "055-951-2490",
-							"sameAs": ["http://chilcheon-p.gne.go.kr/chilcheon-p/main.do"]
-						}
-					],
+						"telephone": "055-951-2400",
+						"faxNumber": "055-951-2490",
+						"sameAs": ["http://chilcheon-p.gne.go.kr/chilcheon-p/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "661.3 Kcal",
 										"carbohydrateContent": "96.2 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "13.7 g",
-										"vitaminAContent": "445.2 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "6.5 mg",
-										"calciumContent": "370.9 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "13.7 g"
 									}
 								}
 							]

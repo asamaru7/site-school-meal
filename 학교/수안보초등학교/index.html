@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수안보초등학교/",
 				"headline": "수안보초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수안보초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/suanbo-e",
-							"url": "http://school.cbe.go.kr/suanbo-e",
-							"name": "수안보초등학교 급식 식단표 안내",
-							"description": "수안보초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수안보초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수안보초등학교",
+						"alternateName": "Suanbo Elementary School",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27498 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 수안보면 동진이1길 24 (수안보면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수안보초등학교",
-							"alternateName": "Suanbo Elementary School",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27498 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 수안보면 동진이1길 24 (수안보면)"
-							},
-							"telephone": "043-846-2104",
-							"faxNumber": "043-848-3622",
-							"sameAs": ["http://school.cbe.go.kr/suanbo-e"]
-						}
-					],
+						"telephone": "043-846-2104",
+						"faxNumber": "043-848-3622",
+						"sameAs": ["http://school.cbe.go.kr/suanbo-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "797.2 Kcal",
 										"carbohydrateContent": "113.0 g",
 										"proteinContent": "37.8 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "126.3 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "44.0 mg",
-										"calciumContent": "141.1 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "21.0 g"
 									}
 								}
 							]

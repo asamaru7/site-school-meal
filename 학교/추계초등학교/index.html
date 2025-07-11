@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/추계초등학교/",
 				"headline": "추계초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/추계초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.chugye.es.kr",
-							"url": "http://www.chugye.es.kr",
-							"name": "추계초등학교 급식 식단표 안내",
-							"description": "추계초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 추계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "추계초등학교",
+						"alternateName": "Chugye Elementary School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03762 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서대문구",
+							"streetAddress": "서울특별시 서대문구 북아현로11가길 7 (북아현동/추계초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "추계초등학교",
-							"alternateName": "Chugye Elementary School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03762 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서대문구",
-								"streetAddress": "서울특별시 서대문구 북아현로11가길 7 (북아현동/추계초등학교)"
-							},
-							"telephone": "02-312-7701",
-							"faxNumber": "02-312-7750",
-							"sameAs": ["http://www.chugye.es.kr"]
-						}
-					],
+						"telephone": "02-312-7701",
+						"faxNumber": "02-312-7750",
+						"sameAs": ["http://www.chugye.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "652.5 Kcal",
 										"carbohydrateContent": "80.7 g",
 										"proteinContent": "22.1 g",
-										"fatContent": "26.9 g",
-										"vitaminAContent": "41.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "23.0 mg",
-										"calciumContent": "88.5 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "26.9 g"
 									}
 								}
 							]

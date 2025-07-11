@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신평고등학교/",
 				"headline": "신평고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신평고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sp.cnehs.kr",
-							"url": "http://sp.cnehs.kr",
-							"name": "신평고등학교 급식 식단표 안내",
-							"description": "신평고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신평고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신평고등학교",
+						"alternateName": "Sinpyeong High School",
+						"description": "충청남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31746 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 신평면 서해로 7076 (신평면/ 신평고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신평고등학교",
-							"alternateName": "Sinpyeong High School",
-							"description": "충청남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31746 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 신평면 서해로 7076 (신평면/ 신평고등학교)"
-							},
-							"telephone": "041-430-3030",
-							"faxNumber": "041-362-5941",
-							"sameAs": ["http://sp.cnehs.kr"]
-						}
-					]
+						"telephone": "041-430-3030",
+						"faxNumber": "041-362-5941",
+						"sameAs": ["http://sp.cnehs.kr"]
+					}
 				]
 			}
 		</script>

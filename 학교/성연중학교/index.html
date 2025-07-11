@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성연중학교/",
 				"headline": "성연중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성연중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.seongyeon.cnems.kr",
-							"url": "www.seongyeon.cnems.kr",
-							"name": "성연중학교 급식 식단표 안내",
-							"description": "성연중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성연중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성연중학교",
+						"alternateName": "Seongyeon Middle School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31930 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 성연면 성연로 210-4 (성연면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성연중학교",
-							"alternateName": "Seongyeon Middle School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31930 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 성연면 성연로 210-4 (성연면)"
-							},
-							"telephone": "041-662-8051",
-							"faxNumber": "041-669-8057",
-							"sameAs": ["www.seongyeon.cnems.kr"]
-						}
-					]
+						"telephone": "041-662-8051",
+						"faxNumber": "041-669-8057",
+						"sameAs": ["www.seongyeon.cnems.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중동중학교/",
 				"headline": "중동중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중동중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://joongdong.sen.ms.kr/ ",
-							"url": "https://joongdong.sen.ms.kr/ ",
-							"name": "중동중학교 급식 식단표 안내",
-							"description": "중동중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중동중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중동중학교",
+						"alternateName": "Joongdong Middle School",
+						"description": "서울특별시강남서초교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06344 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 일원로8길 37 중동중학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중동중학교",
-							"alternateName": "Joongdong Middle School",
-							"description": "서울특별시강남서초교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06344 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 일원로8길 37 중동중학교"
-							},
-							"telephone": "070-7092-9300",
-							"faxNumber": "02-445-9882",
-							"sameAs": ["https://joongdong.sen.ms.kr/ "]
-						}
-					],
+						"telephone": "070-7092-9300",
+						"faxNumber": "02-445-9882",
+						"sameAs": ["https://joongdong.sen.ms.kr/ "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "807.5 Kcal",
 										"carbohydrateContent": "155.8 g",
 										"proteinContent": "21.5 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "115.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "190.9 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "10.7 g"
 									}
 								}
 							]

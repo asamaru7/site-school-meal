@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대구성곡초등학교/",
 				"headline": "대구성곡초등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대구성곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sunggok.dge.es.kr",
-							"url": "http://sunggok.dge.es.kr",
-							"name": "대구성곡초등학교 급식 식단표 안내",
-							"description": "대구성곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대구성곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대구성곡초등학교",
+						"alternateName": "Daegusunggok elementary school",
+						"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42615 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "달서구",
+							"streetAddress": "대구광역시 달서구 선원남로 127 (이곡동/ 성곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대구성곡초등학교",
-							"alternateName": "Daegusunggok elementary school",
-							"description": "대구광역시남부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42615 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "달서구",
-								"streetAddress": "대구광역시 달서구 선원남로 127 (이곡동/ 성곡초등학교)"
-							},
-							"telephone": "053-234-4400",
-							"faxNumber": "053-587-0136",
-							"sameAs": ["http://sunggok.dge.es.kr"]
-						}
-					],
+						"telephone": "053-234-4400",
+						"faxNumber": "053-587-0136",
+						"sameAs": ["http://sunggok.dge.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "605.7 Kcal",
 										"carbohydrateContent": "72.2 g",
 										"proteinContent": "28.4 g",
-										"fatContent": "20.8 g",
-										"vitaminAContent": "147.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.5 mg",
-										"calciumContent": "259.5 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "20.8 g"
 									}
 								}
 							]

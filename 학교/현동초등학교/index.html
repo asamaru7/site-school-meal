@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/현동초등학교/",
 				"headline": "현동초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/현동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hyundong-p.gne.go.kr",
-							"url": "http://hyundong-p.gne.go.kr",
-							"name": "현동초등학교 급식 식단표 안내",
-							"description": "현동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 현동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "현동초등학교",
+						"alternateName": "",
+						"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51778 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 현동6길 12 (현동/ 현동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "현동초등학교",
-							"alternateName": "",
-							"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51778 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 현동6길 12 (현동/ 현동초등학교)"
-							},
-							"telephone": "055-222-8986",
-							"faxNumber": "055-222-5340",
-							"sameAs": ["http://hyundong-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-222-8986",
+						"faxNumber": "055-222-5340",
+						"sameAs": ["http://hyundong-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "689.6 Kcal",
 										"carbohydrateContent": "77.0 g",
 										"proteinContent": "30.2 g",
-										"fatContent": "27.4 g",
-										"vitaminAContent": "128.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "254.2 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "27.4 g"
 									}
 								}
 							]

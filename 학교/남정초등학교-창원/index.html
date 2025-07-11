@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남정초등학교-창원/",
 				"headline": "남정초등학교(창원) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남정초등학교-창원/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "namjung-p.gne.go.kr",
-							"url": "namjung-p.gne.go.kr",
-							"name": "남정초등학교(창원) 급식 식단표 안내",
-							"description": "남정초등학교(창원)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남정초등학교(창원)",
+						"alternateName": "",
+						"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51500 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 성산구",
+							"streetAddress": "경상남도 창원시 성산구 원이대로878번길 30 (가음동/남정초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남정초등학교(창원)",
-							"alternateName": "",
-							"description": "창원교육청(폐지) / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51500 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 성산구",
-								"streetAddress": "경상남도 창원시 성산구 원이대로878번길 30 (가음동/남정초등학교)"
-							},
-							"telephone": "055-285-9449",
-							"faxNumber": "055-283-9449",
-							"sameAs": ["namjung-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-285-9449",
+						"faxNumber": "055-283-9449",
+						"sameAs": ["namjung-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "605.7 Kcal",
 										"carbohydrateContent": "89.4 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "13.8 g",
-										"vitaminAContent": "228.6 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "10.7 mg",
-										"calciumContent": "423.9 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "13.8 g"
 									}
 								}
 							]

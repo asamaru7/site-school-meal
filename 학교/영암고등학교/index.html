@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/영암고등학교/",
 				"headline": "영암고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/영암고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yeongam.hs.jne.kr",
-							"url": "http://yeongam.hs.jne.kr",
-							"name": "영암고등학교 급식 식단표 안내",
-							"description": "영암고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 영암고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "영암고등학교",
+						"alternateName": "Yeong Am high school",
+						"description": "전라남도교육청 / 공립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58414 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "영암군",
+							"streetAddress": "전라남도 영암군 영암읍 영암초중고길 40 (영암읍/영암고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "영암고등학교",
-							"alternateName": "Yeong Am high school",
-							"description": "전라남도교육청 / 공립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58414 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "영암군",
-								"streetAddress": "전라남도 영암군 영암읍 영암초중고길 40 (영암읍/영암고등학교)"
-							},
-							"telephone": "061-473-2030",
-							"faxNumber": "061-471-2031",
-							"sameAs": ["http://yeongam.hs.jne.kr"]
-						}
-					],
+						"telephone": "061-473-2030",
+						"faxNumber": "061-471-2031",
+						"sameAs": ["http://yeongam.hs.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "785.5 Kcal",
 										"carbohydrateContent": "156.2 g",
 										"proteinContent": "20.0 g",
-										"fatContent": "6.4 g",
-										"vitaminAContent": "52.4 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "8.6 mg",
-										"calciumContent": "133.5 mg",
-										"ironContent": "1.2 mg"
+										"fatContent": "6.4 g"
 									}
 								}
 							]

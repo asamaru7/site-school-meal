@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하단중학교/",
 				"headline": "하단중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하단중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.busanedu.net/hadan-m/main.do",
-							"url": "https://school.busanedu.net/hadan-m/main.do",
-							"name": "하단중학교 급식 식단표 안내",
-							"description": "하단중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하단중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하단중학교",
+						"alternateName": "Hadan Middle School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49304 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 하신번영로380번길 88 (하단동/ 하단중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하단중학교",
-							"alternateName": "Hadan Middle School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49304 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 하신번영로380번길 88 (하단동/ 하단중학교)"
-							},
-							"telephone": "051-719-6300",
-							"faxNumber": "051-719-6377",
-							"sameAs": ["https://school.busanedu.net/hadan-m/main.do"]
-						}
-					],
+						"telephone": "051-719-6300",
+						"faxNumber": "051-719-6377",
+						"sameAs": ["https://school.busanedu.net/hadan-m/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "771.0 Kcal",
 										"carbohydrateContent": "112.9 g",
 										"proteinContent": "30.4 g",
-										"fatContent": "20.9 g",
-										"vitaminAContent": "239.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "25.3 mg",
-										"calciumContent": "353.5 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "20.9 g"
 									}
 								}
 							]

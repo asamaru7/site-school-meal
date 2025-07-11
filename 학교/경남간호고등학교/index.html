@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경남간호고등학교/",
 				"headline": "경남간호고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경남간호고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kpn-h.gne.go.kr",
-							"url": "http://kpn-h.gne.go.kr",
-							"name": "경남간호고등학교 급식 식단표 안내",
-							"description": "경남간호고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경남간호고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경남간호고등학교",
+						"alternateName": "Kyeongnam Nursing High School",
+						"description": "경상남도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52255 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "산청군",
+							"streetAddress": "경상남도 산청군 생비량면 지리산대로4763번길 89-15 (생비량면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경남간호고등학교",
-							"alternateName": "Kyeongnam Nursing High School",
-							"description": "경상남도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52255 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "산청군",
-								"streetAddress": "경상남도 산청군 생비량면 지리산대로4763번길 89-15 (생비량면)"
-							},
-							"telephone": "055-973-7832",
-							"faxNumber": "055-973-7828",
-							"sameAs": ["http://kpn-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-973-7832",
+						"faxNumber": "055-973-7828",
+						"sameAs": ["http://kpn-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1018.5 Kcal",
 										"carbohydrateContent": "97.0 g",
 										"proteinContent": "34.7 g",
-										"fatContent": "54.6 g",
-										"vitaminAContent": "320.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "31.9 mg",
-										"calciumContent": "756.3 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "54.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "771.0 Kcal",
 										"carbohydrateContent": "116.6 g",
 										"proteinContent": "37.3 g",
-										"fatContent": "17.9 g",
-										"vitaminAContent": "226.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "31.2 mg",
-										"calciumContent": "136.8 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "17.9 g"
 									}
 								}
 							]

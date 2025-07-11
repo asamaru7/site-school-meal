@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울탑산초등학교/",
 				"headline": "서울탑산초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울탑산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://top.sen.es.kr",
-							"url": "http://top.sen.es.kr",
-							"name": "서울탑산초등학교 급식 식단표 안내",
-							"description": "서울탑산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울탑산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울탑산초등학교",
+						"alternateName": "Seoul Topsan Elementary School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07525 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 허준로 109 (가양동/탑산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울탑산초등학교",
-							"alternateName": "Seoul Topsan Elementary School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07525 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 허준로 109 (가양동/탑산초등학교)"
-							},
-							"telephone": "02-2659-5101",
-							"faxNumber": "02-2659-5104",
-							"sameAs": ["http://top.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2659-5101",
+						"faxNumber": "02-2659-5104",
+						"sameAs": ["http://top.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.7 Kcal",
 										"carbohydrateContent": "112.5 g",
 										"proteinContent": "26.8 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "189.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "60.1 mg",
-										"calciumContent": "133.0 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

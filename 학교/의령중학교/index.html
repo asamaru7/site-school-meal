@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/의령중학교/",
 				"headline": "의령중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/의령중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "uiryeong-m.gne.go.kr",
-							"url": "uiryeong-m.gne.go.kr",
-							"name": "의령중학교 급식 식단표 안내",
-							"description": "의령중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 의령중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "의령중학교",
+						"alternateName": "",
+						"description": "의령교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52141 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "의령군",
+							"streetAddress": "경상남도 의령군 의령읍 충익로4길 11 (의령읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "의령중학교",
-							"alternateName": "",
-							"description": "의령교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52141 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "의령군",
-								"streetAddress": "경상남도 의령군 의령읍 충익로4길 11 (의령읍)"
-							},
-							"telephone": "055-573-2381",
-							"faxNumber": "055-573-5812",
-							"sameAs": ["uiryeong-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-573-2381",
+						"faxNumber": "055-573-5812",
+						"sameAs": ["uiryeong-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1032.3 Kcal",
 										"carbohydrateContent": "155.6 g",
 										"proteinContent": "44.5 g",
-										"fatContent": "25.9 g",
-										"vitaminAContent": "316.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "22.1 mg",
-										"calciumContent": "755.4 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "25.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/당림초등학교/",
 				"headline": "당림초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/당림초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://danglim.gwe.es.kr",
-							"url": "http://danglim.gwe.es.kr",
-							"name": "당림초등학교 급식 식단표 안내",
-							"description": "당림초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 당림초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "당림초등학교",
+						"alternateName": "Dangrim Elementary School",
+						"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "24463 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "춘천시",
+							"streetAddress": "강원특별자치도 춘천시 서면 당숲안길 81 (서면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "당림초등학교",
-							"alternateName": "Dangrim Elementary School",
-							"description": "강원특별자치도춘천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "24463 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "춘천시",
-								"streetAddress": "강원특별자치도 춘천시 서면 당숲안길 81 (서면)"
-							},
-							"telephone": "033-263-8666",
-							"faxNumber": "033-263-8676",
-							"sameAs": ["http://danglim.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-263-8666",
+						"faxNumber": "033-263-8676",
+						"sameAs": ["http://danglim.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "787.5 Kcal",
 										"carbohydrateContent": "128.6 g",
 										"proteinContent": "41.5 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "236.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.6 mg",
-										"calciumContent": "180.2 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

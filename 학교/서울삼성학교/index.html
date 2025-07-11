@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울삼성학교/",
 				"headline": "서울삼성학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울삼성학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.samsung.sc.kr",
-							"url": "www.samsung.sc.kr",
-							"name": "서울삼성학교 급식 식단표 안내",
-							"description": "서울삼성학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울삼성학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울삼성학교",
+						"alternateName": "Seoul Samsung School for the Deaf",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07035 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동작구",
+							"streetAddress": "서울특별시 동작구 양녕로30길 19-4 (상도동/ 서울삼성학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울삼성학교",
-							"alternateName": "Seoul Samsung School for the Deaf",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07035 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동작구",
-								"streetAddress": "서울특별시 동작구 양녕로30길 19-4 (상도동/ 서울삼성학교)"
-							},
-							"telephone": "02-823-7430",
-							"faxNumber": "02-823-3815",
-							"sameAs": ["www.samsung.sc.kr"]
-						}
-					],
+						"telephone": "02-823-7430",
+						"faxNumber": "02-823-3815",
+						"sameAs": ["www.samsung.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "939.5 Kcal",
 										"carbohydrateContent": "102.3 g",
 										"proteinContent": "32.7 g",
-										"fatContent": "43.3 g",
-										"vitaminAContent": "105.5 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.8 mg",
-										"calciumContent": "308.6 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "43.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/형석고등학교/",
 				"headline": "형석고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/형석고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/hshs-h",
-							"url": "http://school.cbe.go.kr/hshs-h",
-							"name": "형석고등학교 급식 식단표 안내",
-							"description": "형석고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 형석고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "형석고등학교",
+						"alternateName": "HyeongSeok High School",
+						"description": "충청북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27916 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "증평군",
+							"streetAddress": "충청북도 증평군 증평읍 미암로 26 (증평읍/형석고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "형석고등학교",
-							"alternateName": "HyeongSeok High School",
-							"description": "충청북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27916 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "증평군",
-								"streetAddress": "충청북도 증평군 증평읍 미암로 26 (증평읍/형석고등학교)"
-							},
-							"telephone": "043-835-1310",
-							"faxNumber": "043-836-5472",
-							"sameAs": ["http://school.cbe.go.kr/hshs-h"]
-						}
-					],
+						"telephone": "043-835-1310",
+						"faxNumber": "043-836-5472",
+						"sameAs": ["http://school.cbe.go.kr/hshs-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "955.5 Kcal",
 										"carbohydrateContent": "129.1 g",
 										"proteinContent": "50.0 g",
-										"fatContent": "24.5 g",
-										"vitaminAContent": "186.2 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "40.4 mg",
-										"calciumContent": "243.3 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "24.5 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "942.1 Kcal",
 										"carbohydrateContent": "145.6 g",
 										"proteinContent": "21.7 g",
-										"fatContent": "30.7 g",
-										"vitaminAContent": "161.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "6.0 mg",
-										"calciumContent": "204.4 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "30.7 g"
 									}
 								}
 							]

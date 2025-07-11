@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/선인중학교/",
 				"headline": "선인중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/선인중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sunin-m.icems.kr",
-							"url": "http://sunin-m.icems.kr",
-							"name": "선인중학교 급식 식단표 안내",
-							"description": "선인중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 선인중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "선인중학교",
+						"alternateName": "Sunin Middle School",
+						"description": "인천광역시남부교육지원청 / 공립 / 남 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22100 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "미추홀구",
+							"streetAddress": "인천광역시 미추홀구 석정로 165 / 선인중학교 (도화동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "선인중학교",
-							"alternateName": "Sunin Middle School",
-							"description": "인천광역시남부교육지원청 / 공립 / 남 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22100 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "미추홀구",
-								"streetAddress": "인천광역시 미추홀구 석정로 165 / 선인중학교 (도화동)"
-							},
-							"telephone": "032-764-4311",
-							"faxNumber": "032-772-9627",
-							"sameAs": ["http://sunin-m.icems.kr"]
-						}
-					],
+						"telephone": "032-764-4311",
+						"faxNumber": "032-772-9627",
+						"sameAs": ["http://sunin-m.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "692.9 Kcal",
 										"carbohydrateContent": "106.8 g",
 										"proteinContent": "35.9 g",
-										"fatContent": "13.1 g",
-										"vitaminAContent": "215.4 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "16.9 mg",
-										"calciumContent": "441.6 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "13.1 g"
 									}
 								}
 							]

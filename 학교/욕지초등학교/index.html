@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/욕지초등학교/",
 				"headline": "욕지초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/욕지초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yokji-p.gne.go.kr/",
-							"url": "http://yokji-p.gne.go.kr/",
-							"name": "욕지초등학교 급식 식단표 안내",
-							"description": "욕지초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 욕지초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "욕지초등학교",
+						"alternateName": "Yokji Elementary School",
+						"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53100 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 욕지면 서촌윗길 171-15 (욕지면, 욕지초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "욕지초등학교",
-							"alternateName": "Yokji Elementary School",
-							"description": "통영교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53100 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 욕지면 서촌윗길 171-15 (욕지면, 욕지초등학교)"
-							},
-							"telephone": "055-642-5009",
-							"faxNumber": "055-642-5442",
-							"sameAs": ["http://yokji-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-642-5009",
+						"faxNumber": "055-642-5442",
+						"sameAs": ["http://yokji-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "839.4 Kcal",
 										"carbohydrateContent": "145.6 g",
 										"proteinContent": "29.1 g",
-										"fatContent": "16.0 g",
-										"vitaminAContent": "154.3 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "36.2 mg",
-										"calciumContent": "251.2 mg",
-										"ironContent": "6.3 mg"
+										"fatContent": "16.0 g"
 									}
 								}
 							]

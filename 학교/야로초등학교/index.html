@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/야로초등학교/",
 				"headline": "야로초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/야로초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://yaro-p.gne.go.kr",
-							"url": "http://yaro-p.gne.go.kr",
-							"name": "야로초등학교 급식 식단표 안내",
-							"description": "야로초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 야로초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "야로초등학교",
+						"alternateName": "Yaro Elementary School",
+						"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50205 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "합천군",
+							"streetAddress": "경상남도 합천군 야로면 미숭산로 89 (야로면/ 야로초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "야로초등학교",
-							"alternateName": "Yaro Elementary School",
-							"description": "합천교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50205 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "합천군",
-								"streetAddress": "경상남도 합천군 야로면 미숭산로 89 (야로면/ 야로초등학교)"
-							},
-							"telephone": "055-932-6541",
-							"faxNumber": "055-931-6984",
-							"sameAs": ["http://yaro-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-932-6541",
+						"faxNumber": "055-931-6984",
+						"sameAs": ["http://yaro-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "842.7 Kcal",
 										"carbohydrateContent": "115.0 g",
 										"proteinContent": "43.0 g",
-										"fatContent": "22.1 g",
-										"vitaminAContent": "187.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "21.8 mg",
-										"calciumContent": "344.9 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "22.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경원중학교/",
 				"headline": "경원중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경원중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gyeongwon.sen.ms.kr",
-							"url": "http://gyeongwon.sen.ms.kr",
-							"name": "경원중학교 급식 식단표 안내",
-							"description": "경원중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경원중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경원중학교",
+						"alternateName": "Gyeongwon Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06521 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 신반포로33길 39 (잠원동/경원중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경원중학교",
-							"alternateName": "Gyeongwon Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06521 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 신반포로33길 39 (잠원동/경원중학교)"
-							},
-							"telephone": "02-593-6578",
-							"faxNumber": "02-599-0418",
-							"sameAs": ["http://gyeongwon.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-593-6578",
+						"faxNumber": "02-599-0418",
+						"sameAs": ["http://gyeongwon.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1092.0 Kcal",
 										"carbohydrateContent": "104.5 g",
 										"proteinContent": "22.1 g",
-										"fatContent": "63.0 g",
-										"vitaminAContent": "185.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "11.0 mg",
-										"calciumContent": "315.1 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "63.0 g"
 									}
 								}
 							]

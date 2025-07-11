@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부평여자고등학교/",
 				"headline": "부평여자고등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부평여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bgh.icehs.kr",
-							"url": "http://bgh.icehs.kr",
-							"name": "부평여자고등학교 급식 식단표 안내",
-							"description": "부평여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부평여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부평여자고등학교",
+						"alternateName": "Bupyeong Girls` High School",
+						"description": "인천광역시교육청 / 공립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21378 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 부흥로243번길 44 (부평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부평여자고등학교",
-							"alternateName": "Bupyeong Girls` High School",
-							"description": "인천광역시교육청 / 공립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21378 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 부흥로243번길 44 (부평동)"
-							},
-							"telephone": "032-526-6432",
-							"faxNumber": "032-514-5431",
-							"sameAs": ["http://bgh.icehs.kr"]
-						}
-					],
+						"telephone": "032-526-6432",
+						"faxNumber": "032-514-5431",
+						"sameAs": ["http://bgh.icehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "841.6 Kcal",
 										"carbohydrateContent": "131.5 g",
 										"proteinContent": "31.8 g",
-										"fatContent": "19.7 g",
-										"vitaminAContent": "195.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "256.9 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "19.7 g"
 									}
 								}
 							]

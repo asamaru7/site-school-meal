@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/이의초등학교/",
 				"headline": "이의초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/이의초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eui-e.goesw.kr/",
-							"url": "http://eui-e.goesw.kr/",
-							"name": "이의초등학교 급식 식단표 안내",
-							"description": "이의초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 이의초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "이의초등학교",
+						"alternateName": "eui elementary school",
+						"description": "경기도수원교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16512 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "수원시 영통구",
+							"streetAddress": "경기도 수원시 영통구 법조로 150 / 47 (하동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "이의초등학교",
-							"alternateName": "eui elementary school",
-							"description": "경기도수원교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16512 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "수원시 영통구",
-								"streetAddress": "경기도 수원시 영통구 법조로 150 / 47 (하동)"
-							},
-							"telephone": "031-8006-1800",
-							"faxNumber": "031-8006-1809",
-							"sameAs": ["http://eui-e.goesw.kr/"]
-						}
-					],
+						"telephone": "031-8006-1800",
+						"faxNumber": "031-8006-1809",
+						"sameAs": ["http://eui-e.goesw.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "376.9 Kcal",
 										"carbohydrateContent": "43.0 g",
 										"proteinContent": "25.1 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "106.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "7.7 mg",
-										"calciumContent": "193.1 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

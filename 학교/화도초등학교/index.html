@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화도초등학교/",
 				"headline": "화도초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hwado.icees.kr",
-							"url": "hwado.icees.kr",
-							"name": "화도초등학교 급식 식단표 안내",
-							"description": "화도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화도초등학교",
+						"alternateName": "Hwado Elementary School",
+						"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "23060 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "강화군",
+							"streetAddress": "인천광역시 강화군 화도면 마니산로 717 (화도면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화도초등학교",
-							"alternateName": "Hwado Elementary School",
-							"description": "인천광역시강화교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "23060 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "강화군",
-								"streetAddress": "인천광역시 강화군 화도면 마니산로 717 (화도면)"
-							},
-							"telephone": "032-937-1083",
-							"faxNumber": "032-627-4000",
-							"sameAs": ["hwado.icees.kr"]
-						}
-					]
+						"telephone": "032-937-1083",
+						"faxNumber": "032-627-4000",
+						"sameAs": ["hwado.icees.kr"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전법동초등학교/",
 				"headline": "대전법동초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전법동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://beopdonges.djsch.kr",
-							"url": "http://beopdonges.djsch.kr",
-							"name": "대전법동초등학교 급식 식단표 안내",
-							"description": "대전법동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전법동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전법동초등학교",
+						"alternateName": "Daejeon Beopdong Elementary School",
+						"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34398 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "대덕구",
+							"streetAddress": "대전광역시 대덕구 계족로664번길 74 (법동/대전법동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전법동초등학교",
-							"alternateName": "Daejeon Beopdong Elementary School",
-							"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34398 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "대덕구",
-								"streetAddress": "대전광역시 대덕구 계족로664번길 74 (법동/대전법동초등학교)"
-							},
-							"telephone": "042-626-7567",
-							"faxNumber": "042-633-1085",
-							"sameAs": ["http://beopdonges.djsch.kr"]
-						}
-					],
+						"telephone": "042-626-7567",
+						"faxNumber": "042-633-1085",
+						"sameAs": ["http://beopdonges.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "745.0 Kcal",
 										"carbohydrateContent": "102.5 g",
 										"proteinContent": "27.6 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "45.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "116.8 mg",
-										"ironContent": "0.9 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/금란초등학교/",
 				"headline": "금란초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/금란초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.kumran.es.kr",
-							"url": "http://www.kumran.es.kr",
-							"name": "금란초등학교 급식 식단표 안내",
-							"description": "금란초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금란초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "금란초등학교",
+						"alternateName": "Kumran Elementary School",
+						"description": "경기도김포교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10122 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "김포시",
+							"streetAddress": "경기도 김포시 고촌읍 장곡로 42 , 금란초등학교 (고촌읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "금란초등학교",
-							"alternateName": "Kumran Elementary School",
-							"description": "경기도김포교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10122 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "김포시",
-								"streetAddress": "경기도 김포시 고촌읍 장곡로 42 , 금란초등학교 (고촌읍)"
-							},
-							"telephone": "031-986-4252",
-							"faxNumber": "031-985-7657",
-							"sameAs": ["http://www.kumran.es.kr"]
-						}
-					],
+						"telephone": "031-986-4252",
+						"faxNumber": "031-985-7657",
+						"sameAs": ["http://www.kumran.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1135.7 Kcal",
 										"carbohydrateContent": "149.1 g",
 										"proteinContent": "36.7 g",
-										"fatContent": "40.9 g",
-										"vitaminAContent": "534.4 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "276.7 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "40.9 g"
 									}
 								}
 							]

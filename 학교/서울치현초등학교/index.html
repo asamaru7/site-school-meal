@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울치현초등학교/",
 				"headline": "서울치현초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울치현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chihyeon.sen.es.kr",
-							"url": "http://chihyeon.sen.es.kr",
-							"name": "서울치현초등학교 급식 식단표 안내",
-							"description": "서울치현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울치현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울치현초등학교",
+						"alternateName": "Seoul Chihyeon Elementary School",
+						"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "07514 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강서구",
+							"streetAddress": "서울특별시 강서구 방화대로47길 43 서울치현초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울치현초등학교",
-							"alternateName": "Seoul Chihyeon Elementary School",
-							"description": "서울특별시강서양천교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "07514 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강서구",
-								"streetAddress": "서울특별시 강서구 방화대로47길 43 서울치현초등학교"
-							},
-							"telephone": "02-2661-6272",
-							"faxNumber": "02-2661-6274",
-							"sameAs": ["http://chihyeon.sen.es.kr"]
-						}
-					],
+						"telephone": "02-2661-6272",
+						"faxNumber": "02-2661-6274",
+						"sameAs": ["http://chihyeon.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "688.6 Kcal",
 										"carbohydrateContent": "115.2 g",
 										"proteinContent": "25.8 g",
-										"fatContent": "14.8 g",
-										"vitaminAContent": "232.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "63.9 mg",
-										"calciumContent": "355.9 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "14.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍성중학교/",
 				"headline": "홍성중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hongsung.cnems.kr",
-							"url": "http://hongsung.cnems.kr",
-							"name": "홍성중학교 급식 식단표 안내",
-							"description": "홍성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍성중학교",
+						"alternateName": "Hongsung Middle School",
+						"description": "충청남도홍성교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32232 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 홍성읍 충절로 994 (홍성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍성중학교",
-							"alternateName": "Hongsung Middle School",
-							"description": "충청남도홍성교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32232 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 홍성읍 충절로 994 (홍성읍)"
-							},
-							"telephone": "041-632-2624",
-							"faxNumber": "041-633-5835",
-							"sameAs": ["http://hongsung.cnems.kr"]
-						}
-					]
+						"telephone": "041-632-2624",
+						"faxNumber": "041-633-5835",
+						"sameAs": ["http://hongsung.cnems.kr"]
+					}
 				]
 			}
 		</script>

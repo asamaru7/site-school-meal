@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/봉양중학교/",
 				"headline": "봉양중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/봉양중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/bongyang-m",
-							"url": "http://school.cbe.go.kr/bongyang-m",
-							"name": "봉양중학교 급식 식단표 안내",
-							"description": "봉양중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 봉양중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "봉양중학교",
+						"alternateName": "Bongyang Middle School",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27117 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 봉양읍 앞산로 39 (봉양읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "봉양중학교",
-							"alternateName": "Bongyang Middle School",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27117 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 봉양읍 앞산로 39 (봉양읍)"
-							},
-							"telephone": "043-647-7793",
-							"faxNumber": "043-647-8414",
-							"sameAs": ["http://school.cbe.go.kr/bongyang-m"]
-						}
-					]
+						"telephone": "043-647-7793",
+						"faxNumber": "043-647-8414",
+						"sameAs": ["http://school.cbe.go.kr/bongyang-m"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화순도암중학교/",
 				"headline": "화순도암중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화순도암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://doam.ms.jne.kr",
-							"url": "http://doam.ms.jne.kr",
-							"name": "화순도암중학교 급식 식단표 안내",
-							"description": "화순도암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화순도암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화순도암중학교",
+						"alternateName": "Hwasundoam Middle School",
+						"description": "전라남도화순교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58158 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "화순군",
+							"streetAddress": "전라남도 화순군 도암면 권동길 4-6 / 화순도암중학교 (도암면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화순도암중학교",
-							"alternateName": "Hwasundoam Middle School",
-							"description": "전라남도화순교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58158 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "화순군",
-								"streetAddress": "전라남도 화순군 도암면 권동길 4-6 / 화순도암중학교 (도암면)"
-							},
-							"telephone": "061-373-0586",
-							"faxNumber": "061-373-8072",
-							"sameAs": ["http://doam.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-373-0586",
+						"faxNumber": "061-373-8072",
+						"sameAs": ["http://doam.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "683.4 Kcal",
 										"carbohydrateContent": "97.6 g",
 										"proteinContent": "19.6 g",
-										"fatContent": "24.2 g",
-										"vitaminAContent": "140.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "32.8 mg",
-										"calciumContent": "212.1 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "24.2 g"
 									}
 								}
 							]

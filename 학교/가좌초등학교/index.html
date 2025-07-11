@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/가좌초등학교/",
 				"headline": "가좌초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/가좌초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.gajwa-i.es.kr",
-							"url": "www.gajwa-i.es.kr",
-							"name": "가좌초등학교 급식 식단표 안내",
-							"description": "가좌초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 가좌초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "가좌초등학교",
+						"alternateName": "Gajwa Elementary School",
+						"description": "경기도고양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10210 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "고양시 일산서구",
+							"streetAddress": "경기도 고양시 일산서구 가좌2로 31 (가좌동/가좌초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "가좌초등학교",
-							"alternateName": "Gajwa Elementary School",
-							"description": "경기도고양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10210 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "고양시 일산서구",
-								"streetAddress": "경기도 고양시 일산서구 가좌2로 31 (가좌동/가좌초등학교)"
-							},
-							"telephone": "031-922-6040",
-							"faxNumber": "031-922-6045",
-							"sameAs": ["www.gajwa-i.es.kr"]
-						}
-					],
+						"telephone": "031-922-6040",
+						"faxNumber": "031-922-6045",
+						"sameAs": ["www.gajwa-i.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "984.3 Kcal",
 										"carbohydrateContent": "176.6 g",
 										"proteinContent": "35.8 g",
-										"fatContent": "12.3 g",
-										"vitaminAContent": "224.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "9.2 mg",
-										"calciumContent": "275.5 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "12.3 g"
 									}
 								}
 							]

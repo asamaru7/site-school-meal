@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울연가초등학교/",
 				"headline": "서울연가초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울연가초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.yeonga.es.kr",
-							"url": "http://www.yeonga.es.kr",
-							"name": "서울연가초등학교 급식 식단표 안내",
-							"description": "서울연가초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울연가초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울연가초등학교",
+						"alternateName": "Seoul Yeon-ga Elementary School",
+						"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03670 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서대문구",
+							"streetAddress": "서울특별시 서대문구 증가로12가길 49-50 / 연가초등학교 (남가좌동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울연가초등학교",
-							"alternateName": "Seoul Yeon-ga Elementary School",
-							"description": "서울특별시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03670 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서대문구",
-								"streetAddress": "서울특별시 서대문구 증가로12가길 49-50 / 연가초등학교 (남가좌동)"
-							},
-							"telephone": "02-372-3044",
-							"faxNumber": "02-309-0589",
-							"sameAs": ["http://www.yeonga.es.kr"]
-						}
-					],
+						"telephone": "02-372-3044",
+						"faxNumber": "02-309-0589",
+						"sameAs": ["http://www.yeonga.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "705.4 Kcal",
 										"carbohydrateContent": "117.3 g",
 										"proteinContent": "21.4 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "69.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "17.5 mg",
-										"calciumContent": "189.3 mg",
-										"ironContent": "8.2 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

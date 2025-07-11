@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/효성고등학교/",
 				"headline": "효성고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/효성고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://hyosung-h.goesn.kr",
-							"url": "https://hyosung-h.goesn.kr",
-							"name": "효성고등학교 급식 식단표 안내",
-							"description": "효성고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 효성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "효성고등학교",
+						"alternateName": "Hyosung High School",
+						"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "13103 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "성남시 수정구",
+							"streetAddress": "경기도 성남시 수정구 심곡로 16 (심곡동/효성고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "효성고등학교",
-							"alternateName": "Hyosung High School",
-							"description": "경기도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "13103 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "성남시 수정구",
-								"streetAddress": "경기도 성남시 수정구 심곡로 16 (심곡동/효성고등학교)"
-							},
-							"telephone": "031-723-6240",
-							"faxNumber": "031-723-6301",
-							"sameAs": ["https://hyosung-h.goesn.kr"]
-						}
-					],
+						"telephone": "031-723-6240",
+						"faxNumber": "031-723-6301",
+						"sameAs": ["https://hyosung-h.goesn.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "747.7 Kcal",
 										"carbohydrateContent": "114.0 g",
 										"proteinContent": "26.1 g",
-										"fatContent": "21.6 g",
-										"vitaminAContent": "302.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "36.8 mg",
-										"calciumContent": "395.8 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "21.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해동광초등학교/",
 				"headline": "김해동광초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해동광초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ghdongkwang-p.gne.go.kr/",
-							"url": "http://ghdongkwang-p.gne.go.kr/",
-							"name": "김해동광초등학교 급식 식단표 안내",
-							"description": "김해동광초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해동광초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해동광초등학교",
+						"alternateName": "",
+						"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50914 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 호계로500번길 15-15 (동상동/동광초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해동광초등학교",
-							"alternateName": "",
-							"description": "김해교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50914 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 호계로500번길 15-15 (동상동/동광초등학교)"
-							},
-							"telephone": "055-332-2534",
-							"faxNumber": "055-332-7394",
-							"sameAs": ["http://ghdongkwang-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-332-2534",
+						"faxNumber": "055-332-7394",
+						"sameAs": ["http://ghdongkwang-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "627.9 Kcal",
 										"carbohydrateContent": "84.1 g",
 										"proteinContent": "21.5 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "145.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.8 mg",
-										"calciumContent": "185.0 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

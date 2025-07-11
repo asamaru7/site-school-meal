@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안의고등학교/",
 				"headline": "안의고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안의고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://anui-h.gne.go.kr",
-							"url": "http://anui-h.gne.go.kr",
-							"name": "안의고등학교 급식 식단표 안내",
-							"description": "안의고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안의고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안의고등학교",
+						"alternateName": "Anui High School",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50010 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "함양군",
+							"streetAddress": "경상남도 함양군 안의면 안의배움길 30 / 안의고등학교 (안의면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안의고등학교",
-							"alternateName": "Anui High School",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50010 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "함양군",
-								"streetAddress": "경상남도 함양군 안의면 안의배움길 30 / 안의고등학교 (안의면)"
-							},
-							"telephone": "055-962-0559",
-							"faxNumber": "055-962-2094",
-							"sameAs": ["http://anui-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-962-0559",
+						"faxNumber": "055-962-2094",
+						"sameAs": ["http://anui-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "772.2 Kcal",
 										"carbohydrateContent": "120.0 g",
 										"proteinContent": "21.5 g",
-										"fatContent": "23.1 g",
-										"vitaminAContent": "702.2 R.E",
-										"thiaminContent": "1.8 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "79.9 mg",
-										"calciumContent": "454.4 mg",
-										"ironContent": "15.0 mg"
+										"fatContent": "23.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "868.0 Kcal",
 										"carbohydrateContent": "107.8 g",
 										"proteinContent": "39.9 g",
-										"fatContent": "28.6 g",
-										"vitaminAContent": "192.8 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "70.8 mg",
-										"calciumContent": "179.6 mg",
-										"ironContent": "5.5 mg"
+										"fatContent": "28.6 g"
 									}
 								}
 							]

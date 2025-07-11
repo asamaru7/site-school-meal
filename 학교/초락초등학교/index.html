@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/초락초등학교/",
 				"headline": "초락초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/초락초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chorak.cnees.kr",
-							"url": "http://chorak.cnees.kr",
-							"name": "초락초등학교 급식 식단표 안내",
-							"description": "초락초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초락초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "초락초등학교",
+						"alternateName": "Chorak Elementary School",
+						"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31707 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "당진시",
+							"streetAddress": "충청남도 당진시 석문면 샛터말길 35 (석문면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "초락초등학교",
-							"alternateName": "Chorak Elementary School",
-							"description": "충청남도당진교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31707 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "당진시",
-								"streetAddress": "충청남도 당진시 석문면 샛터말길 35 (석문면)"
-							},
-							"telephone": "041-353-0608",
-							"faxNumber": "041-352-4686",
-							"sameAs": ["http://chorak.cnees.kr"]
-						}
-					]
+						"telephone": "041-353-0608",
+						"faxNumber": "041-352-4686",
+						"sameAs": ["http://chorak.cnees.kr"]
+					}
 				]
 			}
 		</script>

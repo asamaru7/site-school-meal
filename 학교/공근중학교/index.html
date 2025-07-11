@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/공근중학교/",
 				"headline": "공근중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/공근중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gonggeun.gwe.ms.kr",
-							"url": "http://gonggeun.gwe.ms.kr",
-							"name": "공근중학교 급식 식단표 안내",
-							"description": "공근중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 공근중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "공근중학교",
+						"alternateName": "Gonggeun Middle School",
+						"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25208 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "횡성군",
+							"streetAddress": "강원특별자치도 횡성군 공근면 학담4길 21 (공근면/공근중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "공근중학교",
-							"alternateName": "Gonggeun Middle School",
-							"description": "강원특별자치도횡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25208 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "횡성군",
-								"streetAddress": "강원특별자치도 횡성군 공근면 학담4길 21 (공근면/공근중학교)"
-							},
-							"telephone": "033-342-3011",
-							"faxNumber": "033-342-1638",
-							"sameAs": ["http://gonggeun.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-342-3011",
+						"faxNumber": "033-342-1638",
+						"sameAs": ["http://gonggeun.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "721.5 Kcal",
 										"carbohydrateContent": "93.6 g",
 										"proteinContent": "51.5 g",
-										"fatContent": "13.6 g",
-										"vitaminAContent": "102.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "41.2 mg",
-										"calciumContent": "201.3 mg",
-										"ironContent": "6.3 mg"
+										"fatContent": "13.6 g"
 									}
 								}
 							]

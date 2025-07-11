@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신방학중학교/",
 				"headline": "신방학중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신방학중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sbh.ms.kr",
-							"url": "http://www.sbh.ms.kr",
-							"name": "신방학중학교 급식 식단표 안내",
-							"description": "신방학중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신방학중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신방학중학교",
+						"alternateName": "Sinbanghak Middle School",
+						"description": "서울특별시북부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01359 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "도봉구",
+							"streetAddress": "서울특별시 도봉구 시루봉로 156 / 신방학중학교 (방학동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신방학중학교",
-							"alternateName": "Sinbanghak Middle School",
-							"description": "서울특별시북부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01359 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "도봉구",
-								"streetAddress": "서울특별시 도봉구 시루봉로 156 / 신방학중학교 (방학동)"
-							},
-							"telephone": "02-956-8234",
-							"faxNumber": "02-956-2845",
-							"sameAs": ["http://www.sbh.ms.kr"]
-						}
-					],
+						"telephone": "02-956-8234",
+						"faxNumber": "02-956-2845",
+						"sameAs": ["http://www.sbh.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1661.2 Kcal",
 										"carbohydrateContent": "130.4 g",
 										"proteinContent": "49.9 g",
-										"fatContent": "100.9 g",
-										"vitaminAContent": "119.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "12.7 mg",
-										"calciumContent": "228.1 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "100.9 g"
 									}
 								}
 							]

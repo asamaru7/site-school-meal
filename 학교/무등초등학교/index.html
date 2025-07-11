@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무등초등학교/",
 				"headline": "무등초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무등초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mudeung.gen.es.kr",
-							"url": "http://mudeung.gen.es.kr",
-							"name": "무등초등학교 급식 식단표 안내",
-							"description": "무등초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무등초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무등초등학교",
+						"alternateName": "MuDeung Elementary School",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61172 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "북구",
+							"streetAddress": "광주광역시 북구 면앙로 99 (우산동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무등초등학교",
-							"alternateName": "MuDeung Elementary School",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61172 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "북구",
-								"streetAddress": "광주광역시 북구 면앙로 99 (우산동)"
-							},
-							"telephone": "062-260-3804",
-							"faxNumber": "062-260-3805",
-							"sameAs": ["http://mudeung.gen.es.kr"]
-						}
-					],
+						"telephone": "062-260-3804",
+						"faxNumber": "062-260-3805",
+						"sameAs": ["http://mudeung.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "638.7 Kcal",
 										"carbohydrateContent": "83.2 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "18.8 g",
-										"vitaminAContent": "47.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "9.5 mg",
-										"calciumContent": "261.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "18.8 g"
 									}
 								}
 							]

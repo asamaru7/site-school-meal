@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/연무마이스터고등학교/",
 				"headline": "연무마이스터고등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/연무마이스터고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "yeonmutech.cnehs.kr",
-							"url": "yeonmutech.cnehs.kr",
-							"name": "연무마이스터고등학교 급식 식단표 안내",
-							"description": "연무마이스터고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 연무마이스터고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "연무마이스터고등학교",
+						"alternateName": "Yeonmu Meister High School",
+						"description": "충청남도교육청 / 공립 / 남여공학 / 특목고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33011 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "논산시",
+							"streetAddress": "충청남도 논산시 연무읍 연무로 268-9 (연무읍/연무대기계공고)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "연무마이스터고등학교",
-							"alternateName": "Yeonmu Meister High School",
-							"description": "충청남도교육청 / 공립 / 남여공학 / 특목고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33011 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "논산시",
-								"streetAddress": "충청남도 논산시 연무읍 연무로 268-9 (연무읍/연무대기계공고)"
-							},
-							"telephone": "041-742-7302",
-							"faxNumber": "041-742-7307",
-							"sameAs": ["yeonmutech.cnehs.kr"]
-						}
-					],
+						"telephone": "041-742-7302",
+						"faxNumber": "041-742-7307",
+						"sameAs": ["yeonmutech.cnehs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "905.4 Kcal",
 										"carbohydrateContent": "141.4 g",
 										"proteinContent": "38.3 g",
-										"fatContent": "20.1 g",
-										"vitaminAContent": "401.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "65.7 mg",
-										"calciumContent": "450.0 mg",
-										"ironContent": "3.8 mg"
+										"fatContent": "20.1 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "977.3 Kcal",
 										"carbohydrateContent": "145.8 g",
 										"proteinContent": "41.6 g",
-										"fatContent": "24.9 g",
-										"vitaminAContent": "172.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "350.3 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "24.9 g"
 									}
 								}
 							]

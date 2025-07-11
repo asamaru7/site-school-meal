@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제주북초등학교/",
 				"headline": "제주북초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제주북초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jejubuk.jje.es.kr",
-							"url": "http://jejubuk.jje.es.kr",
-							"name": "제주북초등학교 급식 식단표 안내",
-							"description": "제주북초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제주북초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제주북초등학교",
+						"alternateName": "JEJUBUK ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63166 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 중앙로8길 18 (삼도이동/제주북초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제주북초등학교",
-							"alternateName": "JEJUBUK ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63166 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 중앙로8길 18 (삼도이동/제주북초등학교)"
-							},
-							"telephone": "064-717-3300",
-							"faxNumber": "064-717-3399",
-							"sameAs": ["http://jejubuk.jje.es.kr"]
-						}
-					],
+						"telephone": "064-717-3300",
+						"faxNumber": "064-717-3399",
+						"sameAs": ["http://jejubuk.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "620.8 Kcal",
 										"carbohydrateContent": "94.9 g",
 										"proteinContent": "27.9 g",
-										"fatContent": "13.7 g",
-										"vitaminAContent": "162.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "19.7 mg",
-										"calciumContent": "338.5 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "13.7 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울논현초등학교/",
 				"headline": "서울논현초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울논현초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nonhyun.sen.es.kr",
-							"url": "http://nonhyun.sen.es.kr",
-							"name": "서울논현초등학교 급식 식단표 안내",
-							"description": "서울논현초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울논현초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울논현초등학교",
+						"alternateName": "Seoul Nonhyeon Elementary School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06119 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 강남대로120길 33 (논현동/논현초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울논현초등학교",
-							"alternateName": "Seoul Nonhyeon Elementary School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06119 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 강남대로120길 33 (논현동/논현초등학교)"
-							},
-							"telephone": "02-514-6636",
-							"faxNumber": "02-514-7072",
-							"sameAs": ["http://nonhyun.sen.es.kr"]
-						}
-					],
+						"telephone": "02-514-6636",
+						"faxNumber": "02-514-7072",
+						"sameAs": ["http://nonhyun.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "668.4 Kcal",
 										"carbohydrateContent": "94.8 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "15.7 g",
-										"vitaminAContent": "76.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.9 mg",
-										"calciumContent": "312.4 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "15.7 g"
 									}
 								}
 							]

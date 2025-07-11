@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동지여자중학교/",
 				"headline": "동지여자중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동지여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/djgms",
-							"url": "http://school.gyo6.net/djgms",
-							"name": "동지여자중학교 급식 식단표 안내",
-							"description": "동지여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동지여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동지여자중학교",
+						"alternateName": "Dongji Girls` Middle School",
+						"description": "경상북도포항교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37689 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 용흥로 123 / 동지여자중학교 (용흥동/ 동지중고등학교/ 동지여자중고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동지여자중학교",
-							"alternateName": "Dongji Girls` Middle School",
-							"description": "경상북도포항교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37689 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 용흥로 123 / 동지여자중학교 (용흥동/ 동지중고등학교/ 동지여자중고등학교)"
-							},
-							"telephone": "054-247-4483",
-							"faxNumber": "054-248-6429",
-							"sameAs": ["http://school.gyo6.net/djgms"]
-						}
-					],
+						"telephone": "054-247-4483",
+						"faxNumber": "054-248-6429",
+						"sameAs": ["http://school.gyo6.net/djgms"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "912.9 Kcal",
 										"carbohydrateContent": "103.5 g",
 										"proteinContent": "41.9 g",
-										"fatContent": "34.3 g",
-										"vitaminAContent": "135.4 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "18.9 mg",
-										"calciumContent": "255.0 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "34.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "689.3 Kcal",
 										"carbohydrateContent": "93.5 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "64.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "71.6 mg",
-										"calciumContent": "165.4 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

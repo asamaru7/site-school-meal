@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명륜여자중학교/",
 				"headline": "명륜여자중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명륜여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://myeongryun-m.goean.kr",
-							"url": "https://myeongryun-m.goean.kr",
-							"name": "명륜여자중학교 급식 식단표 안내",
-							"description": "명륜여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명륜여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명륜여자중학교",
+						"alternateName": "Myeongryun Girls Middle School",
+						"description": "경기도안성교육지원청 / 사립 / 여 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "17591 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "안성시",
+							"streetAddress": "경기도 안성시 장기로103번길 22 (낙원동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명륜여자중학교",
-							"alternateName": "Myeongryun Girls Middle School",
-							"description": "경기도안성교육지원청 / 사립 / 여 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "17591 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "안성시",
-								"streetAddress": "경기도 안성시 장기로103번길 22 (낙원동)"
-							},
-							"telephone": "031-675-3538",
-							"faxNumber": "031-673-7054",
-							"sameAs": ["https://myeongryun-m.goean.kr"]
-						}
-					],
+						"telephone": "031-675-3538",
+						"faxNumber": "031-673-7054",
+						"sameAs": ["https://myeongryun-m.goean.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "635.1 Kcal",
 										"carbohydrateContent": "81.3 g",
 										"proteinContent": "43.0 g",
-										"fatContent": "13.3 g",
-										"vitaminAContent": "321.7 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "21.6 mg",
-										"calciumContent": "507.2 mg",
-										"ironContent": "6.3 mg"
+										"fatContent": "13.3 g"
 									}
 								}
 							]

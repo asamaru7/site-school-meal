@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산디지털고등학교/",
 				"headline": "부산디지털고등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산디지털고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://digital.hs.kr",
-							"url": "http://digital.hs.kr",
-							"name": "부산디지털고등학교 급식 식단표 안내",
-							"description": "부산디지털고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산디지털고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산디지털고등학교",
+						"alternateName": "Busan Digital High School",
+						"description": "부산광역시교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48918 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "중구",
+							"streetAddress": "부산광역시 중구 망양로 356 (영주동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산디지털고등학교",
-							"alternateName": "Busan Digital High School",
-							"description": "부산광역시교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48918 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "중구",
-								"streetAddress": "부산광역시 중구 망양로 356 (영주동)"
-							},
-							"telephone": "051-460-0300",
-							"faxNumber": "051-460-0399",
-							"sameAs": ["http://digital.hs.kr"]
-						}
-					],
+						"telephone": "051-460-0300",
+						"faxNumber": "051-460-0399",
+						"sameAs": ["http://digital.hs.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "891.8 Kcal",
 										"carbohydrateContent": "136.5 g",
 										"proteinContent": "29.9 g",
-										"fatContent": "22.7 g",
-										"vitaminAContent": "600.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "31.4 mg",
-										"calciumContent": "445.0 mg",
-										"ironContent": "7.6 mg"
+										"fatContent": "22.7 g"
 									}
 								}
 							]

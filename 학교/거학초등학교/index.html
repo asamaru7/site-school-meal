@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거학초등학교/",
 				"headline": "거학초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거학초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.geohak.es.kr",
-							"url": "http://www.geohak.es.kr",
-							"name": "거학초등학교 급식 식단표 안내",
-							"description": "거학초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거학초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거학초등학교",
+						"alternateName": "Geohak Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47504 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 교대로24번길 36 / 36 (거제동/ 거학초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거학초등학교",
-							"alternateName": "Geohak Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47504 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 교대로24번길 36 / 36 (거제동/ 거학초등학교)"
-							},
-							"telephone": "051-502-4249",
-							"faxNumber": "051-503-8031",
-							"sameAs": ["http://www.geohak.es.kr"]
-						}
-					],
+						"telephone": "051-502-4249",
+						"faxNumber": "051-503-8031",
+						"sameAs": ["http://www.geohak.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "655.1 Kcal",
 										"carbohydrateContent": "89.1 g",
 										"proteinContent": "36.5 g",
-										"fatContent": "16.3 g",
-										"vitaminAContent": "212.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "41.0 mg",
-										"calciumContent": "391.3 mg",
-										"ironContent": "7.1 mg"
+										"fatContent": "16.3 g"
 									}
 								}
 							]

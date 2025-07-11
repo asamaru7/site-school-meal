@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/황성초등학교/",
 				"headline": "황성초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/황성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/hwangsung",
-							"url": "http://school.gyo6.net/hwangsung",
-							"name": "황성초등학교 급식 식단표 안내",
-							"description": "황성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 황성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "황성초등학교",
+						"alternateName": "Hwangseong Elementary School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38098 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 양정로287번길 12 (용강동/ 황성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "황성초등학교",
-							"alternateName": "Hwangseong Elementary School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38098 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 양정로287번길 12 (용강동/ 황성초등학교)"
-							},
-							"telephone": "054-749-4561",
-							"faxNumber": "054-774-5515",
-							"sameAs": ["http://school.gyo6.net/hwangsung"]
-						}
-					],
+						"telephone": "054-749-4561",
+						"faxNumber": "054-774-5515",
+						"sameAs": ["http://school.gyo6.net/hwangsung"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "692.5 Kcal",
 										"carbohydrateContent": "95.8 g",
 										"proteinContent": "23.4 g",
-										"fatContent": "23.6 g",
-										"vitaminAContent": "146.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "77.3 mg",
-										"calciumContent": "247.7 mg",
-										"ironContent": "6.9 mg"
+										"fatContent": "23.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/풍무중학교/",
 				"headline": "풍무중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/풍무중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.pungmu.ms.kr",
-							"url": "www.pungmu.ms.kr",
-							"name": "풍무중학교 급식 식단표 안내",
-							"description": "풍무중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 풍무중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "풍무중학교",
+						"alternateName": "Pungmu Middle School",
+						"description": "경기도김포교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10120 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "김포시",
+							"streetAddress": "경기도 김포시 유현로33번길 60 (풍무동/풍무중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "풍무중학교",
-							"alternateName": "Pungmu Middle School",
-							"description": "경기도김포교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10120 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "김포시",
-								"streetAddress": "경기도 김포시 유현로33번길 60 (풍무동/풍무중학교)"
-							},
-							"telephone": "031-997-1692",
-							"faxNumber": "031-997-1792",
-							"sameAs": ["www.pungmu.ms.kr"]
-						}
-					],
+						"telephone": "031-997-1692",
+						"faxNumber": "031-997-1792",
+						"sameAs": ["www.pungmu.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "730.9 Kcal",
 										"carbohydrateContent": "79.5 g",
 										"proteinContent": "28.9 g",
-										"fatContent": "31.7 g",
-										"vitaminAContent": "58.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "12.6 mg",
-										"calciumContent": "257.3 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "31.7 g"
 									}
 								}
 							]

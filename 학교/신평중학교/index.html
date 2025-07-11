@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신평중학교/",
 				"headline": "신평중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신평중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://sinpyung-m.goegh.kr/",
-							"url": "https://sinpyung-m.goegh.kr/",
-							"name": "신평중학교 급식 식단표 안내",
-							"description": "신평중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신평중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신평중학교",
+						"alternateName": "Sinpyung Middle School",
+						"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12948 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "하남시",
+							"streetAddress": "경기도 하남시 신장동로 57 (신장동/신평중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신평중학교",
-							"alternateName": "Sinpyung Middle School",
-							"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12948 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "하남시",
-								"streetAddress": "경기도 하남시 신장동로 57 (신장동/신평중학교)"
-							},
-							"telephone": "031-796-2195/2182",
-							"faxNumber": "031-796-2196",
-							"sameAs": ["https://sinpyung-m.goegh.kr/"]
-						}
-					],
+						"telephone": "031-796-2195/2182",
+						"faxNumber": "031-796-2196",
+						"sameAs": ["https://sinpyung-m.goegh.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "932.7 Kcal",
 										"carbohydrateContent": "133.4 g",
 										"proteinContent": "38.0 g",
-										"fatContent": "28.0 g",
-										"vitaminAContent": "261.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "25.1 mg",
-										"calciumContent": "356.9 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "28.0 g"
 									}
 								}
 							]

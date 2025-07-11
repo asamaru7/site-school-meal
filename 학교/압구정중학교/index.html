@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/압구정중학교/",
 				"headline": "압구정중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/압구정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.apgujeong.ms.kr",
-							"url": "http://www.apgujeong.ms.kr",
-							"name": "압구정중학교 급식 식단표 안내",
-							"description": "압구정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 압구정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "압구정중학교",
+						"alternateName": "Apgujeong Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06003 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강남구",
+							"streetAddress": "서울특별시 강남구 압구정로 225 / 압구정중학교 (압구정동/압구정중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "압구정중학교",
-							"alternateName": "Apgujeong Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06003 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강남구",
-								"streetAddress": "서울특별시 강남구 압구정로 225 / 압구정중학교 (압구정동/압구정중학교)"
-							},
-							"telephone": "02-543-1393",
-							"faxNumber": "02-514-7249",
-							"sameAs": ["http://www.apgujeong.ms.kr"]
-						}
-					],
+						"telephone": "02-543-1393",
+						"faxNumber": "02-514-7249",
+						"sameAs": ["http://www.apgujeong.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "943.7 Kcal",
 										"carbohydrateContent": "130.4 g",
 										"proteinContent": "20.5 g",
-										"fatContent": "38.6 g",
-										"vitaminAContent": "291.4 R.E",
-										"thiaminContent": "4.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "12.6 mg",
-										"calciumContent": "289.3 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "38.6 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/을숙도초등학교/",
 				"headline": "을숙도초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/을숙도초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.eulsukdo.es.kr",
-							"url": "http://www.eulsukdo.es.kr",
-							"name": "을숙도초등학교 급식 식단표 안내",
-							"description": "을숙도초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 을숙도초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "을숙도초등학교",
+						"alternateName": "Eulsukdo elementary school",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49302 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 낙동대로 581 (하단동/ 을숙도초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "을숙도초등학교",
-							"alternateName": "Eulsukdo elementary school",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49302 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 낙동대로 581 (하단동/ 을숙도초등학교)"
-							},
-							"telephone": "051-200-2800",
-							"faxNumber": "051-205-2816",
-							"sameAs": ["http://www.eulsukdo.es.kr"]
-						}
-					],
+						"telephone": "051-200-2800",
+						"faxNumber": "051-205-2816",
+						"sameAs": ["http://www.eulsukdo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "697.3 Kcal",
 										"carbohydrateContent": "71.5 g",
 										"proteinContent": "26.1 g",
-										"fatContent": "32.9 g",
-										"vitaminAContent": "147.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.7 mg",
-										"calciumContent": "278.4 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "32.9 g"
 									}
 								}
 							]

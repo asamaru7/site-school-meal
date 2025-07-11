@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/홍천초등학교/",
 				"headline": "홍천초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/홍천초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hongcheon-e.goeyi.kr",
-							"url": "hongcheon-e.goeyi.kr",
-							"name": "홍천초등학교 급식 식단표 안내",
-							"description": "홍천초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 홍천초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "홍천초등학교",
+						"alternateName": "Hongcheon Elementary School",
+						"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "16817 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "용인시 수지구",
+							"streetAddress": "경기도 용인시 수지구 신봉2로14번길 49 / 홍천초등학교 (신봉동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "홍천초등학교",
-							"alternateName": "Hongcheon Elementary School",
-							"description": "경기도용인교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "16817 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "용인시 수지구",
-								"streetAddress": "경기도 용인시 수지구 신봉2로14번길 49 / 홍천초등학교 (신봉동)"
-							},
-							"telephone": "031-326-3706",
-							"faxNumber": "031-266-1856",
-							"sameAs": ["hongcheon-e.goeyi.kr"]
-						}
-					],
+						"telephone": "031-326-3706",
+						"faxNumber": "031-266-1856",
+						"sameAs": ["hongcheon-e.goeyi.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "652.3 Kcal",
 										"carbohydrateContent": "87.0 g",
 										"proteinContent": "27.4 g",
-										"fatContent": "20.8 g",
-										"vitaminAContent": "198.9 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "15.7 mg",
-										"calciumContent": "255.4 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "20.8 g"
 									}
 								}
 							]

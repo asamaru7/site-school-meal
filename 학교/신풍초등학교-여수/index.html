@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신풍초등학교-여수/",
 				"headline": "신풍초등학교(여수) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신풍초등학교-여수/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ys-shinpung.es.jne.kr",
-							"url": "http://ys-shinpung.es.jne.kr",
-							"name": "신풍초등학교(여수) 급식 식단표 안내",
-							"description": "신풍초등학교(여수)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신풍초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신풍초등학교(여수)",
+						"alternateName": "Shinpung Elementary School",
+						"description": "전라남도여수교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59605 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "여수시",
+							"streetAddress": "전라남도 여수시 율촌면 여순로 435-4 (율촌면/신풍초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신풍초등학교(여수)",
-							"alternateName": "Shinpung Elementary School",
-							"description": "전라남도여수교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59605 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "여수시",
-								"streetAddress": "전라남도 여수시 율촌면 여순로 435-4 (율촌면/신풍초등학교)"
-							},
-							"telephone": "061-685-4544",
-							"faxNumber": "061)682-7717",
-							"sameAs": ["http://ys-shinpung.es.jne.kr"]
-						}
-					],
+						"telephone": "061-685-4544",
+						"faxNumber": "061)682-7717",
+						"sameAs": ["http://ys-shinpung.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "581.9 Kcal",
 										"carbohydrateContent": "79.6 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "12.8 g",
-										"vitaminAContent": "95.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.3 mg",
-										"calciumContent": "226.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "12.8 g"
 									}
 								}
 							]

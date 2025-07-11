@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청하초등학교-포항/",
 				"headline": "청하초등학교(포항) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청하초등학교-포항/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/cheongha",
-							"url": "http://school.gyo6.net/cheongha",
-							"name": "청하초등학교(포항) 급식 식단표 안내",
-							"description": "청하초등학교(포항)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청하초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청하초등학교(포항)",
+						"alternateName": "Cheongha Elementary School",
+						"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "37515 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "포항시 북구",
+							"streetAddress": "경상북도 포항시 북구 청하면 청하로217번길 19 (청하면/ 청하초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청하초등학교(포항)",
-							"alternateName": "Cheongha Elementary School",
-							"description": "경상북도포항교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "37515 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "포항시 북구",
-								"streetAddress": "경상북도 포항시 북구 청하면 청하로217번길 19 (청하면/ 청하초등학교)"
-							},
-							"telephone": "054-232-4011",
-							"faxNumber": "054-232-9228",
-							"sameAs": ["http://school.gyo6.net/cheongha"]
-						}
-					],
+						"telephone": "054-232-4011",
+						"faxNumber": "054-232-9228",
+						"sameAs": ["http://school.gyo6.net/cheongha"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1005.2 Kcal",
 										"carbohydrateContent": "177.3 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "20.7 g",
-										"vitaminAContent": "354.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.6 mg",
-										"calciumContent": "245.0 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "20.7 g"
 									}
 								}
 							]

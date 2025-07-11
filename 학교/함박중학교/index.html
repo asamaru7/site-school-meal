@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/함박중학교/",
 				"headline": "함박중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/함박중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hambak.icems.kr",
-							"url": "http://hambak.icems.kr",
-							"name": "함박중학교 급식 식단표 안내",
-							"description": "함박중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 함박중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "함박중학교",
+						"alternateName": "Ham Bak middle school",
+						"description": "인천광역시동부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21940 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "연수구",
+							"streetAddress": "인천광역시 연수구 솔샘로 143 (청학동 109-1)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "함박중학교",
-							"alternateName": "Ham Bak middle school",
-							"description": "인천광역시동부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21940 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "연수구",
-								"streetAddress": "인천광역시 연수구 솔샘로 143 (청학동 109-1)"
-							},
-							"telephone": "032-831-1462",
-							"faxNumber": "032-629-8599",
-							"sameAs": ["http://hambak.icems.kr"]
-						}
-					],
+						"telephone": "032-831-1462",
+						"faxNumber": "032-629-8599",
+						"sameAs": ["http://hambak.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "946.3 Kcal",
 										"carbohydrateContent": "148.6 g",
 										"proteinContent": "31.7 g",
-										"fatContent": "23.8 g",
-										"vitaminAContent": "320.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "20.6 mg",
-										"calciumContent": "406.2 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "23.8 g"
 									}
 								}
 							]

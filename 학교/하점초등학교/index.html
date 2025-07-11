@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/하점초등학교/",
 				"headline": "하점초등학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/하점초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://hajeom.icees.kr",
-							"url": "http://hajeom.icees.kr",
-							"name": "하점초등학교 급식 식단표 안내",
-							"description": "하점초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 하점초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "하점초등학교",
+						"alternateName": "Hajum Elementary School",
+						"description": "인천광역시강화교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "23015 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "강화군",
+							"streetAddress": "인천광역시 강화군 하점면 강화대로 1190 (하점면/하점초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "하점초등학교",
-							"alternateName": "Hajum Elementary School",
-							"description": "인천광역시강화교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "23015 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "강화군",
-								"streetAddress": "인천광역시 강화군 하점면 강화대로 1190 (하점면/하점초등학교)"
-							},
-							"telephone": "032-933-5180",
-							"faxNumber": "032-627-5000",
-							"sameAs": ["http://hajeom.icees.kr"]
-						}
-					],
+						"telephone": "032-933-5180",
+						"faxNumber": "032-627-5000",
+						"sameAs": ["http://hajeom.icees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "786.3 Kcal",
 										"carbohydrateContent": "91.3 g",
 										"proteinContent": "38.3 g",
-										"fatContent": "27.8 g",
-										"vitaminAContent": "205.5 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "25.8 mg",
-										"calciumContent": "264.6 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "27.8 g"
 									}
 								}
 							]

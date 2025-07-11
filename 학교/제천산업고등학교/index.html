@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/제천산업고등학교/",
 				"headline": "제천산업고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/제천산업고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.cbe.go.kr/jci-h",
-							"url": "school.cbe.go.kr/jci-h",
-							"name": "제천산업고등학교 급식 식단표 안내",
-							"description": "제천산업고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 제천산업고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "제천산업고등학교",
+						"alternateName": "Jecheon Industrial High-School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27134 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 단양로10길 160 (고명동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "제천산업고등학교",
-							"alternateName": "Jecheon Industrial High-School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27134 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 단양로10길 160 (고명동)"
-							},
-							"telephone": "043-646-9660",
-							"faxNumber": "043-643-7293",
-							"sameAs": ["school.cbe.go.kr/jci-h"]
-						}
-					],
+						"telephone": "043-646-9660",
+						"faxNumber": "043-643-7293",
+						"sameAs": ["school.cbe.go.kr/jci-h"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1037.4 Kcal",
 										"carbohydrateContent": "113.0 g",
 										"proteinContent": "46.8 g",
-										"fatContent": "41.4 g",
-										"vitaminAContent": "146.5 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "32.1 mg",
-										"calciumContent": "319.3 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "41.4 g"
 									}
 								}
 							]

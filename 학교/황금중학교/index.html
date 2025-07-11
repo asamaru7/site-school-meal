@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/황금중학교/",
 				"headline": "황금중학교 급식 식단표 안내 : 대구광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/황금중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://hgm.dge.ms.kr",
-							"url": "https://hgm.dge.ms.kr",
-							"name": "황금중학교 급식 식단표 안내",
-							"description": "황금중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 황금중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "황금중학교",
+						"alternateName": "hwanggeum middle school",
+						"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "42148 ",
+							"addressCountry": "KR",
+							"addressRegion": "대구광역시",
+							"addressLocality": "수성구",
+							"streetAddress": "대구광역시 수성구 들안로32길 40 (황금동/ 황금중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "황금중학교",
-							"alternateName": "hwanggeum middle school",
-							"description": "대구광역시동부교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "42148 ",
-								"addressCountry": "KR",
-								"addressRegion": "대구광역시",
-								"addressLocality": "수성구",
-								"streetAddress": "대구광역시 수성구 들안로32길 40 (황금동/ 황금중학교)"
-							},
-							"telephone": "053-232-7955",
-							"faxNumber": "053-763-2469",
-							"sameAs": ["https://hgm.dge.ms.kr"]
-						}
-					],
+						"telephone": "053-232-7955",
+						"faxNumber": "053-763-2469",
+						"sameAs": ["https://hgm.dge.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "733.6 Kcal",
 										"carbohydrateContent": "94.8 g",
 										"proteinContent": "35.7 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "42.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.0 mg",
-										"calciumContent": "168.6 mg",
-										"ironContent": "5.4 mg"
+										"fatContent": "21.7 g"
 									}
 								}
 							]

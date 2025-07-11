@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대흘초등학교/",
 				"headline": "대흘초등학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대흘초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://daehul.jje.es.kr",
-							"url": "http://daehul.jje.es.kr",
-							"name": "대흘초등학교 급식 식단표 안내",
-							"description": "대흘초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대흘초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대흘초등학교",
+						"alternateName": "DAEHUL ELEMENTARY SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63343 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 조천읍 중산간동로 677 (조천읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대흘초등학교",
-							"alternateName": "DAEHUL ELEMENTARY SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63343 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 조천읍 중산간동로 677 (조천읍)"
-							},
-							"telephone": "064-780-3600",
-							"faxNumber": "064-783-6625",
-							"sameAs": ["http://daehul.jje.es.kr"]
-						}
-					],
+						"telephone": "064-780-3600",
+						"faxNumber": "064-783-6625",
+						"sameAs": ["http://daehul.jje.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "612.2 Kcal",
 										"carbohydrateContent": "78.7 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "15.8 g",
-										"vitaminAContent": "225.3 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "41.7 mg",
-										"calciumContent": "472.8 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "15.8 g"
 									}
 								}
 							]

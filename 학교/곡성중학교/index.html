@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/곡성중학교/",
 				"headline": "곡성중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/곡성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gokseong.ms.jne.kr",
-							"url": "http://gokseong.ms.jne.kr",
-							"name": "곡성중학교 급식 식단표 안내",
-							"description": "곡성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 곡성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "곡성중학교",
+						"alternateName": "Gokseong Middle School",
+						"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57537 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "곡성군",
+							"streetAddress": "전라남도 곡성군 곡성읍 학교로 80 (곡성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "곡성중학교",
-							"alternateName": "Gokseong Middle School",
-							"description": "전라남도곡성교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57537 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "곡성군",
-								"streetAddress": "전라남도 곡성군 곡성읍 학교로 80 (곡성읍)"
-							},
-							"telephone": "061-363-1811",
-							"faxNumber": "061-363-1979",
-							"sameAs": ["http://gokseong.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-363-1811",
+						"faxNumber": "061-363-1979",
+						"sameAs": ["http://gokseong.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "885.8 Kcal",
 										"carbohydrateContent": "129.2 g",
 										"proteinContent": "26.4 g",
-										"fatContent": "28.5 g",
-										"vitaminAContent": "113.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "24.0 mg",
-										"calciumContent": "245.1 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "28.5 g"
 									}
 								}
 							]

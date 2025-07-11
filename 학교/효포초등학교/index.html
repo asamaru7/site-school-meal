@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/효포초등학교/",
 				"headline": "효포초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/효포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.hyopo.cnees.kr",
-							"url": "http://www.hyopo.cnees.kr",
-							"name": "효포초등학교 급식 식단표 안내",
-							"description": "효포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 효포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "효포초등학교",
+						"alternateName": "Hyopo Elementary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32596 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 전진배길 313 (신기동/ 효포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "효포초등학교",
-							"alternateName": "Hyopo Elementary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32596 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 전진배길 313 (신기동/ 효포초등학교)"
-							},
-							"telephone": "041-854-5374",
-							"faxNumber": "041-854-5372",
-							"sameAs": ["http://www.hyopo.cnees.kr"]
-						}
-					]
+						"telephone": "041-854-5374",
+						"faxNumber": "041-854-5372",
+						"sameAs": ["http://www.hyopo.cnees.kr"]
+					}
 				]
 			}
 		</script>

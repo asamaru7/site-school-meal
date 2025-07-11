@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경주디자인고등학교/",
 				"headline": "경주디자인고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경주디자인고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/godesign",
-							"url": "http://school.gyo6.net/godesign",
-							"name": "경주디자인고등학교 급식 식단표 안내",
-							"description": "경주디자인고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경주디자인고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경주디자인고등학교",
+						"alternateName": "Gyeongju Design High School",
+						"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38044 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 현곡면 용담로 694 (현곡면/ 경주디자인고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경주디자인고등학교",
-							"alternateName": "Gyeongju Design High School",
-							"description": "경상북도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38044 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 현곡면 용담로 694 (현곡면/ 경주디자인고등학교)"
-							},
-							"telephone": "054-745-3713",
-							"faxNumber": "054-745-3714",
-							"sameAs": ["http://school.gyo6.net/godesign"]
-						}
-					],
+						"telephone": "054-745-3713",
+						"faxNumber": "054-745-3714",
+						"sameAs": ["http://school.gyo6.net/godesign"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "538.0 Kcal",
 										"carbohydrateContent": "73.9 g",
 										"proteinContent": "36.6 g",
-										"fatContent": "10.7 g",
-										"vitaminAContent": "195.4 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "1.7 mg",
-										"vitaminCContent": "60.9 mg",
-										"calciumContent": "150.3 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "10.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "651.7 Kcal",
 										"carbohydrateContent": "90.7 g",
 										"proteinContent": "36.3 g",
-										"fatContent": "14.9 g",
-										"vitaminAContent": "77.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.6 mg",
-										"calciumContent": "179.6 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "14.9 g"
 									}
 								}
 							]

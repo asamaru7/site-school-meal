@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/충무여자중학교/",
 				"headline": "충무여자중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/충무여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cmgm-m.gne.go.kr",
-							"url": "http://cmgm-m.gne.go.kr",
-							"name": "충무여자중학교 급식 식단표 안내",
-							"description": "충무여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 충무여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "충무여자중학교",
+						"alternateName": "Chungmu Girls` Middle School",
+						"description": "통영교육지원청 / 공립 / 여 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53064 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "통영시",
+							"streetAddress": "경상남도 통영시 평인일주로 75 (인평동/충무여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "충무여자중학교",
-							"alternateName": "Chungmu Girls` Middle School",
-							"description": "통영교육지원청 / 공립 / 여 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53064 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "통영시",
-								"streetAddress": "경상남도 통영시 평인일주로 75 (인평동/충무여자중학교)"
-							},
-							"telephone": "055-645-8412",
-							"faxNumber": "055-641-4714",
-							"sameAs": ["http://cmgm-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-645-8412",
+						"faxNumber": "055-641-4714",
+						"sameAs": ["http://cmgm-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "727.9 Kcal",
 										"carbohydrateContent": "117.0 g",
 										"proteinContent": "27.2 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "191.7 R.E",
-										"thiaminContent": "1.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "29.0 mg",
-										"calciumContent": "245.0 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/개포초등학교/",
 				"headline": "개포초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/개포초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.gaepo.es.kr",
-							"url": "http://www.gaepo.es.kr",
-							"name": "개포초등학교 급식 식단표 안내",
-							"description": "개포초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 개포초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "개포초등학교",
+						"alternateName": "Gaepo Elementary School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47169 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 백양대로208번길 9 (개금동/개포초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "개포초등학교",
-							"alternateName": "Gaepo Elementary School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47169 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 백양대로208번길 9 (개금동/개포초등학교)"
-							},
-							"telephone": "051-930-8000",
-							"faxNumber": "051-930-8099",
-							"sameAs": ["http://www.gaepo.es.kr"]
-						}
-					],
+						"telephone": "051-930-8000",
+						"faxNumber": "051-930-8099",
+						"sameAs": ["http://www.gaepo.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "680.8 Kcal",
 										"carbohydrateContent": "85.8 g",
 										"proteinContent": "28.1 g",
-										"fatContent": "25.2 g",
-										"vitaminAContent": "146.0 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "17.8 mg",
-										"calciumContent": "335.3 mg",
-										"ironContent": "5.7 mg"
+										"fatContent": "25.2 g"
 									}
 								}
 							]

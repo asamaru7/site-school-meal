@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성산중학교-고령/",
 				"headline": "성산중학교(고령) 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성산중학교-고령/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/seongsanms",
-							"url": "http://school.gyo6.net/seongsanms",
-							"name": "성산중학교(고령) 급식 식단표 안내",
-							"description": "성산중학교(고령)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성산중학교(고령)",
+						"alternateName": "Seongsan Middle School",
+						"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "40118 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "고령군",
+							"streetAddress": "경상북도 고령군 성산면 운성로 877 (성산면/ 성산중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성산중학교(고령)",
-							"alternateName": "Seongsan Middle School",
-							"description": "경상북도고령교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "40118 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "고령군",
-								"streetAddress": "경상북도 고령군 성산면 운성로 877 (성산면/ 성산중학교)"
-							},
-							"telephone": "054-954-4009",
-							"faxNumber": "054-955-4212",
-							"sameAs": ["http://school.gyo6.net/seongsanms"]
-						}
-					],
+						"telephone": "054-954-4009",
+						"faxNumber": "054-955-4212",
+						"sameAs": ["http://school.gyo6.net/seongsanms"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "821.4 Kcal",
 										"carbohydrateContent": "106.2 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "18.2 g",
-										"vitaminAContent": "131.5 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "22.0 mg",
-										"calciumContent": "166.1 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "18.2 g"
 									}
 								}
 							]

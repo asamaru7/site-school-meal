@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/안동용상초등학교/",
 				"headline": "안동용상초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/안동용상초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/adys",
-							"url": "http://school.gyo6.net/adys",
-							"name": "안동용상초등학교 급식 식단표 안내",
-							"description": "안동용상초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 안동용상초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "안동용상초등학교",
+						"alternateName": "Andong Yongsang Elementary School",
+						"description": "경상북도안동교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36720 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "안동시",
+							"streetAddress": "경상북도 안동시 경동로 900 (용상동/ 안동용상초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "안동용상초등학교",
-							"alternateName": "Andong Yongsang Elementary School",
-							"description": "경상북도안동교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36720 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "안동시",
-								"streetAddress": "경상북도 안동시 경동로 900 (용상동/ 안동용상초등학교)"
-							},
-							"telephone": "054-821-3016",
-							"faxNumber": "054-821-2565",
-							"sameAs": ["http://school.gyo6.net/adys"]
-						}
-					],
+						"telephone": "054-821-3016",
+						"faxNumber": "054-821-2565",
+						"sameAs": ["http://school.gyo6.net/adys"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "539.9 Kcal",
 										"carbohydrateContent": "66.4 g",
 										"proteinContent": "45.3 g",
-										"fatContent": "10.6 g",
-										"vitaminAContent": "75.3 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "19.3 mg",
-										"calciumContent": "300.1 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "10.6 g"
 									}
 								}
 							]

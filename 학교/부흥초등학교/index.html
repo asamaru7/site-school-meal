@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부흥초등학교/",
 				"headline": "부흥초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.buhung.es.kr",
-							"url": "http://www.buhung.es.kr",
-							"name": "부흥초등학교 급식 식단표 안내",
-							"description": "부흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부흥초등학교",
+						"alternateName": "Buhung Elementary School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48077 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 좌동순환로 216 (좌동/ 부흥초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부흥초등학교",
-							"alternateName": "Buhung Elementary School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48077 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 좌동순환로 216 (좌동/ 부흥초등학교)"
-							},
-							"telephone": "051-703-0093",
-							"faxNumber": "051-703-0993",
-							"sameAs": ["http://www.buhung.es.kr"]
-						}
-					],
+						"telephone": "051-703-0093",
+						"faxNumber": "051-703-0993",
+						"sameAs": ["http://www.buhung.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "605.6 Kcal",
 										"carbohydrateContent": "101.1 g",
 										"proteinContent": "19.8 g",
-										"fatContent": "13.1 g",
-										"vitaminAContent": "76.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "18.0 mg",
-										"calciumContent": "224.3 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "13.1 g"
 									}
 								}
 							]

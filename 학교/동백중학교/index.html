@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동백중학교/",
 				"headline": "동백중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동백중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tongbaek.ms.kr",
-							"url": "http://tongbaek.ms.kr",
-							"name": "동백중학교 급식 식단표 안내",
-							"description": "동백중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동백중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동백중학교",
+						"alternateName": "Tongbaek Middle School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48103 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "해운대구",
+							"streetAddress": "부산광역시 해운대구 좌동순환로468번가길 97 (중동/동백중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동백중학교",
-							"alternateName": "Tongbaek Middle School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48103 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "해운대구",
-								"streetAddress": "부산광역시 해운대구 좌동순환로468번가길 97 (중동/동백중학교)"
-							},
-							"telephone": "051-740-2300",
-							"faxNumber": "051-731-3205",
-							"sameAs": ["http://tongbaek.ms.kr"]
-						}
-					],
+						"telephone": "051-740-2300",
+						"faxNumber": "051-731-3205",
+						"sameAs": ["http://tongbaek.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "813.7 Kcal",
 										"carbohydrateContent": "123.8 g",
 										"proteinContent": "25.2 g",
-										"fatContent": "23.5 g",
-										"vitaminAContent": "80.0 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "26.2 mg",
-										"calciumContent": "91.5 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "23.5 g"
 									}
 								}
 							]

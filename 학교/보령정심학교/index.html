@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/보령정심학교/",
 				"headline": "보령정심학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/보령정심학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeongsim.cnesc.kr/",
-							"url": "http://jeongsim.cnesc.kr/",
-							"name": "보령정심학교 급식 식단표 안내",
-							"description": "보령정심학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 보령정심학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "보령정심학교",
+						"alternateName": "Boryeongjeongsim School",
+						"description": "충청남도교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "33447 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "보령시",
+							"streetAddress": "충청남도 보령시 주교면 보령북로 404 / 보령정심학교 (주교면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "보령정심학교",
-							"alternateName": "Boryeongjeongsim School",
-							"description": "충청남도교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "33447 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "보령시",
-								"streetAddress": "충청남도 보령시 주교면 보령북로 404 / 보령정심학교 (주교면)"
-							},
-							"telephone": "041-931-1715",
-							"faxNumber": "041-932-7452",
-							"sameAs": ["http://jeongsim.cnesc.kr/"]
-						}
-					]
+						"telephone": "041-931-1715",
+						"faxNumber": "041-932-7452",
+						"sameAs": ["http://jeongsim.cnesc.kr/"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은빛초등학교/",
 				"headline": "은빛초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은빛초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eunbit.gen.es.kr",
-							"url": "http://eunbit.gen.es.kr",
-							"name": "은빛초등학교 급식 식단표 안내",
-							"description": "은빛초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은빛초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은빛초등학교",
+						"alternateName": "Eunbit Elementary school",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "62308 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "광산구",
+							"streetAddress": "광주광역시 광산구 수완로33번길 11 (수완동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은빛초등학교",
-							"alternateName": "Eunbit Elementary school",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "62308 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "광산구",
-								"streetAddress": "광주광역시 광산구 수완로33번길 11 (수완동)"
-							},
-							"telephone": "062-712-6304",
-							"faxNumber": "062-712-6330",
-							"sameAs": ["http://eunbit.gen.es.kr"]
-						}
-					],
+						"telephone": "062-712-6304",
+						"faxNumber": "062-712-6330",
+						"sameAs": ["http://eunbit.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "588.8 Kcal",
 										"carbohydrateContent": "75.7 g",
 										"proteinContent": "18.2 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "227.3 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.0 mg",
-										"calciumContent": "178.4 mg",
-										"ironContent": "8.8 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

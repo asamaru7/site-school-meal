@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오봉초등학교-양산/",
 				"headline": "오봉초등학교(양산) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오봉초등학교-양산/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ysob-p.gne.go.kr",
-							"url": "http://ysob-p.gne.go.kr",
-							"name": "오봉초등학교(양산) 급식 식단표 안내",
-							"description": "오봉초등학교(양산)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오봉초등학교(양산)",
+						"alternateName": "Obong Elementary School",
+						"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50600 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "양산시",
+							"streetAddress": "경상남도 양산시 물금읍 목화9길 8 (물금읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오봉초등학교(양산)",
-							"alternateName": "Obong Elementary School",
-							"description": "양산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50600 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "양산시",
-								"streetAddress": "경상남도 양산시 물금읍 목화9길 8 (물금읍)"
-							},
-							"telephone": "055-388-4280",
-							"faxNumber": "055-388-4610",
-							"sameAs": ["http://ysob-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-388-4280",
+						"faxNumber": "055-388-4610",
+						"sameAs": ["http://ysob-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "626.1 Kcal",
 										"carbohydrateContent": "109.3 g",
 										"proteinContent": "29.6 g",
-										"fatContent": "7.4 g",
-										"vitaminAContent": "61.5 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "43.8 mg",
-										"calciumContent": "228.4 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "7.4 g"
 									}
 								}
 							]

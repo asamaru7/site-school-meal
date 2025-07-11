@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전주대정초등학교/",
 				"headline": "전주대정초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전주대정초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/jjdj",
-							"url": "https://school.jbedu.kr/jjdj",
-							"name": "전주대정초등학교 급식 식단표 안내",
-							"description": "전주대정초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전주대정초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전주대정초등학교",
+						"alternateName": "Jeonju Daejeong Elementary School",
+						"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55135 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "전주시 완산구",
+							"streetAddress": "전북특별자치도 전주시 완산구 맏내로 57 전주대정초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전주대정초등학교",
-							"alternateName": "Jeonju Daejeong Elementary School",
-							"description": "전북특별자치도전주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55135 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "전주시 완산구",
-								"streetAddress": "전북특별자치도 전주시 완산구 맏내로 57 전주대정초등학교"
-							},
-							"telephone": "063-236-9551",
-							"faxNumber": "063-236-9554",
-							"sameAs": ["https://school.jbedu.kr/jjdj"]
-						}
-					],
+						"telephone": "063-236-9551",
+						"faxNumber": "063-236-9554",
+						"sameAs": ["https://school.jbedu.kr/jjdj"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "589.5 Kcal",
 										"carbohydrateContent": "106.6 g",
 										"proteinContent": "19.9 g",
-										"fatContent": "8.5 g",
-										"vitaminAContent": "83.0 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "49.8 mg",
-										"calciumContent": "155.4 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "8.5 g"
 									}
 								}
 							]

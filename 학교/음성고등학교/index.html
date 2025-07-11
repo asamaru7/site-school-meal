@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/음성고등학교/",
 				"headline": "음성고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/음성고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/eumseong-h/M01",
-							"url": "http://school.cbe.go.kr/eumseong-h/M01",
-							"name": "음성고등학교 급식 식단표 안내",
-							"description": "음성고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 음성고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "음성고등학교",
+						"alternateName": "Eum Seong High School",
+						"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27704 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 음성읍 중앙로 109-16 (음성읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "음성고등학교",
-							"alternateName": "Eum Seong High School",
-							"description": "충청북도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27704 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 음성읍 중앙로 109-16 (음성읍)"
-							},
-							"telephone": "043-871-7740",
-							"faxNumber": "043-872-3694",
-							"sameAs": ["http://school.cbe.go.kr/eumseong-h/M01"]
-						}
-					],
+						"telephone": "043-871-7740",
+						"faxNumber": "043-872-3694",
+						"sameAs": ["http://school.cbe.go.kr/eumseong-h/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "983.1 Kcal",
 										"carbohydrateContent": "161.6 g",
 										"proteinContent": "35.3 g",
-										"fatContent": "20.6 g",
-										"vitaminAContent": "163.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "8.9 mg",
-										"calciumContent": "595.4 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "20.6 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "849.6 Kcal",
 										"carbohydrateContent": "138.5 g",
 										"proteinContent": "27.5 g",
-										"fatContent": "18.8 g",
-										"vitaminAContent": "80.8 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "54.6 mg",
-										"calciumContent": "117.4 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "18.8 g"
 									}
 								}
 							]

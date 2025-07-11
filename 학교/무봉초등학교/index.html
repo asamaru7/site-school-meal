@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무봉초등학교/",
 				"headline": "무봉초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무봉초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.mubong.es.kr",
-							"url": "http://www.mubong.es.kr",
-							"name": "무봉초등학교 급식 식단표 안내",
-							"description": "무봉초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무봉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무봉초등학교",
+						"alternateName": "Mubong Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18475 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 동탄청계로 303-34 (청계동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무봉초등학교",
-							"alternateName": "Mubong Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18475 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 동탄청계로 303-34 (청계동)"
-							},
-							"telephone": "031-8077-2326",
-							"faxNumber": "031-8077-2330",
-							"sameAs": ["http://www.mubong.es.kr"]
-						}
-					],
+						"telephone": "031-8077-2326",
+						"faxNumber": "031-8077-2330",
+						"sameAs": ["http://www.mubong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "633.8 Kcal",
 										"carbohydrateContent": "71.4 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "24.6 g",
-										"vitaminAContent": "187.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "306.3 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "24.6 g"
 									}
 								}
 							]

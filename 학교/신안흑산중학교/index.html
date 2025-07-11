@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신안흑산중학교/",
 				"headline": "신안흑산중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신안흑산중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://heuksan.ms.jne.kr",
-							"url": "http://heuksan.ms.jne.kr",
-							"name": "신안흑산중학교 급식 식단표 안내",
-							"description": "신안흑산중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신안흑산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신안흑산중학교",
+						"alternateName": "Shinan Heuksan Middle School",
+						"description": "전라남도신안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58863 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "신안군",
+							"streetAddress": "전라남도 신안군 흑산면 흑산일주로 124 (흑산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신안흑산중학교",
-							"alternateName": "Shinan Heuksan Middle School",
-							"description": "전라남도신안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58863 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "신안군",
-								"streetAddress": "전라남도 신안군 흑산면 흑산일주로 124 (흑산면)"
-							},
-							"telephone": "061-275-9354",
-							"faxNumber": "061-275-5980",
-							"sameAs": ["http://heuksan.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-275-9354",
+						"faxNumber": "061-275-5980",
+						"sameAs": ["http://heuksan.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "752.0 Kcal",
 										"carbohydrateContent": "116.1 g",
 										"proteinContent": "34.5 g",
-										"fatContent": "16.8 g",
-										"vitaminAContent": "96.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.0 mg",
-										"calciumContent": "118.0 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "16.8 g"
 									}
 								}
 							]

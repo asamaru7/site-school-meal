@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/담양고서중학교/",
 				"headline": "담양고서중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/담양고서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://goseo.ms.jne.kr",
-							"url": "http://goseo.ms.jne.kr",
-							"name": "담양고서중학교 급식 식단표 안내",
-							"description": "담양고서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 담양고서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "담양고서중학교",
+						"alternateName": "Damyanggoseo Middle school",
+						"description": "전라남도담양교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "57387 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "담양군",
+							"streetAddress": "전라남도 담양군 고서면 창평현로 234 (고서면/ 고서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "담양고서중학교",
-							"alternateName": "Damyanggoseo Middle school",
-							"description": "전라남도담양교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "57387 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "담양군",
-								"streetAddress": "전라남도 담양군 고서면 창평현로 234 (고서면/ 고서중학교)"
-							},
-							"telephone": "061-382-3015",
-							"faxNumber": "061-383-8832",
-							"sameAs": ["http://goseo.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-382-3015",
+						"faxNumber": "061-383-8832",
+						"sameAs": ["http://goseo.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "912.1 Kcal",
 										"carbohydrateContent": "134.7 g",
 										"proteinContent": "31.5 g",
-										"fatContent": "27.3 g",
-										"vitaminAContent": "418.9 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "29.1 mg",
-										"calciumContent": "301.5 mg",
-										"ironContent": "9.4 mg"
+										"fatContent": "27.3 g"
 									}
 								}
 							]

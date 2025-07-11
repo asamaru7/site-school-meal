@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/거창여자중학교/",
 				"headline": "거창여자중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/거창여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "geochayeo-m.gne.go.kr",
-							"url": "geochayeo-m.gne.go.kr",
-							"name": "거창여자중학교 급식 식단표 안내",
-							"description": "거창여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 거창여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "거창여자중학교",
+						"alternateName": " ",
+						"description": "거창교육지원청 / 공립 / 여 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50128 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거창군",
+							"streetAddress": "경상남도 거창군 거창읍 죽전4길 39 (거창읍/거창여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "거창여자중학교",
-							"alternateName": " ",
-							"description": "거창교육지원청 / 공립 / 여 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50128 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거창군",
-								"streetAddress": "경상남도 거창군 거창읍 죽전4길 39 (거창읍/거창여자중학교)"
-							},
-							"telephone": "055-944-3782",
-							"faxNumber": "055-942-7547",
-							"sameAs": ["geochayeo-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-944-3782",
+						"faxNumber": "055-942-7547",
+						"sameAs": ["geochayeo-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "696.2 Kcal",
 										"carbohydrateContent": "110.4 g",
 										"proteinContent": "38.4 g",
-										"fatContent": "10.8 g",
-										"vitaminAContent": "86.3 R.E",
-										"thiaminContent": "3.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.2 mg",
-										"calciumContent": "205.4 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "10.8 g"
 									}
 								}
 							]

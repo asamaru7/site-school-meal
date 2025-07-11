@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여명중학교/",
 				"headline": "여명중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여명중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.yomng.ms.kr",
-							"url": "www.yomng.ms.kr",
-							"name": "여명중학교 급식 식단표 안내",
-							"description": "여명중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여명중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여명중학교",
+						"alternateName": "YeoMyeong Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47845 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동래구",
+							"streetAddress": "부산광역시 동래구 여고로52번길 9 (사직동/ 여명중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여명중학교",
-							"alternateName": "YeoMyeong Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47845 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동래구",
-								"streetAddress": "부산광역시 동래구 여고로52번길 9 (사직동/ 여명중학교)"
-							},
-							"telephone": "051-5008-700",
-							"faxNumber": "051-5008-770",
-							"sameAs": ["www.yomng.ms.kr"]
-						}
-					],
+						"telephone": "051-5008-700",
+						"faxNumber": "051-5008-770",
+						"sameAs": ["www.yomng.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "798.1 Kcal",
 										"carbohydrateContent": "149.8 g",
 										"proteinContent": "29.6 g",
-										"fatContent": "9.1 g",
-										"vitaminAContent": "83.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "79.0 mg",
-										"calciumContent": "252.7 mg",
-										"ironContent": "4.7 mg"
+										"fatContent": "9.1 g"
 									}
 								}
 							]

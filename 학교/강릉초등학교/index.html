@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/강릉초등학교/",
 				"headline": "강릉초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/강릉초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kangnung.gwe.es.kr",
-							"url": "http://kangnung.gwe.es.kr",
-							"name": "강릉초등학교 급식 식단표 안내",
-							"description": "강릉초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강릉초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "강릉초등학교",
+						"alternateName": "Gangneung  Elementary School",
+						"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25527 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "강릉시",
+							"streetAddress": "강원특별자치도 강릉시 토성로 103 (홍제동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "강릉초등학교",
-							"alternateName": "Gangneung  Elementary School",
-							"description": "강원특별자치도강릉교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25527 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "강릉시",
-								"streetAddress": "강원특별자치도 강릉시 토성로 103 (홍제동)"
-							},
-							"telephone": "033-650-2604",
-							"faxNumber": "033-645-2554",
-							"sameAs": ["http://kangnung.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-650-2604",
+						"faxNumber": "033-645-2554",
+						"sameAs": ["http://kangnung.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "518.1 Kcal",
 										"carbohydrateContent": "66.0 g",
 										"proteinContent": "22.4 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "78.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "27.1 mg",
-										"calciumContent": "73.0 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/저청중학교/",
 				"headline": "저청중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/저청중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeocheong.jje.ms.kr",
-							"url": "http://jeocheong.jje.ms.kr",
-							"name": "저청중학교 급식 식단표 안내",
-							"description": "저청중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 저청중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "저청중학교",
+						"alternateName": "JEOCHEONG MIDDLE SCHOOL",
+						"description": "제주시교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "63006 ",
+							"addressCountry": "KR",
+							"addressRegion": "제주특별자치도",
+							"addressLocality": "제주시",
+							"streetAddress": "제주특별자치도 제주시 한경면 중산간서로 3590 (한경면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "저청중학교",
-							"alternateName": "JEOCHEONG MIDDLE SCHOOL",
-							"description": "제주시교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "63006 ",
-								"addressCountry": "KR",
-								"addressRegion": "제주특별자치도",
-								"addressLocality": "제주시",
-								"streetAddress": "제주특별자치도 제주시 한경면 중산간서로 3590 (한경면)"
-							},
-							"telephone": "064-798-1600",
-							"faxNumber": "064-798-1699",
-							"sameAs": ["http://jeocheong.jje.ms.kr"]
-						}
-					],
+						"telephone": "064-798-1600",
+						"faxNumber": "064-798-1699",
+						"sameAs": ["http://jeocheong.jje.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "680.8 Kcal",
 										"carbohydrateContent": "108.9 g",
 										"proteinContent": "22.4 g",
-										"fatContent": "17.5 g",
-										"vitaminAContent": "969.1 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "30.7 mg",
-										"calciumContent": "282.9 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "17.5 g"
 									}
 								}
 							]

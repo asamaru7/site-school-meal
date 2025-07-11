@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/인천여자중학교/",
 				"headline": "인천여자중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/인천여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://icg.icems.kr",
-							"url": "http://icg.icems.kr",
-							"name": "인천여자중학교 급식 식단표 안내",
-							"description": "인천여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 인천여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "인천여자중학교",
+						"alternateName": "Incheon Girls` Middle School",
+						"description": "인천광역시동부교육지원청 / 공립 / 여 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21973 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "연수구",
+							"streetAddress": "인천광역시 연수구 원인재로 47 (동춘동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "인천여자중학교",
-							"alternateName": "Incheon Girls` Middle School",
-							"description": "인천광역시동부교육지원청 / 공립 / 여 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21973 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "연수구",
-								"streetAddress": "인천광역시 연수구 원인재로 47 (동춘동)"
-							},
-							"telephone": "032-629-8283",
-							"faxNumber": "032-821-6342",
-							"sameAs": ["http://icg.icems.kr"]
-						}
-					],
+						"telephone": "032-629-8283",
+						"faxNumber": "032-821-6342",
+						"sameAs": ["http://icg.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "749.7 Kcal",
 										"carbohydrateContent": "92.1 g",
 										"proteinContent": "38.4 g",
-										"fatContent": "24.1 g",
-										"vitaminAContent": "116.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "6.0 mg",
-										"calciumContent": "276.5 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "24.1 g"
 									}
 								}
 							]

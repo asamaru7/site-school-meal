@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/개령서부초등학교/",
 				"headline": "개령서부초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/개령서부초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "school.gyo6.net/gaeseoes",
-							"url": "school.gyo6.net/gaeseoes",
-							"name": "개령서부초등학교 급식 식단표 안내",
-							"description": "개령서부초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 개령서부초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "개령서부초등학교",
+						"alternateName": "Gaeryeong Seobu Elementary School",
+						"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39516 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "김천시",
+							"streetAddress": "경상북도 김천시 개령면 감문로 277 (개령면/ 개령서부초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "개령서부초등학교",
-							"alternateName": "Gaeryeong Seobu Elementary School",
-							"description": "경상북도김천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39516 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "김천시",
-								"streetAddress": "경상북도 김천시 개령면 감문로 277 (개령면/ 개령서부초등학교)"
-							},
-							"telephone": "054-436-5272",
-							"faxNumber": "054-436-7633",
-							"sameAs": ["school.gyo6.net/gaeseoes"]
-						}
-					],
+						"telephone": "054-436-5272",
+						"faxNumber": "054-436-7633",
+						"sameAs": ["school.gyo6.net/gaeseoes"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "610.1 Kcal",
 										"carbohydrateContent": "93.0 g",
 										"proteinContent": "24.7 g",
-										"fatContent": "14.6 g",
-										"vitaminAContent": "67.6 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.8 mg",
-										"calciumContent": "219.3 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "14.6 g"
 									}
 								}
 							]

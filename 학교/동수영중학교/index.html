@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동수영중학교/",
 				"headline": "동수영중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동수영중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dsuyoung.ms.kr",
-							"url": "http://dsuyoung.ms.kr",
-							"name": "동수영중학교 급식 식단표 안내",
-							"description": "동수영중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동수영중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동수영중학교",
+						"alternateName": "Dongsuyong Middle School",
+						"description": "부산광역시해운대교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48245 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "수영구",
+							"streetAddress": "부산광역시 수영구 광서로 74 (광안동/ 동수영중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동수영중학교",
-							"alternateName": "Dongsuyong Middle School",
-							"description": "부산광역시해운대교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48245 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "수영구",
-								"streetAddress": "부산광역시 수영구 광서로 74 (광안동/ 동수영중학교)"
-							},
-							"telephone": "051-752-0046",
-							"faxNumber": "051-751-9674",
-							"sameAs": ["http://dsuyoung.ms.kr"]
-						}
-					],
+						"telephone": "051-752-0046",
+						"faxNumber": "051-751-9674",
+						"sameAs": ["http://dsuyoung.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "755.8 Kcal",
 										"carbohydrateContent": "119.0 g",
 										"proteinContent": "19.1 g",
-										"fatContent": "22.9 g",
-										"vitaminAContent": "142.2 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "21.5 mg",
-										"calciumContent": "277.3 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "22.9 g"
 									}
 								}
 							]

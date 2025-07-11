@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/반계초등학교/",
 				"headline": "반계초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/반계초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://bangue.gwe.es.kr",
-							"url": "http://bangue.gwe.es.kr",
-							"name": "반계초등학교 급식 식단표 안내",
-							"description": "반계초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 반계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "반계초등학교",
+						"alternateName": "Bangue Elementary School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26361 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 문막읍 원문로 2265 (문막읍, 반계초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "반계초등학교",
-							"alternateName": "Bangue Elementary School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26361 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 문막읍 원문로 2265 (문막읍, 반계초등학교)"
-							},
-							"telephone": "033-730-9600",
-							"faxNumber": "033-731-7490",
-							"sameAs": ["http://bangue.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-730-9600",
+						"faxNumber": "033-731-7490",
+						"sameAs": ["http://bangue.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "693.1 Kcal",
 										"carbohydrateContent": "92.3 g",
 										"proteinContent": "31.4 g",
-										"fatContent": "21.0 g",
-										"vitaminAContent": "119.3 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.6 mg",
-										"calciumContent": "170.5 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "21.0 g"
 									}
 								}
 							]

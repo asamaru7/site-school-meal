@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/삼례초등학교/",
 				"headline": "삼례초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/삼례초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/samrye",
-							"url": "https://school.jbedu.kr/samrye",
-							"name": "삼례초등학교 급식 식단표 안내",
-							"description": "삼례초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 삼례초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "삼례초등학교",
+						"alternateName": "Samrye Elementary School",
+						"description": "전북특별자치도완주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55337 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "완주군",
+							"streetAddress": "전북특별자치도 완주군 삼례읍 후정로 30 삼례초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "삼례초등학교",
-							"alternateName": "Samrye Elementary School",
-							"description": "전북특별자치도완주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55337 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "완주군",
-								"streetAddress": "전북특별자치도 완주군 삼례읍 후정로 30 삼례초등학교"
-							},
-							"telephone": "063-291-4788",
-							"faxNumber": "063-291-5153",
-							"sameAs": ["https://school.jbedu.kr/samrye"]
-						}
-					],
+						"telephone": "063-291-4788",
+						"faxNumber": "063-291-5153",
+						"sameAs": ["https://school.jbedu.kr/samrye"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "596.0 Kcal",
 										"carbohydrateContent": "81.4 g",
 										"proteinContent": "21.9 g",
-										"fatContent": "19.1 g",
-										"vitaminAContent": "38.4 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "8.3 mg",
-										"calciumContent": "66.2 mg",
-										"ironContent": "3.4 mg"
+										"fatContent": "19.1 g"
 									}
 								}
 							]

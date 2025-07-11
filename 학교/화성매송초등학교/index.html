@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화성매송초등학교/",
 				"headline": "화성매송초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화성매송초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.maesong.es.kr",
-							"url": "www.maesong.es.kr",
-							"name": "화성매송초등학교 급식 식단표 안내",
-							"description": "화성매송초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화성매송초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화성매송초등학교",
+						"alternateName": "Hwaseongmaesong Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18289 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "화성시",
+							"streetAddress": "경기도 화성시 매송면 화성로 2403 (매송면/매송초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화성매송초등학교",
-							"alternateName": "Hwaseongmaesong Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18289 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "화성시",
-								"streetAddress": "경기도 화성시 매송면 화성로 2403 (매송면/매송초등학교)"
-							},
-							"telephone": "031-291-2013",
-							"faxNumber": "031-292-7993",
-							"sameAs": ["www.maesong.es.kr"]
-						}
-					],
+						"telephone": "031-291-2013",
+						"faxNumber": "031-292-7993",
+						"sameAs": ["www.maesong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "524.5 Kcal",
 										"carbohydrateContent": "80.5 g",
 										"proteinContent": "23.7 g",
-										"fatContent": "11.1 g",
-										"vitaminAContent": "767.0 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "26.2 mg",
-										"calciumContent": "101.2 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "11.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/밀양중학교/",
 				"headline": "밀양중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/밀양중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "miryang-m.gne.go.kr",
-							"url": "miryang-m.gne.go.kr",
-							"name": "밀양중학교 급식 식단표 안내",
-							"description": "밀양중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 밀양중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "밀양중학교",
+						"alternateName": "Miryang Middle School",
+						"description": "밀양교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50440 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "밀양시",
+							"streetAddress": "경상남도 밀양시 삼문중앙로4길 19 (삼문동/ 밀양중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "밀양중학교",
-							"alternateName": "Miryang Middle School",
-							"description": "밀양교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50440 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "밀양시",
-								"streetAddress": "경상남도 밀양시 삼문중앙로4길 19 (삼문동/ 밀양중학교)"
-							},
-							"telephone": "055-355-3151",
-							"faxNumber": "055-354-4675",
-							"sameAs": ["miryang-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-355-3151",
+						"faxNumber": "055-354-4675",
+						"sameAs": ["miryang-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1103.6 Kcal",
 										"carbohydrateContent": "118.4 g",
 										"proteinContent": "43.9 g",
-										"fatContent": "50.4 g",
-										"vitaminAContent": "185.2 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "43.8 mg",
-										"calciumContent": "295.0 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "50.4 g"
 									}
 								}
 							]

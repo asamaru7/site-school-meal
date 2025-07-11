@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/일로동초등학교/",
 				"headline": "일로동초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/일로동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://illodong.es.jne.kr",
-							"url": "http://illodong.es.jne.kr",
-							"name": "일로동초등학교 급식 식단표 안내",
-							"description": "일로동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 일로동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "일로동초등학교",
+						"alternateName": "Illodong Elementary School",
+						"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58570 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "무안군",
+							"streetAddress": "전라남도 무안군 일로읍 광암길 81-7 (일로읍/ 일로동초교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "일로동초등학교",
-							"alternateName": "Illodong Elementary School",
-							"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58570 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "무안군",
-								"streetAddress": "전라남도 무안군 일로읍 광암길 81-7 (일로읍/ 일로동초교)"
-							},
-							"telephone": "061-281-0307",
-							"faxNumber": "061-282-8174",
-							"sameAs": ["http://illodong.es.jne.kr"]
-						}
-					],
+						"telephone": "061-281-0307",
+						"faxNumber": "061-282-8174",
+						"sameAs": ["http://illodong.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "657.4 Kcal",
 										"carbohydrateContent": "95.4 g",
 										"proteinContent": "32.8 g",
-										"fatContent": "15.4 g",
-										"vitaminAContent": "130.5 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.6 mg",
-										"calciumContent": "606.6 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "15.4 g"
 									}
 								}
 							]

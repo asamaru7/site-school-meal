@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/명지초등학교/",
 				"headline": "명지초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/명지초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.myongji.net",
-							"url": "http://www.myongji.net",
-							"name": "명지초등학교 급식 식단표 안내",
-							"description": "명지초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 명지초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "명지초등학교",
+						"alternateName": "Myongji Elementary School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03656 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서대문구",
+							"streetAddress": "서울특별시 서대문구 명지2길 32-20 (홍은동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "명지초등학교",
-							"alternateName": "Myongji Elementary School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03656 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서대문구",
-								"streetAddress": "서울특별시 서대문구 명지2길 32-20 (홍은동)"
-							},
-							"telephone": "02-372-2872",
-							"faxNumber": "02-375-6996",
-							"sameAs": ["http://www.myongji.net"]
-						}
-					]
+						"telephone": "02-372-2872",
+						"faxNumber": "02-375-6996",
+						"sameAs": ["http://www.myongji.net"]
+					}
 				]
 			}
 		</script>

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문산초등학교-진주/",
 				"headline": "문산초등학교(진주) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문산초등학교-진주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://munsan-p.gne.go.kr",
-							"url": "http://munsan-p.gne.go.kr",
-							"name": "문산초등학교(진주) 급식 식단표 안내",
-							"description": "문산초등학교(진주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문산초등학교(진주)",
+						"alternateName": "",
+						"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52832 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 문산읍 소문길 11 (문산읍/ 문산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문산초등학교(진주)",
-							"alternateName": "",
-							"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52832 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 문산읍 소문길 11 (문산읍/ 문산초등학교)"
-							},
-							"telephone": "055-761-6606",
-							"faxNumber": "055-762-4584",
-							"sameAs": ["http://munsan-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-761-6606",
+						"faxNumber": "055-762-4584",
+						"sameAs": ["http://munsan-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "722.4 Kcal",
 										"carbohydrateContent": "106.3 g",
 										"proteinContent": "29.2 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "131.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.3 mg",
-										"vitaminCContent": "7.7 mg",
-										"calciumContent": "404.4 mg",
-										"ironContent": "5.9 mg"
+										"fatContent": "19.3 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/여주중학교/",
 				"headline": "여주중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/여주중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://yeoju-m.goeyj.kr/",
-							"url": "https://yeoju-m.goeyj.kr/",
-							"name": "여주중학교 급식 식단표 안내",
-							"description": "여주중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 여주중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "여주중학교",
+						"alternateName": "YEOJU MIDDLE SCHOOL",
+						"description": "경기도여주교육지원청 / 공립 / 남 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "12643 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "여주시",
+							"streetAddress": "경기도 여주시 세종대왕면 농도원1길 78 (세종대왕면/ 여주중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "여주중학교",
-							"alternateName": "YEOJU MIDDLE SCHOOL",
-							"description": "경기도여주교육지원청 / 공립 / 남 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "12643 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "여주시",
-								"streetAddress": "경기도 여주시 세종대왕면 농도원1길 78 (세종대왕면/ 여주중학교)"
-							},
-							"telephone": "031-880-8993",
-							"faxNumber": "031-884-9805",
-							"sameAs": ["https://yeoju-m.goeyj.kr/"]
-						}
-					],
+						"telephone": "031-880-8993",
+						"faxNumber": "031-884-9805",
+						"sameAs": ["https://yeoju-m.goeyj.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1111.7 Kcal",
 										"carbohydrateContent": "165.9 g",
 										"proteinContent": "47.3 g",
-										"fatContent": "27.2 g",
-										"vitaminAContent": "280.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "28.0 mg",
-										"calciumContent": "403.8 mg",
-										"ironContent": "4.5 mg"
+										"fatContent": "27.2 g"
 									}
 								}
 							]

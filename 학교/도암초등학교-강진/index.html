@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/도암초등학교-강진/",
 				"headline": "도암초등학교(강진) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/도암초등학교-강진/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gj-doam.es.jne.kr",
-							"url": "http://gj-doam.es.jne.kr",
-							"name": "도암초등학교(강진) 급식 식단표 안내",
-							"description": "도암초등학교(강진)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "도암초등학교(강진)",
+						"alternateName": "Doam elementary school",
+						"description": "전라남도강진교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "59250 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "강진군",
+							"streetAddress": "전라남도 강진군 도암면 봉황로 10 (도암면/ 도암초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "도암초등학교(강진)",
-							"alternateName": "Doam elementary school",
-							"description": "전라남도강진교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "59250 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "강진군",
-								"streetAddress": "전라남도 강진군 도암면 봉황로 10 (도암면/ 도암초등학교)"
-							},
-							"telephone": "061-432-0006",
-							"faxNumber": "061-434-8865",
-							"sameAs": ["http://gj-doam.es.jne.kr"]
-						}
-					],
+						"telephone": "061-432-0006",
+						"faxNumber": "061-434-8865",
+						"sameAs": ["http://gj-doam.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "580.3 Kcal",
 										"carbohydrateContent": "89.6 g",
 										"proteinContent": "23.6 g",
-										"fatContent": "14.3 g",
-										"vitaminAContent": "155.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "35.1 mg",
-										"calciumContent": "199.9 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "14.3 g"
 									}
 								}
 							]

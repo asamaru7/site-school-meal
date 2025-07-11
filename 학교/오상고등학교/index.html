@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오상고등학교/",
 				"headline": "오상고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오상고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/osanghs",
-							"url": "http://school.gyo6.net/osanghs",
-							"name": "오상고등학교 급식 식단표 안내",
-							"description": "오상고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오상고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오상고등학교",
+						"alternateName": "Osang High School",
+						"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "39453 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "구미시",
+							"streetAddress": "경상북도 구미시 장천면 강동로 164 (장천면/오상고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오상고등학교",
-							"alternateName": "Osang High School",
-							"description": "경상북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "39453 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "구미시",
-								"streetAddress": "경상북도 구미시 장천면 강동로 164 (장천면/오상고등학교)"
-							},
-							"telephone": "054-471-5037",
-							"faxNumber": "054-471-7908",
-							"sameAs": ["http://school.gyo6.net/osanghs"]
-						}
-					],
+						"telephone": "054-471-5037",
+						"faxNumber": "054-471-7908",
+						"sameAs": ["http://school.gyo6.net/osanghs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "741.8 Kcal",
 										"carbohydrateContent": "95.4 g",
 										"proteinContent": "23.5 g",
-										"fatContent": "31.3 g",
-										"vitaminAContent": "210.7 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "26.3 mg",
-										"calciumContent": "150.8 mg",
-										"ironContent": "13.2 mg"
+										"fatContent": "31.3 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "839.8 Kcal",
 										"carbohydrateContent": "113.2 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "29.3 g",
-										"vitaminAContent": "111.9 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.9 mg",
-										"calciumContent": "266.3 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "29.3 g"
 									}
 								},
 								{
@@ -152,13 +128,7 @@
 										"calories": "1074.5 Kcal",
 										"carbohydrateContent": "169.0 g",
 										"proteinContent": "36.9 g",
-										"fatContent": "27.5 g",
-										"vitaminAContent": "766.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "48.1 mg",
-										"calciumContent": "157.6 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "27.5 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/의신초등학교/",
 				"headline": "의신초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/의신초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://uisin.es.jne.kr",
-							"url": "http://uisin.es.jne.kr",
-							"name": "의신초등학교 급식 식단표 안내",
-							"description": "의신초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 의신초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "의신초등학교",
+						"alternateName": "Uisin Elementary School",
+						"description": "전라남도진도교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58935 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "진도군",
+							"streetAddress": "전라남도 진도군 의신면 돈지1길 13 (의신면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "의신초등학교",
-							"alternateName": "Uisin Elementary School",
-							"description": "전라남도진도교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58935 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "진도군",
-								"streetAddress": "전라남도 진도군 의신면 돈지1길 13 (의신면)"
-							},
-							"telephone": "061-543-4014",
-							"faxNumber": "061-543-8315",
-							"sameAs": ["http://uisin.es.jne.kr"]
-						}
-					],
+						"telephone": "061-543-4014",
+						"faxNumber": "061-543-8315",
+						"sameAs": ["http://uisin.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "681.7 Kcal",
 										"carbohydrateContent": "95.9 g",
 										"proteinContent": "28.2 g",
-										"fatContent": "19.3 g",
-										"vitaminAContent": "112.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "14.1 mg",
-										"calciumContent": "161.8 mg",
-										"ironContent": "2.8 mg"
+										"fatContent": "19.3 g"
 									}
 								}
 							]

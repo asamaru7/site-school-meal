@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부림초등학교-의령/",
 				"headline": "부림초등학교(의령) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부림초등학교-의령/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://burim-p.gne.go.kr/",
-							"url": "http://burim-p.gne.go.kr/",
-							"name": "부림초등학교(의령) 급식 식단표 안내",
-							"description": "부림초등학교(의령)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부림초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부림초등학교(의령)",
+						"alternateName": "",
+						"description": "의령교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52103 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "의령군",
+							"streetAddress": "경상남도 의령군 부림면 대한로 1721 (부림면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부림초등학교(의령)",
-							"alternateName": "",
-							"description": "의령교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52103 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "의령군",
-								"streetAddress": "경상남도 의령군 부림면 대한로 1721 (부림면)"
-							},
-							"telephone": "055-574-6406",
-							"faxNumber": "055-574-6396",
-							"sameAs": ["http://burim-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-574-6406",
+						"faxNumber": "055-574-6396",
+						"sameAs": ["http://burim-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "742.9 Kcal",
 										"carbohydrateContent": "93.6 g",
 										"proteinContent": "32.3 g",
-										"fatContent": "26.0 g",
-										"vitaminAContent": "68.1 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "9.0 mg",
-										"calciumContent": "157.6 mg",
-										"ironContent": "2.1 mg"
+										"fatContent": "26.0 g"
 									}
 								}
 							]

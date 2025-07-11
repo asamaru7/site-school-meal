@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/울산초등학교/",
 				"headline": "울산초등학교 급식 식단표 안내 : 울산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/울산초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.ulsan.es.kr",
-							"url": "www.ulsan.es.kr",
-							"name": "울산초등학교 급식 식단표 안내",
-							"description": "울산초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 울산초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "울산초등학교",
+						"alternateName": "Ulsan Elementary school",
+						"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "44540 ",
+							"addressCountry": "KR",
+							"addressRegion": "울산광역시",
+							"addressLocality": "중구",
+							"streetAddress": "울산광역시 중구 종가5길 30 / . (유곡동/ 울산초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "울산초등학교",
-							"alternateName": "Ulsan Elementary school",
-							"description": "울산광역시강북교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "44540 ",
-								"addressCountry": "KR",
-								"addressRegion": "울산광역시",
-								"addressLocality": "중구",
-								"streetAddress": "울산광역시 중구 종가5길 30 / . (유곡동/ 울산초등학교)"
-							},
-							"telephone": "052-244-7679",
-							"faxNumber": "052-244-9291",
-							"sameAs": ["www.ulsan.es.kr"]
-						}
-					],
+						"telephone": "052-244-7679",
+						"faxNumber": "052-244-9291",
+						"sameAs": ["www.ulsan.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "624.5 Kcal",
 										"carbohydrateContent": "56.1 g",
 										"proteinContent": "38.4 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "107.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "12.5 mg",
-										"calciumContent": "183.3 mg",
-										"ironContent": "2.5 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

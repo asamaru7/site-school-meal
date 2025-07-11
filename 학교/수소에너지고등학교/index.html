@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수소에너지고등학교/",
 				"headline": "수소에너지고등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수소에너지고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.jbedu.kr/hehs",
-							"url": "https://school.jbedu.kr/hehs",
-							"name": "수소에너지고등학교 급식 식단표 안내",
-							"description": "수소에너지고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수소에너지고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수소에너지고등학교",
+						"alternateName": "Hydrogen Energy High School",
+						"description": "전북특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "55343 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "완주군",
+							"streetAddress": "전북특별자치도 완주군 삼례읍 삼례역로 41-1 (삼례읍, 수소에너지고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수소에너지고등학교",
-							"alternateName": "Hydrogen Energy High School",
-							"description": "전북특별자치도교육청 / 공립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "55343 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "완주군",
-								"streetAddress": "전북특별자치도 완주군 삼례읍 삼례역로 41-1 (삼례읍, 수소에너지고등학교)"
-							},
-							"telephone": "063-291-4911",
-							"faxNumber": "063-291-0774",
-							"sameAs": ["https://school.jbedu.kr/hehs"]
-						}
-					],
+						"telephone": "063-291-4911",
+						"faxNumber": "063-291-0774",
+						"sameAs": ["https://school.jbedu.kr/hehs"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "723.9 Kcal",
 										"carbohydrateContent": "107.3 g",
 										"proteinContent": "39.7 g",
-										"fatContent": "13.0 g",
-										"vitaminAContent": "1336.6 R.E",
-										"thiaminContent": "3.3 mg",
-										"riboflavinContent": "1.7 mg",
-										"vitaminCContent": "102.0 mg",
-										"calciumContent": "232.7 mg",
-										"ironContent": "7.4 mg"
+										"fatContent": "13.0 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "964.5 Kcal",
 										"carbohydrateContent": "99.6 g",
 										"proteinContent": "51.0 g",
-										"fatContent": "38.8 g",
-										"vitaminAContent": "165.1 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "30.3 mg",
-										"calciumContent": "153.9 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "38.8 g"
 									}
 								}
 							]

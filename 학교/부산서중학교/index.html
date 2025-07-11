@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부산서중학교/",
 				"headline": "부산서중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부산서중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://busanseo.ms.kr",
-							"url": "http://busanseo.ms.kr",
-							"name": "부산서중학교 급식 식단표 안내",
-							"description": "부산서중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부산서중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부산서중학교",
+						"alternateName": "Busanseo Middle School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48799 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "동구",
+							"streetAddress": "부산광역시 동구 홍곡남로 29 (수정동/부산서중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부산서중학교",
-							"alternateName": "Busanseo Middle School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48799 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "동구",
-								"streetAddress": "부산광역시 동구 홍곡남로 29 (수정동/부산서중학교)"
-							},
-							"telephone": "051-440-3800",
-							"faxNumber": "051-441-7085",
-							"sameAs": ["http://busanseo.ms.kr"]
-						}
-					],
+						"telephone": "051-440-3800",
+						"faxNumber": "051-441-7085",
+						"sameAs": ["http://busanseo.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "832.5 Kcal",
 										"carbohydrateContent": "115.8 g",
 										"proteinContent": "38.0 g",
-										"fatContent": "24.2 g",
-										"vitaminAContent": "182.8 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "26.9 mg",
-										"calciumContent": "358.4 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "24.2 g"
 									}
 								}
 							]

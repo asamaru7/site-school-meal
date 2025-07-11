@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/수진초등학교/",
 				"headline": "수진초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/수진초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://sujin-e.goesn.kr",
-							"url": "https://sujin-e.goesn.kr",
-							"name": "수진초등학교 급식 식단표 안내",
-							"description": "수진초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 수진초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "수진초등학교",
+						"alternateName": "Sujin Elementary School",
+						"description": "경기도성남교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "13301 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "성남시 수정구",
+							"streetAddress": "경기도 성남시 수정구 탄리로95번길 16 / 수진초등학교 (태평동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "수진초등학교",
-							"alternateName": "Sujin Elementary School",
-							"description": "경기도성남교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "13301 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "성남시 수정구",
-								"streetAddress": "경기도 성남시 수정구 탄리로95번길 16 / 수진초등학교 (태평동)"
-							},
-							"telephone": "031-756-2187",
-							"faxNumber": "031-756-2185",
-							"sameAs": ["https://sujin-e.goesn.kr"]
-						}
-					],
+						"telephone": "031-756-2187",
+						"faxNumber": "031-756-2185",
+						"sameAs": ["https://sujin-e.goesn.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "671.9 Kcal",
 										"carbohydrateContent": "98.2 g",
 										"proteinContent": "24.1 g",
-										"fatContent": "19.6 g",
-										"vitaminAContent": "154.8 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "53.4 mg",
-										"calciumContent": "204.9 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "19.6 g"
 									}
 								}
 							]

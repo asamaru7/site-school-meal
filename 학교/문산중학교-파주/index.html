@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문산중학교-파주/",
 				"headline": "문산중학교(파주) 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문산중학교-파주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.pajumunsan.ms.kr",
-							"url": "www.pajumunsan.ms.kr",
-							"name": "문산중학교(파주) 급식 식단표 안내",
-							"description": "문산중학교(파주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문산중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문산중학교(파주)",
+						"alternateName": "Munsan Middle School",
+						"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10849 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "파주시",
+							"streetAddress": "경기도 파주시 평화로 190 / 문산중학교 (야동동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문산중학교(파주)",
-							"alternateName": "Munsan Middle School",
-							"description": "경기도파주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10849 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "파주시",
-								"streetAddress": "경기도 파주시 평화로 190 / 문산중학교 (야동동)"
-							},
-							"telephone": "031-943-2645",
-							"faxNumber": "031-945-1984",
-							"sameAs": ["www.pajumunsan.ms.kr"]
-						}
-					],
+						"telephone": "031-943-2645",
+						"faxNumber": "031-945-1984",
+						"sameAs": ["www.pajumunsan.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "871.4 Kcal",
 										"carbohydrateContent": "105.9 g",
 										"proteinContent": "42.6 g",
-										"fatContent": "28.9 g",
-										"vitaminAContent": "169.6 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "1.8 mg",
-										"calciumContent": "197.5 mg",
-										"ironContent": "2.6 mg"
+										"fatContent": "28.9 g"
 									}
 								}
 							]

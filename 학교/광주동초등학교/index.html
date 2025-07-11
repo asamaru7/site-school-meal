@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주동초등학교/",
 				"headline": "광주동초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "dong.gen.es.kr",
-							"url": "dong.gen.es.kr",
-							"name": "광주동초등학교 급식 식단표 안내",
-							"description": "광주동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주동초등학교",
+						"alternateName": "Gwangju Dong Elementary School",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61140 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "북구",
+							"streetAddress": "광주광역시 북구 석곡로 527 (망월동/광주동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주동초등학교",
-							"alternateName": "Gwangju Dong Elementary School",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61140 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "북구",
-								"streetAddress": "광주광역시 북구 석곡로 527 (망월동/광주동초등학교)"
-							},
-							"telephone": "062-250-2700",
-							"faxNumber": "062-266-4943",
-							"sameAs": ["dong.gen.es.kr"]
-						}
-					],
+						"telephone": "062-250-2700",
+						"faxNumber": "062-266-4943",
+						"sameAs": ["dong.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "806.9 Kcal",
 										"carbohydrateContent": "121.7 g",
 										"proteinContent": "24.6 g",
-										"fatContent": "25.0 g",
-										"vitaminAContent": "81.7 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "5.3 mg",
-										"calciumContent": "139.9 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "25.0 g"
 									}
 								}
 							]

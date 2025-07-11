@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/충암중학교/",
 				"headline": "충암중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/충암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://choongam.sen.ms.kr/",
-							"url": "https://choongam.sen.ms.kr/",
-							"name": "충암중학교 급식 식단표 안내",
-							"description": "충암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 충암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "충암중학교",
+						"alternateName": "Choongam Middle School",
+						"description": "서울특별시서부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03481 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "은평구",
+							"streetAddress": "서울특별시 은평구 가좌로5길 5 (응암동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "충암중학교",
-							"alternateName": "Choongam Middle School",
-							"description": "서울특별시서부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03481 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "은평구",
-								"streetAddress": "서울특별시 은평구 가좌로5길 5 (응암동)"
-							},
-							"telephone": "070-5002-8740",
-							"faxNumber": "02-303-3001",
-							"sameAs": ["https://choongam.sen.ms.kr/"]
-						}
-					],
+						"telephone": "070-5002-8740",
+						"faxNumber": "02-303-3001",
+						"sameAs": ["https://choongam.sen.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1001.2 Kcal",
 										"carbohydrateContent": "174.9 g",
 										"proteinContent": "35.1 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "117.1 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "10.4 mg",
-										"calciumContent": "236.2 mg",
-										"ironContent": "6.4 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

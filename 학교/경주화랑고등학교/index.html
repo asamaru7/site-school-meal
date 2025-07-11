@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/경주화랑고등학교/",
 				"headline": "경주화랑고등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/경주화랑고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/hwarang",
-							"url": "http://school.gyo6.net/hwarang",
-							"name": "경주화랑고등학교 급식 식단표 안내",
-							"description": "경주화랑고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경주화랑고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "경주화랑고등학교",
+						"alternateName": "Gyeongju Hwarang High School",
+						"description": "경상북도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38120 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 양북면 장항재동길 41 (양북면/경주화랑고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "경주화랑고등학교",
-							"alternateName": "Gyeongju Hwarang High School",
-							"description": "경상북도교육청 / 사립 / 남여공학 / 특성화고 / 전문계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38120 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 양북면 장항재동길 41 (양북면/경주화랑고등학교)"
-							},
-							"telephone": "054-771-2355",
-							"faxNumber": "054-771-2356",
-							"sameAs": ["http://school.gyo6.net/hwarang"]
-						}
-					],
+						"telephone": "054-771-2355",
+						"faxNumber": "054-771-2356",
+						"sameAs": ["http://school.gyo6.net/hwarang"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "838.0 Kcal",
 										"carbohydrateContent": "133.8 g",
 										"proteinContent": "19.4 g",
-										"fatContent": "24.8 g",
-										"vitaminAContent": "234.2 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "33.3 mg",
-										"calciumContent": "560.9 mg",
-										"ironContent": "6.2 mg"
+										"fatContent": "24.8 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "769.9 Kcal",
 										"carbohydrateContent": "118.4 g",
 										"proteinContent": "36.3 g",
-										"fatContent": "14.7 g",
-										"vitaminAContent": "117.4 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "13.3 mg",
-										"calciumContent": "138.2 mg",
-										"ironContent": "2.3 mg"
+										"fatContent": "14.7 g"
 									}
 								}
 							]

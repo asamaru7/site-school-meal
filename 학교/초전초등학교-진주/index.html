@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/초전초등학교-진주/",
 				"headline": "초전초등학교(진주) 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/초전초등학교-진주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://chojeon-p.gne.go.kr",
-							"url": "http://chojeon-p.gne.go.kr",
-							"name": "초전초등학교(진주) 급식 식단표 안내",
-							"description": "초전초등학교(진주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초전초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "초전초등학교(진주)",
+						"alternateName": "Chojeon Elementary School",
+						"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52734 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "진주시",
+							"streetAddress": "경상남도 진주시 초전북로 62번길  9 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "초전초등학교(진주)",
-							"alternateName": "Chojeon Elementary School",
-							"description": "진주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52734 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "진주시",
-								"streetAddress": "경상남도 진주시 초전북로 62번길  9 "
-							},
-							"telephone": "055-761-6471",
-							"faxNumber": "055-761-4173",
-							"sameAs": ["http://chojeon-p.gne.go.kr"]
-						}
-					],
+						"telephone": "055-761-6471",
+						"faxNumber": "055-761-4173",
+						"sameAs": ["http://chojeon-p.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "1125.2 Kcal",
 										"carbohydrateContent": "181.4 g",
 										"proteinContent": "41.9 g",
-										"fatContent": "24.0 g",
-										"vitaminAContent": "222.4 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "9.6 mg",
-										"calciumContent": "437.3 mg",
-										"ironContent": "3.9 mg"
+										"fatContent": "24.0 g"
 									}
 								}
 							]

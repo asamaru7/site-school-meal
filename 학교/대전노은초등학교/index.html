@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전노은초등학교/",
 				"headline": "대전노은초등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전노은초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://djnoeunes.djsch.kr/ ",
-							"url": "http://djnoeunes.djsch.kr/ ",
-							"name": "대전노은초등학교 급식 식단표 안내",
-							"description": "대전노은초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전노은초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전노은초등학교",
+						"alternateName": "Daejeon Noeun Elementary School",
+						"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34091 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 노은동로99번길 35 / 대전노은초등학교 (노은동/노은초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전노은초등학교",
-							"alternateName": "Daejeon Noeun Elementary School",
-							"description": "대전광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34091 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 노은동로99번길 35 / 대전노은초등학교 (노은동/노은초등학교)"
-							},
-							"telephone": "042-476-1492",
-							"faxNumber": "042-476-1497",
-							"sameAs": ["http://djnoeunes.djsch.kr/ "]
-						}
-					],
+						"telephone": "042-476-1492",
+						"faxNumber": "042-476-1497",
+						"sameAs": ["http://djnoeunes.djsch.kr/ "]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "555.8 Kcal",
 										"carbohydrateContent": "91.5 g",
 										"proteinContent": "17.1 g",
-										"fatContent": "13.6 g",
-										"vitaminAContent": "168.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "9.8 mg",
-										"calciumContent": "174.2 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "13.6 g"
 									}
 								}
 							]

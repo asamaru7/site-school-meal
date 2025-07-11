@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/소명여자고등학교/",
 				"headline": "소명여자고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/소명여자고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://somyong-h.goebc.kr",
-							"url": "https://somyong-h.goebc.kr",
-							"name": "소명여자고등학교 급식 식단표 안내",
-							"description": "소명여자고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 소명여고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "소명여자고등학교",
+						"alternateName": "Somyong Girls High School",
+						"description": "경기도교육청 / 사립 / 여 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "14647 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "부천시 원미구",
+							"streetAddress": "경기도 부천시 원미구 부일로 571번길 / 84 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "소명여자고등학교",
-							"alternateName": "Somyong Girls High School",
-							"description": "경기도교육청 / 사립 / 여 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "14647 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "부천시 원미구",
-								"streetAddress": "경기도 부천시 원미구 부일로 571번길 / 84 "
-							},
-							"telephone": "070-7099-5521",
-							"faxNumber": "032-349-5524",
-							"sameAs": ["https://somyong-h.goebc.kr"]
-						}
-					],
+						"telephone": "070-7099-5521",
+						"faxNumber": "032-349-5524",
+						"sameAs": ["https://somyong-h.goebc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "856.0 Kcal",
 										"carbohydrateContent": "83.5 g",
 										"proteinContent": "41.0 g",
-										"fatContent": "39.7 g",
-										"vitaminAContent": "36.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "27.2 mg",
-										"calciumContent": "184.3 mg",
-										"ironContent": "3.2 mg"
+										"fatContent": "39.7 g"
 									}
 								}
 							]

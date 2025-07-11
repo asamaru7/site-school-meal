@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/작전중학교/",
 				"headline": "작전중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/작전중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jakjeon.icems.kr",
-							"url": "http://jakjeon.icems.kr",
-							"name": "작전중학교 급식 식단표 안내",
-							"description": "작전중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 작전중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "작전중학교",
+						"alternateName": "Jakjeon Middle School",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21085 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "계양구",
+							"streetAddress": "인천광역시 계양구 주부토로448번길 16 (작전동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "작전중학교",
-							"alternateName": "Jakjeon Middle School",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21085 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "계양구",
-								"streetAddress": "인천광역시 계양구 주부토로448번길 16 (작전동)"
-							},
-							"telephone": "032-556-1845",
-							"faxNumber": "032-556-1848",
-							"sameAs": ["http://jakjeon.icems.kr"]
-						}
-					],
+						"telephone": "032-556-1845",
+						"faxNumber": "032-556-1848",
+						"sameAs": ["http://jakjeon.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "719.5 Kcal",
 										"carbohydrateContent": "101.2 g",
 										"proteinContent": "33.3 g",
-										"fatContent": "19.9 g",
-										"vitaminAContent": "249.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.1 mg",
-										"calciumContent": "260.6 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "19.9 g"
 									}
 								}
 							]

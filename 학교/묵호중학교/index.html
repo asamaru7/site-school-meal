@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/묵호중학교/",
 				"headline": "묵호중학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/묵호중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://mukho.gwe.ms.kr",
-							"url": "http://mukho.gwe.ms.kr",
-							"name": "묵호중학교 급식 식단표 안내",
-							"description": "묵호중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 묵호중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "묵호중학교",
+						"alternateName": "Mukho Middle School",
+						"description": "강원특별자치도동해교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "25727 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "동해시",
+							"streetAddress": "강원특별자치도 동해시 향로3길 42 (발한동/묵호중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "묵호중학교",
-							"alternateName": "Mukho Middle School",
-							"description": "강원특별자치도동해교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "25727 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "동해시",
-								"streetAddress": "강원특별자치도 동해시 향로3길 42 (발한동/묵호중학교)"
-							},
-							"telephone": "033-530-6888",
-							"faxNumber": "033-533-8296",
-							"sameAs": ["http://mukho.gwe.ms.kr"]
-						}
-					],
+						"telephone": "033-530-6888",
+						"faxNumber": "033-533-8296",
+						"sameAs": ["http://mukho.gwe.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "815.4 Kcal",
 										"carbohydrateContent": "106.0 g",
 										"proteinContent": "42.3 g",
-										"fatContent": "22.6 g",
-										"vitaminAContent": "227.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "18.1 mg",
-										"calciumContent": "289.4 mg",
-										"ironContent": "2.0 mg"
+										"fatContent": "22.6 g"
 									}
 								}
 							]

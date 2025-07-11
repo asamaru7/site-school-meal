@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동의중학교/",
 				"headline": "동의중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동의중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.dongeui.ms.kr",
-							"url": "http://www.dongeui.ms.kr",
-							"name": "동의중학교 급식 식단표 안내",
-							"description": "동의중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동의중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동의중학교",
+						"alternateName": "Dongeui Middle School",
+						"description": "부산광역시남부교육지원청 / 사립 / 남 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47230 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "부산진구",
+							"streetAddress": "부산광역시 부산진구 진남로462번길 16 (전포동/ 동의중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동의중학교",
-							"alternateName": "Dongeui Middle School",
-							"description": "부산광역시남부교육지원청 / 사립 / 남 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47230 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "부산진구",
-								"streetAddress": "부산광역시 부산진구 진남로462번길 16 (전포동/ 동의중학교)"
-							},
-							"telephone": "051-816-8691",
-							"faxNumber": "051-808-8214",
-							"sameAs": ["http://www.dongeui.ms.kr"]
-						}
-					],
+						"telephone": "051-816-8691",
+						"faxNumber": "051-808-8214",
+						"sameAs": ["http://www.dongeui.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "888.5 Kcal",
 										"carbohydrateContent": "133.4 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "21.9 g",
-										"vitaminAContent": "268.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "42.2 mg",
-										"calciumContent": "100.2 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "21.9 g"
 									}
 								}
 							]

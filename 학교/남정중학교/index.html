@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남정중학교/",
 				"headline": "남정중학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남정중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.gyo6.net/namjeongms",
-							"url": "http://school.gyo6.net/namjeongms",
-							"name": "남정중학교 급식 식단표 안내",
-							"description": "남정중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남정중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남정중학교",
+						"alternateName": "Namjeong Middle School",
+						"description": "경상북도영덕교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36463 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영덕군",
+							"streetAddress": "경상북도 영덕군 남정면 진불길 11-27 / 남정중학교 (남정면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남정중학교",
-							"alternateName": "Namjeong Middle School",
-							"description": "경상북도영덕교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36463 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영덕군",
-								"streetAddress": "경상북도 영덕군 남정면 진불길 11-27 / 남정중학교 (남정면)"
-							},
-							"telephone": "054-732-5229",
-							"faxNumber": "054-734-4574",
-							"sameAs": ["http://school.gyo6.net/namjeongms"]
-						}
-					]
+						"telephone": "054-732-5229",
+						"faxNumber": "054-734-4574",
+						"sameAs": ["http://school.gyo6.net/namjeongms"]
+					}
 				]
 			}
 		</script>

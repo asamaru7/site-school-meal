@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신관초등학교/",
 				"headline": "신관초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신관초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://shingwan.cnees.kr/main.do",
-							"url": "http://shingwan.cnees.kr/main.do",
-							"name": "신관초등학교 급식 식단표 안내",
-							"description": "신관초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신관초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신관초등학교",
+						"alternateName": "Shingwan Elementary School",
+						"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32576 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "공주시",
+							"streetAddress": "충청남도 공주시 번영1로 97-13 (신관동/ 신관초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신관초등학교",
-							"alternateName": "Shingwan Elementary School",
-							"description": "충청남도공주교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32576 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "공주시",
-								"streetAddress": "충청남도 공주시 번영1로 97-13 (신관동/ 신관초등학교)"
-							},
-							"telephone": "041-856-1902",
-							"faxNumber": "041-858-3544",
-							"sameAs": ["http://shingwan.cnees.kr/main.do"]
-						}
-					],
+						"telephone": "041-856-1902",
+						"faxNumber": "041-858-3544",
+						"sameAs": ["http://shingwan.cnees.kr/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "551.2 Kcal",
 										"carbohydrateContent": "70.5 g",
 										"proteinContent": "32.9 g",
-										"fatContent": "14.1 g",
-										"vitaminAContent": "222.2 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "17.6 mg",
-										"calciumContent": "254.1 mg",
-										"ironContent": "4.6 mg"
+										"fatContent": "14.1 g"
 									}
 								}
 							]

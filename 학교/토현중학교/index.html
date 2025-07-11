@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/토현중학교/",
 				"headline": "토현중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/토현중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://tohyeon.ms.kr",
-							"url": "http://tohyeon.ms.kr",
-							"name": "토현중학교 급식 식단표 안내",
-							"description": "토현중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 토현중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "토현중학교",
+						"alternateName": "Tohyeon Middle School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "47572 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "연제구",
+							"streetAddress": "부산광역시 연제구 토현로 47 (연산동,토현중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "토현중학교",
-							"alternateName": "Tohyeon Middle School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "47572 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "연제구",
-								"streetAddress": "부산광역시 연제구 토현로 47 (연산동,토현중학교)"
-							},
-							"telephone": "051-750-3700",
-							"faxNumber": "051-759-3391",
-							"sameAs": ["http://tohyeon.ms.kr"]
-						}
-					],
+						"telephone": "051-750-3700",
+						"faxNumber": "051-759-3391",
+						"sameAs": ["http://tohyeon.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "831.3 Kcal",
 										"carbohydrateContent": "113.4 g",
 										"proteinContent": "29.4 g",
-										"fatContent": "28.0 g",
-										"vitaminAContent": "63.2 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "58.7 mg",
-										"calciumContent": "332.7 mg",
-										"ironContent": "7.0 mg"
+										"fatContent": "28.0 g"
 									}
 								}
 							]

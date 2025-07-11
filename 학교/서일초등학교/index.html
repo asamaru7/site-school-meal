@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서일초등학교/",
 				"headline": "서일초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서일초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seoil.gen.es.kr/",
-							"url": "http://seoil.gen.es.kr/",
-							"name": "서일초등학교 급식 식단표 안내",
-							"description": "서일초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서일초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서일초등학교",
+						"alternateName": "Seoil Elementary School",
+						"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61032 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "북구",
+							"streetAddress": "광주광역시 북구 설죽로 590 (일곡동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서일초등학교",
-							"alternateName": "Seoil Elementary School",
-							"description": "광주광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61032 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "북구",
-								"streetAddress": "광주광역시 북구 설죽로 590 (일곡동)"
-							},
-							"telephone": "062-570-5700",
-							"faxNumber": "062-570-5703",
-							"sameAs": ["http://seoil.gen.es.kr/"]
-						}
-					],
+						"telephone": "062-570-5700",
+						"faxNumber": "062-570-5703",
+						"sameAs": ["http://seoil.gen.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 18일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "494.7 Kcal",
 										"carbohydrateContent": "84.4 g",
 										"proteinContent": "22.8 g",
-										"fatContent": "7.8 g",
-										"vitaminAContent": "168.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "25.7 mg",
-										"calciumContent": "341.9 mg",
-										"ironContent": "3.3 mg"
+										"fatContent": "7.8 g"
 									}
 								}
 							]

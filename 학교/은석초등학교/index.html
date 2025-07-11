@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/은석초등학교/",
 				"headline": "은석초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/은석초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eunseok.sen.es.kr/index.do",
-							"url": "http://eunseok.sen.es.kr/index.do",
-							"name": "은석초등학교 급식 식단표 안내",
-							"description": "은석초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 은석초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "은석초등학교",
+						"alternateName": "Eunseok Elementary School",
+						"description": "서울특별시동부교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "02520 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "동대문구",
+							"streetAddress": "서울특별시 동대문구 장안벚꽃로 205 (장안동/ 은석초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "은석초등학교",
-							"alternateName": "Eunseok Elementary School",
-							"description": "서울특별시동부교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "02520 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "동대문구",
-								"streetAddress": "서울특별시 동대문구 장안벚꽃로 205 (장안동/ 은석초등학교)"
-							},
-							"telephone": "02-6937-8180",
-							"faxNumber": "02-6937-8190",
-							"sameAs": ["http://eunseok.sen.es.kr/index.do"]
-						}
-					],
+						"telephone": "02-6937-8180",
+						"faxNumber": "02-6937-8190",
+						"sameAs": ["http://eunseok.sen.es.kr/index.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "567.5 Kcal",
 										"carbohydrateContent": "78.7 g",
 										"proteinContent": "30.8 g",
-										"fatContent": "14.0 g",
-										"vitaminAContent": "167.3 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "239.1 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "14.0 g"
 									}
 								}
 							]

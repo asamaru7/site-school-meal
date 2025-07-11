@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/청계초등학교-무안/",
 				"headline": "청계초등학교(무안) 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/청계초등학교-무안/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://cheonggye.es.jne.kr",
-							"url": "http://cheonggye.es.jne.kr",
-							"name": "청계초등학교(무안) 급식 식단표 안내",
-							"description": "청계초등학교(무안)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청계초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "청계초등학교(무안)",
+						"alternateName": "Cheonggye Elementary School",
+						"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58541 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "무안군",
+							"streetAddress": "전라남도 무안군 청계면 영산로 1870 (청계면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "청계초등학교(무안)",
-							"alternateName": "Cheonggye Elementary School",
-							"description": "전라남도무안교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58541 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "무안군",
-								"streetAddress": "전라남도 무안군 청계면 영산로 1870 (청계면)"
-							},
-							"telephone": "061-454-5073",
-							"faxNumber": "061-454-5077",
-							"sameAs": ["http://cheonggye.es.jne.kr"]
-						}
-					],
+						"telephone": "061-454-5073",
+						"faxNumber": "061-454-5077",
+						"sameAs": ["http://cheonggye.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "659.5 Kcal",
 										"carbohydrateContent": "103.8 g",
 										"proteinContent": "33.0 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "159.1 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "14.0 mg",
-										"calciumContent": "85.8 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/매안초등학교/",
 				"headline": "매안초등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/매안초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://maean.es.jne.kr",
-							"url": "http://maean.es.jne.kr",
-							"name": "매안초등학교 급식 식단표 안내",
-							"description": "매안초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 매안초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "매안초등학교",
+						"alternateName": "Maean Elementary School",
+						"description": "전라남도순천교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58016 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "순천시",
+							"streetAddress": "전라남도 순천시 해룡면 좌야로 16 (해룡면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "매안초등학교",
-							"alternateName": "Maean Elementary School",
-							"description": "전라남도순천교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58016 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "순천시",
-								"streetAddress": "전라남도 순천시 해룡면 좌야로 16 (해룡면)"
-							},
-							"telephone": "061-804-0800",
-							"faxNumber": "061-727-6857",
-							"sameAs": ["http://maean.es.jne.kr"]
-						}
-					],
+						"telephone": "061-804-0800",
+						"faxNumber": "061-727-6857",
+						"sameAs": ["http://maean.es.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "659.8 Kcal",
 										"carbohydrateContent": "91.7 g",
 										"proteinContent": "34.8 g",
-										"fatContent": "15.1 g",
-										"vitaminAContent": "84.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "8.9 mg",
-										"calciumContent": "240.8 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "15.1 g"
 									}
 								}
 							]

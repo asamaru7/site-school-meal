@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광성초등학교/",
 				"headline": "광성초등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.kseong.es.kr",
-							"url": "www.kseong.es.kr",
-							"name": "광성초등학교 급식 식단표 안내",
-							"description": "광성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광성초등학교",
+						"alternateName": "KwangSeong Elementary School",
+						"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "18107 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "오산시",
+							"streetAddress": "경기도 오산시 수목원로 577-18 / 광성초등학교 (세교동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광성초등학교",
-							"alternateName": "KwangSeong Elementary School",
-							"description": "경기도화성오산교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "18107 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "오산시",
-								"streetAddress": "경기도 오산시 수목원로 577-18 / 광성초등학교 (세교동)"
-							},
-							"telephone": "031-372-3032",
-							"faxNumber": "031-372-4333",
-							"sameAs": ["www.kseong.es.kr"]
-						}
-					],
+						"telephone": "031-372-3032",
+						"faxNumber": "031-372-4333",
+						"sameAs": ["www.kseong.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "590.3 Kcal",
 										"carbohydrateContent": "99.7 g",
 										"proteinContent": "20.2 g",
-										"fatContent": "11.3 g",
-										"vitaminAContent": "34.3 R.E",
-										"thiaminContent": "0.2 mg",
-										"riboflavinContent": "0.2 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "282.9 mg",
-										"ironContent": "2.2 mg"
+										"fatContent": "11.3 g"
 									}
 								}
 							]

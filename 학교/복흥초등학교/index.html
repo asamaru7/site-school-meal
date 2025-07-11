@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/복흥초등학교/",
 				"headline": "복흥초등학교 급식 식단표 안내 : 전북특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/복흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.bok.es.kr",
-							"url": "www.bok.es.kr",
-							"name": "복흥초등학교 급식 식단표 안내",
-							"description": "복흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 복흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "복흥초등학교",
+						"alternateName": "Bokheung Elementary School",
+						"description": "전북특별자치도순창교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "56005 ",
+							"addressCountry": "KR",
+							"addressRegion": "전북특별자치도",
+							"addressLocality": "순창군",
+							"streetAddress": "전북특별자치도 순창군 복흥면 정산로 12 복흥초등학교"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "복흥초등학교",
-							"alternateName": "Bokheung Elementary School",
-							"description": "전북특별자치도순창교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "56005 ",
-								"addressCountry": "KR",
-								"addressRegion": "전북특별자치도",
-								"addressLocality": "순창군",
-								"streetAddress": "전북특별자치도 순창군 복흥면 정산로 12 복흥초등학교"
-							},
-							"telephone": "063-652-1612",
-							"faxNumber": "063-652-1614",
-							"sameAs": ["www.bok.es.kr"]
-						}
-					],
+						"telephone": "063-652-1612",
+						"faxNumber": "063-652-1614",
+						"sameAs": ["www.bok.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "689.7 Kcal",
 										"carbohydrateContent": "90.4 g",
 										"proteinContent": "36.8 g",
-										"fatContent": "19.8 g",
-										"vitaminAContent": "235.8 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "23.9 mg",
-										"calciumContent": "310.6 mg",
-										"ironContent": "5.8 mg"
+										"fatContent": "19.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울토성초등학교/",
 				"headline": "서울토성초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울토성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://stosung.sen.es.kr",
-							"url": "http://stosung.sen.es.kr",
-							"name": "서울토성초등학교 급식 식단표 안내",
-							"description": "서울토성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울토성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울토성초등학교",
+						"alternateName": "Seoul Tosung Elementary School",
+						"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05533 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "송파구",
+							"streetAddress": "서울특별시 송파구 풍성로20길 44 / 서울토성초등학교 (풍납동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울토성초등학교",
-							"alternateName": "Seoul Tosung Elementary School",
-							"description": "서울특별시강동송파교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05533 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "송파구",
-								"streetAddress": "서울특별시 송파구 풍성로20길 44 / 서울토성초등학교 (풍납동)"
-							},
-							"telephone": "02-475-5036",
-							"faxNumber": "02-475-5038",
-							"sameAs": ["http://stosung.sen.es.kr"]
-						}
-					],
+						"telephone": "02-475-5036",
+						"faxNumber": "02-475-5038",
+						"sameAs": ["http://stosung.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "576.8 Kcal",
 										"carbohydrateContent": "89.7 g",
 										"proteinContent": "26.3 g",
-										"fatContent": "11.2 g",
-										"vitaminAContent": "152.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "243.5 mg",
-										"ironContent": "1.8 mg"
+										"fatContent": "11.2 g"
 									}
 								}
 							]

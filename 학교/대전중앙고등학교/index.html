@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전중앙고등학교/",
 				"headline": "대전중앙고등학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전중앙고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://djjahs.djsch.kr",
-							"url": "http://djjahs.djsch.kr",
-							"name": "대전중앙고등학교 급식 식단표 안내",
-							"description": "대전중앙고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전중앙고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전중앙고등학교",
+						"alternateName": "Daejoen Jung-ang High School",
+						"description": "대전광역시교육청 / 사립 / 남 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34804 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "중구",
+							"streetAddress": "대전광역시 중구 대종로 634 (중촌동/ 대전중앙중.고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전중앙고등학교",
-							"alternateName": "Daejoen Jung-ang High School",
-							"description": "대전광역시교육청 / 사립 / 남 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34804 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "중구",
-								"streetAddress": "대전광역시 중구 대종로 634 (중촌동/ 대전중앙중.고등학교)"
-							},
-							"telephone": "042-220-0340",
-							"faxNumber": "042-252-6188",
-							"sameAs": ["http://djjahs.djsch.kr"]
-						}
-					],
+						"telephone": "042-220-0340",
+						"faxNumber": "042-252-6188",
+						"sameAs": ["http://djjahs.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "974.7 Kcal",
 										"carbohydrateContent": "122.3 g",
 										"proteinContent": "48.6 g",
-										"fatContent": "30.0 g",
-										"vitaminAContent": "271.0 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "31.1 mg",
-										"calciumContent": "281.4 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "30.0 g"
 									}
 								}
 							]

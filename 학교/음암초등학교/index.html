@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/음암초등학교/",
 				"headline": "음암초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/음암초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://eumam.cnees.kr",
-							"url": "http://eumam.cnees.kr",
-							"name": "음암초등학교 급식 식단표 안내",
-							"description": "음암초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 음암초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "음암초등학교",
+						"alternateName": "Eumam Elementary School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31936 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 음암면 도당로 5 (음암면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "음암초등학교",
-							"alternateName": "Eumam Elementary School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31936 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 음암면 도당로 5 (음암면)"
-							},
-							"telephone": "041-669-6211",
-							"faxNumber": "041-669-6213",
-							"sameAs": ["http://eumam.cnees.kr"]
-						}
-					]
+						"telephone": "041-669-6211",
+						"faxNumber": "041-669-6213",
+						"sameAs": ["http://eumam.cnees.kr"]
+					}
 				]
 			}
 		</script>

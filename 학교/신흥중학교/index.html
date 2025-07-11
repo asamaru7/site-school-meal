@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/신흥중학교/",
 				"headline": "신흥중학교 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/신흥중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sh.icems.kr",
-							"url": "http://sh.icems.kr",
-							"name": "신흥중학교 급식 식단표 안내",
-							"description": "신흥중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신흥중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "신흥중학교",
+						"alternateName": "SINHEUNG MIDDLE SCHOOL",
+						"description": "인천광역시남부교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "22333 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "중구",
+							"streetAddress": "인천광역시 중구 인항로24번길 38 (신흥동3가)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "신흥중학교",
-							"alternateName": "SINHEUNG MIDDLE SCHOOL",
-							"description": "인천광역시남부교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "22333 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "중구",
-								"streetAddress": "인천광역시 중구 인항로24번길 38 (신흥동3가)"
-							},
-							"telephone": "032-883-1955",
-							"faxNumber": "032-885-9275",
-							"sameAs": ["http://sh.icems.kr"]
-						}
-					],
+						"telephone": "032-883-1955",
+						"faxNumber": "032-885-9275",
+						"sameAs": ["http://sh.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "948.8 Kcal",
 										"carbohydrateContent": "138.9 g",
 										"proteinContent": "46.9 g",
-										"fatContent": "21.1 g",
-										"vitaminAContent": "146.3 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "24.1 mg",
-										"calciumContent": "188.1 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "21.1 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/광주농성초등학교/",
 				"headline": "광주농성초등학교 급식 식단표 안내 : 광주광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/광주농성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nongsung.gen.es.kr",
-							"url": "http://nongsung.gen.es.kr",
-							"name": "광주농성초등학교 급식 식단표 안내",
-							"description": "광주농성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 광주농성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "광주농성초등학교",
+						"alternateName": "Gwangju Nongsung Elementary School",
+						"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "61617 ",
+							"addressCountry": "KR",
+							"addressRegion": "광주광역시",
+							"addressLocality": "남구",
+							"streetAddress": "광주광역시 남구 금화로481번길 7 (월산동/농성초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "광주농성초등학교",
-							"alternateName": "Gwangju Nongsung Elementary School",
-							"description": "광주광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "61617 ",
-								"addressCountry": "KR",
-								"addressRegion": "광주광역시",
-								"addressLocality": "남구",
-								"streetAddress": "광주광역시 남구 금화로481번길 7 (월산동/농성초등학교)"
-							},
-							"telephone": "062-360-6520",
-							"faxNumber": "062-360-6530",
-							"sameAs": ["http://nongsung.gen.es.kr"]
-						}
-					],
+						"telephone": "062-360-6520",
+						"faxNumber": "062-360-6530",
+						"sameAs": ["http://nongsung.gen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "540.3 Kcal",
 										"carbohydrateContent": "70.4 g",
 										"proteinContent": "23.1 g",
-										"fatContent": "17.6 g",
-										"vitaminAContent": "176.5 R.E",
-										"thiaminContent": "1.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "59.3 mg",
-										"calciumContent": "270.6 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "17.6 g"
 									}
 								}
 							]

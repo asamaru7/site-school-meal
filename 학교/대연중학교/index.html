@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대연중학교/",
 				"headline": "대연중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대연중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "https://school.busanedu.net/daeyeon-m",
-							"url": "https://school.busanedu.net/daeyeon-m",
-							"name": "대연중학교 급식 식단표 안내",
-							"description": "대연중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대연중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대연중학교",
+						"alternateName": "Daeyeon Middle School",
+						"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48461 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "남구",
+							"streetAddress": "부산광역시 남구 천제등로16번길 81 (대연동/대연중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대연중학교",
-							"alternateName": "Daeyeon Middle School",
-							"description": "부산광역시남부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48461 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "남구",
-								"streetAddress": "부산광역시 남구 천제등로16번길 81 (대연동/대연중학교)"
-							},
-							"telephone": "051-606-7700",
-							"faxNumber": "051-642-9168",
-							"sameAs": ["https://school.busanedu.net/daeyeon-m"]
-						}
-					],
+						"telephone": "051-606-7700",
+						"faxNumber": "051-642-9168",
+						"sameAs": ["https://school.busanedu.net/daeyeon-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "735.8 Kcal",
 										"carbohydrateContent": "125.1 g",
 										"proteinContent": "31.0 g",
-										"fatContent": "14.4 g",
-										"vitaminAContent": "283.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "30.8 mg",
-										"calciumContent": "407.5 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "14.4 g"
 									}
 								}
 							]

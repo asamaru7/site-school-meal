@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/대전성세재활학교/",
 				"headline": "대전성세재활학교 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/대전성세재활학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sungsesc.djsch.kr",
-							"url": "http://sungsesc.djsch.kr",
-							"name": "대전성세재활학교 급식 식단표 안내",
-							"description": "대전성세재활학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 대전성세재활학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "대전성세재활학교",
+						"alternateName": "Daejeon Seongse Rehabilitation School",
+						"description": "대전광역시교육청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34218 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "유성구",
+							"streetAddress": "대전광역시 유성구 유성대로298번길 175 (용계동 319-3)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "대전성세재활학교",
-							"alternateName": "Daejeon Seongse Rehabilitation School",
-							"description": "대전광역시교육청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34218 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "유성구",
-								"streetAddress": "대전광역시 유성구 유성대로298번길 175 (용계동 319-3)"
-							},
-							"telephone": "042-333-6300",
-							"faxNumber": "042-333-6399",
-							"sameAs": ["http://sungsesc.djsch.kr"]
-						}
-					],
+						"telephone": "042-333-6300",
+						"faxNumber": "042-333-6399",
+						"sameAs": ["http://sungsesc.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "743.0 Kcal",
 										"carbohydrateContent": "103.8 g",
 										"proteinContent": "26.9 g",
-										"fatContent": "23.8 g",
-										"vitaminAContent": "136.4 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "44.2 mg",
-										"calciumContent": "198.7 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "23.8 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서산명지중학교/",
 				"headline": "서산명지중학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서산명지중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.ssmj.cnems.kr",
-							"url": "http://www.ssmj.cnems.kr",
-							"name": "서산명지중학교 급식 식단표 안내",
-							"description": "서산명지중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서산명지중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서산명지중학교",
+						"alternateName": "Seosanmyongji Middle School",
+						"description": "충청남도서산교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "31907 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "서산시",
+							"streetAddress": "충청남도 서산시 대산읍 명지1로 15 (대산읍/ 대산명지중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서산명지중학교",
-							"alternateName": "Seosanmyongji Middle School",
-							"description": "충청남도서산교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "31907 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "서산시",
-								"streetAddress": "충청남도 서산시 대산읍 명지1로 15 (대산읍/ 대산명지중학교)"
-							},
-							"telephone": "041-668-7445",
-							"faxNumber": "041-669-7441",
-							"sameAs": ["http://www.ssmj.cnems.kr"]
-						}
-					],
+						"telephone": "041-668-7445",
+						"faxNumber": "041-669-7441",
+						"sameAs": ["http://www.ssmj.cnems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "877.2 Kcal",
 										"carbohydrateContent": "127.7 g",
 										"proteinContent": "36.1 g",
-										"fatContent": "23.3 g",
-										"vitaminAContent": "168.1 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "25.0 mg",
-										"calciumContent": "92.7 mg",
-										"ironContent": "3.1 mg"
+										"fatContent": "23.3 g"
 									}
 								}
 							]

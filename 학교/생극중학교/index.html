@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/생극중학교/",
 				"headline": "생극중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/생극중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/saenggeuk-m",
-							"url": "http://school.cbe.go.kr/saenggeuk-m",
-							"name": "생극중학교 급식 식단표 안내",
-							"description": "생극중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 생극중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "생극중학교",
+						"alternateName": "SaengGeuk Middle School",
+						"description": "충청북도음성교육지원청 / 사립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27619 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 생극면 음성로 1672 (생극면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "생극중학교",
-							"alternateName": "SaengGeuk Middle School",
-							"description": "충청북도음성교육지원청 / 사립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27619 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 생극면 음성로 1672 (생극면)"
-							},
-							"telephone": "043-878-3481",
-							"faxNumber": "043-877-4782",
-							"sameAs": ["http://school.cbe.go.kr/saenggeuk-m"]
-						}
-					],
+						"telephone": "043-878-3481",
+						"faxNumber": "043-877-4782",
+						"sameAs": ["http://school.cbe.go.kr/saenggeuk-m"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "726.3 Kcal",
 										"carbohydrateContent": "110.2 g",
 										"proteinContent": "34.0 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "82.4 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "6.1 mg",
-										"calciumContent": "136.5 mg",
-										"ironContent": "2.4 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/전동초등학교/",
 				"headline": "전동초등학교 급식 식단표 안내 : 세종특별자치시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/전동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jeondong.sjedues.kr",
-							"url": "http://jeondong.sjedues.kr",
-							"name": "전동초등학교 급식 식단표 안내",
-							"description": "전동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 전동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "전동초등학교",
+						"alternateName": "Jeondong Elementary School",
+						"description": "세종특별자치시교육청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "30011 ",
+							"addressCountry": "KR",
+							"addressRegion": "세종특별자치시",
+							"addressLocality": "",
+							"streetAddress": "세종특별자치시 전동면 하노장3길 9 (전동면/ 전동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "전동초등학교",
-							"alternateName": "Jeondong Elementary School",
-							"description": "세종특별자치시교육청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "30011 ",
-								"addressCountry": "KR",
-								"addressRegion": "세종특별자치시",
-								"addressLocality": "",
-								"streetAddress": "세종특별자치시 전동면 하노장3길 9 (전동면/ 전동초등학교)"
-							},
-							"telephone": "044-863-1208",
-							"faxNumber": "044-863-5716",
-							"sameAs": ["http://jeondong.sjedues.kr"]
-						}
-					],
+						"telephone": "044-863-1208",
+						"faxNumber": "044-863-5716",
+						"sameAs": ["http://jeondong.sjedues.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 14일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "642.1 Kcal",
 										"carbohydrateContent": "105.1 g",
 										"proteinContent": "28.8 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "237.1 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "20.6 mg",
-										"calciumContent": "268.0 mg",
-										"ironContent": "3.7 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

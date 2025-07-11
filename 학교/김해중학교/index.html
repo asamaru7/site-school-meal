@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/김해중학교/",
 				"headline": "김해중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/김해중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://kimhae-m.gne.go.kr",
-							"url": "http://kimhae-m.gne.go.kr",
-							"name": "김해중학교 급식 식단표 안내",
-							"description": "김해중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 김해중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "김해중학교",
+						"alternateName": " ",
+						"description": "김해교육지원청 / 공립 / 남 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50922 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "김해시",
+							"streetAddress": "경상남도 김해시 호계로 456 (부원동/ 김해중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "김해중학교",
-							"alternateName": " ",
-							"description": "김해교육지원청 / 공립 / 남 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50922 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "김해시",
-								"streetAddress": "경상남도 김해시 호계로 456 (부원동/ 김해중학교)"
-							},
-							"telephone": "055-335-4501",
-							"faxNumber": "055-321-6459",
-							"sameAs": ["http://kimhae-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-335-4501",
+						"faxNumber": "055-321-6459",
+						"sameAs": ["http://kimhae-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "969.5 Kcal",
 										"carbohydrateContent": "145.5 g",
 										"proteinContent": "54.6 g",
-										"fatContent": "17.4 g",
-										"vitaminAContent": "189.0 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "39.6 mg",
-										"calciumContent": "300.0 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "17.4 g"
 									}
 								}
 							]

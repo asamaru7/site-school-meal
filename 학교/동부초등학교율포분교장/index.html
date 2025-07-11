@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/동부초등학교율포분교장/",
 				"headline": "동부초등학교율포분교장 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/동부초등학교율포분교장/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "",
-							"url": "",
-							"name": "동부초등학교율포분교장 급식 식단표 안내",
-							"description": "동부초등학교율포분교장의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 동부초등학교율포분교장 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "동부초등학교율포분교장",
+						"alternateName": "Yulpo Elementry School Yulpo branch school",
+						"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "53330 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "거제시",
+							"streetAddress": "경상남도 거제시 동부면 율포4길 1 (동부면/ 동부초등학교율포분교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "동부초등학교율포분교장",
-							"alternateName": "Yulpo Elementry School Yulpo branch school",
-							"description": "거제교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "53330 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "거제시",
-								"streetAddress": "경상남도 거제시 동부면 율포4길 1 (동부면/ 동부초등학교율포분교)"
-							},
-							"telephone": "055-635-6478",
-							"faxNumber": "055-635-8549",
-							"sameAs": []
-						}
-					],
+						"telephone": "055-635-6478",
+						"faxNumber": "055-635-8549",
+						"sameAs": []
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "756.0 Kcal",
 										"carbohydrateContent": "110.8 g",
 										"proteinContent": "39.7 g",
-										"fatContent": "15.6 g",
-										"vitaminAContent": "278.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "11.2 mg",
-										"calciumContent": "426.2 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "15.6 g"
 									}
 								}
 							]

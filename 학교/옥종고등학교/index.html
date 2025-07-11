@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/옥종고등학교/",
 				"headline": "옥종고등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/옥종고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "okjong-h.gne.go.kr",
-							"url": "okjong-h.gne.go.kr",
-							"name": "옥종고등학교 급식 식단표 안내",
-							"description": "옥종고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 옥종고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "옥종고등학교",
+						"alternateName": "",
+						"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52313 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "하동군",
+							"streetAddress": "경상남도 하동군 옥종면 옥수로 4-9 (옥종면/옥종고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "옥종고등학교",
-							"alternateName": "",
-							"description": "경상남도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52313 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "하동군",
-								"streetAddress": "경상남도 하동군 옥종면 옥수로 4-9 (옥종면/옥종고등학교)"
-							},
-							"telephone": "055-882-8100",
-							"faxNumber": "055-884-6265",
-							"sameAs": ["okjong-h.gne.go.kr"]
-						}
-					],
+						"telephone": "055-882-8100",
+						"faxNumber": "055-884-6265",
+						"sameAs": ["okjong-h.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "775.2 Kcal",
 										"carbohydrateContent": "104.5 g",
 										"proteinContent": "38.9 g",
-										"fatContent": "21.3 g",
-										"vitaminAContent": "178.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "28.5 mg",
-										"calciumContent": "119.0 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "21.3 g"
 									}
 								}
 							]

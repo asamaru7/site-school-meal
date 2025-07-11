@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울정진학교/",
 				"headline": "서울정진학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울정진학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungjin.sen.sc.kr",
-							"url": "http://jungjin.sen.sc.kr",
-							"name": "서울정진학교 급식 식단표 안내",
-							"description": "서울정진학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울정진학교 (특수학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울정진학교",
+						"alternateName": "Seoul Jungjin School",
+						"description": "서울특별시교육청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "08259 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "구로구",
+							"streetAddress": "서울특별시 구로구 부일로9길 158 (궁동/ 서울정진학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울정진학교",
-							"alternateName": "Seoul Jungjin School",
-							"description": "서울특별시교육청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "08259 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "구로구",
-								"streetAddress": "서울특별시 구로구 부일로9길 158 (궁동/ 서울정진학교)"
-							},
-							"telephone": "02-2688-1303",
-							"faxNumber": "02-2625-4076",
-							"sameAs": ["http://jungjin.sen.sc.kr"]
-						}
-					],
+						"telephone": "02-2688-1303",
+						"faxNumber": "02-2625-4076",
+						"sameAs": ["http://jungjin.sen.sc.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "803.2 Kcal",
 										"carbohydrateContent": "110.6 g",
 										"proteinContent": "35.4 g",
-										"fatContent": "22.3 g",
-										"vitaminAContent": "221.1 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "15.4 mg",
-										"calciumContent": "433.4 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "22.3 g"
 									}
 								}
 							]

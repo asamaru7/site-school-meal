@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중리중학교-대전/",
 				"headline": "중리중학교(대전) 급식 식단표 안내 : 대전광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중리중학교-대전/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://jungnims.djsch.kr",
-							"url": "http://jungnims.djsch.kr",
-							"name": "중리중학교(대전) 급식 식단표 안내",
-							"description": "중리중학교(대전)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중리중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중리중학교(대전)",
+						"alternateName": "Jungni  Middle School",
+						"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "34389 ",
+							"addressCountry": "KR",
+							"addressRegion": "대전광역시",
+							"addressLocality": "대덕구",
+							"streetAddress": "대전광역시 대덕구 중리동로 85 (중리동/ 대전중리중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중리중학교(대전)",
-							"alternateName": "Jungni  Middle School",
-							"description": "대전광역시동부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "34389 ",
-								"addressCountry": "KR",
-								"addressRegion": "대전광역시",
-								"addressLocality": "대덕구",
-								"streetAddress": "대전광역시 대덕구 중리동로 85 (중리동/ 대전중리중학교)"
-							},
-							"telephone": "042-620-3015",
-							"faxNumber": "042-625-1749",
-							"sameAs": ["http://jungnims.djsch.kr"]
-						}
-					],
+						"telephone": "042-620-3015",
+						"faxNumber": "042-625-1749",
+						"sameAs": ["http://jungnims.djsch.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "769.9 Kcal",
 										"carbohydrateContent": "107.3 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "24.5 g",
-										"vitaminAContent": "131.6 R.E",
-										"thiaminContent": "1.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "16.3 mg",
-										"calciumContent": "513.0 mg",
-										"ironContent": "6.7 mg"
+										"fatContent": "24.5 g"
 									}
 								}
 							]

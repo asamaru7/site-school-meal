@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부론초등학교/",
 				"headline": "부론초등학교 급식 식단표 안내 : 강원특별자치도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부론초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://buron.gwe.es.kr",
-							"url": "http://buron.gwe.es.kr",
-							"name": "부론초등학교 급식 식단표 안내",
-							"description": "부론초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부론초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부론초등학교",
+						"alternateName": "Buron Elementary School",
+						"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "26498 ",
+							"addressCountry": "KR",
+							"addressRegion": "강원특별자치도",
+							"addressLocality": "원주시",
+							"streetAddress": "강원특별자치도 원주시 부론면 법천시장길 58 (부론면, 부론초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부론초등학교",
-							"alternateName": "Buron Elementary School",
-							"description": "강원특별자치도원주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "26498 ",
-								"addressCountry": "KR",
-								"addressRegion": "강원특별자치도",
-								"addressLocality": "원주시",
-								"streetAddress": "강원특별자치도 원주시 부론면 법천시장길 58 (부론면, 부론초등학교)"
-							},
-							"telephone": "033-731-3002",
-							"faxNumber": "033-732-3018",
-							"sameAs": ["http://buron.gwe.es.kr"]
-						}
-					],
+						"telephone": "033-731-3002",
+						"faxNumber": "033-732-3018",
+						"sameAs": ["http://buron.gwe.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "682.2 Kcal",
 										"carbohydrateContent": "98.5 g",
 										"proteinContent": "27.7 g",
-										"fatContent": "17.9 g",
-										"vitaminAContent": "136.9 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "7.0 mg",
-										"calciumContent": "223.1 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "17.9 g"
 									}
 								}
 							]

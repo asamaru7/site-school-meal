@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/문태고등학교/",
 				"headline": "문태고등학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/문태고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://moontae.hs.jne.kr",
-							"url": "http://moontae.hs.jne.kr",
-							"name": "문태고등학교 급식 식단표 안내",
-							"description": "문태고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 문태고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "문태고등학교",
+						"alternateName": "Moontae high school",
+						"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58703 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "목포시",
+							"streetAddress": "전라남도 목포시 용당로 138 / 문태고등학교 (용당동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "문태고등학교",
-							"alternateName": "Moontae high school",
-							"description": "전라남도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58703 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "목포시",
-								"streetAddress": "전라남도 목포시 용당로 138 / 문태고등학교 (용당동)"
-							},
-							"telephone": "061-803-3111",
-							"faxNumber": "061-276-2563",
-							"sameAs": ["http://moontae.hs.jne.kr"]
-						}
-					]
+						"telephone": "061-803-3111",
+						"faxNumber": "061-276-2563",
+						"sameAs": ["http://moontae.hs.jne.kr"]
+					}
 				]
 			}
 		</script>

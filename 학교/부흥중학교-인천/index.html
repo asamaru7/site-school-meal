@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부흥중학교-인천/",
 				"headline": "부흥중학교(인천) 급식 식단표 안내 : 인천광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부흥중학교-인천/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://i-buheung.icems.kr",
-							"url": "http://i-buheung.icems.kr",
-							"name": "부흥중학교(인천) 급식 식단표 안내",
-							"description": "부흥중학교(인천)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부흥중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부흥중학교(인천)",
+						"alternateName": "Buheung middle school",
+						"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "21348 ",
+							"addressCountry": "KR",
+							"addressRegion": "인천광역시",
+							"addressLocality": "부평구",
+							"streetAddress": "인천광역시 부평구 충선로 152 (부개동/ 인천부흥중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부흥중학교(인천)",
-							"alternateName": "Buheung middle school",
-							"description": "인천광역시북부교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "21348 ",
-								"addressCountry": "KR",
-								"addressRegion": "인천광역시",
-								"addressLocality": "부평구",
-								"streetAddress": "인천광역시 부평구 충선로 152 (부개동/ 인천부흥중학교)"
-							},
-							"telephone": "032-527-5383",
-							"faxNumber": "032-514-0876",
-							"sameAs": ["http://i-buheung.icems.kr"]
-						}
-					],
+						"telephone": "032-527-5383",
+						"faxNumber": "032-514-0876",
+						"sameAs": ["http://i-buheung.icems.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "996.9 Kcal",
 										"carbohydrateContent": "115.9 g",
 										"proteinContent": "33.1 g",
-										"fatContent": "45.1 g",
-										"vitaminAContent": "420.0 R.E",
-										"thiaminContent": "1.4 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "37.9 mg",
-										"calciumContent": "291.9 mg",
-										"ironContent": "4.3 mg"
+										"fatContent": "45.1 g"
 									}
 								}
 							]

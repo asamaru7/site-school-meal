@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/다대중학교/",
 				"headline": "다대중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/다대중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dadae.ms.kr",
-							"url": "http://dadae.ms.kr",
-							"name": "다대중학교 급식 식단표 안내",
-							"description": "다대중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 다대중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "다대중학교",
+						"alternateName": "Dadae Middle School",
+						"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "49494 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "사하구",
+							"streetAddress": "부산광역시 사하구 다대로554번길 33 / 다대중학교 (다대동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "다대중학교",
-							"alternateName": "Dadae Middle School",
-							"description": "부산광역시서부교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "49494 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "사하구",
-								"streetAddress": "부산광역시 사하구 다대로554번길 33 / 다대중학교 (다대동)"
-							},
-							"telephone": "051-260-6500",
-							"faxNumber": "051-262-5806",
-							"sameAs": ["http://dadae.ms.kr"]
-						}
-					],
+						"telephone": "051-260-6500",
+						"faxNumber": "051-262-5806",
+						"sameAs": ["http://dadae.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "930.3 Kcal",
 										"carbohydrateContent": "144.7 g",
 										"proteinContent": "35.5 g",
-										"fatContent": "22.0 g",
-										"vitaminAContent": "162.2 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "16.2 mg",
-										"calciumContent": "232.7 mg",
-										"ironContent": "10.9 mg"
+										"fatContent": "22.0 g"
 									}
 								}
 							]

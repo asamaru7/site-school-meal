@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/진동초등학교/",
 				"headline": "진동초등학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/진동초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "jindong-p.gne.go.kr/",
-							"url": "jindong-p.gne.go.kr/",
-							"name": "진동초등학교 급식 식단표 안내",
-							"description": "진동초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 진동초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "진동초등학교",
+						"alternateName": "",
+						"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "51793 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "창원시 마산합포구",
+							"streetAddress": "경상남도 창원시 마산합포구 진동면 삼진의거대로 661-22 (진동면/ 진동초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "진동초등학교",
-							"alternateName": "",
-							"description": "마산교육청(폐지) / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "51793 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "창원시 마산합포구",
-								"streetAddress": "경상남도 창원시 마산합포구 진동면 삼진의거대로 661-22 (진동면/ 진동초등학교)"
-							},
-							"telephone": "055-271-1659",
-							"faxNumber": "055-271-8830",
-							"sameAs": ["jindong-p.gne.go.kr/"]
-						}
-					],
+						"telephone": "055-271-1659",
+						"faxNumber": "055-271-8830",
+						"sameAs": ["jindong-p.gne.go.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "650.8 Kcal",
 										"carbohydrateContent": "87.6 g",
 										"proteinContent": "21.8 g",
-										"fatContent": "26.2 g",
-										"vitaminAContent": "93.8 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "24.9 mg",
-										"calciumContent": "232.8 mg",
-										"ironContent": "2.7 mg"
+										"fatContent": "26.2 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/부곡초등학교/",
 				"headline": "부곡초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/부곡초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.pugok.es.kr",
-							"url": "http://www.pugok.es.kr",
-							"name": "부곡초등학교 급식 식단표 안내",
-							"description": "부곡초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 부곡초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "부곡초등학교",
+						"alternateName": "Bugok Elementary School",
+						"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46269 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "금정구",
+							"streetAddress": "부산광역시 금정구 기찰로22번길 15 (부곡동/ 부곡초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "부곡초등학교",
-							"alternateName": "Bugok Elementary School",
-							"description": "부산광역시동래교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46269 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "금정구",
-								"streetAddress": "부산광역시 금정구 기찰로22번길 15 (부곡동/ 부곡초등학교)"
-							},
-							"telephone": "051-580-4800",
-							"faxNumber": "051-580-4899",
-							"sameAs": ["http://www.pugok.es.kr"]
-						}
-					],
+						"telephone": "051-580-4800",
+						"faxNumber": "051-580-4899",
+						"sameAs": ["http://www.pugok.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "595.7 Kcal",
 										"carbohydrateContent": "83.4 g",
 										"proteinContent": "25.8 g",
-										"fatContent": "16.9 g",
-										"vitaminAContent": "138.5 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "0.5 mg",
-										"vitaminCContent": "15.3 mg",
-										"calciumContent": "336.8 mg",
-										"ironContent": "4.4 mg"
+										"fatContent": "16.9 g"
 									}
 								}
 							]

@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/화당초등학교/",
 				"headline": "화당초등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/화당초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/hwadang-e",
-							"url": "http://school.cbe.go.kr/hwadang-e",
-							"name": "화당초등학교 급식 식단표 안내",
-							"description": "화당초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 화당초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "화당초등학교",
+						"alternateName": "Hwadang Elementary school",
+						"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27100 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "제천시",
+							"streetAddress": "충청북도 제천시 백운면 화당로 33 (백운면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "화당초등학교",
-							"alternateName": "Hwadang Elementary school",
-							"description": "충청북도제천교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27100 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "제천시",
-								"streetAddress": "충청북도 제천시 백운면 화당로 33 (백운면)"
-							},
-							"telephone": "043-651-6491",
-							"faxNumber": "043-651-8326",
-							"sameAs": ["http://school.cbe.go.kr/hwadang-e"]
-						}
-					],
+						"telephone": "043-651-6491",
+						"faxNumber": "043-651-8326",
+						"sameAs": ["http://school.cbe.go.kr/hwadang-e"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "929.0 Kcal",
 										"carbohydrateContent": "122.4 g",
 										"proteinContent": "19.8 g",
-										"fatContent": "40.8 g",
-										"vitaminAContent": "315.0 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "27.9 mg",
-										"calciumContent": "301.1 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "40.8 g"
 									}
 								}
 							]

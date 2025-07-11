@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/매괴고등학교/",
 				"headline": "매괴고등학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/매괴고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/maegoe-h/M01",
-							"url": "http://school.cbe.go.kr/maegoe-h/M01",
-							"name": "매괴고등학교 급식 식단표 안내",
-							"description": "매괴고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 매괴고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "매괴고등학교",
+						"alternateName": "Maegoe High School",
+						"description": "충청북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27602 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "음성군",
+							"streetAddress": "충청북도 음성군 감곡면 매괴길 10 / 매괴고등학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "매괴고등학교",
-							"alternateName": "Maegoe High School",
-							"description": "충청북도교육청 / 사립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27602 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "음성군",
-								"streetAddress": "충청북도 음성군 감곡면 매괴길 10 / 매괴고등학교 "
-							},
-							"telephone": "043-881-3188",
-							"faxNumber": "043-877-9114",
-							"sameAs": ["http://school.cbe.go.kr/maegoe-h/M01"]
-						}
-					],
+						"telephone": "043-881-3188",
+						"faxNumber": "043-877-9114",
+						"sameAs": ["http://school.cbe.go.kr/maegoe-h/M01"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "783.5 Kcal",
 										"carbohydrateContent": "115.5 g",
 										"proteinContent": "31.2 g",
-										"fatContent": "20.4 g",
-										"vitaminAContent": "51.9 R.E",
-										"thiaminContent": "0.3 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "25.2 mg",
-										"calciumContent": "211.8 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "20.4 g"
 									}
 								}
 							]

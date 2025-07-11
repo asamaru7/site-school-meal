@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/무안행복중학교/",
 				"headline": "무안행복중학교 급식 식단표 안내 : 전라남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/무안행복중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://muanhaengbok.ms.jne.kr",
-							"url": "http://muanhaengbok.ms.jne.kr",
-							"name": "무안행복중학교 급식 식단표 안내",
-							"description": "무안행복중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 무안행복중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "무안행복중학교",
+						"alternateName": "MuanHaengBok Middle School",
+						"description": "전라남도무안교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "58581 ",
+							"addressCountry": "KR",
+							"addressRegion": "전라남도",
+							"addressLocality": "무안군",
+							"streetAddress": "전라남도 무안군 일로읍 오룡번영로 110 (일로읍)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "무안행복중학교",
-							"alternateName": "MuanHaengBok Middle School",
-							"description": "전라남도무안교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "58581 ",
-								"addressCountry": "KR",
-								"addressRegion": "전라남도",
-								"addressLocality": "무안군",
-								"streetAddress": "전라남도 무안군 일로읍 오룡번영로 110 (일로읍)"
-							},
-							"telephone": "061-280-9800",
-							"faxNumber": "061-280-9888",
-							"sameAs": ["http://muanhaengbok.ms.jne.kr"]
-						}
-					],
+						"telephone": "061-280-9800",
+						"faxNumber": "061-280-9888",
+						"sameAs": ["http://muanhaengbok.ms.jne.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "860.4 Kcal",
 										"carbohydrateContent": "108.7 g",
 										"proteinContent": "24.1 g",
-										"fatContent": "36.4 g",
-										"vitaminAContent": "87.6 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "16.5 mg",
-										"calciumContent": "130.8 mg",
-										"ironContent": "3.0 mg"
+										"fatContent": "36.4 g"
 									}
 								}
 							]

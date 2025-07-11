@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/오가초등학교/",
 				"headline": "오가초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/오가초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.oga.cnees.kr",
-							"url": "www.oga.cnees.kr",
-							"name": "오가초등학교 급식 식단표 안내",
-							"description": "오가초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 오가초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "오가초등학교",
+						"alternateName": "Oga Elementary School",
+						"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32425 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "예산군",
+							"streetAddress": "충청남도 예산군 오가면 역말로 89 (오가면/ 오가초교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "오가초등학교",
-							"alternateName": "Oga Elementary School",
-							"description": "충청남도예산교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32425 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "예산군",
-								"streetAddress": "충청남도 예산군 오가면 역말로 89 (오가면/ 오가초교)"
-							},
-							"telephone": "041-332-7321",
-							"faxNumber": "041-333-4889",
-							"sameAs": ["www.oga.cnees.kr"]
-						}
-					],
+						"telephone": "041-332-7321",
+						"faxNumber": "041-333-4889",
+						"sameAs": ["www.oga.cnees.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "795.6 Kcal",
 										"carbohydrateContent": "127.4 g",
 										"proteinContent": "33.2 g",
-										"fatContent": "16.3 g",
-										"vitaminAContent": "500.9 R.E",
-										"thiaminContent": "1.1 mg",
-										"riboflavinContent": "1.1 mg",
-										"vitaminCContent": "30.5 mg",
-										"calciumContent": "559.9 mg",
-										"ironContent": "6.5 mg"
+										"fatContent": "16.3 g"
 									}
 								}
 							]

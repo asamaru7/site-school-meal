@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/학력인정-청암중학교-2년제/",
 				"headline": "학력인정 청암중학교(2년제) 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/학력인정-청암중학교-2년제/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://ca.hs.kr",
-							"url": "http://ca.hs.kr",
-							"name": "학력인정 청암중학교(2년제) 급식 식단표 안내",
-							"description": "학력인정 청암중학교(2년제)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 청암중 (평생학교(중)-2년6학기) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "학력인정 청암중학교(2년제)",
+						"alternateName": "Cheong-am Middle School",
+						"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "01713 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "노원구",
+							"streetAddress": "서울특별시 노원구 중계로 244 (중계동/ 청암중고예술학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "학력인정 청암중학교(2년제)",
-							"alternateName": "Cheong-am Middle School",
-							"description": "서울특별시교육청 / 사립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "01713 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "노원구",
-								"streetAddress": "서울특별시 노원구 중계로 244 (중계동/ 청암중고예술학교)"
-							},
-							"telephone": "02-930-6511",
-							"faxNumber": "02-935-0814",
-							"sameAs": ["http://ca.hs.kr"]
-						}
-					]
+						"telephone": "02-930-6511",
+						"faxNumber": "02-935-0814",
+						"sameAs": ["http://ca.hs.kr"]
+					}
 				]
 			}
 		</script>

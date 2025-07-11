@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/남명초등학교/",
 				"headline": "남명초등학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/남명초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://nam-myeong.es.kr/",
-							"url": "http://nam-myeong.es.kr/",
-							"name": "남명초등학교 급식 식단표 안내",
-							"description": "남명초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 남명초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "남명초등학교",
+						"alternateName": "Nam-myeong Elementary School",
+						"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "46764 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "강서구",
+							"streetAddress": "부산광역시 강서구 명지오션시티11로 132 (명지동/ 남명초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "남명초등학교",
-							"alternateName": "Nam-myeong Elementary School",
-							"description": "부산광역시북부교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "46764 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "강서구",
-								"streetAddress": "부산광역시 강서구 명지오션시티11로 132 (명지동/ 남명초등학교)"
-							},
-							"telephone": "051-2600-200",
-							"faxNumber": "051-2600-290",
-							"sameAs": ["http://nam-myeong.es.kr/"]
-						}
-					],
+						"telephone": "051-2600-200",
+						"faxNumber": "051-2600-290",
+						"sameAs": ["http://nam-myeong.es.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.7 Kcal",
 										"carbohydrateContent": "113.1 g",
 										"proteinContent": "29.0 g",
-										"fatContent": "17.7 g",
-										"vitaminAContent": "194.7 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "23.1 mg",
-										"calciumContent": "250.5 mg",
-										"ironContent": "4.1 mg"
+										"fatContent": "17.7 g"
 									}
 								}
 							]

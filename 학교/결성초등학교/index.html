@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/결성초등학교/",
 				"headline": "결성초등학교 급식 식단표 안내 : 충청남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/결성초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://gses.cnees.kr",
-							"url": "http://gses.cnees.kr",
-							"name": "결성초등학교 급식 식단표 안내",
-							"description": "결성초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 결성초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "결성초등학교",
+						"alternateName": "Kyulseong Elementary School",
+						"description": "충청남도홍성교육지원청 / 공립 / 남여공학 / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "32212 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청남도",
+							"addressLocality": "홍성군",
+							"streetAddress": "충청남도 홍성군 결성면 홍남서로738번길 30 (결성면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "결성초등학교",
-							"alternateName": "Kyulseong Elementary School",
-							"description": "충청남도홍성교육지원청 / 공립 / 남여공학 / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "32212 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청남도",
-								"addressLocality": "홍성군",
-								"streetAddress": "충청남도 홍성군 결성면 홍남서로738번길 30 (결성면)"
-							},
-							"telephone": "041-642-8891",
-							"faxNumber": "041-642-0815",
-							"sameAs": ["http://gses.cnees.kr"]
-						}
-					]
+						"telephone": "041-642-8891",
+						"faxNumber": "041-642-0815",
+						"sameAs": ["http://gses.cnees.kr"]
+					}
 				]
 			}
 		</script>

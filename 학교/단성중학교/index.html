@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/단성중학교/",
 				"headline": "단성중학교 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/단성중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://dansung.ms.kr/",
-							"url": "http://dansung.ms.kr/",
-							"name": "단성중학교 급식 식단표 안내",
-							"description": "단성중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 단성중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "단성중학교",
+						"alternateName": "Danseong middle school",
+						"description": "충청북도단양교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27025 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "단양군",
+							"streetAddress": "충청북도 단양군 단성면 월악로 4633 / 단성중학교 "
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "단성중학교",
-							"alternateName": "Danseong middle school",
-							"description": "충청북도단양교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27025 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "단양군",
-								"streetAddress": "충청북도 단양군 단성면 월악로 4633 / 단성중학교 "
-							},
-							"telephone": "043-422-0792",
-							"faxNumber": "043-422-0573",
-							"sameAs": ["http://dansung.ms.kr/"]
-						}
-					],
+						"telephone": "043-422-0792",
+						"faxNumber": "043-422-0573",
+						"sameAs": ["http://dansung.ms.kr/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "702.7 Kcal",
 										"carbohydrateContent": "106.0 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "19.0 g",
-										"vitaminAContent": "255.5 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "20.7 mg",
-										"calciumContent": "458.9 mg",
-										"ironContent": "2.9 mg"
+										"fatContent": "19.0 g"
 									}
 								}
 							]

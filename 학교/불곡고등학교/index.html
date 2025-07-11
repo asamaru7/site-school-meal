@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/불곡고등학교/",
 				"headline": "불곡고등학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/불곡고등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "bulgok-h.goesn.kr",
-							"url": "bulgok-h.goesn.kr",
-							"name": "불곡고등학교 급식 식단표 안내",
-							"description": "불곡고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 불곡고 (고등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "불곡고등학교",
+						"alternateName": "Bulgok High School",
+						"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "13629 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "성남시 분당구",
+							"streetAddress": "경기도 성남시 분당구 금곡로 149 (구미동/ 불곡고등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "불곡고등학교",
-							"alternateName": "Bulgok High School",
-							"description": "경기도교육청 / 공립 / 남여공학 / 일반고 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "13629 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "성남시 분당구",
-								"streetAddress": "경기도 성남시 분당구 금곡로 149 (구미동/ 불곡고등학교)"
-							},
-							"telephone": "031-710-2810",
-							"faxNumber": "031-712-3726",
-							"sameAs": ["bulgok-h.goesn.kr"]
-						}
-					],
+						"telephone": "031-710-2810",
+						"faxNumber": "031-712-3726",
+						"sameAs": ["bulgok-h.goesn.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "978.7 Kcal",
 										"carbohydrateContent": "143.2 g",
 										"proteinContent": "69.6 g",
-										"fatContent": "12.1 g",
-										"vitaminAContent": "59.0 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "23.0 mg",
-										"calciumContent": "409.4 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "12.1 g"
 									}
 								}
 							]

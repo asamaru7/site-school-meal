@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서상중학교/",
 				"headline": "서상중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서상중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seosang-h.gne.go.kr/seosang-h/main.do",
-							"url": "http://seosang-h.gne.go.kr/seosang-h/main.do",
-							"name": "서상중학교 급식 식단표 안내",
-							"description": "서상중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서상중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서상중학교",
+						"alternateName": " ",
+						"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "50003 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "함양군",
+							"streetAddress": "경상남도 함양군 서상면 서상로 232-1 (서상면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서상중학교",
-							"alternateName": " ",
-							"description": "함양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "50003 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "함양군",
-								"streetAddress": "경상남도 함양군 서상면 서상로 232-1 (서상면)"
-							},
-							"telephone": "055-962-8835",
-							"faxNumber": "055-963-5380",
-							"sameAs": ["http://seosang-h.gne.go.kr/seosang-h/main.do"]
-						}
-					],
+						"telephone": "055-962-8835",
+						"faxNumber": "055-963-5380",
+						"sameAs": ["http://seosang-h.gne.go.kr/seosang-h/main.do"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "864.6 Kcal",
 										"carbohydrateContent": "136.5 g",
 										"proteinContent": "39.0 g",
-										"fatContent": "16.5 g",
-										"vitaminAContent": "206.7 R.E",
-										"thiaminContent": "0.6 mg",
-										"riboflavinContent": "0.9 mg",
-										"vitaminCContent": "26.6 mg",
-										"calciumContent": "509.4 mg",
-										"ironContent": "5.1 mg"
+										"fatContent": "16.5 g"
 									}
 								}
 							]

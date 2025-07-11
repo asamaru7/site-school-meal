@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/순흥초등학교/",
 				"headline": "순흥초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/순흥초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sunheunges.school.gyo6.net",
-							"url": "http://sunheunges.school.gyo6.net",
-							"name": "순흥초등학교 급식 식단표 안내",
-							"description": "순흥초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 순흥초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "순흥초등학교",
+						"alternateName": "Sunheung Elementary School",
+						"description": "경상북도영주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "36016 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "영주시",
+							"streetAddress": "경상북도 영주시 순흥면 순흥로 15 (순흥면/순흥초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "순흥초등학교",
-							"alternateName": "Sunheung Elementary School",
-							"description": "경상북도영주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "36016 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "영주시",
-								"streetAddress": "경상북도 영주시 순흥면 순흥로 15 (순흥면/순흥초등학교)"
-							},
-							"telephone": "054-633-2006",
-							"faxNumber": "054-633-9789",
-							"sameAs": ["http://sunheunges.school.gyo6.net"]
-						}
-					],
+						"telephone": "054-633-2006",
+						"faxNumber": "054-633-9789",
+						"sameAs": ["http://sunheunges.school.gyo6.net"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "767.1 Kcal",
 										"carbohydrateContent": "111.3 g",
 										"proteinContent": "43.3 g",
-										"fatContent": "15.8 g",
-										"vitaminAContent": "131.7 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "53.5 mg",
-										"calciumContent": "246.6 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "15.8 g"
 									}
 								}
 							]

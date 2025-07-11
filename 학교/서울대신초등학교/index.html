@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서울대신초등학교/",
 				"headline": "서울대신초등학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서울대신초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sds.sen.es.kr",
-							"url": "http://sds.sen.es.kr",
-							"name": "서울대신초등학교 급식 식단표 안내",
-							"description": "서울대신초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서울대신초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서울대신초등학교",
+						"alternateName": "Seoul Daesin Elementary School",
+						"description": "서울특별시서부교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "03767 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서대문구",
+							"streetAddress": "서울특별시 서대문구 이화여대2길 27 (대현동/ 서울대신초등학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서울대신초등학교",
-							"alternateName": "Seoul Daesin Elementary School",
-							"description": "서울특별시서부교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "03767 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서대문구",
-								"streetAddress": "서울특별시 서대문구 이화여대2길 27 (대현동/ 서울대신초등학교)"
-							},
-							"telephone": "02-363-1994",
-							"faxNumber": "02-364-7340",
-							"sameAs": ["http://sds.sen.es.kr"]
-						}
-					],
+						"telephone": "02-363-1994",
+						"faxNumber": "02-364-7340",
+						"sameAs": ["http://sds.sen.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "716.8 Kcal",
 										"carbohydrateContent": "96.9 g",
 										"proteinContent": "27.1 g",
-										"fatContent": "25.2 g",
-										"vitaminAContent": "259.1 R.E",
-										"thiaminContent": "1.0 mg",
-										"riboflavinContent": "0.6 mg",
-										"vitaminCContent": "27.3 mg",
-										"calciumContent": "532.9 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "25.2 g"
 									}
 								}
 							]

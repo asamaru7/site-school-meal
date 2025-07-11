@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/한바다중학교/",
 				"headline": "한바다중학교 급식 식단표 안내 : 부산광역시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/한바다중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "hanbada.ms.kr",
-							"url": "hanbada.ms.kr",
-							"name": "한바다중학교 급식 식단표 안내",
-							"description": "한바다중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 한바다중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "한바다중학교",
+						"alternateName": "Hanbada Middle School",
+						"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "48296 ",
+							"addressCountry": "KR",
+							"addressRegion": "부산광역시",
+							"addressLocality": "수영구",
+							"streetAddress": "부산광역시 수영구 광안로21번가길 57 (광안동/한바다중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "한바다중학교",
-							"alternateName": "Hanbada Middle School",
-							"description": "부산광역시해운대교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "48296 ",
-								"addressCountry": "KR",
-								"addressRegion": "부산광역시",
-								"addressLocality": "수영구",
-								"streetAddress": "부산광역시 수영구 광안로21번가길 57 (광안동/한바다중학교)"
-							},
-							"telephone": "051-7600-700",
-							"faxNumber": "051-753-8125",
-							"sameAs": ["hanbada.ms.kr"]
-						}
-					],
+						"telephone": "051-7600-700",
+						"faxNumber": "051-753-8125",
+						"sameAs": ["hanbada.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "821.2 Kcal",
 										"carbohydrateContent": "106.5 g",
 										"proteinContent": "37.1 g",
-										"fatContent": "26.1 g",
-										"vitaminAContent": "159.8 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "0.8 mg",
-										"vitaminCContent": "27.5 mg",
-										"calciumContent": "429.3 mg",
-										"ironContent": "12.2 mg"
+										"fatContent": "26.1 g"
 									}
 								}
 							]

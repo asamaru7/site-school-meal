@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/서초중학교/",
 				"headline": "서초중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/서초중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://seocho.sen.ms.kr",
-							"url": "http://seocho.sen.ms.kr",
-							"name": "서초중학교 급식 식단표 안내",
-							"description": "서초중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 서초중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "서초중학교",
+						"alternateName": "Seocho Middle School",
+						"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "06670 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "서초구",
+							"streetAddress": "서울특별시 서초구 반포대로13길 48 (서초동/서초중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "서초중학교",
-							"alternateName": "Seocho Middle School",
-							"description": "서울특별시강남서초교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "06670 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "서초구",
-								"streetAddress": "서울특별시 서초구 반포대로13길 48 (서초동/서초중학교)"
-							},
-							"telephone": "02-583-0105",
-							"faxNumber": "02-583-8274",
-							"sameAs": ["http://seocho.sen.ms.kr"]
-						}
-					],
+						"telephone": "02-583-0105",
+						"faxNumber": "02-583-8274",
+						"sameAs": ["http://seocho.sen.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "875.4 Kcal",
 										"carbohydrateContent": "128.9 g",
 										"proteinContent": "26.2 g",
-										"fatContent": "27.6 g",
-										"vitaminAContent": "83.3 R.E",
-										"thiaminContent": "0.4 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "44.2 mg",
-										"calciumContent": "230.2 mg",
-										"ironContent": "4.0 mg"
+										"fatContent": "27.6 g"
 									}
 								}
 							]

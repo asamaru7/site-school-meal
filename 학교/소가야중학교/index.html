@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/소가야중학교/",
 				"headline": "소가야중학교 급식 식단표 안내 : 경상남도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/소가야중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://sogaya-m.gne.go.kr",
-							"url": "http://sogaya-m.gne.go.kr",
-							"name": "소가야중학교 급식 식단표 안내",
-							"description": "소가야중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 소가야중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "소가야중학교",
+						"alternateName": "Middle School",
+						"description": "고성교육지원청 / 공립 / 남여공학",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "52954 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상남도",
+							"addressLocality": "고성군",
+							"streetAddress": "경상남도 고성군 삼산면 삼봉2길 51 (삼산면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "소가야중학교",
-							"alternateName": "Middle School",
-							"description": "고성교육지원청 / 공립 / 남여공학",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "52954 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상남도",
-								"addressLocality": "고성군",
-								"streetAddress": "경상남도 고성군 삼산면 삼봉2길 51 (삼산면)"
-							},
-							"telephone": "055-672-3071",
-							"faxNumber": "055-672-3021",
-							"sameAs": ["http://sogaya-m.gne.go.kr"]
-						}
-					],
+						"telephone": "055-672-3071",
+						"faxNumber": "055-672-3021",
+						"sameAs": ["http://sogaya-m.gne.go.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "748.7 Kcal",
 										"carbohydrateContent": "94.5 g",
 										"proteinContent": "39.9 g",
-										"fatContent": "21.7 g",
-										"vitaminAContent": "54.9 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.3 mg",
-										"vitaminCContent": "4.7 mg",
-										"calciumContent": "101.0 mg",
-										"ironContent": "4.8 mg"
+										"fatContent": "21.7 g"
 									}
 								},
 								{
@@ -134,13 +116,7 @@
 										"calories": "1124.2 Kcal",
 										"carbohydrateContent": "137.2 g",
 										"proteinContent": "59.6 g",
-										"fatContent": "36.3 g",
-										"vitaminAContent": "321.2 R.E",
-										"thiaminContent": "0.7 mg",
-										"riboflavinContent": "1.2 mg",
-										"vitaminCContent": "25.7 mg",
-										"calciumContent": "564.2 mg",
-										"ironContent": "6.9 mg"
+										"fatContent": "36.3 g"
 									}
 								}
 							]

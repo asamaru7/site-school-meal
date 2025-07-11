@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/중원중학교-충주/",
 				"headline": "중원중학교(충주) 급식 식단표 안내 : 충청북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/중원중학교-충주/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://school.cbe.go.kr/jungwon-m/",
-							"url": "http://school.cbe.go.kr/jungwon-m/",
-							"name": "중원중학교(충주) 급식 식단표 안내",
-							"description": "중원중학교(충주)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 중원중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "중원중학교(충주)",
+						"alternateName": "JungWon Middle School",
+						"description": "충청북도충주교육지원청 / 공립 / 남여공학 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "27443 ",
+							"addressCountry": "KR",
+							"addressRegion": "충청북도",
+							"addressLocality": "충주시",
+							"streetAddress": "충청북도 충주시 동량면 대미길 94 (동량면)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "중원중학교(충주)",
-							"alternateName": "JungWon Middle School",
-							"description": "충청북도충주교육지원청 / 공립 / 남여공학 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "27443 ",
-								"addressCountry": "KR",
-								"addressRegion": "충청북도",
-								"addressLocality": "충주시",
-								"streetAddress": "충청북도 충주시 동량면 대미길 94 (동량면)"
-							},
-							"telephone": "043-853-0037",
-							"faxNumber": "043-853-0377",
-							"sameAs": ["http://school.cbe.go.kr/jungwon-m/"]
-						}
-					],
+						"telephone": "043-853-0037",
+						"faxNumber": "043-853-0377",
+						"sameAs": ["http://school.cbe.go.kr/jungwon-m/"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "901.9 Kcal",
 										"carbohydrateContent": "137.7 g",
 										"proteinContent": "30.4 g",
-										"fatContent": "25.9 g",
-										"vitaminAContent": "180.5 R.E",
-										"thiaminContent": "0.9 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "14.9 mg",
-										"calciumContent": "235.3 mg",
-										"ironContent": "4.2 mg"
+										"fatContent": "25.9 g"
 									}
 								}
 							]

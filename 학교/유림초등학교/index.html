@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/유림초등학교/",
 				"headline": "유림초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/유림초등학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.you.es.kr",
-							"url": "http://www.you.es.kr",
-							"name": "유림초등학교 급식 식단표 안내",
-							"description": "유림초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 유림초 (초등학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "유림초등학교",
+						"alternateName": "Yurim Elementary School",
+						"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "38081 ",
+							"addressCountry": "KR",
+							"addressRegion": "경상북도",
+							"addressLocality": "경주시",
+							"streetAddress": "경상북도 경주시 용담로104번길 43-4 / (황성동/ 유림초등학교) (황성동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "유림초등학교",
-							"alternateName": "Yurim Elementary School",
-							"description": "경상북도경주교육지원청 / 공립 / 남여공학 /    / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "38081 ",
-								"addressCountry": "KR",
-								"addressRegion": "경상북도",
-								"addressLocality": "경주시",
-								"streetAddress": "경상북도 경주시 용담로104번길 43-4 / (황성동/ 유림초등학교) (황성동)"
-							},
-							"telephone": "054-771-6167",
-							"faxNumber": "054-771-4557",
-							"sameAs": ["http://www.you.es.kr"]
-						}
-					],
+						"telephone": "054-771-6167",
+						"faxNumber": "054-771-4557",
+						"sameAs": ["http://www.you.es.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "614.3 Kcal",
 										"carbohydrateContent": "86.8 g",
 										"proteinContent": "29.8 g",
-										"fatContent": "15.2 g",
-										"vitaminAContent": "157.5 R.E",
-										"thiaminContent": "0.8 mg",
-										"riboflavinContent": "0.7 mg",
-										"vitaminCContent": "9.3 mg",
-										"calciumContent": "345.4 mg",
-										"ironContent": "3.5 mg"
+										"fatContent": "15.2 g"
 									}
 								}
 							]

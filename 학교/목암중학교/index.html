@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/목암중학교/",
 				"headline": "목암중학교 급식 식단표 안내 : 경기도",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/목암중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "www.mokam.ms.kr",
-							"url": "www.mokam.ms.kr",
-							"name": "목암중학교 급식 식단표 안내",
-							"description": "목암중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 목암중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "목암중학교",
+						"alternateName": "Mokam Middle School",
+						"description": "경기도고양교육지원청 / 공립 / 남여공학 /    / 해당없음",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "10270 ",
+							"addressCountry": "KR",
+							"addressRegion": "경기도",
+							"addressLocality": "고양시 덕양구",
+							"streetAddress": "경기도 고양시 덕양구 푸른마을로 65 (고양동)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "목암중학교",
-							"alternateName": "Mokam Middle School",
-							"description": "경기도고양교육지원청 / 공립 / 남여공학 /    / 해당없음",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "10270 ",
-								"addressCountry": "KR",
-								"addressRegion": "경기도",
-								"addressLocality": "고양시 덕양구",
-								"streetAddress": "경기도 고양시 덕양구 푸른마을로 65 (고양동)"
-							},
-							"telephone": "031-960-0610",
-							"faxNumber": "031-962-1584",
-							"sameAs": ["www.mokam.ms.kr"]
-						}
-					],
+						"telephone": "031-960-0610",
+						"faxNumber": "031-962-1584",
+						"sameAs": ["www.mokam.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "785.3 Kcal",
 										"carbohydrateContent": "94.3 g",
 										"proteinContent": "39.4 g",
-										"fatContent": "25.8 g",
-										"vitaminAContent": "245.6 R.E",
-										"thiaminContent": "0.5 mg",
-										"riboflavinContent": "1.0 mg",
-										"vitaminCContent": "6.7 mg",
-										"calciumContent": "248.6 mg",
-										"ironContent": "4.9 mg"
+										"fatContent": "25.8 g"
 									}
 								}
 							]

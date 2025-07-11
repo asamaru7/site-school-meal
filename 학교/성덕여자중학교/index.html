@@ -39,7 +39,7 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "School",
+				"@type": "WebPage",
 				"url": "https://school-meal.asamaru.net/학교/성덕여자중학교/",
 				"headline": "성덕여자중학교 급식 식단표 안내 : 서울특별시",
 				"author": {
@@ -69,36 +69,24 @@
 					"@id": "https://school-meal.asamaru.net/학교/성덕여자중학교/"
 				},
 				"@graph": [
-					[
-						{
-							"@type": "WebPage",
-							"@id": "http://www.sd.ms.kr",
-							"url": "http://www.sd.ms.kr",
-							"name": "성덕여자중학교 급식 식단표 안내",
-							"description": "성덕여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 성덕여중 (중학교) ",
-							"about": {
-								"@id": "#school"
-							}
+					{
+						"@type": "EducationalOrganization",
+						"@id": "#school",
+						"name": "성덕여자중학교",
+						"alternateName": "Seongdeok Girls’ Middle School",
+						"description": "서울특별시강동송파교육지원청 / 사립 / 여 / 일반계",
+						"address": {
+							"@type": "PostalAddress",
+							"postalCode": "05306 ",
+							"addressCountry": "KR",
+							"addressRegion": "서울특별시",
+							"addressLocality": "강동구",
+							"streetAddress": "서울특별시 강동구 구천면로 396 (천호동/ 성덕여자중학교)"
 						},
-						{
-							"@type": "EducationalOrganization",
-							"@id": "#school",
-							"name": "성덕여자중학교",
-							"alternateName": "Seongdeok Girls’ Middle School",
-							"description": "서울특별시강동송파교육지원청 / 사립 / 여 / 일반계",
-							"address": {
-								"@type": "PostalAddress",
-								"postalCode": "05306 ",
-								"addressCountry": "KR",
-								"addressRegion": "서울특별시",
-								"addressLocality": "강동구",
-								"streetAddress": "서울특별시 강동구 구천면로 396 (천호동/ 성덕여자중학교)"
-							},
-							"telephone": "02-475-4626 ~ 8",
-							"faxNumber": "02-482-2911",
-							"sameAs": ["http://www.sd.ms.kr"]
-						}
-					],
+						"telephone": "02-475-4626 ~ 8",
+						"faxNumber": "02-482-2911",
+						"sameAs": ["http://www.sd.ms.kr"]
+					},
 					{
 						"@type": "Menu",
 						"name": "2025년 07월 11일 급식 식단",
@@ -116,13 +104,7 @@
 										"calories": "809.0 Kcal",
 										"carbohydrateContent": "138.9 g",
 										"proteinContent": "28.5 g",
-										"fatContent": "14.5 g",
-										"vitaminAContent": "59.1 R.E",
-										"thiaminContent": "1.2 mg",
-										"riboflavinContent": "0.4 mg",
-										"vitaminCContent": "13.5 mg",
-										"calciumContent": "170.1 mg",
-										"ironContent": "3.6 mg"
+										"fatContent": "14.5 g"
 									}
 								}
 							]
