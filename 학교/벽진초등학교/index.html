@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/벽진초등학교/",
 				"headline": "벽진초등학교 급식 식단표 안내 : 경상북도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:49:14+09:00",
-				"dateModified": "2025-07-11T01:49:14+09:00",
+				"datePublished": "2025-07-11T12:38:47+09:00",
+				"dateModified": "2025-07-11T12:38:47+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/벽진초등학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://school.gyo6.net/byeokjines",
+							"url": "http://school.gyo6.net/byeokjines",
+							"name": "벽진초등학교 급식 식단표 안내",
+							"description": "벽진초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 벽진초 (초등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "벽진초등학교",
+							"alternateName": "Byeokjin Elementary School",
+							"description": "경상북도성주교육지원청 / 공립 / 남여공학 /    / 일반계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "40002 ",
+								"addressCountry": "KR",
+								"addressRegion": "경상북도",
+								"addressLocality": "성주군",
+								"streetAddress": "경상북도 성주군 벽진면 수촌3길 1 (벽진면/벽진초등학교)"
+							},
+							"telephone": "054-932-7945",
+							"faxNumber": "054-931-0915",
+							"sameAs": ["http://school.gyo6.net/byeokjines"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "찰현미밥, 두부어묵국, 열무된장무침, 부추호박전, 돼지갈비구이, 배추김치자율, 우유, 골드키위",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "902.0 Kcal",
+										"carbohydrateContent": "121.6 g",
+										"proteinContent": "41.0 g",
+										"fatContent": "26.2 g",
+										"vitaminAContent": "186.1 R.E",
+										"thiaminContent": "0.9 mg",
+										"riboflavinContent": "1.2 mg",
+										"vitaminCContent": "99.3 mg",
+										"calciumContent": "327.8 mg",
+										"ironContent": "6.2 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 찰현미밥, 두부어묵국, 열무된장무침, 부추호박전, 돼지갈비구이, 배추김치자율, 우유, 골드키위 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									벽진초등학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

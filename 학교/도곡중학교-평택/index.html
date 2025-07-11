@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/도곡중학교-평택/",
 				"headline": "도곡중학교(평택) 급식 식단표 안내 : 경기도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:52+09:00",
-				"dateModified": "2025-07-11T01:48:52+09:00",
+				"datePublished": "2025-07-11T12:38:25+09:00",
+				"dateModified": "2025-07-11T12:38:25+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/도곡중학교-평택/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "https://dogokpt-m.goept.kr/dogokpt-m/main.do",
+							"url": "https://dogokpt-m.goept.kr/dogokpt-m/main.do",
+							"name": "도곡중학교(평택) 급식 식단표 안내",
+							"description": "도곡중학교(평택)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 도곡중 (중학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "도곡중학교(평택)",
+							"alternateName": "Dogok Middle School",
+							"description": "경기도평택교육지원청 / 공립 / 남여공학 / 해당없음",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "17954 ",
+								"addressCountry": "KR",
+								"addressRegion": "경기도",
+								"addressLocality": "평택시",
+								"streetAddress": "경기도 평택시 포승읍 여술로 58 (포승읍/도곡중학교)"
+							},
+							"telephone": "031-686-8565",
+							"faxNumber": "031-686-8566",
+							"sameAs": ["https://dogokpt-m.goept.kr/dogokpt-m/main.do"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "흑미밥, 들깨무채국, 돈육김치볶음, 두부구이/양념장, 오이김치, 체리",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "620.6 Kcal",
+										"carbohydrateContent": "81.8 g",
+										"proteinContent": "33.0 g",
+										"fatContent": "16.8 g",
+										"vitaminAContent": "87.2 R.E",
+										"thiaminContent": "0.7 mg",
+										"riboflavinContent": "0.6 mg",
+										"vitaminCContent": "12.1 mg",
+										"calciumContent": "180.9 mg",
+										"ironContent": "3.3 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 흑미밥, 들깨무채국, 돈육김치볶음, 두부구이/양념장, 오이김치, 체리 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									도곡중학교(평택)의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

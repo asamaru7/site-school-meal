@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/반곡초등학교-세종/",
 				"headline": "반곡초등학교(세종) 급식 식단표 안내 : 세종특별자치시",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:49+09:00",
-				"dateModified": "2025-07-11T01:48:49+09:00",
+				"datePublished": "2025-07-11T12:38:23+09:00",
+				"dateModified": "2025-07-11T12:38:23+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/반곡초등학교-세종/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://bangok.sjedues.kr",
+							"url": "http://bangok.sjedues.kr",
+							"name": "반곡초등학교(세종) 급식 식단표 안내",
+							"description": "반곡초등학교(세종)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 반곡초 (초등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "반곡초등학교(세종)",
+							"alternateName": "Bangok Elementary School",
+							"description": "세종특별자치시교육청 / 공립 / 남여공학",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "30146 ",
+								"addressCountry": "KR",
+								"addressRegion": "세종특별자치시",
+								"addressLocality": "",
+								"streetAddress": "세종특별자치시 시청대로 468 (반곡동/ 반곡초등학교)"
+							},
+							"telephone": "044-410-6000",
+							"faxNumber": "044-410-6009",
+							"sameAs": ["http://bangok.sjedues.kr"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "강황쌀밥, [선택] 마라탕or백탕, 양배추피클, 청상추꼬시래기무침, 한돈꿔바로우, 고칼슘매실주스",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "708.8 Kcal",
+										"carbohydrateContent": "102.0 g",
+										"proteinContent": "23.8 g",
+										"fatContent": "22.4 g",
+										"vitaminAContent": "55.0 R.E",
+										"thiaminContent": "0.5 mg",
+										"riboflavinContent": "0.4 mg",
+										"vitaminCContent": "17.5 mg",
+										"calciumContent": "185.4 mg",
+										"ironContent": "9.6 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 강황쌀밥, [선택] 마라탕or백탕, 양배추피클, 청상추꼬시래기무침, 한돈꿔바로우, 고칼슘매실주스 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									반곡초등학교(세종)의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

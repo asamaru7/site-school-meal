@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/경상공업고등학교/",
 				"headline": "경상공업고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:42+09:00",
-				"dateModified": "2025-07-11T01:48:42+09:00",
+				"datePublished": "2025-07-11T12:38:15+09:00",
+				"dateModified": "2025-07-11T12:38:15+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/경상공업고등학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://kyeongsang-th.dge.hs.kr",
+							"url": "http://kyeongsang-th.dge.hs.kr",
+							"name": "경상공업고등학교 급식 식단표 안내",
+							"description": "경상공업고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 경상공고 (고등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "경상공업고등학교",
+							"alternateName": "kyeongsang technical high school",
+							"description": "대구광역시교육청 / 사립 / 남 / 특성화고 / 전문계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "42462 ",
+								"addressCountry": "KR",
+								"addressRegion": "대구광역시",
+								"addressLocality": "남구",
+								"streetAddress": "대구광역시 남구 대경길 151 (대명동/ 경상공업고등학교)"
+							},
+							"telephone": "053-235-8800",
+							"faxNumber": "053-628-2365",
+							"sameAs": ["http://kyeongsang-th.dge.hs.kr"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "작은밥, 짜계치(채), 얇은반달단무지, 고구마치즈고로케, 연어스테이크, 허니더블요구르트",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "942.9 Kcal",
+										"carbohydrateContent": "130.0 g",
+										"proteinContent": "34.6 g",
+										"fatContent": "31.2 g",
+										"vitaminAContent": "45.4 R.E",
+										"thiaminContent": "0.5 mg",
+										"riboflavinContent": "1.0 mg",
+										"vitaminCContent": "23.8 mg",
+										"calciumContent": "253.4 mg",
+										"ironContent": "2.7 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 작은밥, 짜계치(채), 얇은반달단무지, 고구마치즈고로케, 연어스테이크, 허니더블요구르트 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -356,7 +431,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									경상공업고등학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -392,7 +467,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

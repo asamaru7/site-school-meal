@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/초월초등학교/",
 				"headline": "초월초등학교 급식 식단표 안내 : 경기도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:58+09:00",
-				"dateModified": "2025-07-11T01:48:58+09:00",
+				"datePublished": "2025-07-11T12:38:31+09:00",
+				"dateModified": "2025-07-11T12:38:31+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/초월초등학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "https://choworl-e.goegh.kr/choworl-e/main.do",
+							"url": "https://choworl-e.goegh.kr/choworl-e/main.do",
+							"name": "초월초등학교 급식 식단표 안내",
+							"description": "초월초등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 초월초 (초등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "초월초등학교",
+							"alternateName": "cho-wol Elementary School",
+							"description": "경기도광주하남교육지원청 / 공립 / 남여공학 /    / 일반계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "12729 ",
+								"addressCountry": "KR",
+								"addressRegion": "경기도",
+								"addressLocality": "광주시",
+								"streetAddress": "경기도 광주시 초월읍 산수로 523 / 초월초등학교 (초월읍)"
+							},
+							"telephone": "031-761-1159",
+							"faxNumber": "031-763-8554",
+							"sameAs": ["https://choworl-e.goegh.kr/choworl-e/main.do"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "비빔밥(볶음고추장/양념간장선택)., 미소장국., 계란후라이, 츄러스(일자)., 백김치(선택식)., 열무김치.",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "705.1 Kcal",
+										"carbohydrateContent": "83.7 g",
+										"proteinContent": "23.9 g",
+										"fatContent": "31.3 g",
+										"vitaminAContent": "135.0 R.E",
+										"thiaminContent": "0.3 mg",
+										"riboflavinContent": "0.5 mg",
+										"vitaminCContent": "8.8 mg",
+										"calciumContent": "274.7 mg",
+										"ironContent": "3.9 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 비빔밥(볶음고추장/양념간장선택)., 미소장국., 계란후라이, 츄러스(일자)., 백김치(선택식)., 열무김치. 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									초월초등학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

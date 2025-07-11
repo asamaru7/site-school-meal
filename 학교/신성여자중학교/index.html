@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/신성여자중학교/",
 				"headline": "신성여자중학교 급식 식단표 안내 : 제주특별자치도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:49:21+09:00",
-				"dateModified": "2025-07-11T01:49:21+09:00",
+				"datePublished": "2025-07-11T12:38:54+09:00",
+				"dateModified": "2025-07-11T12:38:54+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/신성여자중학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://shinseong.jje.ms.kr",
+							"url": "http://shinseong.jje.ms.kr",
+							"name": "신성여자중학교 급식 식단표 안내",
+							"description": "신성여자중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 신성여중 (중학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "신성여자중학교",
+							"alternateName": "SHINSEONG GIRLS MIDDLE SCHOOL",
+							"description": "제주시교육지원청 / 사립 / 여",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "63308 ",
+								"addressCountry": "KR",
+								"addressRegion": "제주특별자치도",
+								"addressLocality": "제주시",
+								"streetAddress": "제주특별자치도 제주시 아봉로 174-5 / 신성여자중학교 (영평동)"
+							},
+							"telephone": "064-729-7400",
+							"faxNumber": "064-724-7138",
+							"sameAs": ["http://shinseong.jje.ms.kr"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "현미수수밥, 북어포무국, 도라지참나물무침, 눈꽃치즈닭갈비, 배추김치, 발효요구르트",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "708.9 Kcal",
+										"carbohydrateContent": "98.4 g",
+										"proteinContent": "37.4 g",
+										"fatContent": "16.7 g",
+										"vitaminAContent": "168.8 R.E",
+										"thiaminContent": "0.4 mg",
+										"riboflavinContent": "0.4 mg",
+										"vitaminCContent": "9.8 mg",
+										"calciumContent": "382.7 mg",
+										"ironContent": "3.0 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 현미수수밥, 북어포무국, 도라지참나물무침, 눈꽃치즈닭갈비, 배추김치, 발효요구르트 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									신성여자중학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

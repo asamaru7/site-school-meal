@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/강북고등학교/",
 				"headline": "강북고등학교 급식 식단표 안내 : 대구광역시",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:42+09:00",
-				"dateModified": "2025-07-11T01:48:42+09:00",
+				"datePublished": "2025-07-11T12:38:15+09:00",
+				"dateModified": "2025-07-11T12:38:15+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/강북고등학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "https://gangbuk.dge.hs.kr/",
+							"url": "https://gangbuk.dge.hs.kr/",
+							"name": "강북고등학교 급식 식단표 안내",
+							"description": "강북고등학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 강북고 (고등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "강북고등학교",
+							"alternateName": "GangBuk High School",
+							"description": "대구광역시교육청 / 사립 / 남 / 일반고 / 일반계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "41453 ",
+								"addressCountry": "KR",
+								"addressRegion": "대구광역시",
+								"addressLocality": "북구",
+								"streetAddress": "대구광역시 북구 태전로 100 (태전동)"
+							},
+							"telephone": "053-235-5951",
+							"faxNumber": "053-323-2460",
+							"sameAs": ["https://gangbuk.dge.hs.kr/"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "열무보리비빔밥, 강된장, 연근조림, 페퍼로니치아바타피자, 배추김치, 요구르트",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "1071.3 Kcal",
+										"carbohydrateContent": "190.1 g",
+										"proteinContent": "38.5 g",
+										"fatContent": "17.1 g",
+										"vitaminAContent": "233.5 R.E",
+										"thiaminContent": "0.7 mg",
+										"riboflavinContent": "1.0 mg",
+										"vitaminCContent": "23.2 mg",
+										"calciumContent": "516.4 mg",
+										"ironContent": "7.1 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 열무보리비빔밥, 강된장, 연근조림, 페퍼로니치아바타피자, 배추김치, 요구르트 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -356,7 +431,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									강북고등학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -392,7 +467,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

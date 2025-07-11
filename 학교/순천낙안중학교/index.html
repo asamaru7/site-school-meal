@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/순천낙안중학교/",
 				"headline": "순천낙안중학교 급식 식단표 안내 : 전라남도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:49:11+09:00",
-				"dateModified": "2025-07-11T01:49:11+09:00",
+				"datePublished": "2025-07-11T12:38:45+09:00",
+				"dateModified": "2025-07-11T12:38:45+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/순천낙안중학교/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://nagan.ms.jne.kr",
+							"url": "http://nagan.ms.jne.kr",
+							"name": "순천낙안중학교 급식 식단표 안내",
+							"description": "순천낙안중학교의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 순천낙안중 (중학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "순천낙안중학교",
+							"alternateName": "Suncheon Nagan Middle School",
+							"description": "전라남도순천교육지원청 / 공립 / 남여공학 /    / 일반계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "57918 ",
+								"addressCountry": "KR",
+								"addressRegion": "전라남도",
+								"addressLocality": "순천시",
+								"streetAddress": "전라남도 순천시 낙안면 조정래길 716 (낙안면/ 낙안중학교)"
+							},
+							"telephone": "061-754-2505",
+							"faxNumber": "061-754-6811",
+							"sameAs": ["http://nagan.ms.jne.kr"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "친)차수수찰현미밥, 쇠고기미역국*, 삼색어묵잡채*, 친환경한우불고기, 고구마줄기들깨나물*, 배추김치(자율), 양파간장절임(자율)*, 모듬쌈채소(자율), 수제한라봉타르트*",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "875.6 Kcal",
+										"carbohydrateContent": "133.2 g",
+										"proteinContent": "37.9 g",
+										"fatContent": "20.6 g",
+										"vitaminAContent": "155.3 R.E",
+										"thiaminContent": "0.9 mg",
+										"riboflavinContent": "0.6 mg",
+										"vitaminCContent": "15.0 mg",
+										"calciumContent": "228.1 mg",
+										"ironContent": "8.2 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 친)차수수찰현미밥, 쇠고기미역국*, 삼색어묵잡채*, 친환경한우불고기, 고구마줄기들깨나물*, 배추김치(자율), 양파간장절임(자율)*, 모듬쌈채소(자율), 수제한라봉타르트* 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									순천낙안중학교의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

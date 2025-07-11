@@ -45,8 +45,8 @@
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:48:34+09:00",
-				"dateModified": "2025-07-11T01:48:34+09:00",
+				"datePublished": "2025-07-11T12:38:07+09:00",
+				"dateModified": "2025-07-11T12:38:07+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -69,8 +69,8 @@
 				}
 			}
 		</script>
-		<link href="/css/min/278962ddcf1f183dc8bc1cba43587fbe.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/3cfef2c8e8ce571e1d86db2a4def0fb6.js" async type="text/javascript"></script>
+		<link href="/css/min/50c10b450b6935bce509dfe020733b06.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/5464cede0efb7090f2dcf2d751b67f19.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -107,6 +107,13 @@
 					<section class="mb-4 p-4 sm:p-6 bg-white rounded-md shadow-lg">
 						<div class="w-full max-w-xl mx-auto">
 							<ft-autocomplete container-class="form-control relative" input-class="input input-bordered input-lg w-full" list-class="absolute top-full mt-2 left-0 w-full bg-base-100 shadow-lg rounded-box z-50" item-class="p-3 hover:bg-base-200 cursor-pointer" item-highlight-class="bg-blue-50" data-url="/api/school/search-00.json" placeholder="학교명을 입력하세요. (서울고등학교 또는 ㅅㅇㄱㄷㅎㄱ)" max-results="5" onSelected="document.location.href='https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/_NAME_'.replace('_NAME_', event.detail.value);"></ft-autocomplete>
+						</div>
+						<div id="main-school-list" class="hidden mt-3">
+							<div class="text-center">
+								<template>
+									<a class="btn-xs btn btn-outline border-orange-400 text-orange-400 hover:bg-orange-400 hover:text-white mb-2" href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">{name}</a>
+								</template>
+							</div>
 						</div>
 					</section>
 					<div class="gad-box">
@@ -159,7 +166,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>

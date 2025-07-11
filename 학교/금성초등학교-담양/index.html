@@ -39,15 +39,15 @@
 		<script type="application/ld+json">
 			{
 				"@context": "https://schema.org",
-				"@type": "WebSite",
+				"@type": "School",
 				"url": "https://school-meal.asamaru.net/학교/금성초등학교-담양/",
 				"headline": "금성초등학교(담양) 급식 식단표 안내 : 전라남도",
 				"author": {
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-11T01:49:10+09:00",
-				"dateModified": "2025-07-11T01:49:10+09:00",
+				"datePublished": "2025-07-11T12:38:43+09:00",
+				"dateModified": "2025-07-11T12:38:43+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -67,11 +67,86 @@
 				"mainEntityOfPage": {
 					"@type": "WebPage",
 					"@id": "https://school-meal.asamaru.net/학교/금성초등학교-담양/"
-				}
+				},
+				"@graph": [
+					[
+						{
+							"@type": "WebPage",
+							"@id": "http://ks.es.jne.kr",
+							"url": "http://ks.es.jne.kr",
+							"name": "금성초등학교(담양) 급식 식단표 안내",
+							"description": "금성초등학교(담양)의 일별, 주별, 월별 급식 식단표와 학교 정보를 제공합니다. 금성초 (초등학교) ",
+							"about": {
+								"@id": "#school"
+							}
+						},
+						{
+							"@type": "EducationalOrganization",
+							"@id": "#school",
+							"name": "금성초등학교(담양)",
+							"alternateName": "Geumseong Elementary School",
+							"description": "전라남도담양교육지원청 / 공립 / 남여공학 / 일반계",
+							"address": {
+								"@type": "PostalAddress",
+								"postalCode": "57305 ",
+								"addressCountry": "KR",
+								"addressRegion": "전라남도",
+								"addressLocality": "담양군",
+								"streetAddress": "전라남도 담양군 금성면 석현길 18 (금성면)"
+							},
+							"telephone": "061-382-4024",
+							"faxNumber": "061-382-1901",
+							"sameAs": ["http://ks.es.jne.kr"]
+						}
+					],
+					{
+						"@type": "Menu",
+						"name": "2025년 07월 11일 급식 식단",
+						"dateCreated": "2025-07-11",
+						"hasMenuSection": {
+							"@type": "MenuSection",
+							"name": "급식",
+							"hasMenuItem": [
+								{
+									"@type": "MenuItem",
+									"name": "중식",
+									"description": "혼합 잡곡밥, 토마토스파게티, 쇠고기미역국, 돈육메추리알장조림, 상추튀김, 배추김치",
+									"nutrition": {
+										"@type": "NutritionInformation",
+										"calories": "568.6 Kcal",
+										"carbohydrateContent": "79.2 g",
+										"proteinContent": "32.7 g",
+										"fatContent": "12.7 g",
+										"vitaminAContent": "171.3 R.E",
+										"thiaminContent": "2.6 mg",
+										"riboflavinContent": "0.6 mg",
+										"vitaminCContent": "12.5 mg",
+										"calciumContent": "199.3 mg",
+										"ironContent": "4.0 mg"
+									}
+								}
+							]
+						}
+					},
+					{
+						"@type": "FAQPage",
+						"@id": "#faq",
+						"mainEntity": [
+							{
+								"@type": "Question",
+								"name": "2025년 07월 11일 급식 메뉴는?",
+								"acceptedAnswer": {
+									"@type": "Answer",
+									"text": "중식은 혼합 잡곡밥, 토마토스파게티, 쇠고기미역국, 돈육메추리알장조림, 상추튀김, 배추김치 입니다."
+								}
+							}
+						]
+					}
+				]
 			}
 		</script>
-		<link href="/css/min/d27417a6606180bc84fe56a86f4b1fe0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/1d7bee80529a0300eee997344582d004.js" async type="text/javascript"></script>
+		<link href="/css/min/1544c53a68bc8012061b5737e9fa153e.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/b7ec51f631fe730fd8f36bef0d7fd98e.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -348,7 +423,7 @@
 						<div class="card bg-base-100 shadow-xl mb-8">
 							<div class="card-body text-gray-500">
 								<p>
-									위 정보는 나이스 교육정보 개방 포털(
+									금성초등학교(담양)의 급식 식단표는 나이스 교육정보 개방 포털(
 									<a href="https://open.neis.go.kr/" rel="nofollow" target="_blank">https://open.neis.go.kr</a>
 									)을 통해 제공합니다.
 								</p>
@@ -384,7 +459,7 @@
 				<div id="recent-school-list" class="hidden mb-3 px-2">
 					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
 					<ul class="mt-1">
-						<template id="school-view-link-template">
+						<template>
 							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/%ED%95%99%EA%B5%90/-school-slug-" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>
