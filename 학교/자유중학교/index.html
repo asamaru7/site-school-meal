@@ -46,8 +46,8 @@
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-16T01:50:51+09:00",
-				"dateModified": "2025-07-16T01:50:51+09:00",
+				"datePublished": "2025-07-24T04:31:45+09:00",
+				"dateModified": "2025-07-24T04:31:45+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -90,8 +90,8 @@
 				]
 			}
 		</script>
-		<link href="/css/min/f0a5244adedb0df096feb7d1f60990e0.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/0d36c23974fd2b188c836c00fc69e8e2.js" async type="text/javascript"></script>
+		<link href="/css/min/675bc7bbb2030ef40bb95af224f3667f.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/92f3f09fc45ef06b9d452090324f6186.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -128,13 +128,13 @@
 							</div>
 						</div>
 					</div>
-					<div class="bg-base-100 p-4 mt-4 sticky top-0 z-50 shadow-md rounded-lg backdrop-blur-sm bg-opacity-90">
+					<div class="ft-sticky-box bg-base-100 p-4 mt-4 sticky top-0 z-50 shadow-md rounded-lg backdrop-blur-sm bg-opacity-90">
 						<div class="flex flex-wrap gap-2 justify-center">
-							<button class="navigation-button btn btn-ghost btn-sm text-gray-400" data-ignore-active-x data-target="menus" data-scroll-margin-top="80">식단표</button>
-							<button class="navigation-button btn btn-ghost btn-sm" data-target="daily" data-scroll-margin-top="80">일간</button>
-							<button class="navigation-button btn btn-ghost btn-sm" data-target="weekly" data-scroll-margin-top="80">주간</button>
-							<button class="navigation-button btn btn-ghost btn-sm" data-target="monthly" data-scroll-margin-top="80">월간</button>
-							<button class="navigation-button btn btn-ghost btn-sm text-gray-400" data-ignore-active-x data-target="school" data-scroll-margin-top="80">학교정보</button>
+							<a href="#toc-menus" class="ft-scrollspy-ignore btn btn-ghost btn-sm text-gray-400">식단표</a>
+							<a href="#toc-daily" data-scrollspy-target="daily" class="ft-scrollspy-button btn btn-ghost btn-sm">일간</a>
+							<a href="#toc-weekly" data-scrollspy-target="weekly" class="ft-scrollspy-button btn btn-ghost btn-sm">주간</a>
+							<a href="#toc-monthly" data-scrollspy-target="monthly" class="ft-scrollspy-button btn btn-ghost btn-sm">월간</a>
+							<a href="#toc-school" data-scrollspy-target="school" class="ft-scrollspy-button btn btn-ghost btn-sm text-gray-400">학교정보</a>
 						</div>
 					</div>
 					<div class="gad-box">
@@ -144,17 +144,15 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div class="scroll-mt-12" data-navigation-content="menus">
-						<div class="text-2xl font-bold mb-4 text-center hidden">식단표</div>
-					</div>
+					<h2 id="toc-menus" class="text-2xl font-bold text-center h-0 overflow-hidden">식단표</h2>
 					<div class="mb-12 school-info-card">
-						<div class="mt-4 scroll-mt-12" data-navigation-content="daily" itemscope itemtype="https://schema.org/Menu">
+						<div class="mt-4" data-scrollspy-content="daily" itemscope itemtype="https://schema.org/Menu">
 							<div class="flex items-center justify-between mb-4">
 								<button class="btn btn-ghost btn-sm" data-daily-prev>
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
 									이전
 								</button>
-								<div class="text-2xl font-bold text-center" itemprop="name">일간 식단표</div>
+								<h3 id="toc-daily" class="text-2xl font-bold text-center" itemprop="name">일간 식단표</h3>
 								<button class="btn btn-ghost btn-sm" data-daily-next>
 									다음
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
@@ -182,13 +180,13 @@
 								(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
 						</div>
-						<div class="mt-12 scroll-mt-12" data-navigation-content="weekly" itemscope itemtype="https://schema.org/Menu">
+						<div class="mt-12" data-scrollspy-content="weekly" itemscope itemtype="https://schema.org/Menu">
 							<div class="flex items-center justify-between mb-4">
 								<button class="btn btn-ghost btn-sm" data-weekly-prev>
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
 									이전
 								</button>
-								<div class="text-2xl font-bold text-center" itemprop="name">주간 식단표</div>
+								<h3 id="toc-weekly" class="text-2xl font-bold text-center" itemprop="name">주간 식단표</h3>
 								<button class="btn btn-ghost btn-sm" data-weekly-next>
 									다음
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
@@ -225,19 +223,19 @@
 								(adsbygoogle = window.adsbygoogle || []).push({});
 							</script>
 						</div>
-						<div class="mt-8 scroll-mt-12" data-navigation-content="monthly" itemscope itemtype="https://schema.org/Menu">
+						<div class="mt-12" data-scrollspy-content="monthly" itemscope itemtype="https://schema.org/Menu">
 							<div class="flex items-center justify-between mb-4">
 								<button class="btn btn-ghost btn-sm" data-monthly-prev>
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
 									이전
 								</button>
-								<div class="text-2xl font-bold text-center" itemprop="name">
+								<h3 id="toc-monthly" class="text-2xl font-bold text-center" itemprop="name">
 									월간 식단표
 									<em class="ps-2 text-xl text-gray-400 not-italic">
 										<span class="monthly-view-month"></span>
 										월
 									</em>
-								</div>
+								</h3>
 								<button class="btn btn-ghost btn-sm" data-monthly-next>
 									다음
 									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
@@ -295,63 +293,65 @@
 							<script async type="text/javascript" src="https://openmain.pstatic.net/js/openmain.js"></script>
 						</div>
 					</div>
-					<div class="scroll-mt-12 mt-8 mb-4" data-navigation-content="school">
-						<div class="text-2xl font-bold text-center">학교 정보</div>
-						<div class="text-right pr-4 text-sm text-gray-500">
-							<span>수정일자 :</span>
-							<span itemprop="datePublished">2023.06.15.</span>
+					<div data-scrollspy-content="school">
+						<div class="mt-8 mb-4">
+							<h2 id="toc-school" class="text-2xl font-bold text-center">학교 정보</h2>
+							<div class="text-right pr-4 text-sm text-gray-500">
+								<span>수정일자 :</span>
+								<span itemprop="datePublished">2023.06.15.</span>
+							</div>
 						</div>
-					</div>
-					<div class="container mx-auto">
-						<div class="card bg-base-100 shadow-xl mb-8 school-info-card hover:shadow-2xl transition-shadow duration-300" itemscope itemtype="https://schema.org/Organization">
-							<div class="card-body">
-								<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">학교종류</div>
-										<div class="text-base" itemprop="description">중학교</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">설립</div>
-										<div class="text-base" itemprop="foundingDate">사립</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">관할</div>
-										<div class="text-base" itemprop="areaServed">전북특별자치도고창교육지원청</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">남녀공학구분</div>
-										<div class="text-base" itemprop="description">여</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">입시전후기구분</div>
-										<div class="text-base" itemprop="description">전기</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">주야구분</div>
-										<div class="text-base" itemprop="description">주간</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4 md:col-span-3">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">주소</div>
-										<div class="text-base" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-											<span itemprop="streetAddress">전북특별자치도 고창군 고창읍 보릿골로 176 자유중학교</span>
+						<div class="container mx-auto">
+							<div class="card bg-base-100 shadow-xl mb-8 school-info-card hover:shadow-2xl transition-shadow duration-300" itemscope itemtype="https://schema.org/Organization">
+								<div class="card-body">
+									<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">학교종류</div>
+											<div class="text-base" itemprop="description">중학교</div>
 										</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4 md:col-span-3">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">홈페이지주소</div>
-										<div class="text-base text-primary">
-											<a href="https://school.jbedu.kr/jayu" target="_blank" rel="nofollow" class="transition-colors duration-300" itemprop="url">
-												https://school.jbedu.kr/jayu
-												<svg class="feather feather-sm inline align-middle" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#external-link" /></svg>
-											</a>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">설립</div>
+											<div class="text-base" itemprop="foundingDate">사립</div>
 										</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">개교기념일</div>
-										<div class="text-base" itemprop="foundingDate">1945.12.16.</div>
-									</div>
-									<div class="bg-base-200 rounded-xl shadow-sm p-4">
-										<div class="text-base font-medium text-xs text-gray-400 mb-2">설립일자</div>
-										<div class="text-base" itemprop="foundingDate">1945.10.09.</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">관할</div>
+											<div class="text-base" itemprop="areaServed">전북특별자치도고창교육지원청</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">남녀공학구분</div>
+											<div class="text-base" itemprop="description">여</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">입시전후기구분</div>
+											<div class="text-base" itemprop="description">전기</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">주야구분</div>
+											<div class="text-base" itemprop="description">주간</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4 md:col-span-3">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">주소</div>
+											<div class="text-base" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+												<span itemprop="streetAddress">전북특별자치도 고창군 고창읍 보릿골로 176 자유중학교</span>
+											</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4 md:col-span-3">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">홈페이지주소</div>
+											<div class="text-base text-primary">
+												<a href="https://school.jbedu.kr/jayu" target="_blank" rel="nofollow" class="transition-colors duration-300" itemprop="url">
+													https://school.jbedu.kr/jayu
+													<svg class="feather feather-sm inline align-middle" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#external-link" /></svg>
+												</a>
+											</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">개교기념일</div>
+											<div class="text-base" itemprop="foundingDate">1945.12.16.</div>
+										</div>
+										<div class="bg-base-200 rounded-xl shadow-sm p-4">
+											<div class="text-base font-medium text-xs text-gray-400 mb-2">설립일자</div>
+											<div class="text-base" itemprop="foundingDate">1945.10.09.</div>
+										</div>
 									</div>
 								</div>
 							</div>
