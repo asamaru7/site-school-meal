@@ -46,8 +46,8 @@
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-25T09:52:19+09:00",
-				"dateModified": "2025-07-25T09:52:19+09:00",
+				"datePublished": "2025-07-25T11:23:39+09:00",
+				"dateModified": "2025-07-25T11:23:39+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -70,8 +70,8 @@
 				}
 			}
 		</script>
-		<link href="/css/min/2592c9b2d8f6e08ee8d7a100a412f597.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/526ef92c9327bb2493649161433dc4a7.js" async type="text/javascript"></script>
+		<link href="/css/min/f60f82a70f478bc56b3bbd9a8ed3d488.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/8a6c8dadc926761fccd0d8832cba4557.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -88,15 +88,15 @@
 				<a href="https://school-meal.asamaru.net" title="전국 초·중·고 급식 식단표 홈페이지로 이동"><img src="https://school-meal.asamaru.net/img/bundled/icon-CL26VAH9.png" width="50" height="50" alt="전국 초·중·고 급식 식단표" /></a>
 				<div class="ml-2 flex flex-1 flex-col">
 					<h1 class="text-lg"><a href="https://school-meal.asamaru.net" title="전국 초·중·고 급식 식단표 홈페이지로 이동">전국 초·중·고 급식 식단표</a></h1>
-					<p class="text-ellipsis text-xs text-gray-400 hidden sm:block">일별·주별·월별 학교 급식 메뉴를 한눈에!</p>
+					<p class="hidden text-ellipsis text-xs text-gray-400 sm:block">일별·주별·월별 학교 급식 메뉴를 한눈에!</p>
 				</div>
 				<button class="block rounded-md bg-gray-100 p-2 lg:hidden" data-sidebar="toggle">
 					<img src="https://school-meal.asamaru.net/img/bundled/hamburger-menu-C-XmgEty.svg" class="h-8 w-8" alt="menu" />
 				</button>
 			</div>
 		</header>
-		<section class="mx-auto flex">
-			<main class="flex-1 py-3 min-w-0 bg-gray-50">
+		<section class="mx-auto max-w-[1440px] min-w-[200px] lg:grid-cols-[1fr_300px] lg:grid">
+			<main class="min-w-0 bg-gray-50 py-3">
 				<input type="hidden" id="filter-area" value="전북특별자치도" />
 				<section class="container mx-auto mt-6 mb-12 px-0 lg:px-2">
 					<div class="gad-box">
@@ -107,13 +107,13 @@
 						</script>
 					</div>
 					<section class="mb-4 rounded-md bg-white p-4 shadow-lg min-h-[96px] sm:p-6">
-						<div class="mx-auto w-full max-w-xl">
+						<div class="mx-auto w-full max-w-xl min-h-[48px]">
 							<ft-autocomplete container-class="relative form-control" input-class="w-full input input-bordered input-lg" list-class="absolute top-full left-0 z-50 mt-2 w-full shadow-lg bg-base-100 rounded-box" item-class="cursor-pointer p-3 hover:bg-base-200" item-highlight-class="bg-blue-50" data-url="/api/school/search-35.json" placeholder="학교명을 입력하세요. (서울고등학교 또는 ㅅㅇㄱㄷㅎㄱ)" max-results="5" onSelected="document.location.href='https://school-meal.asamaru.net/학교/_NAME_/'.replace('_NAME_', event.detail.value);"></ft-autocomplete>
 						</div>
 						<div id="main-school-list" class="mt-3 hidden">
-							<div class="text-center">
+							<div class="flex flex-wrap justify-center gap-2 min-h-[24px]">
 								<template>
-									<a class="mb-2 border-orange-400 text-orange-400 btn-xs btn btn-outline hover:bg-orange-400 hover:text-white" href="https://school-meal.asamaru.net/학교/-school-slug-/" title="{name}">{name}</a>
+									<a class="border-orange-400 text-orange-400 btn-xs btn btn-outline hover:bg-orange-400 hover:text-white" href="https://school-meal.asamaru.net/학교/-school-slug-/" title="{name}">{name}</a>
 								</template>
 							</div>
 						</div>
@@ -145,13 +145,13 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<div class="mt-5 mb-5">
-						<div class="flex justify-center">
+					<div class="my-5">
+						<div class="flex justify-center min-h-[41px]">
 							<div class="nv-openmain" data-title="급식캘린더" data-url="https://school-meal.asamaru.net" data-type="W2"></div>
 							<script async type="text/javascript" src="https://openmain.pstatic.net/js/openmain.js"></script>
 						</div>
 					</div>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-kochangkun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-kochangkun">
 						<h3 class="text-lg">고창군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/가평초등학교-고창/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">가평초등학교</a>
@@ -196,7 +196,7 @@
 							<a href="https://school-meal.asamaru.net/학교/흥덕초등학교-고창/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">흥덕초등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-kunsansi">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-kunsansi">
 						<h3 class="text-lg">군산시</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/개정초등학교-군산/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">개정초등학교</a>
@@ -286,7 +286,7 @@
 							<a href="https://school-meal.asamaru.net/학교/회현초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">회현초등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-kimjesi">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-kimjesi">
 						<h3 class="text-lg">김제시</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/공덕초등학교-김제/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">공덕초등학교</a>
@@ -355,7 +355,7 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-namwonsi">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-namwonsi">
 						<h3 class="text-lg">남원시</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/금지동초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">금지동초등학교</a>
@@ -410,7 +410,7 @@
 							<a href="https://school-meal.asamaru.net/학교/한울학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">한울학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-mujukun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-mujukun">
 						<h3 class="text-lg">무주군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/괴목초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">괴목초등학교</a>
@@ -436,7 +436,7 @@
 							<a href="https://school-meal.asamaru.net/학교/푸른꿈고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">푸른꿈고등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-buankun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-buankun">
 						<h3 class="text-lg">부안군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/격포초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">격포초등학교</a>
@@ -479,7 +479,7 @@
 							<a href="https://school-meal.asamaru.net/학교/행안초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">행안초등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-sunchangkun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-sunchangkun">
 						<h3 class="text-lg">순창군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/구림중학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">구림중학교</a>
@@ -516,7 +516,7 @@
 							(adsbygoogle = window.adsbygoogle || []).push({});
 						</script>
 					</div>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-wanjukun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-wanjukun">
 						<h3 class="text-lg">완주군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/가천초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">가천초등학교</a>
@@ -573,7 +573,7 @@
 							<a href="https://school-meal.asamaru.net/학교/화산초등학교-완주/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">화산초등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-igsansi">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-igsansi">
 						<h3 class="text-lg">익산시</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/금마초등학교-익산/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">금마초등학교</a>
@@ -684,7 +684,7 @@
 							<a href="https://school-meal.asamaru.net/학교/흥왕초등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">흥왕초등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-imsilkun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-imsilkun">
 						<h3 class="text-lg">임실군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/갈담초등학교-임실/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">갈담초등학교</a>
@@ -717,7 +717,7 @@
 							<a href="https://school-meal.asamaru.net/학교/한국치즈과학고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">한국치즈과학고등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-jangsukun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-jangsukun">
 						<h3 class="text-lg">장수군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/계남중학교-장수/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">계남중학교</a>
@@ -743,7 +743,7 @@
 							<a href="https://school-meal.asamaru.net/학교/한국마사고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">한국마사고등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-jeonjusi-deogjinku">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-jeonjusi-deogjinku">
 						<h3 class="text-lg">전주시 덕진구</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/양현고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">양현고등학교</a>
@@ -823,7 +823,7 @@
 							<a href="https://school-meal.asamaru.net/학교/학력인정진북고등학교-2년제/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">학력인정진북고등학교(2년제)</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-jeonjusi-wansanku">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-jeonjusi-wansanku">
 						<h3 class="text-lg">전주시 완산구</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/동암고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">동암고등학교</a>
@@ -912,7 +912,7 @@
 							<a href="https://school-meal.asamaru.net/학교/호남제일고등학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">호남제일고등학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-jeongeupsi">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-jeongeupsi">
 						<h3 class="text-lg">정읍시</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/감곡중학교-정읍/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">감곡중학교</a>
@@ -987,7 +987,7 @@
 							<a href="https://school-meal.asamaru.net/학교/호남중학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">호남중학교</a>
 						</div>
 					</section>
-					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg sm:p-6" id="s-jinankun">
+					<section class="mb-4 scroll-mt-16 rounded-md bg-white p-4 shadow-lg ft-school-buttons sm:p-6" id="s-jinankun">
 						<h3 class="text-lg">진안군</h3>
 						<div class="mt-2 flex list-none flex-wrap gap-x-2 gap-y-3">
 							<a href="https://school-meal.asamaru.net/학교/동향중학교/" class="border-orange-400 text-orange-400 btn-sm btn btn-outline hover:bg-orange-400 hover:text-white">동향중학교</a>
@@ -1031,25 +1031,25 @@
 			</main>
 			<aside id="sidebar" class="hidden bg-white px-2 py-3 lg:block" data-sidebar-position="right">
 				<div class="flex justify-end d-close">
-					<button class="btn btn-sm btn-circle btn-ghost right-2" aria-label="Close" data-sidebar="close">
+					<button class="right-2 btn btn-sm btn-circle btn-ghost" aria-label="Close" data-sidebar="close">
 						<svg class="feather inline align-middle" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#x" /></svg>
 					</button>
 				</div>
 				<div class="gad-box d" style="display: block" data-ad-client="ca-pub-8163803188491150" data-ad-slot="5666181880" data-ad-format="auto" data-full-width-responsive="true"><ins class="adsbygoogle"></ins></div>
 				<div class="mt-5 mb-5">
-					<ft-autocomplete container-class="form-control relative" input-class="input input-bordered input-md w-full" list-class="absolute top-full mt-2 left-0 w-full bg-base-100 shadow-lg rounded-box z-50" item-class="p-3 hover:bg-base-200 cursor-pointer" item-highlight-class="bg-blue-50" data-url="/api/school/search-00.json" placeholder="검색할 학교명을 입력하세요." max-results="5" onSelected="document.location.href='https://school-meal.asamaru.net/학교/_NAME_/'.replace('_NAME_', event.detail.value);"></ft-autocomplete>
+					<ft-autocomplete container-class="relative form-control" input-class="w-full input input-bordered input-md" list-class="absolute top-full left-0 z-50 mt-2 w-full shadow-lg bg-base-100 rounded-box" item-class="cursor-pointer p-3 hover:bg-base-200" item-highlight-class="bg-blue-50" data-url="/api/school/search-00.json" placeholder="검색할 학교명을 입력하세요." max-results="5" onSelected="document.location.href='https://school-meal.asamaru.net/학교/_NAME_/'.replace('_NAME_', event.detail.value);"></ft-autocomplete>
 				</div>
-				<div id="recent-school-list" class="hidden mb-3 px-2">
-					<h3 class="text-sm font-bold border-b border-gray-200 pb-1 mb-2">최근 열람한 학교</h3>
+				<div id="recent-school-list" class="mb-3 hidden px-2">
+					<h3 class="mb-2 border-b border-gray-200 pb-1 text-sm font-bold">최근 열람한 학교</h3>
 					<ul class="mt-1">
 						<template>
-							<li class="text-xs text-gray-600 truncate mb-1"><a href="https://school-meal.asamaru.net/학교/-school-slug-/" title="{name}">&middot; {name}</a></li>
+							<li class="mb-1 truncate text-xs text-gray-600"><a href="https://school-meal.asamaru.net/학교/-school-slug-/" title="{name}">&middot; {name}</a></li>
 						</template>
 					</ul>
 				</div>
 			</aside>
 		</section>
-		<footer class="bg-white px-1 py-4 text-center text-xs text-gray-400 border-t border-gray-100">
+		<footer class="border-t border-gray-100 bg-white px-1 py-4 text-center text-xs text-gray-400">
 			Posted by
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdsefx8At2yOTNyx7xoP9IaFv0odvthnGXMEXG_tKZea_VxMg/viewform?usp=pp_url&entry.316518454=%EC%A0%84%EA%B5%AD+%EC%B4%88%EC%A4%91%EA%B3%A0+%EA%B8%89%EC%8B%9D+%EC%8B%9D%EB%8B%A8%ED%91%9C" title="문의하기" rel="nofollow" target="_blank"><em>아사마루</em></a>
 			&nbsp;&nbsp;&nbsp;
