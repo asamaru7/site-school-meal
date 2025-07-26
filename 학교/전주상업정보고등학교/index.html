@@ -46,8 +46,8 @@
 					"@type": "Person",
 					"name": "아사마루"
 				},
-				"datePublished": "2025-07-25T09:52:54+09:00",
-				"dateModified": "2025-07-25T09:52:54+09:00",
+				"datePublished": "2025-07-27T04:28:41+09:00",
+				"dateModified": "2025-07-27T04:28:41+09:00",
 				"image": {
 					"@type": "ImageObject",
 					"url": "https://school-meal.asamaru.net/img/icon/icon.696.png",
@@ -90,8 +90,8 @@
 				]
 			}
 		</script>
-		<link href="/css/min/f25615279fed96e5aa81649d5c81da86.css" type="text/css" rel="stylesheet" />
-		<script src="/js/min/26f8d2b665aa11ef6b21b286a5491c0d.js" async type="text/javascript"></script>
+		<link href="/css/min/b6dbaa38dd2c5cd7dc13459dbb23dfc8.css" type="text/css" rel="stylesheet" />
+		<script src="/js/min/07a42fdd998742d4bd79a2ac396679ab.js" async type="text/javascript"></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZJB3ZMZDPJ"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -147,62 +147,122 @@
 						</script>
 					</div>
 					<h2 id="toc-menus" class="h-0 overflow-hidden text-center text-2xl font-bold">식단표</h2>
-					<div class="mb-12 school-info-card">
-						<div class="mt-4" data-scrollspy-content="daily" itemscope itemtype="https://schema.org/Menu">
-							<div class="mb-4 flex items-center justify-between">
-								<button class="btn btn-ghost btn-sm" data-daily-prev>
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
-									이전
-								</button>
-								<h3 id="toc-daily" class="text-center text-2xl font-bold" itemprop="name">일간 식단표</h3>
-								<button class="btn btn-ghost btn-sm" data-daily-next>
-									다음
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
-								</button>
-							</div>
-							<div class="view-container">
-								<div class="shadow-xl transition-shadow duration-300 card bg-base-100 hover:shadow-2xl">
-									<div class="card-body">
-										<h3 class="mb-4 text-center text-xl font-bold"><span class="daily-view-date">&nbsp;</span></h3>
-										<div class="flex flex-col gap-6 min-h-[65px] lg:flex-row lg:flex-nowrap" id="daily-view-list">
-											<div id="daily-view-list-empty" class="mb-3 flex-1 rounded-xl p-4 text-center shadow-sm bg-base-200">등록된 식단 정보가 없습니다.</div>
-											<ft-menu-view id="daily-view-list-1" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
-											<ft-menu-view id="daily-view-list-2" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
-											<ft-menu-view id="daily-view-list-3" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
-										</div>
-										<ft-allergy-view id="daily-view-allergy" class="hidden"></ft-allergy-view>
+					<div class="mt-4" data-scrollspy-content="daily" itemscope itemtype="https://schema.org/Menu">
+						<div class="mb-4 flex items-center justify-between">
+							<button class="btn btn-ghost btn-sm" data-daily-prev>
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
+								이전
+							</button>
+							<h3 id="toc-daily" class="text-center text-2xl font-bold" itemprop="name">일간 식단표</h3>
+							<button class="btn btn-ghost btn-sm" data-daily-next>
+								다음
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
+							</button>
+						</div>
+						<div class="view-container">
+							<div class="shadow-xl transition-shadow duration-300 card bg-base-100 hover:shadow-2xl">
+								<div class="card-body">
+									<h3 class="mb-4 text-center text-xl font-bold"><span class="daily-view-date">&nbsp;</span></h3>
+									<div class="flex flex-col gap-6 min-h-[65px] lg:flex-row lg:flex-nowrap" id="daily-view-list">
+										<div id="daily-view-list-empty" class="mb-3 flex-1 rounded-xl p-4 text-center shadow-sm bg-base-200">등록된 식단 정보가 없습니다.</div>
+										<ft-menu-view id="daily-view-list-1" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
+										<ft-menu-view id="daily-view-list-2" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
+										<ft-menu-view id="daily-view-list-3" class="hidden rounded-lg p-4 shadow-sm bg-base-200 lg:flex-1" show-people show-calorie show-nutrition show-origin show-allergy></ft-menu-view>
 									</div>
+									<ft-allergy-view id="daily-view-allergy" class="hidden"></ft-allergy-view>
 								</div>
 							</div>
 						</div>
-						<div class="gad-box">
-							<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8163803188491150" crossorigin="anonymous"></script>
-							<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-8163803188491150" data-ad-slot="2371177971" data-ad-format="auto" data-full-width-responsive="true"></ins>
-							<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
+					</div>
+					<div class="gad-box">
+						<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8163803188491150" crossorigin="anonymous"></script>
+						<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-8163803188491150" data-ad-slot="2371177971" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="mt-12" data-scrollspy-content="weekly" itemscope itemtype="https://schema.org/Menu">
+						<div class="mb-4 flex items-center justify-between">
+							<button class="btn btn-ghost btn-sm" data-weekly-prev>
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
+								이전
+							</button>
+							<h3 id="toc-weekly" class="text-center text-2xl font-bold" itemprop="name">주간 식단표</h3>
+							<button class="btn btn-ghost btn-sm" data-weekly-next>
+								다음
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
+							</button>
 						</div>
-						<div class="mt-12" data-scrollspy-content="weekly" itemscope itemtype="https://schema.org/Menu">
-							<div class="mb-4 flex items-center justify-between">
-								<button class="btn btn-ghost btn-sm" data-weekly-prev>
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
-									이전
-								</button>
-								<h3 id="toc-weekly" class="text-center text-2xl font-bold" itemprop="name">주간 식단표</h3>
-								<button class="btn btn-ghost btn-sm" data-weekly-next>
-									다음
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
-								</button>
+						<div class="overflow-x-hidden view-container min-h-[177px]">
+							<div class="w-full pb-4 carousel carousel-center rounded-box weekly-view-list">
+								<template id="weekly-view-template">
+									<div class="carousel-item">
+										<div class="shadow-lg transition-shadow duration-300 card bg-base-100 me-4 w-[250px] hover:shadow-xl">
+											<div class="card-body">
+												<h4 class="mb-3 text-center text-lg font-bold">{date}</h4>
+												<div class="flex flex-col space-y-3 menus">
+													<ft-menu-view class="rounded-lg p-4 menu-modal-button bg-base-200" show-allergy>
+														<span slot="title-postfix">
+															<svg class="feather text-gray-400 inline align-middle ms-2 feather-sm w-[1em!important] h-[1em!important]" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#zoom-in" /></svg>
+														</span>
+														<script type="application/json">
+															{data}
+														</script>
+													</ft-menu-view>
+												</div>
+											</div>
+										</div>
+									</div>
+								</template>
 							</div>
-							<div class="overflow-x-hidden view-container min-h-[177px]">
-								<div class="w-full pb-4 carousel carousel-center rounded-box weekly-view-list">
-									<template id="weekly-view-template">
-										<div class="carousel-item">
-											<div class="shadow-lg transition-shadow duration-300 card bg-base-100 me-4 w-[250px] hover:shadow-xl">
-												<div class="card-body">
-													<h4 class="mb-3 text-center text-lg font-bold">{date}</h4>
-													<div class="flex flex-col space-y-3 menus">
-														<ft-menu-view class="rounded-lg p-4 menu-modal-button bg-base-200" show-allergy>
+						</div>
+					</div>
+					<div class="gad-box">
+						<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8163803188491150" crossorigin="anonymous"></script>
+						<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-8163803188491150" data-ad-slot="8587858699" data-ad-format="auto" data-full-width-responsive="true"></ins>
+						<script>
+							(adsbygoogle = window.adsbygoogle || []).push({});
+						</script>
+					</div>
+					<div class="mt-12" data-scrollspy-content="monthly" itemscope itemtype="https://schema.org/Menu">
+						<div class="mb-4 flex items-center justify-between">
+							<button class="btn btn-ghost btn-sm" data-monthly-prev>
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
+								이전
+							</button>
+							<h3 id="toc-monthly" class="text-center text-2xl font-bold" itemprop="name">
+								월간 식단표
+								<em class="text-xl not-italic text-gray-400 ps-2">
+									<span class="monthly-view-month"></span>
+									월
+								</em>
+							</h3>
+							<button class="btn btn-ghost btn-sm" data-monthly-next>
+								다음
+								<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
+							</button>
+						</div>
+						<div class="view-container">
+							<div class="shadow-xl transition-shadow duration-300 card bg-base-100 min-h-[360px] hover:shadow-2xl">
+								<div class="overflow-x-auto card-body">
+									<table class="table table-bordered">
+										<thead>
+											<tr class="bg-base-200">
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[20px] lg:min-w-[100px]">일</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">월</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">화</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">수</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">목</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">금</th>
+												<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[20px] lg:min-w-[100px]">토</th>
+											</tr>
+										</thead>
+										<tbody class="monthly-view-list">
+											<tr>
+												<template id="monthly-view-template">
+													<td class="relative border border-gray-200 p-2 align-top">
+														<div class="text-base font-semibold mb-3 px-1 {date_class}">{date}</div>
+														<ft-menu-view class="mb-3 rounded-lg p-4 menu-modal-button bg-base-200" responsive show-allergy>
 															<span slot="title-postfix">
 																<svg class="feather text-gray-400 inline align-middle ms-2 feather-sm w-[1em!important] h-[1em!important]" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#zoom-in" /></svg>
 															</span>
@@ -210,73 +270,11 @@
 																{data}
 															</script>
 														</ft-menu-view>
-													</div>
-												</div>
-											</div>
-										</div>
-									</template>
-								</div>
-							</div>
-						</div>
-						<div class="gad-box">
-							<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8163803188491150" crossorigin="anonymous"></script>
-							<ins class="adsbygoogle" style="display: block" data-ad-client="ca-pub-8163803188491150" data-ad-slot="8587858699" data-ad-format="auto" data-full-width-responsive="true"></ins>
-							<script>
-								(adsbygoogle = window.adsbygoogle || []).push({});
-							</script>
-						</div>
-						<div class="mt-12" data-scrollspy-content="monthly" itemscope itemtype="https://schema.org/Menu">
-							<div class="mb-4 flex items-center justify-between">
-								<button class="btn btn-ghost btn-sm" data-monthly-prev>
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-left" /></svg>
-									이전
-								</button>
-								<h3 id="toc-monthly" class="text-center text-2xl font-bold" itemprop="name">
-									월간 식단표
-									<em class="text-xl not-italic text-gray-400 ps-2">
-										<span class="monthly-view-month"></span>
-										월
-									</em>
-								</h3>
-								<button class="btn btn-ghost btn-sm" data-monthly-next>
-									다음
-									<svg class="feather feather-sm" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#chevron-right" /></svg>
-								</button>
-							</div>
-							<div class="view-container">
-								<div class="shadow-xl transition-shadow duration-300 card bg-base-100 min-h-[360px] hover:shadow-2xl">
-									<div class="overflow-x-auto card-body">
-										<table class="table table-bordered">
-											<thead>
-												<tr class="bg-base-200">
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[20px] lg:min-w-[100px]">일</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">월</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">화</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">수</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">목</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[80px] lg:min-w-[200px] lg:max-w-[200px]">금</th>
-													<th scope="col" class="border border-b-2 border-gray-200 py-3 text-center min-w-[20px] lg:min-w-[100px]">토</th>
-												</tr>
-											</thead>
-											<tbody class="monthly-view-list">
-												<tr>
-													<template id="monthly-view-template">
-														<td class="relative border border-gray-200 p-2 align-top">
-															<div class="text-base font-semibold mb-3 px-1 {date_class}">{date}</div>
-															<ft-menu-view class="mb-3 rounded-lg p-4 menu-modal-button bg-base-200" responsive show-allergy>
-																<span slot="title-postfix">
-																	<svg class="feather text-gray-400 inline align-middle ms-2 feather-sm w-[1em!important] h-[1em!important]" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><use href="https://school-meal.asamaru.net/vendor/lrv-icon/img/bundled/feather-sprite-BfIm3Xr9.svg#zoom-in" /></svg>
-																</span>
-																<script type="application/json">
-																	{data}
-																</script>
-															</ft-menu-view>
-														</td>
-													</template>
-												</tr>
-											</tbody>
-										</table>
-									</div>
+													</td>
+												</template>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
 						</div>
@@ -290,7 +288,7 @@
 					</div>
 					<div class="mt-7">
 						<div class="share-sns twitter facebook googleplus band line kakaotalk" data-kakao-api="9e8a7df6fa2d6614b039f6f39ef8d441" data-facebook-app-id="1874593759230150"></div>
-						<div class="flex justify-center">
+						<div class="flex justify-center min-h-[41px]">
 							<div class="nv-openmain" data-title="급식캘린더" data-url="https://school-meal.asamaru.net" data-type="W2"></div>
 							<script async type="text/javascript" src="https://openmain.pstatic.net/js/openmain.js"></script>
 						</div>
@@ -304,7 +302,7 @@
 							</div>
 						</div>
 						<div class="container mx-auto">
-							<div class="mb-8 shadow-xl transition-shadow duration-300 card bg-base-100 school-info-card hover:shadow-2xl" itemscope itemtype="https://schema.org/Organization">
+							<div class="mb-8 shadow-xl transition-shadow duration-300 card bg-base-100 hover:shadow-2xl" itemscope itemtype="https://schema.org/Organization">
 								<div class="card-body">
 									<div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
 										<div class="rounded-xl p-4 shadow-sm bg-base-200">
