@@ -1,6 +1,11 @@
 {
-	"name": "일별·주별·월별 학교 급식 메뉴를 한눈에!",
+	"name": "전국 초·중·고 급식 식단표",
 	"short_name": "급식캘린더",
+	"description": "전국 초·중·고 학교의 급식 식단표를 일별, 주간별, 월간별로 확인하세요. 지역별 학교 검색과 함께 영양정보 및 원산지 정보까지 한눈에!",
+	"start_url": "/",
+	"display": "minimal-ui",
+	"background_color": "#ffffff",
+	"orientation": "portrait",
 	"icons": [
 		{
 			"src": "/img/icon/180.png",
@@ -29,8 +34,7 @@
 			"purpose": "any maskable"
 		}
 	],
-	"start_url": "/",
-	"display": "minimal-ui",
-	"background_color": "#ffffff",
+	"lang": "ko-KR",
+	"prefer_related_applications": false,
 	"theme_color": "#FF8C00"
 }
