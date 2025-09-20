@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rss version="2.0">
 	<channel>
-		<title>전국 초·중·고 급식 식단표</title>
+		<title>전국 초중고 급식 식단표</title>
 		<link>https://school-meal.asamaru.net/</link>
 		<description>전국 초·중·고 학교의 급식 식단표를 일별, 주간별, 월간별로 확인하세요. 지역별 학교 검색과 함께 영양정보 및 원산지 정보까지 한눈에!</description>
 		<image>
-			<title>전국 초·중·고 급식 식단표</title>
+			<title>전국 초중고 급식 식단표</title>
 			<url>https://school-meal.asamaru.net/img/icon/icon.png</url>
 			<link>https://school-meal.asamaru.net/</link>
 			<description>전국 초·중·고 학교의 급식 식단표를 일별, 주간별, 월간별로 확인하세요. 지역별 학교 검색과 함께 영양정보 및 원산지 정보까지 한눈에!</description>
 		</image>
 		<managingEditor>아사마루 (asamaru@asamaru.net)</managingEditor>
-		<pubDate>Sat, 20 Sep 2025 01:58:53 +0900</pubDate>
+		<pubDate>Sun, 21 Sep 2025 05:44:30 +0900</pubDate>
 	</channel>
 </rss>
